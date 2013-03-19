@@ -22,7 +22,7 @@ public class Excel2PDFConversion
         //Save the document in PDF format
         workbook.save(dataDir + "OutBook1.pdf", SaveFormat.PDF);
 
-        // Print message
+        // Print message.
         System.out.println("Excel to PDF conversion performed successfully.");
     }
 }
