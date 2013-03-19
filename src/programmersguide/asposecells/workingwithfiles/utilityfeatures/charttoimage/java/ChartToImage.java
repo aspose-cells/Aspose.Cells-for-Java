@@ -25,7 +25,7 @@ public class ChartToImage
         //Get the first worksheet.
         Worksheet sheet = workbook.getWorksheets().get(0);
 
-        //Set the name of worksheet
+        //Set the name of worksheet.
         sheet.setName("Data");
 
         //Get the cells collection in the sheet.
