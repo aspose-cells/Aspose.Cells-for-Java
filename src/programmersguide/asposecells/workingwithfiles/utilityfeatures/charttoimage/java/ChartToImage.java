@@ -55,8 +55,8 @@ public class ChartToImage
 
         //Set properties of chart title
         chart.getTitle().setText("Sales By Region");
-        chart.getTitle().getTextFont().setBold(true);
-        chart.getTitle().getTextFont().setSize(12);
+        chart.getTitle().getFont().setBold(true);
+        chart.getTitle().getFont().setSize(12);
 
         //Set properties of nseries
         chart.getNSeries().add("Data!B2:B8", true);
