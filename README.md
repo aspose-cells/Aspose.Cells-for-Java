@@ -19,12 +19,14 @@ Using Aspose.Cells for Java in your project gives you the following benefits:
 
 These example projects provide helpful demonstrations and code when using Aspose.Cells for Java.  You will need to [download Aspose.Cells for Java](http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-java/default.aspx) separately and it will work in evaluation mode.
 
-###Run Examples on your PC
-
-Download the [Aspose Examples Dashboard for Java](http://www.aspose.com/community/files/72/java-components/aspose.total-for-java/category1426.aspx) to view and run all these examples on your PC.
-
 ## Aspose.Cells for Java at a Glance
 ![Aspose.Cells Overview](http://www.aspose.com/Aspose.Cells/Images/product-diagram-aspose.cells-for-java.jpg "The Main Features of Aspose.Cells for Java")
+
+###Run Examples on your PC
+
+Download the [Aspose Examples Dashboard for Java](http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx) to view and run all these examples on your PC. No need to download any other file to run the examples in Dashboard!! It updates itself with the latest dependency libraries and examples.
+
+![Aspose Examples Dashboard](http://www.aspose.com/blogs/wp-content/uploads/2013/03/Java-Dashboard1.png "Aspose Examples Dashboard")
 
 ## Open Source Feel of Aspose.Cells
 
