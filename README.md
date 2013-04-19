@@ -46,49 +46,6 @@ Each example is runnable Java class with its own main method. You can run each e
 
 </table>
 
-###Data
-
-+ Input Documents - Main directory has a **designer** and **images** directory which contains all the input Excel Documents and Images used in these examples.
-
-###Output
-
-+ All examples will perform operations on documents and generate the documents on the output directory which you will specify in the code.
-
-
-###Help Material
-
-For further details on setting up the examples and any requirements refer to the **readme.txt** found in the root of the repository.
-
-
-##Download the examples
-
-Please [Download the Aspose.Cells for Java Examples](https://github.com/asposecells/Aspose_Cells_Java/downloads) to try them at your end.
-
-
-##How to use the examples?
-
-Download the examples from the above link. You will be able to run these Java examples on any Eclipse IDE.  
-
-These examples have specifically been tested on **Helios - Eclipse IDE for Java and Report Developers**. 
-
-Once downloaded, you can open the examples by importing the project into Eclipse IDE. 
-
-Please change the classpath to correct Aspose.Cells for Java libraries, which you can download separately.
-
-Below is a list of libraries used in these examples which are specific to JDK 1.6. 
-
-For other JDK(s) like 1.4 and 1.5, please visit: [Download Aspose.Cells for Java](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx)
-
-- aspose-cells-7.3.3.0.jar
-- bcprov-jdk16-146.jar
-- dom4j-1.6.1.jar
-- stax2-api-3.0.2.jar
-- woodstox-core-asl-4.1.1.jar
-
-
-The example should be ready to compile and run. Click on "Run" command and see the output on your respective directory. 
-
-
 ##Contact Us
 
 + **Website:** [www.aspose.com](http://www.aspose.com)
