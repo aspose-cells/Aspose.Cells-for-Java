@@ -1,32 +1,21 @@
 #Aspose.Cells for Java Examples Repository
 
-
 This package contains Java Example Projects for [Aspose.Cells for Java](http://www.aspose.com/categories/java-components/aspose.cells-for-java/default.aspx).
 
-Aspose.Cells for Java is a class library that enables your applications to perform a great range of document processing tasks. Aspose.Cells supports the popular spreadsheet (XLS, XLSX, XLSM, XLTX, CSV, SpreadsheetML) and image file formats. With Aspose.Cells you can generate, modify, convert, render and print documents without utilizing Microsoft Excel.
+##How to use the Examples?
 
-Using Aspose.Cells for Java in your project gives you the following benefits:
+###With the Examples Dashboard
 
-+ Rich Set of Features
-
-+ No Microsoft Excel Automation
-
-+ Platform Independence
-
-+ Performance and Scalability
-
-+ Minimal Learning Curve
-
-These example projects provide helpful demonstrations and code when using Aspose.Cells for Java.  You will need to [download Aspose.Cells for Java](http://www.aspose.com/community/files/51/.net-components/aspose.cells-for-java/default.aspx) separately and it will work in evaluation mode.
-
-## Aspose.Cells for Java at a Glance
-![Aspose.Cells Overview](http://www.aspose.com/Aspose.Cells/Images/product-diagram-aspose.cells-for-java.jpg "The Main Features of Aspose.Cells for Java")
-
-###Run Examples on your PC
-
-Download the [Aspose Examples Dashboard for Java](http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx) to view and run all these examples on your PC. No need to download any other file to run the examples in Dashboard!! It updates itself with the latest dependency libraries and examples.
+Download the [Aspose Examples Dashboard for Java](http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx) to view and run all these examples on your PC. It updates itself with the latest dependency libraries and examples.
 
 ![Aspose Examples Dashboard](http://www.aspose.com/blogs/wp-content/uploads/2013/03/Java-Dashboard1.png "Aspose Examples Dashboard")
+
+###With IDE
+
+Clone or Download the ZIP and extract the contents to your local hard drive. If you have IntelliJ IDEA, then open the project directly 
+by browsing to the folder. For Netbeans and Eclipse, you can import project feature.
+
+Also download the [latest version](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx) of Aspose.Cells for Java and set/fix jar references.
 
 ## Open Source Feel of Aspose.Cells
 
