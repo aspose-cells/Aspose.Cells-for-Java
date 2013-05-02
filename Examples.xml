@@ -479,6 +479,49 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                 </Folder>
               </Folders>
             </Folder>
+            <Folder>
+              <Title>Creating Charts</Title>
+              <Description>This section includes examples related to the following topics: 
+
+- Fundamental Features
+- Chart Management Features
+- Advanced Features</Description>
+              <FolderName>CreatingCharts</FolderName>
+              <Order>3</Order>
+              <Examples>
+                <Example>
+                  <Title>How to Create a Chart</Title>
+                  <Description>Developers can add a variety of charts to their spreadsheets using Aspose.Cells. Aspose.Cells provides many charting objects that can be used to create charts in a flexible manner. The primary aim of this topic is to make developers familiar with the charting objects of Aspose.Cells so that they may create any kind of chart easily.
+
+Aspose.Cells provides some special set of classes that are used to create all kinds of charts supported by Aspose.Cells. These classes are used to create Charting Objects , which act as the building blocks of a chart. 
+
+All charting objects are the instances of their respective classes that provide specific properties and methods to perform specific tasks. Developers can use these charting objects to create charts according to their requirements.
+
+Developers can add any type of chart to their worksheets using the Charts collection. Each item in the Charts collection represents a Chart object. A Chart object encapsulates all other Charting Objects that are required to customize the appearance of a chart. In our next section, we will learn the use of few basic charting objects to create a simple chart.
+
+Developers can create many types of charts using Aspose.Cells. All types of standard charts supported by Aspose.Cells are pre-defined in an enumeration named as ChartType.
+
+To create a chart using Aspose.Cells, please follow the steps below:
+
+Add some data to worksheet cells by using the setValue method of a Cell object. This data will be used as a data source for the chart.
+Add a chart to the worksheet by calling the add method of ChartCollection collection, which is encapsulated in the Worksheet object. You will also specify the type of chart to add in the worksheet using the ChartType enumeration. For example, in this example, we have selected ChartType.Pyramid value as a chart type.
+Access the newly added Chart object from the ChartCollection collection by passing the chart index.
+Use any of the Charting Objects (explained in the above section) encapsulated in the Chart object to manage your chart. For example, in this example, we have used SeriesCollection charting object to specify the data source for the chart.
+When adding source data to chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non-contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "{1,2,3}").
+
+When you assign a range of cells as data source, you can only set the range from top left to bottom right. For example, "A1:C3" is valid while "C3:A1" is invalid.
+
+Using the above general steps, developers can create any type of chart in their spreadsheets. Developers can use different charting objects to create charts according to their custom requirements.</Description>
+                  <FolderName>CreateChart</FolderName>
+                  <Order>1</Order>
+                  <DocLink>
+                    <DisplayName>How to Create a Chart</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/How+to+Create+a+Chart</Url>
+                  </DocLink>
+                  <Type>Console</Type>
+                </Example>
+              </Examples>
+            </Folder>
           </Folders>
         </Folder>
       </Folders>
