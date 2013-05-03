@@ -15,7 +15,7 @@ public class CreateChart
     public static void main(String[] args) throws Exception
     {
         // The path to the documents directory.
-        String dataDir = "src/programmersguide/asposecells/creatingcharts/createchart/data/";
+        String dataDir = "src/programmersguide/asposecells/creatingcharts/fundamentalfeatures/createchart/data/";
         
       //Instantiating a Workbook object
         Workbook workbook = new Workbook();

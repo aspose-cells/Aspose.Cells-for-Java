@@ -15,7 +15,7 @@ public class ChangeChartPositionAndSize
     public static void main(String[] args) throws Exception
     {
         // The path to the documents directory.
-        String dataDir = "src/programmersguide/asposecells/creatingcharts/changechartpositionandsize/data/";
+        String dataDir = "src/programmersguide/asposecells/creatingcharts/fundamentalfeatures/changechartpositionandsize/data/";
         
         String filePath = dataDir + "book1.xls";
 
