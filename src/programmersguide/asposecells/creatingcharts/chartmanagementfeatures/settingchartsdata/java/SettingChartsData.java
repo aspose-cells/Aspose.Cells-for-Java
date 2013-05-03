@@ -78,10 +78,6 @@ public class SettingChartsData
         workbook.save(dataDir + "book1.out.xls");
         
      // Print message
-        System.out.println("Workbook with chart is created successfully.\nPlease check data folder for output.");
+        System.out.println("Workbook with chart is created successfully.");
     }
 }
-
-
-
-
