@@ -488,10 +488,30 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
 - Advanced Features</Description>
               <FolderName>CreatingCharts</FolderName>
               <Order>3</Order>
-              <Examples>
-                <Example>
-                  <Title>How to Create a Chart</Title>
-                  <Description>Developers can add a variety of charts to their spreadsheets using Aspose.Cells. Aspose.Cells provides many charting objects that can be used to create charts in a flexible manner. The primary aim of this topic is to make developers familiar with the charting objects of Aspose.Cells so that they may create any kind of chart easily.
+              <Folders>
+                <Folder>
+                  <Title>Fundamental Features</Title>
+                  <Description>This section includes the following topics:
+Introduction to Charts and Chart Types
+How to Create a Chart
+Change the Chart's Position and Size</Description>
+                  <FolderName>FundamentalFeatures</FolderName>
+                  <Order>1</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Change the Chart's Position and Size</Title>
+                      <Description>Example shows the way to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the Chart.getChartObject() property to achieve this. You can use its sub-properties to re-size the chart with new height and width or re-position it with new X and Y coordinates.</Description>
+                      <FolderName>ChangeChartPositionAndSize</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Change the Chart's Position and Size</DisplayName>
+                        <Url>http://www.aspose.com/docs/display/cellsjava/Change+the+Chart%27s+Position+and+Size</Url>
+                      </DocLink>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>How to Create a Chart</Title>
+                      <Description>Developers can add a variety of charts to their spreadsheets using Aspose.Cells. Aspose.Cells provides many charting objects that can be used to create charts in a flexible manner. The primary aim of this topic is to make developers familiar with the charting objects of Aspose.Cells so that they may create any kind of chart easily.
 
 Aspose.Cells provides some special set of classes that are used to create all kinds of charts supported by Aspose.Cells. These classes are used to create Charting Objects , which act as the building blocks of a chart. 
 
@@ -512,15 +532,38 @@ When adding source data to chart, the data source can be a range of cells (such 
 When you assign a range of cells as data source, you can only set the range from top left to bottom right. For example, "A1:C3" is valid while "C3:A1" is invalid.
 
 Using the above general steps, developers can create any type of chart in their spreadsheets. Developers can use different charting objects to create charts according to their custom requirements.</Description>
-                  <FolderName>CreateChart</FolderName>
-                  <Order>1</Order>
-                  <DocLink>
-                    <DisplayName>How to Create a Chart</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/How+to+Create+a+Chart</Url>
-                  </DocLink>
-                  <Type>Console</Type>
-                </Example>
-              </Examples>
+                      <FolderName>CreateChart</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>How to Create a Chart</DisplayName>
+                        <Url>http://www.aspose.com/docs/display/cellsjava/How+to+Create+a+Chart</Url>
+                      </DocLink>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Chart Management Features</Title>
+                  <Description>This section includes the following topics:
+Setting Charts Appearance
+Setting Charts Data</Description>
+                  <FolderName>ChartManagementFeatures</FolderName>
+                  <Order>2</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Setting Charts Data</Title>
+                      <Description>This Example provides more details about the types of data that can be set for a chart.</Description>
+                      <FolderName>SettingChartsData</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Setting Charts Data</DisplayName>
+                        <Url>http://www.aspose.com/docs/display/cellsjava/Setting+Charts+Data</Url>
+                      </DocLink>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+              </Folders>
             </Folder>
           </Folders>
         </Folder>

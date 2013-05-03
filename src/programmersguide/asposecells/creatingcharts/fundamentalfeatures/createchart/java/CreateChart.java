@@ -6,7 +6,7 @@
  * "as is", without warranty of any kind, either expressed or implied.
  */
  
-package programmersguide.asposecells.creatingcharts.createchart.java;
+package programmersguide.asposecells.creatingcharts.fundamentalfeatures.createchart.java;
 
 import com.aspose.cells.*;
 
