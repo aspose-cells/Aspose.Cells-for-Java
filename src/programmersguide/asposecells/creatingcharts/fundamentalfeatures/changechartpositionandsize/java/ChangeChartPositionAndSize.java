@@ -38,6 +38,6 @@ public class ChangeChartPositionAndSize
         workbook.save(dataDir + "book1.out.xls");
         
         // Print message
-        System.out.println("Position and Size of Chart is changed successfully.\nPlease check data folder for output.");
+        System.out.println("Position and Size of Chart is changed successfully.");
     }
 }

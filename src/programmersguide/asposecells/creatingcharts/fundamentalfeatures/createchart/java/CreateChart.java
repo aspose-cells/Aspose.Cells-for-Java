@@ -53,11 +53,7 @@ public class CreateChart
         workbook.save(dataDir + "book1.out.xls");
         
         // Print message
-        System.out.println("Workbook with chart is successfully created. Please check data folder.");
+        System.out.println("Workbook with chart is successfully created.");
         
     }
 }
-
-
-
-
