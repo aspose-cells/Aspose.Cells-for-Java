@@ -507,6 +507,16 @@ Change the Chart's Position and Size</Description>
                         <DisplayName>Change the Chart's Position and Size</DisplayName>
                         <Url>http://www.aspose.com/docs/display/cellsjava/Change+the+Chart%27s+Position+and+Size</Url>
                       </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.out.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
                       <Type>Console</Type>
                     </Example>
                     <Example>
@@ -538,6 +548,11 @@ Using the above general steps, developers can create any type of chart in their 
                         <DisplayName>How to Create a Chart</DisplayName>
                         <Url>http://www.aspose.com/docs/display/cellsjava/How+to+Create+a+Chart</Url>
                       </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.out.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
                       <Type>Console</Type>
                     </Example>
                   </Examples>
@@ -559,6 +574,11 @@ Setting Charts Data</Description>
                         <DisplayName>Setting Charts Data</DisplayName>
                         <Url>http://www.aspose.com/docs/display/cellsjava/Setting+Charts+Data</Url>
                       </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.out.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
                       <Type>Console</Type>
                     </Example>
                   </Examples>
