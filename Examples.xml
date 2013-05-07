@@ -303,6 +303,36 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
                       </OutputFiles>
                       <Type>Console</Type>
                     </Example>
+                    <Example>
+                      <Title>Saving Files</Title>
+                      <Description>Aspose.Cells allows developers to create Excel files from scratch using its flexible API. Once you create Excel files, you would also need to save your workbook (file). Aspose.Cells provides a variety of ways to save these files. In this topic, we will discuss all those possible ways that can be adopted by developers to save their files.</Description>
+                      <FolderName>SavingFiles</FolderName>
+                      <Order>3</Order>
+                      <DocLink>
+                        <DisplayName>Saving Files</DisplayName>
+                        <Url>http://www.aspose.com/docs/display/cellsjava/Saving+Files</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\book.default.out.xls</Path>
+                        </DataFile>
+                        <DataFile>
+                          <Path>..\Data\book.out.xls</Path>
+                        </DataFile>
+                        <DataFile>
+                          <Path>..\Data\book.out.xlsx</Path>
+                        </DataFile>
+                        <DataFile>
+                          <Path>..\Data\book.out.xml</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
                   </Examples>
                 </Folder>
               </Folders>
@@ -475,7 +505,200 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                       </OutputFiles>
                       <Type>Console</Type>
                     </Example>
+                    <Example>
+                      <Title>Display or Hide Row Column Headers</Title>
+                      <Description>All worksheets in an Excel file are composed of cells that are arranged in the form of rows and columns. All rows and columns have unique values that are used to identify a particular row, column or cell. For example, rows are numbered as 1, 2, 3, 4 etc. and columns are ordered alphabetically as A, B, C, D etc. These values of the rows and columns are displayed as their headers. Rows and columns, both have their own row and column headers respectively. Using, Aspose.Cells , developers can control the visibility of these row/column headers in their worksheets.
+
+Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file.
+A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet. But, to control the visibility of row/column headers, developers may use setRowColumnHeadersVisible method of the Worksheet class.
+
+Developers can hide row/column headers by using the setRowColumnHeadersVisible(false) method of the Worksheet class.
+
+Developers can make row/column headers visible by using the setRowColumnHeadersVisible(true) method of the Worksheet class.</Description>
+                      <FolderName>DisplayorHideRowColumnHeaders</FolderName>
+                      <Order>7</Order>
+                      <DocLink>
+                        <DisplayName>Display or Hide Row Column Headers</DisplayName>
+                        <Url>http://www.aspose.com/docs/display/cellsjava/Display+or+Hide+Row+Column+Headers</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\book.out.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Freeze Panes</Title>
+                      <Description>Freeze Panes is also another good feature provided by Microsoft Excel. Freezing panes allows you to select data that remains visible when scrolling in a worksheet
+
+Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file.
+
+A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet.
+
+But, to configure freeze panes settings for a worksheet, developers may call freezePanes method of the Worksheet class. FreezePanes method takes four parameters as follows:
+
+- row , represents the row index of the cell from where to start freezing
+- column , represents the column index of the cell from where to start freezing
+- freezedRows , represents the number of visible rows in top pane
+- freezedColumns , represents the number of visible columns in left pane</Description>
+                      <FolderName>FreezePanes</FolderName>
+                      <Order>8</Order>
+                      <DocLink>
+                        <DisplayName>Freeze Panes</DisplayName>
+                        <Url>http://www.aspose.com/docs/display/cellsjava/Freeze+Panes</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\book.out.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Split Panes</Title>
+                      <Description>If you need to split the screen to give you two different views into the same worksheet, you split panes. Excel offers a very handy feature to allow you view more than one copy of your worksheet, and for you to be able to scroll through each pane of your worksheet independently. You can do this by using a feature called Split Panes.
+When you split panes. The panes of your worksheet work simultaneously. If you make a change in one, it will simultaneously appear in the other. Aspose.Cells provides Split Panes feature for the users.
+
+Aspose.Cells provides a class Workbook that represents an Excel file. Workbook class provides a wide range of properties and methods to manage an Excel file. To implement split views, developers may use split method of the Worksheet class. To remove the splitted panes, you can use removeSplit method of the Worksheet class.</Description>
+                      <FolderName>SplitPanes</FolderName>
+                      <Order>9</Order>
+                      <DocLink>
+                        <DisplayName>Split Panes</DisplayName>
+                        <Url>http://www.aspose.com/docs/display/cellsjava/Split+Panes</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\book.out.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
                   </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Management Features</Title>
+                  <Description>This section includes the following topics: 
+Managing Worksheets</Description>
+                  <FolderName>ManagementFeatures</FolderName>
+                  <Order>2</Order>
+                  <Folders>
+                    <Folder>
+                      <Title>Managing Worksheets</Title>
+                      <Description>Developers can easily create and manage worksheets in their Excel files programmatically using the flexible API of Aspose.Cells. In this topic we will discuss some approaches to add and remove worksheets in Excel files.
+
+Managing worksheets using Aspose.Cells is as easy as ABC. In this section, we will describe that how can we:
+
+1. Create a new Excel file from scratch and add worksheet to it
+2. Add worksheets to designer spreadsheets
+3. Remove a worksheet from an Excel file using its sheet name
+4. Remove a worksheet from an Excel file using its sheet index
+
+Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file.
+
+A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet. Let's see that how can we make use of these basic set of APIs.</Description>
+                      <FolderName>ManagingWorksheets</FolderName>
+                      <Order>1</Order>
+                      <Examples>
+                        <Example>
+                          <Title>Adding Worksheets to a New Excel File</Title>
+                          <Description>To create a new Excel file programmatically, developers would need to create an object of Workbook class that represents an Excel file. Then developers can call addSheet method of the WorksheetCollection . When we call add method, an empty worksheet is added to the Excel file automatically, which can be referenced by passing the sheet index of the newly added worksheet to the WorksheetCollection . After the worksheet reference is obtained, developers can work on their worksheets according to their requirements. After the work is done on the worksheets, developers can save their newly created Excel file with new worksheets by calling the save method of the Workbook class.</Description>
+                          <FolderName>AddingWorksheetstoNewExcelFile</FolderName>
+                          <Order>1</Order>
+                          <DocLink>
+                            <DisplayName>Adding Worksheets to a New Excel File</DisplayName>
+                            <Url>http://www.aspose.com/docs/display/cellsjava/Managing+Worksheets</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book.out.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Adding Worksheets to a Designer Spreadsheet</Title>
+                          <Description>The process of adding worksheets to a designer spreadsheet is entirely same as that of the above approach except that the Excel file is already created and we need to open that Excel file first before adding worksheet to it. A designer spreadsheet can be opened by calling the open method of the Workbook class.</Description>
+                          <FolderName>AddingWorksheetstoDesignerSpreadsheet</FolderName>
+                          <Order>2</Order>
+                          <DocLink>
+                            <DisplayName>Adding Worksheets to a Designer Spreadsheet</DisplayName>
+                            <Url>http://www.aspose.com/docs/display/cellsjava/Managing+Worksheets</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\book.out.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Removing Worksheets using Sheet Name</Title>
+                          <Description>Sometimes, developers may need to remove worksheets from existing Excel files and that task can be performed by calling the removeAt method of the WorksheetCollection collection. We can pass sheet name to the removeAt method to remove a specific worksheet.</Description>
+                          <FolderName>RemovingWorksheetsusingSheetName</FolderName>
+                          <Order>3</Order>
+                          <DocLink>
+                            <DisplayName>Removing Worksheets using Sheet Name</DisplayName>
+                            <Url>http://www.aspose.com/docs/display/cellsjava/Managing+Worksheets</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\book.out.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Removing Worksheets using Sheet Index</Title>
+                          <Description>The above approach of removing worksheets works well if developers already know the sheet names of the worksheets to be deleted. But, what if you don't know the sheet name of the worksheet that you want to remove from your Excel file?
+
+Well, in such circumstances, developers can use an overloaded version of remove At method that takes the sheet index of the worksheet instead of its sheet name.</Description>
+                          <FolderName>RemovingWorksheetsusingSheetIndex</FolderName>
+                          <Order>4</Order>
+                          <DocLink>
+                            <DisplayName>Removing Worksheets using Sheet Index</DisplayName>
+                            <Url>http://www.aspose.com/docs/display/cellsjava/Managing+Worksheets</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\book.out.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                      </Examples>
+                    </Folder>
+                  </Folders>
                 </Folder>
               </Folders>
             </Folder>
