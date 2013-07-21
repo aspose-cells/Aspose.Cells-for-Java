@@ -305,30 +305,34 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
                     </Example>
                     <Example>
                       <Title>Saving Files</Title>
-                      <Description>Aspose.Cells allows developers to create Excel files from scratch using its flexible API. Once you create Excel files, you would also need to save your workbook (file). Aspose.Cells provides a variety of ways to save these files. In this topic, we will discuss all those possible ways that can be adopted by developers to save their files.</Description>
+                      <Description>Aspose.Cells allows developers to create Excel files from scratch using its flexible API, you may also manipulate existing files. Once you create Excel files, you would also need to save your work (file). Aspose.Cells provides a variety of ways to save these files. In this topic, we will discuss all those possible ways that can be adopted by developers to save their files.</Description>
                       <FolderName>SavingFiles</FolderName>
                       <Order>3</Order>
                       <DocLink>
                         <DisplayName>Saving Files</DisplayName>
-                        <Url>http://www.aspose.com/docs/display/cellsjava/Saving+Files</Url>
+                        <Url>Saving+Files</Url>
                       </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\book.xls</Path>
-                        </DataFile>
-                      </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\book.default.out.xls</Path>
+                          <Path>..\Data\book1.html</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\book.out.xls</Path>
+                          <Path>..\Data\book1.ods</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\book.out.xlsx</Path>
+                          <Path>..\Data\book1.pdf</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\book.out.xml</Path>
+                          <Path>..\Data\book1.xls</Path>
+                        </DataFile>
+                        <DataFile>
+                          <Path>..\Data\book1.xlsb</Path>
+                        </DataFile>
+                        <DataFile>
+                          <Path>..\Data\book1.xlsx</Path>
+                        </DataFile>
+                        <DataFile>
+                          <Path>..\Data\book1.xml</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -507,84 +511,63 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                     </Example>
                     <Example>
                       <Title>Display or Hide Row Column Headers</Title>
-                      <Description>All worksheets in an Excel file are composed of cells that are arranged in the form of rows and columns. All rows and columns have unique values that are used to identify a particular row, column or cell. For example, rows are numbered as 1, 2, 3, 4 etc. and columns are ordered alphabetically as A, B, C, D etc. These values of the rows and columns are displayed as their headers. Rows and columns, both have their own row and column headers respectively. Using, Aspose.Cells , developers can control the visibility of these row/column headers in their worksheets.
-
-Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file.
-A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet. But, to control the visibility of row/column headers, developers may use setRowColumnHeadersVisible method of the Worksheet class.
-
-Developers can hide row/column headers by using the setRowColumnHeadersVisible(false) method of the Worksheet class.
-
-Developers can make row/column headers visible by using the setRowColumnHeadersVisible(true) method of the Worksheet class.</Description>
-                      <FolderName>DisplayorHideRowColumnHeaders</FolderName>
+                      <Description>All worksheets in an Excel file are composed of cells that are arranged in the form of rows and columns. All rows and columns have unique values that are used to identify a particular row, column or cell. For example, rows are numbered as 1, 2, 3, 4 etc. and columns are ordered alphabetically as A, B, C, D etc. These values of the rows and columns are displayed as their headers. Rows and columns, both have their own row and column headers respectively. Using, Aspose.Cells , developers can control the visibility of these row/column headers in their worksheets.</Description>
+                      <FolderName>DisplayHideRowColumnHeaders</FolderName>
                       <Order>7</Order>
                       <DocLink>
                         <DisplayName>Display or Hide Row Column Headers</DisplayName>
-                        <Url>http://www.aspose.com/docs/display/cellsjava/Display+or+Hide+Row+Column+Headers</Url>
+                        <Url>Display+or+Hide+Row+Column+Headers</Url>
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book.xls</Path>
+                          <Path>..\Data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\book.out.xls</Path>
+                          <Path>..\Data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
                     </Example>
                     <Example>
                       <Title>Freeze Panes</Title>
-                      <Description>Freeze Panes is also another good feature provided by Microsoft Excel. Freezing panes allows you to select data that remains visible when scrolling in a worksheet
-
-Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file.
-
-A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet.
-
-But, to configure freeze panes settings for a worksheet, developers may call freezePanes method of the Worksheet class. FreezePanes method takes four parameters as follows:
-
-- row , represents the row index of the cell from where to start freezing
-- column , represents the column index of the cell from where to start freezing
-- freezedRows , represents the number of visible rows in top pane
-- freezedColumns , represents the number of visible columns in left pane</Description>
+                      <Description>Freeze Panes is also another good feature provided by Microsoft Excel. Freezing panes allows you to select data that remains visible when scrolling in a worksheet. Aspose.Cells also allows developers to apply this freeze panes feature (offered by Microsoft Excel) in their worksheets at runtime using its robust API.</Description>
                       <FolderName>FreezePanes</FolderName>
                       <Order>8</Order>
                       <DocLink>
                         <DisplayName>Freeze Panes</DisplayName>
-                        <Url>http://www.aspose.com/docs/display/cellsjava/Freeze+Panes</Url>
+                        <Url>Freeze+Panes</Url>
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book.xls</Path>
+                          <Path>..\Data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\book.out.xls</Path>
+                          <Path>..\Data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
                     </Example>
                     <Example>
                       <Title>Split Panes</Title>
-                      <Description>If you need to split the screen to give you two different views into the same worksheet, you split panes. Excel offers a very handy feature to allow you view more than one copy of your worksheet, and for you to be able to scroll through each pane of your worksheet independently. You can do this by using a feature called Split Panes.
-When you split panes. The panes of your worksheet work simultaneously. If you make a change in one, it will simultaneously appear in the other. Aspose.Cells provides Split Panes feature for the users.
-
-Aspose.Cells provides a class Workbook that represents an Excel file. Workbook class provides a wide range of properties and methods to manage an Excel file. To implement split views, developers may use split method of the Worksheet class. To remove the splitted panes, you can use removeSplit method of the Worksheet class.</Description>
+                      <Description>If you need to split the screen to give you two different views into the same worksheet, you split panes. Excel offers a very handy feature to allow you view more than one copy of your worksheet, and for you to be able to scroll through each pane of your worksheet independently. You can do this by using a feature called Split Panes. When you split panes. The panes of your worksheet work simultaneously. If you make a change in one, it will simultaneously appear in the other. Aspose.Cells provides Split Panes feature for the users.</Description>
                       <FolderName>SplitPanes</FolderName>
                       <Order>9</Order>
                       <DocLink>
                         <DisplayName>Split Panes</DisplayName>
-                        <Url>http://www.aspose.com/docs/display/cellsjava/Split+Panes</Url>
+                        <Url>Split+Panes</Url>
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book.xls</Path>
+                          <Path>..\Data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\book.out.xls</Path>
+                          <Path>..\Data\Splitted_out1.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -593,105 +576,291 @@ Aspose.Cells provides a class Workbook that represents an Excel file. Workbook c
                 </Folder>
                 <Folder>
                   <Title>Management Features</Title>
-                  <Description>This section includes the following topics: 
-Managing Worksheets</Description>
+                  <Description>This Section includes following topics:
+
+1: Managing Worksheets</Description>
                   <FolderName>ManagementFeatures</FolderName>
                   <Order>2</Order>
                   <Folders>
                     <Folder>
                       <Title>Managing Worksheets</Title>
-                      <Description>Developers can easily create and manage worksheets in their Excel files programmatically using the flexible API of Aspose.Cells. In this topic we will discuss some approaches to add and remove worksheets in Excel files.
+                      <Description>Managing worksheets using Aspose.Cells is as easy as ABC. In this section, we have included the following features:
 
-Managing worksheets using Aspose.Cells is as easy as ABC. In this section, we will describe that how can we:
-
-1. Create a new Excel file from scratch and add worksheet to it
-2. Add worksheets to designer spreadsheets
-3. Remove a worksheet from an Excel file using its sheet name
-4. Remove a worksheet from an Excel file using its sheet index
-
-Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file.
-
-A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet. Let's see that how can we make use of these basic set of APIs.</Description>
+1: Add worksheets to a new Excel file
+2: Add worksheets to an existing Excel file
+3: Remove a worksheet from an Excel file using its sheet name
+4: Remove a worksheet from an Excel file using its sheet index</Description>
                       <FolderName>ManagingWorksheets</FolderName>
                       <Order>1</Order>
                       <Examples>
                         <Example>
                           <Title>Adding Worksheets to a New Excel File</Title>
-                          <Description>To create a new Excel file programmatically, developers would need to create an object of Workbook class that represents an Excel file. Then developers can call addSheet method of the WorksheetCollection . When we call add method, an empty worksheet is added to the Excel file automatically, which can be referenced by passing the sheet index of the newly added worksheet to the WorksheetCollection . After the worksheet reference is obtained, developers can work on their worksheets according to their requirements. After the work is done on the worksheets, developers can save their newly created Excel file with new worksheets by calling the save method of the Workbook class.</Description>
-                          <FolderName>AddingWorksheetstoNewExcelFile</FolderName>
+                          <Description>To create a new Excel file programmatically, developers would need to create an object of Workbook class that represents an Excel file. Then developers can call Add method of the Worksheets collection. When we call Add method, an empty worksheet is added to the Excel file automatically, which can be referenced by passing the sheet index of the newly added worksheet to the Worksheets collection. After the worksheet reference is obtained, developers can work on their worksheets according to their requirements. After the work is done on the worksheets, developers can save their newly created Excel file with new worksheets by calling the Save method of the Workbook class.</Description>
+                          <FolderName>AddingWorksheetsToNewExcelFile</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Adding Worksheets to a New Excel File</DisplayName>
-                            <Url>http://www.aspose.com/docs/display/cellsjava/Managing+Worksheets</Url>
+                            <Url>Managing+Worksheets</Url>
                           </DocLink>
-                          <InputFiles>
+                          <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\book.out.xls</Path>
+                              <Path>..\Data\output.xls</Path>
                             </DataFile>
-                          </InputFiles>
+                          </OutputFiles>
                           <Type>Console</Type>
                         </Example>
                         <Example>
-                          <Title>Adding Worksheets to a Designer Spreadsheet</Title>
-                          <Description>The process of adding worksheets to a designer spreadsheet is entirely same as that of the above approach except that the Excel file is already created and we need to open that Excel file first before adding worksheet to it. A designer spreadsheet can be opened by calling the open method of the Workbook class.</Description>
-                          <FolderName>AddingWorksheetstoDesignerSpreadsheet</FolderName>
+                          <Title>Adding Worksheets to an Existing PDF file</Title>
+                          <Description>The process of adding worksheets to a designer spreadsheet is entirely same as that of the above approach except that the Excel file is already created and we need to open that Excel file first before adding worksheet to it. A designer spreadsheet can be opened by the Workbook class.</Description>
+                          <FolderName>AddWorksheetsToExistingExcelFile</FolderName>
                           <Order>2</Order>
                           <DocLink>
-                            <DisplayName>Adding Worksheets to a Designer Spreadsheet</DisplayName>
-                            <Url>http://www.aspose.com/docs/display/cellsjava/Managing+Worksheets</Url>
+                            <DisplayName>Managing Worksheets</DisplayName>
+                            <Url>Managing+Worksheets</Url>
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book.xls</Path>
+                              <Path>..\Data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\book.out.xls</Path>
+                              <Path>..\Data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
                         </Example>
                         <Example>
                           <Title>Removing Worksheets using Sheet Name</Title>
-                          <Description>Sometimes, developers may need to remove worksheets from existing Excel files and that task can be performed by calling the removeAt method of the WorksheetCollection collection. We can pass sheet name to the removeAt method to remove a specific worksheet.</Description>
-                          <FolderName>RemovingWorksheetsusingSheetName</FolderName>
+                          <Description>Sometimes, developers may need to remove worksheets from existing Excel files and that task can be performed by calling the RemoveAt method of the Worksheets collection. We can pass sheet name to the RemoveAt method to remove a specific worksheet.</Description>
+                          <FolderName>RemovingWorksheetsUsingSheetName</FolderName>
                           <Order>3</Order>
                           <DocLink>
-                            <DisplayName>Removing Worksheets using Sheet Name</DisplayName>
-                            <Url>http://www.aspose.com/docs/display/cellsjava/Managing+Worksheets</Url>
+                            <DisplayName>Managing Worksheets</DisplayName>
+                            <Url>Managing+Worksheets</Url>
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book.xls</Path>
+                              <Path>..\Data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\book.out.xls</Path>
+                              <Path>..\Data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
                         </Example>
                         <Example>
                           <Title>Removing Worksheets using Sheet Index</Title>
-                          <Description>The above approach of removing worksheets works well if developers already know the sheet names of the worksheets to be deleted. But, what if you don't know the sheet name of the worksheet that you want to remove from your Excel file?
-
-Well, in such circumstances, developers can use an overloaded version of remove At method that takes the sheet index of the worksheet instead of its sheet name.</Description>
-                          <FolderName>RemovingWorksheetsusingSheetIndex</FolderName>
+                          <Description>This examples showns how to remove a worksheet from a workbook using the index of the worksheet.</Description>
+                          <FolderName>RemovingWorksheetsUsingSheetIndex</FolderName>
                           <Order>4</Order>
                           <DocLink>
-                            <DisplayName>Removing Worksheets using Sheet Index</DisplayName>
-                            <Url>http://www.aspose.com/docs/display/cellsjava/Managing+Worksheets</Url>
+                            <DisplayName>Managing Worksheets</DisplayName>
+                            <Url>Managing+Worksheets</Url>
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book.xls</Path>
+                              <Path>..\Data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\book.out.xls</Path>
+                              <Path>..\Data\output.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                      </Examples>
+                    </Folder>
+                  </Folders>
+                </Folder>
+                <Folder>
+                  <Title>Security Features</Title>
+                  <Description>This section includes following topics: 
+
+1: Protecting Worksheets
+2: Advanced Protection Settings since Excel XP
+3: Unprotect a Worksheet</Description>
+                  <FolderName>SecurityFeatures</FolderName>
+                  <Order>3</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Advanced Protection Settings Using Aspose.Cells</Title>
+                      <Description>All of these advanced protection settings in Excel XP are supported in Aspose.Cells. Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a Worksheets collection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class.
+
+Worksheet class provides Protection property that is used to apply these advanced protection settings of Excel XP on the worksheets. Protection property is in fact an object of Protection class that encapsulates several boolean properties to disable or enable the restrictions on the worksheets.</Description>
+                      <FolderName>AdvancedProtectionSettings</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Advanced Protection Settings since Excel XP</DisplayName>
+                        <Url>Advanced+Protection+Settings+since+Excel+XP</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                  <Folders>
+                    <Folder>
+                      <Title>Protecting Worksheets</Title>
+                      <Description>This section includes following topics: 
+
+1: Protecting a Worksheet.
+2: Protecting Specific Cells in a Worksheet.
+3: Protecting Specific Row in a Worksheet.
+4: Protecting Specific Column in a Worksheet.
+5: Allow user to edit Ranges in a Worksheet.</Description>
+                      <FolderName>ProtectingWorksheets</FolderName>
+                      <Order>1</Order>
+                      <Examples>
+                        <Example>
+                          <Title>Protecting a Worksheet</Title>
+                          <Description>Worksheet class provides Protect method that is used to apply appropriate protection on the worksheet. Protect method accepts the following parameters:
+
+1: Protection Type, represents the type of protection to apply on the worksheet. Protection type is applied with the help of ProtectionType enumeration
+2: New Password, represents the new password that is used to protect the worksheet
+3: Old Password, represents the old password, if the worksheet is already protected by a password. If the worksheet is not already protected then just pass a null.</Description>
+                          <FolderName>ProtectingWorksheet</FolderName>
+                          <Order>1</Order>
+                          <DocLink>
+                            <DisplayName>Protecting Worksheets</DisplayName>
+                            <Url>Protecting+Worksheets</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book1.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\output.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Protecting Specific Cells in a Worksheet</Title>
+                          <Description>There might be certain scenarios where you need to lock a few cells only in the worksheet. If you want to lock some specific cells in the worksheet, you have to unlock all the other cells in the worksheet. All the cells in a worksheet are already initialized for locking, you may check this opening any excel file into MS Excel and click the Format | Cells..*to show *Format Cells dialog box and then click the Protection tab and see a check box labeled "Locked" is checked by default.</Description>
+                          <FolderName>ProtectingSpecificCellsinaWorksheet</FolderName>
+                          <Order>2</Order>
+                          <DocLink>
+                            <DisplayName>Protecting Worksheets</DisplayName>
+                            <Url>Protecting+Worksheets</Url>
+                          </DocLink>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\output.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Protecting Specific Row in a Worksheet</Title>
+                          <Description>Aspose.Cells allows you to easily lock any row in the worksheet. Here, we can make use of ApplyStyle() method of Aspose.Cells.Row class to apply Style to a particular row in the worksheet. This method takes two arguments: a Style object and StyleFlag object which has all the members related to applied formatting.</Description>
+                          <FolderName>ProtectingSpecificRowInWorksheet</FolderName>
+                          <Order>3</Order>
+                          <DocLink>
+                            <DisplayName>Protecting Worksheets</DisplayName>
+                            <Url>Protecting+Worksheets</Url>
+                          </DocLink>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\output.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Protecting Specific Column in a Worksheet</Title>
+                          <Description>Aspose.Cells allows you to easily lock any column in the worksheet. Here, we can make use of ApplyStyle() method of Aspose.Cells.Column class to apply Style to a particular column in the worksheet. This method takes two arguments: a Style object and StyleFlag object which has all the members related to applied formatting.</Description>
+                          <FolderName>ProtectingSpecificColumnInWorksheet</FolderName>
+                          <Order>4</Order>
+                          <DocLink>
+                            <DisplayName>Protecting Worksheets</DisplayName>
+                            <Url>Protecting+Worksheets</Url>
+                          </DocLink>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\output.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Allow User to Edit Ranges in a Worksheet</Title>
+                          <Description>The following example shows how to allow users to edit a range in a protected worksheet.</Description>
+                          <FolderName>AllowUserToEditRangesInWorksheet</FolderName>
+                          <Order>5</Order>
+                          <DocLink>
+                            <DisplayName>Protecting Worksheets</DisplayName>
+                            <Url>Protecting+Worksheets</Url>
+                          </DocLink>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\protectedrange.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                      </Examples>
+                    </Folder>
+                    <Folder>
+                      <Title>Unprotect a Worksheet</Title>
+                      <Description>If a developer needs to unprotect a protected worksheet at runtime, it is very easy with the help of the API of Aspose.Cells. This section includes the following examples:
+
+1: Unprotecting a Simply Protected Worksheet
+2: Unprotecting a Password Protected Worksheet</Description>
+                      <FolderName>UnprotectWorksheet</FolderName>
+                      <Order>3</Order>
+                      <Examples>
+                        <Example>
+                          <Title>Unprotecting a Simply Protected Worksheet</Title>
+                          <Description>A simply protected worksheet is the one, which is not protected with a password. Such worksheets can be unprotected by calling the Unprotect method without passing a parameter.</Description>
+                          <FolderName>UnprotectingSimplyProtectedWorksheet</FolderName>
+                          <Order>1</Order>
+                          <DocLink>
+                            <DisplayName>Unprotect a Worksheet</DisplayName>
+                            <Url>Unprotect+a+Worksheet</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book1.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\output.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Unprotecting a Password Protected Worksheet</Title>
+                          <Description>A password protected worksheet can be unprotected by calling an overloaded version of Unprotect method that takes the password (required to unprotect the worksheet) as a parameter.</Description>
+                          <FolderName>UnprotectingPasswordProtectedWorksheet</FolderName>
+                          <Order>2</Order>
+                          <DocLink>
+                            <DisplayName>Unprotect a Worksheet</DisplayName>
+                            <Url>Unprotect+a+Worksheet</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book1.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -703,32 +872,207 @@ Well, in such circumstances, developers can use an overloaded version of remove 
               </Folders>
             </Folder>
             <Folder>
-              <Title>Creating Charts</Title>
-              <Description>This section includes examples related to the following topics: 
+              <Title>Working with Rows and Columns</Title>
+              <Description>This section includes the following examples: 
 
-- Fundamental Features
-- Chart Management Features
-- Advanced Features</Description>
-              <FolderName>CreatingCharts</FolderName>
+1: Inserting Deleting Rows and Columns
+2: Hiding Unhiding Rows and Columns
+3: Grouping Ungrouping Rows and Columns
+4: Adjusting Row Height and Column Width
+5: AutoFit Rows and Columns
+6: Copying Rows and Columns</Description>
+              <FolderName>WorkingWithRowsAndColumns</FolderName>
               <Order>3</Order>
               <Folders>
                 <Folder>
-                  <Title>Fundamental Features</Title>
-                  <Description>This section includes the following topics:
-Introduction to Charts and Chart Types
-How to Create a Chart
-Change the Chart's Position and Size</Description>
-                  <FolderName>FundamentalFeatures</FolderName>
+                  <Title>Inserting Deleting Rows and Columns</Title>
+                  <Description>This section includes the following examples:
+
+1: Inserting a Row
+2: Inserting Multiple Rows
+3: Deleting a Row
+4: Deleting Multiple Rows
+5: Inserting a Column
+6: Deleting a Column</Description>
+                  <FolderName>InsertingDeletingRowsAndColumns</FolderName>
                   <Order>1</Order>
                   <Examples>
                     <Example>
-                      <Title>Change the Chart's Position and Size</Title>
-                      <Description>Example shows the way to change the position or size of the new or existing chart inside the worksheet. Aspose.Cells provides the Chart.getChartObject() property to achieve this. You can use its sub-properties to re-size the chart with new height and width or re-position it with new X and Y coordinates.</Description>
-                      <FolderName>ChangeChartPositionAndSize</FolderName>
+                      <Title>Inserting a Row</Title>
+                      <Description>Developers can insert a row into the worksheet at any location by calling the InsertRow method of the Cells collection. InsertRow method takes the index of the row where the new row will be inserted.</Description>
+                      <FolderName>InsertingARow</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
+                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Inserting Multiple Rows</Title>
+                      <Description>Sometimes, developers may need to insert multiple rows into the worksheet. It can be done by calling the InsertRows method of the Cells collection. InsertRows method takes two parameters:
+
+1: Row Index, the index of the row from where the new rows will be inserted
+2: Number of Rows, total number of rows that need to be inserted</Description>
+                      <FolderName>InsertingMultipleRows</FolderName>
                       <Order>2</Order>
                       <DocLink>
-                        <DisplayName>Change the Chart's Position and Size</DisplayName>
-                        <Url>http://www.aspose.com/docs/display/cellsjava/Change+the+Chart%27s+Position+and+Size</Url>
+                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
+                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Deleting a Row</Title>
+                      <Description>Developers can delete a row from the worksheet at any location by calling the DeleteRow method of the Cells collection. DeleteRow method takes the index of the row that needs to be deleted.</Description>
+                      <FolderName>DeletingARow</FolderName>
+                      <Order>3</Order>
+                      <DocLink>
+                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
+                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Deleting Multiple Rows</Title>
+                      <Description>If developers need to delete multiple rows from the worksheet, It can also be done by calling the DeleteRows method of the Cells collection. DeleteRows method takes two parameters:
+
+1: Row Index, the index of the row from where the rows will be deleted.
+2: Number of Rows, total number of rows that need to be deleted.</Description>
+                      <FolderName>DeletingMultipleRows</FolderName>
+                      <Order>4</Order>
+                      <DocLink>
+                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
+                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Inserting a Column</Title>
+                      <Description>Developers can also insert a column into the worksheet at any location by calling the InsertColumn method of the Cells collection. InsertColumn method takes the index of the column where the new column will be inserted.</Description>
+                      <FolderName>InsertingAColumn</FolderName>
+                      <Order>5</Order>
+                      <DocLink>
+                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
+                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Deleting a Column</Title>
+                      <Description>To delete a column from the worksheet at any location, developers can call DeleteColumn method of the Cells collection. DeleteColumn method takes the index of the column to delete.</Description>
+                      <FolderName>DeletingAColumn</FolderName>
+                      <Order>6</Order>
+                      <DocLink>
+                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
+                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Hiding Unhiding Rows and Columns</Title>
+                  <Description>Sometimes, it may also be required by users to hide certain rows or columns of the worksheet and then display them later. Microsoft Excel provides this feature and so as Aspose.Cells. This section includes the following examples:
+
+1: Hiding Rows/Columns
+2: Unhiding Rows/Columns
+3: Hiding Multiple Rows/Columns</Description>
+                  <FolderName>HidingUnhidingRowsAndColumns</FolderName>
+                  <Order>2</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Hiding Rows and Columns</Title>
+                      <Description>Developers can hide a row or column by calling the HideRow and HideColumn methods of the Cells collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.</Description>
+                      <FolderName>HidingRowsAndColumns</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Hiding Unhiding Rows and Columns</DisplayName>
+                        <Url>Hiding+Unhiding+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Unhiding Rows and Columns</Title>
+                      <Description>Developers can unhide any hidden row or column by calling the UnhideRow and UnhideColumn methods of the Cells collection respectively. Both methods take two parameters:
+
+1: Row/Column Index represents the index of a row or column that is used to unhide the specific row or column.
+2: Row Height/Column Width represents row height or column width that can assigned to the row or column after unhiding.</Description>
+                      <FolderName>UnhidingRowsAndColumns</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Hiding Unhiding Rows and Columns</DisplayName>
+                        <Url>Hiding+Unhiding+Rows+and+Columns</Url>
                       </DocLink>
                       <InputFiles>
                         <DataFile>
@@ -737,43 +1081,28 @@ Change the Chart's Position and Size</Description>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.out.xls</Path>
+                          <Path>..\Data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
                     </Example>
                     <Example>
-                      <Title>How to Create a Chart</Title>
-                      <Description>Developers can add a variety of charts to their spreadsheets using Aspose.Cells. Aspose.Cells provides many charting objects that can be used to create charts in a flexible manner. The primary aim of this topic is to make developers familiar with the charting objects of Aspose.Cells so that they may create any kind of chart easily.
-
-Aspose.Cells provides some special set of classes that are used to create all kinds of charts supported by Aspose.Cells. These classes are used to create Charting Objects , which act as the building blocks of a chart. 
-
-All charting objects are the instances of their respective classes that provide specific properties and methods to perform specific tasks. Developers can use these charting objects to create charts according to their requirements.
-
-Developers can add any type of chart to their worksheets using the Charts collection. Each item in the Charts collection represents a Chart object. A Chart object encapsulates all other Charting Objects that are required to customize the appearance of a chart. In our next section, we will learn the use of few basic charting objects to create a simple chart.
-
-Developers can create many types of charts using Aspose.Cells. All types of standard charts supported by Aspose.Cells are pre-defined in an enumeration named as ChartType.
-
-To create a chart using Aspose.Cells, please follow the steps below:
-
-Add some data to worksheet cells by using the setValue method of a Cell object. This data will be used as a data source for the chart.
-Add a chart to the worksheet by calling the add method of ChartCollection collection, which is encapsulated in the Worksheet object. You will also specify the type of chart to add in the worksheet using the ChartType enumeration. For example, in this example, we have selected ChartType.Pyramid value as a chart type.
-Access the newly added Chart object from the ChartCollection collection by passing the chart index.
-Use any of the Charting Objects (explained in the above section) encapsulated in the Chart object to manage your chart. For example, in this example, we have used SeriesCollection charting object to specify the data source for the chart.
-When adding source data to chart, the data source can be a range of cells (such as "A1:C3"), or a sequence of non-contiguous cells (such as "A1, A3, A5"), or a sequence of values (such as "{1,2,3}").
-
-When you assign a range of cells as data source, you can only set the range from top left to bottom right. For example, "A1:C3" is valid while "C3:A1" is invalid.
-
-Using the above general steps, developers can create any type of chart in their spreadsheets. Developers can use different charting objects to create charts according to their custom requirements.</Description>
-                      <FolderName>CreateChart</FolderName>
-                      <Order>1</Order>
+                      <Title>Hiding Multiple Rows and Columns</Title>
+                      <Description>Developers can hide multiple rows or columns at a time by calling the HideRows and HideColumns methods of the Cells collection respectively. Both methods can take the starting row/column index and rows/columns count to be hidden as parameters to hide the specific number of rows or columns.</Description>
+                      <FolderName>HidingMultipleRowsAndColumns</FolderName>
+                      <Order>3</Order>
                       <DocLink>
-                        <DisplayName>How to Create a Chart</DisplayName>
-                        <Url>http://www.aspose.com/docs/display/cellsjava/How+to+Create+a+Chart</Url>
+                        <DisplayName>Hiding Unhiding Rows and Columns</DisplayName>
+                        <Url>Hiding+Unhiding+Rows+and+Columns</Url>
                       </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.out.xls</Path>
+                          <Path>..\Data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -781,25 +1110,213 @@ Using the above general steps, developers can create any type of chart in their 
                   </Examples>
                 </Folder>
                 <Folder>
-                  <Title>Chart Management Features</Title>
-                  <Description>This section includes the following topics:
-Setting Charts Appearance
-Setting Charts Data</Description>
-                  <FolderName>ChartManagementFeatures</FolderName>
-                  <Order>2</Order>
+                  <Title>Grouping Ungrouping Rows and Columns</Title>
+                  <Description>This section includes the following examples:
+
+1: Grouping Rows &amp; Columns
+2: Ungrouping Rows &amp; Columns</Description>
+                  <FolderName>GroupingUngroupingRowsAndColumns</FolderName>
+                  <Order>3</Order>
                   <Examples>
                     <Example>
-                      <Title>Setting Charts Data</Title>
-                      <Description>This Example provides more details about the types of data that can be set for a chart.</Description>
-                      <FolderName>SettingChartsData</FolderName>
+                      <Title>Grouping Rows and Columns</Title>
+                      <Description>Developers can group rows or columns by calling the GroupRows and GroupColumns methods of the Cells collection respectively. Both methods take three parameters as follows:
+
+1: First Row/Column Index , represents the first row/column index to be grouped
+2: Last Row/Column Index , represents the last row/column index to be grouped
+3: Is Hidden , a boolean parameter to specify that whether to hide rows/columns after grouping or not</Description>
+                      <FolderName>GroupingRowsAndColumns</FolderName>
                       <Order>1</Order>
                       <DocLink>
-                        <DisplayName>Setting Charts Data</DisplayName>
-                        <Url>http://www.aspose.com/docs/display/cellsjava/Setting+Charts+Data</Url>
+                        <DisplayName>Grouping Ungrouping Rows and Columns</DisplayName>
+                        <Url>Grouping+Ungrouping+Rows+and+Columns</Url>
                       </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.out.xls</Path>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Ungrouping Rows and Columns</Title>
+                      <Description>Developers can ungroup any grouped rows or columns by calling the UngroupRows and UngroupColumns methods of the Cells collection respectively. Both methods take two parameters:
+
+1: First Row/Column Index , represents the first row/column index to be ungrouped
+2: Last Row/Column Index , represents the last row/column index to be ungrouped</Description>
+                      <FolderName>UngroupingRowsAndColumns</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Grouping Ungrouping Rows and Columns</DisplayName>
+                        <Url>Grouping+Ungrouping+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Adjusting Row Height and Column Width</Title>
+                  <Description>When we work with spreadsheets and add data to rows or columns, we might need to increase or decrease the height of the rows or width of the columns. Sometimes, just because of applying some formatting settings on the rows or columns, we also may need to do so. Normally, you adjust your row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, Aspose.Cells gives you the power to perform these operations at runtime.
+
+This section includes the following examples:
+
+1: Setting the Height of a Row
+2: Setting the Height of All Rows in a Worksheet
+3: Setting the Width of a Column
+4: Setting the Width of All Columns in a Worksheet</Description>
+                  <FolderName>AdjustingRowHeightAndColumnWidth</FolderName>
+                  <Order>4</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Setting the Height of a Row</Title>
+                      <Description>Developers can set the height of a single row by calling SetRowHeight method of the Cells collection. SetRowHeight method takes two parameters as follows:* Row Index , represents the index of the row whose height is needed to change* Row Height , represents the desired row height to apply on the row.</Description>
+                      <FolderName>SettingHeightOfRow</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Adjusting Row Height and Column Width</DisplayName>
+                        <Url>Adjusting+Row+Height+and+Column+Width</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting the Height of All Rows in a Worksheet</Title>
+                      <Description>If developers need to set the same row height for all rows in the worksheet, they can do it by using the StandardHeight property of the Cells collection.</Description>
+                      <FolderName>SettingHeightOfAllRowsInWorksheet</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Adjusting Row Height and Column Width</DisplayName>
+                        <Url>Adjusting+Row+Height+and+Column+Width</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting the Width of a Column</Title>
+                      <Description>Developers can set the width of a column by calling SetColumnWidth method of the Cells collection. SetColumnWidth method takes two parameters as follows:* Column Index , represents the index of the column whose width is needed to change* Column Width , represents the desired column width to apply on the column.</Description>
+                      <FolderName>SettingWidthOfColumn</FolderName>
+                      <Order>3</Order>
+                      <DocLink>
+                        <DisplayName>Adjusting Row Height and Column Width</DisplayName>
+                        <Url>Adjusting+Row+Height+and+Column+Width</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting the Width of All Columns in a Worksheet</Title>
+                      <Description>If developers need to set the same column width for all columns in the worksheet, they can do it by using the StandardWidth property of the Cells collection.</Description>
+                      <FolderName>SettingWidthOfAllColumnsInWorksheet</FolderName>
+                      <Order>4</Order>
+                      <DocLink>
+                        <DisplayName>Adjusting Row Height and Column Width</DisplayName>
+                        <Url>Adjusting+Row+Height+and+Column+Width</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Copying Rows and Columns</Title>
+                  <Description>Ometimes, you 'll need to copy rows and columns in a worksheet without copying the entire worksheet. Aspose.Cells has this ability to copy rows and columns within or between workbooks. When you copy a row / column, it will copy all the data that the row / column contains, including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc with high degree of accuracy and precision.
+
+This section includes the following examples:
+
+1: Copying Rows
+2: Copying Columns</Description>
+                  <FolderName>CopyingRowsAndColumns</FolderName>
+                  <Order>5</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Copying Rows</Title>
+                      <Description>Aspose.Cells provides CopyRow method of the Aspose.Cells.Cells class, this method copies all types of data including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc. from the source row to the destination row. This method takes three parameters i.e. source Cells object, source row index and destination row index. You may utilize this method to copy a row within a workbook sheets or to another workbook sheets. The CopyRow method works in the similar way as MS Excel. So, you  don't really need to set row height for the destination row as per the source row height, the destination row height would be of same to the source row height.</Description>
+                      <FolderName>CopyingRows</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Copying Rows and Columns</DisplayName>
+                        <Url>Copying+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\Book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Copying Columns</Title>
+                      <Description>Aspose.Cells provides CopyColumn method of the Aspose.Cells.Cells class, this method copies all types of data including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc. from the source column to the destination column. This method takes three parameters i.e. source Cells object, source column index and destination column index. You may utilize this method to copy a column within a workbook sheets or to another workbook sheets.</Description>
+                      <FolderName>CopyingColumns</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Copying Rows and Columns</DisplayName>
+                        <Url>Copying+Rows+and+Columns</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -809,341 +1326,221 @@ Setting Charts Data</Description>
               </Folders>
             </Folder>
             <Folder>
-              <Title>Working with Rows and Columns</Title>
-              <Description>This section includes the following topics:
-- Inserting Deleting Rows and Columns
-- Hiding Unhiding Rows and Columns
-- Grouping Ungrouping Rows and Columns
-- Adjusting Row Height and Column Width
-- AutoFit Rows and Columns
-- Copying Rows and Columns</Description>
-              <FolderName>WorkingwithRowsandColumns</FolderName>
+              <Title>Working with Data</Title>
+              <Description>This section includes the following:
+
+1: Data Handling Features
+2: Data Processing Features
+3: Add on Features</Description>
+              <FolderName>WorkingWithData</FolderName>
               <Order>4</Order>
-              <Examples>
-                <Example>
-                  <Title>Inserting Rows and Columns</Title>
-                  <Description>Whether we are creating a new worksheet from scratch or we are working on an existing worksheet, we may need to add extra rows or columns into the worksheet to accomodate more data or for some other reason. Inversely, it may also be required to delete rows or columns from specified positions of the worksheet. To fulfill these requirements, Aspose.Cells provides very simplest set of APIs.
+              <Folders>
+                <Folder>
+                  <Title>Data Handling Features</Title>
+                  <Description>This Section includes following examples: 
 
-Developers can insert a row into the worksheet at any location by calling the insertRows method of the Cells collection. insertRows method takes the index of the row where the new row will be inserted as the first argument and number of rows to be inserted as the second argument.
-
-Sometimes, developers may need to insert multiple rows into the worksheet. It can be done by calling the insertRows method of the Cells collection. InsertRows method takes two parameters:
-
-- Row Index , the index of the row from where the new rows will be inserted
-- Number of Rows , total number of rows that need to be inserted
-
-Developers can also insert a column into the worksheet at any location by calling the insertColumns method of the Cells collection. insertColumns method takes two parameters:
-
-- Column Index , the index of the column from where the column will be inserted
-- Number of Columns , total number of columns that need to be inserted</Description>
-                  <FolderName>InsertingRowsandColumns</FolderName>
+1: Accessing Cells of a Worksheet
+2: Adding Data to Cells
+3: Retrieving Data from Cells
+4: Find or Search Data
+5: Data Sorting
+6: Importing Data to Worksheets
+7: Exporting Data from Worksheets
+8: Tracing Precedents and Dependents
+9: Accessing Maximum Display Range of Worksheet</Description>
+                  <FolderName>DataHandlingFeatures</FolderName>
                   <Order>1</Order>
-                  <DocLink>
-                    <DisplayName>Inserting Rows and Columns</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/Inserting+Deleting+Rows+and+Columns</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.out.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-                <Example>
-                  <Title>Deleting Rows and Columns</Title>
-                  <Description>Whether we are creating a new worksheet from scratch or we are working on an existing worksheet, we may need to add extra rows or columns into the worksheet to accomodate more data or for some other reason. Inversely, it may also be required to delete rows or columns from specified positions of the worksheet. To fulfill these requirements, Aspose.Cells provides very simplest set of APIs.
+                  <Examples>
+                    <Example>
+                      <Title>Adding Data to Cells</Title>
+                      <Description>Aspose.Cells allows developers to add data to the cells of their worksheets by calling the PutValue method of the Cell class. Aspose.Cells provides different overloaded versions of the PutValue method that facilitate users to add different kinds of data to the cells. Using these overloaded versions of PutValue method, developers can add a boolean, string, double, integer or date/time etc. value to the cell.</Description>
+                      <FolderName>AddingDataToCells</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Adding Data to Cells</DisplayName>
+                        <Url>Adding+Data+to+Cells</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Retrieving Data from Cells</Title>
+                      <Description>While working on worksheets, users may add different types of data in the cells. These data types may include Boolean, integer, floating point, text or date/time values. With Aspose.Cells, you can get the appropriate values from the cells according to their data types.</Description>
+                      <FolderName>RetrievingDataFromCells</FolderName>
+                      <Order>3</Order>
+                      <DocLink>
+                        <DisplayName>Retrieving Data from Cells</DisplayName>
+                        <Url>Retrieving+Data+from+Cells</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Data Sorting</Title>
+                      <Description>Aspose.Cells provides DataSorter class used to sort data in Ascending or Descending order. The class has some important members i.e. Properties like Key1 .... Key3 and Order1 .... Order3 for .NET version of the component. These members are used to define sorted keys and specify the sort orders for the keys. You will have to define your desired keys and set orders before you implement data sorting. The class provides Sort method that is used to perform data sorting operation based on a worksheet's cells data. 
 
-Developers can delete a row from the worksheet at any location by calling the deleteRows method of the Cells collection. DeleteRows method takes two parameters:
+The Sort method accepts the following parameters:
 
-- Row Index , the index of the row from where the rows will be deleted
-- Number of Rows , total number of rows that need to be deleted
+1: Aspose.Cells.Cells denotes the cells for underlying worksheet.
+2: Aspose.Cells.CellArea represents the cellarea range. you have to define your desired cellarea first before applying data sorting.</Description>
+                      <FolderName>DataSorting</FolderName>
+                      <Order>5</Order>
+                      <DocLink>
+                        <DisplayName>Data Sorting</DisplayName>
+                        <Url>Data+Sorting</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\Data\output.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                  <Folders>
+                    <Folder>
+                      <Title>Accessing Cells of a Worksheet</Title>
+                      <Description>A cell is a basic part of a worksheet that is used to construct the whole worksheet as a sequence of rows and columns. Before we try to access data from a worksheet, we would need to get access to its cells. So, in this section, we will see some basic approaches to access worksheet cells at runtime using Aspose.Cells.
 
-To delete a column from the worksheet at any location, developers can call deleteColumns method of the Cells collection. deleteColumns method takes three parameters.
+1: Using Cell Name
+2: Using Row &amp; Column Index of the Cell
+3: Using Cell Index in Cells Collection</Description>
+                      <FolderName>AccessingCellsofWorksheet</FolderName>
+                      <Order>1</Order>
+                      <Examples>
+                        <Example>
+                          <Title>Using Cell Name</Title>
+                          <Description>Developers can access any specific cell by passing its cell name to the Cells collection of the Worksheet class as an index.</Description>
+                          <FolderName>UsingCellName</FolderName>
+                          <Order>1</Order>
+                          <DocLink>
+                            <DisplayName>Accessing Cells of a Worksheet</DisplayName>
+                            <Url>Accessing+Cells+of+a+Worksheet</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book1.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Using Row and Column Index of the Cell</Title>
+                          <Description>Developers can access any specific cell by passing the indices of its row and column to the Cells collection of the Worksheet class.</Description>
+                          <FolderName>UsingRowAndColumnIndexOfCell</FolderName>
+                          <Order>2</Order>
+                          <DocLink>
+                            <DisplayName>Accessing Cells of a Worksheet</DisplayName>
+                            <Url>Accessing+Cells+of+a+Worksheet</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book1.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Using Cell Index in Cells Collection</Title>
+                          <Description>A cell can also be accessed by passing the cell's numeric index to the Cells collection using Aspose.Cells.</Description>
+                          <FolderName>UsingCellIndexInCellsCollection</FolderName>
+                          <Order>3</Order>
+                          <DocLink>
+                            <DisplayName>Accessing Cells of a Worksheet</DisplayName>
+                            <Url>Accessing+Cells+of+a+Worksheet</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book1.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                      </Examples>
+                    </Folder>
+                    <Folder>
+                      <Title>Find or Search Data</Title>
+                      <Description>Cells collection provides several methods to find cells in a worksheet containing user specified data. This section includes the following:
 
-- Column Index , the index of the column from where the column will be deleted
-- Number of Columns , total number of columns that need to be deleted
-- Shift Cells, Boolean parameter to indicate whether to shift the cells left after deletion.
+1: Finding Cells Containing a Formula
+2: Finding Data / Formulas using FindOptions
+3: Finding Cells Containing Specified String Value or Number</Description>
+                      <FolderName>FindOrSearchData</FolderName>
+                      <Order>4</Order>
+                      <Examples>
+                        <Example>
+                          <Title>Finding Cells Containing a Formula</Title>
+                          <Description>Developers can find a specified formula in the worksheet by calling FindFormula method of Cells collection. Typically, FindFormula method accepts two parameters:
 
-If developers need to delete multiple rows from the worksheet. It can also be done by calling the deleteRows method of the Cells collection. DeleteRows method takes two parameters:
+1: Formula to Search, represents a formula that is needed to find in the worksheet
+2: Previous Cell, represents the previous cell with the same formula. This parameter can be set to null if you are searching from the start</Description>
+                          <FolderName>FindingCellsContainingFormula</FolderName>
+                          <Order>1</Order>
+                          <DocLink>
+                            <DisplayName>Find or Search Data</DisplayName>
+                            <Url>Find+or+Search+Data</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book1.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Finding Data or Formulas using FindOptions</Title>
+                          <Description>Developers can also find specified data values in the worksheet by calling Find method of Cells collection with various FindOptions. Typically, Find method accepts two parameters:
 
-- Row Index , the index of the row from where the rows will be deleted
-- Number of Rows , total number of rows that need to be deleted</Description>
-                  <FolderName>DeletingRowsandColumns</FolderName>
-                  <Order>2</Order>
-                  <DocLink>
-                    <DisplayName>Deleting Rows and Columns</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/Inserting+Deleting+Rows+and+Columns</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.out.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-                <Example>
-                  <Title>Hiding Rows and Columns</Title>
-                  <Description>Sometimes, it may also be required by users to hide certain rows or columns of the worksheet and then display them later. Microsoft Excel provides this feature and so as Aspose.Cells.
-
-Controlling the Visibility of Rows &amp; Columns:
-Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection that represents all cells in the worksheet.
-
-Cells collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.
-
-Developers can hide a row or column by calling the HideRow and HideColumn methods of the Cells collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.</Description>
-                  <FolderName>HidingRowsandColumns</FolderName>
-                  <Order>3</Order>
-                  <DocLink>
-                    <DisplayName>Hiding Rows and Columns</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/Hiding+Unhiding+Rows+and+Columns</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.out.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-                <Example>
-                  <Title>Unhiding Rows and Columns</Title>
-                  <Description>Developers can unhide any hidden row or column by calling the UnhideRow and UnhideColumn methods of the Cells collection respectively. Both methods take two parameters:
-
-- Row/Column Index , represents the index of a row or column that is used to unhide the specific row or column
-- Row Height/Column Width , represents row height or column width that can assigned to the row or column after unhiding</Description>
-                  <FolderName>UnhidingRowsandColumns</FolderName>
-                  <Order>4</Order>
-                  <DocLink>
-                    <DisplayName>Unhiding Rows and Columns</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/Hiding+Unhiding+Rows+and+Columns</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.out.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-                <Example>
-                  <Title>Grouping Rows and Columns</Title>
-                  <Description>In an Excel file, you can create an outline for your data to let you show and hide levels of detail with a single mouse click. You can click the Outline Symbols , 1,2,3 , + and - to quickly display only the rows or columns that provide summaries or headings for sections of your worksheet or you can use the symbols to see details under an individual summary or heading.
-
-Group Management of Rows &amp; Columns
-Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection that represents all cells in the worksheet.
-
-Cells collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.
-
-Grouping Rows &amp; Columns
-Developers can group rows or columns by calling the groupRows and groupColumns methods of the Cells collection respectively. Both methods take three parameters as follows:
-
-- First Row/Column Index , represents the first row/column index to be grouped
-- Last Row/Column Index , represents the last row/column index to be grouped
-- Is Hidden , a boolean parameter to specify that whether to hide rows/columns after grouping or not</Description>
-                  <FolderName>GroupingRowsandColumns</FolderName>
-                  <Order>5</Order>
-                  <DocLink>
-                    <DisplayName>Grouping Rows and Columns</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/Grouping+Ungrouping+Rows+and+Columns</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.out.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-                <Example>
-                  <Title>Ungrouping Rows and Columns</Title>
-                  <Description>Ungrouping Rows &amp; Columns
-Developers can ungroup any grouped rows or columns by calling the UngroupRows and UngroupColumns methods of the Cells collection respectively. Both methods take two parameters:
-
-- First Row/Column Index , represents the first row/column index to be ungrouped
-- Last Row/Column Index , represents the last row/column index to be ungrouped</Description>
-                  <FolderName>UngroupingRowsandColumns</FolderName>
-                  <Order>6</Order>
-                  <DocLink>
-                    <DisplayName>Ungrouping Rows and Columns</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/Grouping+Ungrouping+Rows+and+Columns</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.out.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-                <Example>
-                  <Title>Adjusting Row Height and Column Width</Title>
-                  <Description>When we work with spreadsheets and add data to rows or columns, we might need to increase or decrease the height of the rows or width of the columns. Sometimes, just because of applying some formatting settings on the rows or columns, we also may need to do so. Normally, you adjust your row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, Aspose.Cells gives you the power to perform these operations at runtime.
-
-Adjusting Row Height
-Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection that represents all cells in the worksheet.
-
-Cells collection provides several methods to manage rows or columns in a worksheet
-
-Developers can set the height of a single row by calling setRowHeight method of the Cells collection. setRowHeight method takes two parameters as follows:
-
-- Row Index , represents the index of the row whose height is needed to change
-- Row Height , represents the desired row height to apply on the row
-
-Setting the Height of All Rows in a Worksheet
-If developers need to set the same row height for all rows in the worksheet, they can do it by using the set StandardHeight method of the Cells collection.
-
-Developers can set the width of a column by calling s etColumnWidth method of the Cells collection. setColumnWidth method takes two parameters as follows:
-
-- Column Index , represents the index of the column whose width is needed to change
-- Column Width , represents the desired column width to apply on the column
-
-Setting the Width of All Columns in a Worksheet
-If developers need to set the same column width for all columns in the worksheet, they can do it by using the setStandardWidth method of the Cells collection.</Description>
-                  <FolderName>AdjustingRowHeightandColumnWidth</FolderName>
-                  <Order>7</Order>
-                  <DocLink>
-                    <DisplayName>Adjusting Row Height and Column Width</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/Adjusting+Row+Height+and+Column+Width</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.output.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-                <Example>
-                  <Title>AutoFit Rows and Columns</Title>
-                  <Description>Microsoft Excel provides a good feature to Auto Size the width and height of a cell according to its content. This feature is also available to Aspose.Cells users with the power of auto sizing the dimensions of a cell at runtime.
-
-AutoFitting the Contents
-Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file.
-
-A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet. But, in this topic, we will see that how can we use Worksheet class to AutoFit rows or columns.
-
-AutoFit Row - Simple
-The most simple approach of auto-sizing the width and height of a row is to call the autoFitRow method of the Worksheet class. autoFitRow method takes the row index (of the row whose auto-sizing is desired) as a parameter.
-
-AutoFit Column - Simple
-The simplest approach of auto-sizing the width and height of a column is to call the autoFitColumn method of the Worksheet class. autoFitColumn method takes the column index (of the column whose auto-sizing is desired) as a parameter.</Description>
-                  <FolderName>AutoFitRowsandColumns</FolderName>
-                  <Order>9</Order>
-                  <DocLink>
-                    <DisplayName>AutoFit Rows and Columns</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.out.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-                <Example>
-                  <Title>Copying Rows and Columns</Title>
-                  <Description>Sometimes, you 'll need to copy rows and columns in a worksheet without copying the entire worksheet. Aspose.Cells has this ability to copy rows and columns within or between workbooks. When you copy a row / column, it will copy all the data that the row / column contains, including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc with high degree of accuracy and precision.
-
-Using MS Excel - Copying Rows and Columns:
-- Select the row or column that you want to copy.
-- To copy rows or columns, click Copy on the Standard toolbar, or press CTRL+C .
-- Select a row or column below or to the right of where you want to copy your selection.
-- When you are copying rows or columns, click Copied Cells on the Insert menu.
-Note If you click Paste on the Standard toolbar or press CTRL+V instead of clicking a command on the Insert menu, you will replace any contents of the destination cells.
-
-Using Aspose.Cells - Copying Rows
-Aspose.Cells provides copyRow method of the Cells class, this method copies all types of data including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc. from the source row to the destination row. This method takes three parameters i.e. source Cells object, source row index and destination row index. You may utilize this method to copy a row within a workbook sheets or to another workbook sheets. The copyRow method works in the similar way as MS Excel. So, you don't really need to set row height for the destination row as per the source row height, the destination row height would be of same to the source row height.</Description>
-                  <FolderName>CopyingRowsandColumns</FolderName>
-                  <Order>10</Order>
-                  <DocLink>
-                    <DisplayName>Copying Rows and Columns</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/Copying+Rows+and+Columns</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.out.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-                <Example>
-                  <Title>AutoFit Rows and Columns in a Range of Cells</Title>
-                  <Description>AutoFit Row in a Range of Cells
-We know that one row is composed of many columns/cells. Aspose.Cells also allows developers to auto-fit a row based on the content in a range of cells within the row by calling an overloaded version of autoFitRow method that takes three parameters as follows:
-
-- Row Index , represents the index of the row whose contents need to auto-fit
-- First Column Index , represents the index of the first column of the row
-- Last Column Index , represents the index of the last column of the row
-This method will check the contents of all columns in the row and then auto-fit the row.
-
-AutoFit Column in a Range of Cells
-One column is composed of many rows/cells. Developers can auto-fit a column based on the content in a range of cells within the column by calling an overloaded version of autoFitColumn method that takes three parameters as follows:
-
-- Column Index , represents the index of the column whose contents need to auto-fit
-- First Row Index , represents the index of the first row of the column
-- Last Row Index , represents the index of the last row of the column
-This method will check the contents of all rows in the column and then auto-fit the column.
-
-Important to Know
-If a cell is merged then AutoFit methods will not be applied on that cell, which is same as that of Microsoft Excel. Moreover, if a cell's text is wrapped, AutFitColumn method will not be applied on it also. Another important thing to know is that AutoFit methods are time consuming methods. So, you should call these methods as less as possible to ensure your application's efficiency..</Description>
-                  <FolderName>AutoFitRowsandColumnsinaRangeofCells</FolderName>
-                  <Order>8</Order>
-                  <DocLink>
-                    <DisplayName>AutoFit Rows and Columns in a Range of Cells</DisplayName>
-                    <Url>http://www.aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns</Url>
-                  </DocLink>
-                  <InputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.xls</Path>
-                    </DataFile>
-                  </InputFiles>
-                  <OutputFiles>
-                    <DataFile>
-                      <Path>..\Data\workbook.out.xls</Path>
-                    </DataFile>
-                  </OutputFiles>
-                  <Type>Console</Type>
-                </Example>
-              </Examples>
+1: Value to be Searched, represents the data/value to be searched that is needed to find in the worksheet cells.
+2: Previous Cell, represents the previous cell with the same value. This parameter can be set to null/nothing if you are searching from the start.
+3: Find Options, represents the find options.</Description>
+                          <FolderName>FindingDataOrFormulasUsingFindOptions</FolderName>
+                          <Order>2</Order>
+                          <DocLink>
+                            <DisplayName>Find or Search Data</DisplayName>
+                            <Url>Find+or+Search+Data</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book1.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Finding Cells Containing String Value or Number</Title>
+                          <Description>Developers can also find specified string values in the worksheet by calling the same Find method of Cells collection with various FindOptions.You will have to specify the FindOptions.LookInType and FindOptions.LookAtType properties.</Description>
+                          <FolderName>FindingCellsWithStringOrNumber</FolderName>
+                          <Order>3</Order>
+                          <DocLink>
+                            <DisplayName>Find or Search Data</DisplayName>
+                            <Url>Find+or+Search+Data</Url>
+                          </DocLink>
+                          <InputFiles>
+                            <DataFile>
+                              <Path>..\Data\book1.xls</Path>
+                            </DataFile>
+                          </InputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                      </Examples>
+                    </Folder>
+                  </Folders>
+                </Folder>
+              </Folders>
             </Folder>
           </Folders>
         </Folder>
