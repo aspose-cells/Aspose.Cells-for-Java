@@ -1409,6 +1409,22 @@ The Sort method accepts the following parameters:
                       </OutputFiles>
                       <Type>Console</Type>
                     </Example>
+                    <Example>
+                      <Title>Exporting Data from Worksheets</Title>
+                      <Description>Aspose.Cells not only facilitates its users to import data to worksheets from external data sources but also allow them to export their worksheet data to a DataTable.</Description>
+                      <FolderName>ExportingDataFromWorksheets</FolderName>
+                      <Order>6</Order>
+                      <DocLink>
+                        <DisplayName>Exporting Data from Worksheets</DisplayName>
+                        <Url>Exporting+Data+from+Worksheets</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\Data\book1.xls</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <Type>Console</Type>
+                    </Example>
                   </Examples>
                   <Folders>
                     <Folder>
@@ -1536,6 +1552,60 @@ The Sort method accepts the following parameters:
                           </InputFiles>
                           <Type>Console</Type>
                         </Example>
+                      </Examples>
+                    </Folder>
+                    <Folder>
+                      <Title>Importing Data to Worksheets</Title>
+                      <Description>Aspose.Cells also supports to import data from different data sources. A few of these data sources are listed below:
+
+1: Array
+2: ArrayList
+</Description>
+                      <FolderName>ImportingDataToWorksheets</FolderName>
+                      <Order>7</Order>
+                      <Examples>
+                        <Example>
+                          <Title>Importing from Array</Title>
+                          <Description>Developers can import data from an array to their worksheets by calling the ImportArray method of the Cells collection. There are many overloaded versions of the ImportArray method but a typical overload takes the following parameters:
+ 
+1: Array, represents the array object whose contents need to import
+2: Row Number, represents the row number of the first cell where the data will be imported
+3: Column Number, represents the column number of the first cell where the data will be imported
+4: Is Vertical, a boolean value that specifies to import data vertically or horizontally</Description>
+                          <FolderName>ImportingFromArray</FolderName>
+                          <Order>1</Order>
+                          <DocLink>
+                            <DisplayName>Importing Data to Worksheets</DisplayName>
+                            <Url>Importing+Data+to+Worksheets</Url>
+                          </DocLink>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\DataImport.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>
+                        <Example>
+                          <Title>Importing from ArrayList</Title>
+                          <Description>Developers can import data from an ArrayList to their worksheets by calling the ImportArrayList method of the Cells collection. ImportArray method takes the following parameters:
+
+1: ArrayList , represents the ArrayList object whose contents need to import
+2: Row Number , represents the row number of the first cell where the data will be imported
+3: Column Number , represents the column number of the first cell where the data will be imported
+4: Is Vertical , a boolean value that specifies to import data vertically or horizontally</Description>
+                          <FolderName>ImportingFromArrayList</FolderName>
+                          <Order>2</Order>
+                          <DocLink>
+                            <DisplayName>Importing Data to Worksheets</DisplayName>
+                            <Url>Importing+Data+to+Worksheets</Url>
+                          </DocLink>
+                          <OutputFiles>
+                            <DataFile>
+                              <Path>..\Data\DataImport.xls</Path>
+                            </DataFile>
+                          </OutputFiles>
+                          <Type>Console</Type>
+                        </Example>                       
                       </Examples>
                     </Folder>
                   </Folders>
