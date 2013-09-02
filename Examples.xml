@@ -512,7 +512,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                     <Example>
                       <Title>Display or Hide Row Column Headers</Title>
                       <Description>All worksheets in an Excel file are composed of cells that are arranged in the form of rows and columns. All rows and columns have unique values that are used to identify a particular row, column or cell. For example, rows are numbered as 1, 2, 3, 4 etc. and columns are ordered alphabetically as A, B, C, D etc. These values of the rows and columns are displayed as their headers. Rows and columns, both have their own row and column headers respectively. Using, Aspose.Cells , developers can control the visibility of these row/column headers in their worksheets.</Description>
-                      <FolderName>DisplayHideRowColumnHeaders</FolderName>
+                      <FolderName>DisplayOrHideRowColumnHeaders</FolderName>
                       <Order>7</Order>
                       <DocLink>
                         <DisplayName>Display or Hide Row Column Headers</DisplayName>
@@ -610,9 +610,9 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                           <Type>Console</Type>
                         </Example>
                         <Example>
-                          <Title>Adding Worksheets to an Existing PDF file</Title>
+                          <Title>Adding Worksheets to an Existing file</Title>
                           <Description>The process of adding worksheets to a designer spreadsheet is entirely same as that of the above approach except that the Excel file is already created and we need to open that Excel file first before adding worksheet to it. A designer spreadsheet can be opened by the Workbook class.</Description>
-                          <FolderName>AddWorksheetsToExistingExcelFile</FolderName>
+                          <FolderName>addingworksheetstodesignerspreadsheet</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Managing Worksheets</DisplayName>
@@ -795,25 +795,11 @@ Worksheet class provides Protection property that is used to apply these advance
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
-                        </Example>
-                        <Example>
-                          <Title>Allow User to Edit Ranges in a Worksheet</Title>
-                          <Description>The following example shows how to allow users to edit a range in a protected worksheet.</Description>
-                          <FolderName>AllowUserToEditRangesInWorksheet</FolderName>
-                          <Order>5</Order>
-                          <DocLink>
-                            <DisplayName>Protecting Worksheets</DisplayName>
-                            <Url>Protecting+Worksheets</Url>
-                          </DocLink>
-                          <OutputFiles>
-                            <DataFile>
-                              <Path>..\Data\protectedrange.xls</Path>
-                            </DataFile>
-                          </OutputFiles>
-                          <Type>Console</Type>
-                        </Example>
+                        </Example>                       
                       </Examples>
                     </Folder>
+					</Folders>
+					<Folders>
                     <Folder>
                       <Title>Unprotect a Worksheet</Title>
                       <Description>If a developer needs to unprotect a protected worksheet at runtime, it is very easy with the help of the API of Aspose.Cells. This section includes the following examples:
@@ -826,7 +812,7 @@ Worksheet class provides Protection property that is used to apply these advance
                         <Example>
                           <Title>Unprotecting a Simply Protected Worksheet</Title>
                           <Description>A simply protected worksheet is the one, which is not protected with a password. Such worksheets can be unprotected by calling the Unprotect method without passing a parameter.</Description>
-                          <FolderName>UnprotectingSimplyProtectedWorksheet</FolderName>
+                          <FolderName>unprotectingsimplyprotectedworksheet</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Unprotect a Worksheet</DisplayName>
@@ -847,7 +833,7 @@ Worksheet class provides Protection property that is used to apply these advance
                         <Example>
                           <Title>Unprotecting a Password Protected Worksheet</Title>
                           <Description>A password protected worksheet can be unprotected by calling an overloaded version of Unprotect method that takes the password (required to unprotect the worksheet) as a parameter.</Description>
-                          <FolderName>UnprotectingPasswordProtectedWorksheet</FolderName>
+                          <FolderName>unprotectingpasswordprotectedworksheet</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Unprotect a Worksheet</DisplayName>
@@ -870,461 +856,344 @@ Worksheet class provides Protection property that is used to apply these advance
                   </Folders>
                 </Folder>
               </Folders>
-            </Folder>
-            <Folder>
+            </Folder> 
+			<Folder>
               <Title>Working with Rows and Columns</Title>
-              <Description>This section includes the following examples: 
+              <Description>This section includes the following topics:
+- Inserting Deleting Rows and Columns
+- Hiding Unhiding Rows and Columns
+- Grouping Ungrouping Rows and Columns
+- Adjusting Row Height and Column Width
+- AutoFit Rows and Columns
+- Copying Rows and Columns</Description>
+              <FolderName>WorkingwithRowsandColumns</FolderName>
+              <Order>4</Order>
+              <Examples>
+                <Example>
+                  <Title>Inserting Rows and Columns</Title>
+                  <Description>Whether we are creating a new worksheet from scratch or we are working on an existing worksheet, we may need to add extra rows or columns into the worksheet to accomodate more data or for some other reason. Inversely, it may also be required to delete rows or columns from specified positions of the worksheet. To fulfill these requirements, Aspose.Cells provides very simplest set of APIs.
 
-1: Inserting Deleting Rows and Columns
-2: Hiding Unhiding Rows and Columns
-3: Grouping Ungrouping Rows and Columns
-4: Adjusting Row Height and Column Width
-5: AutoFit Rows and Columns
-6: Copying Rows and Columns</Description>
-              <FolderName>WorkingWithRowsAndColumns</FolderName>
-              <Order>3</Order>
-              <Folders>
-                <Folder>
-                  <Title>Inserting Deleting Rows and Columns</Title>
-                  <Description>This section includes the following examples:
+Developers can insert a row into the worksheet at any location by calling the insertRows method of the Cells collection. insertRows method takes the index of the row where the new row will be inserted as the first argument and number of rows to be inserted as the second argument.
 
-1: Inserting a Row
-2: Inserting Multiple Rows
-3: Deleting a Row
-4: Deleting Multiple Rows
-5: Inserting a Column
-6: Deleting a Column</Description>
-                  <FolderName>InsertingDeletingRowsAndColumns</FolderName>
+Sometimes, developers may need to insert multiple rows into the worksheet. It can be done by calling the insertRows method of the Cells collection. InsertRows method takes two parameters:
+
+- Row Index , the index of the row from where the new rows will be inserted
+- Number of Rows , total number of rows that need to be inserted
+
+Developers can also insert a column into the worksheet at any location by calling the insertColumns method of the Cells collection. insertColumns method takes two parameters:
+
+- Column Index , the index of the column from where the column will be inserted
+- Number of Columns , total number of columns that need to be inserted</Description>
+                  <FolderName>InsertingRowsandColumns</FolderName>
                   <Order>1</Order>
-                  <Examples>
-                    <Example>
-                      <Title>Inserting a Row</Title>
-                      <Description>Developers can insert a row into the worksheet at any location by calling the InsertRow method of the Cells collection. InsertRow method takes the index of the row where the new row will be inserted.</Description>
-                      <FolderName>InsertingARow</FolderName>
-                      <Order>1</Order>
-                      <DocLink>
-                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
-                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Inserting Multiple Rows</Title>
-                      <Description>Sometimes, developers may need to insert multiple rows into the worksheet. It can be done by calling the InsertRows method of the Cells collection. InsertRows method takes two parameters:
+                  <DocLink>
+                    <DisplayName>Inserting Rows and Columns</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/Inserting+Deleting+Rows+and+Columns</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.out.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Deleting Rows and Columns</Title>
+                  <Description>Whether we are creating a new worksheet from scratch or we are working on an existing worksheet, we may need to add extra rows or columns into the worksheet to accomodate more data or for some other reason. Inversely, it may also be required to delete rows or columns from specified positions of the worksheet. To fulfill these requirements, Aspose.Cells provides very simplest set of APIs.
 
-1: Row Index, the index of the row from where the new rows will be inserted
-2: Number of Rows, total number of rows that need to be inserted</Description>
-                      <FolderName>InsertingMultipleRows</FolderName>
-                      <Order>2</Order>
-                      <DocLink>
-                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
-                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Deleting a Row</Title>
-                      <Description>Developers can delete a row from the worksheet at any location by calling the DeleteRow method of the Cells collection. DeleteRow method takes the index of the row that needs to be deleted.</Description>
-                      <FolderName>DeletingARow</FolderName>
-                      <Order>3</Order>
-                      <DocLink>
-                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
-                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Deleting Multiple Rows</Title>
-                      <Description>If developers need to delete multiple rows from the worksheet, It can also be done by calling the DeleteRows method of the Cells collection. DeleteRows method takes two parameters:
+Developers can delete a row from the worksheet at any location by calling the deleteRows method of the Cells collection. DeleteRows method takes two parameters:
 
-1: Row Index, the index of the row from where the rows will be deleted.
-2: Number of Rows, total number of rows that need to be deleted.</Description>
-                      <FolderName>DeletingMultipleRows</FolderName>
-                      <Order>4</Order>
-                      <DocLink>
-                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
-                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Inserting a Column</Title>
-                      <Description>Developers can also insert a column into the worksheet at any location by calling the InsertColumn method of the Cells collection. InsertColumn method takes the index of the column where the new column will be inserted.</Description>
-                      <FolderName>InsertingAColumn</FolderName>
-                      <Order>5</Order>
-                      <DocLink>
-                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
-                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Deleting a Column</Title>
-                      <Description>To delete a column from the worksheet at any location, developers can call DeleteColumn method of the Cells collection. DeleteColumn method takes the index of the column to delete.</Description>
-                      <FolderName>DeletingAColumn</FolderName>
-                      <Order>6</Order>
-                      <DocLink>
-                        <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
-                        <Url>Inserting+Deleting+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                  </Examples>
-                </Folder>
-                <Folder>
-                  <Title>Hiding Unhiding Rows and Columns</Title>
-                  <Description>Sometimes, it may also be required by users to hide certain rows or columns of the worksheet and then display them later. Microsoft Excel provides this feature and so as Aspose.Cells. This section includes the following examples:
+- Row Index , the index of the row from where the rows will be deleted
+- Number of Rows , total number of rows that need to be deleted
 
-1: Hiding Rows/Columns
-2: Unhiding Rows/Columns
-3: Hiding Multiple Rows/Columns</Description>
-                  <FolderName>HidingUnhidingRowsAndColumns</FolderName>
+To delete a column from the worksheet at any location, developers can call deleteColumns method of the Cells collection. deleteColumns method takes three parameters.
+
+- Column Index , the index of the column from where the column will be deleted
+- Number of Columns , total number of columns that need to be deleted
+- Shift Cells, Boolean parameter to indicate whether to shift the cells left after deletion.
+
+If developers need to delete multiple rows from the worksheet. It can also be done by calling the deleteRows method of the Cells collection. DeleteRows method takes two parameters:
+
+- Row Index , the index of the row from where the rows will be deleted
+- Number of Rows , total number of rows that need to be deleted</Description>
+                  <FolderName>DeletingRowsandColumns</FolderName>
                   <Order>2</Order>
-                  <Examples>
-                    <Example>
-                      <Title>Hiding Rows and Columns</Title>
-                      <Description>Developers can hide a row or column by calling the HideRow and HideColumn methods of the Cells collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.</Description>
-                      <FolderName>HidingRowsAndColumns</FolderName>
-                      <Order>1</Order>
-                      <DocLink>
-                        <DisplayName>Hiding Unhiding Rows and Columns</DisplayName>
-                        <Url>Hiding+Unhiding+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Unhiding Rows and Columns</Title>
-                      <Description>Developers can unhide any hidden row or column by calling the UnhideRow and UnhideColumn methods of the Cells collection respectively. Both methods take two parameters:
+                  <DocLink>
+                    <DisplayName>Deleting Rows and Columns</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/Inserting+Deleting+Rows+and+Columns</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.out.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Hiding Rows and Columns</Title>
+                  <Description>Sometimes, it may also be required by users to hide certain rows or columns of the worksheet and then display them later. Microsoft Excel provides this feature and so as Aspose.Cells.
 
-1: Row/Column Index represents the index of a row or column that is used to unhide the specific row or column.
-2: Row Height/Column Width represents row height or column width that can assigned to the row or column after unhiding.</Description>
-                      <FolderName>UnhidingRowsAndColumns</FolderName>
-                      <Order>2</Order>
-                      <DocLink>
-                        <DisplayName>Hiding Unhiding Rows and Columns</DisplayName>
-                        <Url>Hiding+Unhiding+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Hiding Multiple Rows and Columns</Title>
-                      <Description>Developers can hide multiple rows or columns at a time by calling the HideRows and HideColumns methods of the Cells collection respectively. Both methods can take the starting row/column index and rows/columns count to be hidden as parameters to hide the specific number of rows or columns.</Description>
-                      <FolderName>HidingMultipleRowsAndColumns</FolderName>
-                      <Order>3</Order>
-                      <DocLink>
-                        <DisplayName>Hiding Unhiding Rows and Columns</DisplayName>
-                        <Url>Hiding+Unhiding+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                  </Examples>
-                </Folder>
-                <Folder>
-                  <Title>Grouping Ungrouping Rows and Columns</Title>
-                  <Description>This section includes the following examples:
+Controlling the Visibility of Rows &amp; Columns:
+Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection that represents all cells in the worksheet.
 
-1: Grouping Rows &amp; Columns
-2: Ungrouping Rows &amp; Columns</Description>
-                  <FolderName>GroupingUngroupingRowsAndColumns</FolderName>
+Cells collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.
+
+Developers can hide a row or column by calling the HideRow and HideColumn methods of the Cells collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.</Description>
+                  <FolderName>HidingRowsandColumns</FolderName>
                   <Order>3</Order>
-                  <Examples>
-                    <Example>
-                      <Title>Grouping Rows and Columns</Title>
-                      <Description>Developers can group rows or columns by calling the GroupRows and GroupColumns methods of the Cells collection respectively. Both methods take three parameters as follows:
+                  <DocLink>
+                    <DisplayName>Hiding Rows and Columns</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/Hiding+Unhiding+Rows+and+Columns</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.out.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Unhiding Rows and Columns</Title>
+                  <Description>Developers can unhide any hidden row or column by calling the UnhideRow and UnhideColumn methods of the Cells collection respectively. Both methods take two parameters:
 
-1: First Row/Column Index , represents the first row/column index to be grouped
-2: Last Row/Column Index , represents the last row/column index to be grouped
-3: Is Hidden , a boolean parameter to specify that whether to hide rows/columns after grouping or not</Description>
-                      <FolderName>GroupingRowsAndColumns</FolderName>
-                      <Order>1</Order>
-                      <DocLink>
-                        <DisplayName>Grouping Ungrouping Rows and Columns</DisplayName>
-                        <Url>Grouping+Ungrouping+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Ungrouping Rows and Columns</Title>
-                      <Description>Developers can ungroup any grouped rows or columns by calling the UngroupRows and UngroupColumns methods of the Cells collection respectively. Both methods take two parameters:
+- Row/Column Index , represents the index of a row or column that is used to unhide the specific row or column
+- Row Height/Column Width , represents row height or column width that can assigned to the row or column after unhiding</Description>
+                  <FolderName>UnhidingRowsandColumns</FolderName>
+                  <Order>4</Order>
+                  <DocLink>
+                    <DisplayName>Unhiding Rows and Columns</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/Hiding+Unhiding+Rows+and+Columns</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.out.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Grouping Rows and Columns</Title>
+                  <Description>In an Excel file, you can create an outline for your data to let you show and hide levels of detail with a single mouse click. You can click the Outline Symbols , 1,2,3 , + and - to quickly display only the rows or columns that provide summaries or headings for sections of your worksheet or you can use the symbols to see details under an individual summary or heading.
 
-1: First Row/Column Index , represents the first row/column index to be ungrouped
-2: Last Row/Column Index , represents the last row/column index to be ungrouped</Description>
-                      <FolderName>UngroupingRowsAndColumns</FolderName>
-                      <Order>2</Order>
-                      <DocLink>
-                        <DisplayName>Grouping Ungrouping Rows and Columns</DisplayName>
-                        <Url>Grouping+Ungrouping+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                  </Examples>
-                </Folder>
-                <Folder>
+Group Management of Rows &amp; Columns
+Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection that represents all cells in the worksheet.
+
+Cells collection provides several methods to manage rows or columns in a worksheet, few of these are discussed below in more detail.
+
+Grouping Rows &amp; Columns
+Developers can group rows or columns by calling the groupRows and groupColumns methods of the Cells collection respectively. Both methods take three parameters as follows:
+
+- First Row/Column Index , represents the first row/column index to be grouped
+- Last Row/Column Index , represents the last row/column index to be grouped
+- Is Hidden , a boolean parameter to specify that whether to hide rows/columns after grouping or not</Description>
+                  <FolderName>GroupingRowsandColumns</FolderName>
+                  <Order>5</Order>
+                  <DocLink>
+                    <DisplayName>Grouping Rows and Columns</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/Grouping+Ungrouping+Rows+and+Columns</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.out.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Ungrouping Rows and Columns</Title>
+                  <Description>Ungrouping Rows &amp; Columns
+Developers can ungroup any grouped rows or columns by calling the UngroupRows and UngroupColumns methods of the Cells collection respectively. Both methods take two parameters:
+
+- First Row/Column Index , represents the first row/column index to be ungrouped
+- Last Row/Column Index , represents the last row/column index to be ungrouped</Description>
+                  <FolderName>UngroupingRowsandColumns</FolderName>
+                  <Order>6</Order>
+                  <DocLink>
+                    <DisplayName>Ungrouping Rows and Columns</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/Grouping+Ungrouping+Rows+and+Columns</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.out.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
                   <Title>Adjusting Row Height and Column Width</Title>
                   <Description>When we work with spreadsheets and add data to rows or columns, we might need to increase or decrease the height of the rows or width of the columns. Sometimes, just because of applying some formatting settings on the rows or columns, we also may need to do so. Normally, you adjust your row heights and column widths in a WYSIWYG environment using Microsoft Excel. But, Aspose.Cells gives you the power to perform these operations at runtime.
 
-This section includes the following examples:
+Adjusting Row Height
+Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection that represents all cells in the worksheet.
 
-1: Setting the Height of a Row
-2: Setting the Height of All Rows in a Worksheet
-3: Setting the Width of a Column
-4: Setting the Width of All Columns in a Worksheet</Description>
-                  <FolderName>AdjustingRowHeightAndColumnWidth</FolderName>
-                  <Order>4</Order>
-                  <Examples>
-                    <Example>
-                      <Title>Setting the Height of a Row</Title>
-                      <Description>Developers can set the height of a single row by calling SetRowHeight method of the Cells collection. SetRowHeight method takes two parameters as follows:* Row Index , represents the index of the row whose height is needed to change* Row Height , represents the desired row height to apply on the row.</Description>
-                      <FolderName>SettingHeightOfRow</FolderName>
-                      <Order>1</Order>
-                      <DocLink>
-                        <DisplayName>Adjusting Row Height and Column Width</DisplayName>
-                        <Url>Adjusting+Row+Height+and+Column+Width</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Setting the Height of All Rows in a Worksheet</Title>
-                      <Description>If developers need to set the same row height for all rows in the worksheet, they can do it by using the StandardHeight property of the Cells collection.</Description>
-                      <FolderName>SettingHeightOfAllRowsInWorksheet</FolderName>
-                      <Order>2</Order>
-                      <DocLink>
-                        <DisplayName>Adjusting Row Height and Column Width</DisplayName>
-                        <Url>Adjusting+Row+Height+and+Column+Width</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Setting the Width of a Column</Title>
-                      <Description>Developers can set the width of a column by calling SetColumnWidth method of the Cells collection. SetColumnWidth method takes two parameters as follows:* Column Index , represents the index of the column whose width is needed to change* Column Width , represents the desired column width to apply on the column.</Description>
-                      <FolderName>SettingWidthOfColumn</FolderName>
-                      <Order>3</Order>
-                      <DocLink>
-                        <DisplayName>Adjusting Row Height and Column Width</DisplayName>
-                        <Url>Adjusting+Row+Height+and+Column+Width</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Setting the Width of All Columns in a Worksheet</Title>
-                      <Description>If developers need to set the same column width for all columns in the worksheet, they can do it by using the StandardWidth property of the Cells collection.</Description>
-                      <FolderName>SettingWidthOfAllColumns</FolderName>
-                      <Order>4</Order>
-                      <DocLink>
-                        <DisplayName>Adjusting Row Height and Column Width</DisplayName>
-                        <Url>Adjusting+Row+Height+and+Column+Width</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                  </Examples>
-                </Folder>
-                <Folder>
+Cells collection provides several methods to manage rows or columns in a worksheet
+
+Developers can set the height of a single row by calling setRowHeight method of the Cells collection. setRowHeight method takes two parameters as follows:
+
+- Row Index , represents the index of the row whose height is needed to change
+- Row Height , represents the desired row height to apply on the row
+
+Setting the Height of All Rows in a Worksheet
+If developers need to set the same row height for all rows in the worksheet, they can do it by using the set StandardHeight method of the Cells collection.
+
+Developers can set the width of a column by calling s etColumnWidth method of the Cells collection. setColumnWidth method takes two parameters as follows:
+
+- Column Index , represents the index of the column whose width is needed to change
+- Column Width , represents the desired column width to apply on the column
+
+Setting the Width of All Columns in a Worksheet
+If developers need to set the same column width for all columns in the worksheet, they can do it by using the setStandardWidth method of the Cells collection.</Description>
+                  <FolderName>AdjustingRowHeightandColumnWidth</FolderName>
+                  <Order>7</Order>
+                  <DocLink>
+                    <DisplayName>Adjusting Row Height and Column Width</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/Adjusting+Row+Height+and+Column+Width</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.output.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>AutoFit Rows and Columns</Title>
+                  <Description>Microsoft Excel provides a good feature to Auto Size the width and height of a cell according to its content. This feature is also available to Aspose.Cells users with the power of auto sizing the dimensions of a cell at runtime.
+
+AutoFitting the Contents
+Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a WorksheetCollection that allows to access each worksheet in the Excel file.
+
+A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet. But, in this topic, we will see that how can we use Worksheet class to AutoFit rows or columns.
+
+AutoFit Row - Simple
+The most simple approach of auto-sizing the width and height of a row is to call the autoFitRow method of the Worksheet class. autoFitRow method takes the row index (of the row whose auto-sizing is desired) as a parameter.
+
+AutoFit Column - Simple
+The simplest approach of auto-sizing the width and height of a column is to call the autoFitColumn method of the Worksheet class. autoFitColumn method takes the column index (of the column whose auto-sizing is desired) as a parameter.</Description>
+                  <FolderName>AutoFitRowsandColumns</FolderName>
+                  <Order>9</Order>
+                  <DocLink>
+                    <DisplayName>AutoFit Rows and Columns</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.out.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
                   <Title>Copying Rows and Columns</Title>
-                  <Description>Ometimes, you 'll need to copy rows and columns in a worksheet without copying the entire worksheet. Aspose.Cells has this ability to copy rows and columns within or between workbooks. When you copy a row / column, it will copy all the data that the row / column contains, including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc with high degree of accuracy and precision.
+                  <Description>Sometimes, you 'll need to copy rows and columns in a worksheet without copying the entire worksheet. Aspose.Cells has this ability to copy rows and columns within or between workbooks. When you copy a row / column, it will copy all the data that the row / column contains, including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc with high degree of accuracy and precision.
 
-This section includes the following examples:
+Using MS Excel - Copying Rows and Columns:
+- Select the row or column that you want to copy.
+- To copy rows or columns, click Copy on the Standard toolbar, or press CTRL+C .
+- Select a row or column below or to the right of where you want to copy your selection.
+- When you are copying rows or columns, click Copied Cells on the Insert menu.
+Note If you click Paste on the Standard toolbar or press CTRL+V instead of clicking a command on the Insert menu, you will replace any contents of the destination cells.
 
-1: Copying Rows
-2: Copying Columns</Description>
-                  <FolderName>CopyingRowsAndColumns</FolderName>
-                  <Order>5</Order>
-                  <Examples>
-                    <Example>
-                      <Title>Copying Rows</Title>
-                      <Description>Aspose.Cells provides CopyRow method of the Aspose.Cells.Cells class, this method copies all types of data including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc. from the source row to the destination row. This method takes three parameters i.e. source Cells object, source row index and destination row index. You may utilize this method to copy a row within a workbook sheets or to another workbook sheets. The CopyRow method works in the similar way as MS Excel. So, you  don't really need to set row height for the destination row as per the source row height, the destination row height would be of same to the source row height.</Description>
-                      <FolderName>CopyingRows</FolderName>
-                      <Order>1</Order>
-                      <DocLink>
-                        <DisplayName>Copying Rows and Columns</DisplayName>
-                        <Url>Copying+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                    <Example>
-                      <Title>Copying Columns</Title>
-                      <Description>Aspose.Cells provides CopyColumn method of the Aspose.Cells.Cells class, this method copies all types of data including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc. from the source column to the destination column. This method takes three parameters i.e. source Cells object, source column index and destination column index. You may utilize this method to copy a column within a workbook sheets or to another workbook sheets.</Description>
-                      <FolderName>CopyingColumns</FolderName>
-                      <Order>2</Order>
-                      <DocLink>
-                        <DisplayName>Copying Rows and Columns</DisplayName>
-                        <Url>Copying+Rows+and+Columns</Url>
-                      </DocLink>
-                      <InputFiles>
-                        <DataFile>
-                          <Path>..\Data\book1.xls</Path>
-                        </DataFile>
-                      </InputFiles>
-                      <OutputFiles>
-                        <DataFile>
-                          <Path>..\Data\output.xls</Path>
-                        </DataFile>
-                      </OutputFiles>
-                      <Type>Console</Type>
-                    </Example>
-                  </Examples>
-                </Folder>
-              </Folders>
-            </Folder>
+Using Aspose.Cells - Copying Rows
+Aspose.Cells provides copyRow method of the Cells class, this method copies all types of data including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc. from the source row to the destination row. This method takes three parameters i.e. source Cells object, source row index and destination row index. You may utilize this method to copy a row within a workbook sheets or to another workbook sheets. The copyRow method works in the similar way as MS Excel. So, you don't really need to set row height for the destination row as per the source row height, the destination row height would be of same to the source row height.</Description>
+                  <FolderName>CopyingRowsandColumns</FolderName>
+                  <Order>10</Order>
+                  <DocLink>
+                    <DisplayName>Copying Rows and Columns</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/Copying+Rows+and+Columns</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.out.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>AutoFit Rows and Columns in a Range of Cells</Title>
+                  <Description>AutoFit Row in a Range of Cells
+We know that one row is composed of many columns/cells. Aspose.Cells also allows developers to auto-fit a row based on the content in a range of cells within the row by calling an overloaded version of autoFitRow method that takes three parameters as follows:
+
+- Row Index , represents the index of the row whose contents need to auto-fit
+- First Column Index , represents the index of the first column of the row
+- Last Column Index , represents the index of the last column of the row
+This method will check the contents of all columns in the row and then auto-fit the row.
+
+AutoFit Column in a Range of Cells
+One column is composed of many rows/cells. Developers can auto-fit a column based on the content in a range of cells within the column by calling an overloaded version of autoFitColumn method that takes three parameters as follows:
+
+- Column Index , represents the index of the column whose contents need to auto-fit
+- First Row Index , represents the index of the first row of the column
+- Last Row Index , represents the index of the last row of the column
+This method will check the contents of all rows in the column and then auto-fit the column.
+
+Important to Know
+If a cell is merged then AutoFit methods will not be applied on that cell, which is same as that of Microsoft Excel. Moreover, if a cell's text is wrapped, AutFitColumn method will not be applied on it also. Another important thing to know is that AutoFit methods are time consuming methods. So, you should call these methods as less as possible to ensure your application's efficiency..</Description>
+                  <FolderName>AutoFitRowsandColumnsinaRangeofCells</FolderName>
+                  <Order>8</Order>
+                  <DocLink>
+                    <DisplayName>AutoFit Rows and Columns in a Range of Cells</DisplayName>
+                    <Url>http://www.aspose.com/docs/display/cellsjava/AutoFit+Rows+and+Columns</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\Data\workbook.out.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+              </Examples>
+            </Folder>			
             <Folder>
               <Title>Working with Data</Title>
               <Description>This section includes the following:
@@ -1608,75 +1477,7 @@ The Sort method accepts the following parameters:
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
-                        </Example>
-                        <Example>
-                          <Title>Importing from DataTable</Title>
-                          <Description>Developers can import data from a DataTable to their worksheets by calling the ImportDataTable method of the Cells collection. There are many overloaded versions of the ImportDataTable method but a typical overload takes the following parameters:
-
-1: DataTable , represents the DataTable object whose contents need to import
-2: Is Field Name Shown , specifies that whether the names of the columns of DataTable should be imported to worksheet as a first row or not
-3: Start Cell , represents the name of the start cell (i.e. "A1") from where to import the contents of the DataTable</Description>
-                          <FolderName>ImportingFromDataTable</FolderName>
-                          <Order>3</Order>
-                          <DocLink>
-                            <DisplayName>Importing Data to Worksheets</DisplayName>
-                            <Url>Importing+Data+to+Worksheets</Url>
-                          </DocLink>
-                          <OutputFiles>
-                            <DataFile>
-                              <Path>..\Data\DataImport.xls</Path>
-                            </DataFile>
-                          </OutputFiles>
-                          <Type>Console</Type>
-                        </Example>
-                        <Example>
-                          <Title>Importing from Custom Object</Title>
-                          <Description>Developers can import data from collection of objects to a worksheet using ImportCustomObjects . You can provide a list of columns/properties to the method to display your desired list of objects.</Description>
-                          <FolderName>ImportingFromCustomObject</FolderName>
-                          <Order>4</Order>
-                          <DocLink>
-                            <DisplayName>Importing Data to Worksheets</DisplayName>
-                            <Url>Importing+Data+to+Worksheets</Url>
-                          </DocLink>
-                          <OutputFiles>
-                            <DataFile>
-                              <Path>..\Data\ImportedCustomObjects.xls</Path>
-                            </DataFile>
-                          </OutputFiles>
-                          <Type>Console</Type>
-                        </Example>
-                        <Example>
-                          <Title>Importing from DataColumn</Title>
-                          <Description>We know that a DataTable or DataView object is composed of one or more than one columns, which are represented as objects of DataColumn class. Developers can also import data from any DataColumn of the DataTable or DataView by calling the ImportDataColumn method of the Cells collection.</Description>
-                          <FolderName>ImportingFromDataColumn</FolderName>
-                          <Order>5</Order>
-                          <DocLink>
-                            <DisplayName>Importing Data to Worksheets</DisplayName>
-                            <Url>Importing+Data+to+Worksheets</Url>
-                          </DocLink>
-                          <OutputFiles>
-                            <DataFile>
-                              <Path>..\Data\DataImport.xls</Path>
-                            </DataFile>
-                          </OutputFiles>
-                          <Type>Console</Type>
-                        </Example>
-                        <Example>
-                          <Title>Importing from DataView</Title>
-                          <Description>Developers can import data from a DataView to their worksheets by calling the ImportDataView method of the Cells collection.</Description>
-                          <FolderName>ImportingFromDataView</FolderName>
-                          <Order>6</Order>
-                          <DocLink>
-                            <DisplayName>Importing Data to Worksheets</DisplayName>
-                            <Url>Importing+Data+to+Worksheets</Url>
-                          </DocLink>
-                          <OutputFiles>
-                            <DataFile>
-                              <Path>..\Data\DataImport.xls</Path>
-                            </DataFile>
-                          </OutputFiles>
-                          <Type>Console</Type>
-                        </Example>
+                        </Example>  
                       </Examples>
                     </Folder>
                   </Folders>
