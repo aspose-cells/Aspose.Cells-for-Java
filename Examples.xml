@@ -4,7 +4,7 @@
     <Folder>
       <Title>Programmers Guide</Title>
       <Description>Programmers Guide provides code samples about key programming concepts to build .NET and other applications that use Aspose.Cells for .NET</Description>
-      <FolderName>ProgrammersGuide</FolderName>
+      <FolderName>programmersguide</FolderName>
       <Order>1</Order>
       <Folders>
         <Folder>
@@ -25,25 +25,25 @@
 - Working with CellsHelper Methods
 - Advanced Topics
 - Utilize Aspose.Cells in other Programming Languages</Description>
-          <FolderName>AsposeCells</FolderName>
+          <FolderName>asposecells</FolderName>
           <Order>1</Order>
           <Folders>
             <Folder>
               <Title>Working With Files</Title>
               <Description>Contains examples for file handling and utility features.</Description>
-              <FolderName>WorkingWithFiles</FolderName>
+              <FolderName>workingwithfiles</FolderName>
               <Order>1</Order>
               <Folders>
                 <Folder>
                   <Title>Utility Features</Title>
                   <Description>Includes Examples for Rendering/Conversion to other formats, Managing Document Properties and Encryption of Documents etc.</Description>
-                  <FolderName>UtilityFeatures</FolderName>
+                  <FolderName>utilityfeatures</FolderName>
                   <Order>1</Order>
                   <Examples>
                     <Example>
                       <Title>Excel to PDF Conversion</Title>
                       <Description>Aspose.Cells for .NET supports conversion from spreadsheets to PDF independently of other software. Save an Excel file to PDF using the Workbook class' Save method. The Save method provides the SaveFormat.Pdf enum member that converts the native Excel files to PDF format.</Description>
-                      <FolderName>Excel2PDFConversion</FolderName>
+                      <FolderName>excel2pdfconversion</FolderName>
                       <Order>1</Order>
                       <DocLink>
                         <DisplayName>Converting to PDF Files</DisplayName>
@@ -51,12 +51,12 @@
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\outBook1.pdf</Path>
+                          <Path>..\data\outBook1.pdf</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -64,7 +64,7 @@
                     <Example>
                       <Title>Chart To Image</Title>
                       <Description>Example to convert charts in Excel files to images. This helps to present data in an easy to read and easy to maintain way for users.</Description>
-                      <FolderName>ChartToImage</FolderName>
+                      <FolderName>charttoimage</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Converting Chart to Image</DisplayName>
@@ -72,7 +72,7 @@
                       </DocLink>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\Chart.emf</Path>
+                          <Path>..\data\Chart.emf</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -80,7 +80,7 @@
                     <Example>
                       <Title>Worksheet to Image</Title>
                       <Description>Aspose.Cells supports converting Excel worksheets to images. To use this feature, you need to import the Aspose.Cells.Rendering namespace to your program or  and use ToImage method, that can convert a worksheet to image file(s) with different attributes or options.</Description>
-                      <FolderName>WorksheetToImage</FolderName>
+                      <FolderName>worksheettoimage</FolderName>
                       <Order>3</Order>
                       <DocLink>
                         <DisplayName>Converting Worksheet to Image</DisplayName>
@@ -88,12 +88,12 @@
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\MyTestBook1.xls</Path>
+                          <Path>..\data\MyTestBook1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\SheetImage.jpg</Path>
+                          <Path>..\data\SheetImage.jpg</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -104,7 +104,7 @@
 An XPS file is in fact a Unicoded ZIP archive using the Open Packaging Conventions, containing the files which make up the document. These include an XML markup file for each page, text, embedded fonts, raster images, 2D vector graphics, as well as the digital rights management information. The contents of an XPS file can be examined simply by opening it in an application which supports ZIP files.
 
 You might require to convert Excel files to XPS files. Since the release of v6.0.0, Aspose.Cells supports Excel-to-XPS feature.</Description>
-                      <FolderName>ConvertingToXPS</FolderName>
+                      <FolderName>convertingtoxps</FolderName>
                       <Order>4</Order>
                       <DocLink>
                         <DisplayName>Converting to XPS</DisplayName>
@@ -112,15 +112,15 @@ You might require to convert Excel files to XPS files. Since the release of v6.0
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\out_printingxps.xps</Path>
+                          <Path>..\data\out_printingxps.xps</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\out_whole_printingxps.xps</Path>
+                          <Path>..\data\out_whole_printingxps.xps</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -133,7 +133,7 @@ You might require to convert Excel files to XPS files. Since the release of v6.0
 - User Defined (Custom) Properties
 
 Built-in properties contain general information about the document like document title, author's name, document statistics and so on. Custom properties are those ones, which are defined by the users as Name/Value pairs, where both name and value are defined by the user. The most important point to know about the built-in and custom properties is that built-in properties can be accessed and modified only but not created or removed because these properties are system defined. However, custom properties can be created and managed freely by the developers because these properties are defined by the users.</Description>
-                      <FolderName>ManagingDocumentProperties</FolderName>
+                      <FolderName>managingdocumentproperties</FolderName>
                       <Order>5</Order>
                       <DocLink>
                         <DisplayName>Managing Document Properties</DisplayName>
@@ -141,15 +141,15 @@ Built-in properties contain general information about the document like document
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\Test_Workbook.xls</Path>
+                          <Path>..\data\Test_Workbook.xls</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\Test_Workbook_RemovedProperty.xls</Path>
+                          <Path>..\data\Test_Workbook_RemovedProperty.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -159,7 +159,7 @@ Built-in properties contain general information about the document like document
                       <Description>Microsoft Excel (97 - 2007) enables you to encrypt / password protect your spreadsheets. It utilizes algorithms provided by Crypto Service Provider. A Crypto Service Provider or CSP is a set of cryptographic algorithms with different properties. The default CSP is "Office 97/2000 Compatible" or "Week Encryption (XOR)". It's also important to choose a proper encryption key length. Some of the Crypto Service Providers don't support more than 40 or 56 bits. That's considered to be a weak encryption type. But, for strong encryption type, a minimum key length of 128 bits is required. Microsoft Windows contains Crypto Service Providers that offer strong encryption types as well, for example the 'Microsoft Strong Cryptographic Provider'. To give an idea, 128 bits encryption is what banks use to encrypt the connection with their Internet Banking systems. Aspose.Cells allows you to encrypt / password protect your excel files with your desired encryption type.
 
 This example shows how you can encrypt / password protect an excel file using the Aspose.Cells API.</Description>
-                      <FolderName>EncryptingFiles</FolderName>
+                      <FolderName>encryptingfiles</FolderName>
                       <Order>6</Order>
                       <DocLink>
                         <DisplayName>Encrypting Files</DisplayName>
@@ -167,12 +167,12 @@ This example shows how you can encrypt / password protect an excel file using th
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\encryptedBook1.xls</Path>
+                          <Path>..\data\encryptedBook1.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -187,7 +187,7 @@ To use this feature, you need to import the Aspose.Cells.Rendering namespace to 
 The Aspose.Cells.Rendering.ImageOrPrintOptions class specifies that the worksheet will be saved in SVG format.
 
 The Aspose.Cells.Rendering.SheetRender class takes the object of ImageOrPrintOptions as a parameter. It has an overloaded method, ToImage, that converts a worksheet to SVG format.</Description>
-                      <FolderName>ConvertingWorksheetToSVG</FolderName>
+                      <FolderName>convertingworksheettosvg</FolderName>
                       <Order>7</Order>
                       <DocLink>
                         <DisplayName>Converting Worksheet to SVG</DisplayName>
@@ -195,15 +195,15 @@ The Aspose.Cells.Rendering.SheetRender class takes the object of ImageOrPrintOpt
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Template.xlsx</Path>
+                          <Path>..\data\Template.xlsx</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\Template.xlsxSheet10.out.svg</Path>
+                          <Path>..\data\Template.xlsxSheet10.out.svg</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\Template.xlsxSheet20.out.svg</Path>
+                          <Path>..\data\Template.xlsxSheet20.out.svg</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -212,7 +212,7 @@ The Aspose.Cells.Rendering.SheetRender class takes the object of ImageOrPrintOpt
                       <Title>Converting to MHTML Files</Title>
                       <Description>MHTML combines normal HTML with external resources (that is, content that is usually linked in like images, animations, audio and so on) into one file. They are used for emails with the .mht file extension.
 Aspose.Cells supports reading and writing MHTML files.</Description>
-                      <FolderName>ConvertingToMHTMLFiles</FolderName>
+                      <FolderName>convertingtomhtmlfiles</FolderName>
                       <Order>8</Order>
                       <DocLink>
                         <DisplayName>Converting to MHTML Files</DisplayName>
@@ -220,12 +220,12 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xlsx</Path>
+                          <Path>..\data\Book1.xlsx</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xlsx.out.mht</Path>
+                          <Path>..\data\Book1.xlsx.out.mht</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -239,13 +239,13 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
 - Opening Files
 - Saving Files
 - Save Entire Workbook into Text or CSV Format</Description>
-                  <FolderName>FileHandlingFeatures</FolderName>
+                  <FolderName>filehandlingfeatures</FolderName>
                   <Order>2</Order>
                   <Examples>
                     <Example>
                       <Title>Opening Files</Title>
                       <Description>Developers can make use of Aspose.Cells to open existing files for different purposes. For example, you can open an existing file to retrieve data from it or you can use a pre-defined Designer Spreadsheet file to speed up your development process etc. Aspose.Cells allows developers to open different kinds of source files. These source files can be Excel reports (XLS, XLSX, XLSM, XLSB etc.), SpreadsheetML, CSV or Tab Delimited files. In this example, we will show how opening of these different kinds of source files is performed using Aspose.Cells.</Description>
-                      <FolderName>OpeningFiles</FolderName>
+                      <FolderName>openingfiles</FolderName>
                       <Order>1</Order>
                       <DocLink>
                         <DisplayName>Opening Files</DisplayName>
@@ -253,31 +253,31 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xlsx</Path>
+                          <Path>..\data\Book1.xlsx</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\Book_Excel2007.xlsx</Path>
+                          <Path>..\data\Book_Excel2007.xlsx</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\Book2.xls</Path>
+                          <Path>..\data\Book2.xls</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\Book_Excel97_2003.xls</Path>
+                          <Path>..\data\Book_Excel97_2003.xls</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\Book3.xml</Path>
+                          <Path>..\data\Book3.xml</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\Book_CSV.csv</Path>
+                          <Path>..\data\Book_CSV.csv</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\Book1TabDelimited.txt</Path>
+                          <Path>..\data\Book1TabDelimited.txt</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\encryptedBook.xls</Path>
+                          <Path>..\data\encryptedBook.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <Type>Console</Type>
@@ -285,7 +285,7 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
                     <Example>
                       <Title>Save Entire Workbook into Text or CSV Format</Title>
                       <Description>Sometimes, you want to convert/save the entire workbook with multiple worksheets into text format. For text formats (e.g Txt, Tab Delimited, CSV etc), by default both Ms-Excel and Aspose.Cells save the contents of active worksheet only.</Description>
-                      <FolderName>SaveWorkbookToTextCSVFormat</FolderName>
+                      <FolderName>saveworkbooktotextcsvformat</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Save Entire Workbook into Text or CSV Format</DisplayName>
@@ -293,12 +293,12 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\out.txt</Path>
+                          <Path>..\data\out.txt</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -306,7 +306,7 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
                     <Example>
                       <Title>Saving Files</Title>
                       <Description>Aspose.Cells allows developers to create Excel files from scratch using its flexible API, you may also manipulate existing files. Once you create Excel files, you would also need to save your work (file). Aspose.Cells provides a variety of ways to save these files. In this topic, we will discuss all those possible ways that can be adopted by developers to save their files.</Description>
-                      <FolderName>SavingFiles</FolderName>
+                      <FolderName>savingfiles</FolderName>
                       <Order>3</Order>
                       <DocLink>
                         <DisplayName>Saving Files</DisplayName>
@@ -314,25 +314,25 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
                       </DocLink>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.html</Path>
+                          <Path>..\data\book1.html</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\book1.ods</Path>
+                          <Path>..\data\book1.ods</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\book1.pdf</Path>
+                          <Path>..\data\book1.pdf</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\book1.xlsb</Path>
+                          <Path>..\data\book1.xlsb</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\book1.xlsx</Path>
+                          <Path>..\data\book1.xlsx</Path>
                         </DataFile>
                         <DataFile>
-                          <Path>..\Data\book1.xml</Path>
+                          <Path>..\data\book1.xml</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -350,7 +350,7 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
 - Security Features
 - Page Setup Features
 - Value Features</Description>
-              <FolderName>WorkingWithWorksheets</FolderName>
+              <FolderName>workingwithworksheets</FolderName>
               <Order>2</Order>
               <Folders>
                 <Folder>
@@ -366,7 +366,7 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
 - Zoom Factor
 - Freeze Panes
 - Split Panes</Description>
-                  <FolderName>DisplayFeatures</FolderName>
+                  <FolderName>displayfeatures</FolderName>
                   <Order>1</Order>
                   <Examples>
                     <Example>
@@ -376,7 +376,7 @@ Aspose.Cells supports reading and writing MHTML files.</Description>
 Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a Worksheets collection that allows to access each worksheet in the Excel file.
 
 A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet. But, to control the visibility of a worksheet, developers may use IsVisible property of the Worksheet class. IsVisible is a boolean property, which means that it can only store a true or false value. This example elaborates the use of this property according to his/her requirements.</Description>
-                      <FolderName>HideUnhideWorksheet</FolderName>
+                      <FolderName>hideunhideworksheet</FolderName>
                       <Order>1</Order>
                       <DocLink>
                         <DisplayName>Hide or Unhide a Worksheet</DisplayName>
@@ -384,12 +384,12 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -399,7 +399,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                       <Description>Sheet Tabs are the tabs that represent all worksheets in the Excel file. You can click on any desired tab to switch to a particular worksheet. The more worksheets you have, the more sheet tabs will be created. If your Excel file has a good number of worksheets then you would also need some buttons to navigate through all of these sheet tabs.
 
 Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class provides a wide range of properties and methods to manage an Excel file. But, to control the visibility of the tabs in the Excel file, developers may use ShowTabs property of the Workbook class. ShowTabs is a boolean property, which means that it can only store a true or false value. Developers can hide the tabs of the Excel file by setting the ShowTabs property of the Workbook class to false. In this example this is explained in detail.</Description>
-                      <FolderName>DisplayHideTabs</FolderName>
+                      <FolderName>displayhidetabs</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Display or Hide Tabs</DisplayName>
@@ -407,12 +407,12 @@ Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook 
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -420,7 +420,7 @@ Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook 
                     <Example>
                       <Title>Display or Hide Scroll Bars</Title>
                       <Description>Microsoft Excel also provides Horizontal &amp; Vertical Scroll Bars to scroll through the contents of the worksheets. Using Aspose.Cells, developers can control the visibility of both of these scroll bars in their Excel files. Developers can hide the vertical or horizontal scroll bars of the Excel file by setting the IsVScrollBarVisible or IsHScrollBarVisible property of the Workbook class to false. This example describes the use of this property in detail.</Description>
-                      <FolderName>DisplayHideScrollBars</FolderName>
+                      <FolderName>displayhidescrollbars</FolderName>
                       <Order>3</Order>
                       <DocLink>
                         <DisplayName>Display or Hide Scroll Bars</DisplayName>
@@ -428,12 +428,12 @@ Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook 
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -443,7 +443,7 @@ Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook 
                       <Description>All Excel worksheets have Gridlines by default, which helps us in entering data to particular cells of a worksheet. Gridlines enable us to view a worksheet as a collection of cells, where each cell is easily identifiable. Using, Aspose.Cells , developers can also control the visibility of the gridlines in their worksheets.
 
 Developers can hide gridlines by setting the IsGridlinesVisible property of the Worksheet class to false. In this example this is explained in detail.</Description>
-                      <FolderName>DisplayHideGridlines</FolderName>
+                      <FolderName>displayhidegridlines</FolderName>
                       <Order>4</Order>
                       <DocLink>
                         <DisplayName>Display or Hide Gridlines</DisplayName>
@@ -451,12 +451,12 @@ Developers can hide gridlines by setting the IsGridlinesVisible property of the 
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -469,7 +469,7 @@ Developers can hide gridlines by setting the IsGridlinesVisible property of the 
 - Page Break Preview
 
 Normal View is the default view of a worksheet that we normally experience while working on worksheets where as Page Break Preview is an editing view that displays a worksheet as it will print. Page Break Preview shows that what data will go on each page so, you can adjust the print area and page breaks. Using Aspose.Cells, developers can enable normal view or page break preview modes for their desired worksheets using IsPageBreakPreview property of the Worksheet class. IsPageBreakPreview is a boolean property, which means that it can only store a true or false value. This example describes the Page Break Preview in detail.</Description>
-                      <FolderName>PageBreakPreview</FolderName>
+                      <FolderName>pagebreakpreview</FolderName>
                       <Order>5</Order>
                       <DocLink>
                         <DisplayName>Page Break Preview</DisplayName>
@@ -477,12 +477,12 @@ Normal View is the default view of a worksheet that we normally experience while
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -491,7 +491,7 @@ Normal View is the default view of a worksheet that we normally experience while
                       <Title>Zoom Factor</Title>
                       <Description>Microsoft Excel provides a feature to set the Zoom or Scaling Factor of the worksheets. This feature helps users to see the contents of their worksheets in smaller or larger views. Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a Worksheets collection that allows to access each worksheet in the Excel file.
 A worksheet is represented by the Worksheet class. Worksheet class provides a wide range of properties and methods to manage a worksheet. But, to set the zoom factor of a worksheet, developers may use Zoom property of the Worksheet class. Developers can assign a numeric (integer) value to the Zoom property as a zoom factor. This example explains the usage of Zoom property in detail.</Description>
-                      <FolderName>ZoomFactor</FolderName>
+                      <FolderName>zoomfactor</FolderName>
                       <Order>6</Order>
                       <DocLink>
                         <DisplayName>Zoom Factor</DisplayName>
@@ -499,12 +499,12 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -512,7 +512,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                     <Example>
                       <Title>Display or Hide Row Column Headers</Title>
                       <Description>All worksheets in an Excel file are composed of cells that are arranged in the form of rows and columns. All rows and columns have unique values that are used to identify a particular row, column or cell. For example, rows are numbered as 1, 2, 3, 4 etc. and columns are ordered alphabetically as A, B, C, D etc. These values of the rows and columns are displayed as their headers. Rows and columns, both have their own row and column headers respectively. Using, Aspose.Cells , developers can control the visibility of these row/column headers in their worksheets.</Description>
-                      <FolderName>DisplayHideRowColumnHeaders</FolderName>
+                      <FolderName>displayhiderowcolumnheaders</FolderName>
                       <Order>7</Order>
                       <DocLink>
                         <DisplayName>Display or Hide Row Column Headers</DisplayName>
@@ -520,12 +520,12 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -533,7 +533,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                     <Example>
                       <Title>Freeze Panes</Title>
                       <Description>Freeze Panes is also another good feature provided by Microsoft Excel. Freezing panes allows you to select data that remains visible when scrolling in a worksheet. Aspose.Cells also allows developers to apply this freeze panes feature (offered by Microsoft Excel) in their worksheets at runtime using its robust API.</Description>
-                      <FolderName>FreezePanes</FolderName>
+                      <FolderName>freezepanes</FolderName>
                       <Order>8</Order>
                       <DocLink>
                         <DisplayName>Freeze Panes</DisplayName>
@@ -541,12 +541,12 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -554,7 +554,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                     <Example>
                       <Title>Split Panes</Title>
                       <Description>If you need to split the screen to give you two different views into the same worksheet, you split panes. Excel offers a very handy feature to allow you view more than one copy of your worksheet, and for you to be able to scroll through each pane of your worksheet independently. You can do this by using a feature called Split Panes. When you split panes. The panes of your worksheet work simultaneously. If you make a change in one, it will simultaneously appear in the other. Aspose.Cells provides Split Panes feature for the users.</Description>
-                      <FolderName>SplitPanes</FolderName>
+                      <FolderName>splitpanes</FolderName>
                       <Order>9</Order>
                       <DocLink>
                         <DisplayName>Split Panes</DisplayName>
@@ -562,12 +562,12 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\Splitted_out1.xls</Path>
+                          <Path>..\data\Splitted_out1.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -579,7 +579,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                   <Description>This Section includes following topics:
 
 1: Managing Worksheets</Description>
-                  <FolderName>ManagementFeatures</FolderName>
+                  <FolderName>managementfeatures</FolderName>
                   <Order>2</Order>
                   <Folders>
                     <Folder>
@@ -590,13 +590,13 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
 2: Add worksheets to an existing Excel file
 3: Remove a worksheet from an Excel file using its sheet name
 4: Remove a worksheet from an Excel file using its sheet index</Description>
-                      <FolderName>ManagingWorksheets</FolderName>
+                      <FolderName>managingworksheets</FolderName>
                       <Order>1</Order>
                       <Examples>
                         <Example>
                           <Title>Adding Worksheets to a New Excel File</Title>
                           <Description>To create a new Excel file programmatically, developers would need to create an object of Workbook class that represents an Excel file. Then developers can call Add method of the Worksheets collection. When we call Add method, an empty worksheet is added to the Excel file automatically, which can be referenced by passing the sheet index of the newly added worksheet to the Worksheets collection. After the worksheet reference is obtained, developers can work on their worksheets according to their requirements. After the work is done on the worksheets, developers can save their newly created Excel file with new worksheets by calling the Save method of the Workbook class.</Description>
-                          <FolderName>AddingWorksheetsToNewExcelFile</FolderName>
+                          <FolderName>addingworksheetstonewexcelfile</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Adding Worksheets to a New Excel File</DisplayName>
@@ -604,7 +604,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -612,7 +612,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                         <Example>
                           <Title>Adding Worksheets to an Existing PDF file</Title>
                           <Description>The process of adding worksheets to a designer spreadsheet is entirely same as that of the above approach except that the Excel file is already created and we need to open that Excel file first before adding worksheet to it. A designer spreadsheet can be opened by the Workbook class.</Description>
-                          <FolderName>AddWorksheetsToExistingExcelFile</FolderName>
+                          <FolderName>addworksheetstoexistingexcelfile</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Managing Worksheets</DisplayName>
@@ -620,12 +620,12 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -633,7 +633,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                         <Example>
                           <Title>Removing Worksheets using Sheet Name</Title>
                           <Description>Sometimes, developers may need to remove worksheets from existing Excel files and that task can be performed by calling the RemoveAt method of the Worksheets collection. We can pass sheet name to the RemoveAt method to remove a specific worksheet.</Description>
-                          <FolderName>RemovingWorksheetsUsingSheetName</FolderName>
+                          <FolderName>removingworksheetsusingsheetname</FolderName>
                           <Order>3</Order>
                           <DocLink>
                             <DisplayName>Managing Worksheets</DisplayName>
@@ -641,12 +641,12 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -654,7 +654,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                         <Example>
                           <Title>Removing Worksheets using Sheet Index</Title>
                           <Description>This examples showns how to remove a worksheet from a workbook using the index of the worksheet.</Description>
-                          <FolderName>RemovingWorksheetsUsingSheetIndex</FolderName>
+                          <FolderName>removingworksheetsusingsheetindex</FolderName>
                           <Order>4</Order>
                           <DocLink>
                             <DisplayName>Managing Worksheets</DisplayName>
@@ -662,12 +662,12 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -683,7 +683,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
 1: Protecting Worksheets
 2: Advanced Protection Settings since Excel XP
 3: Unprotect a Worksheet</Description>
-                  <FolderName>SecurityFeatures</FolderName>
+                  <FolderName>securityfeatures</FolderName>
                   <Order>3</Order>
                   <Examples>
                     <Example>
@@ -691,7 +691,7 @@ A worksheet is represented by the Worksheet class. Worksheet class provides a wi
                       <Description>All of these advanced protection settings in Excel XP are supported in Aspose.Cells. Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a Worksheets collection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class.
 
 Worksheet class provides Protection property that is used to apply these advanced protection settings of Excel XP on the worksheets. Protection property is in fact an object of Protection class that encapsulates several boolean properties to disable or enable the restrictions on the worksheets.</Description>
-                      <FolderName>AdvancedProtectionSettings</FolderName>
+                      <FolderName>advancedprotectionsettings</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Advanced Protection Settings since Excel XP</DisplayName>
@@ -699,12 +699,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -720,7 +720,7 @@ Worksheet class provides Protection property that is used to apply these advance
 3: Protecting Specific Row in a Worksheet.
 4: Protecting Specific Column in a Worksheet.
 5: Allow user to edit Ranges in a Worksheet.</Description>
-                      <FolderName>ProtectingWorksheets</FolderName>
+                      <FolderName>protectingworksheets</FolderName>
                       <Order>1</Order>
                       <Examples>
                         <Example>
@@ -730,7 +730,7 @@ Worksheet class provides Protection property that is used to apply these advance
 1: Protection Type, represents the type of protection to apply on the worksheet. Protection type is applied with the help of ProtectionType enumeration
 2: New Password, represents the new password that is used to protect the worksheet
 3: Old Password, represents the old password, if the worksheet is already protected by a password. If the worksheet is not already protected then just pass a null.</Description>
-                          <FolderName>ProtectingWorksheet</FolderName>
+                          <FolderName>protectingworksheet</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Protecting Worksheets</DisplayName>
@@ -738,12 +738,12 @@ Worksheet class provides Protection property that is used to apply these advance
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -751,7 +751,7 @@ Worksheet class provides Protection property that is used to apply these advance
                         <Example>
                           <Title>Protecting Specific Cells in a Worksheet</Title>
                           <Description>There might be certain scenarios where you need to lock a few cells only in the worksheet. If you want to lock some specific cells in the worksheet, you have to unlock all the other cells in the worksheet. All the cells in a worksheet are already initialized for locking, you may check this opening any excel file into MS Excel and click the Format | Cells..*to show *Format Cells dialog box and then click the Protection tab and see a check box labeled "Locked" is checked by default.</Description>
-                          <FolderName>ProtectingSpecificCellsinaWorksheet</FolderName>
+                          <FolderName>protectingspecificcellsinaworksheet</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Protecting Worksheets</DisplayName>
@@ -759,7 +759,7 @@ Worksheet class provides Protection property that is used to apply these advance
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -767,7 +767,7 @@ Worksheet class provides Protection property that is used to apply these advance
                         <Example>
                           <Title>Protecting Specific Row in a Worksheet</Title>
                           <Description>Aspose.Cells allows you to easily lock any row in the worksheet. Here, we can make use of ApplyStyle() method of Aspose.Cells.Row class to apply Style to a particular row in the worksheet. This method takes two arguments: a Style object and StyleFlag object which has all the members related to applied formatting.</Description>
-                          <FolderName>ProtectingSpecificRowInWorksheet</FolderName>
+                          <FolderName>protectingspecificrowinworksheet</FolderName>
                           <Order>3</Order>
                           <DocLink>
                             <DisplayName>Protecting Worksheets</DisplayName>
@@ -775,7 +775,7 @@ Worksheet class provides Protection property that is used to apply these advance
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -783,7 +783,7 @@ Worksheet class provides Protection property that is used to apply these advance
                         <Example>
                           <Title>Protecting Specific Column in a Worksheet</Title>
                           <Description>Aspose.Cells allows you to easily lock any column in the worksheet. Here, we can make use of ApplyStyle() method of Aspose.Cells.Column class to apply Style to a particular column in the worksheet. This method takes two arguments: a Style object and StyleFlag object which has all the members related to applied formatting.</Description>
-                          <FolderName>ProtectingSpecificColumnInWorksheet</FolderName>
+                          <FolderName>protectingspecificcolumninworksheet</FolderName>
                           <Order>4</Order>
                           <DocLink>
                             <DisplayName>Protecting Worksheets</DisplayName>
@@ -791,7 +791,7 @@ Worksheet class provides Protection property that is used to apply these advance
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -799,7 +799,7 @@ Worksheet class provides Protection property that is used to apply these advance
                         <Example>
                           <Title>Allow User to Edit Ranges in a Worksheet</Title>
                           <Description>The following example shows how to allow users to edit a range in a protected worksheet.</Description>
-                          <FolderName>AllowUserToEditRangesInWorksheet</FolderName>
+                          <FolderName>allowusertoeditrangesinworksheet</FolderName>
                           <Order>5</Order>
                           <DocLink>
                             <DisplayName>Protecting Worksheets</DisplayName>
@@ -807,7 +807,7 @@ Worksheet class provides Protection property that is used to apply these advance
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\protectedrange.xls</Path>
+                              <Path>..\data\protectedrange.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -820,13 +820,13 @@ Worksheet class provides Protection property that is used to apply these advance
 
 1: Unprotecting a Simply Protected Worksheet
 2: Unprotecting a Password Protected Worksheet</Description>
-                      <FolderName>UnprotectWorksheet</FolderName>
+                      <FolderName>unprotectworksheet</FolderName>
                       <Order>3</Order>
                       <Examples>
                         <Example>
                           <Title>Unprotecting a Simply Protected Worksheet</Title>
                           <Description>A simply protected worksheet is the one, which is not protected with a password. Such worksheets can be unprotected by calling the Unprotect method without passing a parameter.</Description>
-                          <FolderName>UnprotectingSimplyProtectedWorksheet</FolderName>
+                          <FolderName>unprotectingsimplyprotectedworksheet</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Unprotect a Worksheet</DisplayName>
@@ -834,12 +834,12 @@ Worksheet class provides Protection property that is used to apply these advance
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -847,7 +847,7 @@ Worksheet class provides Protection property that is used to apply these advance
                         <Example>
                           <Title>Unprotecting a Password Protected Worksheet</Title>
                           <Description>A password protected worksheet can be unprotected by calling an overloaded version of Unprotect method that takes the password (required to unprotect the worksheet) as a parameter.</Description>
-                          <FolderName>UnprotectingPasswordProtectedWorksheet</FolderName>
+                          <FolderName>unprotectingpasswordprotectedworksheet</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Unprotect a Worksheet</DisplayName>
@@ -855,12 +855,12 @@ Worksheet class provides Protection property that is used to apply these advance
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -881,7 +881,7 @@ Worksheet class provides Protection property that is used to apply these advance
 4: Adjusting Row Height and Column Width
 5: AutoFit Rows and Columns
 6: Copying Rows and Columns</Description>
-              <FolderName>WorkingWithRowsAndColumns</FolderName>
+              <FolderName>workingwithrowsandcolumns</FolderName>
               <Order>3</Order>
               <Folders>
                 <Folder>
@@ -894,13 +894,13 @@ Worksheet class provides Protection property that is used to apply these advance
 4: Deleting Multiple Rows
 5: Inserting a Column
 6: Deleting a Column</Description>
-                  <FolderName>InsertingDeletingRowsAndColumns</FolderName>
+                  <FolderName>insertingdeletingrowsandcolumns</FolderName>
                   <Order>1</Order>
                   <Examples>
                     <Example>
                       <Title>Inserting a Row</Title>
                       <Description>Developers can insert a row into the worksheet at any location by calling the InsertRow method of the Cells collection. InsertRow method takes the index of the row where the new row will be inserted.</Description>
-                      <FolderName>InsertingARow</FolderName>
+                      <FolderName>insertingarow</FolderName>
                       <Order>1</Order>
                       <DocLink>
                         <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
@@ -908,12 +908,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -924,7 +924,7 @@ Worksheet class provides Protection property that is used to apply these advance
 
 1: Row Index, the index of the row from where the new rows will be inserted
 2: Number of Rows, total number of rows that need to be inserted</Description>
-                      <FolderName>InsertingMultipleRows</FolderName>
+                      <FolderName>insertingmultiplerows</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
@@ -932,12 +932,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -945,7 +945,7 @@ Worksheet class provides Protection property that is used to apply these advance
                     <Example>
                       <Title>Deleting a Row</Title>
                       <Description>Developers can delete a row from the worksheet at any location by calling the DeleteRow method of the Cells collection. DeleteRow method takes the index of the row that needs to be deleted.</Description>
-                      <FolderName>DeletingARow</FolderName>
+                      <FolderName>deletingarow</FolderName>
                       <Order>3</Order>
                       <DocLink>
                         <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
@@ -953,12 +953,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -969,7 +969,7 @@ Worksheet class provides Protection property that is used to apply these advance
 
 1: Row Index, the index of the row from where the rows will be deleted.
 2: Number of Rows, total number of rows that need to be deleted.</Description>
-                      <FolderName>DeletingMultipleRows</FolderName>
+                      <FolderName>deletingmultiplerows</FolderName>
                       <Order>4</Order>
                       <DocLink>
                         <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
@@ -977,12 +977,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -990,7 +990,7 @@ Worksheet class provides Protection property that is used to apply these advance
                     <Example>
                       <Title>Inserting a Column</Title>
                       <Description>Developers can also insert a column into the worksheet at any location by calling the InsertColumn method of the Cells collection. InsertColumn method takes the index of the column where the new column will be inserted.</Description>
-                      <FolderName>InsertingAColumn</FolderName>
+                      <FolderName>insertingacolumn</FolderName>
                       <Order>5</Order>
                       <DocLink>
                         <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
@@ -998,12 +998,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1011,7 +1011,7 @@ Worksheet class provides Protection property that is used to apply these advance
                     <Example>
                       <Title>Deleting a Column</Title>
                       <Description>To delete a column from the worksheet at any location, developers can call DeleteColumn method of the Cells collection. DeleteColumn method takes the index of the column to delete.</Description>
-                      <FolderName>DeletingAColumn</FolderName>
+                      <FolderName>deletingacolumn</FolderName>
                       <Order>6</Order>
                       <DocLink>
                         <DisplayName>Inserting Deleting Rows and Columns</DisplayName>
@@ -1019,12 +1019,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1038,13 +1038,13 @@ Worksheet class provides Protection property that is used to apply these advance
 1: Hiding Rows/Columns
 2: Unhiding Rows/Columns
 3: Hiding Multiple Rows/Columns</Description>
-                  <FolderName>HidingUnhidingRowsAndColumns</FolderName>
+                  <FolderName>hidingunhidingrowsandcolumns</FolderName>
                   <Order>2</Order>
                   <Examples>
                     <Example>
                       <Title>Hiding Rows and Columns</Title>
                       <Description>Developers can hide a row or column by calling the HideRow and HideColumn methods of the Cells collection respectively. Both methods take the row/column index as a parameter to hide the specific row or column.</Description>
-                      <FolderName>HidingRowsAndColumns</FolderName>
+                      <FolderName>hidingrowsandcolumns</FolderName>
                       <Order>1</Order>
                       <DocLink>
                         <DisplayName>Hiding Unhiding Rows and Columns</DisplayName>
@@ -1052,12 +1052,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1068,7 +1068,7 @@ Worksheet class provides Protection property that is used to apply these advance
 
 1: Row/Column Index represents the index of a row or column that is used to unhide the specific row or column.
 2: Row Height/Column Width represents row height or column width that can assigned to the row or column after unhiding.</Description>
-                      <FolderName>UnhidingRowsAndColumns</FolderName>
+                      <FolderName>unhidingrowsandcolumns</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Hiding Unhiding Rows and Columns</DisplayName>
@@ -1076,12 +1076,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1089,7 +1089,7 @@ Worksheet class provides Protection property that is used to apply these advance
                     <Example>
                       <Title>Hiding Multiple Rows and Columns</Title>
                       <Description>Developers can hide multiple rows or columns at a time by calling the HideRows and HideColumns methods of the Cells collection respectively. Both methods can take the starting row/column index and rows/columns count to be hidden as parameters to hide the specific number of rows or columns.</Description>
-                      <FolderName>HidingMultipleRowsAndColumns</FolderName>
+                      <FolderName>hidingmultiplerowsandcolumns</FolderName>
                       <Order>3</Order>
                       <DocLink>
                         <DisplayName>Hiding Unhiding Rows and Columns</DisplayName>
@@ -1097,12 +1097,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1115,7 +1115,7 @@ Worksheet class provides Protection property that is used to apply these advance
 
 1: Grouping Rows &amp; Columns
 2: Ungrouping Rows &amp; Columns</Description>
-                  <FolderName>GroupingUngroupingRowsAndColumns</FolderName>
+                  <FolderName>groupingungroupingrowsandcolumns</FolderName>
                   <Order>3</Order>
                   <Examples>
                     <Example>
@@ -1125,7 +1125,7 @@ Worksheet class provides Protection property that is used to apply these advance
 1: First Row/Column Index , represents the first row/column index to be grouped
 2: Last Row/Column Index , represents the last row/column index to be grouped
 3: Is Hidden , a boolean parameter to specify that whether to hide rows/columns after grouping or not</Description>
-                      <FolderName>GroupingRowsAndColumns</FolderName>
+                      <FolderName>groupingrowsandcolumns</FolderName>
                       <Order>1</Order>
                       <DocLink>
                         <DisplayName>Grouping Ungrouping Rows and Columns</DisplayName>
@@ -1133,12 +1133,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1149,7 +1149,7 @@ Worksheet class provides Protection property that is used to apply these advance
 
 1: First Row/Column Index , represents the first row/column index to be ungrouped
 2: Last Row/Column Index , represents the last row/column index to be ungrouped</Description>
-                      <FolderName>UngroupingRowsAndColumns</FolderName>
+                      <FolderName>ungroupingrowsandcolumns</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Grouping Ungrouping Rows and Columns</DisplayName>
@@ -1157,12 +1157,12 @@ Worksheet class provides Protection property that is used to apply these advance
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1179,13 +1179,13 @@ This section includes the following examples:
 2: Setting the Height of All Rows in a Worksheet
 3: Setting the Width of a Column
 4: Setting the Width of All Columns in a Worksheet</Description>
-                  <FolderName>AdjustingRowHeightAndColumnWidth</FolderName>
+                  <FolderName>adjustingrowheightandcolumnwidth</FolderName>
                   <Order>4</Order>
                   <Examples>
                     <Example>
                       <Title>Setting the Height of a Row</Title>
                       <Description>Developers can set the height of a single row by calling SetRowHeight method of the Cells collection. SetRowHeight method takes two parameters as follows:* Row Index , represents the index of the row whose height is needed to change* Row Height , represents the desired row height to apply on the row.</Description>
-                      <FolderName>SettingHeightOfRow</FolderName>
+                      <FolderName>settingheightofrow</FolderName>
                       <Order>1</Order>
                       <DocLink>
                         <DisplayName>Adjusting Row Height and Column Width</DisplayName>
@@ -1193,12 +1193,12 @@ This section includes the following examples:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1206,7 +1206,7 @@ This section includes the following examples:
                     <Example>
                       <Title>Setting the Height of All Rows in a Worksheet</Title>
                       <Description>If developers need to set the same row height for all rows in the worksheet, they can do it by using the StandardHeight property of the Cells collection.</Description>
-                      <FolderName>SettingHeightOfAllRowsInWorksheet</FolderName>
+                      <FolderName>settingheightofallrowsinworksheet</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Adjusting Row Height and Column Width</DisplayName>
@@ -1214,12 +1214,12 @@ This section includes the following examples:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1227,7 +1227,7 @@ This section includes the following examples:
                     <Example>
                       <Title>Setting the Width of a Column</Title>
                       <Description>Developers can set the width of a column by calling SetColumnWidth method of the Cells collection. SetColumnWidth method takes two parameters as follows:* Column Index , represents the index of the column whose width is needed to change* Column Width , represents the desired column width to apply on the column.</Description>
-                      <FolderName>SettingWidthOfColumn</FolderName>
+                      <FolderName>settingwidthofcolumn</FolderName>
                       <Order>3</Order>
                       <DocLink>
                         <DisplayName>Adjusting Row Height and Column Width</DisplayName>
@@ -1235,12 +1235,12 @@ This section includes the following examples:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1248,7 +1248,7 @@ This section includes the following examples:
                     <Example>
                       <Title>Setting the Width of All Columns in a Worksheet</Title>
                       <Description>If developers need to set the same column width for all columns in the worksheet, they can do it by using the StandardWidth property of the Cells collection.</Description>
-                      <FolderName>SettingWidthOfAllColumns</FolderName>
+                      <FolderName>settingwidthofallcolumns</FolderName>
                       <Order>4</Order>
                       <DocLink>
                         <DisplayName>Adjusting Row Height and Column Width</DisplayName>
@@ -1256,12 +1256,12 @@ This section includes the following examples:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1276,13 +1276,13 @@ This section includes the following examples:
 
 1: Copying Rows
 2: Copying Columns</Description>
-                  <FolderName>CopyingRowsAndColumns</FolderName>
+                  <FolderName>copyingrowsandcolumns</FolderName>
                   <Order>5</Order>
                   <Examples>
                     <Example>
                       <Title>Copying Rows</Title>
                       <Description>Aspose.Cells provides CopyRow method of the Aspose.Cells.Cells class, this method copies all types of data including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc. from the source row to the destination row. This method takes three parameters i.e. source Cells object, source row index and destination row index. You may utilize this method to copy a row within a workbook sheets or to another workbook sheets. The CopyRow method works in the similar way as MS Excel. So, you  don't really need to set row height for the destination row as per the source row height, the destination row height would be of same to the source row height.</Description>
-                      <FolderName>CopyingRows</FolderName>
+                      <FolderName>copyingrows</FolderName>
                       <Order>1</Order>
                       <DocLink>
                         <DisplayName>Copying Rows and Columns</DisplayName>
@@ -1290,12 +1290,12 @@ This section includes the following examples:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\Book1.xls</Path>
+                          <Path>..\data\Book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1303,7 +1303,7 @@ This section includes the following examples:
                     <Example>
                       <Title>Copying Columns</Title>
                       <Description>Aspose.Cells provides CopyColumn method of the Aspose.Cells.Cells class, this method copies all types of data including formulas (with updated reference) and their resulting values, comments, cell formats, hidden cells, images and other drawing objects etc. from the source column to the destination column. This method takes three parameters i.e. source Cells object, source column index and destination column index. You may utilize this method to copy a column within a workbook sheets or to another workbook sheets.</Description>
-                      <FolderName>CopyingColumns</FolderName>
+                      <FolderName>copyingcolumns</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Copying Rows and Columns</DisplayName>
@@ -1311,12 +1311,12 @@ This section includes the following examples:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1332,7 +1332,7 @@ This section includes the following examples:
 1: Data Handling Features
 2: Data Processing Features
 3: Add on Features</Description>
-              <FolderName>WorkingWithData</FolderName>
+              <FolderName>workingwithdata</FolderName>
               <Order>4</Order>
               <Folders>
                 <Folder>
@@ -1348,13 +1348,13 @@ This section includes the following examples:
 7: Exporting Data from Worksheets
 8: Tracing Precedents and Dependents
 9: Accessing Maximum Display Range of Worksheet</Description>
-                  <FolderName>DataHandlingFeatures</FolderName>
+                  <FolderName>datahandlingfeatures</FolderName>
                   <Order>1</Order>
                   <Examples>
                     <Example>
                       <Title>Adding Data to Cells</Title>
                       <Description>Aspose.Cells allows developers to add data to the cells of their worksheets by calling the PutValue method of the Cell class. Aspose.Cells provides different overloaded versions of the PutValue method that facilitate users to add different kinds of data to the cells. Using these overloaded versions of PutValue method, developers can add a boolean, string, double, integer or date/time etc. value to the cell.</Description>
-                      <FolderName>AddingDataToCells</FolderName>
+                      <FolderName>addingdatatocells</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Adding Data to Cells</DisplayName>
@@ -1362,7 +1362,7 @@ This section includes the following examples:
                       </DocLink>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1370,7 +1370,7 @@ This section includes the following examples:
                     <Example>
                       <Title>Retrieving Data from Cells</Title>
                       <Description>While working on worksheets, users may add different types of data in the cells. These data types may include Boolean, integer, floating point, text or date/time values. With Aspose.Cells, you can get the appropriate values from the cells according to their data types.</Description>
-                      <FolderName>RetrievingDataFromCells</FolderName>
+                      <FolderName>retrievingdatafromcells</FolderName>
                       <Order>3</Order>
                       <DocLink>
                         <DisplayName>Retrieving Data from Cells</DisplayName>
@@ -1378,7 +1378,7 @@ This section includes the following examples:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <Type>Console</Type>
@@ -1391,7 +1391,7 @@ The Sort method accepts the following parameters:
 
 1: Aspose.Cells.Cells denotes the cells for underlying worksheet.
 2: Aspose.Cells.CellArea represents the cellarea range. you have to define your desired cellarea first before applying data sorting.</Description>
-                      <FolderName>DataSorting</FolderName>
+                      <FolderName>datasorting</FolderName>
                       <Order>5</Order>
                       <DocLink>
                         <DisplayName>Data Sorting</DisplayName>
@@ -1399,12 +1399,12 @@ The Sort method accepts the following parameters:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1412,7 +1412,7 @@ The Sort method accepts the following parameters:
                     <Example>
                       <Title>Exporting Data from Worksheets</Title>
                       <Description>Aspose.Cells not only facilitates its users to import data to worksheets from external data sources but also allow them to export their worksheet data to a DataTable.</Description>
-                      <FolderName>ExportingDataFromWorksheets</FolderName>
+                      <FolderName>exportingdatafromworksheets</FolderName>
                       <Order>6</Order>
                       <DocLink>
                         <DisplayName>Exporting Data from Worksheets</DisplayName>
@@ -1420,7 +1420,7 @@ The Sort method accepts the following parameters:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <Type>Console</Type>
@@ -1434,13 +1434,13 @@ The Sort method accepts the following parameters:
 1: Using Cell Name
 2: Using Row &amp; Column Index of the Cell
 3: Using Cell Index in Cells Collection</Description>
-                      <FolderName>AccessingCellsofWorksheet</FolderName>
+                      <FolderName>accessingcellsofworksheet</FolderName>
                       <Order>1</Order>
                       <Examples>
                         <Example>
                           <Title>Using Cell Name</Title>
                           <Description>Developers can access any specific cell by passing its cell name to the Cells collection of the Worksheet class as an index.</Description>
-                          <FolderName>UsingCellName</FolderName>
+                          <FolderName>usingcellname</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Accessing Cells of a Worksheet</DisplayName>
@@ -1448,7 +1448,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <Type>Console</Type>
@@ -1456,7 +1456,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Using Row and Column Index of the Cell</Title>
                           <Description>Developers can access any specific cell by passing the indices of its row and column to the Cells collection of the Worksheet class.</Description>
-                          <FolderName>UsingRowAndColumnIndexOfCell</FolderName>
+                          <FolderName>usingrowandcolumnindexofcell</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Accessing Cells of a Worksheet</DisplayName>
@@ -1464,7 +1464,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <Type>Console</Type>
@@ -1472,7 +1472,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Using Cell Index in Cells Collection</Title>
                           <Description>A cell can also be accessed by passing the cell's numeric index to the Cells collection using Aspose.Cells.</Description>
-                          <FolderName>UsingCellIndexInCellsCollection</FolderName>
+                          <FolderName>usingcellindexincellscollection</FolderName>
                           <Order>3</Order>
                           <DocLink>
                             <DisplayName>Accessing Cells of a Worksheet</DisplayName>
@@ -1480,7 +1480,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <Type>Console</Type>
@@ -1494,7 +1494,7 @@ The Sort method accepts the following parameters:
 1: Finding Cells Containing a Formula
 2: Finding Data / Formulas using FindOptions
 3: Finding Cells Containing Specified String Value or Number</Description>
-                      <FolderName>FindOrSearchData</FolderName>
+                      <FolderName>findorsearchdata</FolderName>
                       <Order>4</Order>
                       <Examples>
                         <Example>
@@ -1503,7 +1503,7 @@ The Sort method accepts the following parameters:
 
 1: Formula to Search, represents a formula that is needed to find in the worksheet
 2: Previous Cell, represents the previous cell with the same formula. This parameter can be set to null if you are searching from the start</Description>
-                          <FolderName>FindingCellsContainingFormula</FolderName>
+                          <FolderName>findingcellscontainingformula</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Find or Search Data</DisplayName>
@@ -1511,7 +1511,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <Type>Console</Type>
@@ -1523,7 +1523,7 @@ The Sort method accepts the following parameters:
 1: Value to be Searched, represents the data/value to be searched that is needed to find in the worksheet cells.
 2: Previous Cell, represents the previous cell with the same value. This parameter can be set to null/nothing if you are searching from the start.
 3: Find Options, represents the find options.</Description>
-                          <FolderName>FindingDataOrFormulasUsingFindOptions</FolderName>
+                          <FolderName>findingdataorformulasusingfindoptions</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Find or Search Data</DisplayName>
@@ -1531,7 +1531,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <Type>Console</Type>
@@ -1539,7 +1539,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Finding Cells Containing String Value or Number</Title>
                           <Description>Developers can also find specified string values in the worksheet by calling the same Find method of Cells collection with various FindOptions.You will have to specify the FindOptions.LookInType and FindOptions.LookAtType properties.</Description>
-                          <FolderName>FindingCellsWithStringOrNumber</FolderName>
+                          <FolderName>findingcellswithstringornumber</FolderName>
                           <Order>3</Order>
                           <DocLink>
                             <DisplayName>Find or Search Data</DisplayName>
@@ -1547,7 +1547,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <Type>Console</Type>
@@ -1564,7 +1564,7 @@ The Sort method accepts the following parameters:
 4: DataTable
 5: DataColumn
 6: DataView</Description>
-                      <FolderName>ImportingDataToWorksheets</FolderName>
+                      <FolderName>importingdatatoworksheets</FolderName>
                       <Order>7</Order>
                       <Examples>
                         <Example>
@@ -1575,7 +1575,7 @@ The Sort method accepts the following parameters:
 2: Row Number, represents the row number of the first cell where the data will be imported
 3: Column Number, represents the column number of the first cell where the data will be imported
 4: Is Vertical, a boolean value that specifies to import data vertically or horizontally</Description>
-                          <FolderName>ImportingFromArray</FolderName>
+                          <FolderName>importingfromarray</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Importing Data to Worksheets</DisplayName>
@@ -1583,7 +1583,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\DataImport.xls</Path>
+                              <Path>..\data\DataImport.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1596,7 +1596,7 @@ The Sort method accepts the following parameters:
 2: Row Number , represents the row number of the first cell where the data will be imported
 3: Column Number , represents the column number of the first cell where the data will be imported
 4: Is Vertical , a boolean value that specifies to import data vertically or horizontally</Description>
-                          <FolderName>ImportingFromArrayList</FolderName>
+                          <FolderName>importingfromarraylist</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Importing Data to Worksheets</DisplayName>
@@ -1604,7 +1604,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\DataImport.xls</Path>
+                              <Path>..\data\DataImport.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1616,7 +1616,7 @@ The Sort method accepts the following parameters:
 1: DataTable , represents the DataTable object whose contents need to import
 2: Is Field Name Shown , specifies that whether the names of the columns of DataTable should be imported to worksheet as a first row or not
 3: Start Cell , represents the name of the start cell (i.e. "A1") from where to import the contents of the DataTable</Description>
-                          <FolderName>ImportingFromDataTable</FolderName>
+                          <FolderName>importingfromdatatable</FolderName>
                           <Order>3</Order>
                           <DocLink>
                             <DisplayName>Importing Data to Worksheets</DisplayName>
@@ -1624,7 +1624,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\DataImport.xls</Path>
+                              <Path>..\data\DataImport.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1632,7 +1632,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Importing from Custom Object</Title>
                           <Description>Developers can import data from collection of objects to a worksheet using ImportCustomObjects . You can provide a list of columns/properties to the method to display your desired list of objects.</Description>
-                          <FolderName>ImportingFromCustomObject</FolderName>
+                          <FolderName>importingfromcustomobject</FolderName>
                           <Order>4</Order>
                           <DocLink>
                             <DisplayName>Importing Data to Worksheets</DisplayName>
@@ -1640,7 +1640,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\ImportedCustomObjects.xls</Path>
+                              <Path>..\data\ImportedCustomObjects.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1648,7 +1648,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Importing from DataColumn</Title>
                           <Description>We know that a DataTable or DataView object is composed of one or more than one columns, which are represented as objects of DataColumn class. Developers can also import data from any DataColumn of the DataTable or DataView by calling the ImportDataColumn method of the Cells collection.</Description>
-                          <FolderName>ImportingFromDataColumn</FolderName>
+                          <FolderName>importingfromdatacolumn</FolderName>
                           <Order>5</Order>
                           <DocLink>
                             <DisplayName>Importing Data to Worksheets</DisplayName>
@@ -1656,7 +1656,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\DataImport.xls</Path>
+                              <Path>..\data\DataImport.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1664,7 +1664,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Importing from DataView</Title>
                           <Description>Developers can import data from a DataView to their worksheets by calling the ImportDataView method of the Cells collection.</Description>
-                          <FolderName>ImportingFromDataView</FolderName>
+                          <FolderName>importingfromdataview</FolderName>
                           <Order>6</Order>
                           <DocLink>
                             <DisplayName>Importing Data to Worksheets</DisplayName>
@@ -1672,7 +1672,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\DataImport.xls</Path>
+                              <Path>..\data\DataImport.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1687,13 +1687,13 @@ The Sort method accepts the following parameters:
 
 1: Data Filtering and Validation
 2: Creating Subtotals</Description>
-                  <FolderName>DataProcessingFeatures</FolderName>
+                  <FolderName>dataprocessingfeatures</FolderName>
                   <Order>2</Order>
                   <Examples>
                     <Example>
                       <Title>Creating Subtotals</Title>
                       <Description>You can automatically create subtotals for any repeating values in a spreadsheet. Aspose.Cells provides API features that helps you add subtotals to spreadsheets programmatically.</Description>
-                      <FolderName>CreatingSubtotals</FolderName>
+                      <FolderName>creatingsubtotals</FolderName>
                       <Order>2</Order>
                       <DocLink>
                         <DisplayName>Creating Subtotals</DisplayName>
@@ -1701,12 +1701,12 @@ The Sort method accepts the following parameters:
                       </DocLink>
                       <InputFiles>
                         <DataFile>
-                          <Path>..\Data\book1.xls</Path>
+                          <Path>..\data\book1.xls</Path>
                         </DataFile>
                       </InputFiles>
                       <OutputFiles>
                         <DataFile>
-                          <Path>..\Data\output.xls</Path>
+                          <Path>..\data\output.xls</Path>
                         </DataFile>
                       </OutputFiles>
                       <Type>Console</Type>
@@ -1724,13 +1724,13 @@ The Sort method accepts the following parameters:
 5: Date Data Validation
 6: Time Data Validation
 7: Text Length Data Validation</Description>
-                      <FolderName>DataFilteringAndValidation</FolderName>
+                      <FolderName>datafilteringandvalidation</FolderName>
                       <Order>1</Order>
                       <Examples>
                         <Example>
                           <Title>Autofilter Data</Title>
                           <Description>To create an autofilter, use the AutoFilter property of the Worksheet class. The AutoFilter property is an object of the AutoFilter class, which provides the Range property for specifying the range of cells that make up a heading row. An autofilter is applied to the range of cells that is the heading row.</Description>
-                          <FolderName>AutofilterData</FolderName>
+                          <FolderName>autofilterdata</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Data Filtering and Validation</DisplayName>
@@ -1738,12 +1738,12 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1751,7 +1751,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Whole Number Data Validation</Title>
                           <Description>With this type of validation, users can enter only whole numbers within a specified range of cells into the validated cells. Following example shows how to implement this validation using Aspose.Cells.</Description>
-                          <FolderName>WholeNumberDataValidation</FolderName>
+                          <FolderName>wholenumberdatavalidation</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Data Filtering and Validation</DisplayName>
@@ -1759,7 +1759,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1767,7 +1767,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Decimal Data Validation</Title>
                           <Description>With this type of validation, the user can enter decimal numbers into the validated cells. Following example shows how to implement this validation using Aspose.Cells.</Description>
-                          <FolderName>DecimalDataValidation</FolderName>
+                          <FolderName>decimaldatavalidation</FolderName>
                           <Order>3</Order>
                           <DocLink>
                             <DisplayName>Data Filtering and Validation</DisplayName>
@@ -1775,7 +1775,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1783,7 +1783,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>List Data Validation</Title>
                           <Description>The type of validation allows the user enter values from a drop down list. It provides a list, a series of rows that contains related data. Following is the example, which shows how to implment List ValidationType using Aspose.Cells.</Description>
-                          <FolderName>ListDataValidation</FolderName>
+                          <FolderName>listdatavalidation</FolderName>
                           <Order>4</Order>
                           <DocLink>
                             <DisplayName>Data Filtering and Validation</DisplayName>
@@ -1791,7 +1791,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1799,7 +1799,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Date Data Validation</Title>
                           <Description>With this type of validation, users enter date values within a specified range, or meeting specific criteria, into the validated cells. In this example, we restricted users to enter dates between 1970 to 1999 using Aspose.Cells.</Description>
-                          <FolderName>DateDataValidation</FolderName>
+                          <FolderName>datedatavalidation</FolderName>
                           <Order>5</Order>
                           <DocLink>
                             <DisplayName>Data Filtering and Validation</DisplayName>
@@ -1807,7 +1807,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1815,7 +1815,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Time Data Validation</Title>
                           <Description>With this type of validation, you can allow the user enter Time values into the related cells within a specified range or criteria. In this example, the user is restricted to enter Time values between 09:00 to 11:30 AM only using Aspose.Cells.</Description>
-                          <FolderName>TimeDataValidation</FolderName>
+                          <FolderName>timedatavalidation</FolderName>
                           <Order>6</Order>
                           <DocLink>
                             <DisplayName>Data Filtering and Validation</DisplayName>
@@ -1823,7 +1823,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1831,7 +1831,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Text Length Data Validation</Title>
                           <Description>With this type of validation, users can enter text values of a specified length into the validated cells. In this example, the user is restricted to enter string values with no more than 5 characters. The validation area is the B1 cell.</Description>
-                          <FolderName>TextLengthDataValidation</FolderName>
+                          <FolderName>textlengthdatavalidation</FolderName>
                           <Order>7</Order>
                           <DocLink>
                             <DisplayName>Data Filtering and Validation</DisplayName>
@@ -1839,7 +1839,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1855,7 +1855,7 @@ The Sort method accepts the following parameters:
 1: Adding Hyperlinks to Link Data
 2: Merging UnMerging Cells in the Worksheet
 3: Named Ranges</Description>
-                  <FolderName>AddOnFeatures</FolderName>
+                  <FolderName>addonfeatures</FolderName>
                   <Order>3</Order>
                   <Folders>
                     <Folder>
@@ -1865,13 +1865,13 @@ The Sort method accepts the following parameters:
 1: Adding link to a URL
 2: Adding a link to another cell in the same file
 3: Adding a link to an external file</Description>
-                      <FolderName>AddingHyperlinksToLinkData</FolderName>
+                      <FolderName>addinghyperlinkstolinkdata</FolderName>
                       <Order>1</Order>
                       <Examples>
                         <Example>
                           <Title>Adding link to a URL</Title>
                           <Description>A Worksheet class contains a Hyperlinks collection. Each item in the Hyperlinks collection represents a Hyperlink. Developers can add hyperlinks to URLs by calling the Add method of Hyperlinks collection.</Description>
-                          <FolderName>AddingLinkToURL</FolderName>
+                          <FolderName>addinglinktourl</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Adding Hyperlinks to Link Data</DisplayName>
@@ -1879,7 +1879,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1887,7 +1887,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Adding a link to another cell in the same file</Title>
                           <Description>Developers can add hyperlinks to other cells of the same Excel file by calling the same Add method of Hyperlinks collection. Add method works for both internal and external hyperlinks.</Description>
-                          <FolderName>AddingLinkToAnotherCell</FolderName>
+                          <FolderName>addinglinktoanothercell</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Adding Hyperlinks to Link Data</DisplayName>
@@ -1895,7 +1895,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1903,7 +1903,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Adding a link to an external file</Title>
                           <Description>Developers can add hyperlinks to external Excel files by calling the Add method of Hyperlinks collection.</Description>
-                          <FolderName>AddingLinkToExternalFile</FolderName>
+                          <FolderName>addinglinktoexternalfile</FolderName>
                           <Order>3</Order>
                           <DocLink>
                             <DisplayName>Adding Hyperlinks to Link Data</DisplayName>
@@ -1911,12 +1911,12 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1926,13 +1926,13 @@ The Sort method accepts the following parameters:
                     <Folder>
                       <Title>Merging UnMerging Cells in the Worksheet</Title>
                       <Description>Sometimes, while working with worksheets, you don't always want the same number of cells in every row or column. You might want to put a title in a single cell that spans the top of your worksheet. You might be creating an invoice, and want a fewer columns for the total. When you want to make one cell from two or more cells, you merge the cells. Aspose.Cells has the ability to merge the cells in the worksheet. You may unmerge the merged cells too. A Merged Cell is basically a single cell that is created by combining two or more selected cells. The cell reference for a merged cell is the upper-left cell in the original selected range. Mind you, if there is data in other cells, the data will be deleted.</Description>
-                      <FolderName>MergingUnMergingCells</FolderName>
+                      <FolderName>mergingunmergingcells</FolderName>
                       <Order>2</Order>
                       <Examples>
                         <Example>
                           <Title>Merging Cells in the Worksheet</Title>
                           <Description>Aspose.Cells exposes some functional API in this regard. Aspose.Cells.Cells Class has some useful methods for the task. For example, the method Merge() merges the cells into a single cell within a specified range of the cells.</Description>
-                          <FolderName>MergingCellsInWorksheet.</FolderName>
+                          <FolderName>mergingcellsinworksheet.</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Merging UnMerging Cells in the Worksheet</DisplayName>
@@ -1940,7 +1940,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\..\MergingCellsInWorksheet\Data\mergingcells.xls</Path>
+                              <Path>..\..\mergingcellsinworksheet\data\mergingcells.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1948,7 +1948,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Un-Merging the Merged Cells</Title>
                           <Description>The class Aspose.Cells.Cells has another method named UnMerge() that splits the cells into their original state in the worksheet. The method unmerges the cells using the cells ref. in the merged cells range.</Description>
-                          <FolderName>UnMergingtheMergedCells</FolderName>
+                          <FolderName>unmergingthemergedcells</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Merging UnMerging Cells in the Worksheet</DisplayName>
@@ -1956,12 +1956,12 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\mergingcells.xls</Path>
+                              <Path>..\data\mergingcells.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\unmergingcells.xls</Path>
+                              <Path>..\data\unmergingcells.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1971,13 +1971,13 @@ The Sort method accepts the following parameters:
                     <Folder>
                       <Title>Named Ranges</Title>
                       <Description>Normally, you use the labels of columns and rows on a worksheet to refer to the cells within those columns and rows. But you can create descriptive names to represent cells, ranges of cells, formulas, or constant values. The word Name may refer to a string of characters that represents a cell, range of cells, formula, or constant value. For example, Use easy-to-understand names, such as Products, to refer to hard to understand ranges, such as Sales!C20:C30 to represent a cell, range of cells, formula, or constant value. Labels can be used in formulas that refer to data on the same worksheet; if you want to represent a range on another worksheet, you may use a name. Named Ranges are among the most powerful features of Microsoft Excel, especially when used as the source range for List Controls, Pivot Tables or Charts etc. Users may assign a name to a named range so that this range of cells can be referred with its name.</Description>
-                      <FolderName>NamedRanges</FolderName>
+                      <FolderName>namedranges</FolderName>
                       <Order>3</Order>
                       <Examples>
                         <Example>
                           <Title>Create Named Range of Cells</Title>
                           <Description>Aspose.Cells provides a class Workbook that represents an Excel file. Workbook class contains a Worksheets collection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection. Developers can create a named range by calling the overloaded CreateRange method of the Cell collection.</Description>
-                          <FolderName>CreateNamedRangeofCells</FolderName>
+                          <FolderName>createnamedrangeofcells</FolderName>
                           <Order>1</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -1985,12 +1985,12 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\Book1.xls</Path>
+                              <Path>..\data\Book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\output.xls</Path>
+                              <Path>..\data\output.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -1998,7 +1998,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Access All the Named Ranges in the Worksheets</Title>
                           <Description>Developers can call GetNamedRanges method of the Worksheets collection to get all named ranges in a spreadsheet. GetNamedRanges method returns an array of all names ranges in the Worksheets collection.</Description>
-                          <FolderName>AccessAllNamedRanges</FolderName>
+                          <FolderName>accessallnamedranges</FolderName>
                           <Order>2</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2006,7 +2006,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <Type>Console</Type>
@@ -2014,7 +2014,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Access a Specific Named Range</Title>
                           <Description>Developers can call GetRangeByName method of the Worksheets collection to get a range by the specified name. A typical GetRangeByName method takes the name of the named range and returns the specified named range as an instance of Range class.</Description>
-                          <FolderName>AccessSpecificNamedRange</FolderName>
+                          <FolderName>accessspecificnamedrange</FolderName>
                           <Order>3</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2022,7 +2022,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <Type>Console</Type>
@@ -2035,7 +2035,7 @@ The Sort method accepts the following parameters:
 2: FirstColumn returns the index of the first column in the named range.
 3: RowCount returns the total number of rows in the named range.
 4: ColumnCount returns the total number of columns in the named range.</Description>
-                          <FolderName>IdentifyCellsinNamedRange</FolderName>
+                          <FolderName>identifycellsinnamedrange</FolderName>
                           <Order>4</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2043,7 +2043,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <Type>Console</Type>
@@ -2051,7 +2051,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Input Data into the Cells in the Named Range</Title>
                           <Description>You can insert data into the individual cells of a range following the pattern. i.e. Range[row,column]</Description>
-                          <FolderName>InputDataInCellsInRange</FolderName>
+                          <FolderName>inputdataincellsinrange</FolderName>
                           <Order>5</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2059,7 +2059,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\rangecells.xls</Path>
+                              <Path>..\data\rangecells.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -2067,7 +2067,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Format Ranges - Background Color and Font</Title>
                           <Description>If you want to apply some formattings, you'd better define a Style object to specify the style settings and apply it to the Range object. The following example shows how to set solid fill color (shading color) with font settings to a range.</Description>
-                          <FolderName>FormatRanges1</FolderName>
+                          <FolderName>formatranges1</FolderName>
                           <Order>6</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2075,7 +2075,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\rangestyles.xls</Path>
+                              <Path>..\data\rangestyles.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -2087,7 +2087,7 @@ The Sort method accepts the following parameters:
 - Border Type, represents the type of border, which can be selected using BorderType enumeration
 - Line Style, represents the line style of border, which can be selected using CellBorderType enumeration
 - Color, represents the line color of border, which can be selected using Color enumeration</Description>
-                          <FolderName>FormatRanges2</FolderName>
+                          <FolderName>formatranges2</FolderName>
                           <Order>7</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2095,7 +2095,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -2103,7 +2103,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Copy Named Ranges</Title>
                           <Description>Aspose.Cells provides Range.Copy() method to copy a range of cells with formattings into another range.The following example shows how to copy a source range of cells to another named range.</Description>
-                          <FolderName>CopyNamedRanges</FolderName>
+                          <FolderName>copynamedranges</FolderName>
                           <Order>8</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2111,7 +2111,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\copyranges.xls</Path>
+                              <Path>..\data\copyranges.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -2119,7 +2119,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Merge Cells in the Named Range</Title>
                           <Description>Aspose.Cells provides Range.Merge() method to merge the cells in the range.The following example shows how to merge the individual cells of a named range.</Description>
-                          <FolderName>MergeCellsInNamedRange</FolderName>
+                          <FolderName>mergecellsinnamedrange</FolderName>
                           <Order>9</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2127,7 +2127,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\mergingrange.xls</Path>
+                              <Path>..\data\mergingrange.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -2135,7 +2135,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Remove a Named Range</Title>
                           <Description>Aspose.Cells provides NameCollection.RemoveAt() method to erase the name of the range. To clear the contents of the range you may utilize Cells.ClearRange() method.The following example shows how to remove a named range with its contents.</Description>
-                          <FolderName>RemoveANamedRange</FolderName>
+                          <FolderName>removeanamedrange</FolderName>
                           <Order>10</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2143,7 +2143,7 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\copyranges.xls</Path>
+                              <Path>..\data\copyranges.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -2151,7 +2151,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Rename a Named Range</Title>
                           <Description>Aspose.Cells allows you to rename a named range for your need. You may get the named range and rename it by using Name.Text attribute.The following example shows how to rename a named range.</Description>
-                          <FolderName>RenameNamedRange</FolderName>
+                          <FolderName>renamenamedrange</FolderName>
                           <Order>11</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2159,12 +2159,12 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\RenamingRange.xlsx</Path>
+                              <Path>..\data\RenamingRange.xlsx</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -2172,7 +2172,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Intersection of Ranges</Title>
                           <Description>Aspose.Cells provides Range.Intersect method to intersect two ranges, the method returns a Range object. To check whether a range intersects other range, you may use Range.IsIntersect method that returns a Boolean value.The following example shows how to intersect the ranges.</Description>
-                          <FolderName>IntersectionofRanges</FolderName>
+                          <FolderName>intersectionofranges</FolderName>
                           <Order>12</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2180,12 +2180,12 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\rngIntersection.xls</Path>
+                              <Path>..\data\rngIntersection.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -2193,7 +2193,7 @@ The Sort method accepts the following parameters:
                         <Example>
                           <Title>Union of Ranges</Title>
                           <Description>Aspose.Cells provides Range.Union method to take the union for ranges, the method returns an ArrayList object.The following example shows how to take union for ranges.</Description>
-                          <FolderName>UnionOfRanges</FolderName>
+                          <FolderName>unionofranges</FolderName>
                           <Order>13</Order>
                           <DocLink>
                             <DisplayName>Named Ranges</DisplayName>
@@ -2201,12 +2201,12 @@ The Sort method accepts the following parameters:
                           </DocLink>
                           <InputFiles>
                             <DataFile>
-                              <Path>..\Data\book1.xls</Path>
+                              <Path>..\data\book1.xls</Path>
                             </DataFile>
                           </InputFiles>
                           <OutputFiles>
                             <DataFile>
-                              <Path>..\Data\rngUnion.xls</Path>
+                              <Path>..\data\rngUnion.xls</Path>
                             </DataFile>
                           </OutputFiles>
                           <Type>Console</Type>
@@ -2216,6 +2216,730 @@ The Sort method accepts the following parameters:
                   </Folders>
                 </Folder>
               </Folders>
+            </Folder>
+            <Folder>
+              <Title>Working with Data Formatting</Title>
+              <Description>This section includes the following examples: 
+
+-Approaches to Format Data in Cells
+-Setting Display Formats of Numbers and Dates
+-Configuring Alignment Settings
+-Dealing with Font Settings
+-Colors and Palette
+-Formatting Selected Characters in a Cell
+-Adding Borders to Cells
+-Colors and Background Patterns
+-Activating Sheets and Making an Active Cell in the Worksheet
+-Formatting Rows and Columns
+-Conditional Formatting
+-Excel 2007 Themes and Colors</Description>
+              <FolderName>workingwithdataformatting</FolderName>
+              <Order>5</Order>
+              <Examples>
+                <Example>
+                  <Title>Colors and Palette</Title>
+                  <Description>Aspose.Cells also supports a palette of 56 colors. A standard color palette is listed here. If you want to use a custom color that is not defined in the palette then you will need to add that color to the palette before usage.</Description>
+                  <FolderName>colorsandpalette</FolderName>
+                  <Order>5</Order>
+                  <DocLink>
+                    <DisplayName>Colors and Palette</DisplayName>
+                    <Url>Colors+and+Palette</Url>
+                  </DocLink>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\data\book1.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Formatting Selected Characters in a Cell</Title>
+                  <Description>Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a Worksheets collection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection. Each item in the Cells collection represents an object of Cell class.
+
+Cell class provides Characters method that takes the following parameters to select a range of characters inside a cell:
+ 
+	- Start Index, represents the index of the character from where to start selection
+	- Number of Characters, represents the number of characters to select
+ 
+Characters method returns an instance of FontSetting class that allows developers to format the characters in the same way as that of a cell.</Description>
+                  <FolderName>formattingselectedcharacters</FolderName>
+                  <Order>6</Order>
+                  <DocLink>
+                    <DisplayName>Formatting Selected Characters in a Cell</DisplayName>
+                    <Url>Formatting+Selected+Characters+in+a+Cell</Url>
+                  </DocLink>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\data\book1.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Colors and Background Patterns</Title>
+                  <Description>To set the foreground or background color of a cell, developers may use ForegroundColor or BackgroundColor property of the Style object. Both properties are only effected if the Pattern property of the Style object is configured.</Description>
+                  <FolderName>colorsandbackground</FolderName>
+                  <Order>8</Order>
+                  <DocLink>
+                    <DisplayName>Colors and Background Patterns</DisplayName>
+                    <Url>Colors++and++Background+Patterns</Url>
+                  </DocLink>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\data\book1.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+              </Examples>
+              <Folders>
+                <Folder>
+                  <Title>Configuring Alignment Settings</Title>
+                  <Description>Aspose.Cells provides a class, Workbook that represents an Excel file. Workbook class contains a Worksheets collection that allows to access each worksheet in the Excel file. A worksheet is represented by the Worksheet class. Worksheet class provides a Cells collection. Each item in the Cells collection represents an object of Cell class. Aspose.Cells provides GetStyle __ and __ SetStyle methods for the Cell class that are used to get/set the formatting style of a cell. The Style class provides some useful properties to configure alignment settings.</Description>
+                  <FolderName>configuringalignmentsettings</FolderName>
+                  <Order>1</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Text Alignment - Horizontal</Title>
+                      <Description>Developers can use HorizontalAlignment property of the Style object to align the text horizontally. We can select any text alignment type using the TextAlignmentType enumeration.</Description>
+                      <FolderName>textalignmenthorizontal</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Configuring Alignment Settings</DisplayName>
+                        <Url>Configuring+Alignment+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Text Alignment - Vertical</Title>
+                      <Description>Using Aspose.Cells, developers can also use VerticalAlignment property of the Style object to align the text vertically.</Description>
+                      <FolderName>textalignmentvertical</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Configuring Alignment Settings</DisplayName>
+                        <Url>Configuring+Alignment+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Indentation</Title>
+                      <Description>Using Aspose.Cells, developers can also set the indentation level of the text contained in a cell by using the IndentLevel property of the Style object.</Description>
+                      <FolderName>indentation</FolderName>
+                      <Order>3</Order>
+                      <DocLink>
+                        <DisplayName>Configuring Alignment Settings</DisplayName>
+                        <Url>Configuring+Alignment+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Orientation</Title>
+                      <Description>Using Aspose.Cells, developers can also set the orientation (rotation) of the text inside the cell by using the Rotation property of the Style object.</Description>
+                      <FolderName>orientation</FolderName>
+                      <Order>4</Order>
+                      <DocLink>
+                        <DisplayName>Configuring Alignment Settings</DisplayName>
+                        <Url>Configuring+Alignment+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Wrapping Text</Title>
+                      <Description>Using Aspose.Cells, developers can set the text to be wrapped within the cell by using the IsTextWrapped property of the Style object.</Description>
+                      <FolderName>wrappingtext</FolderName>
+                      <Order>5</Order>
+                      <DocLink>
+                        <DisplayName>Configuring Alignment Settings</DisplayName>
+                        <Url>Configuring+Alignment+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Shrinking to Fit</Title>
+                      <Description>Using Aspose.Cells, developers can also shrink the size of the text according to the cell's dimensions by setting the IsTextWrapped property of the Style object to true .</Description>
+                      <FolderName>shrinkingtofit</FolderName>
+                      <Order>6</Order>
+                      <DocLink>
+                        <DisplayName>Configuring Alignment Settings</DisplayName>
+                        <Url>Configuring+Alignment+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Merging Cells</Title>
+                      <Description>Developers can also merge multiple cells into a single one using Aspose.Cells. Developers can use the Merge method of the Cells collection to merge the cells.</Description>
+                      <FolderName>mergingcells</FolderName>
+                      <Order>7</Order>
+                      <DocLink>
+                        <DisplayName>Configuring Alignment Settings</DisplayName>
+                        <Url>Configuring+Alignment+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Text Direction</Title>
+                      <Description>Developers can set the reading order (that is the visual order in which the characters, words etc. are displayed. For example, English is a left to right language while Arabic is a right to left language) of the text inside the cells by using the TextDirection property of the Style object.</Description>
+                      <FolderName>textdirection</FolderName>
+                      <Order>8</Order>
+                      <DocLink>
+                        <DisplayName>Configuring Alignment Settings</DisplayName>
+                        <Url>Configuring+Alignment+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Approaches to Format Data in Cells</Title>
+                  <Description>It's a common fact that if the worksheet cells are formatted properly then it becomes easier for the users to read the contents (data) of the cell. There are many ways to fomat cells and their contents. The simplest way is to format cells using Microsoft Excel in a WYSIWYG environment while creating a Designer Spreadsheet. After the designer spreadsheet is created, you can open the spreadsheet using Aspose.Cells keeping all format settings saved with the spreadsheet. Another way to format cells and their contents is to use Aspose.Cells API.</Description>
+                  <FolderName>approachestoformatdata</FolderName>
+                  <Order>2</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Using GetStyle-SetStyle Methods</Title>
+                      <Description>If developers need to apply different formatting styles to different cells then it's better to get the Style of the cell using Cell.GetStyle method, specify the style attributes and then apply the formatting using Cell.SetStyle method.</Description>
+                      <FolderName>usinggetstylesetstyle</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Approaches to Format Data in Cells</DisplayName>
+                        <Url>Approaches+to+Format+Data+in+Cells</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Using Style Object to Format Different Cells</Title>
+                      <Description>If developers need to apply the Same formatting style to different cells then they can use Style object. This example demonstrates how to use Style object for formatting cells.</Description>
+                      <FolderName>usingstyleobject</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Approaches to Format Data in Cells</DisplayName>
+                        <Url>Approaches+to+Format+Data+in+Cells</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Using MS Excel 2007 Predefined Styles</Title>
+                      <Description>If developers need to apply different formatting styles of MS Excel 2007, they can apply the styles using Aspose.Cells API. This  example demonstrates applying a predefined style on a cell.</Description>
+                      <FolderName>usingexcelpredefinedstyles</FolderName>
+                      <Order>3</Order>
+                      <DocLink>
+                        <DisplayName>Approaches to Format Data in Cells</DisplayName>
+                        <Url>Approaches+to+Format+Data+in+Cells</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xlsx</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Setting Display Formats of Numbers and Dates</Title>
+                  <Description>A very strong feature of Microsoft Excel is that is allows users to set the display formats of numeric values and dates. We know that numeric data can be used to represent different values including decimal, currency, percentage, fraction or accounting values etc. All these numerical values are displayed in different formats depending on the type of information it represents. Similarly, there are many formats in which a date or time can be displayed. Aspose.Cells supports this functionallity and allows developers to set any display format for a number or date.</Description>
+                  <FolderName>settingdisplayformats</FolderName>
+                  <Order>3</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Using Built-in Number Formats</Title>
+                      <Description>Aspose.Cells offers some built-in number formats to configure the display formats of the numbers and dates. These built-in number formats can be applied by using the Number property of the Style object. All built-in number formats are given unique numeric values. Developers can assign any desired numeric value to the Number property of the Style object to apply the display format.</Description>
+                      <FolderName>usingbuiltinnumberformats</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Setting Display Formats of Numbers and Dates</DisplayName>
+                        <Url>Setting+Display+Formats+of+Numbers+and+Dates</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Using Custom Number Formats</Title>
+                      <Description>To define your own customized format string for setting the display format, use the Style object's Custom property.</Description>
+                      <FolderName>usingcustomnumber</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Setting Display Formats of Numbers and Dates</DisplayName>
+                        <Url>Setting+Display+Formats+of+Numbers+and+Dates</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Dealing with Font Settings</Title>
+                  <Description>Aspose.Cells provides GetStyle and SetStyle methods for the Cell class that are used to get/set the formatting style of a cell. The Style class provides some useful properties to configure font settings.</Description>
+                  <FolderName>dealingwithfontsettings</FolderName>
+                  <Order>4</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Setting Font Name</Title>
+                      <Description>Developers can set any font name to the text inside the cell by using the Name property of the Style.Font object.</Description>
+                      <FolderName>settingfontname</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Dealing with Font Settings</DisplayName>
+                        <Url>Dealing+with+Font+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting Font Style to Bold</Title>
+                      <Description>Developers can set the font style to bold by setting the IsBold property of the Style.Font object to true.</Description>
+                      <FolderName>settingfontstyle</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Dealing with Font Settings</DisplayName>
+                        <Url>Dealing+with+Font+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting Font Size</Title>
+                      <Description>Developers can set the size of the font by using the Size property of the Style.Font object.</Description>
+                      <FolderName>settingfontsize</FolderName>
+                      <Order>3</Order>
+                      <DocLink>
+                        <DisplayName>Dealing with Font Settings</DisplayName>
+                        <Url>Dealing+with+Font+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting Font Underline Type</Title>
+                      <Description>Developers can set the font to be underlined by using the Underline property of the Style.Font object. Aspose.Cells offers various pre-defined font underline types in the form of FontUnderlineType enumeration.</Description>
+                      <FolderName>settingfontunderlinetype</FolderName>
+                      <Order>4</Order>
+                      <DocLink>
+                        <DisplayName>Dealing with Font Settings</DisplayName>
+                        <Url>Dealing+with+Font+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting Font Color</Title>
+                      <Description>Developers can set the color of the font by using the Color property of the Style.Font object. Developers can select any color from the Color enumeration (part of the .NET Framework) and then assign that selected color to the Color property of the Style.Font object.</Description>
+                      <FolderName>settingfontcolor</FolderName>
+                      <Order>5</Order>
+                      <DocLink>
+                        <DisplayName>Dealing with Font Settings</DisplayName>
+                        <Url>Dealing+with+Font+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting Strike Out Effect on Font</Title>
+                      <Description>Developers can apply the strike out effect on the font by setting the FontIsStrikeOut property of the Style.Font object to true.</Description>
+                      <FolderName>settingstrikeouteffect</FolderName>
+                      <Order>6</Order>
+                      <DocLink>
+                        <DisplayName>Dealing with Font Settings</DisplayName>
+                        <Url>Dealing+with+Font+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting SubScript Effect on Font</Title>
+                      <Description>Developers can apply the subscript effect on the font by setting the IsSubscript property of the Style.Font object to true.</Description>
+                      <FolderName>settingsubscripteffect</FolderName>
+                      <Order>7</Order>
+                      <DocLink>
+                        <DisplayName>Dealing with Font Settings</DisplayName>
+                        <Url>Dealing+with+Font+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Setting SuperScript Effect on Font</Title>
+                      <Description>Developers can apply the superscript effect on the font by setting the IsSuperscript property of the Style.Font object to true.</Description>
+                      <FolderName>settingsuperscripteffect</FolderName>
+                      <Order>8</Order>
+                      <DocLink>
+                        <DisplayName>Dealing with Font Settings</DisplayName>
+                        <Url>Dealing+with+Font+Settings</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Adding Borders to Cells</Title>
+                  <Description>Developers can add borders to a cell by using the Borders collection of the Style object. The type of the border is passed as an index to the Borders collection. All types of borders are pre-defined in BorderType enumeration.</Description>
+                  <FolderName>addingborderstocells</FolderName>
+                  <Order>7</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Adding Borders to Cells</Title>
+                      <Description>Developers can select a line style and then assign that selected line style to the LineStyle property of the Border object.</Description>
+                      <FolderName>addingborderstocells</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Adding Borders to Cells</DisplayName>
+                        <Url>Adding+Borders+to+Cells</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Adding Borders to a Range of Cells</Title>
+                      <Description>Sometimes, developers may need to add borders to a range of cells rather than just a single cell. To do so, developers would first need to create a range of cells by calling the CreateRange method of the Cells collection, which takes the following parameters:
+ 
+	- First Row , represents the first row from where to start creating the range
+ 	- First Column , represents the first column from where to start creating the range
+	- Number of Rows , represents the number of rows in the range
+	- Number of Columns , represents the number of columns in the range
+	- Color , represents the line color of border, which can be selected using Color enumeration</Description>
+                      <FolderName>addingborderstorange</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Adding Borders to Cells</DisplayName>
+                        <Url>Adding+Borders+to+Cells</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Formatting Rows and Columns</Title>
+                  <Description>Sometimes, developers may need to apply same formatting settings on rows or columns of the worksheets. If developers apply formatting settings on the cells one by one then it may take longer time and would not be a good solution too. To address this issue, Aspose.Cells provides a simplest yet faster way to achieve this.</Description>
+                  <FolderName>formatrowscolumns</FolderName>
+                  <Order>9</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Formatting a Row</Title>
+                      <Description>Cells collection provides a Rows collection. Each item in the Rows collection represents a Row object. Row object offers an Apply Style method that is used to set the formatting style of a row. If developers need to apply the Same formatting style to a row then they should use Style object</Description>
+                      <FolderName>formattingarow</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Formatting Rows and Columns</DisplayName>
+                        <Url>Formatting+Rows++and++Columns</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Formatting a Column</Title>
+                      <Description>Cells collection also provides a Columns collection. Each item in the Columns collection represents a Column object. Similar to Row object, Column object also offers Apply Style method that is used to set the formatting style of a column.</Description>
+                      <FolderName>formattingacolumn</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Formatting Rows and Columns</DisplayName>
+                        <Url>Formatting+Rows++and++Columns</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xls</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+                <Folder>
+                  <Title>Excel 2007 Themes and Colors</Title>
+                  <Description>Themes provide a unified look amongst all the named styles, graphical effects and other objects used in a workbook. For example, the Accent1 style, for example, looks different in the Office theme and the Apex theme. Often, you apply a document theme and then amend it to precisely how you want it. Aspose.Cells provides some useful API to customize themes and colors.</Description>
+                  <FolderName>excel2007themes</FolderName>
+                  <Order>10</Order>
+                  <Examples>
+                    <Example>
+                      <Title>Get and Set Theme Colors</Title>
+                      <Description>The following example uses a template Xlsx file, gets the colors for different theme color types, changes the colors and re-saves the excel file.</Description>
+                      <FolderName>getsetthemecolors</FolderName>
+                      <Order>1</Order>
+                      <DocLink>
+                        <DisplayName>Excel 2007 Themes and Colors</DisplayName>
+                        <Url>Excel+2007+Themes+and+Colors</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xlsx</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\output.xlsx</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Customize Themes</Title>
+                      <Description>The following example shows how to apply custom themes with your desired colors.</Description>
+                      <FolderName>customizethemes</FolderName>
+                      <Order>2</Order>
+                      <DocLink>
+                        <DisplayName>Excel 2007 Themes and Colors</DisplayName>
+                        <Url>Excel+2007+Themes+and+Colors</Url>
+                      </DocLink>
+                      <InputFiles>
+                        <DataFile>
+                          <Path>..\data\book1.xlsx</Path>
+                        </DataFile>
+                      </InputFiles>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\output.xlsx</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                    <Example>
+                      <Title>Utilize Theme Colors</Title>
+                      <Description>The following example applies a cell’s foreground and font colors based on the default theme (of the workbook) color types. It also saves the excel file to disk.</Description>
+                      <FolderName>utilizethemecolors</FolderName>
+                      <Order>3</Order>
+                      <DocLink>
+                        <DisplayName>Excel 2007 Themes and Colors</DisplayName>
+                        <Url>Excel+2007+Themes+and+Colors</Url>
+                      </DocLink>
+                      <OutputFiles>
+                        <DataFile>
+                          <Path>..\data\output.xlsx</Path>
+                        </DataFile>
+                      </OutputFiles>
+                      <Type>Console</Type>
+                    </Example>
+                  </Examples>
+                </Folder>
+              </Folders>
+            </Folder>
+            <Folder>
+              <Title>Working with Tables</Title>
+              <Description>This section includes the following examples: 
+
+- Creating a List Object
+- Format a List Object (Table)
+- Convert an Excel table to a range of data</Description>
+              <FolderName>workingwithtables</FolderName>
+              <Order>6</Order>
+              <Examples>
+                <Example>
+                  <Title>Creating a List Object</Title>
+                  <Description>One of the many advantages of using Spreadsheets is creating different types of lists e.g., phone lists, client lists, task lists, transaction lists, lists of assets and liabilities etc. Several users do utilize, create and maintain lists of various sorts accordingly for their need. Aspose.Cells provides API for creating / managing Lists.</Description>
+                  <FolderName>creatinglistobject</FolderName>
+                  <Order>1</Order>
+                  <DocLink>
+                    <DisplayName>Creating a List Object</DisplayName>
+                    <Url>Creating+a+List+Object</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\data\book1.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\data\ouput.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Format a List Object</Title>
+                  <Description>A table is a series of rows and columns that contains related data that is managed independently from the data in other rows and columns on the worksheet. By default, every column in the table has filtering enabled in the header row so that you can filter or sort your List Object data quickly. You can add a total row (total row: A special row in a list that provides a selection of aggregate functions useful for working with numerical data.) to your list object that provides a drop-down list of aggregate functions for each total row cell. Aspose.Cells provides API for creating / managing Lists/Tables.</Description>
+                  <FolderName>formatalistobject</FolderName>
+                  <Order>2</Order>
+                  <DocLink>
+                    <DisplayName>Format a List Object (Table)</DisplayName>
+                    <Url>Format+a+List+Object+(Table)</Url>
+                  </DocLink>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\data\List_Object.xlsx</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Convert an Excel table to a range of data</Title>
+                  <Description>You may want a table style without the table functionality. You want to have your data in a table without losing any table style formatting that you applied, you can convert the table to a regular range of data on the worksheet. Aspose.Cells does support this feature of MS Excel for Tables/List Objects.</Description>
+                  <FolderName>converttabletorange</FolderName>
+                  <Order>3</Order>
+                  <DocLink>
+                    <DisplayName>Convert an Excel table to a range of data</DisplayName>
+                    <Url>Convert+an+Excel+table+to+a+range+of+data</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\data\book1.xlsx</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\data\output.xlsx</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+              </Examples>
+            </Folder>
+            <Folder>
+              <Title>Working with Formulas</Title>
+              <Description>This section includes the following examples:
+
+- Using Formulas or Functions to Process Data
+- Calculating Formulas
+- Calculating Formulas Once Only
+- Direct Calculation of Formula</Description>
+              <FolderName>workingwithformulas</FolderName>
+              <Order>7</Order>
+              <Examples>
+                <Example>
+                  <Title>Calculating Formulas</Title>
+                  <Description>Formula calculation engine is embedded in Aspose.Cells. It can not only re-calculate the formula imported from the designer file but also supports to calculate the results of formulas added at runtime.</Description>
+                  <FolderName>calculatingformulas</FolderName>
+                  <Order>1</Order>
+                  <DocLink>
+                    <DisplayName>Culating Formulas</DisplayName>
+                    <Url>Calculating+Formulas</Url>
+                  </DocLink>
+                  <OutputFiles>
+                    <DataFile>
+                      <Path>..\data\output.xls</Path>
+                    </DataFile>
+                  </OutputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Calculating Formulas Once Only</Title>
+                  <Description>When the user calls Workbook.CalculateFormula() to calculate the values of the formulas inside the workbook template, Aspose.Cells creates a calculating chain. It increases performance when formulas are calculated for the second or third time etc. However, if the user template contains lots of diverse formulas, then first time of formula calculation can consume lot of CPU processing time and memory. Aspose.Cells allows you to turn off creating calculating chain which is useful in scenarios when you want to calculate formulas of your file only once.</Description>
+                  <FolderName>calculatingformulasonce</FolderName>
+                  <Order>2</Order>
+                  <DocLink>
+                    <DisplayName>Calculating Formulas Once Only</DisplayName>
+                    <Url>Calculating+Formulas+Once+Only</Url>
+                  </DocLink>
+                  <InputFiles>
+                    <DataFile>
+                      <Path>..\data\book1.xls</Path>
+                    </DataFile>
+                  </InputFiles>
+                  <Type>Console</Type>
+                </Example>
+                <Example>
+                  <Title>Direct Calculation of Formula</Title>
+                  <Description>Formula calculation engine is embedded in Aspose.Cells. Besides, re-calculating the formula imported from the designer file, Aspose.Cells also supports to calculate the results of formulas directly.</Description>
+                  <FolderName>directcalculationformula</FolderName>
+                  <Order>3</Order>
+                  <DocLink>
+                    <DisplayName>Direct Calculation of Formula</DisplayName>
+                    <Url>Direct+Calculation+of+Formula</Url>
+                  </DocLink>
+                  <Type>Console</Type>
+                </Example>
+              </Examples>
             </Folder>
           </Folders>
         </Folder>
