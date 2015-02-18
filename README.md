@@ -1,6 +1,6 @@
 ##Aspose.Cells for Java Examples Repository
 
-This package contains Java Example Projects for [Aspose.Cells for Java](http://www.aspose.com/categories/java-components/aspose.cells-for-java/default.aspx).
+This package contains Java Example Projects for [Aspose.Cells for Java](http://www.aspose.com/java/excel-component.aspx).
 <br/><br/>
 <p align="center">
   <a title="Download Examples Dashboard" href="http://www.aspose.com/community/files/72/java-components/aspose-examples-for-java/default.aspx">
@@ -59,9 +59,9 @@ Each example is runnable Java class with its own main method. You can run each e
 ##Contact Us
 
 + **Website:** [www.aspose.com](http://www.aspose.com)
-+ **Product Home:** [Aspose.Cells for Java](http://www.aspose.com/categories/java-components/aspose.cells-for-java/default.aspx)
++ **Product Home:** [Aspose.Cells for Java](http://www.aspose.com/java/excel-component.aspx)
 + **Download:** [Download Aspose.Cells for Java](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx)
-+ **Documentation:** [Aspose.Cells for Java Documentation](http://www.aspose.com/documentation/java-components/aspose.cells-for-java/index.html)
++ **Documentation:** [Aspose.Cells for Java Documentation](http://www.aspose.com/docs/display/cellsjava/Home)
 + **Forum:** [Aspose.Cells for Java Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx)
 + **Blog:** [Aspose.Cells for Java Blog](http://www.aspose.com/blogs/aspose-products/aspose-cells-product-family.html)
  
