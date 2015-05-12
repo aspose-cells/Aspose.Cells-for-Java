@@ -1,0 +1,58 @@
+.ui-icon.ui-icon-bold
+{
+    background-position: 0 -4px;
+}
+
+.ui-icon.ui-icon-italic
+{    
+    background-position: -60px -4px;
+}
+
+.ui-icon.ui-icon-underline
+{
+    background-position: -140px -4px;
+}
+
+.ui-icon.ui-icon-add-column-before
+{
+    background-position: -702px -22px;
+}
+
+.ui-icon.ui-icon-add-column-after
+{
+    background-position: -681px -22px;
+}
+
+.ui-icon.ui-icon-add-row-before
+{
+    background-position: -742px -22px;
+}
+
+.ui-icon.ui-icon-add-row-after
+{
+    background-position: -722px -22px;
+}
+
+.ui-icon.ui-icon-remove-column
+{
+    background-position: -642px -22px;
+}
+
+.ui-icon.ui-icon-remove-row
+{
+    background-position: -662px -22px;
+}
+
+.ui-icon.ui-icon-bold,
+.ui-icon.ui-icon-italic,
+.ui-icon.ui-icon-underline,
+.ui-icon.ui-icon-add-column-before,
+.ui-icon.ui-icon-add-column-after,
+.ui-icon.ui-icon-add-row-before,
+.ui-icon.ui-icon-add-row-after,
+.ui-icon.ui-icon-remove-column,
+.ui-icon.ui-icon-remove-row
+{
+    background-image: url('#{resource["spreadsheeteditor:icons1.gif"]}');
+}
+

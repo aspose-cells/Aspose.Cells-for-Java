@@ -1,0 +1,175 @@
+body {
+    margin: 0;
+}
+
+.ajax-status-container
+{
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1000;
+}
+
+.ui-ribbon .ui-ribbon-group .ui-ribbon-group-content
+{
+    height: auto !important;
+}
+
+.ui-ribbon.ui-tabs .ui-tabs-nav li a
+{
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+.ui-datatable .ui-cell-editor,
+.ui-datatable .ui-cell-editor-output
+{
+    display:block;
+    height: 100%;
+    width: 100%;
+}
+
+.ui-datatable td.ui-editable-column
+{
+    margin: 0;
+    padding: 0;
+}
+
+.ui-datatable .ui-datatable-data .ui-datatable-odd
+{
+    background-color: #ffffff;
+}
+
+.ui-datatable .ui-datatable-data .ui-cell-editor-input textarea,
+.ui-datatable .ui-datatable-data .ui-cell-editor-input input
+{
+    width: 100%;
+    border: none;
+    border-radius: 0;
+    padding: 0;
+    box-shadow: none;
+}
+
+.ui-state-highlight.ui-cell-editing
+{
+    background: none;
+}
+
+.ui-ribbon .ui-state-active
+{
+    background-color: #e6e6e6;
+    background-image: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    outline: 0 none;
+}
+
+.ui-ribbon.ui-tabs .ui-tabs-nav.ui-widget-header a
+{
+    color: #000000;
+}
+
+.sheet-selected-cell
+{
+    border: 2px solid #777777 !important;
+}
+
+.ui-cell-editor-output
+{
+    cursor: cell;    
+}
+
+.ui-widget,
+.ui-widget .ui-widget
+{
+    font-size: 11px;
+}
+
+.ui-widget.ui-menu
+{
+    width: auto;
+}
+
+.ui-cell-editor-output div
+{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.ui-cell-editor-output .i
+{
+    font-style: italic;
+}
+
+.ui-cell-editor-output .b
+{
+    font-weight: bold;
+}
+
+.ui-cell-editor-output .u
+{
+    text-decoration: underline;
+}
+
+.ui-cell-editor-output .sts
+{
+    text-decoration: line-through;
+}
+
+.ui-cell-editor-output .uc
+{
+    text-transform: capitalize;
+}
+
+.ui-cell-editor-output .sc
+{
+    font-variant: small-caps;
+}
+
+.ui-cell-editor-output .al
+{
+    text-align: left;
+}
+
+.ui-cell-editor-output .ar
+{
+    text-align: right;
+}
+
+.ui-cell-editor-output .ac
+{
+    text-align: center;
+}
+
+.ui-cell-editor-output .aj
+{
+    text-align: justify;
+}
+
+.ui-cell-editor-output .at
+{
+    vertical-align: top;
+}
+
+.ui-cell-editor-output .am
+{
+    vertical-align: middle;
+}
+
+.ui-cell-editor-output .ab
+{
+    vertical-align: bottom;
+}
+
+.ui-selectonemenu-panel .ui-selectonemenu-items-wrapper
+{
+    height: auto !important;
+}
+
+.sheet-cell-toolbar .ui-toolbar-group-left
+{
+    width: 100%;
+}
+
