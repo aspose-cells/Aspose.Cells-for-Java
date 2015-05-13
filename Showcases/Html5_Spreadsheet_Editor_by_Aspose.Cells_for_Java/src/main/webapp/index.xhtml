@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:c="http://xmlns.jcp.org/jsp/jstl/core">
+
+    <h:head>
+        <title>Spreadsheet Editor</title>
+        <script type="text/javascript" src="//www.dropbox.com/static/api/2/dropins.js" id="dropboxjs" data-app-key="gvjtm9s3gidxu11"></script>
+        <h:outputScript library="spreadsheeteditor" name="script.js" />
+        <h:outputScript library="spreadsheeteditor" name="dropbox-chooser.js" />
+        <h:outputStylesheet library="spreadsheeteditor" name="style.css" />
+        <h:outputStylesheet library="spreadsheeteditor" name="icons.css" />
+    </h:head>
+
+    <h:body>
+        <div class="ajax-status-container">
+            <p:ajaxStatus rendered="true">
+                <f:facet name="default">
+                </f:facet>
+                <f:facet name="start">
+                    Loading
+                </f:facet>
+                <f:facet name="success">
+                    Rendering
+                </f:facet>
+                <f:facet name="error">
+                    Error
+                </f:facet>
+            </p:ajaxStatus>
+        </div>
+        <p:growl id="notifications" autoUpdate="true" showDetail="true" />
+
+        <h:form id="ribbon">
+            <span class="ui-helper-hidden">
+                <p:inputText widgetVar="currentColumnIdValue" value="#{worksheet.currentColumnId}" />
+                <p:inputText widgetVar="currentRowIdValue" value="#{worksheet.currentRowId}" />
+                <p:inputText widgetVar="currentCellClientIdValue" value="#{worksheet.currentCellClientId}" />
+                <p:commandButton widgetVar="applyFormattingButton" actionListener="#{worksheet.applyCellFormatting}">
+                </p:commandButton>
+            </span>
+            <p:ribbon>
+                <p:tab title="File">
+                    <p:ribbonGroup>
+                        <p:commandButton value="New" icon="ui-icon-document" actionListener="#{workbook.loadBlank}" update=":ribbon :intro :sheet" />
+                    </p:ribbonGroup>
+                    <p:ribbonGroup>
+                        <p:commandButton value="Open from Computer" icon="ui-icon-folder-open" onclick="return showFileUploadDialog()" />
+                        <p:commandButton value="Open from Dropbox" icon="ui-icon-folder-open" onclick="return showDropboxChooser()" />
+                    </p:ribbonGroup>
+                    <p:ribbonGroup>
+                        <p:menuButton value="Export as" disabled="#{!workbook.loaded}" iconPos="right">
+                            <p:menuitem value="Excel 2007-2013 XLSX" icon="ui-icon-disk" ajax="false">
+                                <p:fileDownload value="#{workbook.getOutputFile(6)}" />
+                            </p:menuitem>
+                            <p:menuitem value="Excel 1997-2003 XLS" icon="ui-icon-disk" ajax="false">
+                                <p:fileDownload value="#{workbook.getOutputFile(5)}" />
+                            </p:menuitem>
+                            <p:menuitem value="Excel XLSM" icon="ui-icon-disk" ajax="false">
+                                <p:fileDownload value="#{workbook.getOutputFile(7)}" />
+                            </p:menuitem>
+                            <p:menuitem value="Excel XLSB" icon="ui-icon-disk" ajax="false">
+                                <p:fileDownload value="#{workbook.getOutputFile(16)}" />
+                            </p:menuitem>
+                            <p:menuitem value="Excel XLTX" icon="ui-icon-disk" ajax="false">
+                                <p:fileDownload value="#{workbook.getOutputFile(8)}" />
+                            </p:menuitem>
+                            <p:menuitem value="Excel XLTM" icon="ui-icon-disk" ajax="false">
+                                <p:fileDownload value="#{workbook.getOutputFile(9)}" />
+                            </p:menuitem>
+                            <p:menuitem value="SpreadsheetML" icon="ui-icon-disk" ajax="false">
+                                <p:fileDownload value="#{workbook.getOutputFile(15)}" />
+                            </p:menuitem>
+                            <p:menuitem value="Portable Document Format (PDF)" icon="ui-icon-disk" ajax="false">
+                                <p:fileDownload value="#{workbook.getOutputFile(13)}" />
+                            </p:menuitem>
+                            <p:menuitem value="OpenDocument Spreadsheet (ODS)" icon="ui-icon-disk" ajax="false">
+                                <p:fileDownload value="#{workbook.getOutputFile(14)}" />
+                            </p:menuitem>
+                        </p:menuButton>
+                    </p:ribbonGroup>
+                </p:tab>
+                <p:tab title="Format">
+                    <p:ribbonGroup>
+                        <p:selectBooleanButton widgetVar="boldOptionButton" disabled="#{!workbook.loaded}" styleClass="cell-formatting" value="#{formatting.boldOptionEnabled}" onIcon="ui-icon-bold" offIcon="ui-icon-bold" onLabel="Bold" offLabel="Bold" />
+                        <p:selectBooleanButton widgetVar="italicOptionButton" disabled="#{!workbook.loaded}" styleClass="cell-formatting" value="#{formatting.italicOptionEnabled}" onIcon="ui-icon-italic" offIcon="ui-icon-italic" onLabel="Italic" offLabel="Italic" />
+                        <p:selectBooleanButton widgetVar="underlineOptionButton" disabled="#{!workbook.loaded}" styleClass="cell-formatting" value="#{formatting.underlineOptionEnabled}" onIcon="ui-icon-underline" offIcon="ui-icon-underline" onLabel="Underline" offLabel="Underline" />
+                        <p:selectOneMenu widgetVar="fontOptionSelector" disabled="#{!workbook.loaded}" value="#{formatting.fontSelectionOption}" panelStyleClass="cell-formatting" style="min-width:150px;" panelStyle="min-width:150px;">
+                            <f:selectItem itemLabel="Arial" itemValue="Arial" />
+                            <f:selectItem itemLabel="Arial Black" itemValue="Arial Black" />
+                            <f:selectItem itemLabel="Book Antiqua" itemValue="Book Antiqua" />
+                            <f:selectItem itemLabel="Calibri" itemValue="Calibri" />
+                            <f:selectItem itemLabel="Comic Sans MS" itemValue="Comic Sans MS" />
+                            <f:selectItem itemLabel="Courier New" itemValue="Courier New" />
+                            <f:selectItem itemLabel="Garamond" itemValue="Garamond" />
+                            <f:selectItem itemLabel="Lucida Console" itemValue="Lucida Console" />
+                            <f:selectItem itemLabel="Tahoma" itemValue="Tahoma" />
+                            <f:selectItem itemLabel="Times New Roman" itemValue="Times New Roman" />
+                            <f:selectItem itemLabel="Trebuchet MS" itemValue="Trebuchet MS" />
+                            <f:selectItem itemLabel="Verdana" itemValue="Verdana" />
+                            <f:selectItems value="#{worksheet.fonts}" />
+                        </p:selectOneMenu>
+                        <p:selectOneMenu widgetVar="fontSizeOptionSelector" value="#{formatting.fontSizeOption}" panelStyleClass="cell-formatting" disabled="#{!workbook.loaded}" style="min-width:50px;" panelStyle="min-width:50px;">
+                            <f:selectItem itemLabel="8" itemValue="8" />
+                            <f:selectItem itemLabel="9" itemValue="9" />
+                            <f:selectItem itemLabel="10" itemValue="10" />
+                            <f:selectItem itemLabel="11" itemValue="11" />
+                            <f:selectItem itemLabel="12" itemValue="12" />
+                            <f:selectItem itemLabel="14" itemValue="14" />
+                            <f:selectItem itemLabel="16" itemValue="16" />
+                            <f:selectItem itemLabel="18" itemValue="18" />
+                            <f:selectItem itemLabel="20" itemValue="20" />
+                            <f:selectItem itemLabel="22" itemValue="22" />
+                            <f:selectItem itemLabel="24" itemValue="24" />
+                            <f:selectItem itemLabel="28" itemValue="28" />
+                            <f:selectItem itemLabel="32" itemValue="32" />
+                            <f:selectItem itemLabel="40" itemValue="40" />
+                            <f:selectItem itemLabel="48" itemValue="48" />
+                            <f:selectItem itemLabel="56" itemValue="56" />
+                            <f:selectItem itemLabel="64" itemValue="64" />
+                            <f:selectItem itemLabel="72" itemValue="72" />
+                        </p:selectOneMenu>
+                        <p:selectOneButton widgetVar="alignOptionSelector" disabled="#{!workbook.loaded}" value="#{formatting.alignSelectionOption}" styleClass="cell-formatting">
+                            <f:selectItem itemLabel="Left" itemValue="al" />
+                            <f:selectItem itemLabel="Center" itemValue="ac" />
+                            <f:selectItem itemLabel="Right" itemValue="ar" />
+                            <f:selectItem itemLabel="Justify" itemValue="aj" />
+                        </p:selectOneButton>
+                        <p:colorPicker widgetVar="fontColorSelector" rendered="#{workbook.loaded}" value="#{formatting.fontColorSelectionOption}" />
+                        <p:colorPicker widgetVar="fillColorSelector" rendered="#{workbook.loaded}" value="#{formatting.fillColorSelectionOption}" />
+                        <p:menuButton value="Clear Cell" disabled="#{!workbook.loaded}" iconPos="right">
+                            <p:menuitem value="Formats" actionListener="#{worksheet.clearCurrentCellFormatting}" />
+                            <p:menuitem value="Contents" actionListener="#{worksheet.clearCurrentCellContents}" />
+                            <p:menuitem value="Both" actionListener="#{worksheet.clearCurrentCell}" />
+                        </p:menuButton>
+                    </p:ribbonGroup>
+                    <p:ribbonGroup>
+                        <p:commandButton actionListener="#{worksheet.addColumnBefore}" disabled="#{!workbook.loaded}" icon="ui-icon-add-column-before" title="Insert Column on Right" update=":sheet" />
+                        <p:commandButton actionListener="#{worksheet.addColumnAfter}" disabled="#{!workbook.loaded}" icon="ui-icon-add-column-after" title="Insert Column on Left" update=":sheet" />
+                        <p:commandButton actionListener="#{worksheet.addRowAbove}" disabled="#{!workbook.loaded}" icon="ui-icon-add-row-before" title="Insert Row Above" update=":sheet" />
+                        <p:commandButton actionListener="#{worksheet.addRowBelow}" disabled="#{!workbook.loaded}" icon="ui-icon-add-row-after" title="Insert Row Below" update=":sheet" />
+                        <p:commandButton actionListener="#{worksheet.deleteColumn}" disabled="#{!workbook.loaded}" icon="ui-icon-remove-column" title="Delete this Column" update=":sheet" />
+                        <p:commandButton actionListener="#{worksheet.deleteRow}" disabled="#{!workbook.loaded}" icon="ui-icon-remove-row" title="Delete this Row" update=":sheet" />
+                    </p:ribbonGroup>
+                    <p:ribbonGroup>
+                        <p:menuButton value="Delete Cell" disabled="#{!workbook.loaded}" iconPos="right">
+                            <p:menuitem value="Shift Cells Up" actionListener="#{worksheet.removeCellShiftUp}" update=":sheet" />
+                            <p:menuitem value="Shift Cells Left" actionListener="#{worksheet.removeCellShiftLeft}" update=":sheet" />
+                        </p:menuButton>
+                        <p:commandButton value="Column Width" onclick="return showColumnWidthDialog()" disabled="#{!workbook.loaded}" />
+                        <p:commandButton value="Row Height" onclick="return showRowHeightDialog()" disabled="#{!workbook.loaded}" />
+                    </p:ribbonGroup>
+                </p:tab>
+                <p:tab title="Insert">
+                    <p:ribbonGroup>
+                        <p:menuButton value="Row" disabled="#{!workbook.loaded}" iconPos="right">
+                            <p:menuitem value="Insert Row Above" actionListener="#{worksheet.addRowAbove}" update=":sheet" />
+                            <p:menuitem value="Insert Row Below" actionListener="#{worksheet.addRowBelow}" update=":sheet" />
+                        </p:menuButton>
+                        <p:menuButton value="Column" disabled="#{!workbook.loaded}" iconPos="right">
+                            <p:menuitem value="Insert Column on Right" actionListener="#{worksheet.addColumnAfter}" update=":sheet" />
+                            <p:menuitem value="Insert Column on Left" actionListener="#{worksheet.addColumnBefore}" update=":sheet" />
+                        </p:menuButton>
+                        <p:menuButton value="Cell" disabled="#{!workbook.loaded}" iconPos="right">
+                            <p:menuitem value="Shift Cells Right" actionListener="#{worksheet.addCellShiftRight}" update=":sheet" />
+                            <p:menuitem value="Shift Cells Down" actionListener="#{worksheet.addCellShiftDown}" update=":sheet" />
+                        </p:menuButton>
+                    </p:ribbonGroup>
+                </p:tab>
+                <p:tab title="Sheets">
+                    <p:ribbonGroup>
+                        <p:selectOneMenu id="sheetswitcher" value="#{workbook.activeSheet}" editable="true" rendered="#{workbook.loaded}">
+                            <p:ajax partialSubmit="true" update=":sheet sheetswitcher"/>
+                            <f:selectItems value="#{workbook.sheets}" />
+                        </p:selectOneMenu>
+                        <p:commandButton icon="ui-icon-plus" title="Add a new Sheet" disabled="#{!workbook.loaded}">
+                            <p:ajax listener="#{workbook.onAddNewSheet}" update=":sheet sheetswitcher" />
+                        </p:commandButton>
+                        <p:commandButton icon="ui-icon-minus" title="Remove active Sheet" disabled="#{!workbook.loaded}">
+                            <p:ajax listener="#{workbook.onRemoveActiveSheet}" update=":sheet sheetswitcher" />
+                        </p:commandButton>
+                    </p:ribbonGroup>
+                </p:tab>
+                <p:tab title="Help">
+                    <p:ribbonGroup>
+                        <p:commandButton value="About" icon="ui-icon-help" onclick="showAboutDialog()" />
+                        <p:button target="_blank" href="http://www.aspose.com/java/excel-component.aspx" value="Aspose.Cells for Java" />
+                    </p:ribbonGroup>
+                </p:tab>
+            </p:ribbon>
+
+            <p:toolbar styleClass="sheet-cell-toolbar">
+                <f:facet name="left">
+                    <table width="100%">
+                        <tr>
+                            <td width="1">
+                                <p:inputText widgetVar="currentCellNameValue" disabled="true" />
+                            </td>
+                            <td width="1">
+                                <p:commandButton value="f(x)" onclick="return showInsertFunctionDialog()" />
+                            </td>
+                            <td>
+                                <p:inputText widgetVar="formulaBar" onchange="return saveFormulaBarContents()" disabled="#{!workbook.loaded}" style="width:99%"/>
+                            </td>
+                        </tr>
+                    </table>
+                </f:facet>
+            </p:toolbar>
+
+            <p:dialog modal="true" widgetVar="columnWidthDialog" rendered="#{workbook.loaded}">
+                <f:facet name="header">
+                    Column Width
+                </f:facet>
+                <p:inputText widgetVar="currentColumnWidthValue" value="#{worksheet.currentColumnWidth}" />
+                <f:facet name="footer">
+                    <p:commandButton value="Close" onclick="hideColumnWidthDialog()" />
+                </f:facet>
+            </p:dialog>
+
+            <p:dialog modal="true" widgetVar="rowHeightDialog" rendered="#{workbook.loaded}">
+                <f:facet name="header">
+                    Row Height
+                </f:facet>
+                <p:inputText widgetVar="currentRowHeightValue" value="#{worksheet.currentRowHeight}" />
+                <f:facet name="footer">
+                    <p:commandButton value="Close" onclick="hideRowHeightDialog()" />
+                </f:facet>
+            </p:dialog>
+
+        </h:form>
+
+        <h:form id="intro">
+            <p:panel rendered="#{!workbook.loaded}" style="width: 500px; margin: 50px auto">
+                <h2>Spreadsheet Editor</h2>
+                You can ...
+                <ul>
+                    <li>Create a new file</li>
+                    <li>Open a file saved on your computer</li>
+                    <li>Open a file saved online in your Dropbox</li>
+                    <li>Open a publicly available file on Internet. You can specify the file using <code>?url=</code> parameter</li>
+                </ul>
+            </p:panel>
+        </h:form>
+
+        <h:form id="sheet">
+            <p:dataTable
+                rendered="#{workbook.loaded}"
+                widgetVar="sheet"
+                var="row"
+                value="#{worksheet.rows}"
+                editable="true"
+                editMode="cell"
+                resizableColumns="true"
+                rowKey="#{row.id}"
+                style="overflow: scroll">
+
+                <p:ajax event="colResize" listener="#{worksheet.onColumnResize}" />
+                <p:ajax event="cellEdit" listener="#{worksheet.onCellEdit}" />
+
+                <p:column style="text-align: right; width: 20px">
+                    <h:outputText value="#{row.id + 1}" />
+                </p:column>
+
+                <c:forEach var="column" items="#{worksheet.columns}">
+                    <p:column
+                        headerText="#{column.name}"
+                        colspan="#{row.cellsMap[column.name].colspan}"
+                        rowspan="#{row.cellsMap[column.name].rowspan}"
+                        style="width:#{worksheet.columnWidth[column.id]}px; height:#{worksheet.rowHeight[row.id]}px;">
+
+                        <p:cellEditor>
+                            <f:facet name="output">
+                                <div style="#{row.cellsMap[column.name].style}" class="#{row.cellsMap[column.name].cssClass}">
+                                    #{row.cellsMap[column.name].value}
+                                </div>
+                            </f:facet>
+                            <f:facet name="input">
+                                <p:inputText value="#{row.cellsMap[column.name]}" converter="cellEditorConverter">
+                                    <f:passThroughAttribute name="data-columnId" value="#{column.id}" />
+                                    <f:passThroughAttribute name="data-columnName" value="#{column.name}" />
+                                    <f:passThroughAttribute name="data-rowId" value="${row.id}" />
+                                    <f:passThroughAttribute name="data-cellName" value="#{row.cellsMap[column.name].name}" />
+                                </p:inputText>
+                            </f:facet>
+                        </p:cellEditor>
+                    </p:column>
+                </c:forEach>
+
+            </p:dataTable>
+
+        </h:form>
+
+        <p:dialog widgetVar="aboutDialog" modal="true" style="text-align: center">
+            <f:facet name="header">
+                About
+            </f:facet>
+            <h:graphicImage value="logo.jpg" />
+            <h2>Spreadsheet Editor</h2>
+            <f:facet name="footer">
+                &#9400; Aspose 2002-2015. All Rights Reserved.
+            </f:facet>
+        </p:dialog>
+        <h:form>
+
+            <p:dialog widgetVar="insertFunctionDialog" modal="true" width="40%" resizable="false">
+                <f:facet name="header">
+                    Insert Function
+                </f:facet>
+                <p>
+                    Spreadsheet Editor supports most of the functions available in a typical
+                    spreadsheet software application. We have maintained a list of
+                    functions for your help.
+                </p>
+                <p>
+                    We continuously update this list with new functions and formulas as
+                    more and more are added to every new release of product. So the list may
+                    not be final.
+                </p>
+                <f:facet name="footer" >
+                    <p:commandButton value="Close" onclick="return hideInsertFunctionDialog()" />
+                    <p:commandButton value="See Supported Functions" onclick="return showSupportedFunctionsPage()" style="float:right" />
+                </f:facet>
+            </p:dialog>
+        </h:form>
+
+        <h:form style="display:none">
+            <p:fileUpload widgetVar="fileUploadDialog" allowTypes="/(\.|\/)(xlsx|xls|ods)$/" auto="true" fileUploadListener="#{workbook.onFileUpload}" update=":ribbon :intro :sheet" />
+        </h:form>
+
+        <h:form style="display:none">
+            <p:inputText widgetVar="dropboxChooserSelectedUrl" value="#{workbook.sourceUrl}" />
+            <p:commandButton widgetVar="dropboxChooserSelectedUrlApply" actionListener="#{workbook.loadFromUrl()}" update=":ribbon :intro :sheet" />
+        </h:form>
+
+        <h:form>
+            <p:remoteCommand name="updatePartialView" actionListener="#{worksheet.updatePartialView}" />
+        </h:form>
+
+    </h:body>
+</html>
+

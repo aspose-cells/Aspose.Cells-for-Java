@@ -1,0 +1,4 @@
+target/
+*.lic
+*.xls*
+nb-configuration.xml
