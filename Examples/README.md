@@ -1,10 +1,10 @@
-##Aspose.Cells for Java Examples Repository
+##Aspose.Cells for Java Examples
 
 This package contains Java Example Projects for [Aspose.Cells for Java](http://www.aspose.com/java/excel-component.aspx).
-<br/><br/>
+
 <p align="center"
-  <a title="Download Examples ZIP" href="https://github.com/asposecells/Aspose_Cells_Java/archive/master.zip">
-	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
+  <a title="Download ZIP" href="https://github.com/asposecells/Aspose_Cells_Java/archive/master.zip">
+	<img src="http://i.imgur.com/hwNhrGZ.png" />
   </a>
 </p>
 
