@@ -12,5 +12,5 @@ Following is short description of contents of the repository:
 
 Directory  | Description
 ---------- | -----------
-Examples  | A collection of Java examples that help you learn how to product features
-Showcases  | Standalone ready-to-use applications that demonstrate some specific usecases
+[Examples](https://github.com/asposecells/Aspose_Cells_Java/tree/master/Examples)  | A collection of Java examples that help you learn how to product features
+[Showcases](https://github.com/asposecells/Aspose_Cells_Java/tree/master/Showcases)  | Standalone ready-to-use applications that demonstrate some specific usecases
