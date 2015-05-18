@@ -14,3 +14,12 @@ Directory  | Description
 ---------- | -----------
 [Examples](https://github.com/asposecells/Aspose_Cells_Java/tree/master/Examples)  | A collection of Java examples that help you learn how to product features
 [Showcases](https://github.com/asposecells/Aspose_Cells_Java/tree/master/Showcases)  | Standalone ready-to-use applications that demonstrate some specific usecases
+
+## Resources
+
++ **Website:** [www.aspose.com](http://www.aspose.com)
++ **Product Home:** [Aspose.Cells for Java](http://www.aspose.com/java/excel-component.aspx)
++ **Download:** [Download Aspose.Cells for Java](http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/default.aspx)
++ **Documentation:** [Aspose.Cells for Java Documentation](http://www.aspose.com/docs/display/cellsjava/Home)
++ **Forum:** [Aspose.Cells for Java Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx)
++ **Blog:** [Aspose.Cells for Java Blog](http://www.aspose.com/blogs/aspose-products/aspose-cells-product-family.html)
