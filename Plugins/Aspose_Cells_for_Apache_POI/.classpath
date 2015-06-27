@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
-	<classpathentry kind="lib" path="D:/Banckle/workspaces/ApachePOI_GitHub/lib/Aspose/aspose-cells-8.3.0.jar"/>
-	<classpathentry kind="lib" path="D:/Banckle/workspaces/ApachePOI_GitHub/lib/ApachePOI/poi-3.11-beta1-20140306.jar"/>
-	<classpathentry kind="lib" path="D:/Banckle/workspaces/ApachePOI_GitHub/lib/ApachePOI/poi-ooxml-3.11-beta1-20140306.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/Aspose/AsposeComponents/aspose-cells-8.3.2-java/JDK 1.6/aspose-cells-8.3.2-java/lib/aspose-cells-8.3.2.jar"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/ApachePOI/poi-3.11/poi-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/ApachePOI/poi-3.11/poi-ooxml-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/ApachePOI/poi-3.11/poi-ooxml-schemas-3.11-20141221.jar"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/ApachePOI/poi-3.11/ooxml-lib/xmlbeans-2.6.0.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
