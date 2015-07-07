@@ -1,3 +1,4 @@
+require_relative 'helloworld'
 require_relative 'hideunhideworksheet'
 require_relative 'displayhidetabs'
 require_relative 'displayhidescrollbars'
