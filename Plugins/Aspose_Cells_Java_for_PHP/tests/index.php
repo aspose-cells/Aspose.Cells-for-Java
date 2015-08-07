@@ -4,6 +4,7 @@ require_once("../../java/Java.inc");
 
 require_once __DIR__ . '/../vendor/autoload.php'; // Autoload files using Composer autoload
 
+use Aspose\Cells\QuickStart\HelloWorld;
 use Aspose\Cells\WorkingWithFiles\FileHandlingFeatures\OpeningFiles;
 use Aspose\Cells\WorkingWithFiles\FileHandlingFeatures\SavingFiles;
 use Aspose\Cells\WorkingWithFiles\UtilityFeatures\ChartToImage;
@@ -34,6 +35,8 @@ use Aspose\Cells\WorkingWithWorksheets\ValueFeatures\CopyingAndMovingWorksheets;
 use Aspose\Cells\WorkingWithRowsAndColumns\RowsAndColumns;
 
 
+print "Running Aspose\\Cells\\QuickStart\\HelloWorld::run()" . PHP_EOL;
+HelloWorld::run(__DIR__ . '/data/QuickStart/HelloWorld/');
 
 print "Running Aspose\\Cells\\WorkingWithFiles\\FileHandlingFeatures\\OpeningFiles::run()" . PHP_EOL;
 OpeningFiles::run(__DIR__ . '/data/WorkingWithFiles/FileHandlingFeatures/OpeningFiles/');
