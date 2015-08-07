@@ -24,17 +24,17 @@ class ManagingPageBreaks {
 
     public static function add_page_breaks($dataDir=null, $workbook)
     {
-        $worksheets = $workbook->getWorksheets();
-        $worksheet = $worksheets->get(0);
+$worksheets = $workbook->getWorksheets();
+$worksheet = $worksheets->get(0);
 
-        $h_page_breaks = $worksheet->getHorizontalPageBreaks();
-        $h_page_breaks->add("Y30");
+$h_page_breaks = $worksheet->getHorizontalPageBreaks();
+$h_page_breaks->add("Y30");
 
-        $v_page_breaks = $worksheet->getVerticalPageBreaks();
-        $v_page_breaks->add("Y30");
+$v_page_breaks = $worksheet->getVerticalPageBreaks();
+$v_page_breaks->add("Y30");
 
-        # Saving the modified Excel file in default (that is Excel 2003) format
-        $workbook->save($dataDir . "Add Page Breaks.xls");
+# Saving the modified Excel file in default (that is Excel 2003) format
+$workbook->save($dataDir . "Add Page Breaks.xls");
 
         print "Add page breaks, please check the output file." . PHP_EOL;
 
@@ -43,11 +43,11 @@ class ManagingPageBreaks {
     public static function clear_all_page_breaks($dataDir=null, $workbook)
     {
 
-        $workbook->getWorksheets()->get(0)->getHorizontalPageBreaks()->clear();
-        $workbook->getWorksheets()->get(0)->getVerticalPageBreaks()->clear();
+$workbook->getWorksheets()->get(0)->getHorizontalPageBreaks()->clear();
+$workbook->getWorksheets()->get(0)->getVerticalPageBreaks()->clear();
 
-        # Saving the modified Excel file in default (that is Excel 2003) format
-        $workbook->save($dataDir . "Clear All Page Breaks.xls");
+# Saving the modified Excel file in default (that is Excel 2003) format
+$workbook->save($dataDir . "Clear All Page Breaks.xls");
 
         print "Clear all page breaks, please check the output file." . PHP_EOL;
 

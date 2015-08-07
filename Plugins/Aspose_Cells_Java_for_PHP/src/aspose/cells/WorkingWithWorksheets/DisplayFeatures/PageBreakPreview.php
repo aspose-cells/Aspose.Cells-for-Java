@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: fahadadeel
- * Date: 05/08/15
- * Time: 12:24 PM
- */
 
 namespace Aspose\Cells\WorkingWithWorksheets\DisplayFeatures;
 

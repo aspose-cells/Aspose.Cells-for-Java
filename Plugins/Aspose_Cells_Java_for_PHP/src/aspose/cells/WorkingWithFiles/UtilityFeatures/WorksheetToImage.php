@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: fahadadeel
- * Date: 04/08/15
- * Time: 12:09 AM
- */
 
 namespace Aspose\Cells\WorkingWithFiles\UtilityFeatures;
 
