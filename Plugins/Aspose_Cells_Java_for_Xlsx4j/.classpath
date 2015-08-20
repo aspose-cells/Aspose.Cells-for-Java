@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.launching.macosx.MacOSXType/Java SE 7 [1.7.0_75]"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/Aspose/AsposeComponents/aspose-cells-8.5.1-java/JDK 1.6/aspose-cells-8.5.1-java/lib/aspose-cells-8.5.1.jar"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/docx4j/docx4j-3.2.1/docx4j-3.2.1.jar"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/docx4j/docx4j-3.2.1/dependencies/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/docx4j/docx4j-3.2.1/dependencies/commons-io-1.3.1.jar"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/docx4j/docx4j-3.2.1/dependencies/xmlgraphics-commons-1.5.jar"/>
+	<classpathentry kind="lib" path="/Users/shoaibkhan/Downloads/docx4j/commons-logging-1.1.1/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
