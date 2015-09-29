@@ -1,0 +1,5 @@
+jar_dir: ../asposecellsjava/jars
+license_path: ../asposecellsjava/license/path
+jvm_args: -Xms512m -Xmx1G
+
+
