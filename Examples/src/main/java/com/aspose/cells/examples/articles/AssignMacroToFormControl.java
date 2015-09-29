@@ -32,6 +32,8 @@ public class AssignMacroToFormControl {
         button.getFont().setColor(Color.getBlue());
         button.setText("Aspose");
 
+        button.setMacroName(sheet.getName() + ".ShowMessage");
+
         workbook.save(dataDir + "Output.xlsm");
 
         System.out.println("File saved");
