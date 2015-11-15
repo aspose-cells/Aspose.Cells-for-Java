@@ -14,7 +14,13 @@ public class Utils {
             dir = new File(dir, s);
         }
 
-        System.out.println("Using data directory: " + dir.toString());
+        if (dir.exists()) {
+            System.out.println("Using data directory: " + dir.toString());
+        } else {
+            dir.mkdirs();
+            System.out.println("Creating data directory: " + dir.toString());
+        }
+
         return dir.toString() + File.separator;
     }
 }
