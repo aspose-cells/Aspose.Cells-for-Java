@@ -14,7 +14,7 @@ The Plugin intended for developers using Maven platform for Java developments an
 
 The plugin provides following features to work with [Aspose.Cells for Java](http://goo.gl/gtvhlQ) API within **NetBeans IDE** comfortably:
 
-![plugin title shot](http://i.imgur.com/ahtYw1V.png)
+![plugin title shot](http://i.imgur.com/R1YKNKI.png)
 
 ### Aspose.Cells Maven Project (wizard)
 
