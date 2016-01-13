@@ -1,10 +1,3 @@
-/* 
- * Copyright 2001-2013 Aspose Pty Ltd. All Rights Reserved.
- *
- * This file is part of Aspose.Cells. The source code in this file
- * is only intended as a supplement to the documentation, and is provided
- * "as is", without warranty of any kind, either expressed or implied.
- */
 package com.aspose.cells.examples.data.processing.filteringandvalidation;
 
 import com.aspose.cells.*;
@@ -34,11 +27,19 @@ public class TimeDataValidation {
         cells.setRowHeight(0, 31);
         cells.setColumnWidth(0, 35);
 
+        // Set a collection of CellArea which contains the data validation settings.
+        CellArea area = new CellArea();
+
+        area.StartRow = 0;
+        area.StartColumn = 1;
+        area.EndRow = 0;
+        area.EndColumn = 1;
+
         // Get the validations collection.
         ValidationCollection validations = workbook.getWorksheets().get(0).getValidations();
 
         // Add a new validation.
-        int i = validations.add();
+        int i = validations.add(area);
         Validation validation = validations.get(i);
 
         // Set the data validation type.
@@ -69,17 +70,6 @@ public class TimeDataValidation {
         validation.setInputMessage("Time Validation Type");
         validation.setIgnoreBlank(true);
         validation.setShowInput(true);
-
-        // Set a collection of CellArea which contains the data validation settings.
-        CellArea area = new CellArea();
-
-        area.StartRow = 0;
-        area.StartColumn = 1;
-        area.EndRow = 0;
-        area.EndColumn = 1;
-
-        // Add the Validation area.
-        validation.addArea(area);
 
         // Save the excel file.
         workbook.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);

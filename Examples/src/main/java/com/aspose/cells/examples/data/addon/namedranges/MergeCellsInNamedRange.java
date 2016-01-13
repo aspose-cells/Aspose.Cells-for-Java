@@ -1,10 +1,3 @@
-/* 
- * Copyright 2001-2013 Aspose Pty Ltd. All Rights Reserved.
- *
- * This file is part of Aspose.Cells. The source code in this file
- * is only intended as a supplement to the documentation, and is provided
- * "as is", without warranty of any kind, either expressed or implied.
- */
 package com.aspose.cells.examples.data.addon.namedranges;
 
 import com.aspose.cells.*;
@@ -34,11 +27,8 @@ public class MergeCellsInNamedRange {
         //Get the range.
         Range range1 = wb1.getWorksheets().getRangeByName("Details");
 
-        //Add a style object to the collection.
-        int i = wb1.getStyles().add();
-
         //Define a style object.
-        Style style = wb1.getStyles().get(i);
+        Style style = wb1.createStyle();
 
         //Set the alignment.
         style.setHorizontalAlignment(TextAlignmentType.CENTER);

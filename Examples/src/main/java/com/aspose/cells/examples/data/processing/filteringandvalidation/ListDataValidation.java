@@ -1,10 +1,3 @@
-/* 
- * Copyright 2001-2013 Aspose Pty Ltd. All Rights Reserved.
- *
- * This file is part of Aspose.Cells. The source code in this file
- * is only intended as a supplement to the documentation, and is provided
- * "as is", without warranty of any kind, either expressed or implied.
- */
 package com.aspose.cells.examples.data.processing.filteringandvalidation;
 
 import com.aspose.cells.*;
@@ -36,11 +29,18 @@ public class ListDataValidation {
         range.get(2, 0).setValue("Green");
         range.get(3, 0).setValue("Yellow");
 
+        // Specify the validation area of cells.
+        CellArea area = new CellArea();
+        area.StartRow = 0;
+        area.StartColumn = 0;
+        area.EndRow = 4;
+        area.EndColumn = 0;
+
         // Obtain the existing Validations collection.
         ValidationCollection validations = ExcelWorkSheet.getValidations();
 
         // Create a validation object adding to the collection list.
-        int index = validations.add();
+        int index = validations.add(area);
         Validation validation = validations.get(index);
 
         // Set the validation type.
@@ -63,16 +63,6 @@ public class ListDataValidation {
 
         // Set the error message.
         validation.setErrorMessage("Please select a color from the list");
-
-        // Specify the validation area of cells.
-        CellArea area = new CellArea();
-        area.StartRow = 0;
-        area.StartColumn = 0;
-        area.EndRow = 4;
-        area.EndColumn = 0;
-
-        // Add the Validation area.
-        validation.addArea(area);
 
         // Save the excel file.
         workbook.save(dataDir + "output.xls");

@@ -1,10 +1,3 @@
-/* 
- * Copyright 2001-2013 Aspose Pty Ltd. All Rights Reserved.
- *
- * This file is part of Aspose.Cells. The source code in this file
- * is only intended as a supplement to the documentation, and is provided
- * "as is", without warranty of any kind, either expressed or implied.
- */
 package com.aspose.cells.examples.data.processing.filteringandvalidation;
 
 import com.aspose.cells.*;
@@ -22,10 +15,19 @@ public class WholeNumberDataValidation {
 
         //Accessing the Validations collection of the worksheet
         Worksheet worksheet = worksheets.get(0);
+
+        //Applying the validation to a range of cells from A1 to B2 using the
+        //CellArea structure
+        CellArea area = new CellArea();
+        area.StartRow = 0;
+        area.StartColumn = 0;
+        area.EndRow = 1;
+        area.EndColumn = 1;
+
         ValidationCollection validations = worksheet.getValidations();
 
         //Creating a Validation object
-        int index = validations.add();
+        int index = validations.add(area);
         Validation validation = validations.get(index);
 
         //Setting the validation type to whole number
@@ -39,17 +41,6 @@ public class WholeNumberDataValidation {
 
         //Setting the maximum value for the validation
         validation.setFormula2("1000");
-
-        //Applying the validation to a range of cells from A1 to B2 using the
-        //CellArea structure
-        CellArea area = new CellArea();
-        area.StartRow = 0;
-        area.StartColumn = 0;
-        area.EndRow = 1;
-        area.EndColumn = 1;
-
-        //Adding the cell area to Validation
-        validation.addArea(area);
 
         //Saving the Excel file
         workbook.save(dataDir + "output.xls");

@@ -1,10 +1,3 @@
-/* 
- * Copyright 2001-2013 Aspose Pty Ltd. All Rights Reserved.
- *
- * This file is part of Aspose.Cells. The source code in this file
- * is only intended as a supplement to the documentation, and is provided
- * "as is", without warranty of any kind, either expressed or implied.
- */
 package com.aspose.cells.examples.data.processing.filteringandvalidation;
 
 import com.aspose.cells.*;
@@ -22,11 +15,18 @@ public class DecimalDataValidation {
         // Create a worksheet and get the first worksheet.
         Worksheet ExcelWorkSheet = workbook.getWorksheets().get(0);
 
+        // Specify the validation area of cells.
+        CellArea area = new CellArea();
+        area.StartRow = 0;
+        area.StartColumn = 0;
+        area.EndRow = 9;
+        area.EndColumn = 0;
+
         // Obtain the existing Validations collection.
         ValidationCollection validations = ExcelWorkSheet.getValidations();
 
         // Create a validation object adding to the collection list.
-        int index = validations.add();
+        int index = validations.add(area);
         Validation validation = validations.get(index);
 
         // Set the validation type.
@@ -41,16 +41,6 @@ public class DecimalDataValidation {
 
         // Set the error message.
         validation.setErrorMessage("Please enter a valid integer or decimal number");
-
-        // Specify the validation area of cells.
-        CellArea area = new CellArea();
-        area.StartRow = 0;
-        area.StartColumn = 0;
-        area.EndRow = 9;
-        area.EndColumn = 0;
-
-        // Add the area.
-        validation.addArea(area);
 
         // Save the workbook.
         workbook.save(dataDir + "output.xls");
