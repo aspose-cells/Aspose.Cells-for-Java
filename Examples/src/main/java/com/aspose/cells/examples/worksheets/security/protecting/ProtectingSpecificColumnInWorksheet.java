@@ -46,7 +46,7 @@ public class ProtectingSpecificColumnInWorksheet {
         sheet.getCells().getColumns().get(0).applyStyle(style, flag);
 
         // Save the excel file.
-        wb.save(dataDir + "lockedcolumn.xls", FileFormatType.EXCEL_97_TO_2003);
+        wb.save(dataDir + "lockedcolumn.out.xls", FileFormatType.EXCEL_97_TO_2003);
 
         //Print Message
         System.out.println("Column protected successfully.");

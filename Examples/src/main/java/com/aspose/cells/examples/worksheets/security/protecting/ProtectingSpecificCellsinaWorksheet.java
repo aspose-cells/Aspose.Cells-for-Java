@@ -44,7 +44,7 @@ public class ProtectingSpecificCellsinaWorksheet {
         sheet.getCells().get("C1").setStyle(style);
 
         // Save the excel file.
-        wb.save(dataDir + "lockedcells.xls", FileFormatType.EXCEL_97_TO_2003);
+        wb.save(dataDir + "lockedcells.out.xls", FileFormatType.EXCEL_97_TO_2003);
 
         //Print Message
         System.out.println("Cells protected successfully.");

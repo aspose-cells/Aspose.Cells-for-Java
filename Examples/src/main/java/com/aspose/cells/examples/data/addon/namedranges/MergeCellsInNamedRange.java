@@ -45,7 +45,7 @@ public class MergeCellsInNamedRange {
         range1.get(0, 0).setValue("Aspose");
 
         //Save the excel file.
-        wb1.save(dataDir + "mergingrange.xls");
+        wb1.save(dataDir + "mergingrange.out.xls");
 
         // Print message
         System.out.println("Process completed successfully");

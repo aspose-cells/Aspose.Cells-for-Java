@@ -23,7 +23,7 @@ public class EncryptingFiles {
         workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128);
 
         //Save the excel file.
-        workbook.save(dataDir + "encryptedBook1.xls");
+        workbook.save(dataDir + "encryptedBook1.out.xls");
 
         // Print message
         System.out.println("Encryption applied successfully on output file.");

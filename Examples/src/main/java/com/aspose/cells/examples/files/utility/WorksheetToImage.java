@@ -25,7 +25,7 @@ public class WorksheetToImage {
         SheetRender sr = new SheetRender(sheet, imgOptions);
         for (int j = 0; j < sr.getPageCount(); j++) {
             //Generate an image for the worksheet
-            sr.toImage(j, dataDir + "mysheetimg_" + j + ".png");
+            sr.toImage(j, dataDir + "mysheetimg_" + j + ".out.png");
 
         }
 

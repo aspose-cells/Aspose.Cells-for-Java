@@ -25,7 +25,7 @@ public class RenameNamedRange {
         name.setText("NewRange");
 
         //Save the Excel file
-        workbook.save(dataDir + "RenamingRange.xlsx");
+        workbook.save(dataDir + "RenamingRange.out.xlsx");
 
         // Print message
         System.out.println("Process completed successfully");

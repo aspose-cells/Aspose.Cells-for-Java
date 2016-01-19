@@ -46,7 +46,7 @@ public class IntersectionofRanges {
         }
 
         //Save the excel file.
-        workbook.save(dataDir + "rngIntersection.xls");
+        workbook.save(dataDir + "rngIntersection.out.xls");
 
         // Print message
         System.out.println("Process completed successfully");

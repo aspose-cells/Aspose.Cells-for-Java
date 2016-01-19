@@ -30,7 +30,7 @@ public class ImportingFromArrayList {
         worksheet.getCells().importArrayList(list, 0, 0, true);
 
         //Saving the Excel file
-        workbook.save(dataDir + "DataImport.xls");
+        workbook.save(dataDir + "DataImport.out.xls");
 
         //Printing the name of the cell found after searching worksheet
         System.out.println("Process completed successfully");

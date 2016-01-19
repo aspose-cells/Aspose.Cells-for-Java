@@ -53,7 +53,9 @@ public class MergingCellsInWorksheet {
         cells.get(5, 2).setStyle(style);
 
         //Save the Workbook.
-        wbk.save(dataDir + "mergingcells.xls");
+        wbk.save(dataDir + "mergingcells.out.xls");
+        wbk.save(dataDir + "mergingcells.out.xlsx");
+        wbk.save(dataDir + "mergingcells.out.ods");
 
         // Print message
         System.out.println("Process completed successfully");

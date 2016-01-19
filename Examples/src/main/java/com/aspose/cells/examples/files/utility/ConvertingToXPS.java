@@ -22,10 +22,10 @@ public class ConvertingToXPS {
 
         // Render the sheet with respect to specified printing options
         com.aspose.cells.SheetRender sr = new SheetRender(sheet, options);
-        sr.toImage(0, dataDir + "out_printingxps.xps");
+        sr.toImage(0, dataDir + "printingxps.out.xps");
 
         //Save the complete Workbook in XPS format
-        workbook.save(dataDir + "out_whole_printingxps.xps", SaveFormat.XPS);
+        workbook.save(dataDir + "whole_printingxps.out.xps", SaveFormat.XPS);
 
         // Print message
         System.out.println("Excel to XPS conversion performed successfully.");

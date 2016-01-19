@@ -49,7 +49,7 @@ public class RemoveANamedRange {
         worksheets.getNames().removeAt(0);
 
         //Save the excel file.
-        workbook.save(dataDir + "copyranges.xls");
+        workbook.save(dataDir + "ranges.out.xls");
 
         // Print message
         System.out.println("Process completed successfully");

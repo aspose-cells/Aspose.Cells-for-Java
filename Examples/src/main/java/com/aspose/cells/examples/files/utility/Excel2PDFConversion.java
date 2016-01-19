@@ -12,7 +12,7 @@ public class Excel2PDFConversion {
         Workbook workbook = new Workbook(dataDir + "Book1.xls");
 
         //Save the document in PDF format
-        workbook.save(dataDir + "OutBook1.pdf", SaveFormat.PDF);
+        workbook.save(dataDir + "Book1.out.pdf", SaveFormat.PDF);
 
         // Print message
         System.out.println("Excel to PDF conversion performed successfully.");

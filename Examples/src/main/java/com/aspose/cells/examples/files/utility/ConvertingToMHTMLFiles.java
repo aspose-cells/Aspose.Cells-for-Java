@@ -21,7 +21,7 @@ public class ConvertingToMHTMLFiles {
         Workbook wb = new Workbook(filePath);
 
         //Save the MHT file
-        wb.save(filePath + ".out.mht", sv);
+        wb.save(filePath + "Book1.out.mht", sv);
 
         // Print message
         System.out.println("Excel to MHTML conversion performed successfully.");

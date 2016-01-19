@@ -34,7 +34,7 @@ public class InputDataInCellsInRange {
         range.get(3, 2).setValue("Brazil");
 
         //Save the excel file.
-        workbook.save(dataDir + "rangecells.xls");
+        workbook.save(dataDir + "rangecells.out.xls");
 
         // Print message
         System.out.println("Process completed successfully");

@@ -46,7 +46,7 @@ public class ProtectingSpecificRowInWorksheet {
         sheet.getCells().getRows().get(0).applyStyle(style, flag);
 
         // Save the excel file.
-        wb.save(dataDir + "lockedrow.xls", FileFormatType.EXCEL_97_TO_2003);
+        wb.save(dataDir + "lockedrow.out.xls", FileFormatType.EXCEL_97_TO_2003);
 
         //Print Message
         System.out.println("Row protected successfully.");

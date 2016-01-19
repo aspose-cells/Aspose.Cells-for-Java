@@ -33,7 +33,7 @@ public class CopyNamedRanges {
 
         namedRange2.copy(namedRange);
 
-        workbook.save(dataDir + "copyranges.xls");
+        workbook.save(dataDir + "copyranges.out.xls");
 
         // Print message
         System.out.println("Process completed successfully");

@@ -84,7 +84,7 @@ public class ChartToImage {
         ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
         imgOpts.setImageFormat(ImageFormat.getEmf());
 
-        FileOutputStream fs = new FileOutputStream(dataDir + "Chart.emf");
+        FileOutputStream fs = new FileOutputStream(dataDir + "Chart.out.emf");
 
         //Save the chart image file.
         chart.toImage(fs, imgOpts);

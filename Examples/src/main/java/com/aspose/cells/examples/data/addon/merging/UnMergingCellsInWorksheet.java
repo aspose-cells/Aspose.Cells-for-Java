@@ -22,7 +22,7 @@ public class UnMergingCellsInWorksheet {
         cells.unMerge(5, 2, 2, 3);
 
         //Save the file.
-        wbk.save(dataDir + "unmergingcells.xls");
+        wbk.save(dataDir + "unmergingcells.out.xls");
 
         // Print message
         System.out.println("Process completed successfully");

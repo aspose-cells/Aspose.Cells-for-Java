@@ -31,7 +31,7 @@ public class FormatRanges2 {
         range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 
         //Saving the Excel file
-        workbook.save(dataDir + "book1.xls");
+        workbook.save(dataDir + "book1.out.xls");
 
         // Print message
         System.out.println("Process completed successfully");

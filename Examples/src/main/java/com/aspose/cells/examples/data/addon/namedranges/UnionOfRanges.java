@@ -55,7 +55,7 @@ public class UnionOfRanges {
         }
 
         //Save the excel file.
-        workbook.save(dataDir + "rngUnion.xls");
+        workbook.save(dataDir + "rngUnion.out.xls");
 
         // Print message
         System.out.println("Process completed successfully");

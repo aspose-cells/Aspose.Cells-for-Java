@@ -40,7 +40,7 @@ public class SaveWorkbookToTextCSVFormat {
         }
 
         //Save entire workbook data into file
-        FileOutputStream fout = new FileOutputStream(dataDir + ".out.txt");
+        FileOutputStream fout = new FileOutputStream(dataDir + "data.out.txt");
         fout.write(workbookData);
         fout.close();
 

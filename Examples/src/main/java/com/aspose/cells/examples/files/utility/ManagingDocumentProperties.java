@@ -25,13 +25,13 @@ public class ManagingDocumentProperties {
         DocumentProperty publisher = customProperties.add("Publisher", "Aspose");
 
         //Save the file
-        workbook.save(dataDir + "Test_Workbook.xls");
+        workbook.save(dataDir + "Test_Workbook.out.xls");
 
         //Removing a custom document property
         customProperties.remove("Publisher");
 
         //Save the file
-        workbook.save(dataDir + "Test_Workbook_RemovedProperty.xls");
+        workbook.save(dataDir + "Test_Workbook_RemovedProperty.out.xls");
 
         // Print message
         System.out.println("Excel file's custom properties accessed successfully.");
