@@ -1,0 +1,1952 @@
+﻿MIME-Version: 1.0
+X-Document-Type: Workbook
+Content-Type: multipart/related; boundary="----=_NextPart_aspose01.20120615"
+
+This document is a Single File Web Page, also known as a Web Archive file.  If you are seeing this message, your browser or editor doesn't support Web Archive files.  Please download a browser that supports Web Archive, such as Windows Internet Explorer.
+
+------=_NextPart_aspose01.20120615
+Content-Location:file:///C:/aspose01/Book1.xlsx.out.htm
+Content-Transfer-Encoding:quoted-printable
+Content-Type:text/html; charset="UTF-8"
+
+﻿
+<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www=
+.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns:v=3d"urn:schema=
+s-microsoft-com:vml"
+xmlns:o=3d"urn:schemas-microsoft-com:office:office"
+xml=
+ns:x=3d"urn:schemas-microsoft-com:office:excel"
+xmlns=3d"http://www.w3.org/=
+TR/REC-html40">
+
+<head>
+<meta name=3d"Excel Workbook Frameset">
+<meta http-equ=
+iv=3dContent-Type content=3d"text/html; charset=3dUTF-8">
+<meta name=3dProg=
+Id content=3dExcel.Sheet>
+<meta name=3dGenerator content=3d"Aspose.Cell ">
+<=
+link rel=3dFile-List href=3d"Book1.xlsx.out_files/filelist.xml">
+<link rel=3d=
+Edit-Time-Data href=3d"Book1.xlsx.out_files/editdata.mso">
+<link rel=3dOLE-=
+Object-Data href=3d"Book1.xlsx.out_files/oledata.mso">
+<!--[if gte mso 9]><=
+xml>
+ <o:DocumentProperties>
+  <o:Author>Amjad</o:Author>
+  <o:LastPrinted>20=
+09-01-28T10:29:45Z</o:LastPrinted>
+  <o:Created>2009-01-28T10:29:21Z</o:Cre=
+ated>
+  <o:LastSaved>2013-04-02T05:54:03Z</o:LastSaved>
+  <o:Company>pc</o:C=
+ompany>
+</o:DocumentProperties>
+</xml><![endif]-->
+<![if !supportTabStrip]>
+<l=
+ink id=3d"shLink" href=3d"Book1.xlsx.out_files/sheet001.htm">
+<link id=3d"s=
+hLink" href=3d"Book1.xlsx.out_files/sheet002.htm">
+<link id=3d"shLink" href=
+=3d"Book1.xlsx.out_files/sheet003.htm">
+<link id=3d"shLink" href=3d"Book1.x=
+lsx.out_files/sheet004.htm">
+
+<link id=3d"shLink">
+
+<script language=3d"JavaSc=
+ript">
+<!--
+ var c_lTabs=3d4;
+
+ var c_rgszSh=3dnew Array(c_lTabs);
+ c_rgszSh[0]=
+=3d"Sheet1";
+ c_rgszSh[1]=3d"Sheet2";
+ c_rgszSh[2]=3d"Sheet3";
+ c_rgszSh[3]=3d=
+"Evaluation&nbsp;Warning";
+
+
+
+ var c_rgszClr=3dnew Array(8);
+ c_rgszClr[0]=3d"w=
+indow";
+ c_rgszClr[1]=3d"buttonface";
+ c_rgszClr[2]=3d"windowframe";
+ c_rgszC=
+lr[3]=3d"windowtext";
+ c_rgszClr[4]=3d"threedlightshadow";
+ c_rgszClr[5]=3d"=
+threedhighlight";
+ c_rgszClr[6]=3d"threeddarkshadow";
+ c_rgszClr[7]=3d"three=
+dshadow";
+
+ var g_iShCur;
+ var g_rglTabX=3dnew Array(c_lTabs);
+
+function fnGetI=
+EVer()
+{
+ var ua=3dwindow.navigator.userAgent
+ var msie=3dua.indexOf("MSIE")
+ =
+if (msie>0 && window.navigator.platform=3d=3d"Win32")
+  return parseInt(ua.=
+substring(msie+5,ua.indexOf(".", msie)));
+ else
+  return 0;
+}
+
+function fnBuild=
+Frameset()
+{
+ var szHTML=3d"<frameset rows=3d\"*,18\" border=3d0 width=3d0 f=
+rameborder=3dno framespacing=3d0>"+
+  "<frame src=3d\""+document.all.item("=
+shLink")[3].href+"\" name=3d\"frSheet\" noresize>"+
+  "<frameset cols=3d\"5=
+4,*\" border=3d0 width=3d0 frameborder=3dno framespacing=3d0>"+
+  "<frame s=
+rc=3d\"\" name=3d\"frScroll\" marginwidth=3d0 marginheight=3d0 scrolling=3d=
+no>"+
+  "<frame src=3d\"\" name=3d\"frTabs\" marginwidth=3d0 marginheight=3d=
+0 scrolling=3dno>"+
+  "</frameset></frameset><plaintext>";
+
+ with (document) =
+{
+  open("text/html","replace");
+  write(szHTML);
+  close();
+ }
+
+ fnBuildTabStri=
+p();
+}
+
+function fnBuildTabStrip()
+{
+ var szHTML=3d
+  "<html><head><style>.clScr=
+oll {font:8pt Courier New;color:"+c_rgszClr[6]+";cursor:default;line-heigh=
+t:10pt;}"+
+  ".clScroll2 {font:10pt Arial;color:"+c_rgszClr[6]+";cursor:def=
+ault;line-height:11pt;}</style></head>"+
+  "<body onclick=3d\"event.returnV=
+alue=3dfalse;\" ondragstart=3d\"event.returnValue=3dfalse;\" onselectstart=
+=3d\"event.returnValue=3dfalse;\" bgcolor=3d"+c_rgszClr[4]+" topmargin=3d0=
+ leftmargin=3d0><table cellpadding=3d0 cellspacing=3d0 width=3d100%>"+
+  "<=
+tr><td colspan=3d6 height=3d1 bgcolor=3d"+c_rgszClr[2]+"></td></tr>"+
+  "<t=
+r><td style=3d\"font:1pt\">&nbsp;<td>"+
+  "<td valign=3dtop id=3dtdScroll c=
+lass=3d\"clScroll\" onclick=3d\"parent.fnFastScrollTabs(0);\" onmouseover=3d=
+\"parent.fnMouseOverScroll(0);\" onmouseout=3d\"parent.fnMouseOutScroll(0)=
+;\"><a>&#171;</a></td>"+
+  "<td valign=3dtop id=3dtdScroll class=3d\"clScro=
+ll2\" onclick=3d\"parent.fnScrollTabs(0);\" ondblclick=3d\"parent.fnScroll=
+Tabs(0);\" onmouseover=3d\"parent.fnMouseOverScroll(1);\" onmouseout=3d\"p=
+arent.fnMouseOutScroll(1);\"><a>&lt</a></td>"+
+  "<td valign=3dtop id=3dtdS=
+croll class=3d\"clScroll2\" onclick=3d\"parent.fnScrollTabs(1);\" ondblcli=
+ck=3d\"parent.fnScrollTabs(1);\" onmouseover=3d\"parent.fnMouseOverScroll(=
+2);\" onmouseout=3d\"parent.fnMouseOutScroll(2);\"><a>&gt</a></td>"+
+  "<td=
+ valign=3dtop id=3dtdScroll class=3d\"clScroll\" onclick=3d\"parent.fnFast=
+ScrollTabs(1);\" onmouseover=3d\"parent.fnMouseOverScroll(3);\" onmouseout=
+=3d\"parent.fnMouseOutScroll(3);\"><a>&#187;</a></td>"+
+  "<td style=3d\"fo=
+nt:1pt\">&nbsp;<td></tr></table></body></html>";
+
+ with (frames['frScroll'].=
+document) {
+  open("text/html","replace");
+  write(szHTML);
+  close();
+ }
+
+ szHT=
+ML =3d
+  "<html><head>"+
+  "<style>A:link,A:visited,A:active {text-decoratio=
+n:none;"+"color:"+c_rgszClr[3]+";}"+
+  ".clTab {cursor:hand;background:"+c_=
+rgszClr[1]+";font:9pt Arial;padding-left:3px;padding-right:3px;text-align:=
+center;}"+
+  ".clBorder {background:"+c_rgszClr[2]+";font:1pt;}"+
+  "</style=
+></head><body onload=3d\"parent.fnInit();\" onselectstart=3d\"event.return=
+Value=3dfalse;\" ondragstart=3d\"event.returnValue=3dfalse;\" bgcolor=3d"+=
+c_rgszClr[4]+
+  " topmargin=3d0 leftmargin=3d0><table id=3dtbTabs cellpaddi=
+ng=3d0 cellspacing=3d0>";
+
+ var iCellCount=3d(c_lTabs+1)*2;
+
+ var i;
+ for (i=3d=
+0;i<iCellCount;i+=3d2)
+  szHTML+=3d"<col width=3d1><col>";
+
+ var iRow;
+ for (i=
+Row=3d0;iRow<6;iRow++) {
+
+  szHTML+=3d"<tr>";
+
+  if (iRow=3d=3d5)
+   szHTML+=3d=
+"<td colspan=3d"+iCellCount+"></td>";
+  else {
+   if (iRow=3d=3d0) {
+    for(=
+i=3d0;i<iCellCount;i++)
+     szHTML+=3d"<td height=3d1 class=3d\"clBorder\"=
+></td>";
+   } else if (iRow=3d=3d1) {
+    for(i=3d0;i<c_lTabs;i++) {
+     szH=
+TML+=3d"<td height=3d1 nowrap class=3d\"clBorder\">&nbsp;</td>";
+     szHTM=
+L+=3d
+      "<td id=3dtdTab height=3d1 nowrap class=3d\"clTab\" onmouseover=
+=3d\"parent.fnMouseOverTab("+i+");\" onmouseout=3d\"parent.fnMouseOutTab("=
++i+");\">"+
+      "<a href=3d\""+document.all.item("shLink")[i].href+"\" ta=
+rget=3d\"frSheet\" id=3daTab>&nbsp;"+c_rgszSh[i]+"&nbsp;</a></td>";
+    }
+  =
+  szHTML+=3d"<td id=3dtdTab height=3d1 nowrap class=3d\"clBorder\"><a id=3d=
+aTab>&nbsp;</a></td><td width=3d100%></td>";
+   } else if (iRow=3d=3d2) {
+  =
+  for (i=3d0;i<c_lTabs;i++)
+     szHTML+=3d"<td height=3d1></td><td height=3d=
+1 class=3d\"clBorder\"></td>";
+    szHTML+=3d"<td height=3d1></td><td heigh=
+t=3d1></td>";
+   } else if (iRow=3d=3d3) {
+    for (i=3d0;i<iCellCount;i++)
+ =
+    szHTML+=3d"<td height=3d1></td>";
+   } else if (iRow=3d=3d4) {
+    for (=
+i=3d0;i<c_lTabs;i++)
+     szHTML+=3d"<td height=3d1 width=3d1></td><td heig=
+ht=3d1></td>";
+    szHTML+=3d"<td height=3d1 width=3d1></td><td></td>";
+   }=
+
+  }
+  szHTML+=3d"</tr>";
+ }
+
+ szHTML+=3d"</table></body></html>";
+ with (frames=
+['frTabs'].document) {
+  open("text/html","replace");
+  charset=3ddocument.c=
+harset;
+  write(szHTML);
+  close();
+ }
+}
+
+function fnInit()
+{
+ g_rglTabX[0]=3d0;
+ v=
+ar i;
+ for (i=3d1;i<=3dc_lTabs;i++)
+  with (frames['frTabs'].document.all.tb=
+Tabs.rows[1].cells[fnTabToCol(i-1)])
+   g_rglTabX[i]=3doffsetLeft+offsetWid=
+th-6;
+}
+
+function fnTabToCol(iTab)
+{
+ return 2*iTab+1;
+}
+
+function fnNextTab(fDir)=
+
+{
+ var iNextTab=3d-1;
+ var i;
+
+ with (frames['frTabs'].document.body) {
+  if (f=
+Dir=3d=3d0) {
+   if (scrollLeft>0) {
+    for (i=3d0;i<c_lTabs&&g_rglTabX[i]<=
+scrollLeft;i++);
+    if (i<c_lTabs)
+     iNextTab=3di-1;
+   }
+  } else {
+   if =
+(g_rglTabX[c_lTabs]+6>offsetWidth+scrollLeft) {
+    for (i=3d0;i<c_lTabs&&g=
+_rglTabX[i]<=3dscrollLeft;i++);
+    if (i<c_lTabs)
+     iNextTab=3di;
+   }
+  }=
+
+ }
+ return iNextTab;
+}
+
+function fnScrollTabs(fDir)
+{
+ var iNextTab=3dfnNextTab(=
+fDir);
+
+ if (iNextTab>=3d0) {
+  frames['frTabs'].scroll(g_rglTabX[iNextTab],0=
+);
+  return true;
+ } else
+  return false;
+}
+
+function fnFastScrollTabs(fDir)
+{
+ if=
+ (c_lTabs>16)
+  frames['frTabs'].scroll(g_rglTabX[fDir?c_lTabs-1:0],0);
+ els=
+e
+  if (fnScrollTabs(fDir)>0) window.setTimeout("fnFastScrollTabs("+fDir+")=
+;",5);
+}
+
+function fnSetTabProps(iTab,fActive)
+{
+ var iCol=3dfnTabToCol(iTab);
+ =
+var i;
+
+ if (iTab>=3d0) {
+  with (frames['frTabs'].document.all) {
+   with (tb=
+Tabs) {
+    for (i=3d0;i<=3d4;i++) {
+     with (rows[i]) {
+      if (i=3d=3d0=
+)
+       cells[iCol].style.background=3dc_rgszClr[fActive?0:2];
+      else i=
+f (i>0 && i<4) {
+       if (fActive) {
+        cells[iCol-1].style.backgroun=
+d=3dc_rgszClr[2];
+        cells[iCol].style.background=3dc_rgszClr[0];
+     =
+   cells[iCol+1].style.background=3dc_rgszClr[2];
+       } else {
+        if=
+ (i=3d=3d1) {
+         cells[iCol-1].style.background=3dc_rgszClr[2];
+      =
+   cells[iCol].style.background=3dc_rgszClr[1];
+         cells[iCol+1].styl=
+e.background=3dc_rgszClr[2];
+        } else {
+         cells[iCol-1].style.b=
+ackground=3dc_rgszClr[4];
+         cells[iCol].style.background=3dc_rgszClr=
+[(i=3d=3d2)?2:4];
+         cells[iCol+1].style.background=3dc_rgszClr[4];
+  =
+      }
+       }
+      } else
+       cells[iCol].style.background=3dc_rgszClr=
+[fActive?2:4];
+     }
+    }
+   }
+   with (aTab[iTab].style) {
+    cursor=3d(fAc=
+tive?"default":"hand");
+    color=3dc_rgszClr[3];
+   }
+  }
+ }
+}
+
+function fnMouse=
+OverScroll(iCtl)
+{
+ frames['frScroll'].document.all.tdScroll[iCtl].style.col=
+or=3dc_rgszClr[7];
+}
+
+function fnMouseOutScroll(iCtl)
+{
+ frames['frScroll'].doc=
+ument.all.tdScroll[iCtl].style.color=3dc_rgszClr[6];
+}
+
+function fnMouseOverT=
+ab(iTab)
+{
+ if (iTab!=3dg_iShCur) {
+  var iCol=3dfnTabToCol(iTab);
+  with (fra=
+mes['frTabs'].document.all) {
+   tdTab[iTab].style.background=3dc_rgszClr[5=
+];
+  }
+ }
+}
+
+function fnMouseOutTab(iTab)
+{
+ if (iTab>=3d0) {
+  var elFrom=3dframe=
+s['frTabs'].event.srcElement;
+  var elTo=3dframes['frTabs'].event.toElement=
+;
+
+  if ((!elTo) ||
+   (elFrom.tagName=3d=3delTo.tagName) ||
+   (elTo.tagName=3d=
+=3d"A" && elTo.parentElement!=3delFrom) ||
+   (elFrom.tagName=3d=3d"A" && e=
+lFrom.parentElement!=3delTo)) {
+
+   if (iTab!=3dg_iShCur) {
+    with (frames[=
+'frTabs'].document.all) {
+     tdTab[iTab].style.background=3dc_rgszClr[1];=
+
+    }
+   }
+  }
+ }
+}
+
+function fnSetActiveSheet(iSh)
+{
+ if (iSh!=3dg_iShCur) {
+  fnS=
+etTabProps(g_iShCur,false);
+  fnSetTabProps(iSh,true);
+  g_iShCur=3diSh;
+ }
+}
+
+ =
+window.g_iIEVer=3dfnGetIEVer();
+ if (window.g_iIEVer>=3d4)
+  fnBuildFrameset=
+();
+//-->
+
+</script>
+<![endif]>
+<!--[if gte mso 9]><xml>
+ <x:ExcelWorkbook>
+  <x:=
+ExcelWorksheets>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet1</x:Name>
+    <x:Wor=
+ksheetSource HRef=3d"Book1.xlsx.out_files/sheet001.htm"/>
+   </x:ExcelWorks=
+heet>
+   <x:ExcelWorksheet>
+    <x:Name>Sheet2</x:Name>
+    <x:WorksheetSourc=
+e HRef=3d"Book1.xlsx.out_files/sheet002.htm"/>
+   </x:ExcelWorksheet>
+   <x:=
+ExcelWorksheet>
+    <x:Name>Sheet3</x:Name>
+    <x:WorksheetSource HRef=3d"B=
+ook1.xlsx.out_files/sheet003.htm"/>
+   </x:ExcelWorksheet>
+   <x:ExcelWorksh=
+eet>
+    <x:Name>Evaluation Warning</x:Name>
+    <x:WorksheetSource HRef=3d"=
+Book1.xlsx.out_files/sheet004.htm"/>
+   </x:ExcelWorksheet>
+  </x:ExcelWorks=
+heets>
+  <x:Stylesheet HRef=3d"Book1.xlsx.out_files/stylesheet.css"/>
+  <x:W=
+indowHeight>8955</x:WindowHeight>
+  <x:WindowWidth>13275</x:WindowWidth>
+  <=
+x:WindowTopX>480</x:WindowTopX>
+  <x:WindowTopY>120</x:WindowTopY>
+  <x:RefM=
+odeR1C1/>
+  <x:TabRatio>600</x:TabRatio>
+  <x:ActiveSheet>3</x:ActiveSheet>
+ =
+</x:ExcelWorkbook>
+</xml><![endif]-->
+</head>
+    <frameset rows=3d"*,39" bor=
+der=3d0 width=3d0 frameborder=3dno framespacing=3d0>
+     <frame src=3d"Boo=
+k1.xlsx.out_files/sheet004.htm" name=3d"frSheet">
+     <frame src=3d"null" =
+name=3d"frTabs" marginwidth=3d0 marginheight=3d0>
+     <noframes>
+      <bod=
+y>
+       <p>This page uses frames, but your browser doesn't support them.<=
+/p>
+      </body>
+     </noframes>
+    </frameset>
+</html>
+
+
+------=_NextPart_aspose01.20120615
+Content-Location:file:///C:/aspose01/Book1.xlsx.out_files/sheet001.htm
+Content-Transfer-Encoding:quoted-printable
+Content-Type:text/html; charset="UTF-8"
+
+﻿<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www=
+.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns:v=3d"urn:schema=
+s-microsoft-com:vml"
+xmlns:o=3d"urn:schemas-microsoft-com:office:office"
+xml=
+ns:x=3d"urn:schemas-microsoft-com:office:excel"
+xmlns=3d"http://www.w3.org/=
+TR/REC-html40">
+
+<head>
+<meta http-equiv=3dContent-Type content=3d"text/html;=
+ charset=3dUTF-8">
+<meta name=3dProgId content=3dExcel.Sheet>
+<meta name=3dG=
+enerator content=3d"Aspose.Cell ">
+<link id=3dMain-File rel=3dMain-File hre=
+f=3d"../Book1.xlsx.out.htm">
+<link rel=3dFile-List href=3dfilelist.xml>
+<lin=
+k rel=3dEdit-Time-Data href=3deditdata.mso>
+<!--[if !mso]>
+<style>
+v\\:* {beh=
+avior:url(#default#VML);}
+o\\:* {behavior:url(#default#VML);}
+x\\:* {behavio=
+r:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]=
+-->
+<link rel=3dStylesheet href=3dstylesheet.css>
+<style>
+<!--table
+ {mso-disp=
+layed-decimal-separator:"\.";
+ mso-displayed-thousand-separator:"\,";}
+@page=
+
+ {
+ mso-header-data:"";
+ mso-footer-data:"";
+ margin:1in 0.75in 1in 0.75in;
+ m=
+so-header-margin:0.5in;
+ mso-footer-margin:0.5in;
+ mso-page-orientation:Port=
+rait;
+ }
+-->
+</style>
+<![if !supportTabStrip]><script language=3d"JavaScript">=
+
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3d4) {
+   if (pa=
+rent.document.readyState=3d=3d"complete"
+    && parent.frames['frTabs'].doc=
+ument.readyState=3d=3d"complete")
+   parent.fnSetActiveSheet(0);
+  else
+   wi=
+ndow.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3d"frSheet")
+ wi=
+ndow.location.replace("../Book1.xlsx.out.htm");
+else
+ fnUpdateTabs();
+//-->
+</=
+script>
+<![endif]>
+<!--[if gte mso 9]><xml>
+<x:WorksheetOptions>
+ <x:StandardW=
+idth>2048</x:StandardWidth>
+ <x:Print>
+  <x:ValidPrinterInfo/>
+  <x:PaperSize=
+Index>1</x:PaperSizeIndex>
+  <x:HorizontalResolution>300</x:HorizontalResol=
+ution>
+  <x:VerticalResolution>300</x:VerticalResolution>
+ </x:Print>
+</x:Wor=
+ksheetOptions>
+</xml><![endif]-->
+</head>
+
+<body link=3dblue vlink=3dpurple >
+
+<=
+table border=3d0 cellpadding=3d0 cellspacing=3d0 width=3d512 style=3d'bord=
+er-collapse:=09
+ collapse;table-layout:fixed;width:384pt'>
+ <col width=3d64 =
+span=3d8 style=3d'width:48pt'>
+ <tr height=3d17 style=3d'mso-height-source:=
+userset;height:12.75pt' id=3d'r0'>
+  <td height=3d17 colspan=3d8 style=3d'h=
+eight:12.75pt;mso-ignore:colspan;'></td>
+ </tr>
+ <tr height=3d27 style=3d'ms=
+o-height-source:userset;height:20.25pt' id=3d'r1'>
+<td colspan=3d8 height=3d=
+27 class=3dx26 style=3d'height:20.25pt;'>My Data</td>
+ </tr>
+ <tr height=3d1=
+7 style=3d'mso-height-source:userset;height:12.75pt' id=3d'r2'>
+<td height=3d=
+16 class=3dx21 style=3d'height:12pt;'></td>
+<td class=3dx22></td>
+<td class=3d=
+x22></td>
+<td class=3dx22></td>
+<td class=3dx22></td>
+<td class=3dx22></td>
+<t=
+d class=3dx22></td>
+<td class=3dx22></td>
+ </tr>
+ <tr height=3d17 style=3d'ms=
+o-height-source:userset;height:12.75pt' id=3d'r3'>
+<td height=3d15 class=3d=
+x23 style=3d'height:11.25pt;'>Items A</td>
+<td class=3dx24>Items B</td>
+<td =
+class=3dx24>Items C</td>
+<td class=3dx24>Items D</td>
+<td class=3dx24>Items =
+E</td>
+<td class=3dx24>Items F</td>
+<td class=3dx24>Items G</td>
+<td class=3d=
+x24>Items H</td>
+ </tr>
+ <tr height=3d17 style=3d'mso-height-source:userset;=
+height:12.75pt' id=3d'r4'>
+<td height=3d15 class=3dx25 style=3d'text-align:=
+right;height:11.25pt;'>12</td>
+<td class=3dx25 style=3d'text-align:right;'>=
+23</td>
+<td class=3dx25 style=3d'text-align:right;'>33</td>
+<td class=3dx25 =
+style=3d'text-align:right;'>66</td>
+<td class=3dx25 style=3d'text-align:rig=
+ht;'>11</td>
+<td class=3dx25 style=3d'text-align:right;'>87</td>
+<td class=3d=
+x25 style=3d'text-align:right;'>99</td>
+<td class=3dx25 style=3d'text-align=
+:right;'>33</td>
+ </tr>
+ <tr height=3d17 style=3d'mso-height-source:userset;=
+height:12.75pt' id=3d'r5'>
+<td height=3d15 class=3dx25 style=3d'text-align:=
+right;height:11.25pt;'>23</td>
+<td class=3dx25 style=3d'text-align:right;'>=
+22</td>
+<td class=3dx25 style=3d'text-align:right;'>33</td>
+<td class=3dx25 =
+style=3d'text-align:right;'>77</td>
+<td class=3dx25 style=3d'text-align:rig=
+ht;'>31</td>
+<td class=3dx25 style=3d'text-align:right;'>22</td>
+<td class=3d=
+x25 style=3d'text-align:right;'>45</td>
+<td class=3dx25 style=3d'text-align=
+:right;'>56</td>
+ </tr>
+ <tr height=3d17 style=3d'mso-height-source:userset;=
+height:12.75pt' id=3d'r6'>
+<td height=3d15 class=3dx25 style=3d'text-align:=
+right;height:11.25pt;'>34</td>
+<td class=3dx25 style=3d'text-align:right;'>=
+11</td>
+<td class=3dx25 style=3d'text-align:right;'>12</td>
+<td class=3dx25 =
+style=3d'text-align:right;'>23</td>
+<td class=3dx25 style=3d'text-align:rig=
+ht;'>22</td>
+<td class=3dx25 style=3d'text-align:right;'>34</td>
+<td class=3d=
+x25 style=3d'text-align:right;'>11</td>
+<td class=3dx25 style=3d'text-align=
+:right;'>12</td>
+ </tr>
+ <tr height=3d17 style=3d'mso-height-source:userset;=
+height:12.75pt' id=3d'r7'>
+<td height=3d15 class=3dx25 style=3d'text-align:=
+right;height:11.25pt;'>45</td>
+<td class=3dx25 style=3d'text-align:right;'>=
+43</td>
+<td class=3dx25 style=3d'text-align:right;'>54</td>
+<td class=3dx25 =
+style=3d'text-align:right;'>88</td>
+<td class=3dx25 style=3d'text-align:rig=
+ht;'>36</td>
+<td class=3dx25 style=3d'text-align:right;'>45</td>
+<td class=3d=
+x25 style=3d'text-align:right;'>45</td>
+<td class=3dx25 style=3d'text-align=
+:right;'>37</td>
+ </tr>
+ <tr height=3d17 style=3d'mso-height-source:userset;=
+height:12.75pt' id=3d'r8'>
+<td height=3d15 class=3dx25 style=3d'text-align:=
+right;height:11.25pt;'>65</td>
+<td class=3dx25 style=3d'text-align:right;'>=
+65</td>
+<td class=3dx25 style=3d'text-align:right;'>65</td>
+<td class=3dx25 =
+style=3d'text-align:right;'>65</td>
+<td class=3dx25 style=3d'text-align:rig=
+ht;'>13</td>
+<td class=3dx25 style=3d'text-align:right;'>65</td>
+<td class=3d=
+x25 style=3d'text-align:right;'>9</td>
+<td class=3dx25 style=3d'text-align:=
+right;'>35</td>
+ </tr>
+ <tr height=3d17 style=3d'mso-height-source:userset;h=
+eight:12.75pt' id=3d'r9'>
+<td height=3d15 class=3dx25 style=3d'text-align:r=
+ight;height:11.25pt;'>34</td>
+<td class=3dx25 style=3d'text-align:right;'>2=
+2</td>
+<td class=3dx25 style=3d'text-align:right;'>27</td>
+<td class=3dx25 s=
+tyle=3d'text-align:right;'>22</td>
+<td class=3dx25 style=3d'text-align:righ=
+t;'>32</td>
+<td class=3dx25 style=3d'text-align:right;'>23</td>
+<td class=3d=
+x25 style=3d'text-align:right;'>23</td>
+<td class=3dx25 style=3d'text-align=
+:right;'>32</td>
+ </tr>
+ <tr height=3d17 style=3d'mso-height-source:userset;=
+height:12.75pt' id=3d'r10'>
+<td height=3d15 class=3dx25 x:fmla=3d"=3dSUM(A5=
+:A10)" style=3d'text-align:right;height:11.25pt;'>213</td>
+<td class=3dx25 =
+x:fmla=3d"=3dSUM(B5:B10)" style=3d'text-align:right;'>186</td>
+<td class=3d=
+x25 x:fmla=3d"=3dSUM(C5:C10)" style=3d'text-align:right;'>224</td>
+<td clas=
+s=3dx25 x:fmla=3d"=3dSUM(D5:D10)" style=3d'text-align:right;'>341</td>
+<td =
+class=3dx25 x:fmla=3d"=3dSUM(E5:E10)" style=3d'text-align:right;'>145</td>=
+
+<td class=3dx25 x:fmla=3d"=3dSUM(F5:F10)" style=3d'text-align:right;'>276<=
+/td>
+<td class=3dx25 x:fmla=3d"=3dSUM(G5:G10)" style=3d'text-align:right;'>=
+232</td>
+<td class=3dx25 x:fmla=3d"=3dSUM(H5:H10)" style=3d'text-align:righ=
+t;'>205</td>
+ </tr>
+<![if supportMisalignedColumns]>
+ <tr height=3d0 style=3d=
+'display:none'>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <td width=3d64=
+ style=3d'width:48pt'></td>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <t=
+d width=3d64 style=3d'width:48pt'></td>
+  <td width=3d64 style=3d'width:48p=
+t'></td>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <td width=3d64 style=3d=
+'width:48pt'></td>
+  <td width=3d64 style=3d'width:48pt'></td>
+ </tr>
+ <![end=
+if]>
+</table>
+
+</body>
+
+
+</html>
+
+
+------=_NextPart_aspose01.20120615
+Content-Location:file:///C:/aspose01/Book1.xlsx.out_files/sheet002.htm
+Content-Transfer-Encoding:quoted-printable
+Content-Type:text/html; charset="UTF-8"
+
+﻿<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www=
+.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns:v=3d"urn:schema=
+s-microsoft-com:vml"
+xmlns:o=3d"urn:schemas-microsoft-com:office:office"
+xml=
+ns:x=3d"urn:schemas-microsoft-com:office:excel"
+xmlns=3d"http://www.w3.org/=
+TR/REC-html40">
+
+<head>
+<meta http-equiv=3dContent-Type content=3d"text/html;=
+ charset=3dUTF-8">
+<meta name=3dProgId content=3dExcel.Sheet>
+<meta name=3dG=
+enerator content=3d"Aspose.Cell ">
+<link id=3dMain-File rel=3dMain-File hre=
+f=3d"../Book1.xlsx.out.htm">
+<link rel=3dFile-List href=3dfilelist.xml>
+<lin=
+k rel=3dEdit-Time-Data href=3deditdata.mso>
+<!--[if !mso]>
+<style>
+v\\:* {beh=
+avior:url(#default#VML);}
+o\\:* {behavior:url(#default#VML);}
+x\\:* {behavio=
+r:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]=
+-->
+<link rel=3dStylesheet href=3dstylesheet.css>
+<style>
+<!--table
+ {mso-disp=
+layed-decimal-separator:"\.";
+ mso-displayed-thousand-separator:"\,";}
+@page=
+
+ {
+ mso-header-data:"";
+ mso-footer-data:"";
+ margin:1in 0.75in 1in 0.75in;
+ m=
+so-header-margin:0.5in;
+ mso-footer-margin:0.5in;
+ mso-page-orientation:Port=
+rait;
+ }
+-->
+</style>
+<![if !supportTabStrip]><script language=3d"JavaScript">=
+
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3d4) {
+   if (pa=
+rent.document.readyState=3d=3d"complete"
+    && parent.frames['frTabs'].doc=
+ument.readyState=3d=3d"complete")
+   parent.fnSetActiveSheet(1);
+  else
+   wi=
+ndow.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3d"frSheet")
+ wi=
+ndow.location.replace("../Book1.xlsx.out.htm");
+else
+ fnUpdateTabs();
+//-->
+</=
+script>
+<![endif]>
+<!--[if gte mso 9]><xml>
+<x:WorksheetOptions>
+ <x:StandardW=
+idth>2048</x:StandardWidth>
+ <x:Print>
+  <x:ValidPrinterInfo/>
+  <x:PaperSize=
+Index>9</x:PaperSizeIndex>
+  <x:HorizontalResolution>300</x:HorizontalResol=
+ution>
+  <x:VerticalResolution>300</x:VerticalResolution>
+ </x:Print>
+</x:Wor=
+ksheetOptions>
+</xml><![endif]-->
+</head>
+
+<body link=3dblue vlink=3dpurple >
+
+<=
+table border=3d0 cellpadding=3d0 cellspacing=3d0 width=3d192 style=3d'bord=
+er-collapse:=09
+ collapse;table-layout:fixed;width:144pt'>
+ <col width=3d64 =
+span=3d3 style=3d'width:48pt'>
+ <tr height=3d51 style=3d'mso-height-source:=
+userset;height:38.25pt;mso-xlrowspan:3' id=3d'r0'>
+  <td height=3d51 colspa=
+n=3d3 style=3d'height:38.25pt;mso-ignore:colspan;'></td>
+ </tr>
+ <tr height=3d=
+17 style=3d'mso-height-source:userset;height:12.75pt' id=3d'r1'>
+<td colspa=
+n=3d3 height=3d17 style=3d'mso-ignore:colspan;height:12.75pt;'>Sheet 2 Con=
+tents go here …</td>
+ </tr>
+<![if supportMisalignedColumns]>
+ <tr height=3d0=
+ style=3d'display:none'>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <td w=
+idth=3d64 style=3d'width:48pt'></td>
+  <td width=3d64 style=3d'width:48pt'>=
+</td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+
+</html>
+
+
+------=_NextPart_aspose01.20120615
+Content-Location:file:///C:/aspose01/Book1.xlsx.out_files/sheet003.htm
+Content-Transfer-Encoding:quoted-printable
+Content-Type:text/html; charset="UTF-8"
+
+﻿<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www=
+.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns:v=3d"urn:schema=
+s-microsoft-com:vml"
+xmlns:o=3d"urn:schemas-microsoft-com:office:office"
+xml=
+ns:x=3d"urn:schemas-microsoft-com:office:excel"
+xmlns=3d"http://www.w3.org/=
+TR/REC-html40">
+
+<head>
+<meta http-equiv=3dContent-Type content=3d"text/html;=
+ charset=3dUTF-8">
+<meta name=3dProgId content=3dExcel.Sheet>
+<meta name=3dG=
+enerator content=3d"Aspose.Cell ">
+<link id=3dMain-File rel=3dMain-File hre=
+f=3d"../Book1.xlsx.out.htm">
+<link rel=3dFile-List href=3dfilelist.xml>
+<lin=
+k rel=3dEdit-Time-Data href=3deditdata.mso>
+<!--[if !mso]>
+<style>
+v\\:* {beh=
+avior:url(#default#VML);}
+o\\:* {behavior:url(#default#VML);}
+x\\:* {behavio=
+r:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]=
+-->
+<link rel=3dStylesheet href=3dstylesheet.css>
+<style>
+<!--table
+ {mso-disp=
+layed-decimal-separator:"\.";
+ mso-displayed-thousand-separator:"\,";}
+@page=
+
+ {
+ mso-header-data:"";
+ mso-footer-data:"";
+ margin:1in 0.75in 1in 0.75in;
+ m=
+so-header-margin:0.5in;
+ mso-footer-margin:0.5in;
+ mso-page-orientation:Port=
+rait;
+ }
+-->
+</style>
+<![if !supportTabStrip]><script language=3d"JavaScript">=
+
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3d4) {
+   if (pa=
+rent.document.readyState=3d=3d"complete"
+    && parent.frames['frTabs'].doc=
+ument.readyState=3d=3d"complete")
+   parent.fnSetActiveSheet(2);
+  else
+   wi=
+ndow.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3d"frSheet")
+ wi=
+ndow.location.replace("../Book1.xlsx.out.htm");
+else
+ fnUpdateTabs();
+//-->
+</=
+script>
+<![endif]>
+<!--[if gte mso 9]><xml>
+<x:WorksheetOptions>
+ <x:StandardW=
+idth>2048</x:StandardWidth>
+ <x:Print>
+  <x:ValidPrinterInfo/>
+  <x:PaperSize=
+Index>9</x:PaperSizeIndex>
+  <x:HorizontalResolution>300</x:HorizontalResol=
+ution>
+  <x:VerticalResolution>300</x:VerticalResolution>
+ </x:Print>
+</x:Wor=
+ksheetOptions>
+</xml><![endif]-->
+</head>
+
+<body link=3dblue vlink=3dpurple >
+
+<=
+table border=3d0 cellpadding=3d0 cellspacing=3d0 width=3d192 style=3d'bord=
+er-collapse:=09
+ collapse;table-layout:fixed;width:144pt'>
+ <col width=3d64 =
+span=3d3 style=3d'width:48pt'>
+ <tr height=3d51 style=3d'mso-height-source:=
+userset;height:38.25pt;mso-xlrowspan:3' id=3d'r0'>
+  <td height=3d51 colspa=
+n=3d3 style=3d'height:38.25pt;mso-ignore:colspan;'></td>
+ </tr>
+ <tr height=3d=
+17 style=3d'mso-height-source:userset;height:12.75pt' id=3d'r1'>
+<td colspa=
+n=3d3 height=3d17 style=3d'mso-ignore:colspan;height:12.75pt;'>Sheet 3 Con=
+tents go here …</td>
+ </tr>
+<![if supportMisalignedColumns]>
+ <tr height=3d0=
+ style=3d'display:none'>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <td w=
+idth=3d64 style=3d'width:48pt'></td>
+  <td width=3d64 style=3d'width:48pt'>=
+</td>
+ </tr>
+ <![endif]>
+</table>
+
+</body>
+
+
+</html>
+
+
+------=_NextPart_aspose01.20120615
+Content-Location:file:///C:/aspose01/Book1.xlsx.out_files/sheet004.htm
+Content-Transfer-Encoding:quoted-printable
+Content-Type:text/html; charset="UTF-8"
+
+﻿<!doctype html public "-//w3c//dtd xhtml 1.0 transitional//en" "http://www=
+.w3.org/tr/xhtml1/dtd/xhtml1-transitional.dtd">
+<html xmlns:v=3d"urn:schema=
+s-microsoft-com:vml"
+xmlns:o=3d"urn:schemas-microsoft-com:office:office"
+xml=
+ns:x=3d"urn:schemas-microsoft-com:office:excel"
+xmlns=3d"http://www.w3.org/=
+TR/REC-html40">
+
+<head>
+<meta http-equiv=3dContent-Type content=3d"text/html;=
+ charset=3dUTF-8">
+<meta name=3dProgId content=3dExcel.Sheet>
+<meta name=3dG=
+enerator content=3d"Aspose.Cell ">
+<link id=3dMain-File rel=3dMain-File hre=
+f=3d"../Book1.xlsx.out.htm">
+<link rel=3dFile-List href=3dfilelist.xml>
+<lin=
+k rel=3dEdit-Time-Data href=3deditdata.mso>
+<!--[if !mso]>
+<style>
+v\\:* {beh=
+avior:url(#default#VML);}
+o\\:* {behavior:url(#default#VML);}
+x\\:* {behavio=
+r:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]=
+-->
+<link rel=3dStylesheet href=3dstylesheet.css>
+<style>
+<!--table
+ {mso-disp=
+layed-decimal-separator:"\.";
+ mso-displayed-thousand-separator:"\,";}
+@page=
+
+ {
+ mso-header-data:"";
+ mso-footer-data:"";
+ margin:1in 0.75in 1in 0.75in;
+ m=
+so-header-margin:0.5in;
+ mso-footer-margin:0.5in;
+ mso-page-orientation:Port=
+rait;
+ }
+-->
+</style>
+<![if !supportTabStrip]><script language=3d"JavaScript">=
+
+<!--
+function fnUpdateTabs()
+ {
+  if (parent.window.g_iIEVer>=3d4) {
+   if (pa=
+rent.document.readyState=3d=3d"complete"
+    && parent.frames['frTabs'].doc=
+ument.readyState=3d=3d"complete")
+   parent.fnSetActiveSheet(3);
+  else
+   wi=
+ndow.setTimeout("fnUpdateTabs();",150);
+ }
+}
+
+if (window.name!=3d"frSheet")
+ wi=
+ndow.location.replace("../Book1.xlsx.out.htm");
+else
+ fnUpdateTabs();
+//-->
+</=
+script>
+<![endif]>
+<!--[if gte mso 9]><xml>
+<x:WorksheetOptions>
+ <x:StandardW=
+idth>2048</x:StandardWidth>
+ <x:Print>
+  <x:ValidPrinterInfo/>
+  <x:PaperSize=
+Index>9</x:PaperSizeIndex>
+  <x:HorizontalResolution>300</x:HorizontalResol=
+ution>
+  <x:VerticalResolution>300</x:VerticalResolution>
+ </x:Print>
+ <x:Sel=
+ected/>
+</x:WorksheetOptions>
+</xml><![endif]-->
+</head>
+
+<body link=3dblue vli=
+nk=3dpurple >
+
+<table border=3d0 cellpadding=3d0 cellspacing=3d0 width=3d102=
+4 style=3d'border-collapse:=09
+ collapse;table-layout:fixed;width:768pt'>
+ <=
+col width=3d64 span=3d16 style=3d'width:48pt'>
+ <tr height=3d68 style=3d'ms=
+o-height-source:userset;height:51pt;mso-xlrowspan:4' id=3d'r0'>
+  <td heigh=
+t=3d68 colspan=3d16 style=3d'height:51pt;mso-ignore:colspan;'></td>
+ </tr>
+ =
+<tr height=3d31 style=3d'mso-height-source:userset;height:23.25pt' id=3d'r=
+1'>
+<td colspan=3d16 height=3d31 class=3dx27 style=3d'mso-ignore:colspan;he=
+ight:23.25pt;'>Evaluation Only. Created with Aspose.Cells for Java.Copyrig=
+ht 2003 - 2016 Aspose Pty Ltd.</td>
+ </tr>
+<![if supportMisalignedColumns]>
+ =
+<tr height=3d0 style=3d'display:none'>
+  <td width=3d64 style=3d'width:48pt=
+'></td>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <td width=3d64 style=3d=
+'width:48pt'></td>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <td width=3d=
+64 style=3d'width:48pt'></td>
+  <td width=3d64 style=3d'width:48pt'></td>
+  =
+<td width=3d64 style=3d'width:48pt'></td>
+  <td width=3d64 style=3d'width:4=
+8pt'></td>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <td width=3d64 styl=
+e=3d'width:48pt'></td>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <td wid=
+th=3d64 style=3d'width:48pt'></td>
+  <td width=3d64 style=3d'width:48pt'></=
+td>
+  <td width=3d64 style=3d'width:48pt'></td>
+  <td width=3d64 style=3d'wi=
+dth:48pt'></td>
+  <td width=3d64 style=3d'width:48pt'></td>
+ </tr>
+ <![endif]=
+>
+</table>
+
+</body>
+
+
+</html>
+
+
+------=_NextPart_aspose01.20120615
+Content-Location:file:///C:/aspose01/Book1.xlsx.out_files/stylesheet.css
+Content-Transfer-Encoding:quoted-printable
+Content-Type:text/html; charset="UTF-8"
+
+﻿tr
+ {mso-height-source:auto;
+ mso-ruby-visibility:none;}
+col
+ {mso-width-sourc=
+e:auto;
+ mso-ruby-visibility:none;}
+br
+ {mso-data-placement:same-cell;}
+ruby
+ {=
+ruby-align:left;}
+.style0
+ {
+ mso-number-format:General;
+ text-align:general;
+ =
+vertical-align:bottom;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:au=
+to;
+ color:#000000;
+ font-size:10pt;
+ font-weight:400;
+ font-style:normal;
+ fon=
+t-family:"Arial","sans-serif";
+ border:none;
+ mso-protection:locked visible;=
+
+ mso-style-name:Normal;
+ mso-style-id:0;}
+.font0
+ {
+ color:#000000;
+ font-size:=
+10pt;
+ font-weight:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif"=
+; }
+.font1
+ {
+ color:#800000;
+ font-size:16pt;
+ font-weight:700;
+ font-style:nor=
+mal;
+ font-family:"Arial","sans-serif"; }
+.font2
+ {
+ color:#000000;
+ font-size:=
+10pt;
+ font-weight:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif"=
+; }
+.font3
+ {
+ color:#FF0000;
+ font-size:10pt;
+ font-weight:700;
+ font-style:nor=
+mal;
+ font-family:"Tahoma","sans-serif"; }
+.font4
+ {
+ color:#0000FF;
+ font-size=
+:18pt;
+ font-weight:700;
+ font-style:italic;
+ font-family:"Arial","sans-serif=
+"; }
+td
+ {mso-style-parent:style0;
+ mso-number-format:General;
+ text-align:gen=
+eral;
+ vertical-align:bottom;
+ white-space:nowrap;
+ background:auto;
+ mso-patt=
+ern:auto;
+ color:#000000;
+ font-size:10pt;
+ font-weight:400;
+ font-style:norma=
+l;
+ font-family:"Arial","sans-serif";
+ border:none;
+ mso-protection:locked vi=
+sible;
+ mso-ignore:padding;}
+.style0
+ {
+ text-align:general;
+ vertical-align:bo=
+ttom;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:10p=
+t;
+ font-weight:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif";
+ m=
+so-protection:locked visible;
+ mso-style-name:"Normal";
+ }
+.style1
+ {
+ text-ali=
+gn:general;
+ vertical-align:middle;
+ white-space:nowrap;
+ background:auto;
+ ms=
+o-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-style:normal;
+ font-f=
+amily:"Arial","sans-serif";
+ mso-protection:locked visible;
+ }
+.style2
+ {
+ text=
+-align:general;
+ vertical-align:middle;
+ white-space:nowrap;
+ background:auto=
+;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-style:normal;
+ fo=
+nt-family:"Arial","sans-serif";
+ mso-protection:locked visible;
+ }
+.style3
+ {
+ =
+text-align:general;
+ vertical-align:middle;
+ white-space:nowrap;
+ background:=
+auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-style:normal=
+;
+ font-family:"Arial","sans-serif";
+ mso-protection:locked visible;
+ }
+.style=
+4
+ {
+ text-align:general;
+ vertical-align:middle;
+ white-space:nowrap;
+ backgro=
+und:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-style:no=
+rmal;
+ font-family:"Arial","sans-serif";
+ mso-protection:locked visible;
+ }
+.s=
+tyle5
+ {
+ text-align:general;
+ vertical-align:middle;
+ white-space:nowrap;
+ bac=
+kground:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-styl=
+e:normal;
+ font-family:"Arial","sans-serif";
+ mso-protection:locked visible;=
+
+ }
+.style6
+ {
+ text-align:general;
+ vertical-align:middle;
+ white-space:nowrap;=
+
+ background:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-=
+style:normal;
+ font-family:"Arial","sans-serif";
+ mso-protection:locked visi=
+ble;
+ }
+.style7
+ {
+ text-align:general;
+ vertical-align:middle;
+ white-space:now=
+rap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ f=
+ont-style:normal;
+ font-family:"Arial","sans-serif";
+ mso-protection:locked =
+visible;
+ }
+.style8
+ {
+ text-align:general;
+ vertical-align:middle;
+ white-space=
+:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight:40=
+0;
+ font-style:normal;
+ font-family:"Arial","sans-serif";
+ mso-protection:loc=
+ked visible;
+ }
+.style9
+ {
+ text-align:general;
+ vertical-align:middle;
+ white-s=
+pace:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weigh=
+t:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif";
+ mso-protection=
+:locked visible;
+ }
+.style10
+ {
+ text-align:general;
+ vertical-align:middle;
+ wh=
+ite-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-=
+weight:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif";
+ mso-prote=
+ction:locked visible;
+ }
+.style11
+ {
+ text-align:general;
+ vertical-align:middl=
+e;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ =
+font-weight:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif";
+ mso-=
+protection:locked visible;
+ }
+.style12
+ {
+ text-align:general;
+ vertical-align:=
+middle;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:1=
+0pt;
+ font-weight:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif";=
+
+ mso-protection:locked visible;
+ }
+.style13
+ {
+ text-align:general;
+ vertical-a=
+lign:middle;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-s=
+ize:10pt;
+ font-weight:400;
+ font-style:normal;
+ font-family:"Arial","sans-se=
+rif";
+ mso-protection:locked visible;
+ }
+.style14
+ {
+ text-align:general;
+ verti=
+cal-align:middle;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ f=
+ont-size:10pt;
+ font-weight:400;
+ font-style:normal;
+ font-family:"Arial","sa=
+ns-serif";
+ mso-protection:locked visible;
+ }
+.x15
+ {
+ mso-style-parent:style0;=
+
+ mso-number-format:General;
+ text-align:general;
+ vertical-align:bottom;
+ whi=
+te-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-w=
+eight:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif";
+ mso-protec=
+tion:locked visible;
+ }
+.style16
+ {
+ mso-number-format:"0%";
+ text-align:genera=
+l;
+ vertical-align:middle;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern=
+:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-style:normal;
+ font-family:"Ar=
+ial","sans-serif";
+ mso-protection:locked visible;
+ mso-style-name:"Percent"=
+;
+ }
+.style17
+ {
+ mso-number-format:"_\(\0022$\0022* \#\,\#\#0\.00_\)\;_\(\002=
+2$\0022* \(\#\,\#\#0\.00\)\;_\(\0022$\0022* \0022-\0022??_\)\;_\(\@_\)";
+ t=
+ext-align:general;
+ vertical-align:middle;
+ white-space:nowrap;
+ background:a=
+uto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-style:normal;=
+
+ font-family:"Arial","sans-serif";
+ mso-protection:locked visible;
+ mso-styl=
+e-name:"Currency";
+ }
+.style18
+ {
+ mso-number-format:"_\(\0022$\0022* \#\,\#\#=
+0_\)\;_\(\0022$\0022* \(\#\,\#\#0\)\;_\(\0022$\0022* \0022-\0022_\)\;_\(\@=
+_\)";
+ text-align:general;
+ vertical-align:middle;
+ white-space:nowrap;
+ backg=
+round:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-style:=
+normal;
+ font-family:"Arial","sans-serif";
+ mso-protection:locked visible;
+ m=
+so-style-name:"Currency [0]";
+ }
+.style19
+ {
+ mso-number-format:"_\(* \#\,\#\#=
+0\.00_\)\;_\(* \(\#\,\#\#0\.00\)\;_\(* \0022-\0022??_\)\;_\(\@_\)";
+ text-a=
+lign:general;
+ vertical-align:middle;
+ white-space:nowrap;
+ background:auto;
+ =
+mso-pattern:auto;
+ font-size:10pt;
+ font-weight:400;
+ font-style:normal;
+ font=
+-family:"Arial","sans-serif";
+ mso-protection:locked visible;
+ mso-style-nam=
+e:"Comma";
+ }
+.style20
+ {
+ mso-number-format:"_\(* \#\,\#\#0_\)\;_\(* \(\#\,\#=
+\#0\)\;_\(* \0022-\0022_\)\;_\(\@_\)";
+ text-align:general;
+ vertical-align:=
+middle;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:1=
+0pt;
+ font-weight:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif";=
+
+ mso-protection:locked visible;
+ mso-style-name:"Comma [0]";
+ }
+.x21
+ {
+ mso-st=
+yle-parent:style0;
+ mso-number-format:General;
+ text-align:general;
+ vertical=
+-align:bottom;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ colo=
+r:#000000;
+ font-size:10pt;
+ font-weight:400;
+ font-style:normal;
+ font-family=
+:"Arial","sans-serif";
+ mso-protection:locked visible;
+ }
+.x22
+ {
+ mso-style-pa=
+rent:style0;
+ mso-number-format:General;
+ text-align:general;
+ vertical-align=
+:bottom;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:=
+10pt;
+ font-weight:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif"=
+;
+ mso-protection:locked visible;
+ }
+.x23
+ {
+ mso-style-parent:style0;
+ mso-numb=
+er-format:General;
+ text-align:general;
+ vertical-align:bottom;
+ white-space:=
+nowrap;
+ background:#0000FF;
+ mso-pattern:auto none;
+ color:#FF0000;
+ font-siz=
+e:10pt;
+ font-weight:700;
+ font-style:normal;
+ font-family:"Tahoma","sans-ser=
+if";
+ border-top:1px solid windowtext;
+ border-right:1px solid windowtext;
+ b=
+order-bottom:1px solid windowtext;
+ border-left:1px solid windowtext;
+ mso-d=
+iagonal-down:none;
+ mso-diagonal-up:none;
+ mso-protection:locked visible;
+ }
+.=
+x24
+ {
+ mso-style-parent:style0;
+ mso-number-format:General;
+ text-align:gener=
+al;
+ vertical-align:bottom;
+ white-space:nowrap;
+ background:#FFFF99;
+ mso-pat=
+tern:auto none;
+ color:#FF0000;
+ font-size:10pt;
+ font-weight:700;
+ font-style=
+:normal;
+ font-family:"Tahoma","sans-serif";
+ border-top:1px solid windowtex=
+t;
+ border-right:1px solid windowtext;
+ border-bottom:1px solid windowtext;
+ =
+border-left:1px solid windowtext;
+ mso-diagonal-down:none;
+ mso-diagonal-up:=
+none;
+ mso-protection:locked visible;
+ }
+.x25
+ {
+ mso-style-parent:style0;
+ mso-=
+number-format:General;
+ text-align:general;
+ vertical-align:bottom;
+ white-sp=
+ace:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ font-size:10pt;
+ font-weight=
+:400;
+ font-style:normal;
+ font-family:"Arial","sans-serif";
+ border-top:1px =
+solid windowtext;
+ border-right:1px solid windowtext;
+ border-bottom:1px sol=
+id windowtext;
+ border-left:1px solid windowtext;
+ mso-diagonal-down:none;
+ m=
+so-diagonal-up:none;
+ mso-protection:locked visible;
+ }
+.x26
+ {
+ mso-style-pare=
+nt:style0;
+ mso-number-format:General;
+ text-align:center;
+ vertical-align:bo=
+ttom;
+ white-space:nowrap;
+ background:#CCFFCC;
+ mso-pattern:auto none;
+ color=
+:#800000;
+ font-size:16pt;
+ font-weight:700;
+ font-style:normal;
+ font-family:=
+"Arial","sans-serif";
+ mso-protection:locked visible;
+ }
+.x27
+ {
+ mso-style-par=
+ent:style0;
+ mso-number-format:General;
+ text-align:general;
+ vertical-align:=
+middle;
+ white-space:nowrap;
+ background:auto;
+ mso-pattern:auto;
+ color:#0000=
+FF;
+ font-size:18pt;
+ font-weight:700;
+ font-style:italic;
+ font-family:"Arial=
+","sans-serif";
+ mso-protection:locked visible;
+ }
+
+------=_NextPart_aspose01.20120615
+Content-Location:file:///C:/aspose01/Book1.xlsx.out_files/tabstrip.htm
+Content-Transfer-Encoding:quoted-printable
+Content-Type:text/html; charset="UTF-8"
+
+﻿<html>
+<head>
+<meta http-equiv=3dContent-Type content=3d"text/html; charset=3d=
+gb2312">
+<meta name=3dProgId content=3dExcel.Sheet>
+<meta name=3dGenerator c=
+ontent=3d"Microsoft Excel 11">
+<link id=3dMain-File rel=3dMain-File href=3d=
+"../Book1.xlsx.out.htm">
+
+<script language=3d"JavaScript">
+<!--
+if (window.nam=
+e!=3d"frTabs")
+ window.location.replace(document.all.item("Main-File").href=
+);
+//-->
+</script>
+<style>
+<!--
+A {
+    text-decoration:none;
+    color:#000000;
+ =
+   font-size:9pt;
+}
+-->
+</style>
+</head>
+<body topmargin=3d0 leftmargin=3d0 bgc=
+olor=3d"#808080">
+<table border=3d0 cellspacing=3d1>
+ <tr>
+ <td bgcolor=3d"#F=
+FFFFF" nowrap><b><small><small>&nbsp;<a href=3d"sheet001.htm" target=3d"fr=
+Sheet"><font face=3d"Arial" color=3d"#000000">Sheet1</font></a>&nbsp;</sma=
+ll></small></b></td>
+ <td bgcolor=3d"#FFFFFF" nowrap><b><small><small>&nbsp=
+;<a href=3d"sheet002.htm" target=3d"frSheet"><font face=3d"Arial" color=3d=
+"#000000">Sheet2</font></a>&nbsp;</small></small></b></td>
+ <td bgcolor=3d"=
+#FFFFFF" nowrap><b><small><small>&nbsp;<a href=3d"sheet003.htm" target=3d"=
+frSheet"><font face=3d"Arial" color=3d"#000000">Sheet3</font></a>&nbsp;</s=
+mall></small></b></td>
+ <td bgcolor=3d"#FFFFFF" nowrap><b><small><small>&nb=
+sp;<a href=3d"sheet004.htm" target=3d"frSheet"><font face=3d"Arial" color=3d=
+"#000000">Evaluation Warning</font></a>&nbsp;</small></small></b></td>
+
+ </t=
+r>
+</table>
+</body>
+</html>
+
+
+------=_NextPart_aspose01.20120615
+Content-Location:file:///C:/aspose01/Book1.xlsx.out_files/filelist.xml
+Content-Transfer-Encoding:quoted-printable
+Content-Type:text/html; charset="UTF-8"
+
+﻿<xml xmlns:o=3d"urn:schemas-microsoft-com:office:office">
+ <o:MainFile HRef=
+=3d"../Book1.xlsx.out.htm"/>
+ <o:File HRef=3d"editdata.mso"/>
+ <o:File HRef=3d=
+"stylesheet.css"/>
+ <o:File HRef=3d"tabstrip.htm"/>
+ <o:File HRef=3d"sheet00=
+1.htm"/>
+ <o:File HRef=3d"sheet002.htm"/>
+ <o:File HRef=3d"sheet003.htm"/>
+ <=
+o:File HRef=3d"sheet004.htm"/>
+ <o:File HRef=3d"filelist.xml"/>
+</xml>
+------=_NextPart_aspose01.20120615--

@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: aspose-cells-java-for-python
+Version: 1.0
+Summary: Aspose.cells Java for Python is a project that demonstrates / provides the Aspose.Cells for Java API usage examples in Python.
+Home-page: https://github.com/asposecells/Aspose_Cells_Java/tree/master/Plugins/Aspose-Cells-Java-for-Python
+Author: Fahad Adeel
+Author-email: cells@aspose.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
