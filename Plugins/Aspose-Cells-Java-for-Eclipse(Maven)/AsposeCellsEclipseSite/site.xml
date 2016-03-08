@@ -7,7 +7,7 @@ With Aspose.Cells for Java developers can export data, format spreadsheets to th
 Aspose.Cells Maven Project wizard fetch and configures the latest Maven dependency reference of Aspose.Cells for Java from the Aspose Cloud Maven Repository.
 The wizard also gives you option to download the Code Examples to use Aspose.Cells for Java API.
    </description>
-   <feature url="features/com.aspose.cells.java.maven_1.0.0.0.jar" id="com.aspose.cells.java.maven" version="1.0.0.0">
+   <feature url="features/com.aspose.cells.java.maven_1.0.0.1.jar" id="com.aspose.cells.java.maven" version="1.0.0.1">
       <category name="com.aspose.cells.java.maven.category"/>
    </feature>
    <category-def name="com.aspose.cells.java.maven.category" label="Aspose.Cells Java for Eclipse (Maven)"/>

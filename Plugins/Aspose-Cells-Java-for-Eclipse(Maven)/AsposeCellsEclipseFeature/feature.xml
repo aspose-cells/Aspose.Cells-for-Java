@@ -2,7 +2,7 @@
 <feature
       id="com.aspose.cells.java.maven"
       label="Aspose.Cells Java for Eclipse (Maven)"
-      version="1.0.0.0"
+      version="1.0.0.1"
       provider-name="http://www.aspose.com">
 
    <description>
@@ -46,7 +46,7 @@ THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRES
          id="com.aspose.cells.java.maven.plugin"
          download-size="0"
          install-size="0"
-         version="1.0.0.0"
+         version="1.0.0.1"
          unpack="false"/>
 
 </feature>

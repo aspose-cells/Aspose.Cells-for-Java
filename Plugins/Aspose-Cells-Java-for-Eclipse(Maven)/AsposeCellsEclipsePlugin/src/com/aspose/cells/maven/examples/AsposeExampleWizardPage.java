@@ -270,7 +270,7 @@ public class AsposeExampleWizardPage extends WizardPage {
 				onProjectModify();
 			}
 		});
-		cbProject.setBounds(181, 101, 366, 23);
+		cbProject.setBounds(181, 101, 323, 23);
 
 		examplesTree = new Tree(container, SWT.BORDER);
 		examplesTree.addSelectionListener(new SelectionAdapter() {
@@ -279,11 +279,11 @@ public class AsposeExampleWizardPage extends WizardPage {
 				onTreeSelection();
 			}
 		});
-		examplesTree.setBounds(27, 170, 520, 140);
+		examplesTree.setBounds(10, 170, 494, 206);
 
 		Label label = new Label(container, SWT.NONE);
 		label.setImage(SWTResourceManager.getImage(Activator.getResourceFilePath("long_banner.png")));
-		label.setBounds(10, 0, 564, 95);
+		label.setBounds(10, 0, 500, 80);
 
 		Label lblProject = new Label(container, SWT.NONE);
 		lblProject.setBounds(134, 104, 40, 15);
@@ -299,7 +299,7 @@ public class AsposeExampleWizardPage extends WizardPage {
 				onVersionModify();
 			}
 		});
-		cbVersion.setBounds(181, 128, 366, 23);
+		cbVersion.setBounds(181, 128, 323, 23);
 
 		initDecorators();
 		initControls();

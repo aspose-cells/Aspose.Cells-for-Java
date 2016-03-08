@@ -248,7 +248,7 @@ public class AsposeMavenProjectWizardPage extends WizardPage {
 
 		Label lblNewLabel = new Label(container, SWT.NONE);
 		lblNewLabel.setImage(SWTResourceManager.getImage(Activator.getResourceFilePath("long_banner.png")));
-		lblNewLabel.setBounds(10, 0, 564, 95);
+		lblNewLabel.setBounds(10, 0, 500, 80);
 
 		Label lblPleaseEnterProject = new Label(container, SWT.NONE);
 		lblPleaseEnterProject.setFont(SWTResourceManager.getFont("Segoe UI", 9, SWT.BOLD));
@@ -294,7 +294,7 @@ public class AsposeMavenProjectWizardPage extends WizardPage {
 				onProjectNameChange();
 			}
 		});
-		txtProjectName.setBounds(118, 116, 370, 21);
+		txtProjectName.setBounds(118, 116, 319, 21);
 
 		txtProjectLocation = new Text(container, SWT.BORDER);
 		txtProjectLocation.addModifyListener(new ModifyListener() {
@@ -302,7 +302,7 @@ public class AsposeMavenProjectWizardPage extends WizardPage {
 				onProjectLocationChange();
 			}
 		});
-		txtProjectLocation.setBounds(118, 143, 370, 21);
+		txtProjectLocation.setBounds(118, 143, 319, 21);
 
 		Button btnNewButton = new Button(container, SWT.NONE);
 		btnNewButton.addSelectionListener(new SelectionAdapter() {
@@ -315,7 +315,7 @@ public class AsposeMavenProjectWizardPage extends WizardPage {
 				}
 			}
 		});
-		btnNewButton.setBounds(494, 140, 75, 25);
+		btnNewButton.setBounds(443, 141, 75, 25);
 		btnNewButton.setText("Browse...");
 
 		txtProjectFolder = new Text(container, SWT.BORDER);
@@ -325,12 +325,12 @@ public class AsposeMavenProjectWizardPage extends WizardPage {
 			}
 		});
 		txtProjectFolder.setEditable(false);
-		txtProjectFolder.setBounds(118, 170, 370, 21);
+		txtProjectFolder.setBounds(118, 170, 319, 21);
 
 		txtArtifactId = new Text(container, SWT.BORDER);
 		txtArtifactId.setEnabled(false);
 		txtArtifactId.setEditable(false);
-		txtArtifactId.setBounds(118, 212, 370, 21);
+		txtArtifactId.setBounds(118, 212, 319, 21);
 
 		txtGroupId = new Text(container, SWT.BORDER);
 		txtGroupId.addModifyListener(new ModifyListener() {
@@ -338,7 +338,7 @@ public class AsposeMavenProjectWizardPage extends WizardPage {
 				onGroupIdChange();
 			}
 		});
-		txtGroupId.setBounds(118, 239, 370, 21);
+		txtGroupId.setBounds(118, 239, 319, 21);
 
 		txtVersion = new Text(container, SWT.BORDER);
 		txtVersion.addModifyListener(new ModifyListener() {
@@ -346,7 +346,7 @@ public class AsposeMavenProjectWizardPage extends WizardPage {
 				onVersionChange();
 			}
 		});
-		txtVersion.setBounds(118, 266, 370, 21);
+		txtVersion.setBounds(118, 266, 319, 21);
 
 		txtPackage = new Text(container, SWT.BORDER);
 		txtPackage.addModifyListener(new ModifyListener() {
@@ -354,14 +354,14 @@ public class AsposeMavenProjectWizardPage extends WizardPage {
 				onPackageChange();
 			}
 		});
-		txtPackage.setBounds(118, 293, 370, 21);
+		txtPackage.setBounds(118, 293, 319, 21);
 
 		chkDownloadExamples = new Button(container, SWT.CHECK);
 		chkDownloadExamples.setBounds(5, 325, 492, 16);
 		chkDownloadExamples.setText("Also Download Code Examples (for using Aspose.Cells for Java)");
 
 		Label lblNewLabel_1 = new Label(container, SWT.NONE);
-		lblNewLabel_1.setBounds(494, 296, 55, 15);
+		lblNewLabel_1.setBounds(443, 296, 55, 15);
 		lblNewLabel_1.setText("(Optional)");
 
 		initDecorators();
