@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.newWizards">
+      <wizard
+            category="org.eclipse.m2e"
+            class="com.aspose.cells.maven.AsposeMavenProjectWizard"
+            icon="resources/Aspose.png"
+            id="asposeplugin.wizard.new.mavenprojectwizard"
+            name="Aspose.Cells Maven Project"
+            project="true">
+      </wizard>
+      <wizard
+            category="org.eclipse.jdt.ui.java"
+            class="com.aspose.cells.maven.examples.AsposeExampleWizard"
+            icon="resources/Aspose.png"
+            id="asposeplugin.wizard.new.mavenexamplewizard"
+            name="Aspose.Cells Code Example"
+            project="false">
+      </wizard>
+   </extension>
+
+</plugin>

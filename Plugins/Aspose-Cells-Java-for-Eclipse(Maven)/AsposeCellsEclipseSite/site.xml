@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description name="Aspose.Cells Java for Eclipse (Maven) - Eclipse Update Site" url="http://cdn.aspose.com/marketplace/eclipse/java/maven/asposecells/">
+      Aspose.Cells Maven Project wizard creates Maven Project for using Aspose.Cells for Java API within Eclipse IDE.
+&quot;Aspose.Cells for Java is an award-winning Excel Spreadsheet component that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image file formats into their own Java applications without needing to rely on Microsoft Excel®.
+With Aspose.Cells for Java developers can export data, format spreadsheets to the most granular level, import images, create charts, apply and calculate complex formulas, stream Excel® data&quot;
+Aspose.Cells Maven Project wizard fetch and configures the latest Maven dependency reference of Aspose.Cells for Java from the Aspose Cloud Maven Repository.
+The wizard also gives you option to download the Code Examples to use Aspose.Cells for Java API.
+   </description>
+   <feature url="features/com.aspose.cells.java.maven_1.0.0.1.jar" id="com.aspose.cells.java.maven" version="1.0.0.1">
+      <category name="com.aspose.cells.java.maven.category"/>
+   </feature>
+   <category-def name="com.aspose.cells.java.maven.category" label="Aspose.Cells Java for Eclipse (Maven)"/>
+</site>
