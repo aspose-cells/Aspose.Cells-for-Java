@@ -13,12 +13,12 @@ The Plugin intended for developers using Maven platform for Java developments an
 The plugin provides following features to work with [Aspose.Cells for Java](http://goo.gl/gtvhlQ) API within **Eclipse IDE** comfortably:
 
 ### Aspose.Cells Maven Project (wizard)
-![plugin title shot](http://i.imgur.com/DRPRN7Q.png)
+![plugin title shot](http://i.imgur.com/IRfaO7P.png)
 *   By using this wizard plugin creates Maven project for using [Aspose.Cells for Java](http://goo.gl/gtvhlQ) from **New -> Project -> Maven-> Aspose.Cells Maven Project**
 *   The wizard will also give option for downloading latest available Code Examples for using the API.
 
 ### Aspose.Cells Code Example (wizard)
-![plugin title shot](http://i.imgur.com/LyNvq1r.png)
+![plugin title shot](http://i.imgur.com/wUbPi8F.png)
 *   By using this wizard plugin lets you copy the downloaded Code Examples into your project for using [Aspose.Cells for Java](http://goo.gl/gtvhlQ) from **New -> Other -> Java -> Aspose.Cells Code Example**
 *   The wizard will also look for and updates for newly available Code Examples from [Aspose.Cells for Java examples repository.](https://goo.gl/uxznrb)
      **NOTE:** Selected Code Examples (category) source codes will be copied under **"com.aspose.cells.examples"** package. Resources needed for running examples will be copied to the corresponding directory (package) within **"src/main/resources"**.	    
