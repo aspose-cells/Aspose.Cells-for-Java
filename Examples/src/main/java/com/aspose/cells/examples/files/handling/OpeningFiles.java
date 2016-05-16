@@ -11,6 +11,7 @@ public class OpeningFiles {
     public static void main(String[] args) throws Exception {
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(OpeningFiles.class);
+        //ExSart:1
 
         // 1.
         // Opening from path.
@@ -101,5 +102,6 @@ public class OpeningFiles {
 
         // Print message
         System.out.println("Encrypted workbook has been opened successfully.");
+        //ExEnd:1
     }
 }

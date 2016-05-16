@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class WorksheetToImage {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(WorksheetToImage.class);
 
@@ -25,11 +26,10 @@ public class WorksheetToImage {
         SheetRender sr = new SheetRender(sheet, imgOptions);
         for (int j = 0; j < sr.getPageCount(); j++) {
             //Generate an image for the worksheet
-            sr.toImage(j, dataDir + "mysheetimg_" + j + ".out.png");
-
+            sr.toImage(j, dataDir + "output" +j+ ".png");
         }
-
         // Print message
         System.out.println("Images generated successfully.");
+        //ExEnd:1
     }
 }

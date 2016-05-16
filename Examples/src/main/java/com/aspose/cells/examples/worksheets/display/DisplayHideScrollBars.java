@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class DisplayHideScrollBars {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(DisplayHideScrollBars.class);
 
@@ -23,5 +24,6 @@ public class DisplayHideScrollBars {
 
         // Print message
         System.out.println("Scroll bars are now hidden, please check the output document.");
+        //ExEnd:1
     }
 }

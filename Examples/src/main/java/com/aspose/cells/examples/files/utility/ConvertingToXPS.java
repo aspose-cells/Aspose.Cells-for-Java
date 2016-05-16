@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertingToXPS {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(ConvertingToXPS.class);
 
@@ -22,12 +23,13 @@ public class ConvertingToXPS {
 
         // Render the sheet with respect to specified printing options
         com.aspose.cells.SheetRender sr = new SheetRender(sheet, options);
-        sr.toImage(0, dataDir + "printingxps.out.xps");
+        sr.toImage(0, dataDir + "output.xps");
 
         //Save the complete Workbook in XPS format
-        workbook.save(dataDir + "whole_printingxps.out.xps", SaveFormat.XPS);
+        workbook.save(dataDir + "output.xps", SaveFormat.XPS);
 
         // Print message
         System.out.println("Excel to XPS conversion performed successfully.");
+        //ExEnd:1
     }
 }

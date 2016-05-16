@@ -8,6 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class LoadVisibleSheetsOnly {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         String dataDir = Utils.getDataDir(LoadVisibleSheetsOnly.class);
         String sampleFile = "Sample.out.xlsx";
         String samplePath = dataDir + sampleFile;
@@ -36,6 +37,7 @@ public class LoadVisibleSheetsOnly {
         System.out.println("Sheet3: A1: " + loadWorkbook.getWorksheets().get("Sheet3").getCells().get("A1").getValue());
 
         System.out.println("Data is not loaded from invisible sheet");
+        //ExEnd:1
     }
 }
 

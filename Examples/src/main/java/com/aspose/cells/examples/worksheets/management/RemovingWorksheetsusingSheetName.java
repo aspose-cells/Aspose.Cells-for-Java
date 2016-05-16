@@ -8,6 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class RemovingWorksheetsusingSheetName {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(RemovingWorksheetsusingSheetName.class);
 
@@ -21,12 +22,13 @@ public class RemovingWorksheetsusingSheetName {
         workbook.getWorksheets().removeAt("Sheet1");
 
         //Saving the Excel file
-        workbook.save(dataDir + "book.out.xls");
+        workbook.save(dataDir + "output.xls");
 
         //Closing the file stream to free all resources
         fstream.close();
 
         //Print Message
         System.out.println("Sheet removed successfully.");
+        //ExEnd:1
     }
 }

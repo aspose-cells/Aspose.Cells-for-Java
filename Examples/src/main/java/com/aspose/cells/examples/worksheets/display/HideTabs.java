@@ -3,11 +3,12 @@ package com.aspose.cells.examples.worksheets.display;
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
 
-public class DisplayHideTabs {
+public class HideTabs {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
-        String dataDir = Utils.getDataDir(DisplayHideTabs.class);
+        String dataDir = Utils.getDataDir(HideTabs.class);
 
         //Instantiating a Workbook object by excel file path
         Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -20,5 +21,6 @@ public class DisplayHideTabs {
 
         // Print message
         System.out.println("Tabs are now hidden, please check the output file.");
+        //ExEnd:1
     }
 }

@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class FreezePanes {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(FreezePanes.class);
 
@@ -24,5 +25,6 @@ public class FreezePanes {
 
         //Print Message
         System.out.println("Panes freeze successfull.");
+        //ExEnd:1
     }
 }

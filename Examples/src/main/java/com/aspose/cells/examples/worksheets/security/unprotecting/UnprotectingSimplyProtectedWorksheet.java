@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class UnprotectingSimplyProtectedWorksheet {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(UnprotectingSimplyProtectedWorksheet.class);
 
@@ -30,5 +31,7 @@ public class UnprotectingSimplyProtectedWorksheet {
 
         //Print Message
         System.out.println("Worksheet unprotected successfully.");
+        //ExEnd:1
+
     }
 }

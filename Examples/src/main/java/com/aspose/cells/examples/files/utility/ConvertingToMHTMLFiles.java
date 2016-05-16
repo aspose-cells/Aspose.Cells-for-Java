@@ -8,6 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertingToMHTMLFiles {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(ConvertingToMHTMLFiles.class);
 
@@ -21,9 +22,10 @@ public class ConvertingToMHTMLFiles {
         Workbook wb = new Workbook(filePath);
 
         //Save the MHT file
-        wb.save(filePath + "Book1.out.mht", sv);
+        wb.save(dataDir + "output.mht", sv);
 
         // Print message
         System.out.println("Excel to MHTML conversion performed successfully.");
+        //ExEnd:1
     }
 }

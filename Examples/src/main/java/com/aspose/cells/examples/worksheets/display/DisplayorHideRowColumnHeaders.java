@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class DisplayorHideRowColumnHeaders {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(DisplayorHideRowColumnHeaders.class);
 
@@ -27,5 +28,6 @@ public class DisplayorHideRowColumnHeaders {
 
         //Print Message
         System.out.println("Headers hidden successfully.");
+        //ExEnd:1
     }
 }

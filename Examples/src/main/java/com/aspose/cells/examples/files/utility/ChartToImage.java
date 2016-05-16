@@ -7,6 +7,7 @@ import java.io.FileOutputStream;
 public class ChartToImage {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(ChartToImage.class);
 
@@ -84,7 +85,7 @@ public class ChartToImage {
         ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
         imgOpts.setImageFormat(ImageFormat.getEmf());
 
-        FileOutputStream fs = new FileOutputStream(dataDir + "Chart.out.emf");
+        FileOutputStream fs = new FileOutputStream(dataDir + "output.emf");
 
         //Save the chart image file.
         chart.toImage(fs, imgOpts);
@@ -93,5 +94,6 @@ public class ChartToImage {
 
         // Print message
         System.out.println("Processing performed successfully.");
+        //ExEnd:1
     }
 }

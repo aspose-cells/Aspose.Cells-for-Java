@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class HideUnhideWorksheet {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(HideUnhideWorksheet.class);
 
@@ -24,5 +25,6 @@ public class HideUnhideWorksheet {
 
         // Print message
         System.out.println("Worksheet 1 is now hidden, please check the output document.");
+        //ExEnd:1
     }
 }

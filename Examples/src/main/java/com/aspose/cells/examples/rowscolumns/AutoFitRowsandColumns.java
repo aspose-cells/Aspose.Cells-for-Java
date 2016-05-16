@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.rowscolumns;
+package com.aspose.cells.examples.RowsColumns;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;

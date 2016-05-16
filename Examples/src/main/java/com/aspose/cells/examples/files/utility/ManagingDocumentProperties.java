@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class ManagingDocumentProperties {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(ManagingDocumentProperties.class);
 
@@ -25,15 +26,16 @@ public class ManagingDocumentProperties {
         DocumentProperty publisher = customProperties.add("Publisher", "Aspose");
 
         //Save the file
-        workbook.save(dataDir + "Test_Workbook.out.xls");
+        workbook.save(dataDir + "output.xls");
 
         //Removing a custom document property
         customProperties.remove("Publisher");
 
         //Save the file
-        workbook.save(dataDir + "Test_Workbook_RemovedProperty.out.xls");
+        workbook.save(dataDir + "output.xls");
 
         // Print message
         System.out.println("Excel file's custom properties accessed successfully.");
+        //ExEnd:1
     }
 }

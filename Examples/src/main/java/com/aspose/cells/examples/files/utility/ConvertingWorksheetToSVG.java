@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertingWorksheetToSVG {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(ConvertingWorksheetToSVG.class);
 
@@ -29,11 +30,12 @@ public class ConvertingWorksheetToSVG {
 
             for (int k = 0; k < sr.getPageCount(); k++) {
                 //Output the worksheet into Svg image format
-                sr.toImage(k, path + sheet.getName() + k + ".out.svg");
+                sr.toImage(k, path + sheet.getName() + k + ".output.svg");
             }
         }
 
         // Print message
         System.out.println("Excel to SVG conversion completed successfully.");
+        //ExEnd:1
     }
 }

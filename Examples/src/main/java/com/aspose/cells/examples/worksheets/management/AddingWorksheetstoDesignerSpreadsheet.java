@@ -8,6 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingWorksheetstoDesignerSpreadsheet {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(AddingWorksheetstoDesignerSpreadsheet.class);
 
@@ -26,12 +27,13 @@ public class AddingWorksheetstoDesignerSpreadsheet {
         worksheet.setName("My Worksheet");
 
         //Saving the Excel file
-        workbook.save(dataDir + "book.out.xls");
+        workbook.save(dataDir + "output.xls");
 
         //Closing the file stream to free all resources
         fstream.close();
 
         //Print Message
         System.out.println("Sheet added successfully.");
+        //ExEnd:1
     }
 }

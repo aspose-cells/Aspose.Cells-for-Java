@@ -6,6 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class DisplayHideGridlines {
 
     public static void main(String[] args) throws Exception {
+        //ExStart:1
         // The path to the documents directory.
         String dataDir = Utils.getDataDir(DisplayHideGridlines.class);
 
@@ -25,5 +26,6 @@ public class DisplayHideGridlines {
 
         // Print message
         System.out.println("Grid lines are now hidden on sheet 1, please check the output document.");
+        //ExEnd:1
     }
 }
