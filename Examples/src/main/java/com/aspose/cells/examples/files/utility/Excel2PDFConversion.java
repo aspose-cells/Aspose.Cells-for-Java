@@ -5,18 +5,18 @@ import com.aspose.cells.examples.Utils;
 
 public class Excel2PDFConversion {
 
-    public static void main(String[] args) throws Exception {
-        //ExStart:1
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(Excel2PDFConversion.class);
+	public static void main(String[] args) throws Exception {
+		// ExStart:1
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(Excel2PDFConversion.class);
 
-        Workbook workbook = new Workbook(dataDir + "Book1.xls");
+		Workbook workbook = new Workbook(dataDir + "Book1.xls");
 
-        //Save the document in PDF format
-        workbook.save(dataDir + "output.pdf", SaveFormat.PDF);
+		// Save the document in PDF format
+		workbook.save(dataDir + "output.pdf", SaveFormat.PDF);
 
-        // Print message
-        System.out.println("Excel to PDF conversion performed successfully.");
-        //ExEnd:1
-    }
+		// Print message
+		System.out.println("Excel to PDF conversion performed successfully.");
+		// ExEnd:1
+	}
 }

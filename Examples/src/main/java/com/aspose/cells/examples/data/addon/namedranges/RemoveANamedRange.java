@@ -5,53 +5,55 @@ import com.aspose.cells.examples.Utils;
 
 public class RemoveANamedRange {
 
-    public static void main(String[] args) throws Exception {
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(RemoveANamedRange.class);
+	public static void main(String[] args) throws Exception {
+		// ExStart:RemoveANamedRange
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(RemoveANamedRange.class);
 
-        //Instantiate a new Workbook.
-        Workbook workbook = new Workbook();
+		// Instantiate a new Workbook.
+		Workbook workbook = new Workbook();
 
-        //Get all the worksheets in the book.
-        WorksheetCollection worksheets = workbook.getWorksheets();
+		// Get all the worksheets in the book.
+		WorksheetCollection worksheets = workbook.getWorksheets();
 
-        //Get the first worksheet in the worksheets collection.
-        Worksheet worksheet = workbook.getWorksheets().get(0);
+		// Get the first worksheet in the worksheets collection.
+		Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        //Create a range of cells.
-        Range range1 = worksheet.getCells().createRange("E12", "I12");
+		// Create a range of cells.
+		Range range1 = worksheet.getCells().createRange("E12", "I12");
 
-        //Name the range.
-        range1.setName("MyRange");
+		// Name the range.
+		range1.setName("MyRange");
 
-        //Set the outline border to the range.
-        range1.setOutlineBorder(BorderType.TOP_BORDER, CellBorderType.MEDIUM, Color.fromArgb(0, 0, 128));
-        range1.setOutlineBorder(BorderType.BOTTOM_BORDER, CellBorderType.MEDIUM, Color.fromArgb(0, 0, 128));
-        range1.setOutlineBorder(BorderType.LEFT_BORDER, CellBorderType.MEDIUM, Color.fromArgb(0, 0, 128));
-        range1.setOutlineBorder(BorderType.RIGHT_BORDER, CellBorderType.MEDIUM, Color.fromArgb(0, 0, 128));
+		// Set the outline border to the range.
+		range1.setOutlineBorder(BorderType.TOP_BORDER, CellBorderType.MEDIUM, Color.fromArgb(0, 0, 128));
+		range1.setOutlineBorder(BorderType.BOTTOM_BORDER, CellBorderType.MEDIUM, Color.fromArgb(0, 0, 128));
+		range1.setOutlineBorder(BorderType.LEFT_BORDER, CellBorderType.MEDIUM, Color.fromArgb(0, 0, 128));
+		range1.setOutlineBorder(BorderType.RIGHT_BORDER, CellBorderType.MEDIUM, Color.fromArgb(0, 0, 128));
 
-        //Input some data with some formattings into
-        //a few cells in the range.
-        range1.get(0, 0).setValue("Test");
-        range1.get(0, 4).setValue("123");
+		// Input some data with some formattings into
+		// a few cells in the range.
+		range1.get(0, 0).setValue("Test");
+		range1.get(0, 4).setValue("123");
 
-        //Create another range of cells.
-        Range range2 = worksheet.getCells().createRange("B3", "F3");
+		// Create another range of cells.
+		Range range2 = worksheet.getCells().createRange("B3", "F3");
 
-        //Name the range.
-        range2.setName("testrange");
+		// Name the range.
+		range2.setName("testrange");
 
-        //Copy the first range into second range.
-        range2.copy(range1);
+		// Copy the first range into second range.
+		range2.copy(range1);
 
-        //Remove the previous named range (range1) with its contents.
-        worksheet.getCells().clearRange(11, 4, 11, 8);
-        worksheets.getNames().removeAt(0);
+		// Remove the previous named range (range1) with its contents.
+		worksheet.getCells().clearRange(11, 4, 11, 8);
+		worksheets.getNames().removeAt(0);
 
-        //Save the excel file.
-        workbook.save(dataDir + "ranges.out.xls");
+		// Save the excel file.
+		workbook.save(dataDir + "ranges.out.xls");
 
-        // Print message
-        System.out.println("Process completed successfully");
-    }
+		// Print message
+		System.out.println("Process completed successfully");
+		// ExEnd:RemoveANamedRange
+	}
 }

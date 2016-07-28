@@ -5,14 +5,14 @@ import com.aspose.cells.examples.Utils;
 
 public class CheckVbaProjectSigned {
 
-    public static void main(String[] args)
-            throws Exception {
+	public static void main(String[] args) throws Exception {
+		// ExStart:CheckVbaProjectSigned
+		String dataDir = Utils.getDataDir(CheckVbaProjectSigned.class);
+		String inputPath = dataDir + "Sample1.xlsx";
 
-        String dataDir = Utils.getDataDir(CheckVbaProjectSigned.class);
-        String inputPath = dataDir + "Sample1.xlsx";
+		Workbook workbook = new Workbook(inputPath);
 
-        Workbook workbook = new Workbook(inputPath);
-
-        System.out.println("VBA Project is Signed: " + workbook.getVbaProject().isSigned());
-    }
+		System.out.println("VBA Project is Signed: " + workbook.getVbaProject().isSigned());
+		// ExEnd:CheckVbaProjectSigned
+	}
 }

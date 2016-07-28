@@ -7,19 +7,19 @@ import com.aspose.cells.examples.Utils;
 
 public class GetDataConnection {
 
-    public static void main(String[] args)
-            throws Exception {
+	public static void main(String[] args) throws Exception {
+		// ExStart:GetDataConnection
+		String dataDir = Utils.getDataDir(GetDataConnection.class);
+		String inputPath = dataDir + "WebQuerySample.xlsx";
 
-        String dataDir = Utils.getDataDir(GetDataConnection.class);
-        String inputPath = dataDir + "WebQuerySample.xlsx";
+		Workbook workbook = new Workbook(inputPath);
 
-        Workbook workbook = new Workbook(inputPath);
+		ExternalConnection connection = workbook.getDataConnections().get(0);
 
-        ExternalConnection connection = workbook.getDataConnections().get(0);
-
-        if (connection instanceof WebQueryConnection) {
-            WebQueryConnection webQuery = (WebQueryConnection) connection;
-            System.out.println("Web Query URL: " + webQuery.getUrl());
-        }
-    }
+		if (connection instanceof WebQueryConnection) {
+			WebQueryConnection webQuery = (WebQueryConnection) connection;
+			System.out.println("Web Query URL: " + webQuery.getUrl());
+		}
+		// ExEnd:GetDataConnection
+	}
 }

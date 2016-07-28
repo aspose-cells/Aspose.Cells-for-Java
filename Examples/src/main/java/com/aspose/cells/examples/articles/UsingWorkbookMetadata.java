@@ -8,25 +8,26 @@ import com.aspose.cells.examples.Utils;
 
 public class UsingWorkbookMetadata {
 
-    public static void main(String[] args) throws Exception {
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(UsingWorkbookMetadata.class);
+	public static void main(String[] args) throws Exception {
+		// ExStart:UsingWorkbookMetadata
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(UsingWorkbookMetadata.class);
 
+		// Open Workbook metadata
+		MetadataOptions options = new MetadataOptions(MetadataType.DOCUMENT_PROPERTIES);
+		WorkbookMetadata meta = new WorkbookMetadata(dataDir + "Sample1.xlsx", options);
 
-        // Open Workbook metadata
-        MetadataOptions options = new MetadataOptions(MetadataType.DOCUMENT_PROPERTIES);
-        WorkbookMetadata meta = new WorkbookMetadata(dataDir + "Sample1.xlsx", options);
+		// Set some properties
+		meta.getCustomDocumentProperties().add("test", "test");
 
-        // Set some properties
-        meta.getCustomDocumentProperties().add("test", "test");
+		// Save the metadata info
+		meta.save(dataDir + "Sample1.out.xlsx");
 
-        // Save the metadata info
-        meta.save(dataDir + "Sample1.out.xlsx");
+		// Open the workbook
+		Workbook w = new Workbook(dataDir + "Sample1.out.xlsx");
 
-        // Open the workbook
-        Workbook w = new Workbook(dataDir + "Sample1.out.xlsx");
-
-        // Read document property
-        System.out.println(w.getCustomDocumentProperties().get("test"));
-    }
+		// Read document property
+		System.out.println(w.getCustomDocumentProperties().get("test"));
+		// ExEnd:UsingWorkbookMetadata
+	}
 }

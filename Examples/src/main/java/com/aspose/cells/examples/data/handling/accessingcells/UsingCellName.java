@@ -6,21 +6,23 @@ import com.aspose.cells.examples.Utils;
 
 public class UsingCellName {
 
-    public static void main(String[] args) throws Exception {
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(UsingCellName.class);
+	public static void main(String[] args) throws Exception {
+		// ExStart:UsingCellName
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(UsingCellName.class);
 
-        //Instantiating a Workbook object
-        Workbook workbook = new Workbook(dataDir + "book1.xls");
+		// Instantiating a Workbook object
+		Workbook workbook = new Workbook(dataDir + "book1.xls");
 
-        //Accessing the worksheet in the Excel file
-        com.aspose.cells.Worksheet worksheet = workbook.getWorksheets().get(0);
-        com.aspose.cells.Cells cells = worksheet.getCells();
+		// Accessing the worksheet in the Excel file
+		com.aspose.cells.Worksheet worksheet = workbook.getWorksheets().get(0);
+		com.aspose.cells.Cells cells = worksheet.getCells();
 
-        //Accessing a cell using its name
-        com.aspose.cells.Cell cell = cells.get("A1");
+		// Accessing a cell using its name
+		com.aspose.cells.Cell cell = cells.get("A1");
 
-        // Print message
-        System.out.println("Cell Value: " + cell.getValue());
-    }
+		// Print message
+		System.out.println("Cell Value: " + cell.getValue());
+		// ExEnd:UsingCellName
+	}
 }

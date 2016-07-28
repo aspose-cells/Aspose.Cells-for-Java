@@ -5,37 +5,37 @@ import com.aspose.cells.examples.Utils;
 
 public class ManagingDocumentProperties {
 
-    public static void main(String[] args) throws Exception {
-        //ExStart:1
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(ManagingDocumentProperties.class);
+	public static void main(String[] args) throws Exception {
+		// ExStart:1
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(ManagingDocumentProperties.class);
 
-        //Instantiate a Workbook object by excel file path
-        Workbook workbook = new Workbook(dataDir + "Book1.xls");
+		// Instantiate a Workbook object by excel file path
+		Workbook workbook = new Workbook(dataDir + "Book1.xls");
 
-        //Retrieve a list of all custom document properties of the Excel file
-        CustomDocumentPropertyCollection customProperties = workbook.getWorksheets().getCustomDocumentProperties();
+		// Retrieve a list of all custom document properties of the Excel file
+		CustomDocumentPropertyCollection customProperties = workbook.getWorksheets().getCustomDocumentProperties();
 
-        //Accessing a custom document property by using the property index
-        DocumentProperty customProperty1 = customProperties.get(3);
+		// Accessing a custom document property by using the property index
+		DocumentProperty customProperty1 = customProperties.get(3);
 
-        //Accessing a custom document property by using the property name
-        DocumentProperty customProperty2 = customProperties.get("Owner");
+		// Accessing a custom document property by using the property name
+		DocumentProperty customProperty2 = customProperties.get("Owner");
 
-        //Adding a custom document property to the Excel file
-        DocumentProperty publisher = customProperties.add("Publisher", "Aspose");
+		// Adding a custom document property to the Excel file
+		DocumentProperty publisher = customProperties.add("Publisher", "Aspose");
 
-        //Save the file
-        workbook.save(dataDir + "output.xls");
+		// Save the file
+		workbook.save(dataDir + "output.xls");
 
-        //Removing a custom document property
-        customProperties.remove("Publisher");
+		// Removing a custom document property
+		customProperties.remove("Publisher");
 
-        //Save the file
-        workbook.save(dataDir + "output.xls");
+		// Save the file
+		workbook.save(dataDir + "output.xls");
 
-        // Print message
-        System.out.println("Excel file's custom properties accessed successfully.");
-        //ExEnd:1
-    }
+		// Print message
+		System.out.println("Excel file's custom properties accessed successfully.");
+		// ExEnd:1
+	}
 }
