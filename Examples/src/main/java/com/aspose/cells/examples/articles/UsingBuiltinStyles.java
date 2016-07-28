@@ -8,27 +8,26 @@ import com.aspose.cells.examples.Utils;
 
 public class UsingBuiltinStyles {
 
-    public static void main(String[] args)
-            throws Exception {
+	public static void main(String[] args) throws Exception {
+		// ExStart:UsingBuiltinStyles
+		String dataDir = Utils.getDataDir(UsingBuiltinStyles.class);
+		String output1Path = dataDir + "Output.xlsx";
+		String output2Path = dataDir + "Output.ods";
 
-        String dataDir = Utils.getDataDir(UsingBuiltinStyles.class);
-        String output1Path = dataDir + "Output.xlsx";
-        String output2Path = dataDir + "Output.ods";
+		Workbook workbook = new Workbook();
+		Style style = workbook.createBuiltinStyle(BuiltinStyleType.TITLE);
 
-        Workbook workbook = new Workbook();
-        Style style = workbook.createBuiltinStyle(BuiltinStyleType.TITLE);
+		Cell cell = workbook.getWorksheets().get(0).getCells().get("A1");
+		cell.putValue("Aspose");
+		cell.setStyle(style);
 
-        Cell cell = workbook.getWorksheets().get(0).getCells().get("A1");
-        cell.putValue("Aspose");
-        cell.setStyle(style);
+		workbook.getWorksheets().get(0).autoFitColumn(0);
+		workbook.getWorksheets().get(0).autoFitRow(0);
 
-        workbook.getWorksheets().get(0).autoFitColumn(0);
-        workbook.getWorksheets().get(0).autoFitRow(0);
-
-        workbook.save(output1Path);
-        System.out.println("File saved " + output1Path);
-        workbook.save(output2Path);
-        System.out.println("File saved " + output2Path);
-    }
+		workbook.save(output1Path);
+		System.out.println("File saved " + output1Path);
+		workbook.save(output2Path);
+		System.out.println("File saved " + output2Path);
+		// ExEnd:UsingBuiltinStyles
+	}
 }
-

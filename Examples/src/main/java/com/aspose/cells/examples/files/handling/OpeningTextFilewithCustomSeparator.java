@@ -5,23 +5,23 @@ import com.aspose.cells.examples.Utils;
 
 public class OpeningTextFilewithCustomSeparator {
 
-    public static void main(String[] args) throws Exception {
-        //ExStart:1
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(OpeningTextFilewithCustomSeparator.class);
-        String filePath = dataDir + "Book11.csv";
+	public static void main(String[] args) throws Exception {
+		// ExStart:1
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(OpeningTextFilewithCustomSeparator.class);
+		String filePath = dataDir + "Book11.csv";
 
-        TxtLoadOptions txtoption =new TxtLoadOptions();
-        txtoption.setSeparator(',');
-        txtoption.setEncoding(Encoding.getUTF8());
+		TxtLoadOptions txtoption = new TxtLoadOptions();
+		txtoption.setSeparator(',');
+		txtoption.setEncoding(Encoding.getUTF8());
 
-        //Creating Workbook object and saving it
-        Workbook workbook = new Workbook(dataDir + "Book11.csv", txtoption);
-        workbook.save(dataDir + "output.pdf",FileFormatType.PDF);
+		// Creating Workbook object and saving it
+		Workbook workbook = new Workbook(dataDir + "Book11.csv", txtoption);
+		workbook.save(dataDir + "output.pdf", FileFormatType.PDF);
 
-        // Print message
-        System.out.println("Custom Separator workbook has been opened successfully.");
-        //ExEnd:1
+		// Print message
+		System.out.println("Custom Separator workbook has been opened successfully.");
+		// ExEnd:1
 
-    }
+	}
 }

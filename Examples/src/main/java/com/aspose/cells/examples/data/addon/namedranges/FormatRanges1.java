@@ -5,50 +5,52 @@ import com.aspose.cells.examples.Utils;
 
 public class FormatRanges1 {
 
-    public static void main(String[] args) throws Exception {
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(FormatRanges1.class);
+	public static void main(String[] args) throws Exception {
+		// ExStart:FormatRanges1
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(FormatRanges1.class);
 
-        //Instantiate a new Workbook.
-        Workbook workbook = new Workbook();
+		// Instantiate a new Workbook.
+		Workbook workbook = new Workbook();
 
-        //Get the first worksheet in the book.
-        Worksheet WS = workbook.getWorksheets().get(0);
+		// Get the first worksheet in the book.
+		Worksheet WS = workbook.getWorksheets().get(0);
 
-        //Create a named range of cells.
-        com.aspose.cells.Range range = WS.getCells().createRange(1, 1, 1, 17);
-        range.setName("MyRange");
+		// Create a named range of cells.
+		com.aspose.cells.Range range = WS.getCells().createRange(1, 1, 1, 17);
+		range.setName("MyRange");
 
-        //Declare a style object.
-        Style stl;
+		// Declare a style object.
+		Style stl;
 
-        //Create the style object with respect to the style of a cell.
-        stl = WS.getCells().get(1, 1).getStyle();
+		// Create the style object with respect to the style of a cell.
+		stl = WS.getCells().get(1, 1).getStyle();
 
-        //Specify some Font settings.
-        stl.getFont().setName("Arial");
-        stl.getFont().setBold(true);
+		// Specify some Font settings.
+		stl.getFont().setName("Arial");
+		stl.getFont().setBold(true);
 
-        //Set the font text color
-        stl.getFont().setColor(Color.getRed());
+		// Set the font text color
+		stl.getFont().setColor(Color.getRed());
 
-        //To Set the fill color of the range, you may use ForegroundColor with
-        //solid Pattern setting.
-        stl.setBackgroundColor(Color.getYellow());
-        stl.setPattern(BackgroundType.SOLID);
+		// To Set the fill color of the range, you may use ForegroundColor with
+		// solid Pattern setting.
+		stl.setBackgroundColor(Color.getYellow());
+		stl.setPattern(BackgroundType.SOLID);
 
-        //Apply the style to the range.
-        for (int r = 1; r < 2; r++) {
-            for (int c = 1; c < 18; c++) {
-                WS.getCells().get(r, c).setStyle(stl);
-            }
+		// Apply the style to the range.
+		for (int r = 1; r < 2; r++) {
+			for (int c = 1; c < 18; c++) {
+				WS.getCells().get(r, c).setStyle(stl);
+			}
 
-        }
+		}
 
-        //Save the excel file.
-        workbook.save(dataDir + "rangestyles.xls");
+		// Save the excel file.
+		workbook.save(dataDir + "rangestyles.xls");
 
-        // Print message
-        System.out.println("Process completed successfully");
-    }
+		// Print message
+		System.out.println("Process completed successfully");
+		// ExEnd:FormatRanges1
+	}
 }

@@ -7,22 +7,22 @@ import com.aspose.cells.examples.Utils;
 
 public class ControlTabBarWidth {
 
-    public static void main(String[] args) throws Exception {
-        //ExStart:1
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(ControlTabBarWidth.class);
+	public static void main(String[] args) throws Exception {
+		// ExStart:1
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(ControlTabBarWidth.class);
 
-        //Instantiating a Workbook object by excel file path
-        Workbook workbook = new Workbook(dataDir + "book1.xlsx");
+		// Instantiating a Workbook object by excel file path
+		Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 
-        workbook.getSettings().setShowTabs(true);
-        workbook.getSettings().setSheetTabBarWidth(100);
+		workbook.getSettings().setShowTabs(true);
+		workbook.getSettings().setSheetTabBarWidth(100);
 
-        //Saving the modified Excel file in default (that is Excel 2000) format
-        workbook.save(dataDir + "output.xls");
+		// Saving the modified Excel file in default (that is Excel 2000) format
+		workbook.save(dataDir + "output.xls");
 
-        // Print message
-        System.out.println("Tab Bar width is updated, please check the output document.");
-        //ExEnd:1
-    }
+		// Print message
+		System.out.println("Tab Bar width is updated, please check the output document.");
+		// ExEnd:1
+	}
 }

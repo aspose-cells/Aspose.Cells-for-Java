@@ -10,40 +10,37 @@ import com.aspose.cells.examples.Utils;
 public class KeepPrecisionOfLargeNumbers {
 
 	public static void main(String[] args) throws Exception {
+		// ExStart:KeepPrecisionOfLargeNumbers
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(KeepPrecisionOfLargeNumbers.class);
 
-		 // The path to the documents directory.
-        String dataDir = Utils.getDataDir(KeepPrecisionOfLargeNumbers.class);
-        
-		//Sample Html containing large number with digits greater than 15
-		String html = "<html>"
-						+ "<body>"
-							+ "<p>1234567890123456</p>"
-						+ "</body>"
-					+ "</html>";
+		// Sample Html containing large number with digits greater than 15
+		String html = "<html>" + "<body>" + "<p>1234567890123456</p>" + "</body>" + "</html>";
 
-		//Convert Html to byte array
+		// Convert Html to byte array
 		byte[] byteArray = html.getBytes();
 
-		//Set Html load options and keep precision true
+		// Set Html load options and keep precision true
 		HTMLLoadOptions loadOptions = new HTMLLoadOptions(LoadFormat.HTML);
 		loadOptions.setKeepPrecision(true);
 
-		//Convert byte array into stream
+		// Convert byte array into stream
 		java.io.ByteArrayInputStream stream = new java.io.ByteArrayInputStream(byteArray);
 
-		//Create workbook from stream with Html load options
+		// Create workbook from stream with Html load options
 		Workbook workbook = new Workbook(stream, loadOptions);
 
-		//Access first worksheet
+		// Access first worksheet
 		Worksheet worksheet = workbook.getWorksheets().get(0);
 
-		//Auto fit the sheet columns
+		// Auto fit the sheet columns
 		worksheet.autoFitColumns();
 
-		//Save the workbook
+		// Save the workbook
 		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
 
 		System.out.println("File saved");
+		// ExEnd:KeepPrecisionOfLargeNumbers
 	}
 
 }

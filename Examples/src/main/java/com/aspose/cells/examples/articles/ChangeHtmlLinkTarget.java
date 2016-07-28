@@ -7,20 +7,20 @@ import com.aspose.cells.examples.Utils;
 
 public class ChangeHtmlLinkTarget {
 
-    public static void main(String[] args)
-            throws Exception {
+	public static void main(String[] args) throws Exception {
+		// ExStart:ChangeHtmlLinkTarget
+		String dataDir = Utils.getDataDir(ChangeHtmlLinkTarget.class);
+		String inputPath = dataDir + "Sample1.xlsx";
+		String outputPath = dataDir + "Output.html";
 
-        String dataDir = Utils.getDataDir(ChangeHtmlLinkTarget.class);
-        String inputPath = dataDir + "Sample1.xlsx";
-        String outputPath = dataDir + "Output.html";
+		Workbook workbook = new Workbook(inputPath);
 
-        Workbook workbook = new Workbook(inputPath);
+		HtmlSaveOptions opts = new HtmlSaveOptions();
+		opts.setLinkTargetType(HtmlLinkTargetType.SELF);
 
-        HtmlSaveOptions opts = new HtmlSaveOptions();
-        opts.setLinkTargetType(HtmlLinkTargetType.SELF);
+		workbook.save(outputPath, opts);
 
-        workbook.save(outputPath, opts);
-
-        System.out.println("File saved " + outputPath);
-    }
+		System.out.println("File saved " + outputPath);
+		// ExEnd:ChangeHtmlLinkTarget
+	}
 }

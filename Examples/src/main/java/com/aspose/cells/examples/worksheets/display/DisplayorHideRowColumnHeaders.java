@@ -5,29 +5,29 @@ import com.aspose.cells.examples.Utils;
 
 public class DisplayorHideRowColumnHeaders {
 
-    public static void main(String[] args) throws Exception {
-        //ExStart:1
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(DisplayorHideRowColumnHeaders.class);
+	public static void main(String[] args) throws Exception {
+		// ExStart:1
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(DisplayorHideRowColumnHeaders.class);
 
-        //Instantiating a Workbook object by excel file path
-        Workbook workbook = new Workbook(dataDir + "book.xls");
+		// Instantiating a Workbook object by excel file path
+		Workbook workbook = new Workbook(dataDir + "book.xls");
 
-        //Accessing the worksheets in the Excel file
-        WorksheetCollection worksheets = workbook.getWorksheets();
+		// Accessing the worksheets in the Excel file
+		WorksheetCollection worksheets = workbook.getWorksheets();
 
-        //Adding a worksheet in last place
-        int sheetIndex = worksheets.add();
-        Worksheet worksheet = worksheets.get(sheetIndex);
+		// Adding a worksheet in last place
+		int sheetIndex = worksheets.add();
+		Worksheet worksheet = worksheets.get(sheetIndex);
 
-        //Hiding the headers of rows and columns
-        worksheet.setRowColumnHeadersVisible(false);
+		// Hiding the headers of rows and columns
+		worksheet.setRowColumnHeadersVisible(false);
 
-        //Saving the modified Excel file in default (that is Excel 2000) format
-        workbook.save(dataDir + "book.out.xls");
+		// Saving the modified Excel file in default (that is Excel 2000) format
+		workbook.save(dataDir + "book.out.xls");
 
-        //Print Message
-        System.out.println("Headers hidden successfully.");
-        //ExEnd:1
-    }
+		// Print Message
+		System.out.println("Headers hidden successfully.");
+		// ExEnd:1
+	}
 }

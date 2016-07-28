@@ -8,7 +8,7 @@ public class AddLibraryReferenceToVbaProject {
 
     public static void main(String[] args)
             throws Exception {
-
+    	// ExStart:AddLibraryReferenceToVbaProject
         String dataDir = Utils.getDataDir(AddLibraryReferenceToVbaProject.class);
         String outputPath = dataDir + "Output-1.xlsm";
 
@@ -21,5 +21,6 @@ public class AddLibraryReferenceToVbaProject {
 
         workbook.save(outputPath);
         System.out.println("File saved " + outputPath);
+     // ExEnd:AddLibraryReferenceToVbaProject
     }
 }

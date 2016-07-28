@@ -4,10 +4,9 @@ import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
 
 public class GetSmartMarkerNotifications {
-
+	// ExStart:GetSmartMarkerNotifications
     public static void main(String[] args)
             throws Exception {
-
         String dataDir = Utils.getDataDir(GetSmartMarkerNotifications.class);
         String outputPath = dataDir + "Output.xlsx";
 
@@ -49,5 +48,5 @@ class SmartMarkerCallBack implements ISmartMarkerCallBack {
         System.out.println("Processing Marker: " + tableName + "." + columnName);
     }
 }
-
+//ExEnd:GetSmartMarkerNotifications
 

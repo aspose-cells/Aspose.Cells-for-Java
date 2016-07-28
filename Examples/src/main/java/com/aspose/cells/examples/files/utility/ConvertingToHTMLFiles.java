@@ -7,25 +7,25 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertingToHTMLFiles {
 
-    public static void main(String[] args) throws Exception {
-        //ExStart:1
-        // The path to the documents directory.
-        String dataDir = Utils.getDataDir(ConvertingToHTMLFiles.class);
+	public static void main(String[] args) throws Exception {
+		// ExStart:1
+		// The path to the documents directory.
+		String dataDir = Utils.getDataDir(ConvertingToHTMLFiles.class);
 
-        //Specify the file path
-        String filePath = dataDir + "Book1.xlsx";
+		// Specify the file path
+		String filePath = dataDir + "Book1.xlsx";
 
-        //Specify the HTML saving options
-        HtmlSaveOptions sv = new HtmlSaveOptions(SaveFormat.M_HTML);
+		// Specify the HTML saving options
+		HtmlSaveOptions sv = new HtmlSaveOptions(SaveFormat.M_HTML);
 
-        //Instantiate a workbook and open the template XLSX file
-        Workbook wb = new Workbook(filePath);
+		// Instantiate a workbook and open the template XLSX file
+		Workbook wb = new Workbook(filePath);
 
-        //Save the HTML file
-        wb.save(dataDir + "output.html", sv);
+		// Save the HTML file
+		wb.save(dataDir + "output.html", sv);
 
-        // Print message
-        System.out.println("Excel to HTML conversion performed successfully.");
-        //ExEnd:1
-    }
+		// Print message
+		System.out.println("Excel to HTML conversion performed successfully.");
+		// ExEnd:1
+	}
 }
