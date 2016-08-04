@@ -14,7 +14,7 @@
         <dependency>
             <groupId>com.aspose</groupId>
             <artifactId>aspose-cells</artifactId>
-            <version>8.8.0</version>
+            <version>8.9.0</version>
         </dependency>
     </dependencies>
     <repositories>
