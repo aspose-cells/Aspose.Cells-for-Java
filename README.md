@@ -6,7 +6,7 @@ This repository contains [Examples](Examples), [Plugins](Plugins) and [Showcases
 
 <p align="center">
   <a title="Download ZIP" href="https://github.com/aspose-words/Aspose.Cells-for-Java/archive/master.zip">
-    <img src="http://i.imgur.com/hwNhrGZ.png" />
+    <img src="http://i.imgur.com/hwNhrGZ.png" alt="Download Aspose.Cells for Java Examples, Plugins and Showcases" />
   </a>
 </p>
 
@@ -15,7 +15,7 @@ Following is short description of contents of the repository:
 Directory  | Description
 ---------- | -----------
 [Examples](Examples)  | A collection of Java examples that help you learn and explore the API features
-[Examples.GridWeb](Examples.GridWeb)  | A collection of Java examples that help you learn how use Aspose.GridWeb features
+[Examples.GridWeb](Examples.GridWeb)  | A collection of Java examples that help you learn and explore Aspose.GridWeb features
 [Plugins](Plugins)  | Plugins that will demonstrate one or more features of Aspose.Cells for Java
 [Showcases](Showcases)  | Standalone ready-to-use applications that demonstrate some specific use cases
 
