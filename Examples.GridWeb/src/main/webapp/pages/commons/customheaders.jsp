@@ -6,7 +6,7 @@
 <head>
 <%@include file="/head.jsp" %>
 <title>Worksheets - Aspose.Cells Grid Suite Demos</title>
-<script type="text/javascript" src="grid/acw_client/jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="grid/acw_client/jquery-2.1.4.min.js"></script>
 
 <script type="text/javascript">
 	function doClick(method) {
@@ -18,7 +18,6 @@
 		}, "html");
 	}
 
-	//页面加载
 	$(document).ready(function() {
 		
 		//loadHead();//

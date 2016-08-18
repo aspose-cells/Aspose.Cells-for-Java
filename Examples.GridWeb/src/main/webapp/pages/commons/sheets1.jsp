@@ -9,7 +9,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 <head>
 <base href="<%=basePath%>">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<script type="text/javascript" src="grid\acw_client\jquery-1.7.2.min.js"></script>
+<script type="text/javascript" src="grid\acw_client\jquery-2.1.4.min.js"></script>
  <script type="text/javascript" src="grid\acw_client\acwmain.js"></script>
  <link href="grid/acw_client/menu.css" rel="stylesheet" type="text/css">
  <style>span.acwxc {overflow:hidden; border:none; display:block; white-space: pre;}</style>
@@ -33,7 +33,6 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		}, "html");
 	}
 	
-	//页面加载
 	$(document).ready(function(){
 		var method = {id:"reload"};
 		doClick(method);
