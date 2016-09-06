@@ -14,7 +14,7 @@ public class IsPivotTableCompatibleForExcel2003 {
 	public static void main(String[] args) throws Exception {
 		
 		// The path to the resource directory.
-		String dataDir = Utils.getSharedDataDir(ExpandTextFromRightToLeftWhileExportingExcelFileToHTML.class) + "Conversion/";
+		String dataDir = Utils.getSharedDataDir(IsPivotTableCompatibleForExcel2003.class) + "Conversion/";
 				
 		//Load source excel file containing sample pivot table
 		Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");

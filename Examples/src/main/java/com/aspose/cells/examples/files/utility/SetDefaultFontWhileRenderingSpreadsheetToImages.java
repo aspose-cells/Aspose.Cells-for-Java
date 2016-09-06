@@ -14,7 +14,7 @@ public class SetDefaultFontWhileRenderingSpreadsheetToImages {
 	public static void main(String[] args) throws Exception {
 		
 		// Directory path where output HTML files are to be saved
-		String dataDir = Utils.getSharedDataDir(SetDefaultFontWhileRenderingSpreadsheetToHTML.class) + "Conversion/";
+		String dataDir = Utils.getSharedDataDir(SetDefaultFontWhileRenderingSpreadsheetToImages.class) + "Conversion/";
 		
 		//Create workbook object.
 		Workbook wb = new Workbook();
