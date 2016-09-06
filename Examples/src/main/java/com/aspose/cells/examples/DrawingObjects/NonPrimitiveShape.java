@@ -13,7 +13,7 @@ import com.aspose.cells.examples.Utils;
 
 public class NonPrimitiveShape {
 	public static void main(String[] args) throws Exception {
-		// The path to the documents directory.
+		// The path to the resource directory
 		String dataDir = Utils.getSharedDataDir(NonPrimitiveShape.class) + "DrawingObjects/";
 
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
