@@ -8,20 +8,23 @@ import com.aspose.cells.PivotTableCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.DrawingObjects.NonPrimitiveShape;
 
 public class CreatePivotTable {
 	public static void main(String[] args) throws Exception {
-		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreatePivotTable.class);
-		// Instantiating a Workbook object
+		
+		// The path to the resource directory
+		String dataDir = Utils.getSharedDataDir(CreatePivotTable.class) + "PivotTable/";
+				
+		//Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
-		// Obtaining the reference of the newly added worksheet
+		//Obtaining the reference of the newly added worksheet
 		int sheetIndex = workbook.getWorksheets().add();
 		Worksheet sheet = workbook.getWorksheets().get(sheetIndex);
 		Cells cells = sheet.getCells();
 
-		// Setting the value to the cells
+		//Setting the value to the cells
 		Cell cell = cells.get("A1");
 		cell.setValue("Sport");
 		cell = cells.get("B1");
@@ -76,25 +79,25 @@ public class CreatePivotTable {
 
 		PivotTableCollection pivotTables = sheet.getPivotTables();
 
-		// Adding a PivotTable to the worksheet
+		//Adding a PivotTable to the worksheet
 		int index = pivotTables.add("=A1:C8", "E3", "PivotTable2");
 
-		// Accessing the instance of the newly added PivotTable
+		//Accessing the instance of the newly added PivotTable
 		PivotTable pivotTable = pivotTables.get(index);
 
-		// Unshowing grand totals for rows.
+		//Unshowing grand totals for rows.
 		pivotTable.setRowGrand(false);
 
-		// Dragging the first field to the row area.
+		//Dragging the first field to the row area.
 		pivotTable.addFieldToArea(PivotFieldType.ROW, 0);
 
-		// Dragging the second field to the column area.
+		//Dragging the second field to the column area.
 		pivotTable.addFieldToArea(PivotFieldType.COLUMN, 1);
 
-		// Dragging the third field to the data area.
+		//Dragging the third field to the data area.
 		pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
-		// Saving the Excel file
-		workbook.save(dataDir + "book1.xls");
+		//Saving the Excel file
+		workbook.save(dataDir + "CreatePivotTable_out.xls");
 	}
 }
