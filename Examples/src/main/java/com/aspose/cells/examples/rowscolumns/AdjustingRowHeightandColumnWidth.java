@@ -2,13 +2,14 @@ package com.aspose.cells.examples.RowsColumns;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.PivotTables.ChangeSourceData;
 
 public class AdjustingRowHeightandColumnWidth {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:AdjustingRowHeightandColumnWidth
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AdjustingRowHeightandColumnWidth.class);
+		String dataDir = Utils.getSharedDataDir(AdjustingRowHeightandColumnWidth.class) + "RowsColumns/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "workbook.xls");
@@ -30,7 +31,7 @@ public class AdjustingRowHeightandColumnWidth {
 		// Setting the width of all columns in the worksheet to 20.5
 		// worksheet.getCells().setStandardWidth(20.5f);
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "workbook.output.xls");
+		workbook.save(dataDir + "ARHAColumnWidth-out.xls");
 
 		// Print message
 		System.out.println("Height and width modified successfully.");

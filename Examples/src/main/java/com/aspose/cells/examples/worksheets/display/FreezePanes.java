@@ -8,7 +8,7 @@ public class FreezePanes {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FreezePanes.class);
+		String dataDir = Utils.getSharedDataDir(FreezePanes.class) + "worksheets/";
 
 		// Instantiating a Excel object by excel file path
 		Workbook workbook = new Workbook(dataDir + "book.xls");
@@ -21,7 +21,7 @@ public class FreezePanes {
 		worksheet.freezePanes(3, 2, 3, 2);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "book.out.xls");
+		workbook.save(dataDir + "FreezePanes-out.xls");
 
 		// Print Message
 		System.out.println("Panes freeze successfull.");

@@ -17,7 +17,7 @@ public class GenerateThumbnailofWorksheet {
 	public static void main(String[] args) throws Exception {
 		// ExStart:GenerateThumbnailofWorksheet
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GenerateThumbnailofWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(GenerateThumbnailofWorksheet.class) + "articles/";
 		// Instantiate and open an Excel file
 		Workbook book = new Workbook(dataDir + "book1.xls");
 
@@ -43,7 +43,7 @@ public class GenerateThumbnailofWorksheet {
 		BufferedImage img1 = new BufferedImage(100, 100, BufferedImage.TYPE_INT_RGB);
 		img1.createGraphics().drawImage(
 				ImageIO.read(new File(dataDir + "mythumb.jpg")).getScaledInstance(100, 100, Image.SCALE_SMOOTH), 0, 0, null);
-		ImageIO.write(img1, "jpg", new File(dataDir + "thumbnail_out.jpg"));
+		ImageIO.write(img1, "jpg", new File(dataDir + "GTOfWorksheet-out.jpg"));
 		// ExEnd:GenerateThumbnailofWorksheet
 	}
 }

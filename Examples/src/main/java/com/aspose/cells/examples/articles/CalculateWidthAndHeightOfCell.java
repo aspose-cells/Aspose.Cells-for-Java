@@ -10,7 +10,7 @@ public class CalculateWidthAndHeightOfCell {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CalculateWidthAndHeightOfCell
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CalculateWidthAndHeightOfCell.class);
+		String dataDir = Utils.getSharedDataDir(CalculateWidthAndHeightOfCell.class) + "articles/";
 		// Create workbook object
 		Workbook workbook = new Workbook();
 
@@ -39,7 +39,7 @@ public class CalculateWidthAndHeightOfCell {
 		worksheet.getCells().setRowHeightPixel(1, heightOfValue);
 
 		// Save the output excel file
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "CWAHOfCell-out.xlsx");
 		// ExEnd:CalculateWidthAndHeightOfCell
 	}
 }

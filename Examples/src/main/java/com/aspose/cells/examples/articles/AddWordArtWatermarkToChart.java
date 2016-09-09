@@ -13,9 +13,9 @@ public class AddWordArtWatermarkToChart {
 	public static void main(String[] args) throws Exception {
 		// ExStart:AddWordArtWatermarkToChart
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddWordArtWatermarkToChart.class);
-		// Instantiate a new workbook.
-		// Open the existing excel file.
+		String dataDir = Utils.getSharedDataDir(AddWordArtWatermarkToChart.class) + "articles/";
+		// Instantiate a new workbook, Open the existing excel file.
+
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 
 		// Get the chart in the first worksheet.
@@ -38,7 +38,7 @@ public class AddWordArtWatermarkToChart {
 		lineFormat.setWeight(0.0);
 
 		// Save the excel file.
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "AWArtWToC-out.xlsx");
 		// ExEnd:AddWordArtWatermarkToChart
 	}
 }

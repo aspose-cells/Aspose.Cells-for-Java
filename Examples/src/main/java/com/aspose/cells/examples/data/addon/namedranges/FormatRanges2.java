@@ -8,7 +8,7 @@ public class FormatRanges2 {
 	public static void main(String[] args) throws Exception {
 		// ExStart:FormatRanges2
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FormatRanges2.class);
+		String dataDir = Utils.getSharedDataDir(FormatRanges2.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -33,7 +33,7 @@ public class FormatRanges2 {
 		range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 
 		// Saving the Excel file
-		workbook.save(dataDir + "book1.out.xls");
+		workbook.save(dataDir + "FRanges2-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

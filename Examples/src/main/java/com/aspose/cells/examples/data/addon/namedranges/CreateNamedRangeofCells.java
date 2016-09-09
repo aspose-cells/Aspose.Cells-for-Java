@@ -8,7 +8,7 @@ public class CreateNamedRangeofCells {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CreateNamedRangeofCells
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreateNamedRangeofCells.class);
+		String dataDir = Utils.getSharedDataDir(CreateNamedRangeofCells.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -24,7 +24,7 @@ public class CreateNamedRangeofCells {
 		namedRange.setName("TestRange");
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "CNROfCells-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

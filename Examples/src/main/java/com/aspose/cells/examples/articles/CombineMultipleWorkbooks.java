@@ -7,7 +7,7 @@ public class CombineMultipleWorkbooks {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CombineMultipleWorkbooks
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CombineMultipleWorkbooks.class);
+		String dataDir = Utils.getSharedDataDir(CombineMultipleWorkbooks.class) + "articles/";
 		// Open the first excel file.
 		Workbook SourceBook1 = new Workbook(dataDir + "charts.xlsx");
 
@@ -19,7 +19,7 @@ public class CombineMultipleWorkbooks {
 		SourceBook1.combine(SourceBook2);
 
 		// Save the target book file.
-		SourceBook1.save(dataDir + "combined.xlsx");
+		SourceBook1.save(dataDir + "CMWorkbooks-out.xlsx");
 		// ExEnd:CombineMultipleWorkbooks
 	}
 }

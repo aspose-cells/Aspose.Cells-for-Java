@@ -7,12 +7,13 @@ import java.sql.ResultSet;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.data.handling.find.FindingCellsContainingFormula;
 import com.sun.corba.se.pept.transport.Connection;
 
 public class ImportingfromResultSet {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ImportingfromResultSet.class);
+		String dataDir = Utils.getSharedDataDir(ImportingfromResultSet.class) + "data/";
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -38,6 +39,6 @@ public class ImportingfromResultSet {
 		worksheet.getCells().importResultSet(rs, "A1", true);
 
 		// Save the excel file.
-		workbook.save(dataDir + "importdata.xls");
+		workbook.save(dataDir + "IFRSet-out.xls");
 	}
 }

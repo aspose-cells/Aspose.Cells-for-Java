@@ -9,7 +9,7 @@ public class DeletingBlankColumns {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DeletingBlankColumns
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DeletingBlankColumns.class);
+		String dataDir = Utils.getSharedDataDir(DeletingBlankColumns.class) + "articles/";
 		// Create a new Workbook. Open an existing excel file.
 		Workbook wb = new Workbook(dataDir + "Book1.xlsx");
 
@@ -23,7 +23,7 @@ public class DeletingBlankColumns {
 		sheet.getCells().deleteBlankColumns();
 
 		// Save the excel file.
-		wb.save(dataDir + "Output.xlsx");
+		wb.save(dataDir + "DBlankColumns-out.xlsx");
 		// ExEnd:DeletingBlankColumns
 	}
 }

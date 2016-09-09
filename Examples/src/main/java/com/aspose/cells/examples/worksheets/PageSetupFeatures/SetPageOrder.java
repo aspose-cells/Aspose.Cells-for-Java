@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetPageOrder {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(OtherPrintOptions.class);
+		String dataDir = Utils.getSharedDataDir(SetPageOrder.class) + "worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -23,6 +23,6 @@ public class SetPageOrder {
 		// Setting the printing order of the pages to over then down
 		pageSetup.setOrder(PrintOrderType.OVER_THEN_DOWN);
 
-		workbook.save(dataDir + "SetPageOrder_out.xls");
+		workbook.save(dataDir + "SetPageOrder-out.xls");
 	}
 }

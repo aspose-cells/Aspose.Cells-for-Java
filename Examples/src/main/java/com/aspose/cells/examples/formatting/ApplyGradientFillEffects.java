@@ -7,11 +7,12 @@ import com.aspose.cells.TextAlignmentType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.files.utility.AdvancedConversiontoPdf;
 
 public class ApplyGradientFillEffects {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ApplyGradientFillEffects.class);
+		String dataDir = Utils.getSharedDataDir(ApplyGradientFillEffects.class) + "formatting/";
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();
 		// Get the first worksheet (default) in the workbook
@@ -42,6 +43,6 @@ public class ApplyGradientFillEffects {
 		worksheet.getCells().merge(2, 1, 1, 2);
 
 		// Save the Excel file
-		workbook.save(dataDir + "Book1.xlsx");
+		workbook.save(dataDir + "AGFillEffects-out.xlsx");
 	}
 }

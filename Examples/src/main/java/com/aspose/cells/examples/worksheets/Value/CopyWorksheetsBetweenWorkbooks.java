@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyWorksheetsBetweenWorkbooks {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(CopyWorksheetsBetweenWorkbooks.class);
+		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "worksheets/";
 		// Create a Workbook.
 		Workbook excelWorkbook0 = new Workbook(dataDir + "book1.xls");
 
@@ -17,6 +17,6 @@ public class CopyWorksheetsBetweenWorkbooks {
 		excelWorkbook1.getWorksheets().get(0).copy(excelWorkbook0.getWorksheets().get(0));
 
 		// Save the file.
-		excelWorkbook1.save(dataDir + "FinalBook.xls", FileFormatType.EXCEL_97_TO_2003);
+		excelWorkbook1.save(dataDir + "CWBetweenWorkbooks-out.xls", FileFormatType.EXCEL_97_TO_2003);
 	}
 }

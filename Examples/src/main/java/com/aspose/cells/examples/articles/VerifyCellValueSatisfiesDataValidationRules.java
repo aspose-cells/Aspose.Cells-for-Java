@@ -9,7 +9,7 @@ public class VerifyCellValueSatisfiesDataValidationRules {
 	public static void main(String[] args) throws Exception {
 		// ExStart:VerifyCellValueSatisfiesDataValidationRules
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(VerifyCellValueSatisfiesDataValidationRules.class);
+		String dataDir = Utils.getSharedDataDir(VerifyCellValueSatisfiesDataValidationRules.class) + "articles/";
 		// Instantiate the workbook from sample Excel file
 		Workbook workbook = new Workbook(dataDir + "Sample1.xlsx");
 

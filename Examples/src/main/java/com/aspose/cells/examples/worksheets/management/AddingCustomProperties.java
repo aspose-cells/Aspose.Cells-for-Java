@@ -8,7 +8,7 @@ public class AddingCustomProperties {
 	public static void main(String[] args) throws Exception {
 		// ExStart:AddingCustomProperties
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingCustomProperties.class);
+		String dataDir = Utils.getSharedDataDir(AddingCustomProperties.class) + "worksheets/";
 		// Create workbook object
 		Workbook workbook = new Workbook(FileFormatType.XLSX);
 
@@ -19,7 +19,7 @@ public class AddingCustomProperties {
 		workbook.getContentTypeProperties().add("MK32", "04-Mar-2015", "DateTime");
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "ACProperties-out.xlsx");
 		// ExEnd:AddingCustomProperties
 	}
 

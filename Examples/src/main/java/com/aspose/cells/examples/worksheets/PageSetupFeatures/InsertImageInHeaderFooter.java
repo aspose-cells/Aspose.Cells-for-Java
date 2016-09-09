@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class InsertImageInHeaderFooter {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(InsertImageInHeaderFooter.class);
+		String dataDir = Utils.getSharedDataDir(InsertImageInHeaderFooter.class) + "worksheets/";
 		// Creating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -31,7 +31,7 @@ public class InsertImageInHeaderFooter {
 		pageSetup.setHeader(2, "&A");
 
 		// Saving the workbook
-		workbook.save(dataDir + "headerpic.xls");
+		workbook.save(dataDir + "InsertImageInHeaderFooter-out.xls");
 
 		// Closing the FileStream object
 		inFile.close();

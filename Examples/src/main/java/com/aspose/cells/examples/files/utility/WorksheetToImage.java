@@ -8,7 +8,7 @@ public class WorksheetToImage {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(WorksheetToImage.class);
+		String dataDir = Utils.getSharedDataDir(WorksheetToImage.class) + "files/";
 
 		// Instantiate a new workbook with path to an Excel file
 		Workbook book = new Workbook(dataDir + "MyTestBook1.xls");
@@ -26,7 +26,7 @@ public class WorksheetToImage {
 		SheetRender sr = new SheetRender(sheet, imgOptions);
 		for (int j = 0; j < sr.getPageCount(); j++) {
 			// Generate an image for the worksheet
-			sr.toImage(j, dataDir + "output" + j + ".png");
+			sr.toImage(j, dataDir + "WToImage-out" + j + ".png");
 		}
 		// Print message
 		System.out.println("Images generated successfully.");

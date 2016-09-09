@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class PageOrientation {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(PageOrientation.class);
+		String dataDir = Utils.getSharedDataDir(PageOrientation.class) + "worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -21,6 +21,6 @@ public class PageOrientation {
 		// Setting the orientation to Portrait
 		PageSetup pageSetup = sheet.getPageSetup();
 		pageSetup.setOrientation(PageOrientationType.PORTRAIT);
-		workbook.save(dataDir + "PageOrientation_out.xls");
+		workbook.save(dataDir + "PageOrientation-out.xls");
 	}
 }

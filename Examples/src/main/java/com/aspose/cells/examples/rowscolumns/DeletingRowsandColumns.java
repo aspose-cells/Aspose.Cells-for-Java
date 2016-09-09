@@ -8,7 +8,7 @@ public class DeletingRowsandColumns {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DeletingRowsandColumns
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DeletingRowsandColumns.class);
+		String dataDir = Utils.getSharedDataDir(DeletingRowsandColumns.class) + "RowsColumns/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "workbook.xls");
@@ -31,7 +31,7 @@ public class DeletingRowsandColumns {
 		worksheet.getCells().deleteColumns(4, 3, true);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "workbook.out.xls");
+		workbook.save(dataDir + "DeletingRowsandColumns-out.xls");
 
 		// Print message
 		System.out.println("Rows and Columns deleted successfully.");

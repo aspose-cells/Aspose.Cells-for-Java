@@ -9,7 +9,7 @@ public class MoveRangeOfCellsInWorksheet {
 	public static void main(String[] args) throws Exception {
 		// ExStart:MoveRangeOfCellsInWorksheet
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(MoveRangeOfCellsInWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(MoveRangeOfCellsInWorksheet.class) + "articles/";
 		// Instantiate the workbook object. Open the Excel file
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
 
@@ -22,7 +22,7 @@ public class MoveRangeOfCellsInWorksheet {
 		cells.moveRange(ca, 0, 2);
 
 		// Save the resultant file
-		workbook.save(dataDir + "book2.xls");
+		workbook.save(dataDir + "MROfCellsInWorksheet-out.xls");
 		// ExEnd:MoveRangeOfCellsInWorksheet
 	}
 }

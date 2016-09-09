@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ManagePaperSize {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(ManagePaperSize.class);
+		String dataDir = Utils.getSharedDataDir(ManagePaperSize.class) + "worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -22,6 +22,6 @@ public class ManagePaperSize {
 		PageSetup pageSetup = sheet.getPageSetup();
 		pageSetup.setPaperSize(PaperSizeType.PAPER_A_4);
 
-		workbook.save(dataDir + "ManagePaperSize_out.xls");
+		workbook.save(dataDir + "ManagePaperSize-out.xls");
 	}
 }

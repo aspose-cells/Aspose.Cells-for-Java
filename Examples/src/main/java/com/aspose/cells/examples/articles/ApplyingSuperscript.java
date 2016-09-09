@@ -12,7 +12,7 @@ public class ApplyingSuperscript {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ApplyingSuperscript
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ApplyingSuperscript.class);
+		String dataDir = Utils.getSharedDataDir(ApplyingSuperscript.class) + "articles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -35,7 +35,7 @@ public class ApplyingSuperscript {
 		cell.setStyle(style);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "Superscript.xls");
+		workbook.save(dataDir + "ASuperscript-out.xls");
 		// ExEnd:ApplyingSuperscript
 	}
 }

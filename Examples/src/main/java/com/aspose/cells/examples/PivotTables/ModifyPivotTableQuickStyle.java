@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 public class ModifyPivotTableQuickStyle {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ModifyPivotTableQuickStyle.class);
+		String dataDir = Utils.getSharedDataDir(ModifyPivotTableQuickStyle.class) + "PivotTables/";
 		// Open the template file containing the pivot table.
 		Workbook wb = new Workbook(dataDir + "sample1.xlsx");
 		// Add Pivot Table style
@@ -37,6 +37,6 @@ public class ModifyPivotTableQuickStyle {
 		pt.setPivotTableStyleName("tt");
 
 		// Save the file.
-		wb.save(dataDir + "OutputFile.xlsx");
+		wb.save(dataDir + "MPTableQuickStyle-out.xlsx");
 	}
 }

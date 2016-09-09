@@ -8,7 +8,7 @@ public class ModifyLineChart {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ModifyLineChart.class);
+		String dataDir = Utils.getSharedDataDir(ModifyLineChart.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xlsx");
@@ -27,7 +27,7 @@ public class ModifyLineChart {
 		serieses.add("{110,70,220}", true);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "MLineChart-out.xls");
 
 		// Print message
 		System.out.println("Line chart is successfully modified.");

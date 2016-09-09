@@ -9,7 +9,7 @@ public class UpdateReferenceinRowsCols {
 	public static void main(String[] args) throws Exception {
 		// ExStart:UpdateReferenceinRowsCols
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UpdateReferenceinRowsCols.class);
+		String dataDir = Utils.getSharedDataDir(UpdateReferenceinRowsCols.class) + "worksheets/";
 
 		// Create workbook
 		Workbook wb = new Workbook();

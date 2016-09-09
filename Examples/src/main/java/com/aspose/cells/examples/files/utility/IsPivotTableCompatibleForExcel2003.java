@@ -14,7 +14,7 @@ public class IsPivotTableCompatibleForExcel2003 {
 	public static void main(String[] args) throws Exception {
 		
 		// The path to the resource directory.
-		String dataDir = Utils.getSharedDataDir(IsPivotTableCompatibleForExcel2003.class) + "Conversion/";
+		String dataDir = Utils.getSharedDataDir(IsPivotTableCompatibleForExcel2003.class) + "files/";
 				
 		//Load source excel file containing sample pivot table
 		Workbook wb = new Workbook(dataDir + "sample-pivot-table.xlsx");
@@ -82,7 +82,7 @@ public class IsPivotTableCompatibleForExcel2003 {
 		b5.setStyle(st);
 
 		//Save workbook in xlsx format
-		wb.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "IPTCFExcel2003-out.xlsx", SaveFormat.XLSX);
 
 	}
 

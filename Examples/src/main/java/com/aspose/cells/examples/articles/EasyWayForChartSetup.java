@@ -12,7 +12,7 @@ public class EasyWayForChartSetup {
 	public static void main(String[] args) throws Exception {
 		// ExStart:EasyWayForChartSetup
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(EasyWayForChartSetup.class);
+		String dataDir = Utils.getSharedDataDir(EasyWayForChartSetup.class) + "articles/";
 		// Create new workbook
 		Workbook workbook = new Workbook(FileFormatType.XLSX);
 
@@ -50,7 +50,7 @@ public class EasyWayForChartSetup {
 		ch.setChartDataRange("A1:D4", true);
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "EWForChartSetup.xlsx", SaveFormat.XLSX);
 		// ExEnd:EasyWayForChartSetup
 	}
 }

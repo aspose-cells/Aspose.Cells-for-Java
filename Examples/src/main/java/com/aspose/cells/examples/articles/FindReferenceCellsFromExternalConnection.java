@@ -16,7 +16,7 @@ public class FindReferenceCellsFromExternalConnection {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory
-		String dataDir = Utils.getDataDir(FindReferenceCellsFromExternalConnection.class);
+		String dataDir = Utils.getSharedDataDir(FindReferenceCellsFromExternalConnection.class) + "articles/";
 
 		// Load workbook object
 		Workbook workbook = new Workbook(dataDir + "sample.xlsm");

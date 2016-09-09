@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingButtonControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingButtonControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingButtonControl.class) + "DrawingObjects/";
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -40,6 +40,6 @@ public class AddingButtonControl {
 		button.addHyperlink("http://www.aspose.com/");
 
 		// Saves the file.
-		workbook.save(dataDir + "tstbutton.xls");
+		workbook.save(dataDir + "ABControl-out.xls");
 	}
 }

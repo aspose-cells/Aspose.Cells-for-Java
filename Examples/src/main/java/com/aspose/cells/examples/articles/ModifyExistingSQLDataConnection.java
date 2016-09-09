@@ -10,7 +10,7 @@ public class ModifyExistingSQLDataConnection {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ModifyExistingSQLDataConnection
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ModifyExistingSQLDataConnection.class);
+		String dataDir = Utils.getSharedDataDir(ModifyExistingSQLDataConnection.class) + "articles/";
 		// Create a workbook object from source file
 		Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 
@@ -29,7 +29,7 @@ public class ModifyExistingSQLDataConnection {
 				"Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False");
 
 		// Save the workbook
-		workbook.save(dataDir + "outxput.xlsx");
+		workbook.save(dataDir + "MESQLDataConnection-out.xlsx");
 		// ExEnd:ModifyExistingSQLDataConnection
 	}
 }

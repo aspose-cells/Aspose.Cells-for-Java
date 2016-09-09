@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertTableToRange {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertTableToRange.class);
+		String dataDir = Utils.getSharedDataDir(ConvertTableToRange.class) + "tables/";
 		// Open an existing file that contains a table/list object in it
 		Workbook wb = new Workbook(dataDir + "book1.xlsx");
 
@@ -14,6 +14,6 @@ public class ConvertTableToRange {
 		wb.getWorksheets().get(0).getListObjects().get(0).convertToRange();
 
 		// Save the file
-		wb.save(dataDir + "out_Book_Table.xlsx");
+		wb.save(dataDir + "ConvertTableToRange-out.xlsx");
 	}
 }

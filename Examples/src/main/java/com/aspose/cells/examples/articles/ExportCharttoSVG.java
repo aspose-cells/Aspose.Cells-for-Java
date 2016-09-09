@@ -11,7 +11,7 @@ public class ExportCharttoSVG {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ExportCharttoSVG
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExportCharttoSVG.class);
+		String dataDir = Utils.getSharedDataDir(ExportCharttoSVG.class) + "articles/";
 		// Create workbook object from source file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -28,7 +28,7 @@ public class ExportCharttoSVG {
 		opts.setSVGFitToViewPort(true);
 
 		// Save the chart to svg format
-		chart.toImage(dataDir + "out.svg", opts);
+		chart.toImage(dataDir + "ECharttoSVG-out.svg", opts);
 
 		// ExEnd:ExportCharttoSVG
 	}

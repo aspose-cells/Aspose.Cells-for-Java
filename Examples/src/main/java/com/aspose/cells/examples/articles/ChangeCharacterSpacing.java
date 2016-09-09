@@ -12,12 +12,11 @@ public class ChangeCharacterSpacing {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ChangeCharacterSpacing
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ChangeCharacterSpacing.class);
+		String dataDir = Utils.getSharedDataDir(ChangeCharacterSpacing.class) + "articles/";
 		// Load your excel file inside a workbook obect
 		Workbook wb = new Workbook(dataDir + "character-spacing.xlsx");
 
-		// Access your text box which is also a shape object from shapes
-		// collection
+		// Access your text box which is also a shape object from shapes collection
 		Shape shape = wb.getWorksheets().get(0).getShapes().get(0);
 
 		// Access the first font setting object via GetCharacters() method
@@ -28,7 +27,7 @@ public class ChangeCharacterSpacing {
 		fs.getShapeFont().setSpacing(4);
 
 		// Save the workbook in xlsx format
-		wb.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "CCSpacing-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:ChangeCharacterSpacing
 	}
 

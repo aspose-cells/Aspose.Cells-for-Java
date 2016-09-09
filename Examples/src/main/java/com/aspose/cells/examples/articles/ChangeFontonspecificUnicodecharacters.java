@@ -11,7 +11,7 @@ public class ChangeFontonspecificUnicodecharacters {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ChangeFontonspecificUnicodecharacters
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ChangeFontonspecificUnicodecharacters.class);
+		String dataDir = Utils.getSharedDataDir(ChangeFontonspecificUnicodecharacters.class) + "articles/";
 
 		// Create workbook object
 		Workbook workbook = new Workbook();
@@ -37,12 +37,12 @@ public class ChangeFontonspecificUnicodecharacters {
 		worksheet.autoFitColumns();
 
 		// Save to Pdf without setting PdfSaveOptions.IsFontSubstitutionCharGranularity
-		workbook.save(dataDir + "output.pdf");
+		workbook.save(dataDir + "CFOnSUCharacters1-out.pdf");
 
 		// Save to Pdf after setting PdfSaveOptions.IsFontSubstitutionCharGranularity to true
 		PdfSaveOptions opts = new PdfSaveOptions();
 		opts.setFontSubstitutionCharGranularity(true);
-		workbook.save(dataDir + "output2.pdf", opts);
+		workbook.save(dataDir + "CFOnSUCharacters2-out.pdf", opts);
 
 		// ExEnd:ChangeFontonspecificUnicodecharacters
 	}

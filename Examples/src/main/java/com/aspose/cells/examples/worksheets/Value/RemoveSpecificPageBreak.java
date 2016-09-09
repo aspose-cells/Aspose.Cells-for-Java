@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class RemoveSpecificPageBreak {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(RemoveSpecificPageBreak.class);
+		String dataDir = Utils.getSharedDataDir(RemoveSpecificPageBreak.class) + "worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
 

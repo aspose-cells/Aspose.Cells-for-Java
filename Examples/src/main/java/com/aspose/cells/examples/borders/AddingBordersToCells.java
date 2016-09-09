@@ -9,11 +9,12 @@ import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.AdvancedTopics.SmartMarkers.UsingNestedObjects;
 
 public class AddingBordersToCells {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getDataDir(AddingBordersToCells.class);
+		String dataDir = Utils.getSharedDataDir(AddingBordersToCells.class) + "borders/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -45,6 +46,6 @@ public class AddingBordersToCells {
 		cell.setStyle(style);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "ABToCells-out.xls");
 	}
 }

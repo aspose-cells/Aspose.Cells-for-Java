@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 public class ChangeDataSource {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ChangeDataSource
-		String dataDir = Utils.getDataDir(ChangeDataSource.class);
+		String dataDir = Utils.getSharedDataDir(ChangeDataSource.class) + "articles/";
 		// Load sample excel file
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");
 
@@ -31,7 +31,7 @@ public class ChangeDataSource {
 				options);
 
 		// Save workbook in xlsx format
-		wb.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "CDataSource-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:ChangeDataSource
 	}
 }

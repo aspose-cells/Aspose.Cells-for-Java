@@ -10,7 +10,7 @@ public class ConvertWorkbooktoImage {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ConvertWorkbooktoImage
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertWorkbooktoImage.class);
+		String dataDir = Utils.getSharedDataDir(ConvertWorkbooktoImage.class) + "articles/";
 		// Instantiate a new Workbook object
 		Workbook book = new Workbook(dataDir + "book1.xlsx");
 
@@ -25,7 +25,7 @@ public class ConvertWorkbooktoImage {
 
 		// Render to image
 		WorkbookRender render = new WorkbookRender(book, options);
-		render.toImage(dataDir + "output.tiff");
+		render.toImage(dataDir + "CWorkbooktoImage-out.tiff");
 		// ExEnd:ConvertWorkbooktoImage
 	}
 }

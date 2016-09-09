@@ -8,7 +8,7 @@ public class DateDataValidation {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DateDataValidation
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DateDataValidation.class);
+		String dataDir = Utils.getSharedDataDir(DateDataValidation.class) + "data/";
 
 		// Create a workbook.
 		Workbook workbook = new Workbook();
@@ -75,7 +75,7 @@ public class DateDataValidation {
 		validation.setShowInput(true);
 
 		// Save the excel file.
-		workbook.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "DDValidation-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print message
 		System.out.println("Process completed successfully");

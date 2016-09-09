@@ -11,7 +11,7 @@ public class ExportRangeofCells {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ExportRangeofCells
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExportRangeofCells.class);
+		String dataDir = Utils.getSharedDataDir(ExportRangeofCells.class) + "articles/";
 		// Create workbook from source file.
 		Workbook workbook = new Workbook(dataDir + "aspose-sample.xlsx");
 
@@ -34,7 +34,7 @@ public class ExportRangeofCells {
 
 		// Take the image of your worksheet
 		SheetRender sr = new SheetRender(worksheet, options);
-		sr.toImage(0, dataDir + "out.jpg");
+		sr.toImage(0, dataDir + "ERangeofCells-out.jpg");
 		// ExEnd:ExportRangeofCells
 	}
 }

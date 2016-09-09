@@ -13,7 +13,7 @@ public class ExtractThemeData {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ExtractThemeData
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExtractThemeData.class);
+		String dataDir = Utils.getSharedDataDir(ExtractThemeData.class) + "articles/";
 		// Create workbook object
 		Workbook workbook = new Workbook(dataDir + "TestBook.xlsx");
 

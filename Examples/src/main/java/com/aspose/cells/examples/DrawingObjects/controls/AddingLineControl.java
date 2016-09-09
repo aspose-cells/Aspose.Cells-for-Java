@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingLineControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingLineControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingLineControl.class) + "DrawingObjects/";
 
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
@@ -60,6 +60,6 @@ public class AddingLineControl {
 		workbook.getWorksheets().get(0).setGridlinesVisible(false);
 
 		// Save the excel file.
-		workbook.save(dataDir + "tstlines.xls");
+		workbook.save(dataDir + "ALControl-out.xls");
 	}
 }

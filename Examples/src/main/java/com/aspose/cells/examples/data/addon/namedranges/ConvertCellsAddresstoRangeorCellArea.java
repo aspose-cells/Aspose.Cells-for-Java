@@ -15,7 +15,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertCellsAddresstoRangeorCellArea {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertCellsAddresstoRangeorCellArea.class);
+		String dataDir = Utils.getSharedDataDir(ConvertCellsAddresstoRangeorCellArea.class) + "data/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -52,7 +52,7 @@ public class ConvertCellsAddresstoRangeorCellArea {
 		}
 
 		// Saving the Excel file
-		workbook.save(dataDir + "borders_out.xls");
+		workbook.save(dataDir + "CCAToROrCArea-out.xls");
 
 	}
 }

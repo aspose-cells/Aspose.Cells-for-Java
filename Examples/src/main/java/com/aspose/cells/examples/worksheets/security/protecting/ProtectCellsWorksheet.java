@@ -8,7 +8,7 @@ public class ProtectCellsWorksheet {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ProtectCellsWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(ProtectCellsWorksheet.class) + "worksheets/";
 
 		// Create a new workbook.
 		Workbook wb = new Workbook();
@@ -47,7 +47,7 @@ public class ProtectCellsWorksheet {
 		sheet.protect(ProtectionType.ALL);
 
 		// Save the excel file.
-		wb.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "PCellsWorksheet-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Cell  protected successfully.");

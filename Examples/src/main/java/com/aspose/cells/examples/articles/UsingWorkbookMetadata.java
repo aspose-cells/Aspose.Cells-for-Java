@@ -11,7 +11,7 @@ public class UsingWorkbookMetadata {
 	public static void main(String[] args) throws Exception {
 		// ExStart:UsingWorkbookMetadata
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UsingWorkbookMetadata.class);
+		String dataDir = Utils.getSharedDataDir(UsingWorkbookMetadata.class) + "articles/";
 
 		// Open Workbook metadata
 		MetadataOptions options = new MetadataOptions(MetadataType.DOCUMENT_PROPERTIES);
@@ -21,10 +21,10 @@ public class UsingWorkbookMetadata {
 		meta.getCustomDocumentProperties().add("test", "test");
 
 		// Save the metadata info
-		meta.save(dataDir + "Sample1.out.xlsx");
+		meta.save(dataDir + "UsingWorkbookMetadata-out.xlsx");
 
 		// Open the workbook
-		Workbook w = new Workbook(dataDir + "Sample1.out.xlsx");
+		Workbook w = new Workbook(dataDir + "UsingWorkbookMetadata-out.xlsx");
 
 		// Read document property
 		System.out.println(w.getCustomDocumentProperties().get("test"));

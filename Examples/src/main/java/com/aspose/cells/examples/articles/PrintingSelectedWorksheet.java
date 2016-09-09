@@ -10,7 +10,7 @@ public class PrintingSelectedWorksheet {
 	public static void main(String[] args) throws Exception {
 		// ExStart:PrintingSelectedWorksheet
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(PrintingSelectedWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(PrintingSelectedWorksheet.class) + "articles/";
 		// Instantiate a new workbook
 		Workbook book = new Workbook(dataDir + "Book1.xls");
 

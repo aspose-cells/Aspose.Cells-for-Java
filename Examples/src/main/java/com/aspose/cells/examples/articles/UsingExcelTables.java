@@ -12,7 +12,7 @@ public class UsingExcelTables {
 	public static void main(String[] args) throws Exception {
 		// ExStart:UsingExcelTables
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UsingExcelTables.class);
+		String dataDir = Utils.getSharedDataDir(UsingExcelTables.class) + "articles/";
 		// Create an instance of Workbook
 		Workbook book = new Workbook();
 		// Access first worksheet from the collection
@@ -91,7 +91,7 @@ public class UsingExcelTables {
 		chart.calculate();
 
 		// Save spreadsheet
-		book.save(dataDir + "output.xlsx");
+		book.save(dataDir + "UsingExcelTables-out.xlsx");
 		// ExEnd:UsingExcelTables
 	}
 }

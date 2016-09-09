@@ -11,7 +11,7 @@ public class CopyChartFromOneWorksheetToAnother {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CopyChartFromOneWorksheetToAnother
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyChartFromOneWorksheetToAnother.class);
+		String dataDir = Utils.getSharedDataDir(CopyChartFromOneWorksheetToAnother.class) + "articles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Shapes.xls");
 
@@ -28,7 +28,7 @@ public class CopyChartFromOneWorksheetToAnother {
 		sheet2.getShapes().addCopy(cshape, 20, 0, 2, 0);
 
 		// Save the workbook
-		workbook.save(dataDir + "Shapes.xls");
+		workbook.save(dataDir + "CCFOneWToAnother-out.xls");
 		// ExEnd:CopyChartFromOneWorksheetToAnother
 	}
 }

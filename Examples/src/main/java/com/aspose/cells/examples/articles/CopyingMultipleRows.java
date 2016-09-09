@@ -8,7 +8,7 @@ public class CopyingMultipleRows {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CopyingMultipleRows
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyingMultipleRows.class);
+		String dataDir = Utils.getSharedDataDir(CopyingMultipleRows.class) + "articles/";
 		// Create an instance of Workbook class by loading the existing spreadsheet
 		Workbook workbook = new Workbook(dataDir + "aspose-sample.xlsx");
 
@@ -19,7 +19,7 @@ public class CopyingMultipleRows {
 		cells.copyRows(cells, 0, 6, 3);
 
 		// Save the result on disc
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "CMultipleRows-out.xlsx");
 		// ExEnd:CopyingMultipleRows
 	}
 }

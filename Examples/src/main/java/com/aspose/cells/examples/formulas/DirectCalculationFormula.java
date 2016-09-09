@@ -4,11 +4,12 @@ import com.aspose.cells.Cell;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.formatting.TextAlignmentVertical;
 
 public class DirectCalculationFormula {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DirectCalculationFormula.class);
+		String dataDir = Utils.getSharedDataDir(DirectCalculationFormula.class) + "formulas/";
 		// Create a workbook
 		Workbook workbook = new Workbook();
 

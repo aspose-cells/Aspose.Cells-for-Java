@@ -10,9 +10,8 @@ public class Loadsourceexcelfile {
 	public static void main(String[] args) throws Exception {
 		// ExStart:Loadsourceexcelfile
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(Loadsourceexcelfile.class);
-		// Specify the load options and filter the data
-		// we do not want to load charts
+		String dataDir = Utils.getSharedDataDir(Loadsourceexcelfile.class) + "articles/";
+		// Specify the load options and filter the data we do not want to load charts
 		LoadOptions options = new LoadOptions();
 		options.setLoadDataFilterOptions(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.CHART);
 
@@ -20,7 +19,7 @@ public class Loadsourceexcelfile {
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx", options);
 
 		// Save the workbook in output format
-		workbook.save(dataDir + "output.pdf", SaveFormat.PDF);
+		workbook.save(dataDir + "LSourceexcelfile-out.pdf", SaveFormat.PDF);
 		// ExEnd:Loadsourceexcelfile
 	}
 

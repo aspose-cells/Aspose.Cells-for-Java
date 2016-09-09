@@ -10,7 +10,7 @@ public class CreateTransparentImage {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CreateTransparentImage
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreateTransparentImage.class);
+		String dataDir = Utils.getSharedDataDir(CreateTransparentImage.class) + "articles/";
 		// Create workbook object from source file
 		Workbook wb = new Workbook(dataDir + "aspose-sample.xlsx");
 
@@ -26,7 +26,7 @@ public class CreateTransparentImage {
 
 		// Create image after apply image or print options
 		SheetRender sr = new SheetRender(wb.getWorksheets().get(0), imgOption);
-		sr.toImage(0, dataDir + "output.png");
+		sr.toImage(0, dataDir + "CTransparentImage-out.png");
 		// ExEnd:CreateTransparentImage
 	}
 }

@@ -8,7 +8,7 @@ public class ResampleImagesforExceltoPDFConversion {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ResampleImagesforExceltoPDFConversion
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ResampleImagesforExceltoPDFConversion.class);
+		String dataDir = Utils.getSharedDataDir(ResampleImagesforExceltoPDFConversion.class) + "articles/";
 		// Initialize a new Workbook
 		// Open an Excel file
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -19,7 +19,7 @@ public class ResampleImagesforExceltoPDFConversion {
 		pdfSaveOptions.setImageResample(300, 70);
 
 		// Save the PDF file
-		workbook.save(dataDir + "output.pdf", pdfSaveOptions);
+		workbook.save(dataDir + "ReSIfEToPDFC-out.pdf", pdfSaveOptions);
 		// ExEnd:ResampleImagesforExceltoPDFConversion
 	}
 }

@@ -2,13 +2,14 @@ package com.aspose.cells.examples.charts;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.CellsHelperClass.MergeFiles;
 
 public class Applying3DFormat {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(Applying3DFormat.class);
+		String dataDir = Utils.getSharedDataDir(Applying3DFormat.class) + "charts/";
 
 		// Instantiate a new Workbook
 		Workbook book = new Workbook();
@@ -70,7 +71,7 @@ public class Applying3DFormat {
 		ser.getBorder().setColor(Color.getMaroon());
 
 		// Save the Excel file
-		book.save(dataDir + "output.xls");
+		book.save(dataDir + "A3DFormat-out.xls");
 
 		// Print message
 		System.out.println("3D format is applied successfully.");

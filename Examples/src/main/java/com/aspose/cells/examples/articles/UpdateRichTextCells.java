@@ -10,9 +10,9 @@ public class UpdateRichTextCells {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:UpdateRichTextCells
-		String dataDir = Utils.getDataDir(UpdateRichTextCells.class);
+		String dataDir = Utils.getSharedDataDir(UpdateRichTextCells.class) + "articles/";
 		String inputPath = dataDir + "Sample.xlsx";
-		String outputPath = dataDir + "Output.xlsx";
+		String outputPath = dataDir + "UpdateRichTextCells-out.xlsx";
 
 		Workbook workbook = new Workbook(inputPath);
 

@@ -12,7 +12,7 @@ public class ApplyingSubscript {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ApplyingSubscript
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ApplyingSubscript.class);
+		String dataDir = Utils.getSharedDataDir(ApplyingSubscript.class) + "articles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -35,7 +35,7 @@ public class ApplyingSubscript {
 		cell.setStyle(style);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "Subscript.xls");
+		workbook.save(dataDir + "ASubscript-out.xls");
 		// ExEnd:ApplyingSubscript
 	}
 }

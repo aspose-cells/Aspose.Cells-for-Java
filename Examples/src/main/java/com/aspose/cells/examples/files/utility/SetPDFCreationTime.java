@@ -8,7 +8,7 @@ public class SetPDFCreationTime {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SetPDFCreationTime.class);
+		String dataDir = Utils.getSharedDataDir(SetPDFCreationTime.class) + "files/";
 
 		// Instantiate a Workbook object by excel file path
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -19,7 +19,7 @@ public class SetPDFCreationTime {
 
 		options.setCreatedTime(DateTime.getNow());
 		// Save the file
-		workbook.save(dataDir + "output.pdf", options);
+		workbook.save(dataDir + "SPDFCTime-out.pdf", options);
 
 		// Print message
 		System.out.println("Set PDF Creation Time successfully.");

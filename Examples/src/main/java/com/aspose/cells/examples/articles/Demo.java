@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 // ExStart:Demo
 public class Demo {
-	private static final String OUTPUT_FILE_PATH = Utils.getDataDir(LightCellsDataProviderDemo.class);
+	private static final String OUTPUT_FILE_PATH = Utils.getSharedDataDir(Demo.class) + "articles/";
 
 	public static void main(String[] args) throws Exception {
 		// Instantiate a new Workbook
@@ -69,7 +69,7 @@ public class Demo {
 		opt.setLightCellsDataProvider(dataProvider);
 
 		// Save the big file
-		wb.save(OUTPUT_FILE_PATH + "/DemoTest.xlsx", opt);
+		wb.save(OUTPUT_FILE_PATH + "/Demo-out.xlsx", opt);
 	}
 }
 // ExEnd:Demo

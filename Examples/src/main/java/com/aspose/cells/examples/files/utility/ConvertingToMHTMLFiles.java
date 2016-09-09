@@ -10,7 +10,7 @@ public class ConvertingToMHTMLFiles {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertingToMHTMLFiles.class);
+		String dataDir = Utils.getSharedDataDir(ConvertingToMHTMLFiles.class) + "files/";
 
 		// Specify the file path
 		String filePath = dataDir + "Book1.xlsx";
@@ -22,7 +22,7 @@ public class ConvertingToMHTMLFiles {
 		Workbook wb = new Workbook(filePath);
 
 		// Save the MHT file
-		wb.save(dataDir + "output.mht", sv);
+		wb.save(dataDir + "CToMHTMLFiles-out.mht", sv);
 
 		// Print message
 		System.out.println("Excel to MHTML conversion performed successfully.");

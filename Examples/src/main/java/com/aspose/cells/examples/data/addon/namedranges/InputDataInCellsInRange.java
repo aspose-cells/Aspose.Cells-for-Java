@@ -8,7 +8,7 @@ public class InputDataInCellsInRange {
 	public static void main(String[] args) throws Exception {
 		// ExStart:InputDataInCellsInRange
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(InputDataInCellsInRange.class);
+		String dataDir = Utils.getSharedDataDir(InputDataInCellsInRange.class) + "data/";
 
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
@@ -35,7 +35,7 @@ public class InputDataInCellsInRange {
 		range.get(3, 2).setValue("Brazil");
 
 		// Save the excel file.
-		workbook.save(dataDir + "rangecells.out.xls");
+		workbook.save(dataDir + "IDICInRange-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

@@ -10,7 +10,7 @@ public class CopyWorksheetBetweenWorkbooks {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CopyWorksheetBetweenWorkbooks
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyWorksheetBetweenWorkbooks.class);
+		String dataDir = Utils.getSharedDataDir(CopyWorksheetBetweenWorkbooks.class) + "articles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Controls.xls");
 
@@ -28,7 +28,7 @@ public class CopyWorksheetBetweenWorkbooks {
 		sheet2.getShapes().addCopy(shapes.get(1), 10, 0, 2, 0);
 
 		// Save the workbook
-		workbook.save(dataDir + "Controls.xls");
+		workbook.save(dataDir + "CWBetweenWorkbooks-out.xls");
 		// ExEnd:CopyWorksheetBetweenWorkbooks
 	}
 }

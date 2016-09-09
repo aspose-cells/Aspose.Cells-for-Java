@@ -9,7 +9,7 @@ public class ModifyExistingStyle {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ModifyExistingStyle
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ModifyExistingStyle.class);
+		String dataDir = Utils.getSharedDataDir(ModifyExistingStyle.class) + "articles/";
 
 		/*
 		 * Create a workbook. Open a template file. In the book1.xls file, we have applied Microsoft Excel's Named style
@@ -30,7 +30,7 @@ public class ModifyExistingStyle {
 		style.update();
 
 		// Save the excel file.
-		workbook.save(dataDir + "book2.xlsx");
+		workbook.save(dataDir + "ModifyExistingStyle-out.xlsx");
 		// ExEnd:ModifyExistingStyle
 	}
 }

@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class MakeCellActive {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(MakeCellActive.class);
+		String dataDir = Utils.getSharedDataDir(MakeCellActive.class) + "formatting/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -34,6 +34,6 @@ public class MakeCellActive {
 		worksheet1.setFirstVisibleRow(1);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "activecell.xls");
+		workbook.save(dataDir + "MakeCellActive-out.xls");
 	}
 }

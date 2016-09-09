@@ -10,7 +10,7 @@ public class GetEquationText {
 	public static void main(String[] args) throws Exception {
 		// ExStart:GetEquationText
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GetWorksheetOfChart.class);
+		String dataDir = Utils.getSharedDataDir(GetEquationText.class) + "articles/";
 		// Create workbook object from source Excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 

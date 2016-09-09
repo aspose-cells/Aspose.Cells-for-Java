@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 public class TextAlignmentHorizontal {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(TextAlignmentHorizontal.class);
+		String dataDir = Utils.getSharedDataDir(TextAlignmentHorizontal.class) + "formatting/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -34,6 +34,6 @@ public class TextAlignmentHorizontal {
 		cell.setStyle(style);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "book1.xls");
+		workbook.save(dataDir + "TAHorizontal-out.xls");
 	}
 }

@@ -9,7 +9,7 @@ public class FilePathProvider {
 	// So the references among the worksheets could be exported correctly.
 	public String getFullName(String sheetName) {
 
-		String dataDir = Utils.getDataDir(FilePathProvider.class);
+		String dataDir = Utils.getSharedDataDir(FilePathProvider.class) + "articles/";
 		if ("Sheet2".equals(sheetName)) {
 			return dataDir + "Sheet2.html";
 		} else if ("Sheet3".equals(sheetName)) {

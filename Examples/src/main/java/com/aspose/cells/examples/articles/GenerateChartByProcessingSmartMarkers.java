@@ -14,7 +14,7 @@ public class GenerateChartByProcessingSmartMarkers {
 	public static void main(String[] args) throws Exception {
 		// ExStart:GenerateChartByProcessingSmartMarkers
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GenerateChartByProcessingSmartMarkers.class);
+		String dataDir = Utils.getSharedDataDir(GenerateChartByProcessingSmartMarkers.class) + "articles/";
 
 		// ExStart:CreationOfDesignerSpreadsheet
 
@@ -118,7 +118,7 @@ public class GenerateChartByProcessingSmartMarkers {
 		book.getWorksheets().setActiveSheetIndex(chartSheetIdx);
 
 		// Save the final result
-		book.save(dataDir + "report.xlsx");
+		book.save(dataDir + "GCByPSmartMarkers.xlsx");
 		// ExEnd:GenerateChartByProcessingSmartMarkers
 	}
 }

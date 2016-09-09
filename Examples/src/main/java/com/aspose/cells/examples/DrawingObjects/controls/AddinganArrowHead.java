@@ -11,11 +11,12 @@ import com.aspose.cells.PlacementType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.DrawingObjects.comments.AddingComment;
 
 public class AddinganArrowHead {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddinganArrowHead.class);
+		String dataDir = Utils.getSharedDataDir(AddinganArrowHead.class) + "DrawingObjects/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -52,6 +53,6 @@ public class AddinganArrowHead {
 		workbook.getWorksheets().get(0).setGridlinesVisible(false);
 
 		// Save the excel file.
-		workbook.save(dataDir + "arrowlinetest.xls");
+		workbook.save(dataDir + "AanAHead-out.xls");
 	}
 }

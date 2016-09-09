@@ -12,7 +12,7 @@ public class GetCellObject {
 	public static void main(String[] args) throws Exception {
 		// ExStart:GetCellObject
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GetCellObject.class);
+		String dataDir = Utils.getSharedDataDir(GetCellObject.class) + "articles/";
 		// Create workbook object from source excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -35,7 +35,7 @@ public class GetCellObject {
 		pivotTable.format(cell.getRow(), cell.getColumn(), style);
 
 		// Save workbook
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "GetCellObject-out.xlsx");
 		// ExEnd:GetCellObject
 	}
 }

@@ -9,7 +9,7 @@ public class ChartToImage {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ChartToImage.class);
+		String dataDir = Utils.getSharedDataDir(ChartToImage.class) + "files/";
 
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
@@ -86,7 +86,7 @@ public class ChartToImage {
 		ImageOrPrintOptions imgOpts = new ImageOrPrintOptions();
 		imgOpts.setImageFormat(ImageFormat.getEmf());
 
-		FileOutputStream fs = new FileOutputStream(dataDir + "output.emf");
+		FileOutputStream fs = new FileOutputStream(dataDir + "ChartToImage-out.emf");
 
 		// Save the chart image file.
 		chart.toImage(fs, imgOpts);

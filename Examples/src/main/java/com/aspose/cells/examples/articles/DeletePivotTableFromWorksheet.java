@@ -9,7 +9,7 @@ public class DeletePivotTableFromWorksheet {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DeletePivotTableFromWorksheet
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DeletePivotTableFromWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(DeletePivotTableFromWorksheet.class) + "articles/";
 
 		// Create workbook object from source Excel file
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");
@@ -27,7 +27,7 @@ public class DeletePivotTableFromWorksheet {
 		worksheet.getPivotTables().removeAt(0);
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "DPTableFromWorksheet-out.xlsx");
 		// ExEnd:DeletePivotTableFromWorksheet
 	}
 }

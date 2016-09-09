@@ -10,7 +10,7 @@ public class Settextofchartlegend {
 	public static void main(String[] args) throws Exception {
 		// ExStart:Settextofchartlegend
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(Settextofchartlegend.class);
+		String dataDir = Utils.getSharedDataDir(Settextofchartlegend.class) + "articles/";
 
 		// Open the template file.
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");
@@ -25,7 +25,7 @@ public class Settextofchartlegend {
 		chart.getLegend().getLegendEntries().get(1).setTextNoFill(true);
 
 		// Save the workbook in xlsx format
-		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "Settextofchartlegend-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:Settextofchartlegend
 	}
 

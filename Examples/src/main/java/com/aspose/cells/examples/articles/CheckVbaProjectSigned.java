@@ -7,7 +7,7 @@ public class CheckVbaProjectSigned {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:CheckVbaProjectSigned
-		String dataDir = Utils.getDataDir(CheckVbaProjectSigned.class);
+		String dataDir = Utils.getSharedDataDir(CheckVbaProjectSigned.class) + "articles/";
 		String inputPath = dataDir + "Sample1.xlsx";
 
 		Workbook workbook = new Workbook(inputPath);

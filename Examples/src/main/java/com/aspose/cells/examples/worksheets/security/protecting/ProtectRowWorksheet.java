@@ -8,7 +8,7 @@ public class ProtectRowWorksheet {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ProtectRowWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(ProtectRowWorksheet.class) + "worksheets/";
 
 		// Create a new workbook.
 		Workbook wb = new Workbook();
@@ -48,7 +48,7 @@ public class ProtectRowWorksheet {
 		sheet.protect(ProtectionType.ALL);
 
 		// Save the excel file.
-		wb.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "ProtectRowWorksheet-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Row protected successfully.");

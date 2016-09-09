@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 public class FormattingSelectedCharacters {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getDataDir(FormattingSelectedCharacters.class);
+		String dataDir = Utils.getSharedDataDir(FormattingSelectedCharacters.class) + "borders/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -33,6 +33,6 @@ public class FormattingSelectedCharacters {
 		font.setColor(Color.getBlue());
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "FSCharacters-out.xls");
 	}
 }

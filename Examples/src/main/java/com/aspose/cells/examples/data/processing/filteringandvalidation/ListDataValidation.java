@@ -8,7 +8,7 @@ public class ListDataValidation {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ListDataValidation
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ListDataValidation.class);
+		String dataDir = Utils.getSharedDataDir(ListDataValidation.class) + "data/";
 
 		// Create a workbook object.
 		Workbook workbook = new Workbook();
@@ -66,7 +66,7 @@ public class ListDataValidation {
 		validation.setErrorMessage("Please select a color from the list");
 
 		// Save the excel file.
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "LDValidation-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

@@ -2,13 +2,14 @@ package com.aspose.cells.examples.data.handling;
 
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.data.addon.namedranges.RenameNamedRange;
 
 public class RetrievingDataFromCells {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:RetrievingDataFromCells
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(RetrievingDataFromCells.class);
+		String dataDir = Utils.getSharedDataDir(RetrievingDataFromCells.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();

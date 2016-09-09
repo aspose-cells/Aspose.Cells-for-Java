@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class InsertingARow {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(InsertingARow.class);
+		String dataDir = Utils.getSharedDataDir(InsertingARow.class) + "RowsColumns/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
 
@@ -17,6 +17,6 @@ public class InsertingARow {
 		worksheet.getCells().insertRows(2, 1);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "InsertingARow-out.xls");
 	}
 }

@@ -8,7 +8,7 @@ public class AddingLinkToExternalFile {
 	public static void main(String[] args) throws Exception {
 		// ExStart:AddingLinkToExternalFile
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingLinkToExternalFile.class);
+		String dataDir = Utils.getSharedDataDir(AddingLinkToExternalFile.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -36,7 +36,7 @@ public class AddingLinkToExternalFile {
 		hyperlinks.add("A5", 1, 1, dataDir + "book1.xls");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "ALToEFile-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

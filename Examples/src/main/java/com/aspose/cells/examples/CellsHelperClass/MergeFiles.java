@@ -5,12 +5,13 @@ import com.aspose.cells.LoadDataOption;
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.borders.ColorsAndBackground;
 
 public class MergeFiles {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
-		String dataDir = Utils.getDataDir(MergeFiles.class);
+		String dataDir = Utils.getSharedDataDir(MergeFiles.class) + "CellsHelperClass/";
 		String sampleFile = "Sample.out.xlsx";
 		String samplePath = dataDir + sampleFile;
 
@@ -39,7 +40,7 @@ public class MergeFiles {
 			cnt++;
 		}
 		// Re-save the file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "MergeFiles-out.xls");
 		// ExEnd:1
 	}
 }

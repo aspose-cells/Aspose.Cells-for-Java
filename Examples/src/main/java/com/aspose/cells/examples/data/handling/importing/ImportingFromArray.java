@@ -10,7 +10,7 @@ public class ImportingFromArray {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ImportingFromArray
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ImportingFromArray.class);
+		String dataDir = Utils.getSharedDataDir(ImportingFromArray.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -26,7 +26,7 @@ public class ImportingFromArray {
 		cells.importArray(names, 0, 0, false);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "DataImport.out.xls");
+		workbook.save(dataDir + "IFromArray-out.xls");
 
 		// Printing the name of the cell found after searching worksheet
 		System.out.println("Process completed successfully");

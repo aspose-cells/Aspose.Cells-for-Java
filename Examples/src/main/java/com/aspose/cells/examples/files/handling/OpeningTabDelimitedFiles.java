@@ -10,7 +10,7 @@ public class OpeningTabDelimitedFiles {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningTabDelimitedFiles.class);
+		String dataDir = Utils.getSharedDataDir(OpeningTabDelimitedFiles.class) + "files/";
 		String filePath = dataDir + "Book1.html";
 
 		// Creating and TAB_DELIMITED LoadOptions object

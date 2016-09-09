@@ -12,7 +12,7 @@ public class IdentifyCellsinNamedRange {
 	public static void main(String[] args) throws Exception {
 		// ExStart:IdentifyCellsinNamedRange
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(IdentifyCellsinNamedRange.class);
+		String dataDir = Utils.getSharedDataDir(IdentifyCellsinNamedRange.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

@@ -13,7 +13,7 @@ public class DeleteRedundantSpacesFromHtml {
 
 		// ExStart:DeleteRedundantSpacesFromHtml
 		// The path to the documents directory
-		String dataDir = Utils.getDataDir(DeleteRedundantSpacesFromHtml.class);
+		String dataDir = Utils.getSharedDataDir(DeleteRedundantSpacesFromHtml.class) + "articles/";
 
 		// Sample Html containing redundant spaces after <br> tag
 		String html = "<html>" + "<body>" + "<table>" + "<tr>" + "<td>" + "<br>    This is sample data"
@@ -40,7 +40,7 @@ public class DeleteRedundantSpacesFromHtml {
 		worksheet.autoFitColumns();
 
 		// Save the workbook
-		workbook.save(dataDir + "output-" + loadOptions.getDeleteRedundantSpaces() + ".xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "DRSFromHtml-out-" + loadOptions.getDeleteRedundantSpaces() + ".xlsx", SaveFormat.XLSX);
 
 		System.out.println("File saved");
 		// ExEnd:DeleteRedundantSpacesFromHtml

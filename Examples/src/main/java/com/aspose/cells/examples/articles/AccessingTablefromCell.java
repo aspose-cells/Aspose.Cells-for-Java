@@ -10,7 +10,7 @@ public class AccessingTablefromCell {
 	public static void main(String[] args) throws Exception {
 		// ExStart:AccessingTablefromCell
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AccessingTablefromCell.class);
+		String dataDir = Utils.getSharedDataDir(AccessingTablefromCell.class) + "articles/";
 		// Create workbook from source Excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -30,7 +30,7 @@ public class AccessingTablefromCell {
 		table.putCellValue(2, 2, "Offset [2,2]");
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "ATFromCell-out.xlsx");
 		// ExEnd:AccessingTablefromCell
 	}
 }

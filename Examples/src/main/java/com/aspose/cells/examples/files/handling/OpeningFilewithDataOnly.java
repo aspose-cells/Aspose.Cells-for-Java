@@ -11,7 +11,7 @@ public class OpeningFilewithDataOnly {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningFiles.class);
+		String dataDir = Utils.getSharedDataDir(OpeningFilewithDataOnly.class) + "files/";
 		// Opening CSV Files
 		// Creating and CSV LoadOptions object
 		LoadOptions loadOptions = new LoadOptions(FileFormatType.XLSX);

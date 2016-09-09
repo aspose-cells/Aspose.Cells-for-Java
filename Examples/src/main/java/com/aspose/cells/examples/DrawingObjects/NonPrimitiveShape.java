@@ -10,6 +10,7 @@ import com.aspose.cells.ShapeSegmentPathCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.data.processing.filteringandvalidation.WholeNumberDataValidation;
 
 public class NonPrimitiveShape {
 	public static void main(String[] args) throws Exception {
@@ -20,24 +21,24 @@ public class NonPrimitiveShape {
 
 		Worksheet worksheet = workbook.getWorksheets().get(0);
 
-		//Accessing the user defined shape
+		// Accessing the user defined shape
 		Shape shape = worksheet.getShapes().get(0);
 
 		if (shape.getAutoShapeType() == AutoShapeType.NOT_PRIMITIVE) {
-		    
-			//Access Shape paths
+
+			// Access Shape paths
 			ShapePathCollection shapePathCollection = shape.getPaths();
-			
-			//Access information of individual shape path
+
+			// Access information of individual shape path
 			ShapePath shapePath = shapePathCollection.get(0);
-			
-			//Access shape segment path list
+
+			// Access shape segment path list
 			ShapeSegmentPathCollection shapeSegmentPathCollection = shapePath.getPathSegementList();
-			
-			//Access individual segment path
+
+			// Access individual segment path
 			ShapeSegmentPath shapeSegmentPath = shapeSegmentPathCollection.get(0);
-			
-			//Gets the points in segment path
+
+			// Gets the points in segment path
 			ShapePathPointCollection shapePathPointsCollection = shapeSegmentPath.getPoints();
 		}
 	}

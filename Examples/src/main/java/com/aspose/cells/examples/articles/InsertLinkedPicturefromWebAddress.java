@@ -8,7 +8,7 @@ public class InsertLinkedPicturefromWebAddress {
 	public static void main(String[] args) throws Exception {
 		// ExStart:InsertLinkedPicturefromWebAddress
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(InsertLinkedPicturefromWebAddress.class);
+		String dataDir = Utils.getSharedDataDir(InsertLinkedPicturefromWebAddress.class) + "articles/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 		// Insert a linked picture (from Web Address) to B2 Cell.
@@ -22,7 +22,7 @@ public class InsertLinkedPicturefromWebAddress {
 		pic.setWidthInch(2.6);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "LinkedPicture.xlsx");
+		workbook.save(dataDir + "ILPfromWebAddress-out.xlsx");
 		// ExEnd:InsertLinkedPicturefromWebAddress
 	}
 }

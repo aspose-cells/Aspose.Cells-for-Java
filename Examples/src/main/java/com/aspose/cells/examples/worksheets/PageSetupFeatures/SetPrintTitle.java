@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetPrintTitle {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(SetPrintTitle.class);
+		String dataDir = Utils.getSharedDataDir(SetPrintTitle.class) + "worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -25,6 +25,6 @@ public class SetPrintTitle {
 		// Defining row numbers 1 & 2 as title rows
 		pageSetup.setPrintTitleRows("$1:$2");
 		// Save the workbook.
-		workbook.save(dataDir + "SetPrintTitle_out.xls");
+		workbook.save(dataDir + "SetPrintTitle-out.xls");
 	}
 }

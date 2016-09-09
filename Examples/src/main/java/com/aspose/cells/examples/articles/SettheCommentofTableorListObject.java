@@ -10,7 +10,7 @@ public class SettheCommentofTableorListObject {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SettheCommentofTableorListObject
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettheCommentofTableorListObject.class);
+		String dataDir = Utils.getSharedDataDir(SettheCommentofTableorListObject.class) + "articles/";
 
 		// Open the template file.
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
@@ -25,7 +25,7 @@ public class SettheCommentofTableorListObject {
 		lstObj.setComment("This is Aspose.Cells comment.");
 
 		// Save the workbook in xlsx format
-		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "STheCofTOrListObject-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:SettheCommentofTableorListObject
 	}
 

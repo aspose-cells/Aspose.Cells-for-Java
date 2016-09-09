@@ -1,12 +1,13 @@
 package com.aspose.cells.examples.articles;
 
 import com.aspose.cells.examples.Utils;
+import com.aspose.gridweb.CustomCommandButton;
 
 public class CreatingCustomCommandButtons {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreatingCustomCommandButtons.class);
+		String dataDir = Utils.getSharedDataDir(CreatingCustomCommandButtons.class) + "articles/";
 
 		gridweb.setReqRes(request, response);
 		// gridweb.importExcelFile(filePath);

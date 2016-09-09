@@ -12,7 +12,7 @@ public class CopyRowHeights {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CopyRowHeights
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyRowHeights.class);
+		String dataDir = Utils.getSharedDataDir(CopyRowHeights.class) + "articles/";
 		// Create workbook object
 		Workbook workbook = new Workbook();
 
@@ -43,7 +43,7 @@ public class CopyRowHeights {
 		dstSheet.getCells().get("D4").putValue("Row heights of source range copied to destination range");
 
 		// Save the workbook in xlsx format
-		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "CopyRowHeights-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:CopyRowHeights
 	}
 }

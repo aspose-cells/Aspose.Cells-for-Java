@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class UsingDisplayRange {
 	public static void main(String[] args) throws Exception {
 		// ExStart:UsingDisplayRange
-		String dataDir = Utils.getDataDir(UsingDisplayRange.class);
+		String dataDir = Utils.getSharedDataDir(UsingDisplayRange.class) + "articles/";
 		// Load a file in an instance of Workbook
 		Workbook book = new Workbook(dataDir + "sample.xlsx");
 

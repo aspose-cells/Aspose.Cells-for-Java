@@ -10,7 +10,7 @@ public class ChangeChartPosition {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ChangeChartPosition.class);
+		String dataDir = Utils.getSharedDataDir(ChangeChartPosition.class) + "charts/";
 
 		String filePath = dataDir + "chart.xls";
 
@@ -26,7 +26,7 @@ public class ChangeChartPosition {
 		chart.getChartObject().setY(150);
 
 		// Output the file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "CCPosition-out.xls");
 
 		// Print message
 		System.out.println("Position and Size of Chart is changed successfully.");

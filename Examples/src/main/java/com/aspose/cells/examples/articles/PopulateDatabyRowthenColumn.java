@@ -8,7 +8,7 @@ public class PopulateDatabyRowthenColumn {
 	public static void main(String[] args) throws Exception {
 		// ExStart:PopulateDatabyRowthenColumn
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(PopulateDatabyRowthenColumn.class);
+		String dataDir = Utils.getSharedDataDir(PopulateDatabyRowthenColumn.class) + "articles/";
 		Workbook workbook = new Workbook();
 		Cells cells = workbook.getWorksheets().get(0).getCells();
 		cells.get("A1").setValue("data1");

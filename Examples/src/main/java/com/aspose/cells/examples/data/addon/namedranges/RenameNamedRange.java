@@ -8,7 +8,7 @@ public class RenameNamedRange {
 	public static void main(String[] args) throws Exception {
 		// ExStart:RenameNamedRange
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(RenameNamedRange.class);
+		String dataDir = Utils.getSharedDataDir(RenameNamedRange.class) + "data/";
 
 		// Open an existing Excel file that has a (global) named range
 		// "TestRange" in it
@@ -27,7 +27,7 @@ public class RenameNamedRange {
 		name.setText("NewRange");
 
 		// Save the Excel file
-		workbook.save(dataDir + "RenamingRange.out.xlsx");
+		workbook.save(dataDir + "RNamedRange-out.xlsx");
 
 		// Print message
 		System.out.println("Process completed successfully");

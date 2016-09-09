@@ -8,7 +8,7 @@ public class SettingChartLines {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingChartLines.class);
+		String dataDir = Utils.getSharedDataDir(SettingChartLines.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -41,7 +41,7 @@ public class SettingChartLines {
 		line.setWeight(WeightType.MEDIUM_LINE);
 
 		// Save the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "SChartLines-out.xls");
 
 		// Print message
 		System.out.println("ChartArea is settled successfully.");

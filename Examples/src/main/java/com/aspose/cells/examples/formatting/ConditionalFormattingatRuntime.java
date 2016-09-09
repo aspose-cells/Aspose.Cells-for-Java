@@ -13,7 +13,7 @@ import com.aspose.cells.examples.Utils;
 public class ConditionalFormattingatRuntime {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getDataDir(ConditionalFormattingatRuntime.class);
+		String dataDir = Utils.getSharedDataDir(ConditionalFormattingatRuntime.class) + "formatting/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 		Worksheet sheet = workbook.getWorksheets().get(0);
@@ -54,6 +54,6 @@ public class ConditionalFormattingatRuntime {
 		int conditionIndex2 = fcs.addCondition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "50", "100");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "CFAtRuntime-out.xls");
 	}
 }

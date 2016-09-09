@@ -9,7 +9,7 @@ public class ExportingDataFromWorksheets {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ExportingDataFromWorksheets
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExportingDataFromWorksheets.class);
+		String dataDir = Utils.getSharedDataDir(ExportingDataFromWorksheets.class) + "data/";
 
 		// Creating a file stream containing the Excel file to be opened
 		FileInputStream fstream = new FileInputStream(dataDir + "book1.xls");

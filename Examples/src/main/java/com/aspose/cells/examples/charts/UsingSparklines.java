@@ -6,9 +6,8 @@ import com.aspose.cells.examples.Utils;
 public class UsingSparklines {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UsingSparklines.class);
+		String dataDir = Utils.getSharedDataDir(UsingSparklines.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -44,10 +43,9 @@ public class UsingSparklines {
 		CellsColor clr = workbook.createCellsColor();
 		clr.setColor(Color.getChocolate());
 		group.setSeriesColor(clr);
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "USparklines-out.xls");
 
 		// Print message
 		System.out.println("Workbook with chart is created successfully.");
-		// ExEnd:1
 	}
 }

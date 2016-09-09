@@ -8,7 +8,7 @@ public class CheckPassword {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CheckPassword
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CheckPassword.class);
+		String dataDir = Utils.getSharedDataDir(CheckPassword.class) + "articles/";
 
 		// Specify password to open inside the load options
 		LoadOptions opts = new LoadOptions();

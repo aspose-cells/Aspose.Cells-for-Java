@@ -11,7 +11,7 @@ public class WorksheetToSeparateImage {
 	public static void main(String[] args) throws Exception {
 		// ExStart:WorksheetToSeparateImage
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(WorksheetToSeparateImage.class);
+		String dataDir = Utils.getSharedDataDir(WorksheetToSeparateImage.class) + "articles/";
 		// Instantiate a new Workbook object
 		// Open template
 		Workbook book = new Workbook(dataDir + "book1.xlsx");
@@ -37,7 +37,7 @@ public class WorksheetToSeparateImage {
 
 			// Render to image
 			SheetRender sr = new SheetRender(sheet, options);
-			sr.toImage(0, dataDir + "img_" + sheet.getName() + ".jpg");
+			sr.toImage(0, dataDir + "WSheetToSImage-out-" + sheet.getName() + ".jpg");
 		}
 		// ExEnd:WorksheetToSeparateImage
 	}

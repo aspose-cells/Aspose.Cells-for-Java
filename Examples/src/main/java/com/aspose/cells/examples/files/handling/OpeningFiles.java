@@ -10,13 +10,11 @@ public class OpeningFiles {
 
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningFiles.class);
+		String dataDir = Utils.getSharedDataDir(OpeningEncryptedExcelFiles.class) + "files/";
 		// ExSart:1
 
-		/*
-		 * 1. Opening from path.Creating an Workbook object with an Excel file
-		 * path
-		 */
+		// 1. Opening from path.Creating an Workbook object with an Excel file path
+
 		Workbook workbook1 = new Workbook(dataDir + "Book1.xls");
 
 		// Print message

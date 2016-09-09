@@ -8,7 +8,7 @@ public class AdvancedProtectionSettings {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AdvancedProtectionSettings.class);
+		String dataDir = Utils.getSharedDataDir(AdvancedProtectionSettings.class) + "worksheets/";
 
 		// Instantiating a Workbook object by excel file path
 		Workbook excel = new Workbook(dataDir + "book1.xls");
@@ -64,7 +64,7 @@ public class AdvancedProtectionSettings {
 		protection.setAllowUsingPivotTable(true);
 
 		// Saving the modified Excel file Excel XP format
-		excel.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		excel.save(dataDir + "AProtectionSettings-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Worksheet protected successfully.");

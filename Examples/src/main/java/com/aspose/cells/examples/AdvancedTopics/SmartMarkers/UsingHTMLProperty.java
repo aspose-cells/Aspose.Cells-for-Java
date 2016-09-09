@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class UsingHTMLProperty {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UsingHTMLProperty.class);
+		String dataDir = Utils.getSharedDataDir(UsingHTMLProperty.class) + "SmartMarkers/";
 		Workbook workbook = new Workbook();
 		WorkbookDesigner designer = new WorkbookDesigner();
 		designer.setWorkbook(workbook);
@@ -15,6 +15,6 @@ public class UsingHTMLProperty {
 		designer.setDataSource("VariableArray",
 				new String[] { "Hello <b>World</b>", "Arabic", "Hindi", "Urdu", "French" });
 		designer.process();
-		workbook.save(dataDir + "dest.xls");
+		workbook.save(dataDir + "UHProperty-out.xls");
 	}
 }

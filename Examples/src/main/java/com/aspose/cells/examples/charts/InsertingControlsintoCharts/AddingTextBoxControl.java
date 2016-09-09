@@ -10,7 +10,7 @@ public class AddingTextBoxControl {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingTextBoxControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingTextBoxControl.class) + "charts/";
 		String filePath = dataDir + "chart.xls";
 
 		// Create a new Workbook.
@@ -40,7 +40,7 @@ public class AddingTextBoxControl {
 		LineFormat.setDashStyle(MsoLineDashStyle.SOLID);
 
 		// Output the file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "ATBoxControl-out.xls");
 
 		// Print message
 		System.out.println("TextBox added to chart successfully.");

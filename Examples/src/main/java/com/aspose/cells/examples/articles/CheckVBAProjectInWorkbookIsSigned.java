@@ -7,7 +7,7 @@ public class CheckVBAProjectInWorkbookIsSigned {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CheckVBAProjectInWorkbookIsSigned
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CheckVBAProjectInWorkbookIsSigned.class);
+		String dataDir = Utils.getSharedDataDir(CheckVBAProjectInWorkbookIsSigned.class) + "articles/";
 		Workbook workbook = new Workbook(dataDir + "source.xlsm");
 		System.out.println("VBA Project is Signed: " + workbook.getVbaProject().isSigned());
 

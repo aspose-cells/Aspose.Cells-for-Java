@@ -8,7 +8,7 @@ public class DataSorting {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DataSorting
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DataSorting.class);
+		String dataDir = Utils.getSharedDataDir(DataSorting.class) + "data/";
 
 		// Instantiate a new Workbook object.
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -37,7 +37,7 @@ public class DataSorting {
 		sorter.sort(workbook.getWorksheets().get(0).getCells(), cellArea);
 
 		// Save the excel file.
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "DSorting-out.xls");
 
 		// Print message
 		System.out.println("Sorting Done Successfully");

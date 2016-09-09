@@ -8,7 +8,7 @@ public class DecimalDataValidation {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DecimalDataValidation
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DecimalDataValidation.class);
+		String dataDir = Utils.getSharedDataDir(DecimalDataValidation.class) + "data/";
 
 		// Create a workbook object.
 		Workbook workbook = new Workbook();
@@ -44,7 +44,7 @@ public class DecimalDataValidation {
 		validation.setErrorMessage("Please enter a valid integer or decimal number");
 
 		// Save the workbook.
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "DDValidation-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

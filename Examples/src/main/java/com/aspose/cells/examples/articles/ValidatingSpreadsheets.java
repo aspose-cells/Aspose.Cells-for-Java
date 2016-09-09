@@ -9,7 +9,7 @@ public class ValidatingSpreadsheets {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ValidatingSpreadsheets
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ValidatingSpreadsheets.class);
+		String dataDir = Utils.getSharedDataDir(ValidatingSpreadsheets.class) + "articles/";
 		// Load an existing spreadsheet in an instance of Workbook
 		Workbook workbook = new Workbook(dataDir + "signed.xlsx");
 

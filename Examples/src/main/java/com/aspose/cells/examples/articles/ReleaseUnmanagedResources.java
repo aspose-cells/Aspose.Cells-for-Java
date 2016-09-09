@@ -7,7 +7,7 @@ public class ReleaseUnmanagedResources {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ReleaseUnmanagedResources
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ReleaseUnmanagedResources.class);
+		String dataDir = Utils.getSharedDataDir(ReleaseUnmanagedResources.class) + "articles/";
 		// Create workbook object
 		Workbook wb1 = new Workbook();
 

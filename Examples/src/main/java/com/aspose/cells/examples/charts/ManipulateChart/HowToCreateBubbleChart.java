@@ -2,13 +2,14 @@ package com.aspose.cells.examples.charts.ManipulateChart;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.charts.management.SettingChartsData;
 
 public class HowToCreateBubbleChart {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(HowToCreateBubbleChart.class);
+		String dataDir = Utils.getSharedDataDir(HowToCreateBubbleChart.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -61,7 +62,7 @@ public class HowToCreateBubbleChart {
 		chart.getNSeries().get(0).setValues("B1:D1");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "HToCrBChart-out.xls");
 
 		// Print message
 		System.out.println("Bubble chart is successfully created.");

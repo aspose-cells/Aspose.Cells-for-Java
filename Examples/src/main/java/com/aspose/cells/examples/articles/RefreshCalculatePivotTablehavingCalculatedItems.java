@@ -10,9 +10,8 @@ public class RefreshCalculatePivotTablehavingCalculatedItems {
 	public static void main(String[] args) throws Exception {
 		// ExStart:RefreshCalculatePivotTablehavingCalculatedItems
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(RefreshCalculatePivotTablehavingCalculatedItems.class);
-		// Load source excel file containing a pivot table having calculated
-		// items
+		String dataDir = Utils.getSharedDataDir(RefreshCalculatePivotTablehavingCalculatedItems.class) + "articles/";
+		// Load source excel file containing a pivot table having calculated items
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");
 
 		// Access first worksheet
@@ -29,7 +28,7 @@ public class RefreshCalculatePivotTablehavingCalculatedItems {
 		}
 
 		// Save the workbook in output pdf
-		wb.save(dataDir + "output.pdf", SaveFormat.PDF);
+		wb.save(dataDir + "RCPTHavingCItems-out.pdf", SaveFormat.PDF);
 		// ExEnd:RefreshCalculatePivotTablehavingCalculatedItems
 	}
 

@@ -11,7 +11,7 @@ public class ConvertCharttoImageinSVGFormat {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ConvertCharttoImageinSVGFormat
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertCharttoImageinSVGFormat.class);
+		String dataDir = Utils.getSharedDataDir(ConvertCharttoImageinSVGFormat.class) + "articles/";
 		// Create workbook object from source Excel file
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 
@@ -24,7 +24,7 @@ public class ConvertCharttoImageinSVGFormat {
 		// Save the chart into image in SVG format
 		ImageOrPrintOptions options = new ImageOrPrintOptions();
 		options.setSaveFormat(SaveFormat.SVG);
-		chart.toImage(dataDir + "ChartImage.svg", options);
+		chart.toImage(dataDir + "CCToImageinSVGFormat-out.svg", options);
 		// ExEnd:ConvertCharttoImageinSVGFormat
 	}
 }

@@ -10,7 +10,7 @@ public class UseExplicitLineBreaks {
 	public static void main(String[] args) throws Exception {
 		// ExStart:UseExplicitLineBreaks
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UseExplicitLineBreaks.class);
+		String dataDir = Utils.getSharedDataDir(UseExplicitLineBreaks.class) + "articles/";
 		// Create Workbook Object
 		Workbook wb = new Workbook();
 
@@ -39,7 +39,7 @@ public class UseExplicitLineBreaks {
 		cell.get(0, 0).setStyle(style);
 
 		// Save Excel File
-		wb.save(dataDir + "WrappingText.xls");
+		wb.save(dataDir + "UseExplicitLineBreaks-out.xls");
 		// ExEnd:UseExplicitLineBreaks
 	}
 }

@@ -13,7 +13,7 @@ public class AddWorksheetsToExistingExcelFile {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddWorksheetsToExistingExcelFile.class);
+		String dataDir = Utils.getSharedDataDir(AddWorksheetsToExistingExcelFile.class) + "worksheets/";
 		String filePath = dataDir + "book1.xls";
 
 		// Creating a file stream containing the Excel file to be opened
@@ -32,7 +32,7 @@ public class AddWorksheetsToExistingExcelFile {
 		worksheet.setName("My Worksheet");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "AWToExistingExcelFile-out.xls");
 
 		// Print Message
 		System.out.println("Sheet added successfully.");

@@ -8,7 +8,7 @@ public class VerifyPasswordtoProtectWorksheet {
 	public static void main(String[] args) throws Exception {
 		// ExStart:VerifyPasswordtoProtectWorksheet
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(VerifyPasswordtoProtectWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(VerifyPasswordtoProtectWorksheet.class) + "articles/";
 		// Create an instance of Workbook and load a spreadsheet
 		Workbook book = new Workbook(dataDir + "book1.xlsx");
 

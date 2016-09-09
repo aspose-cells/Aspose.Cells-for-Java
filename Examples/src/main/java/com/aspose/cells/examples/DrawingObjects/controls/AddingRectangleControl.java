@@ -13,7 +13,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingRectangleControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingRectangleControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingRectangleControl.class) + "DrawingObjects/";
 		// Instantiate a new Workbook.
 		Workbook excelbook = new Workbook();
 
@@ -42,6 +42,6 @@ public class AddingRectangleControl {
 		linestyle.setDashStyle(MsoLineDashStyle.SOLID);
 
 		// Save the excel file.
-		excelbook.save(dataDir + "tstrectangle.xls");
+		excelbook.save(dataDir + "ARControl-out.xls");
 	}
 }

@@ -8,7 +8,7 @@ public class LimitNumberofPagesGenerated {
 	public static void main(String[] args) throws Exception {
 		// ExStart:LimitNumberofPagesGenerated
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(LimitNumberofPagesGenerated.class);
+		String dataDir = Utils.getSharedDataDir(LimitNumberofPagesGenerated.class) + "articles/";
 		// Open an Excel file
 		Workbook wb = new Workbook(dataDir + "TestBook.xlsx");
 		// Instantiate the PdfSaveOption
@@ -21,7 +21,7 @@ public class LimitNumberofPagesGenerated {
 		options.setPageCount(2);
 
 		// Save the PDF file
-		wb.save(dataDir + "outPDF1.pdf", options);
+		wb.save(dataDir + "LNOfPagesGenerated-out.pdf", options);
 		// ExEnd:LimitNumberofPagesGenerated
 	}
 }

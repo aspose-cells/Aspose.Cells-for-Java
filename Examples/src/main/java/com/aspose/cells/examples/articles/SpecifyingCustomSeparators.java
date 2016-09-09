@@ -10,7 +10,7 @@ public class SpecifyingCustomSeparators {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SpecifyingCustomSeparators
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SpecifyingCustomSeparators.class);
+		String dataDir = Utils.getSharedDataDir(SpecifyingCustomSeparators.class) + "articles/";
 		Workbook workbook = new Workbook();
 
 		// Specify custom separators
@@ -28,7 +28,7 @@ public class SpecifyingCustomSeparators {
 
 		worksheet.autoFitColumns();
 
-		workbook.save("output.pdf");
+		workbook.save("SpecifyingCustomSeparators-out.pdf");
 		// ExEnd:SpecifyingCustomSeparators
 	}
 }

@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 // ExStart:LightCellsTest1
 public class LightCellsTest1 {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(LightCellsTest1.class);
+		String dataDir = Utils.getSharedDataDir(LightCellsTest1.class) + "articles/";
 		LoadOptions opts = new LoadOptions();
 		LightCellsDataHandlerVisitCells v = new LightCellsDataHandlerVisitCells();
 		opts.setLightCellsDataHandler((LightCellsDataHandler) v);

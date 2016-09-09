@@ -2,13 +2,14 @@ package com.aspose.cells.examples.data.addon.namedranges;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.data.addon.merging.UnMergingCellsInWorksheet;
 
 public class AccessAllNamedRanges {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:AccessAllNamedRanges
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AccessAllNamedRanges.class);
+		String dataDir = Utils.getSharedDataDir(AccessAllNamedRanges.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

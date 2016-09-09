@@ -13,7 +13,7 @@ public class ConvertWorksheettoImage {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ConvertWorksheettoImage
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertWorksheettoImage.class);
+		String dataDir = Utils.getSharedDataDir(ConvertWorksheettoImage.class) + "articles/";
 		//Instantiate a new Workbook object
 		//Open template
 		Workbook book = new Workbook(dataDir + "book1.xlsx");
@@ -43,7 +43,7 @@ public class ConvertWorksheettoImage {
 		SheetRender sr = new SheetRender(sheet, options);
 
 		//Render/save the image for the sheet
-		sr.toImage(0, dataDir + "SheetImage.tiff");
+		sr.toImage(0, dataDir + "CWorksheettoImage-out.tiff");
 		// ExEnd:ConvertWorksheettoImage
 	}
 }

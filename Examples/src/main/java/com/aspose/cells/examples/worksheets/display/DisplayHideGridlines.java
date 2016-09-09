@@ -8,7 +8,7 @@ public class DisplayHideGridlines {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DisplayHideGridlines.class);
+		String dataDir = Utils.getSharedDataDir(DisplayHideGridlines.class) + "worksheets/";
 
 		// Instantiating a Workbook object by excel file path
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -22,7 +22,7 @@ public class DisplayHideGridlines {
 		worksheet.setGridlinesVisible(false);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "DisplayHideGridlines-out.xls");
 
 		// Print message
 		System.out.println("Grid lines are now hidden on sheet 1, please check the output document.");

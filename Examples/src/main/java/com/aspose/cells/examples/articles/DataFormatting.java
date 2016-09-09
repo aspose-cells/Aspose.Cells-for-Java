@@ -20,7 +20,7 @@ public class DataFormatting {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DataFormatting
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DataFormatting.class);
+		String dataDir = Utils.getSharedDataDir(DataFormatting.class) + "articles/";
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
 		// Obtain the cells of the first worksheet.
@@ -661,7 +661,7 @@ public class DataFormatting {
 		// Set N column's width to fit the contents.
 		workbook.getWorksheets().get(0).getCells().setColumnWidth(13, 9.33);
 
-		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "DataFormatting-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:DataFormatting
 	}
 }

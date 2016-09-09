@@ -13,7 +13,7 @@ public class CustomSliceOrSectorColorsPieChart {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CustomSliceOrSectorColorsPieChart
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CustomSliceOrSectorColorsPieChart.class);
+		String dataDir = Utils.getSharedDataDir(CustomSliceOrSectorColorsPieChart.class) + "articles/";
 		// Create a workbook object from the template file
 		Workbook workbook = new Workbook();
 
@@ -74,7 +74,7 @@ public class CustomSliceOrSectorColorsPieChart {
 		worksheet.autoFitColumns();
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "CSOrSColorsPieChart-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:CustomSliceOrSectorColorsPieChart
 	}
 }

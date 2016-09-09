@@ -13,7 +13,7 @@ public class SavingTextFilewithCustomSeparator {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SavingTextFilewithCustomSeparator.class);
+		String dataDir = Utils.getSharedDataDir(SavingTextFilewithCustomSeparator.class) + "files/";
 
 		// Creating an Workbook object with an Excel file path
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -21,7 +21,7 @@ public class SavingTextFilewithCustomSeparator {
 		TxtSaveOptions toptions = new TxtSaveOptions();
 		// Specify the separator
 		toptions.setSeparator(';');
-		workbook.save(dataDir + "output.csv");
+		workbook.save(dataDir + "STFWCSeparator-out.csv");
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");

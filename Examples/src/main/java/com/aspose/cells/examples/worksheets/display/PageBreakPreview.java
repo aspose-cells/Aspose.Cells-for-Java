@@ -8,7 +8,7 @@ public class PageBreakPreview {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(PageBreakPreview.class);
+		String dataDir = Utils.getSharedDataDir(PageBreakPreview.class) + "worksheets/";
 
 		// Instantiating a Excel object by excel file path
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -22,7 +22,7 @@ public class PageBreakPreview {
 		worksheet.setPageBreakPreview(true);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "PageBreakPreview-out.xls");
 
 		// Print message
 		System.out.println("Page break preview is enabled for sheet 1, please check the output document.");

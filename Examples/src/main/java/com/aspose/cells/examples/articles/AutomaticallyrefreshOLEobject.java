@@ -9,7 +9,7 @@ public class AutomaticallyrefreshOLEobject {
 	public static void main(String[] args) throws Exception {
 		// ExStart:AutomaticallyrefreshOLEobject
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AutomaticallyrefreshOLEobject.class);
+		String dataDir = Utils.getSharedDataDir(AutomaticallyrefreshOLEobject.class) + "articles/";
 
 		// Create workbook object from your sample excel file
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");
@@ -21,7 +21,7 @@ public class AutomaticallyrefreshOLEobject {
 		sheet.getOleObjects().get(0).setAutoLoad(true);
 
 		// Save the worbook in xlsx format
-		wb.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "ARefreshOLEobject-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:AutomaticallyrefreshOLEobject
 	}
 

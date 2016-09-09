@@ -10,7 +10,7 @@ public class OpeningSpreadsheetMLFiles {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningSpreadsheetMLFiles.class);
+		String dataDir = Utils.getSharedDataDir(OpeningSpreadsheetMLFiles.class) + "files/";
 		String filePath = dataDir + "Book1.html";
 
 		// Opening SpreadsheetML Files

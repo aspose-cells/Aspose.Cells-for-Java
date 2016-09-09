@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetHeadersAndFooters {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(SetHeadersAndFooters.class);
+		String dataDir = Utils.getSharedDataDir(SetHeadersAndFooters.class) + "worksheets/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -39,6 +39,6 @@ public class SetHeadersAndFooters {
 
 		// Setting the current page number and page count at the right footer
 		pageSetup.setFooter(2, "&Pof&N");
-		workbook.save(dataDir + "SetHeadersAndFooters_out.xls");
+		workbook.save(dataDir + "SetHeadersAndFooters-out.xls");
 	}
 }

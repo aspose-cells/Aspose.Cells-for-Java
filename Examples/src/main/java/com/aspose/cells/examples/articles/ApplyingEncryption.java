@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class ApplyingEncryption {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ApplyingEncryption
-		String dataDir = Utils.getDataDir(ApplyingEncryption.class);
+		String dataDir = Utils.getSharedDataDir(ApplyingEncryption.class) + "articles/";
 
 		// Instantiate a Workbook object.
 		Workbook workbook = new Workbook(dataDir + "Book1.xls");
@@ -19,7 +19,7 @@ public class ApplyingEncryption {
 		workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "encryptedBook1.xls");
+		workbook.save(dataDir + "AEncryption-out.xls");
 		// ExEnd:ApplyingEncryption
 	}
 }

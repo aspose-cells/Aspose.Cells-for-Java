@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingLabelControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingLabelControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingLabelControl.class) + "DrawingObjects/";
 
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
@@ -32,6 +32,6 @@ public class AddingLabelControl {
 		label.getFillFormat().setForeColor(Color.getYellow());
 
 		// Saves the file.
-		workbook.save(dataDir + "tstlabel.xls");
+		workbook.save(dataDir + "ALControl-out.xls");
 	}
 }

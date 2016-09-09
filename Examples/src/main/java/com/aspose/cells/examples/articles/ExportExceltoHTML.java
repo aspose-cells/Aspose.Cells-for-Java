@@ -9,7 +9,7 @@ public class ExportExceltoHTML {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ExportExceltoHTML
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExportExceltoHTML.class);
+		String dataDir = Utils.getSharedDataDir(ExportExceltoHTML.class) + "articles/";
 		// Create your workbook
 		Workbook wb = new Workbook();
 
@@ -26,7 +26,7 @@ public class ExportExceltoHTML {
 		// Save your workbook in HTML format and export gridlines
 		HtmlSaveOptions opts = new HtmlSaveOptions();
 		opts.setExportGridLines(true);
-		wb.save(dataDir + "output.html", opts);
+		wb.save(dataDir + "EExceltoHTML-out.html", opts);
 		// ExEnd:ExportExceltoHTML
 	}
 

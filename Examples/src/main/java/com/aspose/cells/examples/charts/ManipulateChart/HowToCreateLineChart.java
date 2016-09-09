@@ -8,7 +8,7 @@ public class HowToCreateLineChart {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(HowToCreateLineChart.class);
+		String dataDir = Utils.getSharedDataDir(HowToCreateLineChart.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -56,7 +56,7 @@ public class HowToCreateLineChart {
 		serieses.add("A1:B3", true);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "HTCLChart-out.xls");
 
 		// Print message
 		System.out.println("Line chart is successfully created.");

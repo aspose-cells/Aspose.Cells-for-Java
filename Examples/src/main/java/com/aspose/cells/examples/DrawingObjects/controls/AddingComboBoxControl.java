@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingComboBoxControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingComboBoxControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingComboBoxControl.class) + "DrawingObjects/";
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -56,6 +56,6 @@ public class AddingComboBoxControl {
 		sheet.autoFitColumns();
 
 		// Saves the file.
-		workbook.save(dataDir + "tstcombobox.xls");
+		workbook.save(dataDir + "ACBControl-out.xls");
 	}
 }

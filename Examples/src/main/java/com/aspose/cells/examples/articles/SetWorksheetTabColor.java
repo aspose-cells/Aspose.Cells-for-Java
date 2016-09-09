@@ -9,7 +9,7 @@ public class SetWorksheetTabColor {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SetWorksheetTabColor
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SetWorksheetTabColor.class);
+		String dataDir = Utils.getSharedDataDir(SetWorksheetTabColor.class) + "articles/";
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook(dataDir + "Book1.xls");
 		// Get the first worksheet in the book

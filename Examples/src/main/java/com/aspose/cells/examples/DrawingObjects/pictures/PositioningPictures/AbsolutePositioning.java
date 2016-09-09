@@ -4,11 +4,12 @@ import com.aspose.cells.Picture;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.DrawingObjects.pictures.AddingPictures;
 
 public class AbsolutePositioning {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AbsolutePositioning.class);
+		String dataDir = Utils.getSharedDataDir(AbsolutePositioning.class) + "DrawingObjects/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -26,6 +27,6 @@ public class AbsolutePositioning {
 		picture.setUpperDeltaY(200);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "test_pictures.xls");
+		workbook.save(dataDir + "APositioning-out.xls");
 	}
 }

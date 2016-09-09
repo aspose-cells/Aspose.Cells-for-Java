@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class InsertingMultipleRows {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(InsertingMultipleRows.class);
+		String dataDir = Utils.getSharedDataDir(InsertingMultipleRows.class) + "RowsColumns/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
 
@@ -17,6 +17,6 @@ public class InsertingMultipleRows {
 		worksheet.getCells().insertRows(2, 10);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "IMultipleRows-out.xls");
 	}
 }

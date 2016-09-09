@@ -16,7 +16,7 @@ public class CopyRangeDataWithStyle {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CopyRangeDataWithStyle
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyRangeDataWithStyle.class);
+		String dataDir = Utils.getSharedDataDir(CopyRangeDataWithStyle.class) + "articles/";
 
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();
@@ -77,7 +77,7 @@ public class CopyRangeDataWithStyle {
 		range2.copy(range);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "CopyRangeDataWithFormatting.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "CRDataWithStyle-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:CopyRangeDataWithStyle
 	}
 }

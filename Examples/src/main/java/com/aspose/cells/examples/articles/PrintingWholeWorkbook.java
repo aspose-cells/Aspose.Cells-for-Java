@@ -10,7 +10,7 @@ public class PrintingWholeWorkbook {
 	public static void main(String[] args) throws Exception {
 		// ExStart:PrintingWholeWorkbook
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(PrintingWholeWorkbook.class);
+		String dataDir = Utils.getSharedDataDir(PrintingWholeWorkbook.class) + "articles/";
 		// Instantiate a new workbook
 		Workbook book = new Workbook(dataDir + "Book1.xls");
 

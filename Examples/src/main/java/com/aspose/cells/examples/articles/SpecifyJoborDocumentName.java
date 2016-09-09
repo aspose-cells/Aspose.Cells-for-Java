@@ -11,7 +11,7 @@ public class SpecifyJoborDocumentName {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SpecifyJoborDocumentName
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SpecifyJoborDocumentName.class);
+		String dataDir = Utils.getSharedDataDir(SpecifyJoborDocumentName.class) + "articles/";
 		// Create workbook object from source Excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 

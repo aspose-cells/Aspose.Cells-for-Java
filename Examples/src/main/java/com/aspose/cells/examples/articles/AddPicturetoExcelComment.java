@@ -11,7 +11,7 @@ public class AddPicturetoExcelComment {
 	public static void main(String[] args) throws Exception {
 		// ExStart:AddPicturetoExcelComment
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddPicturetoExcelComment.class);
+		String dataDir = Utils.getSharedDataDir(AddPicturetoExcelComment.class) + "articles/";
 		// Instantiate a Workbook
 		Workbook workbook = new Workbook();
 
@@ -38,7 +38,7 @@ public class AddPicturetoExcelComment {
 		comment.getCommentShape().getFillFormat().setImageData(picData);
 
 		// Save the workbook
-		workbook.save(dataDir + "commentwithpicture1.xlsx");
+		workbook.save(dataDir + "APToExcelComment-out.xlsx");
 		// ExEnd:AddPicturetoExcelComment
 	}
 }

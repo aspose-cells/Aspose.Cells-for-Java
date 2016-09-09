@@ -8,7 +8,7 @@ public class FormatRanges1 {
 	public static void main(String[] args) throws Exception {
 		// ExStart:FormatRanges1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FormatRanges1.class);
+		String dataDir = Utils.getSharedDataDir(FormatRanges1.class) + "data/";
 
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
@@ -47,7 +47,7 @@ public class FormatRanges1 {
 		}
 
 		// Save the excel file.
-		workbook.save(dataDir + "rangestyles.xls");
+		workbook.save(dataDir + "FRanges1-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

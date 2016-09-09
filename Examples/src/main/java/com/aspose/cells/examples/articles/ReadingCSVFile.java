@@ -9,7 +9,7 @@ public class ReadingCSVFile {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ReadingCSVFile
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ReadingCSVFile.class);
+		String dataDir = Utils.getSharedDataDir(ReadingCSVFile.class) + "articles/";
 
 		// Set Multi Encoded Property to True
 		TxtLoadOptions options = new TxtLoadOptions();
@@ -19,7 +19,7 @@ public class ReadingCSVFile {
 		Workbook workbook = new Workbook(dataDir + "MutliEncoded.csv", options);
 
 		// Save it in XLSX format
-		workbook.save(dataDir + "out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "ReadingCSVFile-out.xlsx", SaveFormat.XLSX);
 		// ExEnd:ReadingCSVFile
 	}
 }

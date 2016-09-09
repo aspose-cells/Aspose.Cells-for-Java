@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 public class CommentFormatting {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CommentFormatting.class);
+		String dataDir = Utils.getSharedDataDir(CommentFormatting.class) + "DrawingObjects/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -34,6 +34,6 @@ public class CommentFormatting {
 		// Setting the width of the font to 2
 		comment.setWidthCM(2);
 		// Saving the Excel file
-		workbook.save(dataDir + "book1.xls");
+		workbook.save(dataDir + "CFormatting-out.xls");
 	}
 }

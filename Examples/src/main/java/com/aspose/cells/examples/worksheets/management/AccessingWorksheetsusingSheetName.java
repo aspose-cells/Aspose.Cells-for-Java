@@ -2,6 +2,7 @@ package com.aspose.cells.examples.worksheets.management;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.worksheets.display.RemovePanes;
 
 import java.io.FileInputStream;
 
@@ -10,7 +11,7 @@ public class AccessingWorksheetsusingSheetName {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AccessingWorksheetsusingSheetName.class);
+		String dataDir = Utils.getSharedDataDir(AccessingWorksheetsusingSheetName.class) + "worksheets/";
 		String filePath = dataDir + "book1.xlsx";
 
 		// Creating a file stream containing the Excel file to be opened

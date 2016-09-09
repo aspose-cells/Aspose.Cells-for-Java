@@ -7,7 +7,7 @@ public class GetVersionNumberofApplication {
 	public static void main(String[] args) throws Exception {
 		// ExStart:GetVersionNumberofApplication
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GetVersionNumberofApplication.class);
+		String dataDir = Utils.getSharedDataDir(GetVersionNumberofApplication.class) + "articles/";
 		// Create a workbook reference
 		Workbook workbook = null;
 

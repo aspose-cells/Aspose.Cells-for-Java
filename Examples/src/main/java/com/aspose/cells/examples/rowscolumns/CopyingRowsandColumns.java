@@ -8,7 +8,7 @@ public class CopyingRowsandColumns {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CopyingRowsandColumns
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyingRowsandColumns.class);
+		String dataDir = Utils.getSharedDataDir(CopyingRowsandColumns.class) + "RowsColumns/";
 
 		// Create a new Workbook.
 		Workbook excelWorkbook = new Workbook(dataDir + "workbook.xls");
@@ -26,7 +26,7 @@ public class CopyingRowsandColumns {
 		wsTemplate.getCells().copyColumn(wsTemplate.getCells(), 1, 4);
 
 		// Save the excel file.
-		excelWorkbook.save(dataDir + "workbook.out.xls");
+		excelWorkbook.save(dataDir + "CopyingRowsandColumns-out.xls");
 
 		// Print message
 		System.out.println("Row and Column copied successfully.");

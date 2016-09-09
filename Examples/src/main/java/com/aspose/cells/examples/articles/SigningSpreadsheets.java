@@ -14,7 +14,7 @@ public class SigningSpreadsheets {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SigningSpreadsheets
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SigningSpreadsheets.class);
+		String dataDir = Utils.getSharedDataDir(SigningSpreadsheets.class) + "articles/";
 		// Create an instance of DigitalSignatureCollection
 		DigitalSignatureCollection signatures = new DigitalSignatureCollection();
 
@@ -41,7 +41,7 @@ public class SigningSpreadsheets {
 		workbook.setDigitalSignature(signatures);
 
 		// Save the signed spreadsheet
-		workbook.save(dataDir + "signed.xlsx");
+		workbook.save(dataDir + "SSpreadsheets-out.xlsx");
 		// ExEnd:SigningSpreadsheets
 	}
 }

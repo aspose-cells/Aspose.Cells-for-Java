@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class ManipulatingTextBoxControls {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ManipulatingTextBoxControls.class);
+		String dataDir = Utils.getSharedDataDir(ManipulatingTextBoxControls.class) + "DrawingObjects/";
 
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -32,6 +32,6 @@ public class ManipulatingTextBoxControls {
 		textbox1.setText("This is an alternative text");
 
 		// Save the excel file.
-		workbook.save(dataDir + "tsttextboxes1.xls");
+		workbook.save(dataDir + "MTBControls-out.xls");
 	}
 }

@@ -9,7 +9,7 @@ public class ProtectingWorksheet {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ProtectingWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(ProtectingWorksheet.class) + "worksheets/";
 
 		// Instantiating a Excel object by excel file path
 		Workbook excel = new Workbook(dataDir + "book1.xls");
@@ -29,7 +29,7 @@ public class ProtectingWorksheet {
 		protection.setPassword("1234");
 
 		// Saving the modified Excel file in default format
-		excel.save(dataDir + "output.xls");
+		excel.save(dataDir + "ProtectingWorksheet-out.xls");
 
 		// Print Message
 		System.out.println("Sheet protected successfully.");

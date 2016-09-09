@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ScalingFactor {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(ScalingFactor.class);
+		String dataDir = Utils.getSharedDataDir(ScalingFactor.class) + "worksheets/";
 		// Instantiating a Excel object
 		Workbook workbook = new Workbook();
 
@@ -20,6 +20,6 @@ public class ScalingFactor {
 		// Setting the scaling factor to 100
 		PageSetup pageSetup = sheet.getPageSetup();
 		pageSetup.setZoom(100);
-		workbook.save(dataDir + "ScalingFactor_out.xls");
+		workbook.save(dataDir + "ScalingFactor-out.xls");
 	}
 }

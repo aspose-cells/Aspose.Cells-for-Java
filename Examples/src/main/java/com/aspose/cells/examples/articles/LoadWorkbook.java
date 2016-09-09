@@ -15,7 +15,7 @@ public class LoadWorkbook {
 	public static void main(String[] args) throws Exception {
 		// ExStart:LoadWorkbook
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(LoadWorkbook.class);
+		String dataDir = Utils.getSharedDataDir(LoadWorkbook.class) + "articles/";
 
 		// Create a sample workbook and add some data inside the first worksheet
 		Workbook workbook = new Workbook();
@@ -44,7 +44,7 @@ public class LoadWorkbook {
 		workbook = new Workbook(bain, opts);
 
 		// Save the workbook in pdf format
-		workbook.save(dataDir + "output-a3.pdf");
+		workbook.save(dataDir + "LWorkbook-out.pdf");
 		// ExEnd:LoadWorkbook
 	}
 

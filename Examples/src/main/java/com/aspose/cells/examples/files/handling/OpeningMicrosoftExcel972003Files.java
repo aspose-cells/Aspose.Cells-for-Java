@@ -10,7 +10,7 @@ public class OpeningMicrosoftExcel972003Files {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningMicrosoftExcel972003Files.class);
+		String dataDir = Utils.getSharedDataDir(OpeningMicrosoftExcel972003Files.class) + "files/";
 		String filePath = dataDir + "Book1.html";
 
 		// Opening Microsoft Excel 97 Files

@@ -14,7 +14,7 @@ public class ConditionalFormattingOnCellValue {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ApplyConditionalFormattingOnCellValue
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConditionalFormattingOnCellValue.class);
+		String dataDir = Utils.getSharedDataDir(ConditionalFormattingOnCellValue.class) + "articles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 		Worksheet sheet = workbook.getWorksheets().get(0);
@@ -33,7 +33,7 @@ public class ConditionalFormattingOnCellValue {
 		int conditionIndex = fcs.addCondition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "50", "100");
 		FormatCondition fc = fcs.get(conditionIndex);
 		fc.getStyle().setBackgroundColor(Color.getRed());
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "CFOnCellValue-out.xls");
 		// ExEnd:ApplyConditionalFormattingOnCellValue
 	}
 }

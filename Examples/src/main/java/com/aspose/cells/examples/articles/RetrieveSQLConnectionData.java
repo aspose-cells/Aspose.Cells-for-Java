@@ -12,7 +12,7 @@ public class RetrieveSQLConnectionData {
 	public static void main(String[] args) throws Exception {
 		// ExStart:RetrieveSQLConnectionData
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(RetrieveSQLConnectionData.class);
+		String dataDir = Utils.getSharedDataDir(RetrieveSQLConnectionData.class) + "articles/";
 		// Create a workbook object from source file
 		Workbook workbook = new Workbook(dataDir + "connection.xlsx");
 

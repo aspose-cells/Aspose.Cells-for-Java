@@ -8,7 +8,7 @@ public class HowToCreateCustomChart {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(HowToCreateCustomChart.class);
+		String dataDir = Utils.getSharedDataDir(HowToCreateCustomChart.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -56,7 +56,7 @@ public class HowToCreateCustomChart {
 		serieses.add("A1:B3", true);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "HTCCustomChart-out.xls");
 
 		// Print message
 		System.out.println("Customized chart is successfully created.");

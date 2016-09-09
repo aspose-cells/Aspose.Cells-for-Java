@@ -11,7 +11,7 @@ public class ConvertWorksheettoImageFile {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ConvertWorksheettoImageFile
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertWorksheettoImageFile.class);
+		String dataDir = Utils.getSharedDataDir(ConvertWorksheettoImageFile.class) + "articles/";
 		// Create a new Workbook object
 		// Open a template excel file
 		Workbook book = new Workbook(dataDir + "book.xlsx");
@@ -26,7 +26,7 @@ public class ConvertWorksheettoImageFile {
 		// Render the sheet with respect to specified image/print options
 		SheetRender render = new SheetRender(sheet, imgOptions);
 		// Render the image for the sheet
-		render.toImage(0, dataDir + "SheetImage.jpg");
+		render.toImage(0, dataDir + "CWToImageFile.jpg");
 		// ExEnd:ConvertWorksheettoImageFile
 	}
 }

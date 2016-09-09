@@ -6,9 +6,8 @@ import com.aspose.cells.examples.Utils;
 public class SettingCategoryData {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingCategoryData.class);
+		String dataDir = Utils.getSharedDataDir(SettingCategoryData.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -69,10 +68,9 @@ public class SettingCategoryData {
 		// Setting the data source for the category data of NSeries
 		nSeries.setCategoryData("C1:C4");
 
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "SCategoryData-out.xls");
 
 		// Print message
 		System.out.println("Workbook with chart is created successfully.");
-		// ExEnd:1
 	}
 }

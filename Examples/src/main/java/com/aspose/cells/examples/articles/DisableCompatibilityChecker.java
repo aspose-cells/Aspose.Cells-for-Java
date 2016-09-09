@@ -7,7 +7,7 @@ public class DisableCompatibilityChecker {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DisableCompatibilityChecker
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DisableCompatibilityChecker.class);
+		String dataDir = Utils.getSharedDataDir(DisableCompatibilityChecker.class) + "articles/";
 		// Open a template file
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 
@@ -15,7 +15,7 @@ public class DisableCompatibilityChecker {
 		workbook.getSettings().setCheckComptiliblity(false);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "outCompCheck.xls");
+		workbook.save(dataDir + "DCChecker-out.xls");
 		// ExEnd:DisableCompatibilityChecker
 	}
 }

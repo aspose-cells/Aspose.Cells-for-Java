@@ -8,11 +8,12 @@ import com.aspose.cells.OleObject;
 import com.aspose.cells.OleObjectCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.DrawingObjects.controls.AddingRadioButtonControl;
 
 public class ExtractingOLEObjects {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExtractingOLEObjects.class);
+		String dataDir = Utils.getSharedDataDir(ExtractingOLEObjects.class) + "DrawingObjects/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

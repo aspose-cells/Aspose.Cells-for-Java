@@ -8,7 +8,7 @@ public class CreateChart {
 	public static void main(String[] args) throws Exception {
 		// ExStart:CreateChart
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreateChart.class);
+		String dataDir = Utils.getSharedDataDir(CreateChart.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -44,7 +44,7 @@ public class CreateChart {
 		serieses.add("A1:B3", true);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "book1.out.xls");
+		workbook.save(dataDir + "CreateChart-out.xls");
 
 		// Print message
 		System.out.println("Workbook with chart is successfully created.");

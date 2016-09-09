@@ -11,7 +11,7 @@ public class SettingPageSetupOptions {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SettingPageSetupOptions
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingPageSetupOptions.class);
+		String dataDir = Utils.getSharedDataDir(SettingPageSetupOptions.class) + "articles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "CustomerReport.xls");
 
@@ -43,7 +43,7 @@ public class SettingPageSetupOptions {
 		pageSetup.setFirstPageNumber(2);
 
 		// Save the workbook
-		workbook.save(dataDir + "PageSetup.xls");
+		workbook.save(dataDir + "SettingPageSetupOptions-out.xls");
 		// ExEnd:SettingPageSetupOptions
 	}
 }

@@ -10,7 +10,7 @@ public class DetermineWhichAxisExistsInChart {
 	public static void main(String[] args) throws Exception {
 		// ExStart:DetermineWhichAxisExistsInChart
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DetermineWhichAxisExistsInChart.class);
+		String dataDir = Utils.getSharedDataDir(DetermineWhichAxisExistsInChart.class) + "articles/";
 		// Create workbook object
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 

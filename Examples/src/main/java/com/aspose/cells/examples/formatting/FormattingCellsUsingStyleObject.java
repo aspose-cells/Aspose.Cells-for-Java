@@ -15,7 +15,7 @@ import com.aspose.cells.examples.Utils;
 public class FormattingCellsUsingStyleObject {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FormattingCellsUsingStyleObject.class);
+		String dataDir = Utils.getSharedDataDir(FormattingCellsUsingStyleObject.class) + "formatting/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
 
@@ -52,6 +52,6 @@ public class FormattingCellsUsingStyleObject {
 		cell.setStyle(style);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "FCUsingStyleObject-out.xls");
 	}
 }

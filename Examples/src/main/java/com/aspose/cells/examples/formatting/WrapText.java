@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 public class WrapText {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(Orientation.class);
+		String dataDir = Utils.getSharedDataDir(WrapText.class) + "formatting/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -35,6 +35,6 @@ public class WrapText {
 		cell.setStyle(style1);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "book1.xls");
+		workbook.save(dataDir + "WrapText-out.xls");
 	}
 }

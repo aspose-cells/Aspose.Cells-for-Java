@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 public class ConsolidationFunctions {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConsolidationFunctions.class);
+		String dataDir = Utils.getSharedDataDir(ConsolidationFunctions.class) + "PivotTables/";
 		// Create workbook from source excel file
 		Workbook workbook = new Workbook(dataDir + "Book.xlsx");
 
@@ -29,6 +29,6 @@ public class ConsolidationFunctions {
 		pivotTable.calculateData();
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "CFunctions-out.xlsx");
 	}
 }

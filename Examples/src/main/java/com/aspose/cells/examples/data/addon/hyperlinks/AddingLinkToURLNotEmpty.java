@@ -14,7 +14,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingLinkToURLNotEmpty {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingLinkToURLNotEmpty.class);
+		String dataDir = Utils.getSharedDataDir(AddingLinkToURLNotEmpty.class) + "data/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -41,6 +41,6 @@ public class AddingLinkToURLNotEmpty {
 		hyperlinks.add("A1", 1, 1, "http://www.aspose.com");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "book1.xls");
+		workbook.save(dataDir + "ALTURLNEmpty-out.xls");
 	}
 }

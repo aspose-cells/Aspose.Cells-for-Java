@@ -10,7 +10,7 @@ public class OpeningCSVFiles {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningFiles.class);
+		String dataDir = Utils.getSharedDataDir(OpeningCSVFiles.class) + "files/";
 		// Opening CSV Files
 		// Creating and CSV LoadOptions object
 		LoadOptions loadOptions4 = new LoadOptions(FileFormatType.CSV);

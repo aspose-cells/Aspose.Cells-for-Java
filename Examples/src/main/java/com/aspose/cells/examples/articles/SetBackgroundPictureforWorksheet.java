@@ -11,7 +11,7 @@ public class SetBackgroundPictureforWorksheet {
 	public static void main(String[] args) throws Exception {
 		// ExStart:SetBackgroundPictureforWorksheet
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SetBackgroundPictureforWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(SetBackgroundPictureforWorksheet.class) + "articles/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 		// Get the first worksheet.
@@ -28,7 +28,7 @@ public class SetBackgroundPictureforWorksheet {
 		sheet.setBackground(imageData);
 
 		// Save the excel file
-		workbook.save(dataDir + "BackImageSheet.xls");
+		workbook.save(dataDir + "SBPforWorksheet.xls");
 		// ExEnd:SetBackgroundPictureforWorksheet
 	}
 }

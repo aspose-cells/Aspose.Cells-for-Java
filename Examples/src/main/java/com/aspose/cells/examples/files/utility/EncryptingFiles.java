@@ -9,7 +9,7 @@ public class EncryptingFiles {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(EncryptingFiles.class);
+		String dataDir = Utils.getSharedDataDir(EncryptingFiles.class) + "files/";
 
 		// Instantiate a Workbook object by excel file path
 		Workbook workbook = new Workbook(dataDir + "Book1.xls");
@@ -25,7 +25,7 @@ public class EncryptingFiles {
 		workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128);
 
 		// Save the excel file.
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "EFiles-out.xls");
 
 		// Print message
 		System.out.println("Encryption applied successfully on output file.");

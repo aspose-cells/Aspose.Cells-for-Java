@@ -8,7 +8,7 @@ public class ConvertingWorksheetToSVG {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertingWorksheetToSVG.class);
+		String dataDir = Utils.getSharedDataDir(ConvertingWorksheetToSVG.class) + "files/";
 
 		String path = dataDir + "Template.xlsx";
 

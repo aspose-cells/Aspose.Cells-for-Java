@@ -9,7 +9,7 @@ public class GetSetThemeColors {
 	public static void main(String[] args) throws Exception {
 		// ExStart:GetSetThemeColors
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GetSetThemeColors.class);
+		String dataDir = Utils.getSharedDataDir(GetSetThemeColors.class) + "articles/";
 		// Instantiate Workbook object
 		// Open an exiting excel file
 		Workbook workbook = new Workbook(dataDir + "book1.xlsx");
@@ -39,7 +39,7 @@ public class GetSetThemeColors {
 		System.out.println("theme color Accent2 changed to: " + c);
 
 		// Save the updated file
-		workbook.save(dataDir + "GetAndSetThemeColorBook.xlsx");
+		workbook.save(dataDir + "GetSetThemeColors-out.xlsx");
 		// ExEnd:GetSetThemeColors
 	}
 }

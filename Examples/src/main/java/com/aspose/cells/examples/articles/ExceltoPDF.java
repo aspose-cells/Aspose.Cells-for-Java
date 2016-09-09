@@ -8,7 +8,7 @@ public class ExceltoPDF {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ExceltoPDF
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExceltoPDF.class);
+		String dataDir = Utils.getSharedDataDir(ExceltoPDF.class) + "articles/";
 		// Initialize a new Workbook
 		// Open an Excel file
 		Workbook workbook = new Workbook(dataDir + "Mybook.xls");
@@ -18,7 +18,7 @@ public class ExceltoPDF {
 		pdfSaveOptions.setOnePagePerSheet(true);
 
 		// Save the PDF file
-		workbook.save(dataDir + "OutputFile.pdf", pdfSaveOptions);
+		workbook.save(dataDir + "ExceltoPDF-out.pdf", pdfSaveOptions);
 		// ExEnd:ExceltoPDF
 	}
 }

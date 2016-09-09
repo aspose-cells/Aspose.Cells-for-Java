@@ -8,11 +8,12 @@ import com.aspose.cells.ThemeColorType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.charts.ManipulateChart.HowToCreateCustomChart;
 
 public class ApplyingThemes {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ApplyingThemes.class);
+		String dataDir = Utils.getSharedDataDir(ApplyingThemes.class) + "charts/";
 
 		// Instantiate the workbook to open the file that contains a chart
 		Workbook workbook = new Workbook(dataDir + "book1.xlsx");
@@ -36,6 +37,6 @@ public class ApplyingThemes {
 		chart.getNSeries().get(0).getArea().getFillFormat().getSolidFill().setCellsColor(cc);
 
 		// Save the Excel file
-		workbook.save(dataDir + "out.xlsx");
+		workbook.save(dataDir + "AThemes-out.xlsx");
 	}
 }

@@ -11,7 +11,7 @@ public class SmartMarkerGroupingImage {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SmartMarkerGroupingImage.class);
+		String dataDir = Utils.getSharedDataDir(SmartMarkerGroupingImage.class) + "articles/";
 
 		SmartMarkerGroupingImage grouping = new SmartMarkerGroupingImage();
 		grouping.Execute(dataDir);

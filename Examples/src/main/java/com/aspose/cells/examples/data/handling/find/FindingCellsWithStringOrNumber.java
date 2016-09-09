@@ -8,7 +8,7 @@ public class FindingCellsWithStringOrNumber {
 	public static void main(String[] args) throws Exception {
 		// ExStart:FindingCellsWithStringOrNumber
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FindingCellsWithStringOrNumber.class);
+		String dataDir = Utils.getSharedDataDir(FindingCellsWithStringOrNumber.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

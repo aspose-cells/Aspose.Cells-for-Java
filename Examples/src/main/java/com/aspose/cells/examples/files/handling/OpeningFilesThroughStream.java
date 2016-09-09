@@ -10,7 +10,7 @@ public class OpeningFilesThroughStream {
 	public static void main(String[] args) throws Exception {
 		// ExStart:OpeningFilesThroughStream
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningFilesThroughStream.class);
+		String dataDir = Utils.getSharedDataDir(OpeningFilesThroughStream.class) + "files/";
 
 		// Opening workbook from stream
 		// Create a Stream object

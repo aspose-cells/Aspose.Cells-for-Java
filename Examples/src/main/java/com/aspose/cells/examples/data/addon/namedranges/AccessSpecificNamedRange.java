@@ -8,7 +8,7 @@ public class AccessSpecificNamedRange {
 	public static void main(String[] args) throws Exception {
 		// ExStart:AccessSpecificNamedRange
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AccessSpecificNamedRange.class);
+		String dataDir = Utils.getSharedDataDir(AccessSpecificNamedRange.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
