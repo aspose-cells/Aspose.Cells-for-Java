@@ -6,11 +6,12 @@ import com.aspose.cells.LookAtType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.data.handling.accessingcells.UsingCellName;
 
 public class FindingwithRegularExpressions {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FindingwithRegularExpressions.class);
+		String dataDir = Utils.getSharedDataDir(FindingwithRegularExpressions.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

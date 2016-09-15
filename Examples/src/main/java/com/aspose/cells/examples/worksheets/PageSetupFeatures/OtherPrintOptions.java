@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class OtherPrintOptions {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(OtherPrintOptions.class);
+		String dataDir = Utils.getSharedDataDir(OtherPrintOptions.class) + "worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -38,6 +38,6 @@ public class OtherPrintOptions {
 
 		// Allowing to print cell errors as N/A
 		pageSetup.setPrintErrors(PrintErrorsType.PRINT_ERRORS_NA);
-		workbook.save(dataDir + "OtherPrintOptions_out.xls");
+		workbook.save(dataDir + "OtherPrintOptions-out.xls");
 	}
 }

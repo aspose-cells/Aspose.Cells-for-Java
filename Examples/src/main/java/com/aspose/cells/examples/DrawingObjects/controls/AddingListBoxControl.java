@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingListBoxControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingListBoxControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingListBoxControl.class) + "DrawingObjects/";
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -61,6 +61,6 @@ public class AddingListBoxControl {
 		sheet.autoFitColumns();
 
 		// Saves the file.
-		workbook.save(dataDir + "tstlistbox.xls");
+		workbook.save(dataDir + "ALBControl-out.xls");
 	}
 }

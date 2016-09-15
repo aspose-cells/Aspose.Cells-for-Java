@@ -10,9 +10,9 @@ import com.aspose.cells.examples.Utils;
 
 public class SettingTextEffectsShadowOfShapeOrTextbox {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingTextEffectsShadowOfShapeOrTextbox
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingTextEffectsShadowOfShapeOrTextbox.class);
+		String dataDir = Utils.getSharedDataDir(SettingTextEffectsShadowOfShapeOrTextbox.class) + "articles/";
 
 		// Create workbook object
 		Workbook wb = new Workbook();
@@ -38,8 +38,8 @@ public class SettingTextEffectsShadowOfShapeOrTextbox {
 		tb.getFont().setSize(16);
 
 		// Save the output file
-		wb.save(dataDir + "output.xlsx", SaveFormat.XLSX);
-		// ExEnd:SettingTextEffectsShadowOfShapeOrTextbox
+		wb.save(dataDir + "STESOfShapeOrTextbox-out.xlsx", SaveFormat.XLSX);
+
 	}
 
 }

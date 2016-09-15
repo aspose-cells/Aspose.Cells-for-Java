@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class AutoFitRowsandColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AutoFitRowsandColumns
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AutoFitRowsandColumns.class);
+		String dataDir = Utils.getSharedDataDir(AutoFitRowsandColumns.class) + "RowsColumns/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "workbook.xls");
@@ -23,10 +23,10 @@ public class AutoFitRowsandColumns {
 		worksheet.autoFitColumn(0);
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "workbook.out.xls");
+		workbook.save(dataDir + "AutoFitRowsandColumns-out.xls");
 
 		// Print message
 		System.out.println("Row and Column auto fit successfully.");
-		// ExEnd:AutoFitRowsandColumns
+
 	}
 }

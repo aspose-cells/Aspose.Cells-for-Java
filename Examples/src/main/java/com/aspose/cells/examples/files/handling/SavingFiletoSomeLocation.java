@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 public class SavingFiletoSomeLocation {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SavingFiletoSomeLocation.class);
+		String dataDir = Utils.getSharedDataDir(SavingFiletoSomeLocation.class) + "files/";
 
 		String filePath = dataDir + "Book1.xls";
 
@@ -23,25 +23,25 @@ public class SavingFiletoSomeLocation {
 		// XlsSaveOptions(SaveFormat.Excel97To2003));
 
 		// Save in Excel2007 xlsx format
-		workbook.save(dataDir + ".output.xlsx", FileFormatType.XLSX);
+		workbook.save(dataDir + "SFTSomeLocation-out.xlsx", FileFormatType.XLSX);
 
 		// Save in Excel2007 xlsb format
-		workbook.save(dataDir + ".output.xlsb", FileFormatType.XLSB);
+		workbook.save(dataDir + "SFTSomeLocation-out.xlsb", FileFormatType.XLSB);
 
 		// Save in ODS format
-		workbook.save(dataDir + ".output.ods", FileFormatType.ODS);
+		workbook.save(dataDir + "SFTSomeLocation-out.ods", FileFormatType.ODS);
 
 		// Save in Pdf format
-		workbook.save(dataDir + ".output.pdf", FileFormatType.PDF);
+		workbook.save(dataDir + "SFTSomeLocation-out.pdf", FileFormatType.PDF);
 
 		// Save in Html format
-		workbook.save(dataDir + ".output.html", FileFormatType.HTML);
+		workbook.save(dataDir + "SFTSomeLocation-out.html", FileFormatType.HTML);
 
 		// Save in SpreadsheetML format
-		workbook.save(dataDir + ".output.xml", FileFormatType.EXCEL_2003_XML);
+		workbook.save(dataDir + "SFTSomeLocation-out.xml", FileFormatType.EXCEL_2003_XML);
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");
-		// ExEnd:1
+
 	}
 }

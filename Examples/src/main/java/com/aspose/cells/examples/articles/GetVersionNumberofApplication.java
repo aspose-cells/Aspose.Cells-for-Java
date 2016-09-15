@@ -5,9 +5,9 @@ import com.aspose.cells.examples.Utils;
 
 public class GetVersionNumberofApplication {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GetVersionNumberofApplication
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GetVersionNumberofApplication.class);
+		String dataDir = Utils.getSharedDataDir(GetVersionNumberofApplication.class) + "articles/";
 		// Create a workbook reference
 		Workbook workbook = null;
 
@@ -38,6 +38,6 @@ public class GetVersionNumberofApplication {
 		// Print the version number of Excel 2013 XLSX file
 		workbook = new Workbook(dataDir + "Excel2013.xlsx");
 		System.out.println("Excel 2013 XLSX Version: " + workbook.getBuiltInDocumentProperties().getVersion());
-		// ExEnd:GetVersionNumberofApplication
+
 	}
 }

@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ImplementCustomCalculationEngine {
 
-	// ExStart:ImplementCustomCalculationEngine
+
 	public class CustomEngine extends AbstractCalculationEngine {
 		public void calculate(CalculationData data) {
 			if (data.getFunctionName().toUpperCase().equals("SUM") == true) {
@@ -52,6 +52,6 @@ public class ImplementCustomCalculationEngine {
 		System.out.println("With Custom Engine Value of A1: " + a1.getStringValue());
 
 	}
-	// ExEnd:ImplementCustomCalculationEngine
+
 
 }

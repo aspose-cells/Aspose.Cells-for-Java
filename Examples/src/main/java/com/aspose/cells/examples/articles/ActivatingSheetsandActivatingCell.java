@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ActivatingSheetsandActivatingCell {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ActivatingSheetsandActivatingCell
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ActivatingSheetsandActivatingCell.class);
+		String dataDir = Utils.getSharedDataDir(ActivatingSheetsandActivatingCell.class) + "articles/";
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();
 		// Get the first worksheet in the workbook
@@ -27,7 +27,7 @@ public class ActivatingSheetsandActivatingCell {
 		// Set the 2nd row as the first visible row in the worksheet
 		worksheet.setFirstVisibleRow(1);
 		// Save the excel file
-		workbook.save(dataDir + "activecell.xls");
-		// ExEnd:ActivatingSheetsandActivatingCell
+		workbook.save(dataDir + "ASAActivatingCell-out.xls");
+
 	}
 }

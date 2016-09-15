@@ -14,7 +14,7 @@ import com.aspose.cells.examples.Utils;
 public class AddinganOvalControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddinganOvalControl.class);
+		String dataDir = Utils.getSharedDataDir(AddinganOvalControl.class) + "DrawingObjects/";
 		// Instantiate a new Workbook.
 		Workbook excelbook = new Workbook();
 
@@ -63,6 +63,6 @@ public class AddinganOvalControl {
 		lineformat1.setDashStyle(MsoLineDashStyle.SOLID);
 
 		// Save the excel file.
-		excelbook.save(dataDir + "tstovals.xls");
+		excelbook.save(dataDir + "AanOControl-out.xls");
 	}
 }

@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class InsertingRowsandColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:InsertingRowsandColumns
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(InsertingRowsandColumns.class);
+		String dataDir = Utils.getSharedDataDir(InsertingRowsandColumns.class) + "RowsColumns/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "workbook.xls");
@@ -31,10 +31,10 @@ public class InsertingRowsandColumns {
 		worksheet.getCells().insertColumns(5, 3);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "workbook.out.xls");
+		workbook.save(dataDir + "IRowsandColumns-out.xls");
 
 		// Print message
 		System.out.println("Rows and Columns inserted successfully.");
-		// ExEnd:InsertingRowsandColumns
+
 	}
 }

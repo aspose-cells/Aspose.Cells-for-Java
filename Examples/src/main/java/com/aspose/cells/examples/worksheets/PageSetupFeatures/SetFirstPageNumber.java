@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetFirstPageNumber {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(SetFirstPageNumber.class);
+		String dataDir = Utils.getSharedDataDir(SetFirstPageNumber.class) + "worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -21,6 +21,6 @@ public class SetFirstPageNumber {
 		PageSetup pageSetup = sheet.getPageSetup();
 		pageSetup.setFirstPageNumber(2);
 
-		workbook.save(dataDir + "SetFirstPageNumber_out.xls");
+		workbook.save(dataDir + "SetFirstPageNumber-out.xls");
 	}
 }

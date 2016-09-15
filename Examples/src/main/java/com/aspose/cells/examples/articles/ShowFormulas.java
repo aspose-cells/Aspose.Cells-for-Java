@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ShowFormulas {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ShowFormulas
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ShowFormulas.class);
+		String dataDir = Utils.getSharedDataDir(ShowFormulas.class) + "articles/";
 		// Load the source workbook
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -19,7 +19,7 @@ public class ShowFormulas {
 		worksheet.setShowFormulas(true);
 
 		// Save the workbook
-		workbook.save(dataDir + "out.xlsx");
-		// ExEnd:ShowFormulas
+		workbook.save(dataDir + "ShowFormulas-out.xlsx");
+
 	}
 }

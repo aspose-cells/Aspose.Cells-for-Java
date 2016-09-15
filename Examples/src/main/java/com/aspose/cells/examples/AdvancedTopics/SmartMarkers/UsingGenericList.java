@@ -10,11 +10,15 @@ import com.aspose.cells.StyleFlag;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorkbookDesigner;
 import com.aspose.cells.Worksheet;
+import com.aspose.cells.examples.Utils;
 
 public class UsingGenericList {
 
 	public static void main(String[] args) throws Exception {
 
+		// The path to the documents directory.
+		String dataDir = Utils.getSharedDataDir(UsingGenericList.class) + "SmartMarkers/";
+				
 		// Create a designer workbook
 		Workbook workbook = new Workbook();
 
@@ -82,53 +86,6 @@ public class UsingGenericList {
 		worksheet.autoFitColumns();
 
 		// Save the Excel file.
-		designer.getWorkbook().save("output.xlsx");
-	}
-
-	// This is the code for Wife.java class
-	public class Wife {
-
-		private String m_Name;
-		private int m_Age;
-
-		public Wife(String name, int age) {
-			this.m_Name = name;
-			this.m_Age = age;
-		}
-
-		public String getName() {
-			return m_Name;
-		}
-
-		public int getAge() {
-			return m_Age;
-		}
-
-	}
-
-	public class Husband {
-
-		private String m_Name;
-		private int m_Age;
-		private ArrayList<Wife> m_Wives;
-
-		public Husband(String name, int age, ArrayList<Wife> wives) {
-			this.m_Name = name;
-			this.m_Age = age;
-			this.m_Wives = wives;
-		}
-
-		public String getName() {
-			return m_Name;
-		}
-
-		public int getAge() {
-			return m_Age;
-		}
-
-		public ArrayList<Wife> getWives() {
-			return m_Wives;
-		}
-
+		designer.getWorkbook().save("UsingGenericList-out.xlsx");
 	}
 }

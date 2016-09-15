@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 public class SetBorder {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getDataDir(SetBorder.class);
+		String dataDir = Utils.getSharedDataDir(SetBorder.class) + "formatting/";
 		Style style = fc.getStyle();
 		style.setBorder(BorderType.LEFT_BORDER, CellBorderType.DASHED, Color.fromArgb(0, 255, 255));
 		style.setBorder(BorderType.TOP_BORDER, CellBorderType.DASHED, Color.fromArgb(0, 255, 255));

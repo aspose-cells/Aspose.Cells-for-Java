@@ -2,13 +2,14 @@ package com.aspose.cells.examples.charts.InsertingControlsintoCharts;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.charts.fundamental.CreateChart;
 
 public class AddingLabelControl {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingLabelControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingLabelControl.class) + "charts/";
 
 		String filePath = dataDir + "chart.xls";
 
@@ -25,10 +26,10 @@ public class AddingLabelControl {
 		label.getFillFormat().setForeColor(Color.getChocolate());
 
 		// Output the file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "ALControl-out.xls");
 
 		// Print message
 		System.out.println("Label added to chart successfully.");
-		// ExEnd:1
+
 	}
 }

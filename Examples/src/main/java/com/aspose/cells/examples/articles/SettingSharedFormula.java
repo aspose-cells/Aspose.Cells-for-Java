@@ -7,8 +7,8 @@ import com.aspose.cells.examples.Utils;
 
 public class SettingSharedFormula {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingSharedFormula
-		String dataDir = Utils.getDataDir(SettingSharedFormula.class);
+
+		String dataDir = Utils.getSharedDataDir(SettingSharedFormula.class) + "articles/";
 
 		String filePath = dataDir + "input.xlsx";
 
@@ -22,7 +22,7 @@ public class SettingSharedFormula {
 		cells.get("B2").setSharedFormula("=A2*0.09", 13, 1);
 
 		// Save the excel file
-		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
-		// ExEnd:SettingSharedFormula
+		workbook.save(dataDir + "SSharedFormula-out.xlsx", SaveFormat.XLSX);
+
 	}
 }

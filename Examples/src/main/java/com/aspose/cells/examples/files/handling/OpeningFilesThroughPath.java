@@ -8,9 +8,9 @@ import java.io.FileInputStream;
 public class OpeningFilesThroughPath {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningFilesThroughPath.class);
+		String dataDir = Utils.getSharedDataDir(OpeningFilesThroughPath.class) + "files/";
 
 		// Opening from path.
 		// Creating an Workbook object with an Excel file path
@@ -18,7 +18,7 @@ public class OpeningFilesThroughPath {
 
 		// Print message
 		System.out.println("Workbook opened using path successfully.");
-		// ExEnd:1
+
 
 	}
 }

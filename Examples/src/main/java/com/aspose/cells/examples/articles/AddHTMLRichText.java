@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class AddHTMLRichText {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddHTMLRichText
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddHTMLRichText.class);
+		String dataDir = Utils.getSharedDataDir(AddHTMLRichText.class) + "articles/";
 		Workbook workbook = new Workbook();
 
 		Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -17,7 +17,7 @@ public class AddHTMLRichText {
 		Cell cell = worksheet.getCells().get("A1");
 		cell.setHtmlString(
 				"<Font Style=\"FONT-WEIGHT: bold;FONT-STYLE: italic;TEXT-DECORATION: underline;FONT-FAMILY: Arial;FONT-SIZE: 11pt;COLOR: #ff0000;\">This is simple HTML formatted text.</Font>");
-		workbook.save(dataDir + "output.xlsx");
-		// ExEnd:AddHTMLRichText
+		workbook.save(dataDir + "AHTMLRText-out.xlsx");
+
 	}
 }

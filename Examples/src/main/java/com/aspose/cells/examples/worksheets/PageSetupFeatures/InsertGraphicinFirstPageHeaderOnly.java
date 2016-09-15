@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class InsertGraphicinFirstPageHeaderOnly {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(InsertGraphicinFirstPageHeaderOnly.class);
+		String dataDir = Utils.getSharedDataDir(InsertGraphicinFirstPageHeaderOnly.class) + "worksheets/";
 
 		// Creating a Workbook object
 		Workbook workbook = new Workbook();
@@ -46,7 +46,7 @@ public class InsertGraphicinFirstPageHeaderOnly {
 		pageSetup.setPicture(true, false, true, 2, picData);
 
 		// Saving the workbook
-		workbook.save(dataDir + "firstpageheaderpic.xlsx");
+		workbook.save(dataDir + "IGInFirstPageHeaderOnly-out.xlsx");
 
 		// Closing the FileStream object
 		inFile.close();

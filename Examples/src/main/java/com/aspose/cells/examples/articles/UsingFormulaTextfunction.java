@@ -7,8 +7,8 @@ import com.aspose.cells.examples.Utils;
 
 public class UsingFormulaTextfunction {
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingFormulaTextfunction
-		String dataDir = Utils.getDataDir(UsingFormulaTextfunction.class);
+
+		String dataDir = Utils.getSharedDataDir(UsingFormulaTextfunction.class) + "articles/";
 		// Create a workbook object
 		Workbook workbook = new Workbook();
 
@@ -28,6 +28,6 @@ public class UsingFormulaTextfunction {
 
 		// Print the results of A2. It will now print the text of the formula inside cell A1
 		System.out.println(cellA2.getStringValue());
-		// ExEnd:UsingFormulaTextfunction
+
 	}
 }

@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 public class FindingCellsEndWithSpecificCharacters {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FindingCellsEndWithSpecificCharacters.class);
+		String dataDir = Utils.getSharedDataDir(FindingCellsEndWithSpecificCharacters.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

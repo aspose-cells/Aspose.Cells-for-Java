@@ -8,11 +8,12 @@ import com.aspose.cells.TotalsCalculation;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.RowsColumns.UnhidingRowsandColumns;
 
 public class FormataListObject {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FormataListObject.class);
+		String dataDir = Utils.getSharedDataDir(FormataListObject.class) + "tables/";
 		// Create a workbook.
 		Workbook workbook = new Workbook();
 
@@ -223,6 +224,6 @@ public class FormataListObject {
 		listObject.getListColumns().get(1).setTotalsCalculation(TotalsCalculation.COUNT);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "List_Object.xlsx");
+		workbook.save(dataDir + "tables-out.xlsx");
 	}
 }

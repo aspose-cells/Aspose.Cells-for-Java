@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class EditRangesWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(EditRangesWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(EditRangesWorksheet.class) + "worksheets/";
 
 		// Instantiating a Excel object by excel file path
 		Workbook excel = new Workbook();
@@ -27,10 +27,10 @@ public class EditRangesWorksheet {
 		worksheet.protect(ProtectionType.ALL);
 
 		// Saving the modified Excel file in default format
-		excel.save(dataDir + "output.xls");
+		excel.save(dataDir + "EditRangesWorksheet-out.xls");
 
 		// Print Message
 		System.out.println("you can Edit Range .");
-		// ExEnd:1
+
 	}
 }

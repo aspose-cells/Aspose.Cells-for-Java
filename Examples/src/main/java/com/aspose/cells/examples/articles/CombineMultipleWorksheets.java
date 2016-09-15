@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CombineMultipleWorksheets {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CombineMultipleWorksheets
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CombineMultipleWorksheets.class);
+		String dataDir = Utils.getSharedDataDir(CombineMultipleWorksheets.class) + "articles/";
 
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -32,7 +32,7 @@ public class CombineMultipleWorksheets {
 			TotalRowCount = sourceRange.getRowCount() + TotalRowCount;
 		}
 
-		destWorkbook.save(dataDir + "output.xlsx");
-		// ExEnd:CombineMultipleWorksheets
+		destWorkbook.save(dataDir + "CMWorksheets-out.xlsx");
+
 	}
 }

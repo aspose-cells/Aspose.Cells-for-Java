@@ -11,9 +11,9 @@ import com.aspose.cells.examples.Utils;
 
 public class AddConditionalIconsSet {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddConditionalIconsSet
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddConditionalIconsSet.class);
+		String dataDir = Utils.getSharedDataDir(AddConditionalIconsSet.class) + "articles/";
 		// Instantiate an instance of Workbook
 		Workbook workbook = new Workbook();
 		// Get the first worksheet (default worksheet) in the workbook
@@ -82,7 +82,7 @@ public class AddConditionalIconsSet {
 		worksheet.getPictures().add(3, 2, stream5);
 
 		// Save the Excel file
-		workbook.save(dataDir + "outfile_cond_icons1.xlsx");
-		// ExEnd:AddConditionalIconsSet
+		workbook.save(dataDir + "ACIconsSet-out.xlsx");
+
 	}
 }

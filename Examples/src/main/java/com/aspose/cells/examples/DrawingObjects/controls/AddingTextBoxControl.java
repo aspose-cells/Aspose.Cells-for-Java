@@ -15,7 +15,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingTextBoxControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingTextBoxControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingTextBoxControl.class) + "DrawingObjects/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -76,6 +76,6 @@ public class AddingTextBoxControl {
 		textbox1.setPlacement(PlacementType.MOVE_AND_SIZE);
 
 		// Save the excel file.
-		workbook.save(dataDir + "tsttextboxes.xls");
+		workbook.save(dataDir + "ATBControl-out.xls");
 	}
 }

@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class CopyNamedRanges {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyNamedRanges
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyNamedRanges.class);
+		String dataDir = Utils.getSharedDataDir(CopyNamedRanges.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -34,10 +34,10 @@ public class CopyNamedRanges {
 
 		namedRange2.copy(namedRange);
 
-		workbook.save(dataDir + "copyranges.out.xls");
+		workbook.save(dataDir + "CNamedRanges-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:CopyNamedRanges
+
 	}
 }

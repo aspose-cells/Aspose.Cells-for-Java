@@ -8,7 +8,7 @@ import com.aspose.cells.Worksheet;
 public class DetectCellValueStartsWithSingleQuote {
 
 	public static void main(String[] args) {
-		// ExStart:DetectCellValueStartsWithSingleQuote
+
 		// Create an instance of workbook
 		Workbook workbook = new Workbook();
 
@@ -36,7 +36,7 @@ public class DetectCellValueStartsWithSingleQuote {
 		// Check if A1 and A2 has a quote prefix
 		System.out.println("A1 has a quote prefix: " + s1.getQuotePrefix());
 		System.out.println("A2 has a quote prefix: " + s2.getQuotePrefix());
-		// ExEnd:DetectCellValueStartsWithSingleQuote
+
 	}
 
 }

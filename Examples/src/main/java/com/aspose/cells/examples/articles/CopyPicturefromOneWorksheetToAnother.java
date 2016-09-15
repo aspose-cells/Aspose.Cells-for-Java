@@ -10,9 +10,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyPicturefromOneWorksheetToAnother {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyPicturefromOneWorksheetToAnother
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyPicturefromOneWorksheetToAnother.class);
+		String dataDir = Utils.getSharedDataDir(CopyPicturefromOneWorksheetToAnother.class) + "articles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Shapes.xls");
 
@@ -30,7 +30,7 @@ public class CopyPicturefromOneWorksheetToAnother {
 				pic.getHeightScale(), bis);
 
 		// Save the workbook
-		workbook.save(dataDir + "Shapes.xls");
-		// ExEnd:CopyPicturefromOneWorksheetToAnother
+		workbook.save(dataDir + "CPfOneWToAnother-out.xls");
+
 	}
 }

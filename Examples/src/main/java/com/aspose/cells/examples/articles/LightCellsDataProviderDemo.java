@@ -14,7 +14,7 @@ import com.aspose.cells.TextAlignmentType;
 import com.aspose.cells.Workbook;
 
 public class LightCellsDataProviderDemo implements LightCellsDataProvider {
-	// ExStart:LightCellsDataProviderDemo
+
 	private final int sheetCount;
 	private final int maxRowIndex;
 	private final int maxColIndex;
@@ -109,5 +109,5 @@ public class LightCellsDataProviderDemo implements LightCellsDataProvider {
 		}
 		return false;
 	}
-	// ExEnd:LightCellsDataProviderDemo
+
 }

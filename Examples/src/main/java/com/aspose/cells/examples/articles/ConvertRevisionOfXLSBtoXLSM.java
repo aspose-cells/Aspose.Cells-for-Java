@@ -6,11 +6,11 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertRevisionOfXLSBtoXLSM {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConvertRevisionOfXLSBtoXLSM
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertRevisionOfXLSBtoXLSM.class);
+		String dataDir = Utils.getSharedDataDir(ConvertRevisionOfXLSBtoXLSM.class) + "articles/";
 		Workbook workbook = new Workbook(dataDir + "book1.xlsb");
-		workbook.save(dataDir + ".out.xlsm", SaveFormat.XLSM);
-		// ExEnd:ConvertRevisionOfXLSBtoXLSM
+		workbook.save(dataDir + "CROfXLSBtoXLSM-out.xlsm", SaveFormat.XLSM);
+
 	}
 }

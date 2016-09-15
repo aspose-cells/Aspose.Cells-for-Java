@@ -4,11 +4,12 @@ import com.aspose.cells.Comment;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.DrawingObjects.NonPrimitiveShape;
 
 public class AddingComment {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingComment.class);
+		String dataDir = Utils.getSharedDataDir(AddingComment.class) + "DrawingObjects/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -24,6 +25,6 @@ public class AddingComment {
 		comment.setNote("Hello Aspose!");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "book1.xls");
+		workbook.save(dataDir + "AComment-out.xls");
 	}
 }

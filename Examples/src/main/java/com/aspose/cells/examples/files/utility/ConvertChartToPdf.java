@@ -8,11 +8,11 @@ import com.aspose.cells.examples.Utils;
 public class ConvertChartToPdf {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
 
-		String dataDir = Utils.getDataDir(ConvertChartToPdf.class);
+
+		String dataDir = Utils.getSharedDataDir(ConvertChartToPdf.class) + "files/";
 		String inputPath = dataDir + "Sample1.xls";
-		String outputPath = dataDir + "Output.pdf";
+		String outputPath = dataDir + "CChartToPdf.pdf";
 
 		// Load excel file containing charts
 		Workbook workbook = new Workbook(inputPath);
@@ -27,6 +27,6 @@ public class ConvertChartToPdf {
 		chart.toPdf(outputPath);
 
 		System.out.println("File saved " + outputPath);
-		// ExEnd:1
+
 	}
 }

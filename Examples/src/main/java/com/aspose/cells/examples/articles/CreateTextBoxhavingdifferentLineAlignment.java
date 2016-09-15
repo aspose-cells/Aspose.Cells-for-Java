@@ -11,9 +11,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CreateTextBoxhavingdifferentLineAlignment {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreateTextBoxhavingdifferentLineAlignment
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreateTextBoxhavingdifferentLineAlignment.class);
+		String dataDir = Utils.getSharedDataDir(CreateTextBoxhavingdifferentLineAlignment.class) + "articles/";
 
 		// Create a workbook.
 		Workbook wb = new Workbook();
@@ -33,19 +33,17 @@ public class CreateTextBoxhavingdifferentLineAlignment {
 		TextParagraph p = shape.getTextBody().getTextParagraphs().get(0);
 		p.setAlignmentType(TextAlignmentType.LEFT);
 
-		// Acccess the second paragraph and set its horizontal alignment to
-		// center.
+		// Acccess the second paragraph and set its horizontal alignment to center.
 		p = shape.getTextBody().getTextParagraphs().get(1);
 		p.setAlignmentType(TextAlignmentType.CENTER);
 
-		// Acccess the third paragraph and set its horizontal alignment to
-		// right.
+		// Acccess the third paragraph and set its horizontal alignment to right.
 		p = shape.getTextBody().getTextParagraphs().get(2);
 		p.setAlignmentType(TextAlignmentType.RIGHT);
 
 		// Save the workbook in xlsx format.
-		wb.save(dataDir + "output.xlsx", SaveFormat.XLSX);
-		// ExEnd:CreateTextBoxhavingdifferentLineAlignment
+		wb.save(dataDir + "CTBoxHDLineAlignment-out.xlsx", SaveFormat.XLSX);
+
 	}
 
 }

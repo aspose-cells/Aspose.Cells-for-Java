@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class AccessingMaximumDisplayRangeofWorksheet {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getDataDir(AccessingMaximumDisplayRangeofWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(AccessingMaximumDisplayRangeofWorksheet.class) + "data/";
 
 		// Instantiate a workbook from source file
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");

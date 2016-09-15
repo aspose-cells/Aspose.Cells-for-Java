@@ -12,9 +12,9 @@ import com.aspose.cells.examples.Utils;
 
 public class AddCustomLabelsToDataPoints {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddCustomLabelsToDataPoints
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddCustomLabelsToDataPoints.class);
+		String dataDir = Utils.getSharedDataDir(AddCustomLabelsToDataPoints.class) + "articles/";
 		Workbook workbook = new Workbook(FileFormatType.XLSX);
 		Worksheet sheet = workbook.getWorksheets().get(0);
 
@@ -65,7 +65,7 @@ public class AddCustomLabelsToDataPoints {
 			pointIndex.getDataLabels().setText("Series 2" + "\n" + "Point " + i);
 		}
 
-		workbook.save(dataDir + "Test.xlsx", SaveFormat.XLSX);
-		// ExEnd:AddCustomLabelsToDataPoints
+		workbook.save(dataDir + "ACLToDataPoints-out.xlsx", SaveFormat.XLSX);
+
 	}
 }

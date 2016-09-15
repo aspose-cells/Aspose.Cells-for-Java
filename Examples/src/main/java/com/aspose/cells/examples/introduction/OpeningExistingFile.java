@@ -7,11 +7,12 @@ import com.aspose.cells.FileFormatType;
 import com.aspose.cells.License;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.formulas.DirectCalculationFormula;
 
 public class OpeningExistingFile {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningExistingFile.class);
+		String dataDir = Utils.getSharedDataDir(OpeningExistingFile.class) + "introduction/";
 		// Creating a file input stream to reference the license file
 		FileInputStream fstream = new FileInputStream("Aspose.Cells.lic");
 
@@ -31,8 +32,8 @@ public class OpeningExistingFile {
 		cell.setValue("Hello World!");
 
 		// Write the Excel file
-		workbook.save(dataDir + "HelloWorld.xls", FileFormatType.EXCEL_97_TO_2003);
-		workbook.save(dataDir + "HelloWorld.xlsx");
-		workbook.save(dataDir + "HelloWorld.ods");
+		workbook.save(dataDir + "OExistingFile-out.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "OExistingFile-out.xlsx");
+		workbook.save(dataDir + "OExistingFile-out.ods");
 	}
 }

@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class LoadSpecificWorksheetsinWorkbook {
 	public static void main(String[] args) throws Exception {
-		// ExStart:LoadSpecificWorksheetsinWorkbook
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(LoadSpecificWorksheetsinWorkbook.class);
+		String dataDir = Utils.getSharedDataDir(LoadSpecificWorksheetsinWorkbook.class) + "articles/";
 
 		// Define a new Workbook
 		Workbook workbook;
@@ -31,7 +31,7 @@ public class LoadSpecificWorksheetsinWorkbook {
 		// Perform your desired task
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
-		// ExEnd:LoadSpecificWorksheetsinWorkbook
+		workbook.save(dataDir + "LSWInWorkbook-out.xlsx", SaveFormat.XLSX);
+
 	}
 }

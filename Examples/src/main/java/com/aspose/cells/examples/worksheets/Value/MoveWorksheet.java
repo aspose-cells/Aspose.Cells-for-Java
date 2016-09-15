@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class MoveWorksheet {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(MoveWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(MoveWorksheet.class) + "worksheets/";
 		// Create a new Workbook.
 		Workbook wb = new Workbook(dataDir + "BkFinance.xls");
 
@@ -17,6 +17,6 @@ public class MoveWorksheet {
 		sheet.moveTo(2);
 
 		// Save the Excel file.
-		wb.save(dataDir + "BkFinance.xls");
+		wb.save(dataDir + "MoveWorksheet-out.xls");
 	}
 }

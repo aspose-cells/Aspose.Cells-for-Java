@@ -10,9 +10,9 @@ import com.aspose.cells.examples.Utils;
 public class KeepPrecisionOfLargeNumbers {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:KeepPrecisionOfLargeNumbers
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(KeepPrecisionOfLargeNumbers.class);
+		String dataDir = Utils.getSharedDataDir(KeepPrecisionOfLargeNumbers.class) + "articles/";
 
 		// Sample Html containing large number with digits greater than 15
 		String html = "<html>" + "<body>" + "<p>1234567890123456</p>" + "</body>" + "</html>";
@@ -37,10 +37,10 @@ public class KeepPrecisionOfLargeNumbers {
 		worksheet.autoFitColumns();
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "KPOfLargeNumbers-out.xlsx", SaveFormat.XLSX);
 
 		System.out.println("File saved");
-		// ExEnd:KeepPrecisionOfLargeNumbers
+
 	}
 
 }

@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CheckPassword {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CheckPassword
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CheckPassword.class);
+		String dataDir = Utils.getSharedDataDir(CheckPassword.class) + "articles/";
 
 		// Specify password to open inside the load options
 		LoadOptions opts = new LoadOptions();
@@ -24,6 +24,6 @@ public class CheckPassword {
 		// Check if 5679 is Password to modify
 		ret = workbook.checkWriteProtectedPassword("5678");
 		System.out.println("Is 5678 correct Password to modify: " + ret);
-		// ExEnd:CheckPassword
+
 	}
 }

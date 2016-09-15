@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CalculatePageSetupScalingFactor {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CalculatePageSetupScalingFactor
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CalculatePageSetupScalingFactor.class);
+		String dataDir = Utils.getSharedDataDir(CalculatePageSetupScalingFactor.class) + "articles/";
 		// Create workbook object
 		Workbook workbook = new Workbook();
 
@@ -33,6 +33,6 @@ public class CalculatePageSetupScalingFactor {
 
 		// Write the page scale value
 		System.out.println(sr.getPageScale());
-		// ExEnd:CalculatePageSetupScalingFactor
+
 	}
 }

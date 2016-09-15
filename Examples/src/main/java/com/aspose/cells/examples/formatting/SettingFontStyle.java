@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 public class SettingFontStyle {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getDataDir(SettingFontStyle.class);
+		String dataDir = Utils.getSharedDataDir(SettingFontStyle.class) + "formatting/";
 		
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -25,6 +25,6 @@ public class SettingFontStyle {
 		font.setColor(Color.getBlack());
 		fc.setStyle(style);
 		// Saving the Excel file
-		workbook.save(dataDir + "book1.out.xls");
+		workbook.save(dataDir + "SFontStyle-out.xls");
 	}
 }

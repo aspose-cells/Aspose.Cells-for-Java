@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class GroupingRowsandColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:GroupingRowsandColumns
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GroupingRowsandColumns.class);
+		String dataDir = Utils.getSharedDataDir(GroupingRowsandColumns.class) + "RowsColumns/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "workbook.xls");
@@ -32,10 +32,10 @@ public class GroupingRowsandColumns {
 		worksheet.getOutline().SummaryColumnRight = true;
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "workbook.out.xls");
+		workbook.save(dataDir + "GroupingRowsandColumns-out.xls");
 
 		// Print message
 		System.out.println("Rows and Columns grouped successfully.");
-		// ExEnd:GroupingRowsandColumns
+
 	}
 }

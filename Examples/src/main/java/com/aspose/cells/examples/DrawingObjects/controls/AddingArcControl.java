@@ -13,7 +13,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingArcControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingArcControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingArcControl.class) + "DrawingObjects/";
 		// Instantiate a new Workbook.
 		Workbook excelbook = new Workbook();
 		// Add an arc shape.
@@ -48,6 +48,6 @@ public class AddingArcControl {
 		// Set the dash style of the arc.
 		lineformat1.setDashStyle(MsoLineDashStyle.SOLID);
 		// Save the excel file.
-		excelbook.save(dataDir + "tstarcs.xls");
+		excelbook.save(dataDir + "AAControl-out.xls");
 	}
 }

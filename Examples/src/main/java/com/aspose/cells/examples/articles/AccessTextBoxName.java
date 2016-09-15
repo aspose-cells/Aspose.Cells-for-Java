@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class AccessTextBoxName {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AccessTextBoxName
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AccessTextBoxName.class);
+		String dataDir = Utils.getSharedDataDir(AccessTextBoxName.class) + "articles/";
 
 		Workbook workbook = new Workbook();
 
@@ -27,7 +27,7 @@ public class AccessTextBoxName {
 
 		// Displaying the text of the textbox accessed by its name
 		System.out.println(tb2.getText());
-		// ExEnd:AccessTextBoxName
+
 	}
 
 }

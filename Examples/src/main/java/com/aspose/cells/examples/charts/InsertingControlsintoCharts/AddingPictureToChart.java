@@ -8,9 +8,9 @@ import java.io.FileInputStream;
 public class AddingPictureToChart {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingPictureToChart.class);
+		String dataDir = Utils.getSharedDataDir(AddingPictureToChart.class) + "charts/";
 
 		String filePath = dataDir + "chart.xls";
 
@@ -29,10 +29,10 @@ public class AddingPictureToChart {
 		lineformat.setForeColor(Color.getBlue());
 		lineformat.setDashStyle(MsoLineDashStyle.DASH_DOT_DOT);
 		// Output the file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "APToChart-out.xls");
 
 		// Print message
 		System.out.println("Picture added to chart successfully.");
-		// ExEnd:1
+
 	}
 }

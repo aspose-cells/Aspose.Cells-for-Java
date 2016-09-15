@@ -11,7 +11,7 @@ import java.io.*;
 public class InsertingOLEObjects {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(InsertingOLEObjects.class);
+		String dataDir = Utils.getSharedDataDir(InsertingOLEObjects.class) + "DrawingObjects/";
 
 		// Get the image file.
 		File file = new File(dataDir + "logo.jpg");
@@ -41,6 +41,6 @@ public class InsertingOLEObjects {
 		oleObj.setObjectData(data);
 
 		// Save the excel file
-		wb.save(dataDir + "tstoleobjects.xls");
+		wb.save(dataDir + "IOLEObjects-out.xls");
 	}
 }

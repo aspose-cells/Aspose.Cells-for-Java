@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class TestIFilePathProvider {
 	// This is the directory path which contains the sample.xlsx file
-	static String dataDir = Utils.getDataDir(TestIFilePathProvider.class);
+	static String dataDir = Utils.getSharedDataDir(TestIFilePathProvider.class) + "articles/";
 
 	public static void main(String[] args) throws Exception {
 
@@ -56,7 +56,7 @@ public class TestIFilePathProvider {
 			wb.getWorksheets().setActiveSheetIndex(i);
 
 			// Creat html save option
-			HtmlSaveOptions options = new HtmlSaveOptions();
+			ImplementingIStreamProvider options = new ImplementingIStreamProvider();
 			options.setExportActiveWorksheetOnly(true);
 
 			// If you will comment this line, then hyperlinks will be broken
@@ -81,4 +81,3 @@ public class TestIFilePathProvider {
 	}
 }
 
-// ExEnd:TestIFilePathProvider

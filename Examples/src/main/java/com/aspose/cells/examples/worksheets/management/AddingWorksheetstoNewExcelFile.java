@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class AddingWorksheetstoNewExcelFile {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingWorksheetstoNewExcelFile.class);
+		String dataDir = Utils.getSharedDataDir(AddingWorksheetstoNewExcelFile.class) + "worksheets/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -23,10 +23,10 @@ public class AddingWorksheetstoNewExcelFile {
 		worksheet.setName("My Worksheet");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "AWToNewExcelFile-out.xls");
 
 		// Print Message
 		System.out.println("Sheet added successfully.");
-		// ExEnd:1
+
 	}
 }

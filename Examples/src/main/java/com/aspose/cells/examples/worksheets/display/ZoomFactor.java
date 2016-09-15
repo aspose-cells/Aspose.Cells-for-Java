@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class ZoomFactor {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ZoomFactor.class);
+		String dataDir = Utils.getSharedDataDir(ZoomFactor.class) + "worksheets/";
 
 		// Instantiating a Excel object by excel file path
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -21,10 +21,10 @@ public class ZoomFactor {
 		worksheet.setZoom(75);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "ZoomFactor-out.xls");
 
 		// Print message
 		System.out.println("Zoom factor set to 75% for sheet 1, please check the output document.");
-		// ExEnd:1
+
 	}
 }

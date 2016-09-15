@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class WorkingWithExternalDataConnection {
 	public static void main(String[] args) throws Exception {
-		// ExStart:WorkingWithExternalDataConnection
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(WorkingWithExternalDataConnection.class);
+		String dataDir = Utils.getSharedDataDir(WorkingWithExternalDataConnection.class) + "articles/";
 		
 		Workbook workbook = new Workbook(dataDir + "WebQuerySample.xlsx");
 
@@ -22,6 +22,6 @@ public class WorkingWithExternalDataConnection {
 		    WebQueryConnection webQuery = (WebQueryConnection)connection;
 		    System.out.println("Web Query URL: " + webQuery.getUrl());
 		}
-		// ExEnd:WorkingWithExternalDataConnection
+
 	}
 }

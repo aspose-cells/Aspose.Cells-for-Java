@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class ImportingFromMultiDimensionalArray {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ImportingFromMultiDimensionalArray.class);
+		String dataDir = Utils.getSharedDataDir(ImportingFromMultiDimensionalArray.class) + "data/";
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();
 		// Get the first worksheet (default sheet) in the Workbook
@@ -20,6 +20,6 @@ public class ImportingFromMultiDimensionalArray {
 		cells.importArray(strArray, 0, 0);
 
 		// Save the Excel file
-		workbook.save(dataDir + "outmultidimarrays1.xlsx");
+		workbook.save(dataDir + "IFMDA-out.xlsx");
 	}
 }

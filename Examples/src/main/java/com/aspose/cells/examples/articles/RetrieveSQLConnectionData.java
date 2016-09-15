@@ -10,9 +10,9 @@ import com.aspose.cells.examples.Utils;
 
 public class RetrieveSQLConnectionData {
 	public static void main(String[] args) throws Exception {
-		// ExStart:RetrieveSQLConnectionData
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(RetrieveSQLConnectionData.class);
+		String dataDir = Utils.getSharedDataDir(RetrieveSQLConnectionData.class) + "articles/";
 		// Create a workbook object from source file
 		Workbook workbook = new Workbook(dataDir + "connection.xlsx");
 
@@ -92,6 +92,6 @@ public class RetrieveSQLConnectionData {
 			} // End if
 		} // End for
 
-		// ExEnd:RetrieveSQLConnectionData
+
 	}
 }

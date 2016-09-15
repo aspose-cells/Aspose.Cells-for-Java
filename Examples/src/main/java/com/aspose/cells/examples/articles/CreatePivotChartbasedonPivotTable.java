@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CreatePivotChartbasedonPivotTable {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreatePivotChartbasedonPivotTable
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreatePivotChartbasedonPivotTable.class);
+		String dataDir = Utils.getSharedDataDir(CreatePivotChartbasedonPivotTable.class) + "articles/";
 		// Instantiating an Workbook object
 		Workbook workbook = new Workbook(dataDir + "pivotTable_test.xls");
 		// Adding a new sheet
@@ -26,7 +26,7 @@ public class CreatePivotChartbasedonPivotTable {
 		chart.setPivotSource("PivotTable!PivotTable1");
 		chart.setHidePivotFieldButtons(false);
 		// Saving the Excel file
-		workbook.save(dataDir + "pivotChart_test.xls");
-		// ExEnd:CreatePivotChartbasedonPivotTable
+		workbook.save(dataDir + "CPCBasedOnPTable-out.xls");
+
 	}
 }

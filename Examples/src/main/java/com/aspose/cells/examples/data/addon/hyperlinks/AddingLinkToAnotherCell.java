@@ -2,13 +2,14 @@ package com.aspose.cells.examples.data.addon.hyperlinks;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.charts.SettingChartsAppearance.SettingTitlesAxes;
 
 public class AddingLinkToAnotherCell {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddingLinkToAnotherCell
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingLinkToAnotherCell.class);
+		String dataDir = Utils.getSharedDataDir(AddingLinkToAnotherCell.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -33,16 +34,14 @@ public class AddingLinkToAnotherCell {
 
 		HyperlinkCollection hyperlinks = sheet.getHyperlinks();
 
-		// Adding an internal hyperlink to the "B9" cell of the other worksheet
-		// "Sheet2" in
-		// the same Excel file
+		// Adding an internal hyperlink to the "B9" cell of the other worksheet "Sheet2" in the same Excel file
 		hyperlinks.add("B3", 1, 1, "Sheet2!B9");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "ALinkTACell-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:AddingLinkToAnotherCell
+
 	}
 }

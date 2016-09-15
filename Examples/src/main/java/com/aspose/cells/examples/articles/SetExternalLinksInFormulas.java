@@ -7,8 +7,8 @@ import com.aspose.cells.examples.Utils;
 
 public class SetExternalLinksInFormulas {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SetExternalLinksInFormulas
-		String dataDir = Utils.getDataDir(SetExternalLinksInFormulas.class);
+
+		String dataDir = Utils.getSharedDataDir(SetExternalLinksInFormulas.class) + "articles/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -25,7 +25,7 @@ public class SetExternalLinksInFormulas {
 		cells.get("A2").setFormula("='[F:\\book1.xls]Sheet1'!A8");
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xls");
-		// ExEnd:SetExternalLinksInFormulas
+		workbook.save(dataDir + "SetExternalLinksInFormulas-out.xls");
+
 	}
 }

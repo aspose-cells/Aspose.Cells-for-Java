@@ -8,9 +8,9 @@ import java.util.ArrayList;
 public class UnionOfRanges {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UnionOfRanges
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UnionOfRanges.class);
+		String dataDir = Utils.getSharedDataDir(UnionOfRanges.class) + "data/";
 
 		// Instantiate a workbook object.
 		// Open an existing excel file.
@@ -56,10 +56,10 @@ public class UnionOfRanges {
 		}
 
 		// Save the excel file.
-		workbook.save(dataDir + "rngUnion.out.xls");
+		workbook.save(dataDir + "UOfRanges-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:RenameNamedRange
+
 	}
 }

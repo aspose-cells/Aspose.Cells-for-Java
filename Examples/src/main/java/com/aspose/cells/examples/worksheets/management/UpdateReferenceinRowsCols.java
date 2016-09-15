@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class UpdateReferenceinRowsCols {
 	public static void main(String[] args) throws Exception {
-		// ExStart:UpdateReferenceinRowsCols
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UpdateReferenceinRowsCols.class);
+		String dataDir = Utils.getSharedDataDir(UpdateReferenceinRowsCols.class) + "worksheets/";
 
 		// Create workbook
 		Workbook wb = new Workbook();
@@ -59,7 +59,7 @@ public class UpdateReferenceinRowsCols {
 		System.out.println("--------------------------------------------------------");
 		System.out.println("Cell Formula: " + sht2.getCells().get("E3").getFormula());
 		System.out.println("Cell Value: " + sht2.getCells().get("E3").getStringValue());
-		// ExEnd:UpdateReferenceinRowsCols
+
 	}
 
 }

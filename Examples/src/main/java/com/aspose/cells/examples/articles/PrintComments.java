@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class PrintComments {
 	public static void main(String[] args) throws Exception {
-		// ExStart:PrintComments
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(PrintComments.class);
+		String dataDir = Utils.getSharedDataDir(PrintComments.class) + "articles/";
 		// Create a workbook from source Excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -26,7 +26,7 @@ public class PrintComments {
 		worksheet.getPageSetup().setPrintComments(PrintCommentsType.PRINT_SHEET_END);
 
 		// Save workbook in pdf format
-		workbook.save(dataDir + "out.pdf");
-		// ExEnd:PrintComments
+		workbook.save(dataDir + "PrintComments-out.pdf");
+
 	}
 }

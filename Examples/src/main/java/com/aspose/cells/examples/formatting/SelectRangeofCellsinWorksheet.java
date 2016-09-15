@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class SelectRangeofCellsinWorksheet {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SelectRangeofCellsinWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(SelectRangeofCellsinWorksheet.class) + "formatting/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -28,6 +28,6 @@ public class SelectRangeofCellsinWorksheet {
 		worksheet1.selectRange(0, 0, 10, 5, true);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "activecells.xlsx");
+		workbook.save(dataDir + "SROfCInWorksheet-out.xlsx");
 	}
 }

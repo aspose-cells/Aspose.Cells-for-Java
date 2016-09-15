@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class FindAbsolutePositionOfShape {
 	public static void main(String[] args) throws Exception {
-		// ExStart:FindAbsolutePositionOfShape
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FindAbsolutePositionOfShape.class);
+		String dataDir = Utils.getSharedDataDir(FindAbsolutePositionOfShape.class) + "articles/";
 		// Load the sample Excel file inside the workbook object
 		Workbook workbook = new Workbook("sample.xlsx");
 
@@ -22,6 +22,6 @@ public class FindAbsolutePositionOfShape {
 		// Displays the absolute position of the shape
 		System.out.println("Absolute Position of this Shape is (" + shape.getLeftToCorner() + " , "
 				+ shape.getTopToCorner() + ")");
-		// ExEnd:FindAbsolutePositionOfShape
+
 	}
 }

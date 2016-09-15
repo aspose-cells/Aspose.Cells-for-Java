@@ -8,13 +8,14 @@ import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.data.addon.hyperlinks.AddingLinkToURLNotEmpty;
 
 public class MergingCellsInWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:MergingCellsInWorksheet
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(MergingCellsInWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(MergingCellsInWorksheet.class) + "data/";
 
 		// Create a Workbook.
 		Workbook wbk = new Workbook();
@@ -60,12 +61,12 @@ public class MergingCellsInWorksheet {
 		cells.get(5, 2).setStyle(style);
 
 		// Save the Workbook.
-		wbk.save(dataDir + "mergingcells.out.xls");
-		wbk.save(dataDir + "mergingcells.out.xlsx");
-		wbk.save(dataDir + "mergingcells.out.ods");
+		wbk.save(dataDir + "mergingcells-out.xls");
+		wbk.save(dataDir + "mergingcells-out.xlsx");
+		wbk.save(dataDir + "mergingcells-out.ods");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:MergingCellsInWorksheet
+
 	}
 }

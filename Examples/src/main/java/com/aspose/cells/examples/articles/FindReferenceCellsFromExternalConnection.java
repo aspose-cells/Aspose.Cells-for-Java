@@ -12,11 +12,11 @@ import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
 
 public class FindReferenceCellsFromExternalConnection {
-	// ExStart:FindReferenceCellsFromExternalConnection
+
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory
-		String dataDir = Utils.getDataDir(FindReferenceCellsFromExternalConnection.class);
+		String dataDir = Utils.getSharedDataDir(FindReferenceCellsFromExternalConnection.class) + "articles/";
 
 		// Load workbook object
 		Workbook workbook = new Workbook(dataDir + "sample.xlsm");
@@ -79,5 +79,5 @@ public class FindReferenceCellsFromExternalConnection {
 			}
 		}
 	}// end-PrintTables
-		// ExEnd:FindReferenceCellsFromExternalConnection
+
 }

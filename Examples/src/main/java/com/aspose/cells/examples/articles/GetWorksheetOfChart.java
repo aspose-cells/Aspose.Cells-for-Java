@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class GetWorksheetOfChart {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GetWorksheetOfChart
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(GetWorksheetOfChart.class);
+		String dataDir = Utils.getSharedDataDir(GetWorksheetOfChart.class) + "articles/";
 
 		// Create workbook from sample Excel file
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");
@@ -25,6 +25,6 @@ public class GetWorksheetOfChart {
 
 		// Access the chart's sheet and display its name again
 		System.out.println("Chart's Sheet Name: " + chart.getWorksheet().getName());
-		// ExEnd:GetWorksheetOfChart
+
 	}
 }

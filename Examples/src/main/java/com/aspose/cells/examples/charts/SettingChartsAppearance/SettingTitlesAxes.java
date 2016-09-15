@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class SettingTitlesAxes {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingTitlesAxes.class);
+		String dataDir = Utils.getSharedDataDir(SettingTitlesAxes.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -70,10 +70,10 @@ public class SettingTitlesAxes {
 		point.getArea().setForegroundColor(Color.getCyan());
 
 		// Save the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "STitlesAxes-out.xls");
 
 		// Print message
 		System.out.println("Chart Title is changed successfully.");
-		// ExEnd:1
+
 	}
 }

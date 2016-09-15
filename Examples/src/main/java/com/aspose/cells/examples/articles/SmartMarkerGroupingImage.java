@@ -7,11 +7,11 @@ import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
 
 public class SmartMarkerGroupingImage {
-	// ExStart:SmartMarkerGroupingImage
+
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SmartMarkerGroupingImage.class);
+		String dataDir = Utils.getSharedDataDir(SmartMarkerGroupingImage.class) + "articles/";
 
 		SmartMarkerGroupingImage grouping = new SmartMarkerGroupingImage();
 		grouping.Execute(dataDir);
@@ -121,5 +121,5 @@ public class SmartMarkerGroupingImage {
 			this.m_Photo = photo;
 		}
 	}
-	// ExEnd:SmartMarkerGroupingImage
+
 }

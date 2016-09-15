@@ -7,8 +7,8 @@ import com.aspose.cells.examples.Utils;
 
 public class ReadingAndWritingQueryTable {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ReadingAndWritingQueryTable
-		String dataDir = Utils.getDataDir(ReadingAndWritingQueryTable.class);
+
+		String dataDir = Utils.getSharedDataDir(ReadingAndWritingQueryTable.class) + "articles/";
 		// Create workbook from source excel file
 		Workbook workbook = new Workbook(dataDir + "Sample.xlsx");
 
@@ -26,8 +26,8 @@ public class ReadingAndWritingQueryTable {
 		qt.setPreserveFormatting(true);
 
 		// Save the workbook
-		workbook.save(dataDir + "Output.xlsx");
+		workbook.save(dataDir + "RAWQueryTable-out.xlsx");
 
-		// ExEnd:ReadingAndWritingQueryTable
+
 	}
 }

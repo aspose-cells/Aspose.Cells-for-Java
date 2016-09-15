@@ -8,10 +8,10 @@ import com.aspose.cells.examples.Utils;
 public class ChangeHtmlLinkTarget {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:ChangeHtmlLinkTarget
-		String dataDir = Utils.getDataDir(ChangeHtmlLinkTarget.class);
+
+		String dataDir = Utils.getSharedDataDir(ChangeHtmlLinkTarget.class) + "articles/";
 		String inputPath = dataDir + "Sample1.xlsx";
-		String outputPath = dataDir + "Output.html";
+		String outputPath = dataDir + "CHLinkTarget.html";
 
 		Workbook workbook = new Workbook(inputPath);
 
@@ -21,6 +21,6 @@ public class ChangeHtmlLinkTarget {
 		workbook.save(outputPath, opts);
 
 		System.out.println("File saved " + outputPath);
-		// ExEnd:ChangeHtmlLinkTarget
+
 	}
 }

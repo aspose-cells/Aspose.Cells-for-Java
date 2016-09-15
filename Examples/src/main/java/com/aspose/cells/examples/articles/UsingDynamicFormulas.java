@@ -15,9 +15,9 @@ import com.aspose.cells.examples.Utils;
 
 public class UsingDynamicFormulas {
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingDynamicFormulas
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UsingDynamicFormulas.class);
+		String dataDir = Utils.getSharedDataDir(UsingDynamicFormulas.class) + "articles/";
 
 		// Create a workbook object
 		Workbook workbook = new Workbook();
@@ -118,7 +118,7 @@ public class UsingDynamicFormulas {
 		chart.getNSeries().setCategoryData("=$D$15:$I$15");
 
 		// Save result on disc
-		workbook.save(dataDir + "output.xlsx");
-		// ExEnd:UsingDynamicFormulas
+		workbook.save(dataDir + "UDynamicFormulas-out.xlsx");
+
 	}
 }

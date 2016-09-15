@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 
 public class SettingPivotTableOption {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingPivotTableOption
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingPivotTableOption.class);
+		String dataDir = Utils.getSharedDataDir(SettingPivotTableOption.class) + "articles/";
 		Workbook wb = new Workbook(dataDir + "input.xlsx");
 		PivotTable pt = wb.getWorksheets().get(0).getPivotTables().get(0);
 		// Indicating if or not display the empty cell value
@@ -17,7 +17,7 @@ public class SettingPivotTableOption {
 		pt.setNullString("null");
 		pt.calculateData();
 		pt.setRefreshDataOnOpeningFile(false);
-		wb.save(dataDir + "output.xlsx");
-		// ExEnd:SettingPivotTableOption
+		wb.save(dataDir + "SettingPivotTableOption-out.xlsx");
+
 	}
 }

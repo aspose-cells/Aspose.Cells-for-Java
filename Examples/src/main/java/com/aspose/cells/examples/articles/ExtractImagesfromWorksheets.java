@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ExtractImagesfromWorksheets {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ExtractImagesfromWorksheets
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExtractImagesfromWorksheets.class);
+		String dataDir = Utils.getSharedDataDir(ExtractImagesfromWorksheets.class) + "articles/";
 		// Open a template Excel file
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
 
@@ -35,6 +35,6 @@ public class ExtractImagesfromWorksheets {
 
 		// Save the image
 		pic.toImage(dataDir + fileName + picformat, printoption);
-		// ExEnd:ExtractImagesfromWorksheets
+
 	}
 }

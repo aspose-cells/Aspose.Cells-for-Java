@@ -10,9 +10,9 @@ import com.aspose.cells.examples.Utils;
 
 public class FormatPivotTableCells {
 	public static void main(String[] args) throws Exception {
-		// ExStart:FormatPivotTableCells
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FormatPivotTableCells.class);
+		String dataDir = Utils.getSharedDataDir(FormatPivotTableCells.class) + "articles/";
 		// Create workbook object from source file containing pivot table
 		Workbook workbook = new Workbook(dataDir + "pivotTable_test.xlsx");
 
@@ -41,7 +41,7 @@ public class FormatPivotTableCells {
 		}
 
 		// Save the workbook object
-		workbook.save(dataDir + "out.xlsx");
-		// ExEnd:FormatPivotTableCells
+		workbook.save(dataDir + "FPTCells-out.xlsx");
+
 	}
 }

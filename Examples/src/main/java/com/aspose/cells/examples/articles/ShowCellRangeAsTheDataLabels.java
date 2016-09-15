@@ -8,9 +8,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ShowCellRangeAsTheDataLabels {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ShowCellRangeAsTheDataLabels
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ShowCellRangeAsTheDataLabels.class);
+		String dataDir = Utils.getSharedDataDir(ShowCellRangeAsTheDataLabels.class) + "articles/";
 		// Create workbook from the source Excel file
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 
@@ -25,8 +25,8 @@ public class ShowCellRangeAsTheDataLabels {
 		dataLabels.setShowCellRange(true);
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "SCellRAsTheDataLabels-out.xlsx");
 
-		// ExEnd:ShowCellRangeAsTheDataLabels
+
 	}
 }

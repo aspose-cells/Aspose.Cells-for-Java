@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingCheckBoxControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingCheckBoxControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingCheckBoxControl.class) + "DrawingObjects/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 
@@ -29,6 +29,6 @@ public class AddingCheckBoxControl {
 		checkBox.setLinkedCell("=B1");
 
 		// Save the excel file.
-		workbook.save(dataDir + "tstcheckboxes.xls");
+		workbook.save(dataDir + "ACBControl-out.xls");
 	}
 }

@@ -11,9 +11,9 @@ import com.aspose.cells.examples.Utils;
 
 public class SetLineSpacingofParagraph {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SetLineSpacingofParagraph
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SetLineSpacingofParagraph.class);
+		String dataDir = Utils.getSharedDataDir(SetLineSpacingofParagraph.class) + "articles/";
 		// Create a workbook
 		Workbook wb = new Workbook();
 
@@ -43,8 +43,8 @@ public class SetLineSpacingofParagraph {
 		p.setSpaceBefore(10);
 
 		// Save the workbook in xlsx format
-		wb.save(dataDir + "output.xlsx", SaveFormat.XLSX);
-		// ExEnd:SetLineSpacingofParagraph
+		wb.save(dataDir + "SLSpacingofParagraph-out.xlsx", SaveFormat.XLSX);
+
 	}
 
 }

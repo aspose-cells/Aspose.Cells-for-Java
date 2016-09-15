@@ -67,5 +67,5 @@ static void TestMultiThreadingRead() throws Exception {
 
     Thread.currentThread().sleep(5*1000);
     tp.kill();
- // ExEnd:ThreadProc
+
 }

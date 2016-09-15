@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class SettingChartArea {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingChartArea.class);
+		String dataDir = Utils.getSharedDataDir(SettingChartArea.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -69,10 +69,10 @@ public class SettingChartArea {
 		point.getArea().setForegroundColor(Color.getCyan());
 
 		// Save the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "SChartArea-out.xls");
 
 		// Print message
 		System.out.println("ChartArea is settled successfully.");
-		// ExEnd:1
+
 	}
 }

@@ -8,9 +8,9 @@ import com.aspose.cells.examples.Utils;
 
 public class AddVBAModuleAndCode {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddVBAModuleAndCode
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddVBAModuleAndCode.class);
+		String dataDir = Utils.getSharedDataDir(AddVBAModuleAndCode.class) + "articles/";
 		// Create new workbook
 		Workbook workbook = new Workbook();
 
@@ -27,8 +27,8 @@ public class AddVBAModuleAndCode {
 		module.setCodes("Sub ShowMessage()" + "\r\n" + "    MsgBox \"Welcome to Aspose!\"" + "\r\n" + "End Sub");
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsm", SaveFormat.XLSM);
+		workbook.save(dataDir + "AVBAMAndCode-out.xlsm", SaveFormat.XLSM);
 
-		// ExEnd:AddVBAModuleAndCode
+
 	}
 }

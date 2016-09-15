@@ -11,12 +11,11 @@ import com.aspose.cells.examples.Utils;
 public class AddingBorderstoRange {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getDataDir(AddingBorderstoRange.class);
+		String dataDir = Utils.getSharedDataDir(AddingBordersToCells.class) + "borders/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
-		// Adding a new worksheet to the Workbook object
-		// Obtaining the reference of the newly added worksheet
+		// Adding a new worksheet to the Workbook object Obtaining the reference of the newly added worksheet
 		int sheetIndex = workbook.getWorksheets().add();
 		Worksheet worksheet = workbook.getWorksheets().get(sheetIndex);
 
@@ -35,6 +34,6 @@ public class AddingBorderstoRange {
 		range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 
 		// Saving the Excel file
-		workbook.save(dataDir + "outlineborders.xls");
+		workbook.save(dataDir + "ABToRange-out.xls");
 	}
 }

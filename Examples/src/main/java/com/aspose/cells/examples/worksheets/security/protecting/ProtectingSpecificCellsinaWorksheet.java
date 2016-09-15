@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 public class ProtectingSpecificCellsinaWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ProtectingSpecificCellsinaWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(ProtectingSpecificCellsinaWorksheet.class) + "worksheets/";
 
 		// Create a new workbook.
 		Workbook wb = new Workbook();
@@ -45,10 +45,10 @@ public class ProtectingSpecificCellsinaWorksheet {
 		sheet.getCells().get("C1").setStyle(style);
 
 		// Save the excel file.
-		wb.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "PSpecificCellsinaWorksheet-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Cells protected successfully.");
-		// ExEnd:1
+
 	}
 }

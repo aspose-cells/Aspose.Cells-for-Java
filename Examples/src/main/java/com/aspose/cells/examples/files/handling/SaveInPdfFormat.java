@@ -7,18 +7,18 @@ import com.aspose.cells.examples.Utils;
 public class SaveInPdfFormat {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SaveInPdfFormat.class);
+		String dataDir = Utils.getSharedDataDir(SaveInPdfFormat.class) + "files/";
 
 		// Creating an Workbook object with an Excel file path
 		Workbook workbook = new Workbook();
 
 		// Save in PDF format
-		workbook.save(dataDir + "output.pdf", FileFormatType.PDF);
+		workbook.save(dataDir + "SIPdfFormat-out.pdf", FileFormatType.PDF);
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");
-		// ExEnd:1
+
 	}
 }

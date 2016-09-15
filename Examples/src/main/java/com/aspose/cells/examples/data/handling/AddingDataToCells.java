@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class AddingDataToCells {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddingDataToCells
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingDataToCells.class);
+		String dataDir = Utils.getSharedDataDir(AddingDataToCells.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -44,10 +44,10 @@ public class AddingDataToCells {
 		cell.setStyle(style);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "ADToCells-out.xls");
 
 		// Print message
 		System.out.println("Data Added Successfully");
-		// ExEnd:AddingDataToCells
+
 	}
 }

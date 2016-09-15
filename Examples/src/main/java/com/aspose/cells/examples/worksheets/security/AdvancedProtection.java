@@ -2,13 +2,14 @@ package com.aspose.cells.examples.worksheets.security;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.worksheets.PageSetupFeatures.SetPrintTitle;
 
 public class AdvancedProtection {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AdvancedProtection.class);
+		String dataDir = Utils.getSharedDataDir(AdvancedProtection.class) + "worksheets/";
 
 		// Instantiating a Workbook object by excel file path
 		Workbook excel = new Workbook(dataDir + "book1.xls");
@@ -64,11 +65,11 @@ public class AdvancedProtection {
 		protection.setAllowUsingPivotTable(true);
 
 		// Saving the modified Excel file Excel XP format
-		excel.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		excel.save(dataDir + "AdvancedProtection-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Worksheet protected successfully.");
-		// ExEnd:1
+
 
 	}
 }

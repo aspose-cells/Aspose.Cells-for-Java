@@ -10,9 +10,9 @@ import com.aspose.cells.examples.Utils;
 
 public class RemoveWhitespaceAroundData {
 	public static void main(String[] args) throws Exception {
-		// ExStart:RemoveWhitespaceAroundData
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(RemoveWhitespaceAroundData.class);
+		String dataDir = Utils.getSharedDataDir(RemoveWhitespaceAroundData.class) + "articles/";
 
 		// Instantiate a workbook
 		// Open the template file
@@ -41,7 +41,7 @@ public class RemoveWhitespaceAroundData {
 		// ImageOrPrintOptions attributes
 		SheetRender render = new SheetRender(sheet, imgOptions);
 		// Convert the image
-		render.toImage(0, dataDir + "output.emf");
-		// ExEnd:RemoveWhitespaceAroundData
+		render.toImage(0, dataDir + "RWhitespaceAroundData-out.emf");
+
 	}
 }

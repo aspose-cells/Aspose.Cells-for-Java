@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyWorksheetFromWorkbookToOther {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(CopyWorksheetFromWorkbookToOther.class);
+		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "worksheets/";
 		// Create a new Workbook.
 		Workbook excelWorkbook0 = new Workbook();
 

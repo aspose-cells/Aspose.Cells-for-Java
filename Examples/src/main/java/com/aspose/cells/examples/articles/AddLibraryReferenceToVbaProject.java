@@ -6,21 +6,22 @@ import com.aspose.cells.examples.Utils;
 
 public class AddLibraryReferenceToVbaProject {
 
-    public static void main(String[] args)
-            throws Exception {
-    	// ExStart:AddLibraryReferenceToVbaProject
-        String dataDir = Utils.getDataDir(AddLibraryReferenceToVbaProject.class);
-        String outputPath = dataDir + "Output-1.xlsm";
+	public static void main(String[] args) throws Exception {
 
-        Workbook workbook = new Workbook();
+		String dataDir = Utils.getSharedDataDir(AddLibraryReferenceToVbaProject.class) + "articles/";
+		String outputPath = dataDir + "ALRToVbaProject-out.xlsm";
 
-        VbaProject vbaProj = workbook.getVbaProject();
+		Workbook workbook = new Workbook();
 
-        vbaProj.getReferences().addRegisteredReference("stdole", "*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
-        vbaProj.getReferences().addRegisteredReference("Office", "*\\G{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}#2.0#0#C:\\Program Files\\Common Files\\Microsoft Shared\\OFFICE14\\MSO.DLL#Microsoft Office 14.0 Object Library");
+		VbaProject vbaProj = workbook.getVbaProject();
 
-        workbook.save(outputPath);
-        System.out.println("File saved " + outputPath);
-     // ExEnd:AddLibraryReferenceToVbaProject
-    }
+		vbaProj.getReferences().addRegisteredReference("stdole",
+				"*\\G{00020430-0000-0000-C000-000000000046}#2.0#0#C:\\Windows\\system32\\stdole2.tlb#OLE Automation");
+		vbaProj.getReferences().addRegisteredReference("Office",
+				"*\\G{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}#2.0#0#C:\\Program Files\\Common Files\\Microsoft Shared\\OFFICE14\\MSO.DLL#Microsoft Office 14.0 Object Library");
+
+		workbook.save(outputPath);
+		System.out.println("File saved " + outputPath);
+
+	}
 }

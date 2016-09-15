@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class UnhidingRowsandColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UnhidingRowsandColumns
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UnhidingRowsandColumns.class);
+		String dataDir = Utils.getSharedDataDir(UnhidingRowsandColumns.class) + "RowsColumns/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "workbook.xls");
@@ -24,10 +24,10 @@ public class UnhidingRowsandColumns {
 		cells.unhideColumn(1, 8.5);
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "workbook.out.xls");
+		workbook.save(dataDir + "UnhidingRowsandColumns-out.xls");
 
 		// Print message
 		System.out.println("Rows and Columns unhidden successfully.");
-		// ExEnd:UnhidingRowsandColumns
+
 	}
 }

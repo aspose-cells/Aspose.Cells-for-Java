@@ -7,8 +7,8 @@ import com.aspose.cells.examples.Utils;
 
 public class InsertPictureCellReference {
 	public static void main(String[] args) throws Exception {
-		// ExStart:InsertPictureCellReference
-		String dataDir = Utils.getDataDir(InsertPictureCellReference.class);
+
+		String dataDir = Utils.getSharedDataDir(InsertPictureCellReference.class) + "articles/";
 
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();
@@ -34,7 +34,7 @@ public class InsertPictureCellReference {
 		workbook.getWorksheets().get(0).getShapes().updateSelectedValue();
 
 		// Save the Excel file.
-		workbook.save(dataDir + "referencedpicture.xlsx");
-		// ExEnd:InsertPictureCellReference
+		workbook.save(dataDir + "IPCellReference-out.xlsx");
+
 	}
 }

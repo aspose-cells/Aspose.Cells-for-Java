@@ -8,9 +8,9 @@ import com.aspose.cells.examples.Utils;
 
 public class DetermineWhichAxisExistsInChart {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DetermineWhichAxisExistsInChart
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DetermineWhichAxisExistsInChart.class);
+		String dataDir = Utils.getSharedDataDir(DetermineWhichAxisExistsInChart.class) + "articles/";
 		// Create workbook object
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -32,6 +32,6 @@ public class DetermineWhichAxisExistsInChart {
 
 		ret = chart.hasAxis(AxisType.VALUE, false);
 		System.out.println("Has Seconary Value Axis: " + ret);
-		// ExEnd:DetermineWhichAxisExistsInChart
+
 	}
 }

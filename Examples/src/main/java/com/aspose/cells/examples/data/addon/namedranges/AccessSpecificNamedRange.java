@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class AccessSpecificNamedRange {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AccessSpecificNamedRange
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AccessSpecificNamedRange.class);
+		String dataDir = Utils.getSharedDataDir(AccessSpecificNamedRange.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -24,6 +24,6 @@ public class AccessSpecificNamedRange {
 
 		// Print message
 		System.out.println("Named Range : " + namedRange.getRefersTo());
-		// ExEnd:AccessSpecificNamedRange
+
 	}
 }

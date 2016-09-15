@@ -5,12 +5,13 @@ import com.aspose.cells.FontSetting;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.AdvancedTopics.SmartMarkers.UsingHTMLProperty;
 
 public class AccessAndUpdatePortions {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AccessAndUpdatePortions
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AccessAndUpdatePortions.class);
+		String dataDir = Utils.getSharedDataDir(AccessAndUpdatePortions.class) + "articles/";
 
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -43,7 +44,7 @@ public class AccessAndUpdatePortions {
 		}
 
 		// Save workbook
-		workbook.save(dataDir + "output.xlsx");
-		// ExEnd:AccessAndUpdatePortions
+		workbook.save(dataDir + "AAUPortions-out.xlsx");
+
 	}
 }

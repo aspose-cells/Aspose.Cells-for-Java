@@ -8,9 +8,9 @@ import java.io.FileOutputStream;
 public class SaveWorkbookToTextCSVFormat {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:SaveWorkbookToTextCSVFormat
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SaveWorkbookToTextCSVFormat.class);
+		String dataDir = Utils.getSharedDataDir(SaveWorkbookToTextCSVFormat.class) + "files/";
 
 		// Load your source workbook
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -41,12 +41,12 @@ public class SaveWorkbookToTextCSVFormat {
 		}
 
 		// Save entire workbook data into file
-		FileOutputStream fout = new FileOutputStream(dataDir + "data.out.txt");
+		FileOutputStream fout = new FileOutputStream(dataDir + "SWTTextCSVFormat-out.txt");
 		fout.write(workbookData);
 		fout.close();
 
 		// Print message
 		System.out.println("Excel to Text File Conversion performed successfully.");
-		// ExEnd:SaveWorkbookToTextCSVFormat
+
 	}
 }

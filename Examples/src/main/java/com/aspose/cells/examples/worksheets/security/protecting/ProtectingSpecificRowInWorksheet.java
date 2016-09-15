@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class ProtectingSpecificRowInWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ProtectingSpecificRowInWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(ProtectingSpecificRowInWorksheet.class) + "worksheets/";
 
 		// Create a new workbook.
 		Workbook wb = new Workbook();
@@ -47,10 +47,10 @@ public class ProtectingSpecificRowInWorksheet {
 		sheet.getCells().getRows().get(0).applyStyle(style, flag);
 
 		// Save the excel file.
-		wb.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "PSRowInWorksheet-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Row protected successfully.");
-		// ExEnd:1
+
 	}
 }

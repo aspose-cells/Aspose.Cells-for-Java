@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class MicrosoftTheme {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(MicrosoftTheme.class);
+		String dataDir = Utils.getSharedDataDir(MicrosoftTheme.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
@@ -32,10 +32,10 @@ public class MicrosoftTheme {
 		chart.getNSeries().get(0).getArea().getFillFormat().getSolidFill().setCellsColor(cc);
 
 		// Save the Excel file
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "MTheme-out.xlsx");
 
 		// Print message
 		System.out.println("MicrosoftTheme is successfully applied.");
-		// ExEnd:1
+
 	}
 }

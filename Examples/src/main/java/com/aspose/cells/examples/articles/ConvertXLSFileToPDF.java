@@ -6,15 +6,15 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertXLSFileToPDF {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConvertXLSFileToPDF
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertXLSFileToPDF.class);
+		String dataDir = Utils.getSharedDataDir(ConvertXLSFileToPDF.class) + "articles/";
 		
 		//Create a new Workbook
 		Workbook book = new Workbook(dataDir + "SampleInput.xlsx");
 
 		//Save the excel file to PDF format
-		book.save(dataDir + "output.pdf", SaveFormat.PDF);
-		// ExEnd:ConvertXLSFileToPDF
+		book.save(dataDir + "CXLSFileToPDF-out.pdf", SaveFormat.PDF);
+
 	}
 }

@@ -2,13 +2,14 @@ package com.aspose.cells.examples.charts.fundamental;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.charts.HowToCreateChart;
 
 public class ChangeChartPositionAndSize {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:ChangeChartPositionAndSize
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ChangeChartPositionAndSize.class);
+		String dataDir = Utils.getSharedDataDir(ChangeChartPositionAndSize.class) + "charts/";
 
 		String filePath = dataDir + "book1.xls";
 
@@ -28,10 +29,10 @@ public class ChangeChartPositionAndSize {
 		chart.getChartObject().setY(150);
 
 		// Output the file
-		workbook.save(dataDir + "book1.out.xls");
+		workbook.save(dataDir + "CCPASize-out.xls");
 
 		// Print message
 		System.out.println("Position and Size of Chart is changed successfully.");
-		// ExEnd:ChangeChartPositionAndSize
+
 	}
 }

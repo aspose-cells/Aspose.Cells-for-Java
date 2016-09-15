@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetPrintArea {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(SetPrintArea.class);
+		String dataDir = Utils.getSharedDataDir(SetPrintArea.class) + "worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -21,6 +21,6 @@ public class SetPrintArea {
 
 		// Specifying the cells range (from A1 cell to T35 cell) of the print area
 		pageSetup.setPrintArea("A1:T35");
-		workbook.save(dataDir + "SetPrintArea_out.xls");
+		workbook.save(dataDir + "SetPrintArea-out.xls");
 	}
 }

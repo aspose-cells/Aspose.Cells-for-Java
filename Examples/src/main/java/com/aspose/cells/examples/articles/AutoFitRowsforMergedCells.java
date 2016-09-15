@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class AutoFitRowsforMergedCells {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AutoFitRowsforMergedCells
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AutoFitRowsforMergedCells.class);
+		String dataDir = Utils.getSharedDataDir(AutoFitRowsforMergedCells.class) + "articles/";
 		// Instantiate a new Workbook
 		Workbook wb = new Workbook();
 
@@ -47,7 +47,7 @@ public class AutoFitRowsforMergedCells {
 		_worksheet.autoFitRows(options);
 
 		// Save the Excel file
-		wb.save(dataDir + "autofitmergedcells.xlsx");
-		// ExEnd:AutoFitRowsforMergedCells
+		wb.save(dataDir + "AFRFMergedCells.xlsx");
+
 	}
 }

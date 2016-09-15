@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class OpeningTextFilewithCustomSeparator {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningTextFilewithCustomSeparator.class);
+		String dataDir = Utils.getSharedDataDir(OpeningTextFilewithCustomSeparator.class) + "files/";
 		String filePath = dataDir + "Book11.csv";
 
 		TxtLoadOptions txtoption = new TxtLoadOptions();
@@ -17,11 +17,11 @@ public class OpeningTextFilewithCustomSeparator {
 
 		// Creating Workbook object and saving it
 		Workbook workbook = new Workbook(dataDir + "Book11.csv", txtoption);
-		workbook.save(dataDir + "output.pdf", FileFormatType.PDF);
+		workbook.save(dataDir + "OTFWCSeparator-out.pdf", FileFormatType.PDF);
 
 		// Print message
 		System.out.println("Custom Separator workbook has been opened successfully.");
-		// ExEnd:1
+
 
 	}
 }

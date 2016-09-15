@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class CopyWithinWorkbook {
 	public static void main(String[] args) throws Exception {
 		// For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-Java
-		String dataDir = Utils.getDataDir(CopyWithinWorkbook.class);
+		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "worksheets/";
 		// Create a new Workbook by excel file path
 		Workbook wb = new Workbook(dataDir + "book1.xls");
 

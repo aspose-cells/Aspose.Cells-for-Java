@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class DisableTextWrapping {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DisableTextWrapping
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DisableTextWrapping.class);
+		String dataDir = Utils.getSharedDataDir(DisableTextWrapping.class) + "articles/";
 		// Load the sample Excel file inside the workbook object
 		Workbook workbook = new Workbook(dataDir + "SampleChart.xlsx");
 
@@ -25,7 +25,7 @@ public class DisableTextWrapping {
 		chart.getNSeries().get(2).getDataLabels().setTextWrapped(false);
 
 		// Save the workbook
-		workbook.save(dataDir + "Output.xlsx");
-		// ExEnd:DisableTextWrapping
+		workbook.save(dataDir + "DTextWrapping-out.xlsx");
+
 	}
 }

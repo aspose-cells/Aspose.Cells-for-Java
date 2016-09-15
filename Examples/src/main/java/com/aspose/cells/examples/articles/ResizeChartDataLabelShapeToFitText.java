@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ResizeChartDataLabelShapeToFitText {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ResizeChartDataLabelShapeToFitText
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ResizeChartDataLabelShapeToFitText.class);
+		String dataDir = Utils.getSharedDataDir(ResizeChartDataLabelShapeToFitText.class) + "articles/";
 		// Create an instance of Workbook containing the Chart
 		Workbook book = new Workbook(dataDir + "report.xlsx");
 
@@ -39,7 +39,7 @@ public class ResizeChartDataLabelShapeToFitText {
 		}
 
 		// Save the result
-		book.save(dataDir + "output.xlsx");
-		// ExEnd:ResizeChartDataLabelShapeToFitText
+		book.save(dataDir + "RCDLabelShapeToFitText-out.xlsx");
+
 	}
 }

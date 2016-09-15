@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class SecurePDFDocuments {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SecurePDFDocuments
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SecurePDFDocuments.class);
+		String dataDir = Utils.getSharedDataDir(SecurePDFDocuments.class) + "articles/";
 		// Open an Excel file
 		Workbook workbook = new Workbook(dataDir + "input.xlsx");
 
@@ -30,7 +30,7 @@ public class SecurePDFDocuments {
 		saveOption.getSecurityOptions().setPrintPermission(false);
 
 		// Save the PDF document with encrypted settings
-		workbook.save(dataDir + "securepdf_test.pdf", saveOption);
-		// ExEnd:SecurePDFDocuments
+		workbook.save(dataDir + "SecurePDFDocuments-out.pdf", saveOption);
+
 	}
 }

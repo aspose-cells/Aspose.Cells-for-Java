@@ -10,9 +10,9 @@ import com.aspose.cells.examples.Utils;
 
 public class SettingPrintoptions {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingPrintoptions
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingPrintoptions.class);
+		String dataDir = Utils.getSharedDataDir(SettingPrintoptions.class) + "articles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "PageSetup.xls");
 
@@ -52,7 +52,7 @@ public class SettingPrintoptions {
 		pageSetup.setOrder(PrintOrderType.OVER_THEN_DOWN);
 
 		// Save the workbook
-		workbook.save(dataDir + "PageSetup_Print.xls");
-		// ExEnd:SettingPrintoptions
+		workbook.save(dataDir + "SettingPrintoptions-out.xls");
+
 	}
 }

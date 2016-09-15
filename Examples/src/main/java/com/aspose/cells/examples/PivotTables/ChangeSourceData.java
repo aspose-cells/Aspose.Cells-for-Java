@@ -6,11 +6,12 @@ import com.aspose.cells.Range;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.introduction.CreatingWorkbook;
 
 public class ChangeSourceData {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ChangeSourceData.class);
+		String dataDir = Utils.getSharedDataDir(ChangeSourceData.class) + "PivotTables/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 

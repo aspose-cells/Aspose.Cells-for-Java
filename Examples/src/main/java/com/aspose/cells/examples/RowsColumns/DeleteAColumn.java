@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DeleteAColumn {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(DeleteAColumn.class);
+		String dataDir = Utils.getSharedDataDir(DeleteAColumn.class) + "RowsColumns/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 
@@ -17,6 +17,6 @@ public class DeleteAColumn {
 		worksheet.getCells().deleteColumns(1, 1, true);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "DeleteAColumn-out.xls");
 	}
 }

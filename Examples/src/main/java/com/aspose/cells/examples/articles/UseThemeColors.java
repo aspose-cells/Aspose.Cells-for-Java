@@ -12,9 +12,9 @@ import com.aspose.cells.examples.Utils;
 
 public class UseThemeColors {
 	public static void main(String[] args) throws Exception {
-		// ExStart:UseThemeColors
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UseThemeColors.class);
+		String dataDir = Utils.getSharedDataDir(UseThemeColors.class) + "articles/";
 		// Instantiate a Workbook
 		Workbook workbook = new Workbook();
 		// Get cells collection in the first (default) worksheet
@@ -40,7 +40,7 @@ public class UseThemeColors {
 		c.putValue("Testing");
 
 		// Save the excel file
-		workbook.save(dataDir + "UseThemeColors.xlsx");
-		// ExEnd:UseThemeColors
+		workbook.save(dataDir + "UseThemeColors-out.xlsx");
+
 	}
 }

@@ -11,9 +11,9 @@ import com.aspose.cells.examples.Utils;
 public class MergeCellsInNamedRange {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:MergeCellsInNamedRange
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(MergeCellsInNamedRange.class);
+		String dataDir = Utils.getSharedDataDir(MergeCellsInNamedRange.class) + "data/";
 
 		// Instantiate a new Workbook.
 		Workbook wb1 = new Workbook();
@@ -51,10 +51,10 @@ public class MergeCellsInNamedRange {
 		range1.get(0, 0).setValue("Aspose");
 
 		// Save the excel file.
-		wb1.save(dataDir + "mergingrange.out.xls");
+		wb1.save(dataDir + "MCINRange-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:MergeCellsInNamedRange
+
 	}
 }

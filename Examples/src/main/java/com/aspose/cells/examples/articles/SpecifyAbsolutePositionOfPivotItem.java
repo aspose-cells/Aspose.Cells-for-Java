@@ -11,9 +11,9 @@ import com.aspose.cells.examples.Utils;
 
 public class SpecifyAbsolutePositionOfPivotItem {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SpecifyAbsolutePositionOfPivotItem
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SpecifyAbsolutePositionOfPivotItem.class);
+		String dataDir = Utils.getSharedDataDir(SpecifyAbsolutePositionOfPivotItem.class) + "articles/";
 		Workbook wb = new Workbook(dataDir + "source.xlsx");
 		Worksheet wsPivot = wb.getWorksheets().add("pvtNew Hardware");
 		Worksheet wsData = wb.getWorksheets().get("New Hardware - Yearly");
@@ -61,7 +61,7 @@ public class SpecifyAbsolutePositionOfPivotItem {
 		pvtTable.getRowFields().get("Item").getPivotItems().get("AAA3").setPositionInSameParentNode(2);
 
 		// Save file
-		wb.save(dataDir + "output.xlsx");
-		// ExEnd:SpecifyAbsolutePositionOfPivotItem
+		wb.save(dataDir + "SAPOfPivotItem.xlsx");
+
 	}
 }

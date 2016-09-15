@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CalculateIFNAfunction {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CalculateIFNAfunction
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CalculateIFNAfunction.class);
+		String dataDir = Utils.getSharedDataDir(CalculateIFNAfunction.class) + "articles/";
 		// Create new workbook
 		Workbook workbook = new Workbook();
 
@@ -35,6 +35,6 @@ public class CalculateIFNAfunction {
 		// Print the values of A5 and A6
 		System.out.println(cellA5.getStringValue());
 		System.out.println(cellA6.getStringValue());
-		// ExEnd:CalculateIFNAfunction
+
 	}
 }

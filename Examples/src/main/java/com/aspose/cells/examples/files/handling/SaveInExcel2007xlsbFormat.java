@@ -7,18 +7,18 @@ import com.aspose.cells.examples.Utils;
 public class SaveInExcel2007xlsbFormat {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SaveInExcel2007xlsbFormat.class);
+		String dataDir = Utils.getSharedDataDir(SaveInExcel2007xlsbFormat.class) + "files/";
 
 		// Creating an Workbook object with an Excel file path
 		Workbook workbook = new Workbook();
 
 		// Save in Excel2007 xlsb format
-		workbook.save(dataDir + "output.xlsb", FileFormatType.XLSB);
+		workbook.save(dataDir + "SIE2007xlsbFormat-out.xlsb", FileFormatType.XLSB);
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");
-		// ExEnd:1
+
 	}
 }

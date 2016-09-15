@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class AddingLinkToURL {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddingLinkToURL
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingLinkToURL.class);
+		String dataDir = Utils.getSharedDataDir(AddingLinkToURL.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -22,10 +22,10 @@ public class AddingLinkToURL {
 		hyperlinks.add("A1", 1, 1, "http://www.aspose.com");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "ALToURL-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:AddingLinkToURL
+
 	}
 }

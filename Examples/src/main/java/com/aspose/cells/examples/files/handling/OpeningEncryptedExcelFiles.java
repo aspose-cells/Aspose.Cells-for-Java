@@ -10,9 +10,9 @@ import java.io.FileInputStream;
 public class OpeningEncryptedExcelFiles {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningEncryptedExcelFiles.class);
+		String dataDir = Utils.getSharedDataDir(OpeningEncryptedExcelFiles.class) + "files/";
 
 		// Opening Encrypted Excel Files
 		// Creating and EXCEL_97_TO_2003 LoadOptions object
@@ -26,6 +26,6 @@ public class OpeningEncryptedExcelFiles {
 
 		// Print message
 		System.out.println("Encrypted workbook has been opened successfully.");
-		// ExEnd:1
+
 	}
 }

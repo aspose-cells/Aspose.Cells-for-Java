@@ -14,8 +14,8 @@ import com.aspose.cells.examples.Utils;
 
 public class CreateTableforRange {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreateTableforRange
-		String dataDir = Utils.getDataDir(CreateTableforRange.class);
+
+		String dataDir = Utils.getSharedDataDir(CreateTableforRange.class) + "articles/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -49,7 +49,7 @@ public class CreateTableforRange {
 		}
 
 		// Saving the Excel file
-		workbook.save(dataDir + "borders_out.xls");
-		// ExEnd:CreateTableforRange
+		workbook.save(dataDir + "CTableforRange-out.xls");
+
 	}
 }

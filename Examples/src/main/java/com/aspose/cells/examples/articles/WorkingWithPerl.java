@@ -1,7 +1,7 @@
 package com.aspose.cells.examples.articles;
 
 public class WorkingWithPerl {
-	// ExStart:WorkingWithPerl
+
 	my $ok = 0;BEGIN
 	{ $| = 1; print "1..33\n"; }END
 	{print "not ok $ok - is JavaServer on localhost running?\nJavaServer must be running for these tests to function.\n" unless $loaded;}
@@ -44,5 +44,5 @@ public class WorkingWithPerl {
 	$workbook->save("t1.xls");
 	$ok++;
 	print "save $ok\n";
-	// ExEnd:WorkingWithPerl
+
 }

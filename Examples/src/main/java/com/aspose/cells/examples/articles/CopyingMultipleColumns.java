@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyingMultipleColumns {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyingMultipleColumns
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyingMultipleColumns.class);
+		String dataDir = Utils.getSharedDataDir(CopyingMultipleColumns.class) + "articles/";
 		// Create an instance of Workbook class by loading the existing spreadsheet
 		Workbook workbook = new Workbook(dataDir + "aspose-sample.xlsx");
 
@@ -19,7 +19,7 @@ public class CopyingMultipleColumns {
 		cells.copyColumns(cells, 0, 6, 3);
 
 		// Save the result on disc
-		workbook.save(dataDir + "output.xlsx");
-		// ExEnd:CopyingMultipleColumns
+		workbook.save(dataDir + "CMultipleColumns-out.xlsx");
+
 	}
 }

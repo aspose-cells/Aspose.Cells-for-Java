@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ChangingLayoutofPivotTable {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ChangingLayoutofPivotTable
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ChangingLayoutofPivotTable.class);
+		String dataDir = Utils.getSharedDataDir(ChangingLayoutofPivotTable.class) + "articles/";
 		// Create workbook object from source excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -47,7 +47,7 @@ public class ChangingLayoutofPivotTable {
 		pivotTable.calculateData();
 
 		// Save the output
-		workbook.save(dataDir + "TabularForm.xlsx");
-		// ExEnd:ChangingLayoutofPivotTable
+		workbook.save(dataDir + "CLOfPivotTable-out.xlsx");
+
 	}
 }

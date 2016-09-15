@@ -5,11 +5,12 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.DrawingObjects.ole.InsertingOLEObjects;
 
 public class AddingPictures {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingPictures.class);
+		String dataDir = Utils.getSharedDataDir(AddingPictures.class) + "DrawingObjects/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -24,6 +25,6 @@ public class AddingPictures {
 		Picture picture = sheet.getPictures().get(pictureIndex);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "book1.xls");
+		workbook.save(dataDir + "APictures-out.xls");
 	}
 }

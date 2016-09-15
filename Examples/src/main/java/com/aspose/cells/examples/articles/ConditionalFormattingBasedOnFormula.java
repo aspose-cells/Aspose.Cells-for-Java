@@ -13,9 +13,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ConditionalFormattingBasedOnFormula {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConditionalFormattingBasedOnFormula
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConditionalFormattingBasedOnFormula.class);
+		String dataDir = Utils.getSharedDataDir(ConditionalFormattingBasedOnFormula.class) + "articles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 		Worksheet sheet = workbook.getWorksheets().get(0);
@@ -37,7 +37,7 @@ public class ConditionalFormattingBasedOnFormula {
 		fc.getStyle().setBackgroundColor(Color.getRed());
 		sheet.getCells().get("B3").setFormula("=SUM(B1:B2)");
 		sheet.getCells().get("C4").setValue("If Sum of B1:B2 is greater than 100, B3 will have RED background");
-		workbook.save(dataDir + "output.xls");
-		// ExEnd:ConditionalFormattingBasedOnFormula
+		workbook.save(dataDir + "CFBasedOnFormula-out.xls");
+
 	}
 }

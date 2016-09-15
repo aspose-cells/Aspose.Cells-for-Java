@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class VerifyCellValueSatisfiesDataValidationRules {
 	public static void main(String[] args) throws Exception {
-		// ExStart:VerifyCellValueSatisfiesDataValidationRules
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(VerifyCellValueSatisfiesDataValidationRules.class);
+		String dataDir = Utils.getSharedDataDir(VerifyCellValueSatisfiesDataValidationRules.class) + "articles/";
 		// Instantiate the workbook from sample Excel file
 		Workbook workbook = new Workbook(dataDir + "Sample1.xlsx");
 
@@ -39,6 +39,6 @@ public class VerifyCellValueSatisfiesDataValidationRules {
 		// Check if number 30 satisfies the Data Validation rule applied on this cell
 		System.out.println("Is 30 a Valid Value for this Cell: " + cell.getValidationValue());
 
-		// ExEnd:VerifyCellValueSatisfiesDataValidationRules
+
 	}
 }

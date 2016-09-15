@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class ProtectingSpecificColumnInWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ProtectingSpecificColumnInWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(ProtectingSpecificColumnInWorksheet.class) + "worksheets/";
 
 		// Create a new workbook.
 		Workbook wb = new Workbook();
@@ -47,10 +47,10 @@ public class ProtectingSpecificColumnInWorksheet {
 		sheet.getCells().getColumns().get(0).applyStyle(style, flag);
 
 		// Save the excel file.
-		wb.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "PSCInWorksheet-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Column protected successfully.");
-		// ExEnd:1
+
 	}
 }

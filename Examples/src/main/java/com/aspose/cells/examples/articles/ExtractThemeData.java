@@ -11,9 +11,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ExtractThemeData {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ExtractThemeData
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ExtractThemeData.class);
+		String dataDir = Utils.getSharedDataDir(ExtractThemeData.class) + "articles/";
 		// Create workbook object
 		Workbook workbook = new Workbook(dataDir + "TestBook.xlsx");
 
@@ -35,6 +35,6 @@ public class ExtractThemeData {
 		// Extract theme color applied to the bottom border of the cell
 		Border bot = style.getBorders().getByBorderType(BorderType.BOTTOM_BORDER);
 		System.out.println(bot.getThemeColor().getColorType() == ThemeColorType.ACCENT_1);
-		// ExEnd:ExtractThemeData
+
 	}
 }

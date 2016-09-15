@@ -7,8 +7,8 @@ import com.aspose.cells.examples.Utils;
 
 public class LoadOrImportCSVFile {
 	public static void main(String[] args) throws Exception {
-		// ExStart:LoadOrImportCSVFile
-		String dataDir = Utils.getDataDir(LoadOrImportCSVFile.class);
+
+		String dataDir = Utils.getSharedDataDir(LoadOrImportCSVFile.class) + "articles/";
 		String csvFile = dataDir + "sample.csv";
 
 		TxtLoadOptions opts = new TxtLoadOptions();
@@ -23,7 +23,7 @@ public class LoadOrImportCSVFile {
 		worksheet.getCells().importCSV(csvFile, opts, 3, 3);
 
 		// Save your workbook in Xlsx format
-		workbook.save(dataDir + "output.xlsx");
-		// ExEnd:LoadOrImportCSVFile
+		workbook.save(dataDir + "LOrICSVFile-out.xlsx");
+
 	}
 }

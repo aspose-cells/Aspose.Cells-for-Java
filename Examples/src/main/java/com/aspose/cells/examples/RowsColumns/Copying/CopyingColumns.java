@@ -3,13 +3,14 @@ package com.aspose.cells.examples.RowsColumns.Copying;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.RowsColumns.UnhidingRowsandColumns;
 
 public class CopyingColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyingColumns
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopyingColumns.class);
+		String dataDir = Utils.getSharedDataDir(CopyingColumns.class) + "RowsColumns/";
 
 		// Create a new Workbook.
 		Workbook excelWorkbook = new Workbook(dataDir + "book1.xls");
@@ -24,10 +25,10 @@ public class CopyingColumns {
 		wsTemplate.getCells().copyColumn(wsTemplate.getCells(), 1, 4);
 
 		// Save the excel file.
-		excelWorkbook.save(dataDir + "output.xls");
+		excelWorkbook.save(dataDir + "CopyingColumns-out.xls");
 
 		// Print message
 		System.out.println("Column copied successfully.");
-		// ExEnd:CopyingColumns
+
 	}
 }

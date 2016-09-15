@@ -6,7 +6,7 @@ import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
 
 public class DecreaseCalculationTime {
-	// ExStart:DecreaseCalculationTime
+
 	public static void main(String[] args) throws Exception {
 
 		// Test calculation time after setting recursive true
@@ -20,7 +20,7 @@ public class DecreaseCalculationTime {
 
 	static void TestCalcTimeRecursive(boolean rec) throws Exception {
 
-		String dataDir = Utils.getDataDir(DecreaseCalculationTime.class);
+		String dataDir = Utils.getSharedDataDir(DecreaseCalculationTime.class) + "articles/";
 
 		// Load your sample workbook
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");
@@ -48,5 +48,5 @@ public class DecreaseCalculationTime {
 		// Print the elapsed time in seconds
 		System.out.println("Recursive " + rec + ": " + estimatedTime + " seconds");
 	}
-	// ExEnd:DecreaseCalculationTime
+
 }

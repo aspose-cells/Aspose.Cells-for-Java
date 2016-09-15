@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CopySparkline {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopySparkline
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CopySparkline.class);
+		String dataDir = Utils.getSharedDataDir(CopySparkline.class) + "articles/";
 		// Create workbook from source Excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
@@ -26,7 +26,7 @@ public class CopySparkline {
 		group.getSparklineCollection().add("D8:O8", 7, 15);
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx");
-		// ExEnd:CopySparkline
+		workbook.save(dataDir + "CopySparkline-out.xlsx");
+
 	}
 }

@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 public class SettingDisplayFormat {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingDisplayFormat.class);
+		String dataDir = Utils.getSharedDataDir(SettingDisplayFormat.class) + "formatting/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -41,6 +41,6 @@ public class SettingDisplayFormat {
 		worksheet.getCells().getColumns().get(0).applyStyle(style, flag);
 
 		// Saving spreadsheet on disc
-		workbook.save(dataDir + "output.xlsx");
+		workbook.save(dataDir + "SDisplayFormat-out.xlsx");
 	}
 }

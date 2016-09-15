@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetMargins {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(SetMargins.class);
+		String dataDir = Utils.getSharedDataDir(SetMargins.class) + "worksheets/";
 		// Create a workbook object
 		Workbook workbook = new Workbook();
 
@@ -27,6 +27,6 @@ public class SetMargins {
 		pageSetup.setRightMargin(1);
 		pageSetup.setTopMargin(3);
 
-		workbook.save(dataDir + "SetMargins_out.xls");
+		workbook.save(dataDir + "SetMargins-out.xls");
 	}
 }

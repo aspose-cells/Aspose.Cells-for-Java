@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ColorsAndBackground {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(ColorsAndBackground.class);
+		String dataDir = Utils.getSharedDataDir(ColorsAndBackground.class) + "borders/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -50,6 +50,6 @@ public class ColorsAndBackground {
 		cell.setStyle(style);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "CAndBackground-out.xls");
 	}
 }

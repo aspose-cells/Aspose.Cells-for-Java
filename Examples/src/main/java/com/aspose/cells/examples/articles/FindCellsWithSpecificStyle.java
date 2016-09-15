@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class FindCellsWithSpecificStyle {
 	public static void main(String[] args) throws Exception {
-		// ExStart:FindCellsWithSpecificStyle
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(FindCellsWithSpecificStyle.class);
+		String dataDir = Utils.getSharedDataDir(FindCellsWithSpecificStyle.class) + "articles/";
 
 		Workbook workbook = new Workbook(dataDir + "TestBook.xlsx");
 
@@ -38,7 +38,7 @@ public class FindCellsWithSpecificStyle {
 
 		} while (true);
 
-		workbook.save(dataDir + "out.xlsx");
-		// ExEnd:FindCellsWithSpecificStyle
+		workbook.save(dataDir + "FCWithSpecificStyle-out.xlsx");
+
 	}
 }

@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class RemoveANamedRange {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:RemoveANamedRange
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(RemoveANamedRange.class);
+		String dataDir = Utils.getSharedDataDir(RemoveANamedRange.class) + "data/";
 
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
@@ -50,10 +50,10 @@ public class RemoveANamedRange {
 		worksheets.getNames().removeAt(0);
 
 		// Save the excel file.
-		workbook.save(dataDir + "ranges.out.xls");
+		workbook.save(dataDir + "RANRange-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:RemoveANamedRange
+
 	}
 }

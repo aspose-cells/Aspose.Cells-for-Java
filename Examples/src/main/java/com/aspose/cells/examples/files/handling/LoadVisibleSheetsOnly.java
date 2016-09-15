@@ -4,17 +4,17 @@ import com.aspose.cells.LoadDataOption;
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.DrawingObjects.pictures.PositioningPictures.AbsolutePositioning;
 
 public class LoadVisibleSheetsOnly {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
-		String dataDir = Utils.getDataDir(LoadVisibleSheetsOnly.class);
-		String sampleFile = "Sample.out.xlsx";
+
+		String dataDir = Utils.getSharedDataDir(LoadVisibleSheetsOnly.class) + "files/";
+		String sampleFile = "Book1.xlsx";
 		String samplePath = dataDir + sampleFile;
 
-		// Create a sample workbook
-		// and put some data in first cell of all 3 sheets
+		// Create a sample workbook and put some data in first cell of all 3 sheets
 		Workbook createWorkbook = new Workbook();
 		createWorkbook.getWorksheets().get("Sheet1").getCells().get("A1").setValue("Aspose");
 		createWorkbook.getWorksheets().add("Sheet2").getCells().get("A1").setValue("Aspose");
@@ -37,6 +37,6 @@ public class LoadVisibleSheetsOnly {
 		System.out.println("Sheet3: A1: " + loadWorkbook.getWorksheets().get("Sheet3").getCells().get("A1").getValue());
 
 		System.out.println("Data is not loaded from invisible sheet");
-		// ExEnd:1
+
 	}
 }

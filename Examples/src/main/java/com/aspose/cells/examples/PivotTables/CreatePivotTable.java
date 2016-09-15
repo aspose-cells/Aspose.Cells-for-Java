@@ -14,7 +14,7 @@ public class CreatePivotTable {
 	public static void main(String[] args) throws Exception {
 		
 		// The path to the resource directory
-		String dataDir = Utils.getSharedDataDir(CreatePivotTable.class) + "PivotTable/";
+		String dataDir = Utils.getSharedDataDir(CreatePivotTable.class) + "PivotTables/";
 				
 		//Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -98,6 +98,6 @@ public class CreatePivotTable {
 		pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
 		//Saving the Excel file
-		workbook.save(dataDir + "CreatePivotTable_out.xls");
+		workbook.save(dataDir + "CreatePivotTable-out.xls");
 	}
 }

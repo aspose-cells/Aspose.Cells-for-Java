@@ -10,8 +10,8 @@ import com.aspose.cells.examples.Utils;
 
 public class UseErrorCheckingOptions {
 	public static void main(String[] args) throws Exception {
-		// ExStart:UseErrorCheckingOptions
-		String dataDir = Utils.getDataDir(UseErrorCheckingOptions.class);
+
+		String dataDir = Utils.getSharedDataDir(UseErrorCheckingOptions.class) + "articles/";
 
 		// Create a workbook and opening a template spreadsheet
 		Workbook workbook = new Workbook(dataDir + "Book1.xls");
@@ -29,7 +29,7 @@ public class UseErrorCheckingOptions {
 		opt.addRange(CellArea.createCellArea(0, 0, 65535, 255));
 
 		// Save the Excel file
-		workbook.save(dataDir + "out_test.xls");
-		// ExEnd:UseErrorCheckingOptions
+		workbook.save(dataDir + "UseErrorCheckingOptions-out.xls");
+
 	}
 }

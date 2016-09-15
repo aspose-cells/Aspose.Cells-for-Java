@@ -2,13 +2,14 @@ package com.aspose.cells.examples.charts.management;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.charts.InsertingControlsintoCharts.AddingTextBoxControl;
 
 public class SettingChartsData {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingChartsData
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingChartsData.class);
+		String dataDir = Utils.getSharedDataDir(SettingChartsData.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -69,10 +70,10 @@ public class SettingChartsData {
 		// Setting the data source for the category data of NSeries
 		nSeries.setCategoryData("C1:C4");
 
-		workbook.save(dataDir + "book1.out.xls");
+		workbook.save(dataDir + "SChartsData-out.xls");
 
 		// Print message
 		System.out.println("Workbook with chart is created successfully.");
-		// ExEnd:SettingChartsData
+
 	}
 }

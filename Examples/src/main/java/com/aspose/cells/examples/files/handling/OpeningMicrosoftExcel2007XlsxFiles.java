@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class OpeningMicrosoftExcel2007XlsxFiles {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(OpeningMicrosoftExcel2007XlsxFiles.class);
+		String dataDir = Utils.getSharedDataDir(OpeningMicrosoftExcel2007XlsxFiles.class) + "files/";
 		String filePath = dataDir + "Book1.html";
 
 		// Opening Microsoft Excel 2007 XLSX Files
@@ -22,7 +22,7 @@ public class OpeningMicrosoftExcel2007XlsxFiles {
 		// Print message
 		System.out.println("Excel 2007 Workbook opened successfully.");
 
-		// ExEnd:1
+
 
 	}
 }

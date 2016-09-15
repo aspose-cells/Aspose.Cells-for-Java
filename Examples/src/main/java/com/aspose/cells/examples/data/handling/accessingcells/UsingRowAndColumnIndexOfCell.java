@@ -2,13 +2,14 @@ package com.aspose.cells.examples.data.handling.accessingcells;
 
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.data.handling.AddingDataToCells;
 
 public class UsingRowAndColumnIndexOfCell {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingRowAndColumnIndexOfCell
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UsingRowAndColumnIndexOfCell.class);
+		String dataDir = Utils.getSharedDataDir(UsingRowAndColumnIndexOfCell.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -22,6 +23,6 @@ public class UsingRowAndColumnIndexOfCell {
 
 		// Print message
 		System.out.println("Cell Value: " + cell.getValue());
-		// ExEnd:UsingRowAndColumnIndexOfCell
+
 	}
 }

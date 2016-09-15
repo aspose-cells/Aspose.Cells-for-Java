@@ -2,13 +2,14 @@ package com.aspose.cells.examples.data.processing.filteringandvalidation;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.data.processing.CreatingSubtotals;
 
 public class AutofilterData {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AutofilterData
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AutofilterData.class);
+		String dataDir = Utils.getSharedDataDir(AutofilterData.class) + "data/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -22,10 +23,10 @@ public class AutofilterData {
 		autoFilter.setRange("A1:B1");
 
 		// Saving the modified Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "AFData-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:AutofilterData
+
 	}
 }

@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class DetectMergedCells {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DetectMergedCells
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(DetectMergedCells.class);
+		String dataDir = Utils.getSharedDataDir(DetectMergedCells.class) + "articles/";
 		// Instantiate a new Workbook
 		Workbook wkBook = new Workbook(dataDir + "MergeTrial.xls");
 		// Get a worksheet in the workbook
@@ -37,7 +37,7 @@ public class DetectMergedCells {
 			wkSheet.getCells().unMerge(frow, fcol, erow, ecol);
 		}
 		// Save the excel file
-		wkBook.save(dataDir + "output_MergeTrial.xls");
-		// ExEnd:DetectMergedCells
+		wkBook.save(dataDir + "DetectMergedCells-out.xls");
+
 	}
 }

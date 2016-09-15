@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class IntersectionofRanges {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:IntersectionofRanges
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(IntersectionofRanges.class);
+		String dataDir = Utils.getSharedDataDir(IntersectionofRanges.class) + "data/";
 
 		// Instantiate a workbook object.
 		// Open an existing excel file.
@@ -47,10 +47,10 @@ public class IntersectionofRanges {
 		}
 
 		// Save the excel file.
-		workbook.save(dataDir + "rngIntersection.out.xls");
+		workbook.save(dataDir + "IOfRanges-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:IntersectionofRanges
+
 	}
 }

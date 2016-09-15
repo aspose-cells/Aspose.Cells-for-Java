@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 public class SetFontSize {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SettingFontName.class);
+		String dataDir = Utils.getSharedDataDir(SetFontSize.class) + "formatting/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -33,6 +33,6 @@ public class SetFontSize {
 		cell.setStyle(style);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "SetFontSize-out.xls");
 	}
 }

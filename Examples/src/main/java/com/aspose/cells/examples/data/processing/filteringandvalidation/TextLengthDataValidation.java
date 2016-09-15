@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class TextLengthDataValidation {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:TextLengthDataValidation
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(TextLengthDataValidation.class);
+		String dataDir = Utils.getSharedDataDir(TextLengthDataValidation.class) + "data/";
 
 		// Create a new workbook.
 		Workbook workbook = new Workbook();
@@ -71,10 +71,10 @@ public class TextLengthDataValidation {
 		validation.setShowInput(true);
 
 		// Save the excel file.
-		workbook.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "TLDValidation-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:TextLengthDataValidation
+
 	}
 }

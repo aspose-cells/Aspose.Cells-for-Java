@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ReuseStyleObjects {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ReuseStyleObjects
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ReuseStyleObjects.class);
+		String dataDir = Utils.getSharedDataDir(ReuseStyleObjects.class) + "articles/";
 		// Create an instance of Workbook & load an existing spreadsheet
 		Workbook workbook = new Workbook(dataDir + "Book1.xls");
 
@@ -30,6 +30,6 @@ public class ReuseStyleObjects {
 		// Set the newly created style on two different cells
 		cells.get("A1").setStyle(styleObject);
 		cells.get("A2").setStyle(styleObject);
-		// ExEnd:ReuseStyleObjects
+
 	}
 }

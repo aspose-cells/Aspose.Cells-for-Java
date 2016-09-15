@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertCSVfiletoXLSX {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConvertCSVfiletoXLSX
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConvertCSVfiletoXLSX.class);
+		String dataDir = Utils.getSharedDataDir(ConvertCSVfiletoXLSX.class) + "articles/";
 		// Set Multi Encoded Property to True
 		TxtLoadOptions options = new TxtLoadOptions();
 		options.setMultiEncoded(true);
@@ -18,7 +18,7 @@ public class ConvertCSVfiletoXLSX {
 		Workbook workbook = new Workbook(dataDir + "MutliEncoded.csv", options);
 
 		// Save it in XLSX format
-		workbook.save(dataDir + "out.xlsx", SaveFormat.XLSX);
-		// ExEnd:ConvertCSVfiletoXLSX
+		workbook.save(dataDir + "CCSVfiletoXLSX-out.xlsx", SaveFormat.XLSX);
+
 	}
 }

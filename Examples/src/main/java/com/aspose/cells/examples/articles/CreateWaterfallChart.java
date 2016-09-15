@@ -11,9 +11,9 @@ import com.aspose.cells.examples.Utils;
 
 public class CreateWaterfallChart {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreateWaterfallChart
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreateWaterfallChart.class);
+		String dataDir = Utils.getSharedDataDir(CreateWaterfallChart.class) + "articles/";
 
 		// Create an instance of Workbook
 		Workbook workbook = new Workbook();
@@ -76,7 +76,7 @@ public class CreateWaterfallChart {
 		chart.getLegend().getLegendEntries().get(1).setDeleted(true);
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx");
-		// ExEnd:CreateWaterfallChart
+		workbook.save(dataDir + "CWfallChart-out.xlsx");
+
 	}
 }

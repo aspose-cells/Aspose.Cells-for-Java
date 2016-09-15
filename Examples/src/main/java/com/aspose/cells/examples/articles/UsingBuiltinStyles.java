@@ -9,10 +9,10 @@ import com.aspose.cells.examples.Utils;
 public class UsingBuiltinStyles {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingBuiltinStyles
-		String dataDir = Utils.getDataDir(UsingBuiltinStyles.class);
-		String output1Path = dataDir + "Output.xlsx";
-		String output2Path = dataDir + "Output.ods";
+
+		String dataDir = Utils.getSharedDataDir(UsingBuiltinStyles.class) + "articles/";
+		String output1Path = dataDir + "UsingBuiltinStyles-out.xlsx";
+		String output2Path = dataDir + "UsingBuiltinStyles-out.ods";
 
 		Workbook workbook = new Workbook();
 		Style style = workbook.createBuiltinStyle(BuiltinStyleType.TITLE);
@@ -28,6 +28,6 @@ public class UsingBuiltinStyles {
 		System.out.println("File saved " + output1Path);
 		workbook.save(output2Path);
 		System.out.println("File saved " + output2Path);
-		// ExEnd:UsingBuiltinStyles
+
 	}
 }

@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class HowToCreatePyramidChart {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(HowToCreatePyramidChart.class);
+		String dataDir = Utils.getSharedDataDir(HowToCreatePyramidChart.class) + "charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -56,11 +56,11 @@ public class HowToCreatePyramidChart {
 		serieses.add("A1:B3", true);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "HToCPChart-out.xls");
 
 		// Print message
 		System.out.println("Pyramid chart is successfully created.");
-		// ExEnd:1
+
 
 	}
 }

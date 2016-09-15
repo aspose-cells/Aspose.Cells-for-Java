@@ -9,9 +9,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ConversionOptions {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConversionOptions
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ConversionOptions.class);
+		String dataDir = Utils.getSharedDataDir(ConversionOptions.class) + "articles/";
 		// Instantiate a new Workbook object
 		// Open template
 		Workbook book = new Workbook(dataDir + "book1.xlsx");
@@ -38,7 +38,7 @@ public class ConversionOptions {
 		SheetRender sr = new SheetRender(sheet, options);
 
 		// Render/save the image for the sheet
-		sr.toImage(0, dataDir + "SheetImage.jpg");
-		// ExEnd:ConversionOptions
+		sr.toImage(0, dataDir + "ConversionOptions-out.jpg");
+
 	}
 }

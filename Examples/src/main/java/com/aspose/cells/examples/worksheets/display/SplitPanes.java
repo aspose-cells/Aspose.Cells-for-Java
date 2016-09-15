@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class SplitPanes {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(SplitPanes.class);
+		String dataDir = Utils.getSharedDataDir(SplitPanes.class) + "worksheets/";
 
 		// Instantiate a new workbook
 		// Open a template file
@@ -21,10 +21,10 @@ public class SplitPanes {
 		book.getWorksheets().get(0).split();
 
 		// Save the excel file
-		book.save(dataDir + "book.out.xls", SaveFormat.EXCEL_97_TO_2003);
+		book.save(dataDir + "SplitPanes-out.xls", SaveFormat.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Panes split successfully.");
-		// ExEnd:1
+
 	}
 }

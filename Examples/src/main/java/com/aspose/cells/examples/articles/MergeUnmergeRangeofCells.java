@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class MergeUnmergeRangeofCells {
 	public static void main(String[] args) throws Exception {
-		// ExStart:MergeUnmergeRangeofCells
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(MergeUnmergeRangeofCells.class);
+		String dataDir = Utils.getSharedDataDir(MergeUnmergeRangeofCells.class) + "articles/";
 		// Create a workbook
 		Workbook workbook = new Workbook();
 
@@ -23,7 +23,7 @@ public class MergeUnmergeRangeofCells {
 		range.merge();
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx");
-		// ExEnd:MergeUnmergeRangeofCells
+		workbook.save(dataDir + "MURangeofCells-out.xlsx");
+
 	}
 }

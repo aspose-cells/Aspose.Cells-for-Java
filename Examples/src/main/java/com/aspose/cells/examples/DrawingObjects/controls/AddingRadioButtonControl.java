@@ -13,7 +13,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingRadioButtonControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingRadioButtonControl.class);
+		String dataDir = Utils.getSharedDataDir(AddingRadioButtonControl.class) + "DrawingObjects/";
 
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
@@ -135,6 +135,6 @@ public class AddingRadioButtonControl {
 		radio3.getFillFormat().setVisible(true);
 
 		// Save the excel file.
-		workbook.save(dataDir + "tstradiobuttons.xls");
+		workbook.save(dataDir + "ARBControl-out.xls");
 	}
 }

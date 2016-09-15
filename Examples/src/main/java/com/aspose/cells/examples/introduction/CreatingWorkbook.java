@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 public class CreatingWorkbook {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreatingWorkbook.class);
+		String dataDir = Utils.getSharedDataDir(CreatingWorkbook.class) + "introduction/";
 		// Creating a file input stream to reference the license file
 		FileInputStream fstream = new FileInputStream(dataDir + "Aspose.Cells.lic");
 
@@ -37,9 +37,9 @@ public class CreatingWorkbook {
 		cell.setValue("Hello World!");
 
 		// Save the Microsoft Excel file.
-		wb.save(dataDir + "MyBook.xls", FileFormatType.EXCEL_97_TO_2003);
-		wb.save(dataDir + "MyBook.xlsx");
-		wb.save(dataDir + "MyBook.ods");
-		// ExEnd:CheckVersionNumberOfComponent
+		wb.save(dataDir + "CWorkbook-out.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "CWorkbook-out.xlsx");
+		wb.save(dataDir + "CWorkbook-out.ods");
+
 	}
 }

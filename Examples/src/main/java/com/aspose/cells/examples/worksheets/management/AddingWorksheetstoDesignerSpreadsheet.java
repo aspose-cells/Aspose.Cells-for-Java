@@ -8,9 +8,9 @@ import com.aspose.cells.examples.Utils;
 public class AddingWorksheetstoDesignerSpreadsheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AddingWorksheetstoDesignerSpreadsheet.class);
+		String dataDir = Utils.getSharedDataDir(AddingWorksheetstoDesignerSpreadsheet.class) + "worksheets/";
 
 		// Creating a file stream containing the Excel file to be opened
 		FileInputStream fstream = new FileInputStream(dataDir + "book.xls");
@@ -27,13 +27,13 @@ public class AddingWorksheetstoDesignerSpreadsheet {
 		worksheet.setName("My Worksheet");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "AWToDesignerSpreadsheet-out.xls");
 
 		// Closing the file stream to free all resources
 		fstream.close();
 
 		// Print Message
 		System.out.println("Sheet added successfully.");
-		// ExEnd:1
+
 	}
 }

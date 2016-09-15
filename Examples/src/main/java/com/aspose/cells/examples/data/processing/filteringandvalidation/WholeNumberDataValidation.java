@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 public class WholeNumberDataValidation {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:WholeNumberDataValidation
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(WholeNumberDataValidation.class);
+		String dataDir = Utils.getSharedDataDir(WholeNumberDataValidation.class) + "data/";
 
 		// Instantiating an Workbook object
 		Workbook workbook = new Workbook();
@@ -44,10 +44,10 @@ public class WholeNumberDataValidation {
 		validation.setFormula2("1000");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "WNDValidation-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:WholeNumberDataValidation
+
 	}
 }

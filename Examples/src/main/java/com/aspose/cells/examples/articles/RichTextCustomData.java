@@ -10,9 +10,9 @@ import com.aspose.cells.examples.Utils;
 
 public class RichTextCustomData {
 	public static void main(String[] args) throws Exception {
-		// ExStart:RichTextCustomData
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(RichTextCustomData.class);
+		String dataDir = Utils.getSharedDataDir(RichTextCustomData.class) + "articles/";
 
 		// Create a workbook from source Excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
@@ -35,7 +35,7 @@ public class RichTextCustomData {
 		fntSetting.getFont().setBold(true);
 
 		// Save the workbook
-		workbook.save("output.xlsx");
-		// ExEnd:RichTextCustomData
+		workbook.save("RTCustomData-out.xlsx");
+
 	}
 }

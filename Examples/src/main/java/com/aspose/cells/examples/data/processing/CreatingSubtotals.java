@@ -2,13 +2,14 @@ package com.aspose.cells.examples.data.processing;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.data.handling.importing.ImportingFromMultiDimensionalArray;
 
 public class CreatingSubtotals {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreatingSubtotals
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(CreatingSubtotals.class);
+		String dataDir = Utils.getSharedDataDir(CreatingSubtotals.class) + "data/";
 
 		// Instantiate a new workbook
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -29,10 +30,10 @@ public class CreatingSubtotals {
 		cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 		// Save the excel file
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "CSubtotals-out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:CreatingSubtotals
+
 	}
 }

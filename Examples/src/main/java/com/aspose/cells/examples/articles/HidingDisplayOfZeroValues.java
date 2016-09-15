@@ -6,9 +6,9 @@ import com.aspose.cells.examples.Utils;
 
 public class HidingDisplayOfZeroValues {
 	public static void main(String[] args) throws Exception {
-		// ExStart:HidingDisplayOfZeroValues
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(HidingDisplayOfZeroValues.class);
+		String dataDir = Utils.getSharedDataDir(HidingDisplayOfZeroValues.class) + "articles/";
 
 		// Create a new Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xlsx");
@@ -20,7 +20,7 @@ public class HidingDisplayOfZeroValues {
 		sheet.setDisplayZeros(false);
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xls");
-		// ExEnd:HidingDisplayOfZeroValues
+		workbook.save(dataDir + "HDOfZeroValues-out.xls");
+
 	}
 }

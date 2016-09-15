@@ -2,13 +2,14 @@ package com.aspose.cells.examples.worksheets.security.protecting;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.worksheets.security.LockCell;
 
 public class AllowUserToEditRangesInWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(AllowUserToEditRangesInWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(AllowUserToEditRangesInWorksheet.class) + "worksheets/";
 
 		// Instantiating a Excel object by excel file path
 		Workbook excel = new Workbook();
@@ -27,10 +28,10 @@ public class AllowUserToEditRangesInWorksheet {
 		worksheet.protect(ProtectionType.ALL);
 
 		// Saving the modified Excel file in default format
-		excel.save(dataDir + "output.xls");
+		excel.save(dataDir + "AUToEditRangesInWorksheet-out.xls");
 
 		// Print Message
 		System.out.println("Range protected successfully.");
-		// ExEnd:1
+
 	}
 }

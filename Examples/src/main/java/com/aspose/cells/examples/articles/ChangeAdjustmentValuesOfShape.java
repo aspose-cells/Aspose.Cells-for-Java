@@ -7,9 +7,9 @@ import com.aspose.cells.examples.Utils;
 
 public class ChangeAdjustmentValuesOfShape {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ChangeAdjustmentValuesOfShape
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ChangeAdjustmentValuesOfShape.class);
+		String dataDir = Utils.getSharedDataDir(ChangeAdjustmentValuesOfShape.class) + "articles/";
 
 		// Create workbook object from source excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
@@ -28,7 +28,7 @@ public class ChangeAdjustmentValuesOfShape {
 		shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d);
 
 		// Save the workbook
-		workbook.save(dataDir + "output.xlsx");
-		// ExEnd:ChangeAdjustmentValuesOfShape
+		workbook.save(dataDir + "CAVOfShape-out.xlsx");
+
 	}
 }

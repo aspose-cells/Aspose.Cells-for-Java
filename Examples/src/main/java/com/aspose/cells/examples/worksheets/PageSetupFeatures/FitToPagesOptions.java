@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class FitToPagesOptions {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(FitToPagesOptions.class);
+		String dataDir = Utils.getSharedDataDir(FitToPagesOptions.class) + "worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
@@ -24,6 +24,6 @@ public class FitToPagesOptions {
 
 		// Setting the number of pages to which the width of the worksheet will be spanned
 		pageSetup.setFitToPagesWide(1);
-		workbook.save(dataDir + "FitToPagesOptions_out.xls");
+		workbook.save(dataDir + "FitToPagesOptions-out.xls");
 	}
 }

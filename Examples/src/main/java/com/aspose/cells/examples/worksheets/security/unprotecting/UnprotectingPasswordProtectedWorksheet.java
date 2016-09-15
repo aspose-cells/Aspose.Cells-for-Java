@@ -6,6 +6,7 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.worksheets.security.protecting.ProtectRowWorksheet;
 
 /*import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;*/
@@ -13,9 +14,9 @@ import com.aspose.cells.examples.Utils;*/
 public class UnprotectingPasswordProtectedWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExEnd:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(UnprotectingPasswordProtectedWorksheet.class);
+		String dataDir = Utils.getSharedDataDir(UnprotectingPasswordProtectedWorksheet.class) + "worksheets/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
@@ -29,10 +30,10 @@ public class UnprotectingPasswordProtectedWorksheet {
 		worksheet.unprotect("aspose");
 
 		// Save the excel file.
-		workbook.save(dataDir + "output.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "UPPWorksheet-out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Worksheet unprotected successfully.");
-		// ExEnd:1
+
 	}
 }

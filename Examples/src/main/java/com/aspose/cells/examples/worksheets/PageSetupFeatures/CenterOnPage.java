@@ -5,10 +5,11 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.examples.Utils;
+import com.aspose.cells.examples.worksheets.management.UpdateReferenceinRowsCols;
 
 public class CenterOnPage {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getDataDir(CenterOnPage.class);
+		String dataDir = Utils.getSharedDataDir(CenterOnPage.class) + "worksheets/";
 		// Create a workbook object
 		Workbook workbook = new Workbook();
 

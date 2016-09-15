@@ -8,9 +8,9 @@ import com.aspose.cells.examples.Utils;
 public class RemovePanes {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(RemovePanes.class);
+		String dataDir = Utils.getSharedDataDir(RemovePanes.class) + "worksheets/";
 
 		// Instantiating a Excel object by excel file path
 		Workbook workbook = new Workbook(dataDir + "Book1.xls");
@@ -23,10 +23,10 @@ public class RemovePanes {
 		worksheet.removeSplit();
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "RemovePanes-out.xls");
 
 		// Print Message
 		System.out.println("Panes Removed successfully.");
-		// ExEnd:1
+
 	}
 }
