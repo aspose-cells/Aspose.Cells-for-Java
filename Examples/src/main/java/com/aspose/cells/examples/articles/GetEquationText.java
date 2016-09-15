@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class GetEquationText {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GetEquationText
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GetEquationText.class) + "articles/";
 		// Create workbook object from source Excel file
@@ -28,6 +28,6 @@ public class GetEquationText {
 
 		// Read the Equation Text of Trendline
 		System.out.println("Equation Text: " + trendLine.getDataLabels().getText());
-		// ExEnd:GetEquationText
+
 	}
 }

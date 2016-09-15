@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class RenameNamedRange {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:RenameNamedRange
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RenameNamedRange.class) + "data/";
 
@@ -31,6 +31,6 @@ public class RenameNamedRange {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:RenameNamedRange
+
 	}
 }

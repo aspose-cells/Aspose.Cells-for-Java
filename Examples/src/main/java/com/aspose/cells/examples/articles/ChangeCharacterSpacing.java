@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ChangeCharacterSpacing {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ChangeCharacterSpacing
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ChangeCharacterSpacing.class) + "articles/";
 		// Load your excel file inside a workbook obect
@@ -28,7 +28,7 @@ public class ChangeCharacterSpacing {
 
 		// Save the workbook in xlsx format
 		wb.save(dataDir + "CCSpacing-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:ChangeCharacterSpacing
+
 	}
 
 }

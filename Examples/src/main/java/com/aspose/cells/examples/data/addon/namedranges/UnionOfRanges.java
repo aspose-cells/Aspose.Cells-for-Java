@@ -8,7 +8,7 @@ import java.util.ArrayList;
 public class UnionOfRanges {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UnionOfRanges
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UnionOfRanges.class) + "data/";
 
@@ -60,6 +60,6 @@ public class UnionOfRanges {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:RenameNamedRange
+
 	}
 }

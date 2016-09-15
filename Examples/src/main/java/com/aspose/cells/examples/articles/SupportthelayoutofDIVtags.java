@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SupportthelayoutofDIVtags {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SupportthelayoutofDIVtags
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SupportthelayoutofDIVtags.class) + "articles/";
 
@@ -36,7 +36,7 @@ public class SupportthelayoutofDIVtags {
 
 		// Save the workbook in xlsx format
 		wb.save(dataDir + "SThelayoutofDIVtags-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:SupportthelayoutofDIVtags
+
 	}
 
 }

@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class MoveRangeOfCellsInWorksheet {
 	public static void main(String[] args) throws Exception {
-		// ExStart:MoveRangeOfCellsInWorksheet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(MoveRangeOfCellsInWorksheet.class) + "articles/";
 		// Instantiate the workbook object. Open the Excel file
@@ -23,6 +23,6 @@ public class MoveRangeOfCellsInWorksheet {
 
 		// Save the resultant file
 		workbook.save(dataDir + "MROfCellsInWorksheet-out.xls");
-		// ExEnd:MoveRangeOfCellsInWorksheet
+
 	}
 }

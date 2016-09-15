@@ -15,7 +15,7 @@ import com.aspose.cells.examples.Utils;
 
 public class UsingDynamicFormulas {
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingDynamicFormulas
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UsingDynamicFormulas.class) + "articles/";
 
@@ -119,6 +119,6 @@ public class UsingDynamicFormulas {
 
 		// Save result on disc
 		workbook.save(dataDir + "UDynamicFormulas-out.xlsx");
-		// ExEnd:UsingDynamicFormulas
+
 	}
 }

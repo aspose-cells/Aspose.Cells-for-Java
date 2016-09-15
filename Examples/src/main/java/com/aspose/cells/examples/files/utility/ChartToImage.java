@@ -7,7 +7,7 @@ import java.io.FileOutputStream;
 public class ChartToImage {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ChartToImage.class) + "files/";
 
@@ -95,6 +95,6 @@ public class ChartToImage {
 
 		// Print message
 		System.out.println("Processing performed successfully.");
-		// ExEnd:1
+
 	}
 }

@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class Loadsourceexcelfile {
 	public static void main(String[] args) throws Exception {
-		// ExStart:Loadsourceexcelfile
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(Loadsourceexcelfile.class) + "articles/";
 		// Specify the load options and filter the data we do not want to load charts
@@ -20,7 +20,7 @@ public class Loadsourceexcelfile {
 
 		// Save the workbook in output format
 		workbook.save(dataDir + "LSourceexcelfile-out.pdf", SaveFormat.PDF);
-		// ExEnd:Loadsourceexcelfile
+
 	}
 
 }

@@ -7,7 +7,7 @@ import com.aspose.cells.examples.data.handling.AddingDataToCells;
 public class UsingRowAndColumnIndexOfCell {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingRowAndColumnIndexOfCell
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UsingRowAndColumnIndexOfCell.class) + "data/";
 
@@ -23,6 +23,6 @@ public class UsingRowAndColumnIndexOfCell {
 
 		// Print message
 		System.out.println("Cell Value: " + cell.getValue());
-		// ExEnd:UsingRowAndColumnIndexOfCell
+
 	}
 }

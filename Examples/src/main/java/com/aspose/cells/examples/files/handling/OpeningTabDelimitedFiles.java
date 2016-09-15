@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class OpeningTabDelimitedFiles {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(OpeningTabDelimitedFiles.class) + "files/";
 		String filePath = dataDir + "Book1.html";
@@ -22,7 +22,7 @@ public class OpeningTabDelimitedFiles {
 
 		// Print message
 		System.out.println("Tab Delimited workbook has been opened successfully.");
-		// ExEnd:1
+
 
 	}
 }

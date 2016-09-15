@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ApplyingSubtotal {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ApplyingSubtotal
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ApplyingSubtotal.class) + "articles/";
 		// Create workbook from source Excel file
@@ -33,6 +33,6 @@ public class ApplyingSubtotal {
 
 		// Save the excel file
 		workbook.save(dataDir + "ASubtotal-out.xlsx");
-		// ExEnd:ApplyingSubtotal
+
 	}
 }

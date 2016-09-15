@@ -14,7 +14,7 @@ import java.io.*;
 
 public class RenderWorksheetToGraphicContext {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ReleaseUnmanagedResources
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RenderWorksheetToGraphicContext.class) + "articles/";
 
@@ -43,6 +43,6 @@ public class RenderWorksheetToGraphicContext {
 		// Save the graphics context image in Png format
 		File outputfile = new File(dataDir + "RWToGraphicContext-out.png");
 		ImageIO.write(image, "png", outputfile);
-		// ExEnd:ReleaseUnmanagedResources
+
 	}
 }

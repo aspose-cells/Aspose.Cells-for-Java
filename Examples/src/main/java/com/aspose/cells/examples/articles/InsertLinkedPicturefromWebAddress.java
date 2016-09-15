@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class InsertLinkedPicturefromWebAddress {
 	public static void main(String[] args) throws Exception {
-		// ExStart:InsertLinkedPicturefromWebAddress
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(InsertLinkedPicturefromWebAddress.class) + "articles/";
 		// Instantiate a new Workbook.
@@ -23,6 +23,6 @@ public class InsertLinkedPicturefromWebAddress {
 
 		// Save the Excel file.
 		workbook.save(dataDir + "ILPfromWebAddress-out.xlsx");
-		// ExEnd:InsertLinkedPicturefromWebAddress
+
 	}
 }

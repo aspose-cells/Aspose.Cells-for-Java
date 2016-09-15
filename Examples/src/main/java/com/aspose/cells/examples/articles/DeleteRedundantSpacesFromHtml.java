@@ -11,7 +11,7 @@ public class DeleteRedundantSpacesFromHtml {
 
 	public static void main(String[] args) throws Exception {
 
-		// ExStart:DeleteRedundantSpacesFromHtml
+
 		// The path to the documents directory
 		String dataDir = Utils.getSharedDataDir(DeleteRedundantSpacesFromHtml.class) + "articles/";
 
@@ -43,7 +43,7 @@ public class DeleteRedundantSpacesFromHtml {
 		workbook.save(dataDir + "DRSFromHtml-out-" + loadOptions.getDeleteRedundantSpaces() + ".xlsx", SaveFormat.XLSX);
 
 		System.out.println("File saved");
-		// ExEnd:DeleteRedundantSpacesFromHtml
+
 	}
 
 }

@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class FormatRanges2 {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:FormatRanges2
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(FormatRanges2.class) + "data/";
 
@@ -37,6 +37,6 @@ public class FormatRanges2 {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:FormatRanges2
+
 	}
 }

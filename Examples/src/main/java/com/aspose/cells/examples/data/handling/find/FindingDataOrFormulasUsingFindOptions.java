@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class FindingDataOrFormulasUsingFindOptions {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:FindingDataOrFormulasUsingFindOptions
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(FindingDataOrFormulasUsingFindOptions.class) + "data/";
 
@@ -28,6 +28,6 @@ public class FindingDataOrFormulasUsingFindOptions {
 
 		// Printing the name of the cell found after searching worksheet
 		System.out.println("Name of the cell containing String: " + cell.getName());
-		// ExEnd:FindingDataOrFormulasUsingFindOptions
+
 	}
 }

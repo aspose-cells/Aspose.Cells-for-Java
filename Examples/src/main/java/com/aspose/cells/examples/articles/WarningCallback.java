@@ -7,7 +7,7 @@ import com.aspose.cells.WarningType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
 
-// ExStart:WarningCallback
+
 
 public class WarningCallback implements IWarningCallback {
 
@@ -32,4 +32,3 @@ public class WarningCallback implements IWarningCallback {
 		workbook.save(dataDir + "WarningCallback-out.pdf", options);
 	}
 }
-// ExEnd:WarningCallback

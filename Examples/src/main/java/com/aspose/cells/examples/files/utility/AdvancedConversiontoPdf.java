@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 public class AdvancedConversiontoPdf {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AdvancedConversiontoPdf.class) + "files/";
 
@@ -23,7 +23,7 @@ public class AdvancedConversiontoPdf {
 
 		// Print message
 		System.out.println("Advanced Conversion performed successfully.");
-		// ExEnd:1
+
 
 	}
 }

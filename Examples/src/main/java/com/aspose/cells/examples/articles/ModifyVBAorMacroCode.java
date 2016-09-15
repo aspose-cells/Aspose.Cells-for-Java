@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ModifyVBAorMacroCode {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ModifyVBAorMacroCode
+
 		String dataDir = Utils.getSharedDataDir(ModifyVBAorMacroCode.class) + "articles/";
 		// Create workbook object from source Excel file
 		Workbook workbook = new Workbook(dataDir + "sample.xlsm");
@@ -28,6 +28,6 @@ public class ModifyVBAorMacroCode {
 
 		// Save the output Excel file
 		workbook.save(dataDir + "MVBAorMacroCode-out.xlsm");
-		// ExEnd:ModifyVBAorMacroCode
+
 	}
 }

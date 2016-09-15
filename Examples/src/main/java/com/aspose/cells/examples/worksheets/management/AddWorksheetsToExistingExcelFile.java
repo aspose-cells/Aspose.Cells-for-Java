@@ -11,7 +11,7 @@ import java.io.FileInputStream;
 public class AddWorksheetsToExistingExcelFile {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddWorksheetsToExistingExcelFile.class) + "worksheets/";
 		String filePath = dataDir + "book1.xls";
@@ -36,6 +36,6 @@ public class AddWorksheetsToExistingExcelFile {
 
 		// Print Message
 		System.out.println("Sheet added successfully.");
-		// ExEnd:1
+
 	}
 }

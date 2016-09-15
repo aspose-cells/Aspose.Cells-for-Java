@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertWorksheetToImageByPage {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConvertWorksheetToImageByPage
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertWorksheetToImageByPage.class) + "articles/";
 		// Create a new Workbook object
@@ -29,6 +29,6 @@ public class ConvertWorksheetToImageByPage {
 		for (int j = 0; j < render.getPageCount(); j++) {
 			render.toImage(j, dataDir + sheet.getName() + " Page" + (j + 1) + ".tif");
 		}
-		// ExEnd:ConvertWorksheetToImageByPage
+
 	}
 }

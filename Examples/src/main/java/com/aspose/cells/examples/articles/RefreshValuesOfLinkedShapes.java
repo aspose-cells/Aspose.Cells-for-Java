@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class RefreshValuesOfLinkedShapes {
 	public static void main(String[] args) throws Exception {
-		// ExStart:RefreshValuesOfLinkedShapes
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RefreshValuesOfLinkedShapes.class) + "articles/";
 		// Create workbook from source file
@@ -26,6 +26,6 @@ public class RefreshValuesOfLinkedShapes {
 
 		// Save the workbook in pdf format
 		workbook.save(dataDir + "RVOfLinkedShapes-out.pdf", SaveFormat.PDF);
-		// ExEnd:RefreshValuesOfLinkedShapes
+
 	}
 }

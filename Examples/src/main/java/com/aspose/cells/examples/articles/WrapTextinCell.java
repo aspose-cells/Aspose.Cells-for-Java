@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class WrapTextinCell {
 	public static void main(String[] args) throws Exception {
-		// ExStart:WrapTextinCell
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(WrapTextinCell.class) + "articles/";
 
@@ -41,6 +41,6 @@ public class WrapTextinCell {
 
 		// Save Excel File
 		wb.save(dataDir + "WrapTextinCell-out.xls");
-		// ExEnd:WrapTextinCell
+
 	}
 }

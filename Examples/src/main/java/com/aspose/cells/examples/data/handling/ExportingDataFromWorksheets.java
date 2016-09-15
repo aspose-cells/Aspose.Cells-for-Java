@@ -7,7 +7,7 @@ import java.io.*;
 public class ExportingDataFromWorksheets {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:ExportingDataFromWorksheets
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExportingDataFromWorksheets.class) + "data/";
 
@@ -29,6 +29,6 @@ public class ExportingDataFromWorksheets {
 
 		// Closing the file stream to free all resources
 		fstream.close();
-		// ExEnd:ExportingDataFromWorksheets
+
 	}
 }

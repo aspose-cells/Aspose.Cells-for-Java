@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertingToHTMLFiles {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertingToHTMLFiles.class) + "files/";
 
@@ -26,6 +26,6 @@ public class ConvertingToHTMLFiles {
 
 		// Print message
 		System.out.println("Excel to HTML conversion performed successfully.");
-		// ExEnd:1
+
 	}
 }

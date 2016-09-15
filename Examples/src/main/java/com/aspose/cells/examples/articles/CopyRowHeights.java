@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyRowHeights {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyRowHeights
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CopyRowHeights.class) + "articles/";
 		// Create workbook object
@@ -44,6 +44,6 @@ public class CopyRowHeights {
 
 		// Save the workbook in xlsx format
 		workbook.save(dataDir + "CopyRowHeights-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:CopyRowHeights
+
 	}
 }

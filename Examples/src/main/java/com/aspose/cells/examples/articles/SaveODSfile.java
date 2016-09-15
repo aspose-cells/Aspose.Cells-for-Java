@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SaveODSfile {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SaveODSfile
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SaveODSfile.class) + "articles/";
 		// Create workbook
@@ -29,6 +29,6 @@ public class SaveODSfile {
 		options.setStrictSchema11(true);
 		workbook.save("SaveODSfile2-out.ods", options);
 
-		// ExEnd:SaveODSfile
+
 	}
 }

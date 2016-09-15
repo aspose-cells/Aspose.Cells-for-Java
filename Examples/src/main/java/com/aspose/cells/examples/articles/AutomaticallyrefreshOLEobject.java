@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AutomaticallyrefreshOLEobject {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AutomaticallyrefreshOLEobject
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AutomaticallyrefreshOLEobject.class) + "articles/";
 
@@ -22,7 +22,7 @@ public class AutomaticallyrefreshOLEobject {
 
 		// Save the worbook in xlsx format
 		wb.save(dataDir + "ARefreshOLEobject-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:AutomaticallyrefreshOLEobject
+
 	}
 
 }

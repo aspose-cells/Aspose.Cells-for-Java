@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddNamedRangeWithWorksheetScope {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddNamedRangeWithWorkbookScope
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddNamedRangeWithWorksheetScope.class) + "articles/";
 		// Instantiating a Workbook object
@@ -30,6 +30,6 @@ public class AddNamedRangeWithWorksheetScope {
 
 		// Saving the modified Excel file in default format
 		workbook.save(dataDir + "ANRWWScope-out.xls");
-		// ExEnd:AddNamedRangeWithWorkbookScope
+
 	}
 }

@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SpecifyingCustomSeparators {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SpecifyingCustomSeparators
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SpecifyingCustomSeparators.class) + "articles/";
 		Workbook workbook = new Workbook();
@@ -29,6 +29,6 @@ public class SpecifyingCustomSeparators {
 		worksheet.autoFitColumns();
 
 		workbook.save("SpecifyingCustomSeparators-out.pdf");
-		// ExEnd:SpecifyingCustomSeparators
+
 	}
 }

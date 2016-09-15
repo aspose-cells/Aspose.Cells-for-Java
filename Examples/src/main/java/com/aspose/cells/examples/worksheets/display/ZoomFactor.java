@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class ZoomFactor {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ZoomFactor.class) + "worksheets/";
 
@@ -25,6 +25,6 @@ public class ZoomFactor {
 
 		// Print message
 		System.out.println("Zoom factor set to 75% for sheet 1, please check the output document.");
-		// ExEnd:1
+
 	}
 }

@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddWordArtWatermarkToWorksheet {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddWordArtWatermarkToWorksheet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddWordArtWatermarkToWorksheet.class) + "articles/";
 		// Instantiate a new Workbook
@@ -40,6 +40,6 @@ public class AddWordArtWatermarkToWorksheet {
 
 		// Save the file
 		workbook.save(dataDir + "AWArtWToWorksheet-out.xls");
-		// ExEnd:AddWordArtWatermarkToWorksheet
+
 	}
 }

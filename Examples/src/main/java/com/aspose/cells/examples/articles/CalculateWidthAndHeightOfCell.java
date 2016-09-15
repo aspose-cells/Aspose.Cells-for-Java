@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CalculateWidthAndHeightOfCell {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CalculateWidthAndHeightOfCell
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CalculateWidthAndHeightOfCell.class) + "articles/";
 		// Create workbook object
@@ -40,6 +40,6 @@ public class CalculateWidthAndHeightOfCell {
 
 		// Save the output excel file
 		workbook.save(dataDir + "CWAHOfCell-out.xlsx");
-		// ExEnd:CalculateWidthAndHeightOfCell
+
 	}
 }

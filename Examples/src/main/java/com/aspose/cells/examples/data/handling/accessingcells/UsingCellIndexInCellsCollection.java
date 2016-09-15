@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class UsingCellIndexInCellsCollection {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingCellIndexInCellsCollection
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UsingCellIndexInCellsCollection.class) + "data/";
 
@@ -22,6 +22,6 @@ public class UsingCellIndexInCellsCollection {
 
 		// Print message
 		System.out.println("Cell Value: " + cell.getValue());
-		// ExEnd:UsingCellIndexInCellsCollection
+
 	}
 }

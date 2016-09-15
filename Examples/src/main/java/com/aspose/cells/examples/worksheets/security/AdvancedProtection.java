@@ -7,7 +7,7 @@ import com.aspose.cells.examples.worksheets.PageSetupFeatures.SetPrintTitle;
 public class AdvancedProtection {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AdvancedProtection.class) + "worksheets/";
 
@@ -69,7 +69,7 @@ public class AdvancedProtection {
 
 		// Print Message
 		System.out.println("Worksheet protected successfully.");
-		// ExEnd:1
+
 
 	}
 }

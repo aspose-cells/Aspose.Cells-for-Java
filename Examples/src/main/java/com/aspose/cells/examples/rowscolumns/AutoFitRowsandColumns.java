@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class AutoFitRowsandColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AutoFitRowsandColumns
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AutoFitRowsandColumns.class) + "RowsColumns/";
 
@@ -27,6 +27,6 @@ public class AutoFitRowsandColumns {
 
 		// Print message
 		System.out.println("Row and Column auto fit successfully.");
-		// ExEnd:AutoFitRowsandColumns
+
 	}
 }

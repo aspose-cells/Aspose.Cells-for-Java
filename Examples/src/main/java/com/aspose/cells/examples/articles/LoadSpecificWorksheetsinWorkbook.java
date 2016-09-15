@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class LoadSpecificWorksheetsinWorkbook {
 	public static void main(String[] args) throws Exception {
-		// ExStart:LoadSpecificWorksheetsinWorkbook
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(LoadSpecificWorksheetsinWorkbook.class) + "articles/";
 
@@ -32,6 +32,6 @@ public class LoadSpecificWorksheetsinWorkbook {
 
 		// Save the workbook
 		workbook.save(dataDir + "LSWInWorkbook-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:LoadSpecificWorksheetsinWorkbook
+
 	}
 }

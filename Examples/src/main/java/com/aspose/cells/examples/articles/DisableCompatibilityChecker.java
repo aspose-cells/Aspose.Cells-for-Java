@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DisableCompatibilityChecker {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DisableCompatibilityChecker
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DisableCompatibilityChecker.class) + "articles/";
 		// Open a template file
@@ -16,6 +16,6 @@ public class DisableCompatibilityChecker {
 
 		// Saving the Excel file
 		workbook.save(dataDir + "DCChecker-out.xls");
-		// ExEnd:DisableCompatibilityChecker
+
 	}
 }

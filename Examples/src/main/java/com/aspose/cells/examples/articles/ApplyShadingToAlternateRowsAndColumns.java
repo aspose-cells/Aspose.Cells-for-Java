@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ApplyShadingToAlternateRowsAndColumns {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ApplyShadingToAlternateRowsAndColumns
+
 		String dataDir = Utils.getSharedDataDir(ApplyShadingToAlternateRowsAndColumns.class) + "articles/";
 		/*
 		 * Create an instance of Workbook Optionally load an existing spreadsheet by passing its stream or path to Workbook
@@ -52,6 +52,6 @@ public class ApplyShadingToAlternateRowsAndColumns {
 
 		// Save the result on disk
 		book.save(dataDir + "ASToARAC-out.xlsx");
-		// ExEnd:ApplyShadingToAlternateRowsAndColumns
+
 	}
 }

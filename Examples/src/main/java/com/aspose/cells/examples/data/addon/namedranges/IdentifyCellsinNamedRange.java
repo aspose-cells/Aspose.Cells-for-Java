@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 public class IdentifyCellsinNamedRange {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:IdentifyCellsinNamedRange
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(IdentifyCellsinNamedRange.class) + "data/";
 
@@ -31,6 +31,6 @@ public class IdentifyCellsinNamedRange {
 		System.out.println("First Column : " + range.getFirstColumn());
 		System.out.println("Row Count : " + range.getRowCount());
 		System.out.println("Column Count : " + range.getColumnCount());
-		// ExEnd:IdentifyCellsinNamedRange
+
 	}
 }

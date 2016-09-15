@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class InsertWebImageFromURL {
 	public static void main(String[] args) throws Exception {
-		// ExStart:InsertWebImageFromURL
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(InsertWebImageFromURL.class) + "articles/";
 		// Download image and store it in an object of InputStream
@@ -32,6 +32,6 @@ public class InsertWebImageFromURL {
 
 		// Save the excel file
 		book.save(dataDir + "IWebImageFromURL-out.xls");
-		// ExEnd:InsertWebImageFromURL
+
 	}
 }

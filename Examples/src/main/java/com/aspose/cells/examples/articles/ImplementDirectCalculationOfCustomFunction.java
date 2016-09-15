@@ -6,7 +6,7 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
 public class ImplementDirectCalculationOfCustomFunction {
-	// ExStart:ImplementDirectCalculationOfCustomFunction
+
 	public abstract class CalculateCustomFunctionWithoutWritingToWorksheet extends AbstractCalculationEngine {
 
 		public void Run() {
@@ -40,5 +40,5 @@ public class ImplementDirectCalculationOfCustomFunction {
 		CalculateCustomFunctionWithoutWritingToWorksheet pg = new CalculateCustomFunctionWithoutWritingToWorksheet();
 		pg.Run();
 	}
-	// ExEnd:ImplementDirectCalculationOfCustomFunction
+
 }

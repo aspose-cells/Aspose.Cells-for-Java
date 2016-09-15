@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class ModifyPieChart {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ModifyPieChart.class) + "charts/";
 
@@ -27,7 +27,7 @@ public class ModifyPieChart {
 
 		// Print message
 		System.out.println("Line chart is successfully modified.");
-		// ExEnd:1
+
 
 	}
 }

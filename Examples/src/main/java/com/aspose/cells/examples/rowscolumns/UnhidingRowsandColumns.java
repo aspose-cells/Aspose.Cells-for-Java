@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class UnhidingRowsandColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UnhidingRowsandColumns
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UnhidingRowsandColumns.class) + "RowsColumns/";
 
@@ -28,6 +28,6 @@ public class UnhidingRowsandColumns {
 
 		// Print message
 		System.out.println("Rows and Columns unhidden successfully.");
-		// ExEnd:UnhidingRowsandColumns
+
 	}
 }

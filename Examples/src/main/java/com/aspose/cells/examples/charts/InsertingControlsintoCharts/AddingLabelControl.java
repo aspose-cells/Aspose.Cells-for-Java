@@ -7,7 +7,7 @@ import com.aspose.cells.examples.charts.fundamental.CreateChart;
 public class AddingLabelControl {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingLabelControl.class) + "charts/";
 
@@ -30,6 +30,6 @@ public class AddingLabelControl {
 
 		// Print message
 		System.out.println("Label added to chart successfully.");
-		// ExEnd:1
+
 	}
 }

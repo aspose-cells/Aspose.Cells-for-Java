@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class RemovingWorksheetsusingSheetIndex {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RemovingWorksheetsusingSheetIndex.class) + "worksheets/";
 
@@ -29,6 +29,6 @@ public class RemovingWorksheetsusingSheetIndex {
 
 		// Print Message
 		System.out.println("Sheet removed successfully.");
-		// ExEnd:1
+
 	}
 }

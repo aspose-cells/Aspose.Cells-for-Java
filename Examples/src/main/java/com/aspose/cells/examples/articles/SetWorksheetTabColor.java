@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetWorksheetTabColor {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SetWorksheetTabColor
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SetWorksheetTabColor.class) + "articles/";
 		// Instantiate a new Workbook
@@ -18,6 +18,6 @@ public class SetWorksheetTabColor {
 		worksheet.setTabColor(Color.getRed());
 		// Save the Excel file
 		workbook.save(dataDir + "worksheettabcolor.xls");
-		// ExEnd:SetWorksheetTabColor
+
 	}
 }

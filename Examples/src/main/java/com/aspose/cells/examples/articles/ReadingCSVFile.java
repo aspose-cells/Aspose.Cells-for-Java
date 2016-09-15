@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ReadingCSVFile {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ReadingCSVFile
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ReadingCSVFile.class) + "articles/";
 
@@ -20,6 +20,6 @@ public class ReadingCSVFile {
 
 		// Save it in XLSX format
 		workbook.save(dataDir + "ReadingCSVFile-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:ReadingCSVFile
+
 	}
 }

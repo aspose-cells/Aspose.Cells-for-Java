@@ -9,7 +9,7 @@ import com.aspose.cells.examples.DrawingObjects.pictures.PositioningPictures.Abs
 public class LoadVisibleSheetsOnly {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		String dataDir = Utils.getSharedDataDir(LoadVisibleSheetsOnly.class) + "files/";
 		String sampleFile = "Book1.xlsx";
 		String samplePath = dataDir + sampleFile;
@@ -37,6 +37,6 @@ public class LoadVisibleSheetsOnly {
 		System.out.println("Sheet3: A1: " + loadWorkbook.getWorksheets().get("Sheet3").getCells().get("A1").getValue());
 
 		System.out.println("Data is not loaded from invisible sheet");
-		// ExEnd:1
+
 	}
 }

@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class UngroupingRowsandColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UngroupingRowsandColumns
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UngroupingRowsandColumns.class) + "RowsColumns/";
 
@@ -30,6 +30,6 @@ public class UngroupingRowsandColumns {
 
 		// Print message
 		System.out.println("Rows and Columns ungrouped successfully.");
-		// ExEnd:UngroupingRowsandColumns
+
 	}
 }

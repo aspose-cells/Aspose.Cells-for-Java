@@ -7,7 +7,7 @@ import com.aspose.cells.examples.charts.InsertingControlsintoCharts.AddingTextBo
 public class SettingChartsData {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingChartsData
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SettingChartsData.class) + "charts/";
 
@@ -74,6 +74,6 @@ public class SettingChartsData {
 
 		// Print message
 		System.out.println("Workbook with chart is created successfully.");
-		// ExEnd:SettingChartsData
+
 	}
 }

@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class ProtectingSpecificColumnInWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ProtectingSpecificColumnInWorksheet.class) + "worksheets/";
 
@@ -51,6 +51,6 @@ public class ProtectingSpecificColumnInWorksheet {
 
 		// Print Message
 		System.out.println("Column protected successfully.");
-		// ExEnd:1
+
 	}
 }

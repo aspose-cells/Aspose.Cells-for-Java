@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SettingSharedFormula {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingSharedFormula
+
 		String dataDir = Utils.getSharedDataDir(SettingSharedFormula.class) + "articles/";
 
 		String filePath = dataDir + "input.xlsx";
@@ -23,6 +23,6 @@ public class SettingSharedFormula {
 
 		// Save the excel file
 		workbook.save(dataDir + "SSharedFormula-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:SettingSharedFormula
+
 	}
 }

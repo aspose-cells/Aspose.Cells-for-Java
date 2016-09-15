@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class Settextofchartlegend {
 	public static void main(String[] args) throws Exception {
-		// ExStart:Settextofchartlegend
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(Settextofchartlegend.class) + "articles/";
 
@@ -26,7 +26,7 @@ public class Settextofchartlegend {
 
 		// Save the workbook in xlsx format
 		workbook.save(dataDir + "Settextofchartlegend-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:Settextofchartlegend
+
 	}
 
 }

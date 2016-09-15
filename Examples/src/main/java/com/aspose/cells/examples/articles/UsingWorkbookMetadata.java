@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 public class UsingWorkbookMetadata {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingWorkbookMetadata
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UsingWorkbookMetadata.class) + "articles/";
 
@@ -28,6 +28,6 @@ public class UsingWorkbookMetadata {
 
 		// Read document property
 		System.out.println(w.getCustomDocumentProperties().get("test"));
-		// ExEnd:UsingWorkbookMetadata
+
 	}
 }

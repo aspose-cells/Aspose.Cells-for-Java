@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ApplyingEncryption {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ApplyingEncryption
+
 		String dataDir = Utils.getSharedDataDir(ApplyingEncryption.class) + "articles/";
 
 		// Instantiate a Workbook object.
@@ -20,6 +20,6 @@ public class ApplyingEncryption {
 
 		// Save the Excel file.
 		workbook.save(dataDir + "AEncryption-out.xls");
-		// ExEnd:ApplyingEncryption
+
 	}
 }

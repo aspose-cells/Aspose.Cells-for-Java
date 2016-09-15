@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ReturningRangeOfValues {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ReturningRangeOfValues
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ReturningRangeOfValues.class) + "articles/";
 		Workbook wb = new Workbook();
@@ -34,6 +34,6 @@ public class ReturningRangeOfValues {
 		// Save to pdf
 		wb.save(dataDir + "output.pdf");
 
-		// ExEnd:ReturningRangeOfValues
+
 	}
 }

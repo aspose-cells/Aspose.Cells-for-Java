@@ -13,7 +13,7 @@ import com.aspose.cells.examples.Utils;
 
 public class LoadWorkbook {
 	public static void main(String[] args) throws Exception {
-		// ExStart:LoadWorkbook
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(LoadWorkbook.class) + "articles/";
 
@@ -45,7 +45,7 @@ public class LoadWorkbook {
 
 		// Save the workbook in pdf format
 		workbook.save(dataDir + "LWorkbook-out.pdf");
-		// ExEnd:LoadWorkbook
+
 	}
 
 }

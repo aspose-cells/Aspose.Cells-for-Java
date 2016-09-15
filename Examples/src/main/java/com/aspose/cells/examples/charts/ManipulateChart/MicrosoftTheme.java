@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class MicrosoftTheme {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(MicrosoftTheme.class) + "charts/";
 
@@ -36,6 +36,6 @@ public class MicrosoftTheme {
 
 		// Print message
 		System.out.println("MicrosoftTheme is successfully applied.");
-		// ExEnd:1
+
 	}
 }

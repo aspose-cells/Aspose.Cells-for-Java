@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class LimitNumberofPagesGenerated {
 	public static void main(String[] args) throws Exception {
-		// ExStart:LimitNumberofPagesGenerated
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(LimitNumberofPagesGenerated.class) + "articles/";
 		// Open an Excel file
@@ -22,6 +22,6 @@ public class LimitNumberofPagesGenerated {
 
 		// Save the PDF file
 		wb.save(dataDir + "LNOfPagesGenerated-out.pdf", options);
-		// ExEnd:LimitNumberofPagesGenerated
+
 	}
 }

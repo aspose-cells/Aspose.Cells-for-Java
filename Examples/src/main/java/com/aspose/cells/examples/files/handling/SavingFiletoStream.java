@@ -10,7 +10,7 @@ import java.io.FileOutputStream;
 public class SavingFiletoStream {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SavingFiletoStream.class) + "files/";
 
@@ -23,6 +23,6 @@ public class SavingFiletoStream {
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");
 		stream.close();
-		// ExEnd:1
+
 	}
 }

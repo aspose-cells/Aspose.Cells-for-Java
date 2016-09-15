@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertingToXPS {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertingToXPS.class) + "files/";
 
@@ -30,6 +30,6 @@ public class ConvertingToXPS {
 
 		// Print message
 		System.out.println("Excel to XPS conversion performed successfully.");
-		// ExEnd:1
+
 	}
 }

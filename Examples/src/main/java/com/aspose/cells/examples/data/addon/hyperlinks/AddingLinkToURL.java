@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingLinkToURL {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddingLinkToURL
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingLinkToURL.class) + "data/";
 
@@ -26,6 +26,6 @@ public class AddingLinkToURL {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:AddingLinkToURL
+
 	}
 }

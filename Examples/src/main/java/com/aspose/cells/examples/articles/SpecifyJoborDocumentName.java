@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SpecifyJoborDocumentName {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SpecifyJoborDocumentName
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SpecifyJoborDocumentName.class) + "articles/";
 		// Create workbook object from source Excel file
@@ -30,6 +30,6 @@ public class SpecifyJoborDocumentName {
 		SheetRender sr = new SheetRender(worksheet, new ImageOrPrintOptions());
 		sr.toPrinter(printerName, jobName);
 
-		// ExEnd:SpecifyJoborDocumentName
+
 	}
 }

@@ -7,7 +7,7 @@ import com.aspose.cells.examples.charts.SettingChartsAppearance.SettingTitlesAxe
 public class AddingLinkToAnotherCell {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddingLinkToAnotherCell
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingLinkToAnotherCell.class) + "data/";
 
@@ -42,6 +42,6 @@ public class AddingLinkToAnotherCell {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:AddingLinkToAnotherCell
+
 	}
 }

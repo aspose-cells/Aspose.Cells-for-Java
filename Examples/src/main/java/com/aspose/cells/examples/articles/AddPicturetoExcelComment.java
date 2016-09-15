@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddPicturetoExcelComment {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddPicturetoExcelComment
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddPicturetoExcelComment.class) + "articles/";
 		// Instantiate a Workbook
@@ -39,6 +39,6 @@ public class AddPicturetoExcelComment {
 
 		// Save the workbook
 		workbook.save(dataDir + "APToExcelComment-out.xlsx");
-		// ExEnd:AddPicturetoExcelComment
+
 	}
 }

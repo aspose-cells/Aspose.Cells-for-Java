@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DisableTextWrapping {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DisableTextWrapping
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DisableTextWrapping.class) + "articles/";
 		// Load the sample Excel file inside the workbook object
@@ -26,6 +26,6 @@ public class DisableTextWrapping {
 
 		// Save the workbook
 		workbook.save(dataDir + "DTextWrapping-out.xlsx");
-		// ExEnd:DisableTextWrapping
+
 	}
 }

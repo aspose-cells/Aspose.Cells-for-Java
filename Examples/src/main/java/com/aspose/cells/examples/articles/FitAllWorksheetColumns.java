@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class FitAllWorksheetColumns {
 	public static void main(String[] args) throws Exception {
-		// ExStart:FitAllWorksheetColumns
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(FitAllWorksheetColumns.class) + "articles/";
 		// Create and initialize an instance of Workbook
@@ -18,6 +18,6 @@ public class FitAllWorksheetColumns {
 		saveOptions.setAllColumnsInOnePagePerSheet(true);
 		// Save Workbook to PDF fromart by passing the object of PdfSaveOptions
 		book.save(dataDir + "FAWorksheetColumns-out.pdf", saveOptions);
-		// ExEnd:FitAllWorksheetColumns
+
 	}
 }

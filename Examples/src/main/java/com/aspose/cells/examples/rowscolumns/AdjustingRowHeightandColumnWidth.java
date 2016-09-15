@@ -7,7 +7,7 @@ import com.aspose.cells.examples.PivotTables.ChangeSourceData;
 public class AdjustingRowHeightandColumnWidth {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AdjustingRowHeightandColumnWidth
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AdjustingRowHeightandColumnWidth.class) + "RowsColumns/";
 
@@ -35,6 +35,6 @@ public class AdjustingRowHeightandColumnWidth {
 
 		// Print message
 		System.out.println("Height and width modified successfully.");
-		// ExEnd:AdjustingRowHeightandColumnWidth
+
 	}
 }

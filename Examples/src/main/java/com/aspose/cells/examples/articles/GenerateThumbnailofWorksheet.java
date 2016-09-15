@@ -15,7 +15,7 @@ import com.sun.prism.Image;
 
 public class GenerateThumbnailofWorksheet {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GenerateThumbnailofWorksheet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GenerateThumbnailofWorksheet.class) + "articles/";
 		// Instantiate and open an Excel file
@@ -44,6 +44,6 @@ public class GenerateThumbnailofWorksheet {
 		img1.createGraphics().drawImage(
 				ImageIO.read(new File(dataDir + "mythumb.jpg")).getScaledInstance(100, 100, Image.SCALE_SMOOTH), 0, 0, null);
 		ImageIO.write(img1, "jpg", new File(dataDir + "GTOfWorksheet-out.jpg"));
-		// ExEnd:GenerateThumbnailofWorksheet
+
 	}
 }

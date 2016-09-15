@@ -7,7 +7,7 @@ import com.aspose.cells.examples.data.handling.importing.ImportingFromMultiDimen
 public class CreatingSubtotals {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreatingSubtotals
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreatingSubtotals.class) + "data/";
 
@@ -34,6 +34,6 @@ public class CreatingSubtotals {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:CreatingSubtotals
+
 	}
 }

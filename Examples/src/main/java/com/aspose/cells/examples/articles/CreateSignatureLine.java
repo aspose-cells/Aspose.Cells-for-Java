@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CreateSignatureLine {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreateSignatureLine
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreateSignatureLine.class) + "articles/";
 		// Create workbook object
@@ -30,6 +30,6 @@ public class CreateSignatureLine {
 
 		// Save the workbook
 		workbook.save(dataDir + "CSignatureLine-out.xlsx");
-		// ExEnd:CreateSignatureLine
+
 	}
 }

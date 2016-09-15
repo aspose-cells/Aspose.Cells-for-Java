@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 public class OpeningFilewithDataOnly {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(OpeningFilewithDataOnly.class) + "files/";
 		// Opening CSV Files
@@ -25,7 +25,7 @@ public class OpeningFilewithDataOnly {
 		// Create a Workbook object and opening the file from its path
 		Workbook wb = new Workbook(dataDir + "Book1.xlsx", loadOptions);
 		System.out.println("File data imported successfully!");
-		// ExEnd:1
+
 
 	}
 }

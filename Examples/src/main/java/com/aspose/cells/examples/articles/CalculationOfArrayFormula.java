@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CalculationOfArrayFormula {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CalculationOfArrayFormula
+
 		String dataDir = Utils.getSharedDataDir(CalculationOfArrayFormula.class) + "articles/";
 		// Create workbook from source excel file
 		Workbook workbook = new Workbook(dataDir + "DataTable.xlsx");
@@ -22,6 +22,6 @@ public class CalculationOfArrayFormula {
 
 		// Save the workbook in pdf format
 		workbook.save(dataDir + "COfAFormula-out.pdf");
-		// ExEnd:CalculationOfArrayFormula
+
 	}
 }

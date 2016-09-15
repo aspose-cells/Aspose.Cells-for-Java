@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertWorksheettoImageFile {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConvertWorksheettoImageFile
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertWorksheettoImageFile.class) + "articles/";
 		// Create a new Workbook object
@@ -27,6 +27,6 @@ public class ConvertWorksheettoImageFile {
 		SheetRender render = new SheetRender(sheet, imgOptions);
 		// Render the image for the sheet
 		render.toImage(0, dataDir + "CWToImageFile.jpg");
-		// ExEnd:ConvertWorksheettoImageFile
+
 	}
 }

@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 public class UpdateRichTextCells {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UpdateRichTextCells
+
 		String dataDir = Utils.getSharedDataDir(UpdateRichTextCells.class) + "articles/";
 		String inputPath = dataDir + "Sample.xlsx";
 		String outputPath = dataDir + "UpdateRichTextCells-out.xlsx";
@@ -48,6 +48,6 @@ public class UpdateRichTextCells {
 		workbook.save(outputPath);
 
 		System.out.println("File saved " + outputPath);
-		// ExEnd:UpdateRichTextCells
+
 	}
 }

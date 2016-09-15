@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CreateTextBoxhavingdifferentLineAlignment {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreateTextBoxhavingdifferentLineAlignment
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreateTextBoxhavingdifferentLineAlignment.class) + "articles/";
 
@@ -43,7 +43,7 @@ public class CreateTextBoxhavingdifferentLineAlignment {
 
 		// Save the workbook in xlsx format.
 		wb.save(dataDir + "CTBoxHDLineAlignment-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:CreateTextBoxhavingdifferentLineAlignment
+
 	}
 
 }

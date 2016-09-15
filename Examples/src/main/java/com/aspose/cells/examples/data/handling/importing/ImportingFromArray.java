@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class ImportingFromArray {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:ImportingFromArray
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ImportingFromArray.class) + "data/";
 
@@ -30,6 +30,6 @@ public class ImportingFromArray {
 
 		// Printing the name of the cell found after searching worksheet
 		System.out.println("Process completed successfully");
-		// ExEnd:ImportingFromArray
+
 	}
 }

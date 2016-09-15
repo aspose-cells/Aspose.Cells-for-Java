@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class DisplayTab {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DisplayTab.class) + "worksheets/";
 
@@ -21,6 +21,6 @@ public class DisplayTab {
 
 		// Print message
 		System.out.println("Tabs are now displayed, please check the output file.");
-		// ExEnd:1
+
 	}
 }

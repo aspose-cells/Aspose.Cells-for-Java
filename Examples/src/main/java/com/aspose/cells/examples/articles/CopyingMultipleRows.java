@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyingMultipleRows {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyingMultipleRows
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CopyingMultipleRows.class) + "articles/";
 		// Create an instance of Workbook class by loading the existing spreadsheet
@@ -20,6 +20,6 @@ public class CopyingMultipleRows {
 
 		// Save the result on disc
 		workbook.save(dataDir + "CMultipleRows-out.xlsx");
-		// ExEnd:CopyingMultipleRows
+
 	}
 }

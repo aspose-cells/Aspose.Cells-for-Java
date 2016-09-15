@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddWordArtWatermarkToChart {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddWordArtWatermarkToChart
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddWordArtWatermarkToChart.class) + "articles/";
 		// Instantiate a new workbook, Open the existing excel file.
@@ -39,6 +39,6 @@ public class AddWordArtWatermarkToChart {
 
 		// Save the excel file.
 		workbook.save(dataDir + "AWArtWToC-out.xlsx");
-		// ExEnd:AddWordArtWatermarkToChart
+
 	}
 }

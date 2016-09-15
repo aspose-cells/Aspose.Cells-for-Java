@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class OpeningTextFilewithCustomSeparator {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(OpeningTextFilewithCustomSeparator.class) + "files/";
 		String filePath = dataDir + "Book11.csv";
@@ -21,7 +21,7 @@ public class OpeningTextFilewithCustomSeparator {
 
 		// Print message
 		System.out.println("Custom Separator workbook has been opened successfully.");
-		// ExEnd:1
+
 
 	}
 }

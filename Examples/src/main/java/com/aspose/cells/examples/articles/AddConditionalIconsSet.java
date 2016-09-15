@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddConditionalIconsSet {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddConditionalIconsSet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddConditionalIconsSet.class) + "articles/";
 		// Instantiate an instance of Workbook
@@ -83,6 +83,6 @@ public class AddConditionalIconsSet {
 
 		// Save the Excel file
 		workbook.save(dataDir + "ACIconsSet-out.xlsx");
-		// ExEnd:AddConditionalIconsSet
+
 	}
 }

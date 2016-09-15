@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ApplyingSuperscript {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ApplyingSuperscript
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ApplyingSuperscript.class) + "articles/";
 		// Instantiating a Workbook object
@@ -36,6 +36,6 @@ public class ApplyingSuperscript {
 
 		// Saving the modified Excel file in default format
 		workbook.save(dataDir + "ASuperscript-out.xls");
-		// ExEnd:ApplyingSuperscript
+
 	}
 }

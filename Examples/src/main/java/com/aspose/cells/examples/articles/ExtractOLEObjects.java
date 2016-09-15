@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ExtractOLEObjects {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ExtractOLEObjects
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExtractOLEObjects.class) + "articles/";
 		// Instantiating a Workbook object, Open the template file.
@@ -64,6 +64,6 @@ public class ExtractOLEObjects {
 				fos.close();
 			}
 		}
-		// ExEnd:ExtractOLEObjects
+
 	}
 }

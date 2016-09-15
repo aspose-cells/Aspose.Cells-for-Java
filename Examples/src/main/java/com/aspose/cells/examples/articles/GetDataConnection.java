@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class GetDataConnection {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:GetDataConnection
+
 		String dataDir = Utils.getSharedDataDir(GetDataConnection.class) + "articles/";
 		String inputPath = dataDir + "WebQuerySample.xlsx";
 
@@ -20,6 +20,6 @@ public class GetDataConnection {
 			WebQueryConnection webQuery = (WebQueryConnection) connection;
 			System.out.println("Web Query URL: " + webQuery.getUrl());
 		}
-		// ExEnd:GetDataConnection
+
 	}
 }

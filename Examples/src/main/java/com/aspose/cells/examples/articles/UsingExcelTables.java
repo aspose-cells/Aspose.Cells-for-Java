@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class UsingExcelTables {
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingExcelTables
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UsingExcelTables.class) + "articles/";
 		// Create an instance of Workbook
@@ -92,6 +92,6 @@ public class UsingExcelTables {
 
 		// Save spreadsheet
 		book.save(dataDir + "UsingExcelTables-out.xlsx");
-		// ExEnd:UsingExcelTables
+
 	}
 }

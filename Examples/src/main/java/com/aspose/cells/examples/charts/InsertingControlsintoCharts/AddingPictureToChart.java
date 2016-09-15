@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 public class AddingPictureToChart {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingPictureToChart.class) + "charts/";
 
@@ -33,6 +33,6 @@ public class AddingPictureToChart {
 
 		// Print message
 		System.out.println("Picture added to chart successfully.");
-		// ExEnd:1
+
 	}
 }

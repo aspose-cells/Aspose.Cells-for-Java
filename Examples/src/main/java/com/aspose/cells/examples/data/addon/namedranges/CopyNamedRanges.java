@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class CopyNamedRanges {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyNamedRanges
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CopyNamedRanges.class) + "data/";
 
@@ -38,6 +38,6 @@ public class CopyNamedRanges {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:CopyNamedRanges
+
 	}
 }

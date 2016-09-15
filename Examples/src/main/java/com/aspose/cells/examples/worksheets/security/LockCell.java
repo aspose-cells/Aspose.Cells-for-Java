@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class LockCell {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(LockCell.class) + "worksheets/";
 
@@ -23,6 +23,6 @@ public class LockCell {
 
 		// Print Message
 		System.out.println("Cell Locked successfully.");
-		// ExEnd:1
+
 	}
 }

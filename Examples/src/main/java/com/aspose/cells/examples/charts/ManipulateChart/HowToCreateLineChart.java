@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class HowToCreateLineChart {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HowToCreateLineChart.class) + "charts/";
 
@@ -60,7 +60,7 @@ public class HowToCreateLineChart {
 
 		// Print message
 		System.out.println("Line chart is successfully created.");
-		// ExEnd:1
+
 
 	}
 }

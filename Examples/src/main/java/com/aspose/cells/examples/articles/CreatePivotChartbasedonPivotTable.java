@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CreatePivotChartbasedonPivotTable {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreatePivotChartbasedonPivotTable
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreatePivotChartbasedonPivotTable.class) + "articles/";
 		// Instantiating an Workbook object
@@ -27,6 +27,6 @@ public class CreatePivotChartbasedonPivotTable {
 		chart.setHidePivotFieldButtons(false);
 		// Saving the Excel file
 		workbook.save(dataDir + "CPCBasedOnPTable-out.xls");
-		// ExEnd:CreatePivotChartbasedonPivotTable
+
 	}
 }

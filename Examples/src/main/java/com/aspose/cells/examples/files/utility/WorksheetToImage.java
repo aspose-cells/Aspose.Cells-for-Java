@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class WorksheetToImage {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(WorksheetToImage.class) + "files/";
 
@@ -30,6 +30,6 @@ public class WorksheetToImage {
 		}
 		// Print message
 		System.out.println("Images generated successfully.");
-		// ExEnd:1
+
 	}
 }

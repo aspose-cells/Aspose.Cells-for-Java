@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class SettingTitlesAxes {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SettingTitlesAxes.class) + "charts/";
 
@@ -74,6 +74,6 @@ public class SettingTitlesAxes {
 
 		// Print message
 		System.out.println("Chart Title is changed successfully.");
-		// ExEnd:1
+
 	}
 }

@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddingTwoAndThreeColorScale {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddingTwoAndThreeColorScale
+
 		String dataDir = Utils.getSharedDataDir(AddingTwoAndThreeColorScale.class) + "articles/";
 		// Create workbook
 		Workbook workbook = new Workbook();
@@ -57,6 +57,6 @@ public class AddingTwoAndThreeColorScale {
 
 		// Save the workbook
 		workbook.save(dataDir + "ATAThreeColorScale-out.xlsx");
-		// ExEnd:AddingTwoAndThreeColorScale
+
 	}
 }

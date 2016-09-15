@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class IntersectionofRanges {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:IntersectionofRanges
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(IntersectionofRanges.class) + "data/";
 
@@ -51,6 +51,6 @@ public class IntersectionofRanges {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:IntersectionofRanges
+
 	}
 }

@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SettingPageSetupOptions {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingPageSetupOptions
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SettingPageSetupOptions.class) + "articles/";
 		// Instantiating a Workbook object
@@ -44,6 +44,6 @@ public class SettingPageSetupOptions {
 
 		// Save the workbook
 		workbook.save(dataDir + "SettingPageSetupOptions-out.xls");
-		// ExEnd:SettingPageSetupOptions
+
 	}
 }

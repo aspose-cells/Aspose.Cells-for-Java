@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class DataSorting {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:DataSorting
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DataSorting.class) + "data/";
 
@@ -41,6 +41,6 @@ public class DataSorting {
 
 		// Print message
 		System.out.println("Sorting Done Successfully");
-		// ExEnd:DataSorting
+
 	}
 }

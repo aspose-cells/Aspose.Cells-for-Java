@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class GetNotificationsWhileMergingData {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GetNotificationsWhileMergingData
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GetNotificationsWhileMergingData.class) + "articles/";
 		// Instantiate a new Workbook designer
@@ -32,6 +32,6 @@ public class GetNotificationsWhileMergingData {
 
 		// Save the result
 		report.getWorkbook().save(dataDir);
-		// ExEnd:GetNotificationsWhileMergingData
+
 	}
 }

@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ImportXMLMap {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ImportXMLMap
+
 		String dataDir = Utils.getSharedDataDir(ImportXMLMap.class) + "articles/";
 		// Create a workbook
 		Workbook workbook = new Workbook();
@@ -18,6 +18,6 @@ public class ImportXMLMap {
 
 		// Save workbook
 		workbook.save(dataDir + "ImportXMLMap-out.xlsx");
-		// ExEnd:ImportXMLMap
+
 	}
 }

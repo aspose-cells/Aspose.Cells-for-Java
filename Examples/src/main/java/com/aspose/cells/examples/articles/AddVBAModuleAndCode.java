@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddVBAModuleAndCode {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddVBAModuleAndCode
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddVBAModuleAndCode.class) + "articles/";
 		// Create new workbook
@@ -29,6 +29,6 @@ public class AddVBAModuleAndCode {
 		// Save the workbook
 		workbook.save(dataDir + "AVBAMAndCode-out.xlsm", SaveFormat.XLSM);
 
-		// ExEnd:AddVBAModuleAndCode
+
 	}
 }

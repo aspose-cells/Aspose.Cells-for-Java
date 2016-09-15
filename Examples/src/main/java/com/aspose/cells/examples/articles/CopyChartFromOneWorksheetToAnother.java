@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyChartFromOneWorksheetToAnother {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyChartFromOneWorksheetToAnother
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CopyChartFromOneWorksheetToAnother.class) + "articles/";
 		// Instantiating a Workbook object
@@ -29,6 +29,6 @@ public class CopyChartFromOneWorksheetToAnother {
 
 		// Save the workbook
 		workbook.save(dataDir + "CCFOneWToAnother-out.xls");
-		// ExEnd:CopyChartFromOneWorksheetToAnother
+
 	}
 }

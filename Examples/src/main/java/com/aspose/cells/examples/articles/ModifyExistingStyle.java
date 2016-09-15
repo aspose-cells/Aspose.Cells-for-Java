@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ModifyExistingStyle {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ModifyExistingStyle
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ModifyExistingStyle.class) + "articles/";
 
@@ -31,6 +31,6 @@ public class ModifyExistingStyle {
 
 		// Save the excel file.
 		workbook.save(dataDir + "ModifyExistingStyle-out.xlsx");
-		// ExEnd:ModifyExistingStyle
+
 	}
 }

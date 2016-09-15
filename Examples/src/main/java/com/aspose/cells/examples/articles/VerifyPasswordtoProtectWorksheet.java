@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class VerifyPasswordtoProtectWorksheet {
 	public static void main(String[] args) throws Exception {
-		// ExStart:VerifyPasswordtoProtectWorksheet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(VerifyPasswordtoProtectWorksheet.class) + "articles/";
 		// Create an instance of Workbook and load a spreadsheet
@@ -24,6 +24,6 @@ public class VerifyPasswordtoProtectWorksheet {
 				System.out.println("Specified password has not matched");
 			}
 		}
-		// ExEnd:VerifyPasswordtoProtectWorksheet
+
 	}
 }

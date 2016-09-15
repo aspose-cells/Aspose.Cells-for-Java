@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyWorksheetBetweenWorkbooks {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyWorksheetBetweenWorkbooks
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CopyWorksheetBetweenWorkbooks.class) + "articles/";
 		// Instantiating a Workbook object
@@ -29,6 +29,6 @@ public class CopyWorksheetBetweenWorkbooks {
 
 		// Save the workbook
 		workbook.save(dataDir + "CWBetweenWorkbooks-out.xls");
-		// ExEnd:CopyWorksheetBetweenWorkbooks
+
 	}
 }

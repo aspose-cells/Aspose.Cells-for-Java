@@ -111,6 +111,6 @@ public class OpeningFiles {
 
 		// Print message
 		System.out.println("Encrypted workbook has been opened successfully.");
-		// ExEnd:1
+
 	}
 }

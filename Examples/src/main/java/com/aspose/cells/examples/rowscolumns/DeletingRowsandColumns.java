@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class DeletingRowsandColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:DeletingRowsandColumns
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DeletingRowsandColumns.class) + "RowsColumns/";
 
@@ -35,6 +35,6 @@ public class DeletingRowsandColumns {
 
 		// Print message
 		System.out.println("Rows and Columns deleted successfully.");
-		// ExEnd:DeletingRowsandColumns
+
 	}
 }

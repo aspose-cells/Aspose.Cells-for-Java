@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SpecifyAbsolutePositionOfPivotItem {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SpecifyAbsolutePositionOfPivotItem
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SpecifyAbsolutePositionOfPivotItem.class) + "articles/";
 		Workbook wb = new Workbook(dataDir + "source.xlsx");
@@ -62,6 +62,6 @@ public class SpecifyAbsolutePositionOfPivotItem {
 
 		// Save file
 		wb.save(dataDir + "SAPOfPivotItem.xlsx");
-		// ExEnd:SpecifyAbsolutePositionOfPivotItem
+
 	}
 }

@@ -1,7 +1,7 @@
 package com.aspose.cells.examples.articles;
 
 public class WorkingWithPHP {
-	// ExStart:WorkingWithPHP
+
 	<?php
 			require_once("java/Java.inc");
 			require("AsposeCells.php");
@@ -11,5 +11,5 @@ public class WorkingWithPHP {
 			$cell->setValue6("Hello World!"); 
 			$workbook->save5("t.xls");
 			?>
-	// ExEnd:WorkingWithPHP
+
 }

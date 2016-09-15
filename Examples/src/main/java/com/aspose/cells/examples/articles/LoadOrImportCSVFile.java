@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class LoadOrImportCSVFile {
 	public static void main(String[] args) throws Exception {
-		// ExStart:LoadOrImportCSVFile
+
 		String dataDir = Utils.getSharedDataDir(LoadOrImportCSVFile.class) + "articles/";
 		String csvFile = dataDir + "sample.csv";
 
@@ -24,6 +24,6 @@ public class LoadOrImportCSVFile {
 
 		// Save your workbook in Xlsx format
 		workbook.save(dataDir + "LOrICSVFile-out.xlsx");
-		// ExEnd:LoadOrImportCSVFile
+
 	}
 }

@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class UsingCellName {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UsingCellName
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UsingCellName.class) + "data/";
 
@@ -23,6 +23,6 @@ public class UsingCellName {
 
 		// Print message
 		System.out.println("Cell Value: " + cell.getValue());
-		// ExEnd:UsingCellName
+
 	}
 }

@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class GetValidationAppliedonCell {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GetValidationAppliedonCell
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GetValidationAppliedonCell.class) + "articles/";
 		// Instantiate the workbook from sample Excel file
@@ -32,6 +32,6 @@ public class GetValidationAppliedonCell {
 		System.out.println("Formula1: " + validation.getFormula1());
 		System.out.println("Formula2: " + validation.getFormula2());
 		System.out.println("Ignore blank: " + validation.getIgnoreBlank());
-		// ExEnd:GetValidationAppliedonCell
+
 	}
 }

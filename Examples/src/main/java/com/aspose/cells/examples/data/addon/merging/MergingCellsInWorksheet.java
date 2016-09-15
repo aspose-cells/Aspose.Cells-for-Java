@@ -13,7 +13,7 @@ import com.aspose.cells.examples.data.addon.hyperlinks.AddingLinkToURLNotEmpty;
 public class MergingCellsInWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:MergingCellsInWorksheet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(MergingCellsInWorksheet.class) + "data/";
 
@@ -67,6 +67,6 @@ public class MergingCellsInWorksheet {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:MergingCellsInWorksheet
+
 	}
 }

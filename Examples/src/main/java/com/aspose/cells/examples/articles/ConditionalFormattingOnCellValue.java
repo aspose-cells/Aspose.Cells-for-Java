@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ConditionalFormattingOnCellValue {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ApplyConditionalFormattingOnCellValue
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConditionalFormattingOnCellValue.class) + "articles/";
 		// Instantiating a Workbook object
@@ -34,6 +34,6 @@ public class ConditionalFormattingOnCellValue {
 		FormatCondition fc = fcs.get(conditionIndex);
 		fc.getStyle().setBackgroundColor(Color.getRed());
 		workbook.save(dataDir + "CFOnCellValue-out.xls");
-		// ExEnd:ApplyConditionalFormattingOnCellValue
+
 	}
 }

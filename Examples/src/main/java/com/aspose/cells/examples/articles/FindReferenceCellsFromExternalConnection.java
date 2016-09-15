@@ -12,7 +12,7 @@ import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
 
 public class FindReferenceCellsFromExternalConnection {
-	// ExStart:FindReferenceCellsFromExternalConnection
+
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory
@@ -79,5 +79,5 @@ public class FindReferenceCellsFromExternalConnection {
 			}
 		}
 	}// end-PrintTables
-		// ExEnd:FindReferenceCellsFromExternalConnection
+
 }

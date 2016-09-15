@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class GroupingRowsandColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:GroupingRowsandColumns
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GroupingRowsandColumns.class) + "RowsColumns/";
 
@@ -36,6 +36,6 @@ public class GroupingRowsandColumns {
 
 		// Print message
 		System.out.println("Rows and Columns grouped successfully.");
-		// ExEnd:GroupingRowsandColumns
+
 	}
 }

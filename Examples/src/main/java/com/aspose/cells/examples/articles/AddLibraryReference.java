@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddLibraryReference {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddLibraryReference
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddLibraryReference.class) + "articles/";
 		Workbook workbook = new Workbook();
@@ -20,6 +20,6 @@ public class AddLibraryReference {
 
 		workbook.save(dataDir + "ALReference-out.xlsm");
 
-		// ExEnd:AddLibraryReference
+
 	}
 }

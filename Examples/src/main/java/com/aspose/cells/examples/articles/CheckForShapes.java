@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CheckForShapes {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CheckForShapes
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CheckForShapes.class) + "articles/";
 
@@ -35,6 +35,6 @@ public class CheckForShapes {
 				}
 			}
 		}
-		// ExEnd:CheckForShapes
+
 	}
 }

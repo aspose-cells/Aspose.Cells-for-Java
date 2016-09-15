@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingDataToCells {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddingDataToCells
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingDataToCells.class) + "data/";
 
@@ -48,6 +48,6 @@ public class AddingDataToCells {
 
 		// Print message
 		System.out.println("Data Added Successfully");
-		// ExEnd:AddingDataToCells
+
 	}
 }

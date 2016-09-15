@@ -8,7 +8,7 @@ import java.io.FileOutputStream;
 public class SaveWorkbookToTextCSVFormat {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:SaveWorkbookToTextCSVFormat
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SaveWorkbookToTextCSVFormat.class) + "files/";
 
@@ -47,6 +47,6 @@ public class SaveWorkbookToTextCSVFormat {
 
 		// Print message
 		System.out.println("Excel to Text File Conversion performed successfully.");
-		// ExEnd:SaveWorkbookToTextCSVFormat
+
 	}
 }

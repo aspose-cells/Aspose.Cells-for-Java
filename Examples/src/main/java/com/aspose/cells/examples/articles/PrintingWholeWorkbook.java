@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class PrintingWholeWorkbook {
 	public static void main(String[] args) throws Exception {
-		// ExStart:PrintingWholeWorkbook
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(PrintingWholeWorkbook.class) + "articles/";
 		// Instantiate a new workbook
@@ -25,6 +25,6 @@ public class PrintingWholeWorkbook {
 
 		// Print the workbook
 		wr.toPrinter(strPrinterName);
-		// ExEnd:PrintingWholeWorkbook
+
 	}
 }

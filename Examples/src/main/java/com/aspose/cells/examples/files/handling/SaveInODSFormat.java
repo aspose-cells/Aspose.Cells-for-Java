@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class SaveInODSFormat {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SaveInODSFormat.class) + "files/";
 
@@ -19,6 +19,6 @@ public class SaveInODSFormat {
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");
-		// ExEnd:1
+
 	}
 }

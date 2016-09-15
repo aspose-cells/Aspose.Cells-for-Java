@@ -7,7 +7,7 @@ import com.aspose.cells.examples.charts.management.SettingChartsData;
 public class HowToCreateBubbleChart {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HowToCreateBubbleChart.class) + "charts/";
 
@@ -66,7 +66,7 @@ public class HowToCreateBubbleChart {
 
 		// Print message
 		System.out.println("Bubble chart is successfully created.");
-		// ExEnd:1
+
 
 	}
 }

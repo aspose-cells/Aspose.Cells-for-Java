@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SigningSpreadsheets {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SigningSpreadsheets
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SigningSpreadsheets.class) + "articles/";
 		// Create an instance of DigitalSignatureCollection
@@ -42,6 +42,6 @@ public class SigningSpreadsheets {
 
 		// Save the signed spreadsheet
 		workbook.save(dataDir + "SSpreadsheets-out.xlsx");
-		// ExEnd:SigningSpreadsheets
+
 	}
 }

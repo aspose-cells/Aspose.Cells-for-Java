@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class CreateNamedRangeofCells {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreateNamedRangeofCells
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreateNamedRangeofCells.class) + "data/";
 
@@ -28,6 +28,6 @@ public class CreateNamedRangeofCells {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:CreateNamedRangeofCells
+
 	}
 }

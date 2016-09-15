@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertChartToPdf {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 
 		String dataDir = Utils.getSharedDataDir(ConvertChartToPdf.class) + "files/";
 		String inputPath = dataDir + "Sample1.xls";
@@ -27,6 +27,6 @@ public class ConvertChartToPdf {
 		chart.toPdf(outputPath);
 
 		System.out.println("File saved " + outputPath);
-		// ExEnd:1
+
 	}
 }

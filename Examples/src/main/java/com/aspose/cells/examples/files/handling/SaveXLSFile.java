@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class SaveXLSFile {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SaveXLSFile.class) + "files/";
 
@@ -19,6 +19,6 @@ public class SaveXLSFile {
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");
-		// ExEnd:1
+
 	}
 }

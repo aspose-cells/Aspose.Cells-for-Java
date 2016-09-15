@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ChangeFontonspecificUnicodecharacters {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ChangeFontonspecificUnicodecharacters
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ChangeFontonspecificUnicodecharacters.class) + "articles/";
 
@@ -44,6 +44,6 @@ public class ChangeFontonspecificUnicodecharacters {
 		opts.setFontSubstitutionCharGranularity(true);
 		workbook.save(dataDir + "CFOnSUCharacters2-out.pdf", opts);
 
-		// ExEnd:ChangeFontonspecificUnicodecharacters
+
 	}
 }

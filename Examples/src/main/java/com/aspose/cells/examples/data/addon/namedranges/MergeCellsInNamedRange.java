@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 public class MergeCellsInNamedRange {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:MergeCellsInNamedRange
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(MergeCellsInNamedRange.class) + "data/";
 
@@ -55,6 +55,6 @@ public class MergeCellsInNamedRange {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:MergeCellsInNamedRange
+
 	}
 }

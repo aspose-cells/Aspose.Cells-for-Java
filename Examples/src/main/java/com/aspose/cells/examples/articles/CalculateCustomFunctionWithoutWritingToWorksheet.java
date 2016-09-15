@@ -7,7 +7,7 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 
 public class CalculateCustomFunctionWithoutWritingToWorksheet {
-	// ExStart:CalculateCustomFunctionWithoutWritingToWorksheet
+
 	public class CustomEngine extends AbstractCalculationEngine {
 		public void calculate(CalculationData data) {
 
@@ -44,5 +44,5 @@ public class CalculateCustomFunctionWithoutWritingToWorksheet {
 		// Print the calculated value on Console
 		System.out.println("Calculated Value: " + ret.toString());
 	}
-	// ExEnd:CalculateCustomFunctionWithoutWritingToWorksheet
+
 }

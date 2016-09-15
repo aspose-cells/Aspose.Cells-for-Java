@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ChangeHTMLLinkTargetType {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ChangeHTMLLinkTargetType
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ChangeHTMLLinkTargetType.class) + "articles/";
 		Workbook workbook = new Workbook(dataDir + "Sample1.xlsx");
@@ -16,6 +16,6 @@ public class ChangeHTMLLinkTargetType {
 		opts.setLinkTargetType(HtmlLinkTargetType.SELF);
 
 		workbook.save(dataDir + "out.html", opts);
-		// ExEnd:ChangeHTMLLinkTargetType
+
 	}
 }

@@ -9,7 +9,7 @@ import com.aspose.cells.examples.AdvancedTopics.SmartMarkers.UsingHTMLProperty;
 
 public class AccessAndUpdatePortions {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AccessAndUpdatePortions
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AccessAndUpdatePortions.class) + "articles/";
 
@@ -45,6 +45,6 @@ public class AccessAndUpdatePortions {
 
 		// Save workbook
 		workbook.save(dataDir + "AAUPortions-out.xlsx");
-		// ExEnd:AccessAndUpdatePortions
+
 	}
 }

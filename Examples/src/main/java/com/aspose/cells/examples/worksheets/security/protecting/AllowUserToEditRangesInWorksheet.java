@@ -7,7 +7,7 @@ import com.aspose.cells.examples.worksheets.security.LockCell;
 public class AllowUserToEditRangesInWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AllowUserToEditRangesInWorksheet.class) + "worksheets/";
 
@@ -32,6 +32,6 @@ public class AllowUserToEditRangesInWorksheet {
 
 		// Print Message
 		System.out.println("Range protected successfully.");
-		// ExEnd:1
+
 	}
 }

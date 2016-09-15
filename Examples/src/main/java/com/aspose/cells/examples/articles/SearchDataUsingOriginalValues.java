@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SearchDataUsingOriginalValues {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SearchDataUsingOriginalValues
+
 		String dataDir = Utils.getSharedDataDir(SearchDataUsingOriginalValues.class) + "articles/";
 		// Create workbook object
 		Workbook workbook = new Workbook();
@@ -53,6 +53,6 @@ public class SearchDataUsingOriginalValues {
 
 		// Save the workbook
 		workbook.save(dataDir + "SDUOriginalValues-out.xlsx");
-		// ExEnd:SearchDataUsingOriginalValues
+
 	}
 }

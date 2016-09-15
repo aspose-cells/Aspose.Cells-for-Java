@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class OpeningCSVFiles {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(OpeningCSVFiles.class) + "files/";
 		// Opening CSV Files
@@ -21,7 +21,7 @@ public class OpeningCSVFiles {
 
 		// Print message
 		System.out.println("CSV format workbook has been opened successfully.");
-		// ExEnd:1
+
 
 	}
 }

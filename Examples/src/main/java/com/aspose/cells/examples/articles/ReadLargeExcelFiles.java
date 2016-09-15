@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ReadLargeExcelFiles {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ReadLargeExcelFiles
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ReadLargeExcelFiles.class) + "articles/";
 		// Specify the LoadOptions
@@ -17,6 +17,6 @@ public class ReadLargeExcelFiles {
 		// Instantiate the Workbook
 		// Load the Big Excel file having large Data set in it
 		Workbook wb = new Workbook(dataDir + "RLExcelFiles-out.xlsx", opt);
-		// ExEnd:ReadLargeExcelFiles
+
 	}
 }

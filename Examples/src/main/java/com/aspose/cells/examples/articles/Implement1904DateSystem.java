@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class Implement1904DateSystem {
 	public static void main(String[] args) throws Exception {
-		// ExStart:Implement1904DateSystem
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(Implement1904DateSystem.class) + "articles/";
 		// Initialize a new Workbook
@@ -16,6 +16,6 @@ public class Implement1904DateSystem {
 
 		// Save the excel file
 		workbook.save(dataDir + "I1904DateSystem-out.xls");
-		// ExEnd:Implement1904DateSystem
+
 	}
 }

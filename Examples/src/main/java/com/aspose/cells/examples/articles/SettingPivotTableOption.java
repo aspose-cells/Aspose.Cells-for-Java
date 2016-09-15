@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SettingPivotTableOption {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingPivotTableOption
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SettingPivotTableOption.class) + "articles/";
 		Workbook wb = new Workbook(dataDir + "input.xlsx");
@@ -18,6 +18,6 @@ public class SettingPivotTableOption {
 		pt.calculateData();
 		pt.setRefreshDataOnOpeningFile(false);
 		wb.save(dataDir + "SettingPivotTableOption-out.xlsx");
-		// ExEnd:SettingPivotTableOption
+
 	}
 }

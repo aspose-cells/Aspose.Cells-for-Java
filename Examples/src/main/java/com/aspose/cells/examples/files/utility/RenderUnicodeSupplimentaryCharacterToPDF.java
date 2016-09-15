@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class RenderUnicodeSupplimentaryCharacterToPDF {
 	public static void main(String[] args) throws Exception {
-		// ExStart:RenderUnicodeSupplimentaryCharacterToPDF
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RenderUnicodeSupplimentaryCharacterToPDF.class) + "files/";
 		// Load your source excel file containing Unicode Supplementary
@@ -14,7 +14,7 @@ public class RenderUnicodeSupplimentaryCharacterToPDF {
 
 		// Save the workbook
 		wb.save(dataDir + "RUSCToPDF-out.pdf");
-		// ExEnd:RenderUnicodeSupplimentaryCharacterToPDF
+
 	}
 
 }

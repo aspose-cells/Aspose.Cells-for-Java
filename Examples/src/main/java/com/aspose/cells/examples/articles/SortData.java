@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SortData {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SortData
+
 		String dataDir = Utils.getSharedDataDir(SortData.class) + "articles/";
 
 		// Instantiating a Workbook object
@@ -47,6 +47,6 @@ public class SortData {
 		// Saving the excel file
 		workbook.save(dataDir + "SortData-out.xls");
 
-		// ExEnd:SortData
+
 	}
 }

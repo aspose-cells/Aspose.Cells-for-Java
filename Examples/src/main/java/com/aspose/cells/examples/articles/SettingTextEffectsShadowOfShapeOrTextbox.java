@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SettingTextEffectsShadowOfShapeOrTextbox {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SettingTextEffectsShadowOfShapeOrTextbox
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SettingTextEffectsShadowOfShapeOrTextbox.class) + "articles/";
 
@@ -39,7 +39,7 @@ public class SettingTextEffectsShadowOfShapeOrTextbox {
 
 		// Save the output file
 		wb.save(dataDir + "STESOfShapeOrTextbox-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:SettingTextEffectsShadowOfShapeOrTextbox
+
 	}
 
 }

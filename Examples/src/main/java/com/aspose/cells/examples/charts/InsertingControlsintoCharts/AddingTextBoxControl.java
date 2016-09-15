@@ -8,7 +8,7 @@ import java.io.FileInputStream;
 public class AddingTextBoxControl {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingTextBoxControl.class) + "charts/";
 		String filePath = dataDir + "chart.xls";
@@ -44,6 +44,6 @@ public class AddingTextBoxControl {
 
 		// Print message
 		System.out.println("TextBox added to chart successfully.");
-		// ExEnd:1
+
 	}
 }

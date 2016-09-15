@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class SettingChartLines {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SettingChartLines.class) + "charts/";
 
@@ -45,6 +45,6 @@ public class SettingChartLines {
 
 		// Print message
 		System.out.println("ChartArea is settled successfully.");
-		// ExEnd:1
+
 	}
 }

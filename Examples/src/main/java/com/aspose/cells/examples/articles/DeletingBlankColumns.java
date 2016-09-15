@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DeletingBlankColumns {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DeletingBlankColumns
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DeletingBlankColumns.class) + "articles/";
 		// Create a new Workbook. Open an existing excel file.
@@ -24,6 +24,6 @@ public class DeletingBlankColumns {
 
 		// Save the excel file.
 		wb.save(dataDir + "DBlankColumns-out.xlsx");
-		// ExEnd:DeletingBlankColumns
+
 	}
 }

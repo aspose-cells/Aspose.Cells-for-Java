@@ -1,7 +1,7 @@
 package com.aspose.cells.examples.articles;
 
 public class WorkingWithColdFusion {
-	// ExStart:WorkingWithColdFusion
+
 	<html>
 	<head><title>Hello World!</title></head>
 	<body>
@@ -15,5 +15,5 @@ public class WorkingWithColdFusion {
 	    <cfset workbook.save("C:\output.xls")>
 	</body>
 	</html>
-	// ExEnd:WorkingWithColdFusion
+
 }

@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class HowToCreatePieChart {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HowToCreatePieChart.class) + "charts/";
 
@@ -88,7 +88,7 @@ public class HowToCreatePieChart {
 
 		// Print message
 		System.out.println("Pie chart is successfully created.");
-		// ExEnd:1
+
 
 	}
 }

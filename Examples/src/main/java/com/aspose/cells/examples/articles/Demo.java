@@ -6,7 +6,7 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
 
-// ExStart:Demo
+
 public class Demo {
 	private static final String OUTPUT_FILE_PATH = Utils.getSharedDataDir(Demo.class) + "articles/";
 
@@ -72,4 +72,3 @@ public class Demo {
 		wb.save(OUTPUT_FILE_PATH + "/Demo-out.xlsx", opt);
 	}
 }
-// ExEnd:Demo

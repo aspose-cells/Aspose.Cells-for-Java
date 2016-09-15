@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ExportExceltoHTML {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ExportExceltoHTML
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExportExceltoHTML.class) + "articles/";
 		// Create your workbook
@@ -27,7 +27,7 @@ public class ExportExceltoHTML {
 		HtmlSaveOptions opts = new HtmlSaveOptions();
 		opts.setExportGridLines(true);
 		wb.save(dataDir + "EExceltoHTML-out.html", opts);
-		// ExEnd:ExportExceltoHTML
+
 	}
 
 }

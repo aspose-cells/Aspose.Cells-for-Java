@@ -14,7 +14,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CreatePieChartWithLeaderLines {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreatePieChartWithLeaderLines
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreatePieChartWithLeaderLines.class) + "articles/";
 		// Create an instance of Workbook in XLSX format
@@ -115,6 +115,6 @@ public class CreatePieChartWithLeaderLines {
 		//Save the workbook to see chart inside the Excel
 		workbook.save(dataDir + "CPieChartWLLines-out.xlsx");
 		
-		// ExEnd:CreatePieChartWithLeaderLines
+
 	}
 }

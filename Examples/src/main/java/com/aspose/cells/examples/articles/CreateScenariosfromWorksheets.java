@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CreateScenariosfromWorksheets {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreateScenariosfromWorksheets
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreateScenariosfromWorksheets.class) + "articles/";
 		// Instantiate the Workbook
@@ -34,6 +34,6 @@ public class CreateScenariosfromWorksheets {
 
 		// Save the Excel file.
 		workbook.save(dataDir + "CSfromWorksheets-out.xlsx");
-		// ExEnd:CreateScenariosfromWorksheets
+
 	}
 }

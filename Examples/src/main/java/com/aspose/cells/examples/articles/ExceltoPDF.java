@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ExceltoPDF {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ExceltoPDF
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExceltoPDF.class) + "articles/";
 		// Initialize a new Workbook
@@ -19,6 +19,6 @@ public class ExceltoPDF {
 
 		// Save the PDF file
 		workbook.save(dataDir + "ExceltoPDF-out.pdf", pdfSaveOptions);
-		// ExEnd:ExceltoPDF
+
 	}
 }

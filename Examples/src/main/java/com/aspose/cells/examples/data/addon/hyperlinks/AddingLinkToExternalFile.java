@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingLinkToExternalFile {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddingLinkToExternalFile
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingLinkToExternalFile.class) + "data/";
 
@@ -40,6 +40,6 @@ public class AddingLinkToExternalFile {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:AddingLinkToExternalFile
+
 	}
 }

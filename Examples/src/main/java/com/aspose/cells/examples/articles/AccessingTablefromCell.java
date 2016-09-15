@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AccessingTablefromCell {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AccessingTablefromCell
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AccessingTablefromCell.class) + "articles/";
 		// Create workbook from source Excel file
@@ -31,6 +31,6 @@ public class AccessingTablefromCell {
 
 		// Save the workbook
 		workbook.save(dataDir + "ATFromCell-out.xlsx");
-		// ExEnd:AccessingTablefromCell
+
 	}
 }

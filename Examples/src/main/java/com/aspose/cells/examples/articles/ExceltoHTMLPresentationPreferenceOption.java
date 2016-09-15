@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ExceltoHTMLPresentationPreferenceOption {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ExceltoHTMLPresentationPreferenceOption
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExceltoHTMLPresentationPreferenceOption.class) + "articles/";
 		// Instantiate the Workbook
@@ -20,6 +20,6 @@ public class ExceltoHTMLPresentationPreferenceOption {
 
 		// Save the Excel file to HTML with specified option
 		workbook.save(dataDir + "EToHPPOption-out.html");
-		// ExEnd:ExceltoHTMLPresentationPreferenceOption
+
 	}
 }

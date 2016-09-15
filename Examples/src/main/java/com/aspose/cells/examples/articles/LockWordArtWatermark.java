@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 
 public class LockWordArtWatermark {
 	public static void main(String[] args) throws Exception {
-		// ExStart:LockWordArtWatermark
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(LockWordArtWatermark.class) + "articles/";
 
@@ -48,6 +48,6 @@ public class LockWordArtWatermark {
 
 		// Save the file
 		workbook.save(dataDir + "LkWordArtWatermark-out.xls");
-		// ExEnd:LockWordArtWatermark
+
 	}
 }

@@ -10,7 +10,7 @@ import com.aspose.cells.examples.borders.ColorsAndBackground;
 public class MergeFiles {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		String dataDir = Utils.getSharedDataDir(MergeFiles.class) + "CellsHelperClass/";
 		String sampleFile = "Sample.out.xlsx";
 		String samplePath = dataDir + sampleFile;
@@ -41,6 +41,6 @@ public class MergeFiles {
 		}
 		// Re-save the file
 		workbook.save(dataDir + "MergeFiles-out.xls");
-		// ExEnd:1
+
 	}
 }

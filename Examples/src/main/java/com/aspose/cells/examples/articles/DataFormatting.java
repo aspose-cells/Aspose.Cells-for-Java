@@ -18,7 +18,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DataFormatting {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DataFormatting
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DataFormatting.class) + "articles/";
 		// Create a new Workbook.
@@ -662,6 +662,6 @@ public class DataFormatting {
 		workbook.getWorksheets().get(0).getCells().setColumnWidth(13, 9.33);
 
 		workbook.save(dataDir + "DataFormatting-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:DataFormatting
+
 	}
 }

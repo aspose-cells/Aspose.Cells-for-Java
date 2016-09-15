@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class GetCellStringValue {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GetCellStringValue
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GetCellStringValue.class) + "articles/";
 		// Create workbook
@@ -36,6 +36,6 @@ public class GetCellStringValue {
 		// Get string value without any formatting
 		value = cell.getStringValue(CellValueFormatStrategy.NONE);
 		System.out.println(value);
-		// ExEnd:GetCellStringValue
+
 	}
 }

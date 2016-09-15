@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CreatePivotTable {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreatePivotTable
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreatePivotTable.class) + "articles/";
 		// Instantiating an Workbook object
@@ -423,6 +423,6 @@ public class CreatePivotTable {
 		pivotTable.getDataFields().get(0).setNumber(7);
 		// Saving the Excel file
 		workbook.save(dataDir + "CreatePivotTable-out.xls");
-		// ExEnd:CreatePivotTable
+
 	}
 }

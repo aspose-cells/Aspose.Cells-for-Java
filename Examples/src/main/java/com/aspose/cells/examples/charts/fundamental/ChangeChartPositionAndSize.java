@@ -7,7 +7,7 @@ import com.aspose.cells.examples.charts.HowToCreateChart;
 public class ChangeChartPositionAndSize {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:ChangeChartPositionAndSize
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ChangeChartPositionAndSize.class) + "charts/";
 
@@ -33,6 +33,6 @@ public class ChangeChartPositionAndSize {
 
 		// Print message
 		System.out.println("Position and Size of Chart is changed successfully.");
-		// ExEnd:ChangeChartPositionAndSize
+
 	}
 }

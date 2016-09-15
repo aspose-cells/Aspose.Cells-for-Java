@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class UseErrorCheckingOptions {
 	public static void main(String[] args) throws Exception {
-		// ExStart:UseErrorCheckingOptions
+
 		String dataDir = Utils.getSharedDataDir(UseErrorCheckingOptions.class) + "articles/";
 
 		// Create a workbook and opening a template spreadsheet
@@ -30,6 +30,6 @@ public class UseErrorCheckingOptions {
 
 		// Save the Excel file
 		workbook.save(dataDir + "UseErrorCheckingOptions-out.xls");
-		// ExEnd:UseErrorCheckingOptions
+
 	}
 }

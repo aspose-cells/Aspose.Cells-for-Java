@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class RemoveANamedRange {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:RemoveANamedRange
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RemoveANamedRange.class) + "data/";
 
@@ -54,6 +54,6 @@ public class RemoveANamedRange {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:RemoveANamedRange
+
 	}
 }

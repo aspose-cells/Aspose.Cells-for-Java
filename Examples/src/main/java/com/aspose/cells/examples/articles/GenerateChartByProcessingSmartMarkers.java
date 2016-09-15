@@ -12,11 +12,11 @@ import com.aspose.cells.examples.Utils;
 
 public class GenerateChartByProcessingSmartMarkers {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GenerateChartByProcessingSmartMarkers
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GenerateChartByProcessingSmartMarkers.class) + "articles/";
 
-		// ExStart:CreationOfDesignerSpreadsheet
+
 
 		// Create an instance of Workbook
 		Workbook book = new Workbook();
@@ -37,9 +37,9 @@ public class GenerateChartByProcessingSmartMarkers {
 		cells.get("A4").putValue("&=$Year2010(horizontal)");
 		cells.get("A5").putValue("&=$Year2015(horizontal)");
 
-		// ExEnd:CreationOfDesignerSpreadsheet
 
-		// ExStart:ProcessingDesignerSpreadsheet
+
+
 
 		// Create string arrays which will serve as data sources to the smart markers
 		String[] headers = new String[] { "", "Item 1", "Item 2", "Item 3", "Item 4", "Item 5", "Item 6", "Item 7",
@@ -53,9 +53,9 @@ public class GenerateChartByProcessingSmartMarkers {
 		String[] year2015 = new String[] { "2015", "2818", "320", "340", "260", "210", "310", "220", "0", "0", "0", "0",
 				"122" };
 
-		// ExEnd:ProcessingDesignerSpreadsheet
 
-		// ExStart:ProcessingSmartMarkers
+
+
 
 		// Create an instance of WorkbookDesigner
 		WorkbookDesigner designer = new WorkbookDesigner();
@@ -73,7 +73,7 @@ public class GenerateChartByProcessingSmartMarkers {
 		// Process the designer spreadsheet against the provided data sources
 		designer.process();
 
-		// ExEnd:ProcessingSmartMarkers
+
 
 		// Convert all string values of ChartData to numbers
 		// This is an additional step as we have imported the string values
@@ -119,6 +119,6 @@ public class GenerateChartByProcessingSmartMarkers {
 
 		// Save the final result
 		book.save(dataDir + "GCByPSmartMarkers.xlsx");
-		// ExEnd:GenerateChartByProcessingSmartMarkers
+
 	}
 }

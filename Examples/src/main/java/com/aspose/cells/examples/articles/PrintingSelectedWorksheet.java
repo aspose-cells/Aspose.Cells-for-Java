@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class PrintingSelectedWorksheet {
 	public static void main(String[] args) throws Exception {
-		// ExStart:PrintingSelectedWorksheet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(PrintingSelectedWorksheet.class) + "articles/";
 		// Instantiate a new workbook
@@ -24,6 +24,6 @@ public class PrintingSelectedWorksheet {
 
 		// Print the worksheet
 		sr.toPrinter(strPrinterName);
-		// ExEnd:PrintingSelectedWorksheet
+
 	}
 }

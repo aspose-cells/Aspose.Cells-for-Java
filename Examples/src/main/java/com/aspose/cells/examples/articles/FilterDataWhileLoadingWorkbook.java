@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class FilterDataWhileLoadingWorkbook {
 	public static void main(String[] args) throws Exception {
-		// ExStart:FilterDataWhileLoadingWorkbook
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(FilterDataWhileLoadingWorkbook.class) + "articles/";
 		// Set the load options, we only want to load shapes and do not want to load data
@@ -21,7 +21,7 @@ public class FilterDataWhileLoadingWorkbook {
 
 		// Save the output in pdf format
 		wb.save(dataDir + "FDWLWorkbook-out.pdf", SaveFormat.PDF);
-		// ExEnd:FilterDataWhileLoadingWorkbook
+
 	}
 
 }

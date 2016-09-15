@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ImplementingNonSequentialRanges {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ImplementingNonSequentialRanges
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ImplementingNonSequentialRanges.class) + "articles/";
 		// Instantiating a Workbook object
@@ -22,6 +22,6 @@ public class ImplementingNonSequentialRanges {
 
 		// Save the workbook
 		workbook.save(dataDir + "INSRanges-out.xls");
-		// ExEnd:ImplementingNonSequentialRanges
+
 	}
 }

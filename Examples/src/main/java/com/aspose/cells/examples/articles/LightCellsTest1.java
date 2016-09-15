@@ -5,7 +5,7 @@ import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
 
-// ExStart:LightCellsTest1
+
 public class LightCellsTest1 {
 	public static void main(String[] args) throws Exception {
 		String dataDir = Utils.getSharedDataDir(LightCellsTest1.class) + "articles/";
@@ -19,4 +19,3 @@ public class LightCellsTest1 {
 
 	}
 }
-// ExEnd:LightCellsTest1

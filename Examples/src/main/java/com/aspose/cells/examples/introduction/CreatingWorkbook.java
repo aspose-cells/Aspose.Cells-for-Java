@@ -40,6 +40,6 @@ public class CreatingWorkbook {
 		wb.save(dataDir + "CWorkbook-out.xls", FileFormatType.EXCEL_97_TO_2003);
 		wb.save(dataDir + "CWorkbook-out.xlsx");
 		wb.save(dataDir + "CWorkbook-out.ods");
-		// ExEnd:CheckVersionNumberOfComponent
+
 	}
 }

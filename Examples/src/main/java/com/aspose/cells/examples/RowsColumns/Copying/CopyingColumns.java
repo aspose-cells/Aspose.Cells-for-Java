@@ -8,7 +8,7 @@ import com.aspose.cells.examples.RowsColumns.UnhidingRowsandColumns;
 public class CopyingColumns {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyingColumns
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CopyingColumns.class) + "RowsColumns/";
 
@@ -29,6 +29,6 @@ public class CopyingColumns {
 
 		// Print message
 		System.out.println("Column copied successfully.");
-		// ExEnd:CopyingColumns
+
 	}
 }

@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ChangeTextDirectionofComment {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ChangeTextDirectionofComment
+
 		String dataDir = Utils.getSharedDataDir(ChangeTextDirectionofComment.class) + "articles/";
 		// Instantiate a new Workbook
 		Workbook wb = new Workbook();
@@ -30,6 +30,6 @@ public class ChangeTextDirectionofComment {
 		// Save the Excel file
 		wb.save(dataDir + "CTDOfComment-out.xlsx");
 
-		// ExEnd:ChangeTextDirectionofComment
+
 	}
 }

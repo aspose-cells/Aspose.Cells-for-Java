@@ -5,7 +5,7 @@ import com.aspose.cells.Workbook;
 
 public class CheckVersionNumberOfComponent {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CheckVersionNumberOfComponent
+
 		try {
 
 			// Instantiating a Workbook object
@@ -17,6 +17,6 @@ public class CheckVersionNumberOfComponent {
 		catch (Exception ee) {
 			System.out.println(ee);
 		}
-		// ExEnd:CheckVersionNumberOfComponent
+
 	}
 }

@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ExportWorksheettoImage {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ExportWorksheettoImage
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExportWorksheettoImage.class) + "articles/";
 		// Create workbook object from source file
@@ -31,6 +31,6 @@ public class ExportWorksheettoImage {
 		SheetRender sr = new SheetRender(worksheet, opts);
 		sr.toImage(0, dataDir + "EWSheetToImage-out.png");
 
-		// ExEnd:ExportWorksheettoImage
+
 	}
 }

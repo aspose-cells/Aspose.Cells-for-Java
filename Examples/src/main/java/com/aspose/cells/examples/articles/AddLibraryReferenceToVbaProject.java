@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class AddLibraryReferenceToVbaProject {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddLibraryReferenceToVbaProject
+
 		String dataDir = Utils.getSharedDataDir(AddLibraryReferenceToVbaProject.class) + "articles/";
 		String outputPath = dataDir + "ALRToVbaProject-out.xlsm";
 
@@ -22,6 +22,6 @@ public class AddLibraryReferenceToVbaProject {
 
 		workbook.save(outputPath);
 		System.out.println("File saved " + outputPath);
-		// ExEnd:AddLibraryReferenceToVbaProject
+
 	}
 }

@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class EditRangesWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(EditRangesWorksheet.class) + "worksheets/";
 
@@ -31,6 +31,6 @@ public class EditRangesWorksheet {
 
 		// Print Message
 		System.out.println("you can Edit Range .");
-		// ExEnd:1
+
 	}
 }

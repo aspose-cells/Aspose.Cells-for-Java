@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CombineMultipleWorkbooks {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CombineMultipleWorkbooks
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CombineMultipleWorkbooks.class) + "articles/";
 		// Open the first excel file.
@@ -20,6 +20,6 @@ public class CombineMultipleWorkbooks {
 
 		// Save the target book file.
 		SourceBook1.save(dataDir + "CMWorkbooks-out.xlsx");
-		// ExEnd:CombineMultipleWorkbooks
+
 	}
 }

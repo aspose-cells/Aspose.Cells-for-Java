@@ -7,7 +7,7 @@ import com.aspose.cells.examples.files.handling.SavingFiletoSomeLocation;
 public class XlstoPDFDirectConversation {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(XlstoPDFDirectConversation.class) + "files/";
 
@@ -19,6 +19,6 @@ public class XlstoPDFDirectConversation {
 
 		// Print message
 		System.out.println("Converted xls to Pdf successfully.");
-		// ExEnd:1
+
 	}
 }

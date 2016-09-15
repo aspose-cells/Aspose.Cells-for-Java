@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class WritingLargeExcelFiles {
 	public static void main(String[] args) throws Exception {
-		// ExStart:WritingLargeExcelFiles
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(WritingLargeExcelFiles.class) + "articles/";
 		// Instantiate a new Workbook
@@ -27,6 +27,6 @@ public class WritingLargeExcelFiles {
 		// Get cells of the newly created Worksheet "Sheet2" whose memory setting is same with the one defined in
 		// WorkbookSettings:
 		cells = wb.getWorksheets().add("Sheet2").getCells();
-		// ExEnd:WritingLargeExcelFiles
+
 	}
 }

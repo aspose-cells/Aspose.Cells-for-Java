@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class TextLengthDataValidation {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:TextLengthDataValidation
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(TextLengthDataValidation.class) + "data/";
 
@@ -75,6 +75,6 @@ public class TextLengthDataValidation {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:TextLengthDataValidation
+
 	}
 }

@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class ProtectingSpecificCellsinaWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ProtectingSpecificCellsinaWorksheet.class) + "worksheets/";
 
@@ -49,6 +49,6 @@ public class ProtectingSpecificCellsinaWorksheet {
 
 		// Print Message
 		System.out.println("Cells protected successfully.");
-		// ExEnd:1
+
 	}
 }

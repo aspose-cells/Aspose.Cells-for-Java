@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class DecimalDataValidation {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:DecimalDataValidation
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DecimalDataValidation.class) + "data/";
 
@@ -48,6 +48,6 @@ public class DecimalDataValidation {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:DecimalDataValidation
+
 	}
 }

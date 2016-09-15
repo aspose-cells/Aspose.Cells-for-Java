@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetAutoRecoverProperty {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SetAutoRecoverProperty
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SetAutoRecoverProperty.class) + "articles/";
 		// Create workbook object
@@ -25,6 +25,6 @@ public class SetAutoRecoverProperty {
 
 		// Read AutoRecover property
 		System.out.println("AutoRecover: " + workbook.getSettings().getAutoRecover());
-		// ExEnd:SetAutoRecoverProperty
+
 	}
 }

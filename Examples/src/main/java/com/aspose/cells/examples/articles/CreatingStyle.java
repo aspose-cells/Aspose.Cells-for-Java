@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CreatingStyle {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CreatingStyle
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreatingStyle.class) + "articles/";
 		// Create a workbook.
@@ -56,6 +56,6 @@ public class CreatingStyle {
 
 		// Save the excel file.
 		workbook.save(dataDir + "CreatingStyle-out.xls");
-		// ExEnd:CreatingStyle
+
 	}
 }

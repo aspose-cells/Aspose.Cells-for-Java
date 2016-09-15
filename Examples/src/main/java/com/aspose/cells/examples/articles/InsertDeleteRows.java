@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class InsertDeleteRows {
 	public static void main(String[] args) throws Exception {
-		// ExStart:InsertDeleteRows
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(InsertDeleteRows.class) + "articles/";
 		// Instantiate a Workbook object.
@@ -23,6 +23,6 @@ public class InsertDeleteRows {
 
 		// Save the Excel file.
 		workbook.save(dataDir + "InsertDeleteRows-out.xls");
-		// ExEnd:InsertDeleteRows
+
 	}
 }

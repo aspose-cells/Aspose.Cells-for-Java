@@ -14,7 +14,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyRangeStyleOnly {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyRangeStyleOnly
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CopyRangeStyleOnly.class) + "articles/";
 		// Instantiate a new Workbook
@@ -77,6 +77,6 @@ public class CopyRangeStyleOnly {
 
 		// Save the Excel file.
 		workbook.save(dataDir + "CopyRangeStyleOnly-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:CopyRangeStyleOnly
+
 	}
 }

@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertWorksheettoImage {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConvertWorksheettoImage
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertWorksheettoImage.class) + "articles/";
 		//Instantiate a new Workbook object
@@ -44,6 +44,6 @@ public class ConvertWorksheettoImage {
 
 		//Render/save the image for the sheet
 		sr.toImage(0, dataDir + "CWorksheettoImage-out.tiff");
-		// ExEnd:ConvertWorksheettoImage
+
 	}
 }

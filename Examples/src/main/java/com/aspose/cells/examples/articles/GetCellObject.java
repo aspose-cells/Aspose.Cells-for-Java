@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class GetCellObject {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GetCellObject
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GetCellObject.class) + "articles/";
 		// Create workbook object from source excel file
@@ -36,6 +36,6 @@ public class GetCellObject {
 
 		// Save workbook
 		workbook.save(dataDir + "GetCellObject-out.xlsx");
-		// ExEnd:GetCellObject
+
 	}
 }

@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ResampleImagesforExceltoPDFConversion {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ResampleImagesforExceltoPDFConversion
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ResampleImagesforExceltoPDFConversion.class) + "articles/";
 		// Initialize a new Workbook
@@ -20,6 +20,6 @@ public class ResampleImagesforExceltoPDFConversion {
 
 		// Save the PDF file
 		workbook.save(dataDir + "ReSIfEToPDFC-out.pdf", pdfSaveOptions);
-		// ExEnd:ResampleImagesforExceltoPDFConversion
+
 	}
 }

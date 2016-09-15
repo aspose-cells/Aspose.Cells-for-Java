@@ -9,7 +9,7 @@ import com.aspose.cells.examples.tables.ConvertTableToRange;
 public class ControlTabBarWidth {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ControlTabBarWidth.class) + "worksheets/";
 
@@ -24,6 +24,6 @@ public class ControlTabBarWidth {
 
 		// Print message
 		System.out.println("Tab Bar width is updated, please check the output document.");
-		// ExEnd:1
+
 	}
 }

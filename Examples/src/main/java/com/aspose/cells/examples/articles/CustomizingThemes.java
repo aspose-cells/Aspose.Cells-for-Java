@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CustomizingThemes {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CustomizingThemes
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CustomizingThemes.class) + "articles/";
 		// Define Color array (of 12 colors) for the Theme
@@ -33,6 +33,6 @@ public class CustomizingThemes {
 
 		// Save as the excel file
 		workbook.save(dataDir + "CustomizingThemes-out.xlsx");
-		// ExEnd:CustomizingThemes
+
 	}
 }

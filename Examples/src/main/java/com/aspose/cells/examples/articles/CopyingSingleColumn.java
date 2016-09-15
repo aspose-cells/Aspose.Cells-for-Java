@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CopyingSingleColumn {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyingSingleColumn
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CopyingSingleColumn.class) + "articles/";
 		// Create an instance of Workbook class by loading the existing spreadsheet
@@ -21,6 +21,6 @@ public class CopyingSingleColumn {
 		}
 		// Save the result on disc
 		workbook.save(dataDir + "CSingleColumn-out.xlsx");
-		// ExEnd:CopyingSingleColumn
+
 	}
 }

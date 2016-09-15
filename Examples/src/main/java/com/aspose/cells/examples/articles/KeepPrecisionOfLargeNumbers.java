@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 public class KeepPrecisionOfLargeNumbers {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:KeepPrecisionOfLargeNumbers
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(KeepPrecisionOfLargeNumbers.class) + "articles/";
 
@@ -40,7 +40,7 @@ public class KeepPrecisionOfLargeNumbers {
 		workbook.save(dataDir + "KPOfLargeNumbers-out.xlsx", SaveFormat.XLSX);
 
 		System.out.println("File saved");
-		// ExEnd:KeepPrecisionOfLargeNumbers
+
 	}
 
 }

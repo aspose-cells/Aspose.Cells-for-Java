@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DisableExporting {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DisableExporting
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DisableExporting.class) + "articles/";
 		// Open the required workbook to convert
@@ -19,6 +19,6 @@ public class DisableExporting {
 		w.save(dataDir + "DisableExporting-out.html", options);
 
 		System.out.println("File saved");
-		// ExEnd:DisableExporting
+
 	}
 }

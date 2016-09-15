@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class UnMergingCellsInWorksheet {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:UnMergingCellsInWorksheet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UnMergingCellsInWorksheet.class) + "data/";
 
@@ -27,6 +27,6 @@ public class UnMergingCellsInWorksheet {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:UnMergingCellsInWorksheet
+
 	}
 }

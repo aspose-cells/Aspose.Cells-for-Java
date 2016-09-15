@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class RefreshCalculatePivotTablehavingCalculatedItems {
 	public static void main(String[] args) throws Exception {
-		// ExStart:RefreshCalculatePivotTablehavingCalculatedItems
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RefreshCalculatePivotTablehavingCalculatedItems.class) + "articles/";
 		// Load source excel file containing a pivot table having calculated items
@@ -29,7 +29,7 @@ public class RefreshCalculatePivotTablehavingCalculatedItems {
 
 		// Save the workbook in output pdf
 		wb.save(dataDir + "RCPTHavingCItems-out.pdf", SaveFormat.PDF);
-		// ExEnd:RefreshCalculatePivotTablehavingCalculatedItems
+
 	}
 
 }

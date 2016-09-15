@@ -7,7 +7,7 @@ import com.aspose.cells.examples.data.addon.namedranges.RenameNamedRange;
 public class RetrievingDataFromCells {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:RetrievingDataFromCells
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RetrievingDataFromCells.class) + "data/";
 
@@ -38,6 +38,6 @@ public class RetrievingDataFromCells {
 			System.out.println("Null Value");
 			break;
 		}
-		// ExEnd:RetrievingDataFromCells
+
 	}
 }

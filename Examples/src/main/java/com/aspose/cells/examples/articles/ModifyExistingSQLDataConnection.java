@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ModifyExistingSQLDataConnection {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ModifyExistingSQLDataConnection
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ModifyExistingSQLDataConnection.class) + "articles/";
 		// Create a workbook object from source file
@@ -30,6 +30,6 @@ public class ModifyExistingSQLDataConnection {
 
 		// Save the workbook
 		workbook.save(dataDir + "MESQLDataConnection-out.xlsx");
-		// ExEnd:ModifyExistingSQLDataConnection
+
 	}
 }

@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertTextNumericDatatoNumber {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConvertTextNumericDatatoNumber
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertTextNumericDatatoNumber.class) + "articles/";
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
@@ -15,6 +15,6 @@ public class ConvertTextNumericDatatoNumber {
 		}
 
 		workbook.save(dataDir + "CTNDatatoNumber-out.xlsx");
-		// ExEnd:ConvertTextNumericDatatoNumber
+
 	}
 }

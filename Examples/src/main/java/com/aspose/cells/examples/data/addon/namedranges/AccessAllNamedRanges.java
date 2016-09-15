@@ -7,7 +7,7 @@ import com.aspose.cells.examples.data.addon.merging.UnMergingCellsInWorksheet;
 public class AccessAllNamedRanges {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AccessAllNamedRanges
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AccessAllNamedRanges.class) + "data/";
 
@@ -25,6 +25,6 @@ public class AccessAllNamedRanges {
 
 		// Print message
 		System.out.println("Number of Named Ranges : " + namedRanges.length);
-		// ExEnd:AccessAllNamedRanges
+
 	}
 }

@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class GetSetThemeColors {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GetSetThemeColors
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GetSetThemeColors.class) + "articles/";
 		// Instantiate Workbook object
@@ -40,6 +40,6 @@ public class GetSetThemeColors {
 
 		// Save the updated file
 		workbook.save(dataDir + "GetSetThemeColors-out.xlsx");
-		// ExEnd:GetSetThemeColors
+
 	}
 }

@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ExportRangeofCells {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ExportRangeofCells
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExportRangeofCells.class) + "articles/";
 		// Create workbook from source file.
@@ -35,6 +35,6 @@ public class ExportRangeofCells {
 		// Take the image of your worksheet
 		SheetRender sr = new SheetRender(worksheet, options);
 		sr.toImage(0, dataDir + "ERangeofCells-out.jpg");
-		// ExEnd:ExportRangeofCells
+
 	}
 }

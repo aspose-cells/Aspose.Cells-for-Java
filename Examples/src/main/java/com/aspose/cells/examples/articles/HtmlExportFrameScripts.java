@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class HtmlExportFrameScripts {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:HtmlExportFrameScripts
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HtmlExportFrameScripts.class) + "articles/";
 
@@ -22,6 +22,6 @@ public class HtmlExportFrameScripts {
 		w.save(dataDir + "HEFrameScripts-out.html", options);
 
 		System.out.println("File saved");
-		// ExEnd:HtmlExportFrameScripts
+
 	}
 }

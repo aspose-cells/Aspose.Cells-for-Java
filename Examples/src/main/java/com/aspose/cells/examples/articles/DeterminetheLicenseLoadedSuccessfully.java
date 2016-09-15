@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DeterminetheLicenseLoadedSuccessfully {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DeterminetheLicenseLoadedSuccessfully
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DeterminetheLicenseLoadedSuccessfully.class) + "articles/";
 		// Create workbook object before setting a license
@@ -24,6 +24,6 @@ public class DeterminetheLicenseLoadedSuccessfully {
 		// Check if the license is loaded or not
 		// Now it will return true
 		System.out.println(workbook.isLicensed());
-		// ExEnd:DeterminetheLicenseLoadedSuccessfully
+
 	}
 }

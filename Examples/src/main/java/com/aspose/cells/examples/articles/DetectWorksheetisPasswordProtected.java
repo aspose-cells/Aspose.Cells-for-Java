@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DetectWorksheetisPasswordProtected {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DetectWorksheetisPasswordProtected
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DetectWorksheetisPasswordProtected.class) + "articles/";
 		// Create an instance of Workbook and load a spreadsheet
@@ -19,6 +19,6 @@ public class DetectWorksheetisPasswordProtected {
 		if (sheet.getProtection().isProtectedWithPassword()) {
 			System.out.println("Worksheet is password protected");
 		}
-		// ExEnd:DetectWorksheetisPasswordProtected
+
 	}
 }

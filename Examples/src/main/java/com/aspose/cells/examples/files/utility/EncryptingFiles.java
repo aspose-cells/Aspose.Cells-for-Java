@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 public class EncryptingFiles {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(EncryptingFiles.class) + "files/";
 
@@ -29,6 +29,6 @@ public class EncryptingFiles {
 
 		// Print message
 		System.out.println("Encryption applied successfully on output file.");
-		// ExEnd:1
+
 	}
 }

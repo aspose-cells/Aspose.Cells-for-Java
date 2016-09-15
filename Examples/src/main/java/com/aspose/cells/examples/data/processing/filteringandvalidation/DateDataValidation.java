@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class DateDataValidation {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:DateDataValidation
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DateDataValidation.class) + "data/";
 
@@ -79,6 +79,6 @@ public class DateDataValidation {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:DateDataValidation
+
 	}
 }

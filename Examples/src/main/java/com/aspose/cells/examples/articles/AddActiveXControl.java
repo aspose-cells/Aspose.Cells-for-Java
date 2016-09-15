@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddActiveXControl {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddActiveXControl
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddActiveXControl.class) + "articles/";
 		// Create workbook object
@@ -28,6 +28,6 @@ public class AddActiveXControl {
 
 		// Save the worbook in xlsx format
 		wb.save(dataDir + "AAXControl-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:AddActiveXControl
+
 	}
 }

@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DisplayBullets {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DisplayBullets
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DisplayBullets.class) + "articles/";
 		//Create workbook object
@@ -24,6 +24,6 @@ public class DisplayBullets {
 
 		//Save the workbook
 		workbook.save(dataDir + "DisplayBullets-out.xlsx");
-		// ExEnd:DisplayBullets
+
 	}
 }

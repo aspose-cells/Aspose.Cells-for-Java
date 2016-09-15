@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertingWorksheetToSVG {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertingWorksheetToSVG.class) + "files/";
 
@@ -36,6 +36,6 @@ public class ConvertingWorksheetToSVG {
 
 		// Print message
 		System.out.println("Excel to SVG conversion completed successfully.");
-		// ExEnd:1
+
 	}
 }

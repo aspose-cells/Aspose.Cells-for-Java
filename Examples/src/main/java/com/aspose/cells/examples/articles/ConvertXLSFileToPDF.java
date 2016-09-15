@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertXLSFileToPDF {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConvertXLSFileToPDF
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertXLSFileToPDF.class) + "articles/";
 		
@@ -15,6 +15,6 @@ public class ConvertXLSFileToPDF {
 
 		//Save the excel file to PDF format
 		book.save(dataDir + "CXLSFileToPDF-out.pdf", SaveFormat.PDF);
-		// ExEnd:ConvertXLSFileToPDF
+
 	}
 }

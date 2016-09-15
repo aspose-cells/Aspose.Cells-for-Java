@@ -13,7 +13,7 @@ import com.aspose.cells.examples.Utils;
 
 public class GenerateConditionalFormatting {
 	public static void main(String[] args) throws Exception {
-		// ExStart:GenerateConditionalFormatting
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GenerateConditionalFormatting.class) + "articles/";
 		// Create workbook object from source excel file
@@ -42,6 +42,6 @@ public class GenerateConditionalFormatting {
 		FileOutputStream out = new FileOutputStream(dataDir + "GCFormatting-out.png");
 		out.write(imgBytes);
 		out.close();
-		// ExEnd:GenerateConditionalFormatting
+
 	}
 }

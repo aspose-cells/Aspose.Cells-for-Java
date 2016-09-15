@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class EditingHyperlinksOfWorksheet {
 	public static void main(String[] args) throws Exception {
-		// ExStart:EditingHyperlinksOfWorksheet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(EditingHyperlinksOfWorksheet.class) + "articles/";
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
@@ -17,6 +17,6 @@ public class EditingHyperlinksOfWorksheet {
 			hl.setAddress("http://www.aspose.com");
 		}
 		workbook.save(dataDir + "EHOfWorksheet-out.xlsx");
-		// ExEnd:EditingHyperlinksOfWorksheet
+
 	}
 }

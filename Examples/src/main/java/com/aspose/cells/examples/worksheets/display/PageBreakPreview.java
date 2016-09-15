@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class PageBreakPreview {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(PageBreakPreview.class) + "worksheets/";
 
@@ -26,6 +26,6 @@ public class PageBreakPreview {
 
 		// Print message
 		System.out.println("Page break preview is enabled for sheet 1, please check the output document.");
-		// ExEnd:1
+
 	}
 }

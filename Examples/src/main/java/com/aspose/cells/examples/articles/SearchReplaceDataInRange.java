@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SearchReplaceDataInRange {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SearchReplaceDataInRange
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SearchReplaceDataInRange.class) + "articles/";
 
@@ -46,6 +46,6 @@ public class SearchReplaceDataInRange {
 
 		// Save the workbook
 		workbook.save(dataDir + "SRDataInRange-out.xlsx");
-		// ExEnd:SearchReplaceDataInRange
+
 	}
 }

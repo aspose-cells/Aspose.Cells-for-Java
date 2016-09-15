@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetFormulaCalculationMode {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SetFormulaCalculationMode
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SetFormulaCalculationMode.class) + "articles/";
 		// Create a workbook
@@ -18,6 +18,6 @@ public class SetFormulaCalculationMode {
 
 		// Save the workbook
 		workbook.save("SFCalculationMode-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:SetFormulaCalculationMode
+
 	}
 }

@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class UseExplicitLineBreaks {
 	public static void main(String[] args) throws Exception {
-		// ExStart:UseExplicitLineBreaks
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(UseExplicitLineBreaks.class) + "articles/";
 		// Create Workbook Object
@@ -40,6 +40,6 @@ public class UseExplicitLineBreaks {
 
 		// Save Excel File
 		wb.save(dataDir + "UseExplicitLineBreaks-out.xls");
-		// ExEnd:UseExplicitLineBreaks
+
 	}
 }

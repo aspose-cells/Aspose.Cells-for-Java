@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class HidingDisplayOfZeroValues {
 	public static void main(String[] args) throws Exception {
-		// ExStart:HidingDisplayOfZeroValues
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HidingDisplayOfZeroValues.class) + "articles/";
 
@@ -21,6 +21,6 @@ public class HidingDisplayOfZeroValues {
 
 		// Save the workbook
 		workbook.save(dataDir + "HDOfZeroValues-out.xls");
-		// ExEnd:HidingDisplayOfZeroValues
+
 	}
 }

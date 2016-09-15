@@ -16,7 +16,7 @@ import java.io.*;
 
 public class SetPictureAsBackgroundFillInChart {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SetPictureAsBackgroundFillInChart
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SetPictureAsBackgroundFillInChart.class) + "articles/";
 		// Create a new Workbook.
@@ -88,6 +88,6 @@ public class SetPictureAsBackgroundFillInChart {
 
 		// Save the excel file
 		workbook.save(dataDir + "SPAsBFillInChart-out.xls");
-		// ExEnd:SetPictureAsBackgroundFillInChart
+
 	}
 }

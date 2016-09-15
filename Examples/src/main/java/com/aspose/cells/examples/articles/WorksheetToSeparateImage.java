@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class WorksheetToSeparateImage {
 	public static void main(String[] args) throws Exception {
-		// ExStart:WorksheetToSeparateImage
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(WorksheetToSeparateImage.class) + "articles/";
 		// Instantiate a new Workbook object
@@ -39,6 +39,6 @@ public class WorksheetToSeparateImage {
 			SheetRender sr = new SheetRender(sheet, options);
 			sr.toImage(0, dataDir + "WSheetToSImage-out-" + sheet.getName() + ".jpg");
 		}
-		// ExEnd:WorksheetToSeparateImage
+
 	}
 }

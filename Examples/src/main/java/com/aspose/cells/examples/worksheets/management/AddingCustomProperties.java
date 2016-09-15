@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddingCustomProperties {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddingCustomProperties
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingCustomProperties.class) + "worksheets/";
 		// Create workbook object
@@ -20,7 +20,7 @@ public class AddingCustomProperties {
 
 		// Save the workbook
 		workbook.save(dataDir + "ACProperties-out.xlsx");
-		// ExEnd:AddingCustomProperties
+
 	}
 
 }

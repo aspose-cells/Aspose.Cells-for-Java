@@ -11,7 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CustomSliceOrSectorColorsPieChart {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CustomSliceOrSectorColorsPieChart
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CustomSliceOrSectorColorsPieChart.class) + "articles/";
 		// Create a workbook object from the template file
@@ -75,6 +75,6 @@ public class CustomSliceOrSectorColorsPieChart {
 
 		// Save the workbook
 		workbook.save(dataDir + "CSOrSColorsPieChart-out.xlsx", SaveFormat.XLSX);
-		// ExEnd:CustomSliceOrSectorColorsPieChart
+
 	}
 }

@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddImageHyperlinks {
 	public static void main(String[] args) throws Exception {
-		// ExStart:AddImageHyperlinks
+
 		String dataDir = Utils.getSharedDataDir(AddImageHyperlinks.class) + "articles/";
 
 		// Instantiate a new workbook
@@ -43,6 +43,6 @@ public class AddImageHyperlinks {
 
 		// Save the Excel file
 		workbook.save(dataDir + "AIHyperlinks-out.xls");
-		// ExEnd:AddImageHyperlinks
+
 	}
 }

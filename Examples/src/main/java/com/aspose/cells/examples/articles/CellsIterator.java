@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 
 public class CellsIterator {
 	public static void main(String[] args) throws Exception {
-		// ExStart:CellsIterator
+
 		String dataDir = Utils.getSharedDataDir(CellsIterator.class) + "articles/";
 		// Load a file in an instance of Workbook
 		Workbook book = new Workbook(dataDir + "sample.xlsx");
@@ -37,6 +37,6 @@ public class CellsIterator {
 			Cell cell = (Cell) rangeIterator.next();
 			System.out.println(cell.getName() + " " + cell.getValue());
 		}
-		// ExEnd:CellsIterator
+
 	}
 }

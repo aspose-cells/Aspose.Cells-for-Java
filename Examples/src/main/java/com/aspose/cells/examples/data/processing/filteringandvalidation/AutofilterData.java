@@ -7,7 +7,7 @@ import com.aspose.cells.examples.data.processing.CreatingSubtotals;
 public class AutofilterData {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:AutofilterData
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AutofilterData.class) + "data/";
 
@@ -27,6 +27,6 @@ public class AutofilterData {
 
 		// Print message
 		System.out.println("Process completed successfully");
-		// ExEnd:AutofilterData
+
 	}
 }

@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class RetrievingExternalDataSourcesDetails {
 	public static void main(String[] args) throws Exception {
-		// ExStart:RetrievingExternalDataSourcesDetails
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RetrievingExternalDataSourcesDetails.class) + "articles/";
 		// Open the template Excel file
@@ -58,6 +58,6 @@ public class RetrievingExternalDataSourcesDetails {
 				}
 			}
 		}
-		// ExEnd:RetrievingExternalDataSourcesDetails
+
 	}
 }

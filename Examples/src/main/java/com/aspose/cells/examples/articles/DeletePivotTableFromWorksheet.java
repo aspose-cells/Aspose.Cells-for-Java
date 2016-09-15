@@ -7,7 +7,7 @@ import com.aspose.cells.examples.Utils;
 
 public class DeletePivotTableFromWorksheet {
 	public static void main(String[] args) throws Exception {
-		// ExStart:DeletePivotTableFromWorksheet
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(DeletePivotTableFromWorksheet.class) + "articles/";
 
@@ -28,6 +28,6 @@ public class DeletePivotTableFromWorksheet {
 
 		// Save the workbook
 		workbook.save(dataDir + "DPTableFromWorksheet-out.xlsx");
-		// ExEnd:DeletePivotTableFromWorksheet
+
 	}
 }

@@ -8,7 +8,7 @@ import com.aspose.cells.examples.Utils;
 public class OpeningMicrosoftExcel972003Files {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(OpeningMicrosoftExcel972003Files.class) + "files/";
 		String filePath = dataDir + "Book1.html";
@@ -24,7 +24,7 @@ public class OpeningMicrosoftExcel972003Files {
 		// Print message
 		System.out.println("Excel 97 Workbook opened successfully.");
 
-		// ExEnd:1
+
 
 	}
 }

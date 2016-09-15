@@ -5,7 +5,7 @@ import com.aspose.cells.examples.Utils;
 
 public class PreventExportingHiddenWorksheetContent {
 	public static void main(String[] args) throws Exception {
-		// ExStart:PreventExportingHiddenWorksheetContent
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(PreventExportingHiddenWorksheetContent.class) + "articles/";
 		
@@ -18,6 +18,6 @@ public class PreventExportingHiddenWorksheetContent {
 
 		// Save the workbook
 		workbook.save(dataDir + "PEHWorksheetContent-out.html");
-		// ExEnd:PreventExportingHiddenWorksheetContent
+
 	}
 }

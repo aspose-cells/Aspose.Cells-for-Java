@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class HowToCreateCustomChart {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:1
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HowToCreateCustomChart.class) + "charts/";
 
@@ -60,7 +60,7 @@ public class HowToCreateCustomChart {
 
 		// Print message
 		System.out.println("Customized chart is successfully created.");
-		// ExEnd:1
+
 
 	}
 }

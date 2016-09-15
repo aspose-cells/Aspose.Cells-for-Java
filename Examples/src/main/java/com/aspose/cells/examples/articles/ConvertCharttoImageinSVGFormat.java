@@ -9,7 +9,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ConvertCharttoImageinSVGFormat {
 	public static void main(String[] args) throws Exception {
-		// ExStart:ConvertCharttoImageinSVGFormat
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertCharttoImageinSVGFormat.class) + "articles/";
 		// Create workbook object from source Excel file
@@ -25,6 +25,6 @@ public class ConvertCharttoImageinSVGFormat {
 		ImageOrPrintOptions options = new ImageOrPrintOptions();
 		options.setSaveFormat(SaveFormat.SVG);
 		chart.toImage(dataDir + "CCToImageinSVGFormat-out.svg", options);
-		// ExEnd:ConvertCharttoImageinSVGFormat
+
 	}
 }

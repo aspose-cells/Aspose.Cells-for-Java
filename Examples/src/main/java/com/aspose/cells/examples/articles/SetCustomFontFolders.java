@@ -12,7 +12,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SetCustomFontFolders {
 	public static void main(String[] args) throws Exception {
-		// ExStart:SetCustomFontFolders
+
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SetCustomFontFolders.class) + "articles/";
 		// Defining string variables to store paths to font folders & font file
@@ -40,6 +40,6 @@ public class SetCustomFontFolders {
 
 		// Setting font sources
 		FontConfigs.setFontSources(new FontSourceBase[] { sourceFolder, sourceFile, sourceMemory });
-		// ExEnd:SetCustomFontFolders
+
 	}
 }
