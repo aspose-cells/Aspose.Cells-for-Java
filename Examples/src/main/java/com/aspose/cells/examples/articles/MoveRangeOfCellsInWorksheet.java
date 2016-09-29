@@ -22,7 +22,7 @@ public class MoveRangeOfCellsInWorksheet {
 		cells.moveRange(ca, 0, 2);
 
 		// Save the resultant file
-		workbook.save(dataDir + "MROfCellsInWorksheet-out.xls");
+		workbook.save(dataDir + "MROfCellsInWorksheet_out.xls");
 
 	}
 }

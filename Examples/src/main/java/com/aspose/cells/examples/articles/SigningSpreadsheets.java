@@ -41,7 +41,7 @@ public class SigningSpreadsheets {
 		workbook.setDigitalSignature(signatures);
 
 		// Save the signed spreadsheet
-		workbook.save(dataDir + "SSpreadsheets-out.xlsx");
+		workbook.save(dataDir + "SSpreadsheets_out.xlsx");
 
 	}
 }

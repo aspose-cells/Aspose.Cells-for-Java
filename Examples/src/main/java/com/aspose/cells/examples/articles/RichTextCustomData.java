@@ -35,7 +35,7 @@ public class RichTextCustomData {
 		fntSetting.getFont().setBold(true);
 
 		// Save the workbook
-		workbook.save("RTCustomData-out.xlsx");
+		workbook.save("RTCustomData_out.xlsx");
 
 	}
 }

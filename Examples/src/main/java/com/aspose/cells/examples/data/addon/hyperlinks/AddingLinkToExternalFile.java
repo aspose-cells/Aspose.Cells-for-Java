@@ -1,6 +1,14 @@
 package com.aspose.cells.examples.data.addon.hyperlinks;
 
-import com.aspose.cells.*;
+import com.aspose.cells.Cell;
+import com.aspose.cells.Cells;
+import com.aspose.cells.Color;
+import com.aspose.cells.FontUnderlineType;
+import com.aspose.cells.HyperlinkCollection;
+import com.aspose.cells.Style;
+import com.aspose.cells.Workbook;
+import com.aspose.cells.Worksheet;
+import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.examples.Utils;
 
 public class AddingLinkToExternalFile {
@@ -36,7 +44,7 @@ public class AddingLinkToExternalFile {
 		hyperlinks.add("A5", 1, 1, dataDir + "book1.xls");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "ALToEFile-out.xls");
+		workbook.save(dataDir + "ALToEFile_out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

@@ -31,7 +31,7 @@ public class InsertingRowsandColumns {
 		worksheet.getCells().insertColumns(5, 3);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "IRowsandColumns-out.xls");
+		workbook.save(dataDir + "IRowsandColumns_out.xls");
 
 		// Print message
 		System.out.println("Rows and Columns inserted successfully.");

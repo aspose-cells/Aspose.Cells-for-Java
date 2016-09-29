@@ -19,7 +19,7 @@ public class Loadsourceexcelfile {
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx", options);
 
 		// Save the workbook in output format
-		workbook.save(dataDir + "LSourceexcelfile-out.pdf", SaveFormat.PDF);
+		workbook.save(dataDir + "LSourceexcelfile_out.pdf", SaveFormat.PDF);
 
 	}
 

@@ -29,7 +29,7 @@ public class ExportWorksheettoImage {
 
 		// Render sheet into image
 		SheetRender sr = new SheetRender(worksheet, opts);
-		sr.toImage(0, dataDir + "EWSheetToImage-out.png");
+		sr.toImage(0, dataDir + "EWSheetToImage_out.png");
 
 
 	}

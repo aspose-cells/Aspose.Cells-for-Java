@@ -47,7 +47,7 @@ public class ChangingLayoutofPivotTable {
 		pivotTable.calculateData();
 
 		// Save the output
-		workbook.save(dataDir + "CLOfPivotTable-out.xlsx");
+		workbook.save(dataDir + "CLOfPivotTable_out.xlsx");
 
 	}
 }

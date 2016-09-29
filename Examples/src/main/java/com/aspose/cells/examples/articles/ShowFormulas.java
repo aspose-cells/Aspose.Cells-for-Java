@@ -19,7 +19,7 @@ public class ShowFormulas {
 		worksheet.setShowFormulas(true);
 
 		// Save the workbook
-		workbook.save(dataDir + "ShowFormulas-out.xlsx");
+		workbook.save(dataDir + "ShowFormulas_out.xlsx");
 
 	}
 }

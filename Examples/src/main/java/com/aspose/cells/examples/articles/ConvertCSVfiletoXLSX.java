@@ -18,7 +18,7 @@ public class ConvertCSVfiletoXLSX {
 		Workbook workbook = new Workbook(dataDir + "MutliEncoded.csv", options);
 
 		// Save it in XLSX format
-		workbook.save(dataDir + "CCSVfiletoXLSX-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "CCSVfiletoXLSX_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

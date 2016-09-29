@@ -44,7 +44,7 @@ public class LoadWorkbook {
 		workbook = new Workbook(bain, opts);
 
 		// Save the workbook in pdf format
-		workbook.save(dataDir + "LWorkbook-out.pdf");
+		workbook.save(dataDir + "LWorkbook_out.pdf");
 
 	}
 

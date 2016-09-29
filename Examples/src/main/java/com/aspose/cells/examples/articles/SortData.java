@@ -45,7 +45,7 @@ public class SortData {
 		sorter.sort(cells, ca);
 
 		// Saving the excel file
-		workbook.save(dataDir + "SortData-out.xls");
+		workbook.save(dataDir + "SortData_out.xls");
 
 
 	}

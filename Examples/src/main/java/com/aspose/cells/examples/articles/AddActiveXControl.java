@@ -27,7 +27,7 @@ public class AddActiveXControl {
 		c.setLinkedCell("A1");
 
 		// Save the worbook in xlsx format
-		wb.save(dataDir + "AAXControl-out.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "AAXControl_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

@@ -28,7 +28,7 @@ public class RefreshCalculatePivotTablehavingCalculatedItems {
 		}
 
 		// Save the workbook in output pdf
-		wb.save(dataDir + "RCPTHavingCItems-out.pdf", SaveFormat.PDF);
+		wb.save(dataDir + "RCPTHavingCItems_out.pdf", SaveFormat.PDF);
 
 	}
 

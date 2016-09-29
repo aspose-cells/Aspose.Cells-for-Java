@@ -27,7 +27,7 @@ public class ActivatingSheetsandActivatingCell {
 		// Set the 2nd row as the first visible row in the worksheet
 		worksheet.setFirstVisibleRow(1);
 		// Save the excel file
-		workbook.save(dataDir + "ASAActivatingCell-out.xls");
+		workbook.save(dataDir + "ASAActivatingCell_out.xls");
 
 	}
 }

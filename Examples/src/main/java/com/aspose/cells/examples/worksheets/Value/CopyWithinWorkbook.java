@@ -18,6 +18,6 @@ public class CopyWithinWorkbook {
 		sheets.addCopy("Sheet1");
 
 		// Save the excel file.
-		wb.save(dataDir + "mybook.xls");
+		wb.save(dataDir + "CopyWithinWorkbook_out.xls");
 	}
 }

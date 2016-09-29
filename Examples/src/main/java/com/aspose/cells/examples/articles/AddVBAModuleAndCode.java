@@ -27,7 +27,7 @@ public class AddVBAModuleAndCode {
 		module.setCodes("Sub ShowMessage()" + "\r\n" + "    MsgBox \"Welcome to Aspose!\"" + "\r\n" + "End Sub");
 
 		// Save the workbook
-		workbook.save(dataDir + "AVBAMAndCode-out.xlsm", SaveFormat.XLSM);
+		workbook.save(dataDir + "AVBAMAndCode_out.xlsm", SaveFormat.XLSM);
 
 
 	}

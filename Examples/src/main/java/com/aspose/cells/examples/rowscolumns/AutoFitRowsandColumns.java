@@ -23,7 +23,7 @@ public class AutoFitRowsandColumns {
 		worksheet.autoFitColumn(0);
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "AutoFitRowsandColumns-out.xls");
+		workbook.save(dataDir + "AutoFitRowsandColumns_out.xls");
 
 		// Print message
 		System.out.println("Row and Column auto fit successfully.");

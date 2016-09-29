@@ -30,7 +30,7 @@ public class CopyPicturefromOneWorksheetToAnother {
 				pic.getHeightScale(), bis);
 
 		// Save the workbook
-		workbook.save(dataDir + "CPfOneWToAnother-out.xls");
+		workbook.save(dataDir + "CPfOneWToAnother_out.xls");
 
 	}
 }

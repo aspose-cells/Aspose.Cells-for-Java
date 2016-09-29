@@ -22,7 +22,7 @@ public class AddingLinkToURL {
 		hyperlinks.add("A1", 1, 1, "http://www.aspose.com");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "ALToURL-out.xls");
+		workbook.save(dataDir + "AddingLinkToURL_out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

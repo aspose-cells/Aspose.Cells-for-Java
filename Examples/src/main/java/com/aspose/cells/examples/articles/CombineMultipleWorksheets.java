@@ -32,7 +32,7 @@ public class CombineMultipleWorksheets {
 			TotalRowCount = sourceRange.getRowCount() + TotalRowCount;
 		}
 
-		destWorkbook.save(dataDir + "CMWorksheets-out.xlsx");
+		destWorkbook.save(dataDir + "CMWorksheets_out.xlsx");
 
 	}
 }

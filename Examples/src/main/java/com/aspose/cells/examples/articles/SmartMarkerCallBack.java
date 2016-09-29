@@ -3,7 +3,7 @@ package com.aspose.cells.examples.articles;
 import com.aspose.cells.CellsHelper;
 import com.aspose.cells.ISmartMarkerCallBack;
 import com.aspose.cells.Workbook;
-//ExStart:SmartMarkerCallBack
+
 public class SmartMarkerCallBack implements ISmartMarkerCallBack {
 	Workbook workbook;
 
@@ -18,4 +18,3 @@ public class SmartMarkerCallBack implements ISmartMarkerCallBack {
 		System.out.println("Processing Marker : " + tableName + "." + columnName);
 	}
 }
-//ExEnd:SmartMarkerCallBack

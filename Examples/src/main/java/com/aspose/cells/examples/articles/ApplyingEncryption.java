@@ -19,7 +19,7 @@ public class ApplyingEncryption {
 		workbook.setEncryptionOptions(EncryptionType.STRONG_CRYPTOGRAPHIC_PROVIDER, 128);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "AEncryption-out.xls");
+		workbook.save(dataDir + "AEncryption_out.xls");
 
 	}
 }

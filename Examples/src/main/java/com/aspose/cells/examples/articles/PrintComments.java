@@ -26,7 +26,7 @@ public class PrintComments {
 		worksheet.getPageSetup().setPrintComments(PrintCommentsType.PRINT_SHEET_END);
 
 		// Save workbook in pdf format
-		workbook.save(dataDir + "PrintComments-out.pdf");
+		workbook.save(dataDir + "PrintComments_out.pdf");
 
 	}
 }

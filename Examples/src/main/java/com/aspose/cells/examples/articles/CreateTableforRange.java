@@ -49,7 +49,7 @@ public class CreateTableforRange {
 		}
 
 		// Saving the Excel file
-		workbook.save(dataDir + "CTableforRange-out.xls");
+		workbook.save(dataDir + "CTableforRange_out.xls");
 
 	}
 }

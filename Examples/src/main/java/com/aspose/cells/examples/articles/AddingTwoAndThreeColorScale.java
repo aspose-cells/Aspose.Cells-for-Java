@@ -56,7 +56,7 @@ public class AddingTwoAndThreeColorScale {
 		fc.getColorScale().setMinColor(Color.getLightGreen());
 
 		// Save the workbook
-		workbook.save(dataDir + "ATAThreeColorScale-out.xlsx");
+		workbook.save(dataDir + "ATAThreeColorScale_out.xlsx");
 
 	}
 }

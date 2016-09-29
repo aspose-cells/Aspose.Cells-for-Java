@@ -41,7 +41,7 @@ public class RemoveWhitespaceAroundData {
 		// ImageOrPrintOptions attributes
 		SheetRender render = new SheetRender(sheet, imgOptions);
 		// Convert the image
-		render.toImage(0, dataDir + "RWhitespaceAroundData-out.emf");
+		render.toImage(0, dataDir + "RWhitespaceAroundData_out.emf");
 
 	}
 }

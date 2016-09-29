@@ -20,7 +20,7 @@ public class CopyingSingleColumn {
 			cells.copyColumn(cells, 0, i);
 		}
 		// Save the result on disc
-		workbook.save(dataDir + "CSingleColumn-out.xlsx");
+		workbook.save(dataDir + "CSingleColumn_out.xlsx");
 
 	}
 }

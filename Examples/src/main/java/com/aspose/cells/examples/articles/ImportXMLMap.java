@@ -17,7 +17,7 @@ public class ImportXMLMap {
 		workbook.importXml(XML, "Sheet1", 0, 0);
 
 		// Save workbook
-		workbook.save(dataDir + "ImportXMLMap-out.xlsx");
+		workbook.save(dataDir + "ImportXMLMap_out.xlsx");
 
 	}
 }

@@ -42,7 +42,7 @@ public class AddImageHyperlinks {
 		hlink.setScreenTip("Click to go to Aspose site");
 
 		// Save the Excel file
-		workbook.save(dataDir + "AIHyperlinks-out.xls");
+		workbook.save(dataDir + "AIHyperlinks_out.xls");
 
 	}
 }

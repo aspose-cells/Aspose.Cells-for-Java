@@ -23,7 +23,7 @@ public class DeletingBlankRows {
 		sheet.getCells().deleteBlankRows();
 
 		// Save the excel file.
-		wb.save(dataDir + "DBlankRows-out.xlsx");
+		wb.save(dataDir + "DBlankRows_out.xlsx");
 
 
 	}

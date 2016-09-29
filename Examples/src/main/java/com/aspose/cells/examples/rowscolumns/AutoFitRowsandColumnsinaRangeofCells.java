@@ -27,7 +27,7 @@ public class AutoFitRowsandColumnsinaRangeofCells {
 		worksheet.autoFitColumn(0, 0, 8);
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "AFRACInARangeofCells-out.xls");
+		workbook.save(dataDir + "AFRACInARangeofCells_out.xls");
 
 		// Print message
 		System.out.println("Row and Column auto fit successfully.");

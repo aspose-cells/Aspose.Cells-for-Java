@@ -6,7 +6,6 @@ import com.aspose.cells.LightCellsDataHandler;
 import com.aspose.cells.Row;
 import com.aspose.cells.Worksheet;
 
-//ExStart:LightCellsDataHandlerVisitCells
 public class LightCellsDataHandlerVisitCells implements LightCellsDataHandler {
 	public int cellCount;
 	public int formulaCount;
@@ -57,4 +56,3 @@ public class LightCellsDataHandlerVisitCells implements LightCellsDataHandler {
 		return false;
 	}
 }
-//ExEnd:LightCellsDataHandlerVisitCells

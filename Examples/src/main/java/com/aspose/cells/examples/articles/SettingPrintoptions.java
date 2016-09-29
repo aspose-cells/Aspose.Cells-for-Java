@@ -52,7 +52,7 @@ public class SettingPrintoptions {
 		pageSetup.setOrder(PrintOrderType.OVER_THEN_DOWN);
 
 		// Save the workbook
-		workbook.save(dataDir + "SettingPrintoptions-out.xls");
+		workbook.save(dataDir + "SettingPrintoptions_out.xls");
 
 	}
 }

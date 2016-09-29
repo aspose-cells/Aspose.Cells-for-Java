@@ -76,7 +76,7 @@ public class CopyRangeDataOnly {
 		range2.copyData(range);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "CopyRangeDataOnly-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "CopyRangeDataOnly_out.xlsx", SaveFormat.XLSX);
 
 
 	}

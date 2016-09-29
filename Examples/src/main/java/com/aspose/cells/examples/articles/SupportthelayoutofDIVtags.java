@@ -35,7 +35,7 @@ public class SupportthelayoutofDIVtags {
 		ws.autoFitColumns();
 
 		// Save the workbook in xlsx format
-		wb.save(dataDir + "SThelayoutofDIVtags-out.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "SThelayoutofDIVtags_out.xlsx", SaveFormat.XLSX);
 
 	}
 

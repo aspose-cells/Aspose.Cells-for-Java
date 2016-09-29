@@ -28,7 +28,7 @@ public class AssignMacroToFormControl {
 
         button.setMacroName(sheet.getName() + ".ShowMessage");
 
-        workbook.save(dataDir + "AMToFControl-out.xlsm");
+        workbook.save(dataDir + "AMToFControl_out.xlsm");
 
         System.out.println("File saved");
 

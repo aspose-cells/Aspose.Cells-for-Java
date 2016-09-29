@@ -33,6 +33,6 @@ public class FormattingSelectedCharacters {
 		font.setColor(Color.getBlue());
 
 		// Saving the Excel file
-		workbook.save(dataDir + "FSCharacters-out.xls");
+		workbook.save(dataDir + "FSCharacters_out.xls");
 	}
 }

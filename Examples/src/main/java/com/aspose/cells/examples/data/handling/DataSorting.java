@@ -37,7 +37,7 @@ public class DataSorting {
 		sorter.sort(workbook.getWorksheets().get(0).getCells(), cellArea);
 
 		// Save the excel file.
-		workbook.save(dataDir + "DSorting-out.xls");
+		workbook.save(dataDir + "DataSorting_out.xls");
 
 		// Print message
 		System.out.println("Sorting Done Successfully");

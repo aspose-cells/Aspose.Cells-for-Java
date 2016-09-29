@@ -15,7 +15,7 @@ public class Implement1904DateSystem {
 		workbook.getSettings().setDate1904(true);
 
 		// Save the excel file
-		workbook.save(dataDir + "I1904DateSystem-out.xls");
+		workbook.save(dataDir + "I1904DateSystem_out.xls");
 
 	}
 }

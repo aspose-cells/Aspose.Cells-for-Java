@@ -39,7 +39,7 @@ public class UseExplicitLineBreaks {
 		cell.get(0, 0).setStyle(style);
 
 		// Save Excel File
-		wb.save(dataDir + "UseExplicitLineBreaks-out.xls");
+		wb.save(dataDir + "UseExplicitLineBreaks_out.xls");
 
 	}
 }

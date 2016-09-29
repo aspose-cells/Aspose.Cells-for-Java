@@ -32,8 +32,8 @@ public class OpeningExistingFile {
 		cell.setValue("Hello World!");
 
 		// Write the Excel file
-		workbook.save(dataDir + "OExistingFile-out.xls", FileFormatType.EXCEL_97_TO_2003);
-		workbook.save(dataDir + "OExistingFile-out.xlsx");
-		workbook.save(dataDir + "OExistingFile-out.ods");
+		workbook.save(dataDir + "OpeningExistingFile_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "OpeningExistingFile_out.xlsx");
+		workbook.save(dataDir + "OpeningExistingFile_out.ods");
 	}
 }

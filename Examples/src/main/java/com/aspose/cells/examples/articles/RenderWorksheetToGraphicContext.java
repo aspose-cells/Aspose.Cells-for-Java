@@ -41,7 +41,7 @@ public class RenderWorksheetToGraphicContext {
 		sr.toImage(0, g);
 
 		// Save the graphics context image in Png format
-		File outputfile = new File(dataDir + "RWToGraphicContext-out.png");
+		File outputfile = new File(dataDir + "RWToGraphicContext_out.png");
 		ImageIO.write(image, "png", outputfile);
 
 	}

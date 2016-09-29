@@ -77,7 +77,7 @@ public class CopyRangeDataWithStyle {
 		range2.copy(range);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "CRDataWithStyle-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "CRDataWithStyle_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

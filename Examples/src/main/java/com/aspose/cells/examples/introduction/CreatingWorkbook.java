@@ -22,8 +22,7 @@ public class CreatingWorkbook {
 		// Applying the Aspose.Cells license
 		license.setLicense(fstream);
 
-		// Instantiating a Workbook object that represents a Microsoft Excel
-		// file.
+		// Instantiating a Workbook object that represents a Microsoft Excel file.
 		Workbook wb = new Workbook();
 
 		// Note when you create a new workbook, a default worksheet, "Sheet1", is by default added to the workbook. Accessing the
@@ -37,9 +36,9 @@ public class CreatingWorkbook {
 		cell.setValue("Hello World!");
 
 		// Save the Microsoft Excel file.
-		wb.save(dataDir + "CWorkbook-out.xls", FileFormatType.EXCEL_97_TO_2003);
-		wb.save(dataDir + "CWorkbook-out.xlsx");
-		wb.save(dataDir + "CWorkbook-out.ods");
+		wb.save(dataDir + "CreatingWorkbook_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "CreatingWorkbook_out.xlsx");
+		wb.save(dataDir + "CreatingWorkbook_out.ods");
 
 	}
 }

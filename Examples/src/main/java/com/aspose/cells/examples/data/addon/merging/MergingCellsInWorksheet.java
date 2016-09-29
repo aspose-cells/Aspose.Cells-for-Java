@@ -8,7 +8,6 @@ import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.data.addon.hyperlinks.AddingLinkToURLNotEmpty;
 
 public class MergingCellsInWorksheet {
 
@@ -61,9 +60,9 @@ public class MergingCellsInWorksheet {
 		cells.get(5, 2).setStyle(style);
 
 		// Save the Workbook.
-		wbk.save(dataDir + "mergingcells-out.xls");
-		wbk.save(dataDir + "mergingcells-out.xlsx");
-		wbk.save(dataDir + "mergingcells-out.ods");
+		wbk.save(dataDir + "mergingcells_out.xls");
+		wbk.save(dataDir + "mergingcells_out.xlsx");
+		wbk.save(dataDir + "mergingcells_out.ods");
 
 		// Print message
 		System.out.println("Process completed successfully");

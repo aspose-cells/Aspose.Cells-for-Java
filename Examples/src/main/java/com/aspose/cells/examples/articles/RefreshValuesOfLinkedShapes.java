@@ -25,7 +25,7 @@ public class RefreshValuesOfLinkedShapes {
 		worksheet.getShapes().updateSelectedValue();
 
 		// Save the workbook in pdf format
-		workbook.save(dataDir + "RVOfLinkedShapes-out.pdf", SaveFormat.PDF);
+		workbook.save(dataDir + "RVOfLinkedShapes_out.pdf", SaveFormat.PDF);
 
 	}
 }

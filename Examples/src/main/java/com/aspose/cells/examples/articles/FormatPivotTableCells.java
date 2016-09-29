@@ -41,7 +41,7 @@ public class FormatPivotTableCells {
 		}
 
 		// Save the workbook object
-		workbook.save(dataDir + "FPTCells-out.xlsx");
+		workbook.save(dataDir + "FPTCells_out.xlsx");
 
 	}
 }

@@ -38,7 +38,7 @@ public class AddWordArtWatermarkToChart {
 		lineFormat.setWeight(0.0);
 
 		// Save the excel file.
-		workbook.save(dataDir + "AWArtWToC-out.xlsx");
+		workbook.save(dataDir + "AWArtWToC_out.xlsx");
 
 	}
 }

@@ -25,7 +25,7 @@ public class CopyingColumns {
 		wsTemplate.getCells().copyColumn(wsTemplate.getCells(), 1, 4);
 
 		// Save the excel file.
-		excelWorkbook.save(dataDir + "CopyingColumns-out.xls");
+		excelWorkbook.save(dataDir + "CopyingColumns_out.xls");
 
 		// Print message
 		System.out.println("Column copied successfully.");

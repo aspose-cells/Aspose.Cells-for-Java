@@ -34,6 +34,6 @@ public class AddingBorderstoRange {
 		range.setOutlineBorders(CellBorderType.THICK, Color.getBlue());
 
 		// Saving the Excel file
-		workbook.save(dataDir + "ABToRange-out.xls");
+		workbook.save(dataDir + "ABToRange_out.xls");
 	}
 }

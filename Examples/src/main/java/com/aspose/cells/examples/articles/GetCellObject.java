@@ -35,7 +35,7 @@ public class GetCellObject {
 		pivotTable.format(cell.getRow(), cell.getColumn(), style);
 
 		// Save workbook
-		workbook.save(dataDir + "GetCellObject-out.xlsx");
+		workbook.save(dataDir + "GetCellObject_out.xlsx");
 
 	}
 }

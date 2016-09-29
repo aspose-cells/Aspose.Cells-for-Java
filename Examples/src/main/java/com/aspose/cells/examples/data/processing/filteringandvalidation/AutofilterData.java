@@ -2,7 +2,6 @@ package com.aspose.cells.examples.data.processing.filteringandvalidation;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.data.processing.CreatingSubtotals;
 
 public class AutofilterData {
 

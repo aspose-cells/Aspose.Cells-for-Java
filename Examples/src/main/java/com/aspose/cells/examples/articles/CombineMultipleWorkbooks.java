@@ -19,7 +19,7 @@ public class CombineMultipleWorkbooks {
 		SourceBook1.combine(SourceBook2);
 
 		// Save the target book file.
-		SourceBook1.save(dataDir + "CMWorkbooks-out.xlsx");
+		SourceBook1.save(dataDir + "CMWorkbooks_out.xlsx");
 
 	}
 }

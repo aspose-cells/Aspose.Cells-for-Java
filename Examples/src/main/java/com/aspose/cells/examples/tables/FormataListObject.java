@@ -224,6 +224,6 @@ public class FormataListObject {
 		listObject.getListColumns().get(1).setTotalsCalculation(TotalsCalculation.COUNT);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "tables-out.xlsx");
+		workbook.save(dataDir + "FormataListObject_out.xlsx");
 	}
 }

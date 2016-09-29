@@ -64,7 +64,7 @@ public class AdvancedProtectionSettingsUsingAsposeCells {
 		protection.setAllowUsingPivotTable(true);
 
 		// Saving the modified Excel file Excel XP format
-		excel.save(dataDir + "APSettingsUsingAsposeCells-out.xls", FileFormatType.EXCEL_97_TO_2003);
+		excel.save(dataDir + "APSettingsUsingAsposeCells_out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Worksheet protected successfully.");

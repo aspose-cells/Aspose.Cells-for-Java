@@ -110,10 +110,10 @@ public class CreatePieChartWithLeaderLines {
 		anOption.setVerticalResolution(200);
 
 		//Render chart to image
-		chart.toImage(dataDir + "CPieChartWLLines-out.png", anOption);
+		chart.toImage(dataDir + "CPieChartWLLines_out.png", anOption);
 
 		//Save the workbook to see chart inside the Excel
-		workbook.save(dataDir + "CPieChartWLLines-out.xlsx");
+		workbook.save(dataDir + "CPieChartWLLines_out.xlsx");
 		
 
 	}

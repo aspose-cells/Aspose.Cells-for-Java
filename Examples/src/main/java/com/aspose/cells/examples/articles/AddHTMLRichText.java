@@ -17,7 +17,7 @@ public class AddHTMLRichText {
 		Cell cell = worksheet.getCells().get("A1");
 		cell.setHtmlString(
 				"<Font Style=\"FONT-WEIGHT: bold;FONT-STYLE: italic;TEXT-DECORATION: underline;FONT-FAMILY: Arial;FONT-SIZE: 11pt;COLOR: #ff0000;\">This is simple HTML formatted text.</Font>");
-		workbook.save(dataDir + "AHTMLRText-out.xlsx");
+		workbook.save(dataDir + "AHTMLRText_out.xlsx");
 
 	}
 }

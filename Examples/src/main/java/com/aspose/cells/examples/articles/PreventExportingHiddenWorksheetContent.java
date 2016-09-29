@@ -17,7 +17,7 @@ public class PreventExportingHiddenWorksheetContent {
 		options.setExportHiddenWorksheet(false);
 
 		// Save the workbook
-		workbook.save(dataDir + "PEHWorksheetContent-out.html");
+		workbook.save(dataDir + "PEHWorksheetContent_out.html");
 
 	}
 }

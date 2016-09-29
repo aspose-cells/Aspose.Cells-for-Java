@@ -39,7 +39,7 @@ public class CalculateWidthAndHeightOfCell {
 		worksheet.getCells().setRowHeightPixel(1, heightOfValue);
 
 		// Save the output excel file
-		workbook.save(dataDir + "CWAHOfCell-out.xlsx");
+		workbook.save(dataDir + "CWAHOfCell_out.xlsx");
 
 	}
 }

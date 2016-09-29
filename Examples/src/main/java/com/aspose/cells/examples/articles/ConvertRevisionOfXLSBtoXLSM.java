@@ -10,7 +10,7 @@ public class ConvertRevisionOfXLSBtoXLSM {
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertRevisionOfXLSBtoXLSM.class) + "articles/";
 		Workbook workbook = new Workbook(dataDir + "book1.xlsb");
-		workbook.save(dataDir + "CROfXLSBtoXLSM-out.xlsm", SaveFormat.XLSM);
+		workbook.save(dataDir + "CROfXLSBtoXLSM_out.xlsm", SaveFormat.XLSM);
 
 	}
 }

@@ -17,6 +17,6 @@ public class DeleteARow {
 		worksheet.getCells().deleteRows(2, 1, true);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "DeleteARow-out.xls");
+		workbook.save(dataDir + "DeleteARow_out.xls");
 	}
 }

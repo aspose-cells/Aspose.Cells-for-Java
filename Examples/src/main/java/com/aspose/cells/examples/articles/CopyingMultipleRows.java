@@ -19,7 +19,7 @@ public class CopyingMultipleRows {
 		cells.copyRows(cells, 0, 6, 3);
 
 		// Save the result on disc
-		workbook.save(dataDir + "CMultipleRows-out.xlsx");
+		workbook.save(dataDir + "CMultipleRows_out.xlsx");
 
 	}
 }

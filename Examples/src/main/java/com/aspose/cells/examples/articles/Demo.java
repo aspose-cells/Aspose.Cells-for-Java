@@ -69,6 +69,6 @@ public class Demo {
 		opt.setLightCellsDataProvider(dataProvider);
 
 		// Save the big file
-		wb.save(OUTPUT_FILE_PATH + "/Demo-out.xlsx", opt);
+		wb.save(OUTPUT_FILE_PATH + "/Demo_out.xlsx", opt);
 	}
 }

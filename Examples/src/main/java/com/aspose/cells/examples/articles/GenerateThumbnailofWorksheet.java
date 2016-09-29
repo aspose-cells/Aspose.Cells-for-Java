@@ -39,11 +39,11 @@ public class GenerateThumbnailofWorksheet {
 		sr.toImage(0, "mythumb.jpg");
 
 		// Creating Thumbnail
-		java.awt.Image img = ImageIO.read(new File(dataDir + "mythumb.jpg")).getScaledInstance(100, 100, BufferedImage.SCALE_SMOOTH);
+		java.awt.Image img = ImageIO.read(new File(dataDir + "school.jpg")).getScaledInstance(100, 100, BufferedImage.SCALE_SMOOTH);
 		BufferedImage img1 = new BufferedImage(100, 100, BufferedImage.TYPE_INT_RGB);
 		img1.createGraphics().drawImage(
-				ImageIO.read(new File(dataDir + "mythumb.jpg")).getScaledInstance(100, 100, Image.SCALE_SMOOTH), 0, 0, null);
-		ImageIO.write(img1, "jpg", new File(dataDir + "GTOfWorksheet-out.jpg"));
+				ImageIO.read(new File(dataDir + "school.jpg")).getScaledInstance(100, 100, img.SCALE_SMOOTH), 0, 0, null);
+		ImageIO.write(img1, "jpg", new File(dataDir + "GTOfWorksheet_out.jpg"));
 
 	}
 }

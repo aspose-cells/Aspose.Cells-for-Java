@@ -22,7 +22,7 @@ public class InsertDeleteRows {
 		sheet.getCells().deleteRows(7, 5, true);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "InsertDeleteRows-out.xls");
+		workbook.save(dataDir + "InsertDeleteRows_out.xls");
 
 	}
 }

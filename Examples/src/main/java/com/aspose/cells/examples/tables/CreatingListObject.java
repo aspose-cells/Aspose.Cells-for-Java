@@ -11,7 +11,7 @@ public class CreatingListObject {
 		String dataDir = Utils.getSharedDataDir(CreatingListObject.class) + "tables/";
 		// Create a Workbook object.
 		// Open a template excel file.
-		Workbook workbook = new Workbook(dataDir + "book1.xls");
+		Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 
 		// Get the List objects collection in the first worksheet.
 		ListObjectCollection listObjects = workbook.getWorksheets().get(0).getListObjects();
@@ -26,6 +26,6 @@ public class CreatingListObject {
 		listObjects.get(0).getListColumns().get(4).setTotalsCalculation(TotalsCalculation.SUM);
 
 		// Save the excel file.
-		workbook.save(dataDir + "CreatingListObject-out.xls");
+		workbook.save(dataDir + "CreatingListObject_out.xls");
 	}
 }

@@ -43,7 +43,7 @@ public class ConvertWorksheettoImage {
 		SheetRender sr = new SheetRender(sheet, options);
 
 		//Render/save the image for the sheet
-		sr.toImage(0, dataDir + "CWorksheettoImage-out.tiff");
+		sr.toImage(0, dataDir + "CWorksheettoImage_out.tiff");
 
 	}
 }

@@ -2,7 +2,6 @@ package com.aspose.cells.examples.worksheets.management;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.worksheets.display.RemovePanes;
 
 import java.io.FileInputStream;
 

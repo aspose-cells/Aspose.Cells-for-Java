@@ -34,7 +34,7 @@ public class ExportRangeofCells {
 
 		// Take the image of your worksheet
 		SheetRender sr = new SheetRender(worksheet, options);
-		sr.toImage(0, dataDir + "ERangeofCells-out.jpg");
+		sr.toImage(0, dataDir + "ERangeofCells_out.jpg");
 
 	}
 }

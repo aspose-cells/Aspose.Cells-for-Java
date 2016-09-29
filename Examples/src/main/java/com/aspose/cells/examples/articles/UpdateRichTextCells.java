@@ -12,7 +12,7 @@ public class UpdateRichTextCells {
 
 		String dataDir = Utils.getSharedDataDir(UpdateRichTextCells.class) + "articles/";
 		String inputPath = dataDir + "Sample.xlsx";
-		String outputPath = dataDir + "UpdateRichTextCells-out.xlsx";
+		String outputPath = dataDir + "UpdateRichTextCells_out.xlsx";
 
 		Workbook workbook = new Workbook(inputPath);
 

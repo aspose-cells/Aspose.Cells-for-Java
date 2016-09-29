@@ -23,7 +23,7 @@ public class MergeUnmergeRangeofCells {
 		range.merge();
 
 		// Save the workbook
-		workbook.save(dataDir + "MURangeofCells-out.xlsx");
+		workbook.save(dataDir + "MURangeofCells_out.xlsx");
 
 	}
 }

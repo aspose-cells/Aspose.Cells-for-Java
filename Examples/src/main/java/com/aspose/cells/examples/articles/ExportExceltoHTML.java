@@ -26,7 +26,7 @@ public class ExportExceltoHTML {
 		// Save your workbook in HTML format and export gridlines
 		HtmlSaveOptions opts = new HtmlSaveOptions();
 		opts.setExportGridLines(true);
-		wb.save(dataDir + "EExceltoHTML-out.html", opts);
+		wb.save(dataDir + "EExceltoHTML_out.html", opts);
 
 	}
 

@@ -16,7 +16,7 @@ public class DisableExporting {
 		options.setExportFrameScriptsAndProperties(false);
 
 		// Save workbook as HTML
-		w.save(dataDir + "DisableExporting-out.html", options);
+		w.save(dataDir + "DisableExporting_out.html");
 
 		System.out.println("File saved");
 

@@ -15,7 +15,7 @@ public class DisableCompatibilityChecker {
 		workbook.getSettings().setCheckComptiliblity(false);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "DCChecker-out.xls");
+		workbook.save(dataDir + "DCChecker_out.xls");
 
 	}
 }

@@ -25,7 +25,7 @@ public class ConvertWorkbooktoImage {
 
 		// Render to image
 		WorkbookRender render = new WorkbookRender(book, options);
-		render.toImage(dataDir + "CWorkbooktoImage-out.tiff");
+		render.toImage(dataDir + "CWorkbooktoImage_out.tiff");
 
 	}
 }

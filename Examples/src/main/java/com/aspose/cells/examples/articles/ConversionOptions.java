@@ -38,7 +38,7 @@ public class ConversionOptions {
 		SheetRender sr = new SheetRender(sheet, options);
 
 		// Render/save the image for the sheet
-		sr.toImage(0, dataDir + "ConversionOptions-out.jpg");
+		sr.toImage(0, dataDir + "ConversionOptions_out.jpg");
 
 	}
 }

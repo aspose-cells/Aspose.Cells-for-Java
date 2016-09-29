@@ -21,7 +21,7 @@ public class CalculationOfArrayFormula {
 		workbook.calculateFormula();
 
 		// Save the workbook in pdf format
-		workbook.save(dataDir + "COfAFormula-out.pdf");
+		workbook.save(dataDir + "COfAFormula_out.pdf");
 
 	}
 }

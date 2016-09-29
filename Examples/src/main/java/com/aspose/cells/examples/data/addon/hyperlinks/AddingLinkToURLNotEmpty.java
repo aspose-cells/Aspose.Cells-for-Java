@@ -41,6 +41,6 @@ public class AddingLinkToURLNotEmpty {
 		hyperlinks.add("A1", 1, 1, "http://www.aspose.com");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "ALTURLNEmpty-out.xls");
+		workbook.save(dataDir + "AddingLinkToURLNotEmpty_out.xls");
 	}
 }

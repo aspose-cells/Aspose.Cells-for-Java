@@ -17,7 +17,7 @@ public class SetFormulaCalculationMode {
 		workbook.getSettings().setCalcMode(CalcModeType.MANUAL);
 
 		// Save the workbook
-		workbook.save("SFCalculationMode-out.xlsx", SaveFormat.XLSX);
+		workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

@@ -29,7 +29,7 @@ public class CreateSignatureLine {
 		pic.setSignatureLine(s);
 
 		// Save the workbook
-		workbook.save(dataDir + "CSignatureLine-out.xlsx");
+		workbook.save(dataDir + "CSignatureLine_out.xlsx");
 
 	}
 }

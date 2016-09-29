@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class CopyingRows {
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:CopyingRows
+		
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CopyingRows.class) + "RowsColumns/";
 
@@ -24,6 +24,6 @@ public class CopyingRows {
 
 		// Print message
 		System.out.println("Row and Column copied successfully.");
-		// ExEnd:CopyingRows
+		
 	}
 }

@@ -44,7 +44,7 @@ public class AccessAndUpdatePortions {
 		}
 
 		// Save workbook
-		workbook.save(dataDir + "AAUPortions-out.xlsx");
+		workbook.save(dataDir + "AAUPortions_out.xlsx");
 
 	}
 }

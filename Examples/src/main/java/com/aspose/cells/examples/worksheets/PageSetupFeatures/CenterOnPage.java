@@ -5,7 +5,6 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.worksheets.management.UpdateReferenceinRowsCols;
 
 public class CenterOnPage {
 	public static void main(String[] args) throws Exception {

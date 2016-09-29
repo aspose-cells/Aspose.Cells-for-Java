@@ -18,10 +18,10 @@ public class SetAutoRecoverProperty {
 		workbook.getSettings().setAutoRecover(false);
 
 		// Save the workbook
-		workbook.save("SetAutoRecoverProperty-out.xlsx");
+		workbook.save("SetAutoRecoverProperty_out.xlsx");
 
 		// Read the saved workbook again
-		workbook = new Workbook("SetAutoRecoverProperty-out.xlsx");
+		workbook = new Workbook("SetAutoRecoverProperty_out.xlsx");
 
 		// Read AutoRecover property
 		System.out.println("AutoRecover: " + workbook.getSettings().getAutoRecover());

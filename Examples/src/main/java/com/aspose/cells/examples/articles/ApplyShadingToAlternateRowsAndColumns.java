@@ -51,7 +51,7 @@ public class ApplyShadingToAlternateRowsAndColumns {
 		formatCondirion.getStyle().setPattern(BackgroundType.SOLID);
 
 		// Save the result on disk
-		book.save(dataDir + "ASToARAC-out.xlsx");
+		book.save(dataDir + "ASToARAC_out.xlsx");
 
 	}
 }

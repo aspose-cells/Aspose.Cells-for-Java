@@ -76,7 +76,7 @@ public class CopyRangeStyleOnly {
 		range2.copyStyle(range);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "CopyRangeStyleOnly-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "CopyRangeStyleOnly_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

@@ -20,7 +20,7 @@ public class FilterDataWhileLoadingWorkbook {
 		Workbook wb = new Workbook(dataDir + "sample.xlsx", opts);
 
 		// Save the output in pdf format
-		wb.save(dataDir + "FDWLWorkbook-out.pdf", SaveFormat.PDF);
+		wb.save(dataDir + "FDWLWorkbook_out.pdf", SaveFormat.PDF);
 
 	}
 

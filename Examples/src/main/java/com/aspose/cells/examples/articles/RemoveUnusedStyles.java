@@ -10,7 +10,7 @@ public class RemoveUnusedStyles {
 
 		String dataDir = Utils.getSharedDataDir(RemoveUnusedStyles.class) + "articles/";
 		String inputPath = dataDir + "Styles.xlsx";
-		String outputPath = dataDir + "RemoveUnusedStyles-out.xlsx";
+		String outputPath = dataDir + "RemoveUnusedStyles_out.xlsx";
 
 		Workbook workbook = new Workbook(inputPath);
 

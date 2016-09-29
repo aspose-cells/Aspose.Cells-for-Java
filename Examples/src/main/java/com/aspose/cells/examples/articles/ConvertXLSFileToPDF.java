@@ -14,7 +14,7 @@ public class ConvertXLSFileToPDF {
 		Workbook book = new Workbook(dataDir + "SampleInput.xlsx");
 
 		//Save the excel file to PDF format
-		book.save(dataDir + "CXLSFileToPDF-out.pdf", SaveFormat.PDF);
+		book.save(dataDir + "CXLSFileToPDF_out.pdf", SaveFormat.PDF);
 
 	}
 }

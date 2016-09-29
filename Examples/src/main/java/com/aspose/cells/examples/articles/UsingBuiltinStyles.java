@@ -11,8 +11,8 @@ public class UsingBuiltinStyles {
 	public static void main(String[] args) throws Exception {
 
 		String dataDir = Utils.getSharedDataDir(UsingBuiltinStyles.class) + "articles/";
-		String output1Path = dataDir + "UsingBuiltinStyles-out.xlsx";
-		String output2Path = dataDir + "UsingBuiltinStyles-out.ods";
+		String output1Path = dataDir + "UsingBuiltinStyles_out.xlsx";
+		String output2Path = dataDir + "UsingBuiltinStyles_out.ods";
 
 		Workbook workbook = new Workbook();
 		Style style = workbook.createBuiltinStyle(BuiltinStyleType.TITLE);

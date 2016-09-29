@@ -31,7 +31,7 @@ public class DeletingRowsandColumns {
 		worksheet.getCells().deleteColumns(4, 3, true);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "DeletingRowsandColumns-out.xls");
+		workbook.save(dataDir + "DeletingRowsandColumns_out.xls");
 
 		// Print message
 		System.out.println("Rows and Columns deleted successfully.");

@@ -42,7 +42,7 @@ public class CreateTextBoxhavingdifferentLineAlignment {
 		p.setAlignmentType(TextAlignmentType.RIGHT);
 
 		// Save the workbook in xlsx format.
-		wb.save(dataDir + "CTBoxHDLineAlignment-out.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "CTBoxHDLineAlignment_out.xlsx", SaveFormat.XLSX);
 
 	}
 

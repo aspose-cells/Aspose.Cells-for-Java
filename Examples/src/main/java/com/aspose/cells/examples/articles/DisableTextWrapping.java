@@ -25,7 +25,7 @@ public class DisableTextWrapping {
 		chart.getNSeries().get(2).getDataLabels().setTextWrapped(false);
 
 		// Save the workbook
-		workbook.save(dataDir + "DTextWrapping-out.xlsx");
+		workbook.save(dataDir + "DTextWrapping_out.xlsx");
 
 	}
 }

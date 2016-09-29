@@ -23,7 +23,7 @@ public class LoadOrImportCSVFile {
 		worksheet.getCells().importCSV(csvFile, opts, 3, 3);
 
 		// Save your workbook in Xlsx format
-		workbook.save(dataDir + "LOrICSVFile-out.xlsx");
+		workbook.save(dataDir + "LOrICSVFile_out.xlsx");
 
 	}
 }

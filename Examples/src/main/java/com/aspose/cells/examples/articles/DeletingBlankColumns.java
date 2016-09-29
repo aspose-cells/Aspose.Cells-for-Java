@@ -23,7 +23,7 @@ public class DeletingBlankColumns {
 		sheet.getCells().deleteBlankColumns();
 
 		// Save the excel file.
-		wb.save(dataDir + "DBlankColumns-out.xlsx");
+		wb.save(dataDir + "DBlankColumns_out.xlsx");
 
 	}
 }

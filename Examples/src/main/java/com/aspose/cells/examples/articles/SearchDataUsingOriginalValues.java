@@ -52,7 +52,7 @@ public class SearchDataUsingOriginalValues {
 		System.out.println(foundCell);
 
 		// Save the workbook
-		workbook.save(dataDir + "SDUOriginalValues-out.xlsx");
+		workbook.save(dataDir + "SDUOriginalValues_out.xlsx");
 
 	}
 }

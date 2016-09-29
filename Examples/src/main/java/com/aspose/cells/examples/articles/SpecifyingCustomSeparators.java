@@ -28,7 +28,7 @@ public class SpecifyingCustomSeparators {
 
 		worksheet.autoFitColumns();
 
-		workbook.save("SpecifyingCustomSeparators-out.pdf");
+		workbook.save("SpecifyingCustomSeparators_out.pdf");
 
 	}
 }

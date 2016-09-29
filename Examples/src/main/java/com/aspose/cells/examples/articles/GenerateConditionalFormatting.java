@@ -39,7 +39,7 @@ public class GenerateConditionalFormatting {
 		byte[] imgBytes = dbar.toImage(cell, opts);
 
 		// Write image bytes on the disk
-		FileOutputStream out = new FileOutputStream(dataDir + "GCFormatting-out.png");
+		FileOutputStream out = new FileOutputStream(dataDir + "GCFormatting_out.png");
 		out.write(imgBytes);
 		out.close();
 
