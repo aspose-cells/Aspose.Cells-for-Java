@@ -7,7 +7,7 @@ public class GetSmartMarkerNotifications {
 
 	public static void main(String[] args) throws Exception {
 		String dataDir = Utils.getSharedDataDir(GetSmartMarkerNotifications.class) + "articles/";
-		String outputPath = dataDir + "GSMNotifications-out.xlsx";
+		String outputPath = dataDir + "GSMNotifications_out.xlsx";
 
 		// Instantiate a new Workbook designer
 		WorkbookDesigner report = new WorkbookDesigner();

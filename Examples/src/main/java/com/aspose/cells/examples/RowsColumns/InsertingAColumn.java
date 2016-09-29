@@ -17,6 +17,6 @@ public class InsertingAColumn {
 		worksheet.getCells().insertColumns(1, 1);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "InsertingAColumn-out.xls");
+		workbook.save(dataDir + "InsertingAColumn_out.xls");
 	}
 }

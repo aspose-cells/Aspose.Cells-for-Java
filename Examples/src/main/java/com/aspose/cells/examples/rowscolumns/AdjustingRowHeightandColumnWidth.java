@@ -31,7 +31,7 @@ public class AdjustingRowHeightandColumnWidth {
 		// Setting the width of all columns in the worksheet to 20.5
 		// worksheet.getCells().setStandardWidth(20.5f);
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "ARHAColumnWidth-out.xls");
+		workbook.save(dataDir + "ARHAColumnWidth_out.xls");
 
 		// Print message
 		System.out.println("Height and width modified successfully.");

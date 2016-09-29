@@ -17,7 +17,7 @@ public class SettingPivotTableOption {
 		pt.setNullString("null");
 		pt.calculateData();
 		pt.setRefreshDataOnOpeningFile(false);
-		wb.save(dataDir + "SettingPivotTableOption-out.xlsx");
+		wb.save(dataDir + "SettingPivotTableOption_out.xlsx");
 
 	}
 }

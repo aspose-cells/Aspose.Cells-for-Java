@@ -65,7 +65,7 @@ public class AddCustomLabelsToDataPoints {
 			pointIndex.getDataLabels().setText("Series 2" + "\n" + "Point " + i);
 		}
 
-		workbook.save(dataDir + "ACLToDataPoints-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "ACLToDataPoints_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

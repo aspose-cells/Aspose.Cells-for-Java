@@ -38,7 +38,7 @@ public class FindCellsWithSpecificStyle {
 
 		} while (true);
 
-		workbook.save(dataDir + "FCWithSpecificStyle-out.xlsx");
+		workbook.save(dataDir + "FCWithSpecificStyle_out.xlsx");
 
 	}
 }

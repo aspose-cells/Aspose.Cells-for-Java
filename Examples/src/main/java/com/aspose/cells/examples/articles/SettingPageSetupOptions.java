@@ -43,7 +43,7 @@ public class SettingPageSetupOptions {
 		pageSetup.setFirstPageNumber(2);
 
 		// Save the workbook
-		workbook.save(dataDir + "SettingPageSetupOptions-out.xls");
+		workbook.save(dataDir + "SettingPageSetupOptions_out.xls");
 
 	}
 }

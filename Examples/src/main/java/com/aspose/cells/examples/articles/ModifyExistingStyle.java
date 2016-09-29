@@ -30,7 +30,7 @@ public class ModifyExistingStyle {
 		style.update();
 
 		// Save the excel file.
-		workbook.save(dataDir + "ModifyExistingStyle-out.xlsx");
+		workbook.save(dataDir + "ModifyExistingStyle_out.xlsx");
 
 	}
 }

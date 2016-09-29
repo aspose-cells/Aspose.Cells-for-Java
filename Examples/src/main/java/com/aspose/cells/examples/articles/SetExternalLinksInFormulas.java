@@ -25,7 +25,7 @@ public class SetExternalLinksInFormulas {
 		cells.get("A2").setFormula("='[F:\\book1.xls]Sheet1'!A8");
 
 		// Save the workbook
-		workbook.save(dataDir + "SetExternalLinksInFormulas-out.xls");
+		workbook.save(dataDir + "SetExternalLinksInFormulas_out.xls");
 
 	}
 }

@@ -29,6 +29,6 @@ public class WarningCallback implements IWarningCallback {
 		PdfSaveOptions options = new PdfSaveOptions();
 		options.setWarningCallback(new WarningCallback());
 
-		workbook.save(dataDir + "WarningCallback-out.pdf", options);
+		workbook.save(dataDir + "WarningCallback_out.pdf", options);
 	}
 }

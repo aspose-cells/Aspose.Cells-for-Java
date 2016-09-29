@@ -40,7 +40,7 @@ public class UseThemeColors {
 		c.putValue("Testing");
 
 		// Save the excel file
-		workbook.save(dataDir + "UseThemeColors-out.xlsx");
+		workbook.save(dataDir + "UseThemeColors_out.xlsx");
 
 	}
 }

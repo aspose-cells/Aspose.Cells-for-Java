@@ -37,7 +37,7 @@ public class KeepPrecisionOfLargeNumbers {
 		worksheet.autoFitColumns();
 
 		// Save the workbook
-		workbook.save(dataDir + "KPOfLargeNumbers-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "KPOfLargeNumbers_out.xlsx", SaveFormat.XLSX);
 
 		System.out.println("File saved");
 

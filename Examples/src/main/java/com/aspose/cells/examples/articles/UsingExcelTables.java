@@ -91,7 +91,7 @@ public class UsingExcelTables {
 		chart.calculate();
 
 		// Save spreadsheet
-		book.save(dataDir + "UsingExcelTables-out.xlsx");
+		book.save(dataDir + "UsingExcelTables_out.xlsx");
 
 	}
 }

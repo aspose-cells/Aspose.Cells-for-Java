@@ -27,7 +27,7 @@ public class DeletePivotTableFromWorksheet {
 		worksheet.getPivotTables().removeAt(0);
 
 		// Save the workbook
-		workbook.save(dataDir + "DPTableFromWorksheet-out.xlsx");
+		workbook.save(dataDir + "DPTableFromWorksheet_out.xlsx");
 
 	}
 }

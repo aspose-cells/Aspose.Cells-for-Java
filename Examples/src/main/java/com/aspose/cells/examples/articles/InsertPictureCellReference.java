@@ -1,5 +1,7 @@
 package com.aspose.cells.examples.articles;
 
+import java.io.FileInputStream;
+
 import com.aspose.cells.Cells;
 import com.aspose.cells.Picture;
 import com.aspose.cells.Workbook;
@@ -20,8 +22,14 @@ public class InsertPictureCellReference {
 		cells.get("A1").putValue("A1");
 		cells.get("C10").putValue("C10");
 
+		// Load/Read an image into stream
+		String logo_url = dataDir + "school.jpg";
+
+		// Creating the instance of the FileInputStream object to open the logo/picture in the stream
+		FileInputStream inFile = new FileInputStream(logo_url);
+
 		// Add a blank picture to the D1 cell
-		Picture pic = (Picture) workbook.getWorksheets().get(0).getShapes().addPicture(0, 3, null, 10, 10);
+		Picture pic = (Picture) workbook.getWorksheets().get(0).getShapes().addPicture(0, 3, inFile, 10, 10);
 
 		// Set the size of the picture.
 		pic.setHeightCM(4.48);
@@ -34,7 +42,7 @@ public class InsertPictureCellReference {
 		workbook.getWorksheets().get(0).getShapes().updateSelectedValue();
 
 		// Save the Excel file.
-		workbook.save(dataDir + "IPCellReference-out.xlsx");
+		workbook.save(dataDir + "IPCellReference_out.xlsx");
 
 	}
 }

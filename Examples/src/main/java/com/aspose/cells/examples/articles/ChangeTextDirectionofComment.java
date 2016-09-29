@@ -28,7 +28,7 @@ public class ChangeTextDirectionofComment {
 		comment.setNote("This is my Comment Text. This is test");
 
 		// Save the Excel file
-		wb.save(dataDir + "CTDOfComment-out.xlsx");
+		wb.save(dataDir + "CTDOfComment_out.xlsx");
 
 
 	}

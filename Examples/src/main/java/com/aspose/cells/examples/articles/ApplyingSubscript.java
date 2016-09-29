@@ -35,7 +35,7 @@ public class ApplyingSubscript {
 		cell.setStyle(style);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "ASubscript-out.xls");
+		workbook.save(dataDir + "ASubscript_out.xls");
 
 	}
 }

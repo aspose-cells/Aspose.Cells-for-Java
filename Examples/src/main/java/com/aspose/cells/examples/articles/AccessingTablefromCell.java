@@ -12,7 +12,7 @@ public class AccessingTablefromCell {
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AccessingTablefromCell.class) + "articles/";
 		// Create workbook from source Excel file
-		Workbook workbook = new Workbook(dataDir + "source.xlsx");
+		Workbook workbook = new Workbook(dataDir + "ATFromCell.xlsx");
 
 		// Access first worksheet
 		Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -27,10 +27,10 @@ public class AccessingTablefromCell {
 		ListObject table = cell.getTable();
 
 		// Add some value using Row and Column Offset
-		table.putCellValue(2, 2, "Offset [2,2]");
+		table.putCellValue(2, 2, "Offset[2,2]");
 
 		// Save the workbook
-		workbook.save(dataDir + "ATFromCell-out.xlsx");
+		workbook.save(dataDir + "ATFromCell_out.xlsx");
 
 	}
 }

@@ -31,7 +31,7 @@ public class ChangeDataSource {
 				options);
 
 		// Save workbook in xlsx format
-		wb.save(dataDir + "CDataSource-out.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "CDataSource_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

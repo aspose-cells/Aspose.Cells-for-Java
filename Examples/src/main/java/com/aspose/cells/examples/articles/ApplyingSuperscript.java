@@ -35,7 +35,7 @@ public class ApplyingSuperscript {
 		cell.setStyle(style);
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "ASuperscript-out.xls");
+		workbook.save(dataDir + "ASuperscript_out.xls");
 
 	}
 }

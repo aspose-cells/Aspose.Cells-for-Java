@@ -26,7 +26,7 @@ public class CreateTransparentImage {
 
 		// Create image after apply image or print options
 		SheetRender sr = new SheetRender(wb.getWorksheets().get(0), imgOption);
-		sr.toImage(0, dataDir + "CTransparentImage-out.png");
+		sr.toImage(0, dataDir + "CTransparentImage_out.png");
 
 	}
 }

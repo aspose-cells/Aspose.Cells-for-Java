@@ -21,7 +21,7 @@ public class ImplementingNonSequentialRanges {
 		name.setRefersTo("=Sheet1!$A$1:$B$3,Sheet1!$E$5:$D$6");
 
 		// Save the workbook
-		workbook.save(dataDir + "INSRanges-out.xls");
+		workbook.save(dataDir + "INSRanges_out.xls");
 
 	}
 }

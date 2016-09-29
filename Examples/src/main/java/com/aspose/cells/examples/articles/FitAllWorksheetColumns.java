@@ -17,7 +17,7 @@ public class FitAllWorksheetColumns {
 		// Set AllColumnsInOnePagePerSheet to true
 		saveOptions.setAllColumnsInOnePagePerSheet(true);
 		// Save Workbook to PDF fromart by passing the object of PdfSaveOptions
-		book.save(dataDir + "FAWorksheetColumns-out.pdf", saveOptions);
+		book.save(dataDir + "FAWorksheetColumns_out.pdf", saveOptions);
 
 	}
 }

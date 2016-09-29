@@ -17,6 +17,6 @@ public class InsertingMultipleRows {
 		worksheet.getCells().insertRows(2, 10);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "IMultipleRows-out.xls");
+		workbook.save(dataDir + "InsertingMultipleRows_out.xls");
 	}
 }

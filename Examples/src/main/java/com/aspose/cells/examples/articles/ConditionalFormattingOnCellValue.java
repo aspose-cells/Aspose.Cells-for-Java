@@ -33,7 +33,7 @@ public class ConditionalFormattingOnCellValue {
 		int conditionIndex = fcs.addCondition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "50", "100");
 		FormatCondition fc = fcs.get(conditionIndex);
 		fc.getStyle().setBackgroundColor(Color.getRed());
-		workbook.save(dataDir + "CFOnCellValue-out.xls");
+		workbook.save(dataDir + "CFOnCellValue_out.xls");
 
 	}
 }

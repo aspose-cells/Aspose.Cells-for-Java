@@ -17,6 +17,6 @@ public class DeleteAColumn {
 		worksheet.getCells().deleteColumns(1, 1, true);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "DeleteAColumn-out.xls");
+		workbook.save(dataDir + "DeleteAColumn_out.xls");
 	}
 }

@@ -28,7 +28,7 @@ public class CopyChartFromOneWorksheetToAnother {
 		sheet2.getShapes().addCopy(cshape, 20, 0, 2, 0);
 
 		// Save the workbook
-		workbook.save(dataDir + "CCFOneWToAnother-out.xls");
+		workbook.save(dataDir + "CCFOneWToAnother_out.xls");
 
 	}
 }

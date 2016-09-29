@@ -21,10 +21,10 @@ public class UsingWorkbookMetadata {
 		meta.getCustomDocumentProperties().add("test", "test");
 
 		// Save the metadata info
-		meta.save(dataDir + "UsingWorkbookMetadata-out.xlsx");
+		meta.save(dataDir + "UsingWorkbookMetadata_out.xlsx");
 
 		// Open the workbook
-		Workbook w = new Workbook(dataDir + "UsingWorkbookMetadata-out.xlsx");
+		Workbook w = new Workbook(dataDir + "UsingWorkbookMetadata_out.xlsx");
 
 		// Read document property
 		System.out.println(w.getCustomDocumentProperties().get("test"));

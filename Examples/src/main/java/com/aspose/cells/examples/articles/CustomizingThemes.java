@@ -32,7 +32,7 @@ public class CustomizingThemes {
 		workbook.customTheme("CustomeTheme1", carr);
 
 		// Save as the excel file
-		workbook.save(dataDir + "CustomizingThemes-out.xlsx");
+		workbook.save(dataDir + "CustomizingThemes_out.xlsx");
 
 	}
 }

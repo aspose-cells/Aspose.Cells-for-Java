@@ -4,7 +4,6 @@ import com.aspose.cells.LoadDataOption;
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.DrawingObjects.pictures.PositioningPictures.AbsolutePositioning;
 
 public class LoadVisibleSheetsOnly {
 

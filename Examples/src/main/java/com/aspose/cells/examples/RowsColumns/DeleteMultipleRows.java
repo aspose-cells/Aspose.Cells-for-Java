@@ -17,6 +17,6 @@ public class DeleteMultipleRows {
 		worksheet.getCells().deleteRows(2, 10, true);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "DeleteMultipleRows-out.xls");
+		workbook.save(dataDir + "DeleteMultipleRows_out.xls");
 	}
 }

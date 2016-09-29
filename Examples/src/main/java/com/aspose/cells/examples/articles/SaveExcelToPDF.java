@@ -14,7 +14,7 @@ public class SaveExcelToPDF {
 		// Save into Pdf with Minimum size
 		PdfSaveOptions opts = new PdfSaveOptions();
 		opts.setOptimizationType(PdfOptimizationType.MINIMUM_SIZE);
-		workbook.save(dataDir + "SExcelToPDF-out.pdf", opts);
+		workbook.save(dataDir + "SExcelToPDF_out.pdf", opts);
 
 	}
 }

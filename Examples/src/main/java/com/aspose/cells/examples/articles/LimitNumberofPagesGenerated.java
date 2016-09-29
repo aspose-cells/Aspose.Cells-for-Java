@@ -21,7 +21,7 @@ public class LimitNumberofPagesGenerated {
 		options.setPageCount(2);
 
 		// Save the PDF file
-		wb.save(dataDir + "LNOfPagesGenerated-out.pdf", options);
+		wb.save(dataDir + "LNOfPagesGenerated_out.pdf", options);
 
 	}
 }

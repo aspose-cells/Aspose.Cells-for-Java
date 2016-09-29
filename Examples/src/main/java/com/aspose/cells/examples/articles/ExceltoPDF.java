@@ -18,7 +18,7 @@ public class ExceltoPDF {
 		pdfSaveOptions.setOnePagePerSheet(true);
 
 		// Save the PDF file
-		workbook.save(dataDir + "ExceltoPDF-out.pdf", pdfSaveOptions);
+		workbook.save(dataDir + "ExceltoPDF_out.pdf", pdfSaveOptions);
 
 	}
 }

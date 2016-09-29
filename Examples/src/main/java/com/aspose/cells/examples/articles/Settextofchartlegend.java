@@ -25,7 +25,7 @@ public class Settextofchartlegend {
 		chart.getLegend().getLegendEntries().get(1).setTextNoFill(true);
 
 		// Save the workbook in xlsx format
-		workbook.save(dataDir + "Settextofchartlegend-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "Settextofchartlegend_out.xlsx", SaveFormat.XLSX);
 
 	}
 

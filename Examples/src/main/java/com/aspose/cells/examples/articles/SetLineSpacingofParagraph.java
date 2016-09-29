@@ -43,7 +43,7 @@ public class SetLineSpacingofParagraph {
 		p.setSpaceBefore(10);
 
 		// Save the workbook in xlsx format
-		wb.save(dataDir + "SLSpacingofParagraph-out.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "SLSpacingofParagraph_out.xlsx", SaveFormat.XLSX);
 
 	}
 

@@ -20,7 +20,7 @@ public class HidingDisplayOfZeroValues {
 		sheet.setDisplayZeros(false);
 
 		// Save the workbook
-		workbook.save(dataDir + "HDOfZeroValues-out.xls");
+		workbook.save(dataDir + "HDOfZeroValues_out.xls");
 
 	}
 }

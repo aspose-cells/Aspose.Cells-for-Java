@@ -43,7 +43,7 @@ public class CopyRowHeights {
 		dstSheet.getCells().get("D4").putValue("Row heights of source range copied to destination range");
 
 		// Save the workbook in xlsx format
-		workbook.save(dataDir + "CopyRowHeights-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "CopyRowHeights_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

@@ -14,6 +14,6 @@ public class ConvertTableToRange {
 		wb.getWorksheets().get(0).getListObjects().get(0).convertToRange();
 
 		// Save the file
-		wb.save(dataDir + "ConvertTableToRange-out.xlsx");
+		wb.save(dataDir + "ConvertTableToRange_out.xlsx");
 	}
 }

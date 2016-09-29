@@ -37,7 +37,7 @@ public class ConditionalFormattingBasedOnFormula {
 		fc.getStyle().setBackgroundColor(Color.getRed());
 		sheet.getCells().get("B3").setFormula("=SUM(B1:B2)");
 		sheet.getCells().get("C4").setValue("If Sum of B1:B2 is greater than 100, B3 will have RED background");
-		workbook.save(dataDir + "CFBasedOnFormula-out.xls");
+		workbook.save(dataDir + "CFBasedOnFormula_out.xls");
 
 	}
 }

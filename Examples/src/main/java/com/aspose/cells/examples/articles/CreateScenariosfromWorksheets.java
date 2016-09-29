@@ -33,7 +33,7 @@ public class CreateScenariosfromWorksheets {
 		sic.add(3, 1, "1100000");
 
 		// Save the Excel file.
-		workbook.save(dataDir + "CSfromWorksheets-out.xlsx");
+		workbook.save(dataDir + "CSfromWorksheets_out.xlsx");
 
 	}
 }

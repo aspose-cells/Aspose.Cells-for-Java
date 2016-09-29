@@ -2,7 +2,6 @@ package com.aspose.cells.examples.worksheets.security;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.worksheets.PageSetupFeatures.SetPrintTitle;
 
 public class AdvancedProtection {
 
@@ -65,7 +64,7 @@ public class AdvancedProtection {
 		protection.setAllowUsingPivotTable(true);
 
 		// Saving the modified Excel file Excel XP format
-		excel.save(dataDir + "AdvancedProtection-out.xls", FileFormatType.EXCEL_97_TO_2003);
+		excel.save(dataDir + "AdvancedProtection_out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Worksheet protected successfully.");

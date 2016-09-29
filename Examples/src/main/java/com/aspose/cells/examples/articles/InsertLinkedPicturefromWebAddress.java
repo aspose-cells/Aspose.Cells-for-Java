@@ -22,7 +22,7 @@ public class InsertLinkedPicturefromWebAddress {
 		pic.setWidthInch(2.6);
 
 		// Save the Excel file.
-		workbook.save(dataDir + "ILPfromWebAddress-out.xlsx");
+		workbook.save(dataDir + "ILPfromWebAddress_out.xlsx");
 
 	}
 }

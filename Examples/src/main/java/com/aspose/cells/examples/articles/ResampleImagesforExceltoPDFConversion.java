@@ -19,7 +19,7 @@ public class ResampleImagesforExceltoPDFConversion {
 		pdfSaveOptions.setImageResample(300, 70);
 
 		// Save the PDF file
-		workbook.save(dataDir + "ReSIfEToPDFC-out.pdf", pdfSaveOptions);
+		workbook.save(dataDir + "ReSIfEToPDFC_out.pdf", pdfSaveOptions);
 
 	}
 }

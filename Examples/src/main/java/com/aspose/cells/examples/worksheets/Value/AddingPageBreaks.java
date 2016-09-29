@@ -6,7 +6,6 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.worksheets.security.unprotecting.UnprotectSimpleSheet;
 
 public class AddingPageBreaks {
 	public static void main(String[] args) throws Exception {

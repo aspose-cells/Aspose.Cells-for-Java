@@ -30,7 +30,7 @@ public class SecurePDFDocuments {
 		saveOption.getSecurityOptions().setPrintPermission(false);
 
 		// Save the PDF document with encrypted settings
-		workbook.save(dataDir + "SecurePDFDocuments-out.pdf", saveOption);
+		workbook.save(dataDir + "SecurePDFDocuments_out.pdf", saveOption);
 
 	}
 }

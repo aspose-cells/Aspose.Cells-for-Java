@@ -44,7 +44,7 @@ public class AddingDataToCells {
 		cell.setStyle(style);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "ADToCells-out.xls");
+		workbook.save(dataDir + "AddingDataToCells_out.xls");
 
 		// Print message
 		System.out.println("Data Added Successfully");

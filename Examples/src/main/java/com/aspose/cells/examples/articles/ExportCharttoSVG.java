@@ -28,7 +28,7 @@ public class ExportCharttoSVG {
 		opts.setSVGFitToViewPort(true);
 
 		// Save the chart to svg format
-		chart.toImage(dataDir + "ECharttoSVG-out.svg", opts);
+		chart.toImage(dataDir + "ECharttoSVG_out.svg", opts);
 
 
 	}

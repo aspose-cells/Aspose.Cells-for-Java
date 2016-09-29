@@ -21,7 +21,7 @@ public class AutomaticallyrefreshOLEobject {
 		sheet.getOleObjects().get(0).setAutoLoad(true);
 
 		// Save the worbook in xlsx format
-		wb.save(dataDir + "ARefreshOLEobject-out.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "ARefreshOLEobject_out.xlsx", SaveFormat.XLSX);
 
 	}
 

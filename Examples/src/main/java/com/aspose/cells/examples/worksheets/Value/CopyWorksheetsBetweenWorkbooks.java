@@ -17,6 +17,6 @@ public class CopyWorksheetsBetweenWorkbooks {
 		excelWorkbook1.getWorksheets().get(0).copy(excelWorkbook0.getWorksheets().get(0));
 
 		// Save the file.
-		excelWorkbook1.save(dataDir + "CWBetweenWorkbooks-out.xls", FileFormatType.EXCEL_97_TO_2003);
+		excelWorkbook1.save(dataDir + "CWBetweenWorkbooks_out.xls", FileFormatType.EXCEL_97_TO_2003);
 	}
 }

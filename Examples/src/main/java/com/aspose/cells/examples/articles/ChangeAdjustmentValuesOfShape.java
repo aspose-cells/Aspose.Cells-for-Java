@@ -28,7 +28,7 @@ public class ChangeAdjustmentValuesOfShape {
 		shape3.getGeometry().getShapeAdjustValues().get(0).setValue(0.5d);
 
 		// Save the workbook
-		workbook.save(dataDir + "CAVOfShape-out.xlsx");
+		workbook.save(dataDir + "CAVOfShape_out.xlsx");
 
 	}
 }

@@ -26,7 +26,7 @@ public class ReadingAndWritingQueryTable {
 		qt.setPreserveFormatting(true);
 
 		// Save the workbook
-		workbook.save(dataDir + "RAWQueryTable-out.xlsx");
+		workbook.save(dataDir + "RAWQueryTable_out.xlsx");
 
 
 	}

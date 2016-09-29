@@ -17,6 +17,6 @@ public class InsertingARow {
 		worksheet.getCells().insertRows(2, 1);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "InsertingARow-out.xls");
+		workbook.save(dataDir + "InsertingARow_out.xls");
 	}
 }

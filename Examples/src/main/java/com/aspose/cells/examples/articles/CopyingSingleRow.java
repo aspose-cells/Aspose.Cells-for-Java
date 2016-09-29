@@ -20,7 +20,7 @@ public class CopyingSingleRow {
 			cells.copyRow(cells, 0, i);
 		}
 		// Save the result on disc
-		workbook.save(dataDir + "CSingleRow-out.xlsx");
+		workbook.save(dataDir + "CSingleRow_out.xlsx");
 
 	}
 }

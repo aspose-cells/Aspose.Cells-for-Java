@@ -31,7 +31,7 @@ public class InsertWebImageFromURL {
 		pictures.add(1, 1, inStream);
 
 		// Save the excel file
-		book.save(dataDir + "IWebImageFromURL-out.xls");
+		book.save(dataDir + "IWebImageFromURL_out.xls");
 
 	}
 }

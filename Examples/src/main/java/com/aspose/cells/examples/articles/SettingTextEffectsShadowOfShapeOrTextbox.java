@@ -38,7 +38,7 @@ public class SettingTextEffectsShadowOfShapeOrTextbox {
 		tb.getFont().setSize(16);
 
 		// Save the output file
-		wb.save(dataDir + "STESOfShapeOrTextbox-out.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "STESOfShapeOrTextbox_out.xlsx", SaveFormat.XLSX);
 
 	}
 

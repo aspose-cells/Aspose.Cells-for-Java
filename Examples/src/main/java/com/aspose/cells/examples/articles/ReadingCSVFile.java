@@ -19,7 +19,7 @@ public class ReadingCSVFile {
 		Workbook workbook = new Workbook(dataDir + "MutliEncoded.csv", options);
 
 		// Save it in XLSX format
-		workbook.save(dataDir + "ReadingCSVFile-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "ReadingCSVFile_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

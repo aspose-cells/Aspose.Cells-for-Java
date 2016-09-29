@@ -118,7 +118,7 @@ public class UsingDynamicFormulas {
 		chart.getNSeries().setCategoryData("=$D$15:$I$15");
 
 		// Save result on disc
-		workbook.save(dataDir + "UDynamicFormulas-out.xlsx");
+		workbook.save(dataDir + "UDynamicFormulas_out.xlsx");
 
 	}
 }

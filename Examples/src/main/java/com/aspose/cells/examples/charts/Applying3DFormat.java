@@ -1,8 +1,19 @@
 package com.aspose.cells.examples.charts;
 
-import com.aspose.cells.*;
+import com.aspose.cells.Bevel;
+import com.aspose.cells.BevelPresetType;
+import com.aspose.cells.Chart;
+import com.aspose.cells.ChartCollection;
+import com.aspose.cells.ChartType;
+import com.aspose.cells.Color;
+import com.aspose.cells.Format3D;
+import com.aspose.cells.LightRigType;
+import com.aspose.cells.PresetMaterialType;
+import com.aspose.cells.Series;
+import com.aspose.cells.ShapePropertyCollection;
+import com.aspose.cells.Workbook;
+import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.CellsHelperClass.MergeFiles;
 
 public class Applying3DFormat {
 

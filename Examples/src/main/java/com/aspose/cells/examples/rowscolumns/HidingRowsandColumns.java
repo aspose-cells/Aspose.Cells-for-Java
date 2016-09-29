@@ -24,7 +24,7 @@ public class HidingRowsandColumns {
 		cells.hideColumn(1);
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "HidingRowsandColumns-out.xls");
+		workbook.save(dataDir + "HidingRowsandColumns_out.xls");
 
 		// Print message
 		System.out.println("Rows and Columns hidden successfully.");

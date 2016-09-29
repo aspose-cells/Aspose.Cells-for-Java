@@ -2,7 +2,6 @@ package com.aspose.cells.examples.data.addon.hyperlinks;
 
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.charts.SettingChartsAppearance.SettingTitlesAxes;
 
 public class AddingLinkToAnotherCell {
 
@@ -38,7 +37,7 @@ public class AddingLinkToAnotherCell {
 		hyperlinks.add("B3", 1, 1, "Sheet2!B9");
 
 		// Saving the Excel file
-		workbook.save(dataDir + "ALinkTACell-out.xls");
+		workbook.save(dataDir + "ALinkTACell_out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

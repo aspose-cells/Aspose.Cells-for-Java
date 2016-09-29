@@ -422,7 +422,7 @@ public class CreatePivotTable {
 		// Setting the number format of the first data field
 		pivotTable.getDataFields().get(0).setNumber(7);
 		// Saving the Excel file
-		workbook.save(dataDir + "CreatePivotTable-out.xls");
+		workbook.save(dataDir + "CreatePivotTable_out.xls");
 
 	}
 }

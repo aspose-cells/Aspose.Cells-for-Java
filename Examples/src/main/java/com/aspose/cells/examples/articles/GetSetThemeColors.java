@@ -39,7 +39,7 @@ public class GetSetThemeColors {
 		System.out.println("theme color Accent2 changed to: " + c);
 
 		// Save the updated file
-		workbook.save(dataDir + "GetSetThemeColors-out.xlsx");
+		workbook.save(dataDir + "GetSetThemeColors_out.xlsx");
 
 	}
 }

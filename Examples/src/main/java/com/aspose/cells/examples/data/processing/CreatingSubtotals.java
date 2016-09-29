@@ -30,7 +30,7 @@ public class CreatingSubtotals {
 		cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 });
 
 		// Save the excel file
-		workbook.save(dataDir + "CSubtotals-out.xls");
+		workbook.save(dataDir + "CreatingSubtotals_out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

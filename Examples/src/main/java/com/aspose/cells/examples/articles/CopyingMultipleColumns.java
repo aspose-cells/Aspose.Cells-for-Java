@@ -19,7 +19,7 @@ public class CopyingMultipleColumns {
 		cells.copyColumns(cells, 0, 6, 3);
 
 		// Save the result on disc
-		workbook.save(dataDir + "CMultipleColumns-out.xlsx");
+		workbook.save(dataDir + "CMultipleColumns_out.xlsx");
 
 	}
 }

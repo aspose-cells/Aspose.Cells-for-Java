@@ -22,7 +22,7 @@ public class SettingSharedFormula {
 		cells.get("B2").setSharedFormula("=A2*0.09", 13, 1);
 
 		// Save the excel file
-		workbook.save(dataDir + "SSharedFormula-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "SSharedFormula_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

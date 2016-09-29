@@ -37,7 +37,7 @@ public class WorksheetToSeparateImage {
 
 			// Render to image
 			SheetRender sr = new SheetRender(sheet, options);
-			sr.toImage(0, dataDir + "WSheetToSImage-out-" + sheet.getName() + ".jpg");
+			sr.toImage(0, dataDir + "WSheetToSImage_out-" + sheet.getName() + ".jpg");
 		}
 
 	}

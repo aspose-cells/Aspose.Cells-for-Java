@@ -27,7 +27,7 @@ public class ChangeCharacterSpacing {
 		fs.getShapeFont().setSpacing(4);
 
 		// Save the workbook in xlsx format
-		wb.save(dataDir + "CCSpacing-out.xlsx", SaveFormat.XLSX);
+		wb.save(dataDir + "CCSpacing_out.xlsx", SaveFormat.XLSX);
 
 	}
 

@@ -26,7 +26,7 @@ public class CopySparkline {
 		group.getSparklineCollection().add("D8:O8", 7, 15);
 
 		// Save the workbook
-		workbook.save(dataDir + "CopySparkline-out.xlsx");
+		workbook.save(dataDir + "CopySparkline_out.xlsx");
 
 	}
 }

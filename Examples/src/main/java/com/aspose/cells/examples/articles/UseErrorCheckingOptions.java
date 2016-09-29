@@ -29,7 +29,7 @@ public class UseErrorCheckingOptions {
 		opt.addRange(CellArea.createCellArea(0, 0, 65535, 255));
 
 		// Save the Excel file
-		workbook.save(dataDir + "UseErrorCheckingOptions-out.xls");
+		workbook.save(dataDir + "UseErrorCheckingOptions_out.xls");
 
 	}
 }

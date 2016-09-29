@@ -4,7 +4,6 @@ import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.tables.ConvertTableToRange;
 
 public class ControlTabBarWidth {
 
@@ -20,7 +19,7 @@ public class ControlTabBarWidth {
 		workbook.getSettings().setSheetTabBarWidth(100);
 
 		// Saving the modified Excel file in default (that is Excel 2000) format
-		workbook.save(dataDir + "ControlTabBarWidth-out.xls");
+		workbook.save(dataDir + "ControlTabBarWidth_out.xls");
 
 		// Print message
 		System.out.println("Tab Bar width is updated, please check the output document.");

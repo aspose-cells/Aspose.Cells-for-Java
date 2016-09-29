@@ -37,7 +37,7 @@ public class DetectMergedCells {
 			wkSheet.getCells().unMerge(frow, fcol, erow, ecol);
 		}
 		// Save the excel file
-		wkBook.save(dataDir + "DetectMergedCells-out.xls");
+		wkBook.save(dataDir + "DetectMergedCells_out.xls");
 
 	}
 }

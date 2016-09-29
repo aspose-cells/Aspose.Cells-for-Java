@@ -24,7 +24,7 @@ public class UnhidingRowsandColumns {
 		cells.unhideColumn(1, 8.5);
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "UnhidingRowsandColumns-out.xls");
+		workbook.save(dataDir + "UnhidingRowsandColumns_out.xls");
 
 		// Print message
 		System.out.println("Rows and Columns unhidden successfully.");

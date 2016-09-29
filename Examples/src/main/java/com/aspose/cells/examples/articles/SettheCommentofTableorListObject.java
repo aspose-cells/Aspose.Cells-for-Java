@@ -25,7 +25,7 @@ public class SettheCommentofTableorListObject {
 		lstObj.setComment("This is Aspose.Cells comment.");
 
 		// Save the workbook in xlsx format
-		workbook.save(dataDir + "STheCofTOrListObject-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "STheCofTOrListObject_out.xlsx", SaveFormat.XLSX);
 
 	}
 

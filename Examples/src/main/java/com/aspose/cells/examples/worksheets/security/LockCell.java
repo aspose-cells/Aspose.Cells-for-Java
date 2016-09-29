@@ -19,7 +19,7 @@ public class LockCell {
 		worksheet.getCells().get("A1").getStyle().setLocked(true);
 
 		// Saving the modified Excel file Excel XP format
-		excel.save(dataDir + "LockCell-out.xls", FileFormatType.EXCEL_97_TO_2003);
+		excel.save(dataDir + "LockCell_out.xls", FileFormatType.EXCEL_97_TO_2003);
 
 		// Print Message
 		System.out.println("Cell Locked successfully.");

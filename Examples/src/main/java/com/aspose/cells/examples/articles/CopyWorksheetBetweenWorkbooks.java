@@ -28,7 +28,7 @@ public class CopyWorksheetBetweenWorkbooks {
 		sheet2.getShapes().addCopy(shapes.get(1), 10, 0, 2, 0);
 
 		// Save the workbook
-		workbook.save(dataDir + "CWBetweenWorkbooks-out.xls");
+		workbook.save(dataDir + "CWBetweenWorkbooks_out.xls");
 
 	}
 }

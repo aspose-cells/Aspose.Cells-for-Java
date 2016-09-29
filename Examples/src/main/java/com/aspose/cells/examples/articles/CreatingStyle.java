@@ -55,7 +55,7 @@ public class CreatingStyle {
 		style.update();
 
 		// Save the excel file.
-		workbook.save(dataDir + "CreatingStyle-out.xls");
+		workbook.save(dataDir + "CreatingStyle_out.xls");
 
 	}
 }

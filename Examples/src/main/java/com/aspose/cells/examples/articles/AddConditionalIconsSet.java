@@ -82,7 +82,7 @@ public class AddConditionalIconsSet {
 		worksheet.getPictures().add(3, 2, stream5);
 
 		// Save the Excel file
-		workbook.save(dataDir + "ACIconsSet-out.xlsx");
+		workbook.save(dataDir + "ACIconsSet_out.xlsx");
 
 	}
 }

@@ -37,12 +37,12 @@ public class ChangeFontonspecificUnicodecharacters {
 		worksheet.autoFitColumns();
 
 		// Save to Pdf without setting PdfSaveOptions.IsFontSubstitutionCharGranularity
-		workbook.save(dataDir + "CFOnSUCharacters1-out.pdf");
+		workbook.save(dataDir + "CFOnSUCharacters1_out.pdf");
 
 		// Save to Pdf after setting PdfSaveOptions.IsFontSubstitutionCharGranularity to true
 		PdfSaveOptions opts = new PdfSaveOptions();
 		opts.setFontSubstitutionCharGranularity(true);
-		workbook.save(dataDir + "CFOnSUCharacters2-out.pdf", opts);
+		workbook.save(dataDir + "CFOnSUCharacters2_out.pdf", opts);
 
 
 	}

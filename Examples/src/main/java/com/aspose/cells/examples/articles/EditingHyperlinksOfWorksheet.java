@@ -16,7 +16,7 @@ public class EditingHyperlinksOfWorksheet {
 			Hyperlink hl = worksheet.getHyperlinks().get(i);
 			hl.setAddress("http://www.aspose.com");
 		}
-		workbook.save(dataDir + "EHOfWorksheet-out.xlsx");
+		workbook.save(dataDir + "EHOfWorksheet_out.xlsx");
 
 	}
 }

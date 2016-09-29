@@ -40,7 +40,7 @@ public class WrapTextinCell {
 		cell.get(0, 0).setStyle(style);
 
 		// Save Excel File
-		wb.save(dataDir + "WrapTextinCell-out.xls");
+		wb.save(dataDir + "WrapTextinCell_out.xls");
 
 	}
 }

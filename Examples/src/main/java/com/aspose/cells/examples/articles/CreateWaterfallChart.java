@@ -76,7 +76,7 @@ public class CreateWaterfallChart {
 		chart.getLegend().getLegendEntries().get(1).setDeleted(true);
 
 		// Save the workbook
-		workbook.save(dataDir + "CWfallChart-out.xlsx");
+		workbook.save(dataDir + "CWfallChart_out.xlsx");
 
 	}
 }

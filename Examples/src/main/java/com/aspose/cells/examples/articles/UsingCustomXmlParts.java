@@ -12,7 +12,7 @@ public class UsingCustomXmlParts {
 
 		Workbook workbook = new Workbook();
 		workbook.getContentTypeProperties().add("BookStore", booksXML);
-		workbook.save(dataDir + "UsingCustomXmlParts-out.xlsx");
+		workbook.save(dataDir + "UsingCustomXmlParts_out.xlsx");
 
 	}
 

@@ -32,7 +32,7 @@ public class ApplyingSubtotal {
 		worksheet.getOutline().SummaryRowBelow = true;
 
 		// Save the excel file
-		workbook.save(dataDir + "ASubtotal-out.xlsx");
+		workbook.save(dataDir + "ASubtotal_out.xlsx");
 
 	}
 }

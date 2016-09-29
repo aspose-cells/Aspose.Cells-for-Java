@@ -29,7 +29,7 @@ public class AddNamedRangeWithWorksheetScope {
 		namedRange.setName("Sheet1!local");
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "ANRWWScope-out.xls");
+		workbook.save(dataDir + "ANRWWScope_out.xls");
 
 	}
 }

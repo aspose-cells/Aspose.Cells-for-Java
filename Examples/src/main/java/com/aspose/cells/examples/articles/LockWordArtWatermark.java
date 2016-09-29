@@ -47,7 +47,7 @@ public class LockWordArtWatermark {
 		wordart.setLockedProperty(ShapeLockType.TEXT, true);
 
 		// Save the file
-		workbook.save(dataDir + "LkWordArtWatermark-out.xls");
+		workbook.save(dataDir + "LkWordArtWatermark_out.xls");
 
 	}
 }

@@ -29,7 +29,7 @@ public class ModifyExistingSQLDataConnection {
 				"Server=myServerAddress;Database=myDataBase;User ID=myUsername;Password=myPassword;Trusted_Connection=False");
 
 		// Save the workbook
-		workbook.save(dataDir + "MESQLDataConnection-out.xlsx");
+		workbook.save(dataDir + "MESQLDataConnection_out.xlsx");
 
 	}
 }

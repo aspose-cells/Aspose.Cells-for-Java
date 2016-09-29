@@ -7,7 +7,6 @@ import com.aspose.cells.TextAlignmentType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.files.utility.AdvancedConversiontoPdf;
 
 public class ApplyGradientFillEffects {
 	public static void main(String[] args) throws Exception {
@@ -43,6 +42,6 @@ public class ApplyGradientFillEffects {
 		worksheet.getCells().merge(2, 1, 1, 2);
 
 		// Save the Excel file
-		workbook.save(dataDir + "AGFillEffects-out.xlsx");
+		workbook.save(dataDir + "ApplyGradientFillEffects_out.xlsx");
 	}
 }

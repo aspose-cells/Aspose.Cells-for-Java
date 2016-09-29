@@ -40,7 +40,7 @@ public class DeleteRedundantSpacesFromHtml {
 		worksheet.autoFitColumns();
 
 		// Save the workbook
-		workbook.save(dataDir + "DRSFromHtml-out-" + loadOptions.getDeleteRedundantSpaces() + ".xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "DRSFromHtml_out-" + loadOptions.getDeleteRedundantSpaces() + ".xlsx", SaveFormat.XLSX);
 
 		System.out.println("File saved");
 

@@ -3,7 +3,6 @@ package com.aspose.cells.examples.formulas;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.formatting.TextAlignmentVertical;
 
 public class CalculatingFormulas {
 	public static void main(String[] args) throws Exception {
@@ -37,6 +36,6 @@ public class CalculatingFormulas {
 		String value = worksheet.getCells().get("A4").getStringValue();
 
 		// Saving the Excel file
-		workbook.save(dataDir + "test.xls");
+		workbook.save(dataDir + "CalculatingFormulas_out.xls");
 	}
 }

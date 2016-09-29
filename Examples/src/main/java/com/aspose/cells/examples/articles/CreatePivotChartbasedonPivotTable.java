@@ -26,7 +26,7 @@ public class CreatePivotChartbasedonPivotTable {
 		chart.setPivotSource("PivotTable!PivotTable1");
 		chart.setHidePivotFieldButtons(false);
 		// Saving the Excel file
-		workbook.save(dataDir + "CPCBasedOnPTable-out.xls");
+		workbook.save(dataDir + "CPCBasedOnPTable_out.xls");
 
 	}
 }

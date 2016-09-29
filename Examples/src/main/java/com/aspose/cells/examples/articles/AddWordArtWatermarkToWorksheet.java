@@ -39,7 +39,7 @@ public class AddWordArtWatermarkToWorksheet {
 		lineFormat.setWeight(0.0);
 
 		// Save the file
-		workbook.save(dataDir + "AWArtWToWorksheet-out.xls");
+		workbook.save(dataDir + "AWArtWToWorksheet_out.xls");
 
 	}
 }

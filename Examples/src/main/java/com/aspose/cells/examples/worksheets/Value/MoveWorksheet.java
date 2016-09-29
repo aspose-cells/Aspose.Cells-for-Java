@@ -17,6 +17,6 @@ public class MoveWorksheet {
 		sheet.moveTo(2);
 
 		// Save the Excel file.
-		wb.save(dataDir + "MoveWorksheet-out.xls");
+		wb.save(dataDir + "MoveWorksheet_out.xls");
 	}
 }

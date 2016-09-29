@@ -18,15 +18,15 @@ public class SummaryRowBelow {
 		Cells cells = worksheet.getCells();
 
 		// Grouping first six rows (from 0 to 5) and making them hidden by passing true
-		cells.groupRows(4, 9, true);
+		cells.groupRows(0, 5, true);
 
 		// Grouping first three columns (from 0 to 2) and making them hidden by passing true
-		cells.groupColumns(1, 3, true);
+		cells.groupColumns(0, 2, true);
 
 		// Setting SummaryRowBelow property to false
 		worksheet.getOutline().SummaryRowBelow = false;
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "SummaryRowBelow-out.xls");
+		workbook.save(dataDir + "SummaryRowBelow_out.xls");
 	}
 }

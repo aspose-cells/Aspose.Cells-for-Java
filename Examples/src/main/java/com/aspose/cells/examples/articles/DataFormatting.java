@@ -661,7 +661,7 @@ public class DataFormatting {
 		// Set N column's width to fit the contents.
 		workbook.getWorksheets().get(0).getCells().setColumnWidth(13, 9.33);
 
-		workbook.save(dataDir + "DataFormatting-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "DataFormatting_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

@@ -24,7 +24,7 @@ public class ConvertCharttoImageinSVGFormat {
 		// Save the chart into image in SVG format
 		ImageOrPrintOptions options = new ImageOrPrintOptions();
 		options.setSaveFormat(SaveFormat.SVG);
-		chart.toImage(dataDir + "CCToImageinSVGFormat-out.svg", options);
+		chart.toImage(dataDir + "CCToImageinSVGFormat_out.svg", options);
 
 	}
 }

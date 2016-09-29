@@ -19,7 +19,7 @@ public class HtmlExportFrameScripts {
 		options.setExportFrameScriptsAndProperties(false);
 
 		// Save workbook as HTML
-		w.save(dataDir + "HEFrameScripts-out.html", options);
+		w.save(dataDir + "HEFrameScripts_out.html", options);
 
 		System.out.println("File saved");
 

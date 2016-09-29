@@ -74,7 +74,7 @@ public class CustomSliceOrSectorColorsPieChart {
 		worksheet.autoFitColumns();
 
 		// Save the workbook
-		workbook.save(dataDir + "CSOrSColorsPieChart-out.xlsx", SaveFormat.XLSX);
+		workbook.save(dataDir + "CSOrSColorsPieChart_out.xlsx", SaveFormat.XLSX);
 
 	}
 }

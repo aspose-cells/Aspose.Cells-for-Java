@@ -39,7 +39,7 @@ public class ResizeChartDataLabelShapeToFitText {
 		}
 
 		// Save the result
-		book.save(dataDir + "RCDLabelShapeToFitText-out.xlsx");
+		book.save(dataDir + "RCDLabelShapeToFitText_out.xlsx");
 
 	}
 }

@@ -19,7 +19,7 @@ public class ExceltoHTMLPresentationPreferenceOption {
 		options.setPresentationPreference(true);
 
 		// Save the Excel file to HTML with specified option
-		workbook.save(dataDir + "EToHPPOption-out.html");
+		workbook.save(dataDir + "EToHPPOption_out.html");
 
 	}
 }

@@ -25,7 +25,7 @@ public class ShowCellRangeAsTheDataLabels {
 		dataLabels.setShowCellRange(true);
 
 		// Save the workbook
-		workbook.save(dataDir + "SCellRAsTheDataLabels-out.xlsx");
+		workbook.save(dataDir + "SCellRAsTheDataLabels_out.xlsx");
 
 
 	}

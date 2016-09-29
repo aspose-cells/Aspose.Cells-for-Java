@@ -14,7 +14,7 @@ public class ConvertTextNumericDatatoNumber {
 			workbook.getWorksheets().get(i).getCells().convertStringToNumericValue();
 		}
 
-		workbook.save(dataDir + "CTNDatatoNumber-out.xlsx");
+		workbook.save(dataDir + "CTNDatatoNumber_out.xlsx");
 
 	}
 }

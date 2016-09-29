@@ -18,13 +18,13 @@ public class SummaryRowRight {
 		Cells cells = worksheet.getCells();
 
 		// Grouping first six rows (from 0 to 5) and making them hidden by passing true
-		cells.ungroupRows(0, 10);
+		cells.ungroupRows(0, 5);
 
 		// Grouping first three columns (from 0 to 2) and making them hidden by passing true
-		cells.ungroupColumns(0, 6);
+		cells.ungroupColumns(0, 2);
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
-		workbook.save(dataDir + "SummaryRowRight-out.xls");
+		workbook.save(dataDir + "SummaryRowRight_out.xls");
 
 		// Print message
 		System.out.println("Rows and Columns ungrouped successfully.");

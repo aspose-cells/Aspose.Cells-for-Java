@@ -23,11 +23,11 @@ public class SaveODSfile {
 
 		// Save ODS in ODF 1.2 version which is default
 		OdsSaveOptions options = new OdsSaveOptions();
-		workbook.save("SaveODSfile1-out.ods", options);
+		workbook.save("SaveODSfile1_out.ods", options);
 
 		// Save ODS in ODF 1.1 version
 		options.setStrictSchema11(true);
-		workbook.save("SaveODSfile2-out.ods", options);
+		workbook.save("SaveODSfile2_out.ods", options);
 
 
 	}
