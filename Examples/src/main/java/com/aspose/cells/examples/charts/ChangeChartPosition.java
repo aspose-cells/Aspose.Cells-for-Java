@@ -26,7 +26,7 @@ public class ChangeChartPosition {
 		chart.getChartObject().setY(150);
 
 		// Output the file
-		workbook.save(dataDir + "CCPosition-out.xls");
+		workbook.save(dataDir + "CCPosition_out.xls");
 
 		// Print message
 		System.out.println("Position and Size of Chart is changed successfully.");

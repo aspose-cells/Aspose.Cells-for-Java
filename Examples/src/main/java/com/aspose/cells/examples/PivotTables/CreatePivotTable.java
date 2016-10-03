@@ -98,6 +98,6 @@ public class CreatePivotTable {
 		pivotTable.addFieldToArea(PivotFieldType.DATA, 2);
 
 		//Saving the Excel file
-		workbook.save(dataDir + "CreatePivotTable-out.xls");
+		workbook.save(dataDir + "CreatePivotTable_out.xls");
 	}
 }

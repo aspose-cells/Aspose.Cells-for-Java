@@ -10,7 +10,6 @@ import com.aspose.cells.ShapeSegmentPathCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.data.processing.filteringandvalidation.WholeNumberDataValidation;
 
 public class NonPrimitiveShape {
 	public static void main(String[] args) throws Exception {

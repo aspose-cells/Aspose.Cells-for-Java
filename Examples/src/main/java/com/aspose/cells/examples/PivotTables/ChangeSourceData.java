@@ -13,7 +13,7 @@ public class ChangeSourceData {
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ChangeSourceData.class) + "PivotTables/";
 		// Instantiating a Workbook object
-		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
+		Workbook workbook = new Workbook(dataDir + "PivotTable.xls");
 
 		// Accessing the first worksheet in the Excel file
 		Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -32,6 +32,6 @@ public class ChangeSourceData {
 		range.setName("DataSource");
 
 		// Saving the modified Excel file in default format
-		workbook.save(dataDir + "output.xls");
+		workbook.save(dataDir + "ChangeSourceData_out.xls");
 	}
 }

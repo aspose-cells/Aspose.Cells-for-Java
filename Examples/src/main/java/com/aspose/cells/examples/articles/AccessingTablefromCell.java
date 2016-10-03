@@ -27,7 +27,7 @@ public class AccessingTablefromCell {
 		ListObject table = cell.getTable();
 
 		// Add some value using Row and Column Offset
-		table.putCellValue(2, 2, "Offset[2,2]");
+		table.putCellValue(1, 1, "Offset [2,2]");
 
 		// Save the workbook
 		workbook.save(dataDir + "ATFromCell_out.xlsx");
