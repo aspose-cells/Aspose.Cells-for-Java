@@ -37,6 +37,6 @@ public class ModifyPivotTableQuickStyle {
 		pt.setPivotTableStyleName("tt");
 
 		// Save the file.
-		wb.save(dataDir + "MPTableQuickStyle-out.xlsx");
+		wb.save(dataDir + "ModifyPivotTableQuickStyle_out.xlsx");
 	}
 }

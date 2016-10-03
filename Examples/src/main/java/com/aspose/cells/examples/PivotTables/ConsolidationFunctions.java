@@ -11,7 +11,7 @@ public class ConsolidationFunctions {
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConsolidationFunctions.class) + "PivotTables/";
 		// Create workbook from source excel file
-		Workbook workbook = new Workbook(dataDir + "Book.xlsx");
+		Workbook workbook = new Workbook(dataDir + "sample1.xlsx");
 
 		// Access the first worksheet of the workbook
 		Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -29,6 +29,6 @@ public class ConsolidationFunctions {
 		pivotTable.calculateData();
 
 		// Save the workbook
-		workbook.save(dataDir + "CFunctions-out.xlsx");
+		workbook.save(dataDir + "ConsolidationFunctions_out.xlsx");
 	}
 }

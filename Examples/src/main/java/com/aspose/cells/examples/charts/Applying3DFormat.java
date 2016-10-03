@@ -82,7 +82,7 @@ public class Applying3DFormat {
 		ser.getBorder().setColor(Color.getMaroon());
 
 		// Save the Excel file
-		book.save(dataDir + "A3DFormat-out.xls");
+		book.save(dataDir + "A3DFormat_out.xls");
 
 		// Print message
 		System.out.println("3D format is applied successfully.");

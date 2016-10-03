@@ -43,7 +43,7 @@ public class UsingSparklines {
 		CellsColor clr = workbook.createCellsColor();
 		clr.setColor(Color.getChocolate());
 		group.setSeriesColor(clr);
-		workbook.save(dataDir + "USparklines-out.xls");
+		workbook.save(dataDir + "UsingSparklines_out.xls");
 
 		// Print message
 		System.out.println("Workbook with chart is created successfully.");

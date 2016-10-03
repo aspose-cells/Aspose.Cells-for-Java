@@ -43,7 +43,7 @@ public class HowToCreateChart {
 		serieses.add("A1:B3", true);
 
 		// Saving the Excel file
-		workbook.save(dataDir + "HToCChart-out.xls");
+		workbook.save(dataDir + "HToCChart_out.xls");
 
 		// Print message
 		System.out.println("Workbook with chart is successfully created.");

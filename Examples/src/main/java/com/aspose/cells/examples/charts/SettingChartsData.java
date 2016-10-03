@@ -68,7 +68,7 @@ public class SettingChartsData {
 		// Setting the data source for the category data of NSeries
 		nSeries.setCategoryData("C1:C4");
 
-		workbook.save(dataDir + "SChartsData-out.xls");
+		workbook.save(dataDir + "SettingChartsData_out.xls");
 
 		// Print message
 		System.out.println("Workbook with chart is created successfully.");

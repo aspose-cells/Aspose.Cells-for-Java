@@ -14,7 +14,7 @@ public class WorksheetToSeparateImage {
 		String dataDir = Utils.getSharedDataDir(WorksheetToSeparateImage.class) + "articles/";
 		// Instantiate a new Workbook object
 		// Open template
-		Workbook book = new Workbook(dataDir + "book1.xlsx");
+		Workbook book = new Workbook(dataDir + "source.xlsx");
 
 		// Iterate over all worksheets in the workbook
 		for (int i = 0; i < book.getWorksheets().getCount(); i++) {
