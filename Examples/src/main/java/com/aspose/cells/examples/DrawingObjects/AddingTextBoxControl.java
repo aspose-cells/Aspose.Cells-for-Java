@@ -1,10 +1,11 @@
 package com.aspose.cells.examples.DrawingObjects;
 
 import com.aspose.cells.Color;
+import com.aspose.cells.FillFormat;
+import com.aspose.cells.GradientStyleType;
+import com.aspose.cells.LineFormat;
 import com.aspose.cells.MsoDrawingType;
-import com.aspose.cells.MsoFillFormat;
 import com.aspose.cells.MsoLineDashStyle;
-import com.aspose.cells.MsoLineFormat;
 import com.aspose.cells.MsoLineStyle;
 import com.aspose.cells.PlacementType;
 import com.aspose.cells.TextBox;
@@ -14,6 +15,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddingTextBoxControl {
 	public static void main(String[] args) throws Exception {
+		// ExStart:AddingTextBoxControl
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingTextBoxControl.class) + "DrawingObjects/";
 		// Instantiate a new Workbook.
@@ -48,16 +50,16 @@ public class AddingTextBoxControl {
 		textbox0.addHyperlink("http://www.aspose.com/");
 
 		// Get the filformat of the textbox.
-		MsoFillFormat fillformat = textbox0.getFillFormat();
+		FillFormat fillformat = textbox0.getFill();
 
 		// Set the fillcolor.
-		fillformat.setForeColor(Color.getSilver());
+		fillformat.setOneColorGradient(Color.getSilver(), 1, GradientStyleType.HORIZONTAL, 1);
 
 		// Get the lineformat type of the textbox.
-		MsoLineFormat lineformat = textbox0.getLineFormat();
+		LineFormat lineformat = textbox0.getLine();
 
 		// Set the line style.
-		lineformat.setStyle(MsoLineStyle.THIN_THICK);
+		lineformat.setDashStyle(MsoLineStyle.THIN_THICK);
 
 		// Set the line weight.
 		lineformat.setWeight(6);
@@ -77,5 +79,6 @@ public class AddingTextBoxControl {
 
 		// Save the excel file.
 		workbook.save(dataDir + "AddingTextBoxControl_out.xls");
+		// ExEnd:AddingTextBoxControl
 	}
 }

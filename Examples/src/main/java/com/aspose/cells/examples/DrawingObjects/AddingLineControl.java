@@ -1,8 +1,8 @@
 package com.aspose.cells.examples.DrawingObjects;
 
+import com.aspose.cells.LineFormat;
 import com.aspose.cells.MsoDrawingType;
 import com.aspose.cells.MsoLineDashStyle;
-import com.aspose.cells.MsoLineFormat;
 import com.aspose.cells.PlacementType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -10,6 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddingLineControl {
 	public static void main(String[] args) throws Exception {
+		// ExStart:AddingLineControl
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingLineControl.class) + "DrawingObjects/";
 
@@ -24,7 +25,7 @@ public class AddingLineControl {
 				.addShape(MsoDrawingType.LINE, 5, 1, 0, 0, 0, 250);
 
 		// Set the line dash style
-		MsoLineFormat shapeline = line1.getLineFormat();
+		LineFormat shapeline = line1.getLine();
 		shapeline.setDashStyle(MsoLineDashStyle.SOLID);
 
 		// Set the placement.
@@ -35,11 +36,11 @@ public class AddingLineControl {
 				.addShape(MsoDrawingType.LINE, 7, 1, 0, 0, 85, 250);
 
 		// Set the line dash style.
-		shapeline = line2.getLineFormat();
+		shapeline = line2.getLine();
 		shapeline.setDashStyle(MsoLineDashStyle.DASH_LONG_DASH);
 
 		// Set the weight of the line.
-		MsoLineFormat lineformat = line2.getLineFormat();
+		LineFormat lineformat = line2.getLine();
 		lineformat.setWeight(4);
 
 		// Set the placement.
@@ -50,7 +51,7 @@ public class AddingLineControl {
 				.addShape(MsoDrawingType.LINE, 13, 1, 0, 0, 0, 250);
 
 		// Set the line dash style
-		shapeline = line1.getLineFormat();
+		shapeline = line1.getLine();
 		shapeline.setDashStyle(MsoLineDashStyle.SOLID);
 
 		// Set the placement.
@@ -61,5 +62,6 @@ public class AddingLineControl {
 
 		// Save the excel file.
 		workbook.save(dataDir + "AddingLineControl_out.xls");
+		// ExEnd:AddingLineControl
 	}
 }
