@@ -2,6 +2,7 @@ package com.aspose.cells.examples.DrawingObjects;
 
 import com.aspose.cells.Cells;
 import com.aspose.cells.Color;
+import com.aspose.cells.GradientStyleType;
 import com.aspose.cells.MsoDrawingType;
 import com.aspose.cells.MsoLineDashStyle;
 import com.aspose.cells.MsoLineStyle;
@@ -12,6 +13,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddingRadioButtonControl {
 	public static void main(String[] args) throws Exception {
+		// ExStart:AddingRadioButtonControl
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingRadioButtonControl.class) + "DrawingObjects/";
 
@@ -46,25 +48,19 @@ public class AddingRadioButtonControl {
 		radio1.setShadow(true);
 
 		// Set the foreground color of the radio button.
-		radio1.getFillFormat().setForeColor(Color.getGreen());
+		radio1.getFill().setOneColorGradient(Color.getGreen(), 1, GradientStyleType.HORIZONTAL, 1);
 
 		// set the line style of the radio button.
-		radio1.getLineFormat().setStyle(MsoLineStyle.THICK_THIN);
+		radio1.getLine().setDashStyle(MsoLineStyle.THICK_THIN);
 
 		// Set the weight of the radio button.
-		radio1.getLineFormat().setWeight(4);
+		radio1.getLine().setWeight(4);
 
 		// Set the line color of the radio button.
-		radio1.getLineFormat().setForeColor(Color.getBlue());
+		radio1.getLine().setOneColorGradient(Color.getBlue(), 1, GradientStyleType.HORIZONTAL, 1);
 
 		// Set the dash style of the radio button.
-		radio1.getLineFormat().setDashStyle(MsoLineDashStyle.SOLID);
-
-		// Make the line format visible.
-		radio1.getLineFormat().setVisible(true);
-
-		// Make the fill format visible.
-		radio1.getFillFormat().setVisible(true);
+		radio1.getLine().setDashStyle(MsoLineDashStyle.SOLID);
 
 		// Add another radio button to the first sheet.
 		com.aspose.cells.RadioButton radio2 = (com.aspose.cells.RadioButton) sheet.getShapes()
@@ -80,25 +76,20 @@ public class AddingRadioButtonControl {
 		radio2.setShadow(true);
 
 		// Set the foreground color of the radio button.
-		radio2.getFillFormat().setForeColor(Color.getGreen());
+		radio2.getFill().setOneColorGradient(Color.getGreen(), 1, GradientStyleType.HORIZONTAL, 1);
 
 		// set the line style of the radio button.
-		radio2.getLineFormat().setStyle(MsoLineStyle.THICK_THIN);
+		radio2.getLine().setDashStyle(MsoLineStyle.THICK_THIN);
 
 		// Set the weight of the radio button.
-		radio2.getLineFormat().setWeight(4);
+		radio2.getLine().setWeight(4);
 
 		// Set the line color of the radio button.
-		radio2.getLineFormat().setForeColor(Color.getBlue());
+		radio2.getLine().setOneColorGradient(Color.getBlue(), 1, GradientStyleType.HORIZONTAL, 1);
 
 		// Set the dash style of the radio button.
-		radio2.getLineFormat().setDashStyle(MsoLineDashStyle.SOLID);
+		radio2.getLine().setDashStyle(MsoLineDashStyle.SOLID);
 
-		// Make the line format visible.
-		radio2.getLineFormat().setVisible(true);
-
-		// Make the fill format visible.
-		radio2.getFillFormat().setVisible(true);
 
 		// Add another radio button to the first sheet.
 		com.aspose.cells.RadioButton radio3 = (com.aspose.cells.RadioButton) sheet.getShapes()
@@ -114,27 +105,22 @@ public class AddingRadioButtonControl {
 		radio3.setShadow(true);
 
 		// Set the foreground color of the radio button.
-		radio3.getFillFormat().setForeColor(Color.getGreen());
+		radio3.getFill().setOneColorGradient(Color.getGreen(), 1, GradientStyleType.HORIZONTAL, 1);
 
 		// set the line style of the radio button.
-		radio3.getLineFormat().setStyle(MsoLineStyle.THICK_THIN);
+		radio3.getLine().setDashStyle(MsoLineStyle.THICK_THIN);
 
 		// Set the weight of the radio button.
-		radio3.getLineFormat().setWeight(4);
+		radio3.getLine().setWeight(4);
 
 		// Set the line color of the radio button.
-		radio3.getLineFormat().setForeColor(Color.getBlue());
+		radio3.getLine().setOneColorGradient(Color.getBlue(), 1, GradientStyleType.HORIZONTAL, 1);
 
 		// Set the dash style of the radio button.
-		radio3.getLineFormat().setDashStyle(MsoLineDashStyle.SOLID);
-
-		// Make the line format visible.
-		radio3.getLineFormat().setVisible(true);
-
-		// Make the fill format visible.
-		radio3.getFillFormat().setVisible(true);
+		radio3.getLine().setDashStyle(MsoLineDashStyle.SOLID);
 
 		// Save the excel file.
 		workbook.save(dataDir + "ARBControl_out.xls");
+		// ExEnd:AddingRadioButtonControl
 	}
 }

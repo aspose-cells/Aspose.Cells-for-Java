@@ -1,6 +1,7 @@
 package com.aspose.cells.examples.DrawingObjects;
 
 import com.aspose.cells.Color;
+import com.aspose.cells.GradientStyleType;
 import com.aspose.cells.MsoDrawingType;
 import com.aspose.cells.PlacementType;
 import com.aspose.cells.Workbook;
@@ -9,6 +10,7 @@ import com.aspose.cells.examples.Utils;
 
 public class AddingLabelControl {
 	public static void main(String[] args) throws Exception {
+		// ExStart:AddingLabelControl
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingLabelControl.class) + "DrawingObjects/";
 
@@ -29,9 +31,10 @@ public class AddingLabelControl {
 		label.setPlacement(PlacementType.FREE_FLOATING);
 
 		// Set the fill color of the label.
-		label.getFillFormat().setForeColor(Color.getYellow());
+		label.getFill().setOneColorGradient(Color.getYellow(), 1, GradientStyleType.HORIZONTAL, 1);
 
 		// Saves the file.
 		workbook.save(dataDir + "AddingLabelControl_out.xls");
+		// ExEnd:AddingLabelControl
 	}
 }
