@@ -11,6 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class ApplyingThemes {
 	public static void main(String[] args) throws Exception {
+		// ExStart:ApplyingThemes
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ApplyingThemes.class) + "charts/";
 
@@ -24,7 +25,7 @@ public class ApplyingThemes {
 		Chart chart = worksheet.getCharts().get(0);
 
 		// Specify the FilFormat's type to Solid Fill of the first series
-		chart.getNSeries().get(0).getArea().getFillFormat().setType(FillType.SOLID);
+		chart.getNSeries().get(0).getArea().getFillFormat().setFillType(FillType.SOLID);
 
 		// Get the CellsColor of SolidFill
 		CellsColor cc = chart.getNSeries().get(0).getArea().getFillFormat().getSolidFill().getCellsColor();
@@ -37,5 +38,6 @@ public class ApplyingThemes {
 
 		// Save the Excel file
 		workbook.save(dataDir + "AThemes_out.xlsx");
+		// ExEnd:ApplyingThemes
 	}
 }

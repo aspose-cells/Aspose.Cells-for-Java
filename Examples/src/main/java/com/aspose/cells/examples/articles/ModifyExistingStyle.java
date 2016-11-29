@@ -18,7 +18,7 @@ public class ModifyExistingStyle {
 		Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 
 		// We get the Percent style and create a style object.
-		Style style = workbook.getStyles().get("Percent");
+		Style style = workbook.getNamedStyle("Percent");
 
 		// Change the number format to "0.00%".
 		style.setNumber(10);

@@ -24,7 +24,7 @@ public class ChangeCharacterSpacing {
 		FontSetting fs = lst.get(0);
 
 		// Set the character spacing to point 4
-		fs.getShapeFont().setSpacing(4);
+		fs.getTextOptions().setSpacing(4);
 
 		// Save the workbook in xlsx format
 		wb.save(dataDir + "CCSpacing_out.xlsx", SaveFormat.XLSX);

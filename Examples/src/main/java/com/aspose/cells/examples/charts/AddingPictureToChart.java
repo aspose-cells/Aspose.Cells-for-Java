@@ -1,14 +1,21 @@
 package com.aspose.cells.examples.charts;
 
-import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
-
 import java.io.FileInputStream;
+
+import com.aspose.cells.Chart;
+import com.aspose.cells.Color;
+import com.aspose.cells.FillType;
+import com.aspose.cells.LineFormat;
+import com.aspose.cells.MsoLineDashStyle;
+import com.aspose.cells.Picture;
+import com.aspose.cells.Workbook;
+import com.aspose.cells.Worksheet;
+import com.aspose.cells.examples.Utils;
 
 public class AddingPictureToChart {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:AddingPictureToChart
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingPictureToChart.class) + "charts/";
 
@@ -24,15 +31,16 @@ public class AddingPictureToChart {
 		Chart chart = worksheet.getCharts().get(0);
 
 		Picture pic = chart.getShapes().addPictureInChart(50, 50, stream, 40, 40);
-		MsoLineFormat lineformat = pic.getLineFormat();
+		LineFormat lineformat = pic.getLine();
 
-		lineformat.setForeColor(Color.getBlue());
+		lineformat.setFillType(FillType.SOLID);
+		lineformat.getSolidFill().setColor(Color.getBlue());
 		lineformat.setDashStyle(MsoLineDashStyle.DASH_DOT_DOT);
 		// Output the file
 		workbook.save(dataDir + "APToChart_out.xls");
 
 		// Print message
 		System.out.println("Picture added to chart successfully.");
-
+		// ExEnd:AddingPictureToChart
 	}
 }

@@ -3,7 +3,7 @@ package com.aspose.cells.examples.articles;
 import com.aspose.cells.Color;
 import com.aspose.cells.FillFormat;
 import com.aspose.cells.GradientStyleType;
-import com.aspose.cells.MsoLineFormat;
+import com.aspose.cells.LineFormat;
 import com.aspose.cells.MsoPresetTextEffect;
 import com.aspose.cells.Shape;
 import com.aspose.cells.Workbook;
@@ -35,11 +35,10 @@ public class AddWordArtWatermarkToWorksheet {
 		wordArtFormat.setTransparency(0.9);
 
 		// Make the line invisible
-		MsoLineFormat lineFormat = wordart.getLineFormat();
+		LineFormat lineFormat = wordart.getLine();
 		lineFormat.setWeight(0.0);
 
 		// Save the file
 		workbook.save(dataDir + "AWArtWToWorksheet_out.xls");
-
 	}
 }

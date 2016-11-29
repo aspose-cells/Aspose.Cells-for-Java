@@ -3,12 +3,10 @@ package com.aspose.cells.examples.charts;
 import com.aspose.cells.*;
 import com.aspose.cells.examples.Utils;
 
-import java.io.FileInputStream;
-
 public class AddingTextBoxControl {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:AddingTextBoxControl
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingTextBoxControl.class) + "charts/";
 		String filePath = dataDir + "chart.xls";
@@ -24,26 +22,25 @@ public class AddingTextBoxControl {
 		// Add a new textbox to the chart.
 		TextBox txt = chart.getShapes().addTextBoxInChart(100, 100, 850, 2500);
 		txt.setText("Aspose");
-		MsoTextFrame frame = txt.getTextFrame();
-		frame.setAutoSize(true);
 		txt.getFont().setItalic(true);
 		txt.getFont().setSize(20);
 		txt.getFont().setBold(true);
 
 		// Get the filformat of the textbox.
-		MsoFillFormat Fillformat = txt.getFillFormat();
-		Fillformat.setForeColor(Color.getChocolate());
+		FillFormat fillformat = txt.getFill();
+		fillformat.setFillType(FillType.SOLID);
+		fillformat.getSolidFill().setColor(Color.getSilver());
 
 		// Get the lineformat type of the textbox.
-		MsoLineFormat LineFormat = txt.getLineFormat();
-		LineFormat.setWeight(2);
-		LineFormat.setDashStyle(MsoLineDashStyle.SOLID);
+		LineFormat lineformat = txt.getLine();
+		lineformat.setWeight(2);
+		lineformat.setDashStyle(MsoLineDashStyle.SOLID);
 
 		// Output the file
 		workbook.save(dataDir + "ATBoxControl_out.xls");
 
 		// Print message
 		System.out.println("TextBox added to chart successfully.");
-
+		// ExEnd:AddingTextBoxControl
 	}
 }

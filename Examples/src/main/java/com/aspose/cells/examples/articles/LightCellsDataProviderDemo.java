@@ -30,8 +30,7 @@ public class LightCellsDataProviderDemo implements LightCellsDataProvider {
 		this.maxColIndex = colCount - 1;
 
 		// add new style object with specific formattings
-		int index = wb.getStyles().add();
-		style1 = wb.getStyles().get(index);
+		style1 = wb.createStyle();
 		Font font = style1.getFont();
 		font.setName("MS Sans Serif");
 		font.setSize(10);
@@ -42,8 +41,7 @@ public class LightCellsDataProviderDemo implements LightCellsDataProvider {
 		style1.setHorizontalAlignment(TextAlignmentType.CENTER);
 
 		// create another style
-		index = wb.getStyles().add();
-		style2 = wb.getStyles().get(index);
+		style2 = wb.createStyle();
 		style2.setCustom("#,##0.00");
 		font = style2.getFont();
 		font.setName("Copperplate Gothic Bold");

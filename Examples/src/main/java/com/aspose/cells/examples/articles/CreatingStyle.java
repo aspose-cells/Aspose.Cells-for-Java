@@ -17,8 +17,7 @@ public class CreatingStyle {
 		Workbook workbook = new Workbook();
 
 		// Create a new style object.
-		int styleIdx = workbook.getStyles().add();
-		Style style = workbook.getStyles().get(styleIdx);
+		Style style = workbook.createStyle();
 
 		// Set the number format.
 		style.setNumber(14);

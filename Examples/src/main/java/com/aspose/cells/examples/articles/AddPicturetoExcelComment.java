@@ -35,7 +35,7 @@ public class AddPicturetoExcelComment {
 		inFile.read(picData);
 
 		// Set image data to the shape associated with the comment
-		comment.getCommentShape().getFillFormat().setImageData(picData);
+		comment.getCommentShape().getFill().setImageData(picData);
 
 		// Save the workbook
 		workbook.save(dataDir + "APToExcelComment_out.xlsx");

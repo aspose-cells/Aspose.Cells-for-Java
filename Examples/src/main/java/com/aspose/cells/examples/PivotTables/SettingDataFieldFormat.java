@@ -11,6 +11,7 @@ import com.aspose.cells.examples.Utils;
 
 public class SettingDataFieldFormat {
 	public static void main(String[] args) throws Exception {
+		// ExStart:SettingDataFieldFormat
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SettingDataFieldFormat.class) + "PivotTables/";
 		// Load a template file
@@ -29,12 +30,13 @@ public class SettingDataFieldFormat {
 		pivotField.setDataDisplayFormat(PivotFieldDataDisplayFormat.PERCENTAGE_OF);
 
 		// Setting the base field.
-		pivotField.setBaseField(1);
+		pivotField.setBaseFieldIndex(1);
 
 		// Setting the base item.
-		pivotField.setBaseItem(PivotItemPosition.NEXT);
+		pivotField.setBaseItemPosition(PivotItemPosition.NEXT);
 
 		// Setting number format
 		pivotField.setNumber(10);
+		// ExEnd:SettingDataFieldFormat
 	}
 }
