@@ -3,7 +3,6 @@ package com.aspose.cells.examples.articles;
 import com.aspose.cells.Chart;
 import com.aspose.cells.FillFormat;
 import com.aspose.cells.LineFormat;
-import com.aspose.cells.MsoLineFormat;
 import com.aspose.cells.MsoPresetTextEffect;
 import com.aspose.cells.Shape;
 import com.aspose.cells.Workbook;
@@ -11,7 +10,6 @@ import com.aspose.cells.examples.Utils;
 
 public class AddWordArtWatermarkToChart {
 	public static void main(String[] args) throws Exception {
-
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddWordArtWatermarkToChart.class) + "articles/";
 		// Instantiate a new workbook, Open the existing excel file.
@@ -32,13 +30,12 @@ public class AddWordArtWatermarkToChart {
 		wordArtFormat.setTransparency(0.9);
 
 		// Get the line format.
-		MsoLineFormat lineFormat = wordart.getLineFormat();
+		LineFormat lineFormat = wordart.getLine();
 
 		// Set Line format to invisible.
 		lineFormat.setWeight(0.0);
 
 		// Save the excel file.
 		workbook.save(dataDir + "AWArtWToC_out.xlsx");
-
 	}
 }

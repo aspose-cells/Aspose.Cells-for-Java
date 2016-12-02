@@ -6,7 +6,7 @@ import com.aspose.cells.examples.Utils;
 public class AddingLabelControl {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:AddingLabelControl
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddingLabelControl.class) + "charts/";
 
@@ -22,13 +22,13 @@ public class AddingLabelControl {
 		Label label = chart.getShapes().addLabelInChart(100, 100, 350, 900);
 		label.setText("Write Label here");
 		label.setPlacement(PlacementType.FREE_FLOATING);
-		label.getFillFormat().setForeColor(Color.getChocolate());
+		label.getFill().getSolidFill().setColor(Color.getChocolate());
 
 		// Output the file
 		workbook.save(dataDir + "ALControl_out.xls");
 
 		// Print message
 		System.out.println("Label added to chart successfully.");
-
+		// ExEnd:AddingLabelControl
 	}
 }

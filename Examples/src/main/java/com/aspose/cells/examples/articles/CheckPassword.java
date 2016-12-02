@@ -18,11 +18,11 @@ public class CheckPassword {
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx", opts);
 
 		// Check if 567 is Password to modify
-		boolean ret = workbook.checkWriteProtectedPassword("567");
+		boolean ret = workbook.getSettings().getWriteProtection().validatePassword("567");
 		System.out.println("Is 567 correct Password to modify: " + ret);
 
-		// Check if 5679 is Password to modify
-		ret = workbook.checkWriteProtectedPassword("5678");
+		// Check if 5678 is Password to modify
+		ret = workbook.getSettings().getWriteProtection().validatePassword("5678");
 		System.out.println("Is 5678 correct Password to modify: " + ret);
 
 	}

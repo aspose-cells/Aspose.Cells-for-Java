@@ -29,17 +29,14 @@ public class SettingTextEffectsShadowOfShapeOrTextbox {
 
 		// Set all the text runs shadow to preset offset bottom
 		for (int i = 0; i < tb.getTextBody().getCount(); i++) {
-			tb.getTextBody().get(i).getShapeFont().getFillFormat().getShadowEffect()
-					.setPresetType(PresetShadowType.OFFSET_BOTTOM);
+			tb.getTextBody().get(i).getTextOptions().getShadow().setPresetType(PresetShadowType.OFFSET_BOTTOM);
 		}
 
 		// Set the font color and size of the textbox
 		tb.getFont().setColor(Color.getRed());
 		tb.getFont().setSize(16);
-
 		// Save the output file
 		wb.save(dataDir + "STESOfShapeOrTextbox_out.xlsx", SaveFormat.XLSX);
-
 	}
 
 }
