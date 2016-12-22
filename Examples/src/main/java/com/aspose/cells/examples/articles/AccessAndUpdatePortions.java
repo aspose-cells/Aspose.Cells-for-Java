@@ -33,9 +33,7 @@ public class AccessAndUpdatePortions {
 		// And update it using SetCharacters() method
 		cell.setCharacters(fnts);
 
-		System.out.println();
-
-		System.out.println("After updating the font settings....");
+		System.out.println("\nAfter updating the font settings....");
 
 		fnts = cell.getCharacters();
 
