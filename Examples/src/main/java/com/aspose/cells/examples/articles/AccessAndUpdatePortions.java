@@ -10,7 +10,7 @@ import com.aspose.cells.examples.AdvancedTopics.SmartMarkers.UsingHTMLProperty;
 public class AccessAndUpdatePortions {
 	public static void main(String[] args) throws Exception {
 
-		// The path to the documents directory. --- added by shakeel
+		// The path to the documents directory. 
 		String dataDir = Utils.getSharedDataDir(AccessAndUpdatePortions.class) + "articles/";
 
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
