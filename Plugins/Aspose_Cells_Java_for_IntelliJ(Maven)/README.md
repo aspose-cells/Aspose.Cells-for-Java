@@ -20,8 +20,8 @@ The plugin contains two wizards:
 
 Aspose.Cells for Java is a mature, scalable and feature rich component that offers many functions that are way beyond the simple data exporting capabilities of other vendors. With Aspose.Cells for Java developers can export data, format spreadsheets to the most granular level, import images, create charts, apply and calculate complex formulas, stream Excel® data, save in various formats and much more - all this without the need of Microsoft Excel® or Microsoft Office Automation.
 
-For more info about the **Aspose.Cells for Java API**, [please check the api documentation - click here](http://goo.gl/c1eSD2)
+For more info about the **Aspose.Cells for Java API**, [please check the api documentation - click here](https://docs.aspose.com/display/cellsjava/Home)
 
 ## Plugin Documentation
 
-For the complete documentation of this Intellij IDEA plugin, [please go through this wiki - click here](http://www.aspose.com/docs/display/cellsjava/7.+Aspose.Cells+Java+for+IntelliJ+IDEA+%28Maven%29)
+For the complete documentation of this Intellij IDEA plugin, [please go through this wiki - click here](https://docs.aspose.com/display/cellsjava/Aspose.Cells+Java+for+IntelliJ+IDEA+-+Maven)
