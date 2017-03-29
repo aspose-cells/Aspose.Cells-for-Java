@@ -4,7 +4,7 @@ Aspose.Cells Java for Jython is a project that demonstrates / provides the Aspos
 
 ## Download
 
-* To download Aspose.Cells for Java API to be used with these examples, Please navigate to: http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/
+* To download Aspose.Cells for Java API to be used with these examples, Please navigate to: https://downloads.aspose.com/cells/java
 * Place downloaded jar file into "lib" directory. 
 * Replace "your-lib" with the jar filename.
 
@@ -12,7 +12,7 @@ Aspose.Cells Java for Jython is a project that demonstrates / provides the Aspos
 
 For most complete documentation of the project, check Aspose.Cells Java For Jython confluence wiki link:
 
-http://www.aspose.com/docs/display/cellsjava/Aspose.Cells+Java+for+Jython
+https://docs.aspose.com//display/cellsjava/Aspose.Cells+Java+for+Jython
 
 ## Download Latest Versions?
 
