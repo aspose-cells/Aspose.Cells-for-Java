@@ -9,6 +9,6 @@ You should have apache tomcat installed. After building the project .war file, c
 
 For most complete documentation of the project, check Aspose.Cells Java for Struts confluence wiki
 
-http://www.aspose.com/docs/display/cellsjava/3.+Aspose.Cells+Java+For+Struts
+https://docs.aspose.com/display/cellsjava/Aspose.Cells+Java+For+Struts
 
 
