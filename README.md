@@ -23,7 +23,7 @@ Directory  | Description
 
 + **Website:** [www.aspose.com](http://www.aspose.com)
 + **Product Home:** [Aspose.Cells for Java](http://www.aspose.com/products/cells/java)
-+ **Download:** [Download Aspose.Cells for Java](http://www.aspose.com/downloads/cells/java)
-+ **Documentation:** [Aspose.Cells for Java Documentation](http://www.aspose.com/docs/display/cellsjava/Home)
-+ **Forum:** [Aspose.Cells for Java Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx)
-+ **Blog:** [Aspose.Cells for Java Blog](http://www.aspose.com/blogs/aspose-products/aspose-cells-product-family.html)
++ **Download:** [Download Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
++ **Documentation:** [Aspose.Cells for Java Documentation](https://docs.aspose.com//display/cellsjava/Home)
++ **Forum:** [Aspose.Cells for Java Forum](https://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx)
++ **Blog:** [Aspose.Cells for Java Blog](https://blog.aspose.com/category/aspose-products/aspose-cells-product-family/)
