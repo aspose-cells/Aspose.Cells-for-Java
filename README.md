@@ -5,7 +5,7 @@ This repository contains [Examples](Examples), [Plugins](Plugins) and [Showcases
 
 
 <p align="center">
-  <a title="Download ZIP" href="https://github.com/aspose-words/Aspose.Cells-for-Java/archive/master.zip">
+  <a title="Download ZIP" href="https://github.com/aspose-cells/Aspose.Cells-for-Java/archive/master.zip">
     <img src="http://i.imgur.com/hwNhrGZ.png" alt="Download Aspose.Cells for Java Examples, Plugins and Showcases" />
   </a>
 </p>
