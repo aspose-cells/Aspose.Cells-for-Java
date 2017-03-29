@@ -4,15 +4,15 @@ Aspose.Cells Java for Xlsx4j is a project to provide comparative source code exa
 
 Below are some code comparisons and features of Aspose.Cells for Java that are not available in Xlsx4j.
 
-* [Code Comparison for common features in **Aspose.Cells** and **Xlsx4j**](http://www.aspose.com/docs/display/cellsjava/2.2+Code+Comparison+for+Common+Features+in+Aspose.Cells+and+xlsx4j)
-* [Missing Features of **Xlsx4j** available in **Aspose.Cells**](http://www.aspose.com/docs/display/cellsjava/2.3+Missing+Features+of+xlsx4j+in+Aspose.Cells)
+* [Code Comparison for common features in **Aspose.Cells** and **Xlsx4j**](https://docs.aspose.com//display/cellsjava/2.2+Code+Comparison+for+Common+Features+in+Aspose.Cells+and+xlsx4j)
+* [Missing Features of **Xlsx4j** available in **Aspose.Cells**](https://docs.aspose.com//display/cellsjava/2.3+Missing+Features+of+xlsx4j+in+Aspose.Cells)
 
 These examples are helpful for developers who want to compare Xlsx4j with Aspose.Cells OR migrate from Xlsx4j to Aspose.
 
 ### Feedback and Suggestions
 
-* Many more examples are yet to come. [Keep visiting us](http://www.aspose.com/java/total-component.aspx).
-* Raise your queries and suggest more examples via [Aspose Forums](http://www.aspose.com/community/forums/default.aspx) or via this social coding site.
+* Many more examples are yet to come. [Keep visiting us](https://www.aspose.com/products/cells/java).
+* Raise your queries and suggest more examples via [Aspose Forums](https://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx) or via this social coding site.
 
 ## Why Aspose for Xlsx4j ?
 
@@ -41,17 +41,17 @@ Aspose are file format experts and provide APIs and components for various file 
 
 These APIs are available on a number of development platforms including Java. If you are a Java developer, you can use Aspose native Java APIs in your Java applications to process various file formats in just a few lines of codes. 
 
-All the Aspose APIs don’t have any dependency over any other engine. For example, you don’t need to have MS Office installed on the server to process MS Office files. Below you can read mor about Aspose.Cells for Java:
+All the Aspose APIs donâ€™t have any dependency over any other engine. For example, you donâ€™t need to have MS Office installed on the server to process MS Office files. Below you can read mor about Aspose.Cells for Java:
 
 ### Aspose.Cells for Java
 
-[![Aspose.Cells for Java](http://www.aspose.com/App_Themes/V2/images/productLogos/JAVA/aspose_cells-for-java.jpg)](http://www.aspose.com/java/excel-component.aspx)
+[![Aspose.Cells for Java](http://www.aspose.com/App_Themes/V2/images/productLogos/JAVA/aspose_cells-for-java.jpg)](https://www.aspose.com/products/cells/java)
 
-Aspose.Cells for Java is an Excel� spreadsheet reporting component that enables Java applications to create and manage Excel� spreadsheets without using Microsoft Excel�.
+Aspose.Cells for Java is an Excel® spreadsheet reporting component that enables Java applications to create and manage Excel® spreadsheets without using Microsoft Excel®.
 
 Aspose.Cells for Java is an incredibly feature rich component that offers much more than just basic data export functions.
 
-[Learn More](http://www.aspose.com/java/excel-component.aspx)
+[Learn More](https://www.aspose.com/products/cells/java)
 
 ## Download Latest Versions?
 
@@ -61,6 +61,6 @@ Aspose.Cells for Java is an incredibly feature rich component that offers much m
 
 This project is also hosted and maintained at CodePlex. To clone navigate to:
 
-* [Aspose.Cells Java for Xlsx4j on CodePlex - click here](https://asposecellsjavaxlsx4j.codeplex.com/SourceControl/latest)
+* [Aspose.Cells Java for Xlsx4j on CodePlex - click here](https://asposecellsjavaxlsx4j.codeplex.com/SourceControl/latest#README.md)
 
 
