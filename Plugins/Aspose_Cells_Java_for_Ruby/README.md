@@ -19,11 +19,11 @@ Or install it yourself as:
 
 To download Aspose.Cells for Java API to be used with these examples through RJB, Please navigate to:
 
-http://www.aspose.com/community/files/72/java-components/aspose.cells-for-java/
+https://downloads.aspose.com/cells/java
 
 For most complete documentation of the project, check Aspose.Cells Java for Ruby confluence wiki link:
 
-http://www.aspose.com/docs/display/cellsjava/4.+Aspose.Cells+Java+For+Ruby
+https://docs.aspose.com/display/cellsjava/Aspose.Cells+Java+For+Ruby
 
 ## Usage
 
