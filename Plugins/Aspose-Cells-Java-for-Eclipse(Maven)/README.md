@@ -6,7 +6,7 @@ The project is **Eclipse IDE plugin**  which lets developers to use [Aspose.Cell
 
 The Plugin intended for developers using Maven platform for Java developments and want to use [Aspose.Cells for Java](https://www.aspose.com/products/cells/java) in their projects.
 
-**NOTE:** [Aspose.Cells for Java](https://www.aspose.com/products/cells/java) is Java API developed by [Aspose](http://www.aspose.com) that offers easy Microsoft Office Excel spreadsheets creation and manipulation right from within Java Projects. For the API detailed features list check the [link](https://docs.aspose.com/display/cellsjava/Product+Overview).
+**NOTE:** Aspose.Cells for Java API developed by [Aspose](http://www.aspose.com) that offers easy Microsoft Office Excel spreadsheets creation and manipulation right from within Java Projects. For the API detailed features list check the [link](https://docs.aspose.com/display/cellsjava/Product+Overview).
 
 ## **Features**
 
