@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.WorkbookVBAProject;
+package AsposeCellsExamples.WorkbookVBAProject;
 
 import com.aspose.cells.*;
 

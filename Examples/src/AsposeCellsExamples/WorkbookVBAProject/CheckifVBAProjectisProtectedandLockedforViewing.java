@@ -1,7 +1,7 @@
-package com.aspose.cells.examples.WorkbookVBAProject;
+package AsposeCellsExamples.WorkbookVBAProject;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CheckifVBAProjectisProtectedandLockedforViewing {
 

@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.tables;
+package AsposeCellsExamples.Tables;
 
 import com.aspose.cells.Cell;
 import com.aspose.cells.Cells;
@@ -7,12 +7,12 @@ import com.aspose.cells.TableStyleType;
 import com.aspose.cells.TotalsCalculation;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class FormataListObject {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(FormataListObject.class) + "tables/";
+		String dataDir = Utils.getSharedDataDir(FormataListObject.class) + "Tables/";
 		// Create a workbook.
 		Workbook workbook = new Workbook();
 

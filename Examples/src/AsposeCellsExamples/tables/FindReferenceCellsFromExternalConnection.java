@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.tables;
+package AsposeCellsExamples.Tables;
 
 import com.aspose.cells.CellsHelper;
 import com.aspose.cells.ExternalConnection;
@@ -9,14 +9,14 @@ import com.aspose.cells.Range;
 import com.aspose.cells.TableDataSourceType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class FindReferenceCellsFromExternalConnection {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory
-		String dataDir = Utils.getSharedDataDir(FindReferenceCellsFromExternalConnection.class) + "tables/";
+		String dataDir = Utils.getSharedDataDir(FindReferenceCellsFromExternalConnection.class) + "Tables/";
 
 		// Load workbook object
 		Workbook workbook = new Workbook(dataDir + "sample.xlsm");

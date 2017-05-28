@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.tables;
+package AsposeCellsExamples.Tables;
 
 import com.aspose.cells.ListObjectCollection;
 import com.aspose.cells.TotalsCalculation;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreatingListObject {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CreatingListObject.class) + "tables/";
+		String dataDir = Utils.getSharedDataDir(CreatingListObject.class) + "Tables/";
 		// Create a Workbook object.
 		// Open a template excel file.
 		Workbook workbook = new Workbook(dataDir + "book1.xlsx");

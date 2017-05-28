@@ -1,16 +1,16 @@
-package com.aspose.cells.examples.tables;
+package AsposeCellsExamples.Tables;
 
 import com.aspose.cells.ListObject;
 import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SettheCommentofTableorListObject {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SettheCommentofTableorListObject.class) + "tables/";
+		String dataDir = Utils.getSharedDataDir(SettheCommentofTableorListObject.class) + "Tables/";
 
 		// Open the template file.
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
