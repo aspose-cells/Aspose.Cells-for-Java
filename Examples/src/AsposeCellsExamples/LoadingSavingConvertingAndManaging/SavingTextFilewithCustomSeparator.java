@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.LoadingSavingConvertingAndManaging;
+package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
 import com.aspose.cells.FileFormatType;
 import com.aspose.cells.TxtSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.XpsSaveOptions;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 import java.io.FileOutputStream;
 

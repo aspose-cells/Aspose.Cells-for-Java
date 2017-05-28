@@ -1,8 +1,8 @@
-package com.aspose.cells.examples.formulas;
+package AsposeCellsExamples.Formulas;
 
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CalculatingFormulas {
 	public static void main(String[] args) throws Exception {

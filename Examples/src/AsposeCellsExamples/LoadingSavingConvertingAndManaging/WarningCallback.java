@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.LoadingSavingConvertingAndManaging;
+package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
 import com.aspose.cells.IWarningCallback;
 import com.aspose.cells.WarningInfo;

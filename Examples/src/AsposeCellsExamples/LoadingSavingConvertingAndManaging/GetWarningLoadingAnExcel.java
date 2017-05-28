@@ -1,12 +1,11 @@
-package com.aspose.cells.examples.LoadingSavingConvertingAndManaging;
+package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
 import com.aspose.cells.IWarningCallback;
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.WarningInfo;
 import com.aspose.cells.WarningType;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.articles.GetFontsUsedinWorkbook;
+import AsposeCellsExamples.Utils;
 
 public class GetWarningLoadingAnExcel {
 	public static void main(String[] args) throws Exception 

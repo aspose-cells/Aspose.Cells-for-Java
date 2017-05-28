@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.LoadingSavingConvertingAndManaging;
+package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
 import com.aspose.cells.ImageOrPrintOptions;
 import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorkbookRender;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ExportWholeWorkbookToXPS {
 	public static void main(String[] args) throws Exception {

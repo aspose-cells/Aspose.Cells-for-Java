@@ -1,9 +1,9 @@
-package com.aspose.cells.examples.LoadingSavingConvertingAndManaging;
+package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
 import com.aspose.cells.FileFormatType;
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class OpeningCSVFiles {
 

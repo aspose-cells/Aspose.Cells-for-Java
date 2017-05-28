@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.LoadingSavingConvertingAndManaging;
+package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
 import java.io.ByteArrayInputStream;
 
 import com.aspose.cells.HTMLLoadOptions;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AutoFitColumnsRowsLoadingHTML {
 
