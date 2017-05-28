@@ -1,12 +1,12 @@
-package com.aspose.cells.examples.rows_cloumns;
+package AsposeCellsExamples.RowsAndColumns;
 
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class DeleteMultipleRows {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(DeleteMultipleRows.class) + "rows_cloumns/";
+		String dataDir = Utils.getSharedDataDir(DeleteMultipleRows.class) + "RowsAndColumns/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 

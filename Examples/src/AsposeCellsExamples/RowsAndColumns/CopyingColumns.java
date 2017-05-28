@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.rows_cloumns;
+package AsposeCellsExamples.RowsAndColumns;
 
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CopyingColumns {
 	public static void main(String[] args) throws Exception {
 		
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CopyingColumns.class) + "rows_cloumns/";
+		String dataDir = Utils.getSharedDataDir(CopyingColumns.class) + "RowsAndColumns/";
 
 		// Create a new Workbook.
 		Workbook excelWorkbook = new Workbook(dataDir + "book1.xls");

@@ -1,16 +1,16 @@
-package com.aspose.cells.examples.rows_cloumns;
+package AsposeCellsExamples.RowsAndColumns;
 
 import com.aspose.cells.TxtLoadOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ConvertTexttoCols {
 
 	public static void main(String[] args) throws Exception 
 	{
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ConvertTexttoCols.class) + "rows_cloumns/";
+		String dataDir = Utils.getSharedDataDir(ConvertTexttoCols.class) + "RowsAndColumns/";
 		
 		//Create a workbook.
 		Workbook wb = new Workbook();
