@@ -1,8 +1,8 @@
-package com.aspose.cells.examples.SmartMarkers;
+package AsposeCellsExamples.SmartMarkers;
 
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorkbookDesigner;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class DynamicFormulas {
 	public static void main(String[] args) throws Exception {

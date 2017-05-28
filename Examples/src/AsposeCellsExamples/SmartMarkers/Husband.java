@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.SmartMarkers;
+package AsposeCellsExamples.SmartMarkers;
 
 import java.util.ArrayList;
 

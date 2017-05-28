@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.SmartMarkers;
+package AsposeCellsExamples.SmartMarkers;
 
 public class Wife {
 	private String m_Name;

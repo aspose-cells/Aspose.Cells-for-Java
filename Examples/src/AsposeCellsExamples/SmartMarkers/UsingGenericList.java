@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.SmartMarkers;
+package AsposeCellsExamples.SmartMarkers;
 
 import java.util.ArrayList;
 
@@ -10,7 +10,7 @@ import com.aspose.cells.StyleFlag;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorkbookDesigner;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class UsingGenericList {
 
