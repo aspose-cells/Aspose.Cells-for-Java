@@ -13,13 +13,13 @@ public class OpeningExistingFile {
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(OpeningExistingFile.class) + "introduction/";
 		// Creating a file input stream to reference the license file
-		FileInputStream fstream = new FileInputStream("Aspose.Cells.lic");
+		//FileInputStream fstream = new FileInputStream("Aspose.Cells.lic");
 
 		// Create a License object
-		License license = new License();
+		//License license = new License();
 
 		// Set the license of Aspose.Cells to avoid the evaluation limitations
-		license.setLicense(fstream);
+		//license.setLicense(fstream);
 
 		// Instantiate a Workbook object that represents an Excel file
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
