@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Cells;
 import com.aspose.cells.Chart;
@@ -6,7 +6,7 @@ import com.aspose.cells.ChartType;
 import com.aspose.cells.ListObjectCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class UsingExcelTables {
 	public static void main(String[] args) throws Exception {

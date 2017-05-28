@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.ListObject;
 import com.aspose.cells.TableStyleType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class PropagateFormulaInTableorListObject {
 	public static void main(String[] args) throws Exception {

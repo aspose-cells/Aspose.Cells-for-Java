@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.PageSetup;
 import com.aspose.cells.PrintCommentsType;
@@ -6,7 +6,7 @@ import com.aspose.cells.PrintErrorsType;
 import com.aspose.cells.PrintOrderType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SettingPrintoptions {
 	public static void main(String[] args) throws Exception {

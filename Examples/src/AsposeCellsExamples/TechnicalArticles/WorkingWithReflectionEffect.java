@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.ReflectionEffect;
 import com.aspose.cells.Shape;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class WorkingWithReflectionEffect {
 	public static void main(String[] args) throws Exception {

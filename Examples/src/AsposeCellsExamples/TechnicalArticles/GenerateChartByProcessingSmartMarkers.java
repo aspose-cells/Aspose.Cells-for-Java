@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Cells;
 import com.aspose.cells.Chart;
@@ -8,7 +8,7 @@ import com.aspose.cells.SheetType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorkbookDesigner;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class GenerateChartByProcessingSmartMarkers {
 	public static void main(String[] args) throws Exception {

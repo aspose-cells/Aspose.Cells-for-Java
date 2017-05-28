@@ -1,9 +1,9 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.PdfSaveOptions;
 import com.aspose.cells.PdfSecurityOptions;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SecurePDFDocuments {
 	public static void main(String[] args) throws Exception {

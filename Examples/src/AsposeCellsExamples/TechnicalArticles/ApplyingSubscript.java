@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Cell;
 import com.aspose.cells.Cells;
@@ -6,7 +6,7 @@ import com.aspose.cells.Font;
 import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ApplyingSubscript {
 	public static void main(String[] args) throws Exception {

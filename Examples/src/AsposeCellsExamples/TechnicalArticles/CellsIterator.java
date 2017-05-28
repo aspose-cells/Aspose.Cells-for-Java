@@ -1,10 +1,10 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.util.Iterator;
 
 import com.aspose.cells.Cell;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CellsIterator {
 	public static void main(String[] args) throws Exception {

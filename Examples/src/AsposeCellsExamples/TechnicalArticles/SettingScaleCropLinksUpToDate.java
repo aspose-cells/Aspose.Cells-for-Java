@@ -1,6 +1,6 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 import com.aspose.cells.*;
 
 public class SettingScaleCropLinksUpToDate {

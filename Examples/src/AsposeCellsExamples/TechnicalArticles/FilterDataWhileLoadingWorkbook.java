@@ -1,11 +1,11 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.LoadDataFilterOptions;
 import com.aspose.cells.LoadFormat;
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class FilterDataWhileLoadingWorkbook {
 	public static void main(String[] args) throws Exception {

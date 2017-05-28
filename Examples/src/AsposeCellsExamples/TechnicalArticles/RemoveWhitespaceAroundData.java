@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
@@ -6,7 +6,7 @@ import com.aspose.cells.PrintingPageType;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class RemoveWhitespaceAroundData {
 	public static void main(String[] args) throws Exception {

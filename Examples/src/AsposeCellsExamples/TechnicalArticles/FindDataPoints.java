@@ -1,11 +1,11 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartPoint;
 import com.aspose.cells.Series;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class FindDataPoints {
 	public static void main(String[] args) throws Exception {

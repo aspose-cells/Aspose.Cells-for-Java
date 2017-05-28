@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.MetadataOptions;
 import com.aspose.cells.MetadataType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorkbookMetadata;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class UsingWorkbookMetadata {
 

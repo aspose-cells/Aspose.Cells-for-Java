@@ -1,10 +1,10 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.ShapeCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CopyWorksheetBetweenWorkbooks {
 	public static void main(String[] args) throws Exception {

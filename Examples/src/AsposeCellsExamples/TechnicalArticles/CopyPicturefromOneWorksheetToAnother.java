@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.ByteArrayInputStream;
 
@@ -6,7 +6,7 @@ import com.aspose.cells.Picture;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CopyPicturefromOneWorksheetToAnother {
 	public static void main(String[] args) throws Exception {

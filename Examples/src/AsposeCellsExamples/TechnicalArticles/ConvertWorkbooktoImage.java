@@ -1,10 +1,10 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorkbookRender;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ConvertWorkbooktoImage {
 	public static void main(String[] args) throws Exception {

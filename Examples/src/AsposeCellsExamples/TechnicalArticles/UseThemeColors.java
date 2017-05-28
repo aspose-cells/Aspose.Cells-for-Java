@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.BackgroundType;
 import com.aspose.cells.Cell;
@@ -8,7 +8,7 @@ import com.aspose.cells.Style;
 import com.aspose.cells.ThemeColor;
 import com.aspose.cells.ThemeColorType;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class UseThemeColors {
 	public static void main(String[] args) throws Exception {

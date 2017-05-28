@@ -4,7 +4,7 @@ import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreateTransparentImage {
 	public static void main(String[] args) throws Exception {

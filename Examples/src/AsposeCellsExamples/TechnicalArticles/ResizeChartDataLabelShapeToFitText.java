@@ -1,11 +1,11 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartCollection;
 import com.aspose.cells.DataLabels;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ResizeChartDataLabelShapeToFitText {
 	public static void main(String[] args) throws Exception {

@@ -1,8 +1,8 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.FileFormatInfo;
 import com.aspose.cells.FileFormatUtil;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class DetectFileFormatandCheckFileEncrypted {
 	public static void main(String[] args) throws Exception {

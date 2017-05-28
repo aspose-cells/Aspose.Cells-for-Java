@@ -1,11 +1,11 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.Console;
 
 import com.aspose.cells.ExternalConnection;
 import com.aspose.cells.WebQueryConnection;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class WorkingWithExternalDataConnection {
 	public static void main(String[] args) throws Exception {

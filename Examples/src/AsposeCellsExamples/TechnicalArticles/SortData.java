@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.CellArea;
 import com.aspose.cells.Cells;
@@ -6,7 +6,7 @@ import com.aspose.cells.DataSorter;
 import com.aspose.cells.SortOrder;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SortData {
 	public static void main(String[] args) throws Exception {

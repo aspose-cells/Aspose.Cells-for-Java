@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.CellArea;
 import com.aspose.cells.ConsolidationFunction;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CustomLabelsforSubtotals {
 	public static void main(String[] args) throws Exception {

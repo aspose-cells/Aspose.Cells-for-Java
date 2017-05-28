@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.util.ArrayList;
 
@@ -6,7 +6,7 @@ import com.aspose.cells.FontSetting;
 import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Shape;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ChangeCharacterSpacing {
 	public static void main(String[] args) throws Exception {

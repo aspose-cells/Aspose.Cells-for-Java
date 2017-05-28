@@ -1,8 +1,8 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CheckPassword {
 	public static void main(String[] args) throws Exception {

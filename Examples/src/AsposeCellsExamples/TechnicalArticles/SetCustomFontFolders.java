@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.File;
 import java.nio.file.Files;
@@ -8,7 +8,7 @@ import com.aspose.cells.FolderFontSource;
 import com.aspose.cells.FontConfigs;
 import com.aspose.cells.FontSourceBase;
 import com.aspose.cells.MemoryFontSource;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SetCustomFontFolders {
 	public static void main(String[] args) throws Exception {

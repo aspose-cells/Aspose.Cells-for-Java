@@ -1,16 +1,15 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Cell;
 import com.aspose.cells.FontSetting;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
 
 public class AccessAndUpdatePortions {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory. 
-		String dataDir = Utils.getSharedDataDir(AccessAndUpdatePortions.class) + "Articles/";
+		String dataDir = AsposeCellsExamples.Utils.getSharedDataDir(AccessAndUpdatePortions.class) + "Articles/";
 
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 

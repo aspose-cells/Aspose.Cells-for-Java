@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Color;
 import com.aspose.cells.FillFormat;
@@ -8,7 +8,7 @@ import com.aspose.cells.MsoPresetTextEffect;
 import com.aspose.cells.Shape;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddWordArtWatermarkToWorksheet {
 	public static void main(String[] args) throws Exception {

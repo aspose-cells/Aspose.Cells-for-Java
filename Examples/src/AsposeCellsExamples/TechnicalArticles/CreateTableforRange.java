@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.util.Iterator;
 
@@ -10,7 +10,7 @@ import com.aspose.cells.Range;
 import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreateTableforRange {
 	public static void main(String[] args) throws Exception {

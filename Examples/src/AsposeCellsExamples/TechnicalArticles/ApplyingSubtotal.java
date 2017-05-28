@@ -1,11 +1,11 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.CellArea;
 import com.aspose.cells.Cells;
 import com.aspose.cells.ConsolidationFunction;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ApplyingSubtotal {
 	public static void main(String[] args) throws Exception {

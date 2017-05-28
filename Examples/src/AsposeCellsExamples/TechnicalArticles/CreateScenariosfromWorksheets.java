@@ -1,10 +1,10 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Scenario;
 import com.aspose.cells.ScenarioInputCellCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreateScenariosfromWorksheets {
 	public static void main(String[] args) throws Exception {

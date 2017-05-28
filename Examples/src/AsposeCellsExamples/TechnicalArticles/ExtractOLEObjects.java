@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.ByteArrayInputStream;
 import java.io.FileOutputStream;
@@ -8,7 +8,7 @@ import com.aspose.cells.FileFormatType;
 import com.aspose.cells.OleObject;
 import com.aspose.cells.OleObjectCollection;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ExtractOLEObjects {
 	public static void main(String[] args) throws Exception {

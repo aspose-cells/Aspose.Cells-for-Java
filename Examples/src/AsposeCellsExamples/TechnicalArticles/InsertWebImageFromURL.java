@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.BufferedInputStream;
 import java.io.InputStream;
@@ -7,7 +7,7 @@ import java.net.URL;
 import com.aspose.cells.PictureCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class InsertWebImageFromURL {
 	public static void main(String[] args) throws Exception {

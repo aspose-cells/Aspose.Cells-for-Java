@@ -1,9 +1,9 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.DigitalSignature;
 import com.aspose.cells.DigitalSignatureCollection;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ValidatingSpreadsheets {
 	public static void main(String[] args) throws Exception {

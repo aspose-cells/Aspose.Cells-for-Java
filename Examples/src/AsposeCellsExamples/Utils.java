@@ -6,6 +6,9 @@ public class Utils {
 
     public static String getDataDir(Class c) {
         File dir = new File(System.getProperty("user.dir"));
+        
+        System.out.println("shake" + dir.getAbsolutePath());
+        
         dir = new File(dir, "src");
         dir = new File(dir, "main");
         dir = new File(dir, "resources");
@@ -27,7 +30,6 @@ public class Utils {
     public static String getSharedDataDir(Class c) {
         File dir = new File(System.getProperty("user.dir"));
         dir = new File(dir, "src");
-        dir = new File(dir, "main");
         dir = new File(dir, "resources");
         
         return dir.toString() + File.separator;

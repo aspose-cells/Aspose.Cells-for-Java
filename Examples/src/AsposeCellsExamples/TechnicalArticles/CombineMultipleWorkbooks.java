@@ -1,7 +1,7 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CombineMultipleWorkbooks {
 	public static void main(String[] args) throws Exception {

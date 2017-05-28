@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.CellArea;
 import com.aspose.cells.ErrorCheckOption;
@@ -6,7 +6,7 @@ import com.aspose.cells.ErrorCheckOptionCollection;
 import com.aspose.cells.ErrorCheckType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class UseErrorCheckingOptions {
 	public static void main(String[] args) throws Exception {

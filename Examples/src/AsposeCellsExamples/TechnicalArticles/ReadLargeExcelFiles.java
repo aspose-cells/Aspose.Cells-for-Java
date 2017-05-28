@@ -1,9 +1,9 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.MemorySetting;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ReadLargeExcelFiles {
 	public static void main(String[] args) throws Exception {

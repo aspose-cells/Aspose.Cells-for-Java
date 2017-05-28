@@ -1,9 +1,9 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.SaveFormat;
 import com.aspose.cells.TxtLoadOptions;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ConvertCSVfiletoXLSX {
 	public static void main(String[] args) throws Exception {

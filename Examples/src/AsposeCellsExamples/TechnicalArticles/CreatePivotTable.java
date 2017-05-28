@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Cell;
 import com.aspose.cells.Cells;
@@ -8,7 +8,7 @@ import com.aspose.cells.PivotTableAutoFormatType;
 import com.aspose.cells.PivotTableCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreatePivotTable {
 	public static void main(String[] args) throws Exception {

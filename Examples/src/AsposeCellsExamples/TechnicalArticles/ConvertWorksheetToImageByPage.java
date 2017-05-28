@@ -1,11 +1,11 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ConvertWorksheetToImageByPage {
 	public static void main(String[] args) throws Exception {

@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.ByteArrayInputStream;
 
@@ -7,7 +7,7 @@ import com.aspose.cells.LoadFormat;
 import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SupportthelayoutofDIVtags {
 	public static void main(String[] args) throws Exception {

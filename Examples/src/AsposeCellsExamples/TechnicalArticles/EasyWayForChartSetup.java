@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
@@ -6,7 +6,7 @@ import com.aspose.cells.FileFormatType;
 import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class EasyWayForChartSetup {
 	public static void main(String[] args) throws Exception {

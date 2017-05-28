@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.ByteArrayInputStream;
 
@@ -7,7 +7,7 @@ import com.aspose.cells.ConditionalFormattingIcon;
 import com.aspose.cells.IconSetType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddConditionalIconsSet {
 	public static void main(String[] args) throws Exception {

@@ -1,8 +1,8 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.ExternalLinkCollection;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CheckWorkbookContainsHiddenExternalLinks {
 	public static void main(String[] args) throws Exception {

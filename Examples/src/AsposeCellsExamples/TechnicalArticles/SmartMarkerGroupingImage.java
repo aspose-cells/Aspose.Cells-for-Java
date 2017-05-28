@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.nio.file.*;
 import java.util.ArrayList;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SmartMarkerGroupingImage {
 

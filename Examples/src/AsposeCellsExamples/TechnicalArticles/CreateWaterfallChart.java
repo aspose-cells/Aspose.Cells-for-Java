@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Cells;
 import com.aspose.cells.Chart;
@@ -7,7 +7,7 @@ import com.aspose.cells.Color;
 import com.aspose.cells.FormattingType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreateWaterfallChart {
 	public static void main(String[] args) throws Exception {

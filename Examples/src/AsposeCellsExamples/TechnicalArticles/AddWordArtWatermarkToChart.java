@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Chart;
 import com.aspose.cells.FillFormat;
@@ -6,7 +6,7 @@ import com.aspose.cells.LineFormat;
 import com.aspose.cells.MsoPresetTextEffect;
 import com.aspose.cells.Shape;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddWordArtWatermarkToChart {
 	public static void main(String[] args) throws Exception {

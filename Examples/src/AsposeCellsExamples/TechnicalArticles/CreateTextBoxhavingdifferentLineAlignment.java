@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.MsoDrawingType;
 import com.aspose.cells.SaveFormat;
@@ -7,7 +7,7 @@ import com.aspose.cells.TextAlignmentType;
 import com.aspose.cells.TextParagraph;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreateTextBoxhavingdifferentLineAlignment {
 	public static void main(String[] args) throws Exception {

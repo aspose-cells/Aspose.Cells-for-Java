@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.ConnectionParameter;
 import com.aspose.cells.ConnectionParameterCollection;
@@ -6,7 +6,7 @@ import com.aspose.cells.DBConnection;
 import com.aspose.cells.ExternalConnection;
 import com.aspose.cells.ExternalConnectionCollection;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class RetrievingExternalDataSourcesDetails {
 	public static void main(String[] args) throws Exception {

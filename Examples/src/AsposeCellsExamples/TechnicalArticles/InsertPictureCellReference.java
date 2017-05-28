@@ -1,11 +1,11 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.FileInputStream;
 
 import com.aspose.cells.Cells;
 import com.aspose.cells.Picture;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class InsertPictureCellReference {
 	public static void main(String[] args) throws Exception {

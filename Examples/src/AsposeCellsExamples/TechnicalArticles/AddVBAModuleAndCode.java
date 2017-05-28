@@ -1,10 +1,10 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.SaveFormat;
 import com.aspose.cells.VbaModule;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddVBAModuleAndCode {
 	public static void main(String[] args) throws Exception {

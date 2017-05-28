@@ -1,11 +1,11 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.FileInputStream;
 
 import com.aspose.cells.Comment;
 import com.aspose.cells.CommentCollection;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddPicturetoExcelComment {
 	public static void main(String[] args) throws Exception {

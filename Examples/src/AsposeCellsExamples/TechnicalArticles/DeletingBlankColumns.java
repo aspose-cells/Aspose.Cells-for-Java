@@ -1,9 +1,9 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class DeletingBlankColumns {
 	public static void main(String[] args) throws Exception {

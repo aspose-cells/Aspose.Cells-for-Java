@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 //ExStart:CustomFunctionStaticValue
 import java.util.ArrayList;

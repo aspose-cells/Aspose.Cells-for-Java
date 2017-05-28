@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.BackgroundType;
 import com.aspose.cells.CellArea;
@@ -8,7 +8,7 @@ import com.aspose.cells.FormatConditionCollection;
 import com.aspose.cells.FormatConditionType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ApplyShadingToAlternateRowsAndColumns {
 	public static void main(String[] args) throws Exception {

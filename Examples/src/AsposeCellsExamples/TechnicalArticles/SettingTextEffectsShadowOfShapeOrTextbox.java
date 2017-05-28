@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Color;
 import com.aspose.cells.PresetShadowType;
@@ -6,7 +6,7 @@ import com.aspose.cells.SaveFormat;
 import com.aspose.cells.TextBox;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SettingTextEffectsShadowOfShapeOrTextbox {
 	public static void main(String[] args) throws Exception {

@@ -1,11 +1,11 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 import com.aspose.cells.SheetType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreatePivotChartbasedonPivotTable {
 	public static void main(String[] args) throws Exception {

@@ -1,11 +1,11 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Comment;
 import com.aspose.cells.TextAlignmentType;
 import com.aspose.cells.TextDirectionType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ChangeTextDirectionofComment {
 	public static void main(String[] args) throws Exception {

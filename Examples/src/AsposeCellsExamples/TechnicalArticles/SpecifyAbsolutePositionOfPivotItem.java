@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.PivotField;
 import com.aspose.cells.PivotFieldSubtotalType;
@@ -7,7 +7,7 @@ import com.aspose.cells.PivotTable;
 import com.aspose.cells.PivotTableCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SpecifyAbsolutePositionOfPivotItem {
 	public static void main(String[] args) throws Exception {

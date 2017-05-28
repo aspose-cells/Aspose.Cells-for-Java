@@ -1,8 +1,8 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.WorkbookDesigner;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class GetNotificationsWhileMergingData {
 	public static void main(String[] args) throws Exception {

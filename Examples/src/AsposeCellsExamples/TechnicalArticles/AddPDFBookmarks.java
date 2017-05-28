@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ import com.aspose.cells.PdfBookmarkEntry;
 import com.aspose.cells.PdfSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddPDFBookmarks {
 	public static void main(String[] args) throws Exception {

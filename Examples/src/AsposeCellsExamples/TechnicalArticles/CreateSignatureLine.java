@@ -1,9 +1,9 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Picture;
 import com.aspose.cells.SignatureLine;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreateSignatureLine {
 	public static void main(String[] args) throws Exception {

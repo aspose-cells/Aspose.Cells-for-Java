@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.AbstractCalculationEngine;
 import com.aspose.cells.CalculationData;

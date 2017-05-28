@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.DBConnection;
 import com.aspose.cells.ExternalConnection;
 import com.aspose.cells.OLEDBCommandType;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ModifyExistingSQLDataConnection {
 	public static void main(String[] args) throws Exception {

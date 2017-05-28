@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import java.util.ArrayList;
 
@@ -7,7 +7,7 @@ import com.aspose.cells.PresetWordArtStyle;
 import com.aspose.cells.TextBox;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SetPresetWordArtStyle {
 	public static void main(String[] args) throws Exception {
