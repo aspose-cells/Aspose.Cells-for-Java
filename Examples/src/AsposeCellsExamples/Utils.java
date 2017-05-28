@@ -1,4 +1,4 @@
-package com.aspose.cells.examples;
+package AsposeCellsExamples;
 
 import java.io.File;
 

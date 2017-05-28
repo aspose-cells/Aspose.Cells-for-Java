@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.articles;
+package AsposeCellsExamples.Articles;
 
 import com.aspose.cells.TextBox;
 import com.aspose.cells.Workbook;
