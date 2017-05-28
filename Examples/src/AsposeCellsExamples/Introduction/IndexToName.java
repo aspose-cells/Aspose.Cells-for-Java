@@ -1,8 +1,8 @@
-package com.aspose.cells.examples.introduction;
+package AsposeCellsExamples.Introduction;
 
 import com.aspose.cells.CellsHelper;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class IndexToName {
 	public static void main(String[] args) throws Exception {

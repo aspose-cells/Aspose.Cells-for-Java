@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.introduction;
+package AsposeCellsExamples.Introduction;
 
 import java.io.FileInputStream;
 
@@ -7,7 +7,7 @@ import com.aspose.cells.FileFormatType;
 import com.aspose.cells.License;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CreatingWorkbook {
 	public static void main(String[] args) throws Exception {
