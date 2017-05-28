@@ -43,5 +43,7 @@ public class RemoveExistingPrinterSettingsOfWorksheets {
 		//Save the workbook
 		wb.save(outDir + "outputRemoveExistingPrinterSettingsOfWorksheets.xlsx");
 
+		//Print the message
+		System.out.println("RemoveExistingPrinterSettingsOfWorksheets executed successfully.");
 	}
 }
