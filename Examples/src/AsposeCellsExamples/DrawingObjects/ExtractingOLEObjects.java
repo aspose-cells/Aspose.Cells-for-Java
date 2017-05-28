@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.DrawingObjects;
+package AsposeCellsExamples.DrawingObjects;
 
 import java.io.FileOutputStream;
 
@@ -7,7 +7,7 @@ import com.aspose.cells.MsoDrawingType;
 import com.aspose.cells.OleObject;
 import com.aspose.cells.OleObjectCollection;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ExtractingOLEObjects {
 	public static void main(String[] args) throws Exception {

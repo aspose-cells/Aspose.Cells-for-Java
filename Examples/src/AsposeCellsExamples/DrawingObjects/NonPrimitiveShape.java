@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.DrawingObjects;
+package AsposeCellsExamples.DrawingObjects;
 
 import com.aspose.cells.AutoShapeType;
 import com.aspose.cells.Shape;
@@ -9,7 +9,7 @@ import com.aspose.cells.ShapeSegmentPath;
 import com.aspose.cells.ShapeSegmentPathCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class NonPrimitiveShape {
 	public static void main(String[] args) throws Exception {

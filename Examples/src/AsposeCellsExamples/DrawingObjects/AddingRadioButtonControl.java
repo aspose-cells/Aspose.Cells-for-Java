@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.DrawingObjects;
+package AsposeCellsExamples.DrawingObjects;
 
 import com.aspose.cells.Cells;
 import com.aspose.cells.Color;
@@ -9,7 +9,7 @@ import com.aspose.cells.MsoLineStyle;
 import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddingRadioButtonControl {
 	public static void main(String[] args) throws Exception {

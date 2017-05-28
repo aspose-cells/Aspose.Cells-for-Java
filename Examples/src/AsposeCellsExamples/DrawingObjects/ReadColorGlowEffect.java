@@ -1,9 +1,9 @@
-package com.aspose.cells.examples.DrawingObjects;
+package AsposeCellsExamples.DrawingObjects;
 
 import java.io.FileOutputStream;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.*;
+import AsposeCellsExamples.Utils;
 
 public class ReadColorGlowEffect {
 	public static void main(String[] args) throws Exception {

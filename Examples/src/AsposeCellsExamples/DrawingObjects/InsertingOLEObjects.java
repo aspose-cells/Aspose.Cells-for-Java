@@ -1,11 +1,11 @@
-package com.aspose.cells.examples.DrawingObjects;
+package AsposeCellsExamples.DrawingObjects;
 
 import java.io.FileInputStream;
 
 import com.aspose.cells.OleObject;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 import java.io.*;
 
 public class InsertingOLEObjects {

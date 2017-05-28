@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.DrawingObjects;
+package AsposeCellsExamples.DrawingObjects;
 
 import com.aspose.cells.LineFormat;
 import com.aspose.cells.LineShape;
@@ -7,7 +7,7 @@ import com.aspose.cells.MsoLineDashStyle;
 import com.aspose.cells.PlacementType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddingLineControl {
 	public static void main(String[] args) throws Exception {

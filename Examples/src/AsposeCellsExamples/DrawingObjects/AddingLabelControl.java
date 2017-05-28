@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.DrawingObjects;
+package AsposeCellsExamples.DrawingObjects;
 
 import com.aspose.cells.Color;
 import com.aspose.cells.GradientStyleType;
@@ -6,7 +6,7 @@ import com.aspose.cells.MsoDrawingType;
 import com.aspose.cells.PlacementType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddingLabelControl {
 	public static void main(String[] args) throws Exception {
