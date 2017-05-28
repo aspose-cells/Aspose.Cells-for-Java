@@ -1,10 +1,8 @@
-package com.aspose.cells.examples.CellsHelperClass;
+package AsposeCellsExamples.CellsHelperClass;
 
 import com.aspose.cells.CellsHelper;
-import com.aspose.cells.LoadDataOption;
-import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class MergeFiles {
 

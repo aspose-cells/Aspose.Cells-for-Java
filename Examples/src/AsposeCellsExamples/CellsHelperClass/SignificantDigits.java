@@ -1,7 +1,7 @@
-package com.aspose.cells.examples.CellsHelperClass;
+package AsposeCellsExamples.CellsHelperClass;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SignificantDigits {
 
