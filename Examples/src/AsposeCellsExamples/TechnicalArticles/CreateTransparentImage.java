@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Articles;
+package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
