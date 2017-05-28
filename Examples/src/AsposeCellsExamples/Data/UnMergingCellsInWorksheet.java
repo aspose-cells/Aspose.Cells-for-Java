@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class UnMergingCellsInWorksheet {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(UnMergingCellsInWorksheet.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(UnMergingCellsInWorksheet.class) + "Data/";
 
 		// Create a Workbook.
 		Workbook wbk = new Workbook(dataDir + "mergingcells.xls");

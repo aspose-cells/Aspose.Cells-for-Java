@@ -1,7 +1,7 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 import java.io.*;
 
 public class ExportingDataFromWorksheets {
@@ -9,7 +9,7 @@ public class ExportingDataFromWorksheets {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ExportingDataFromWorksheets.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(ExportingDataFromWorksheets.class) + "Data/";
 
 		// Creating a file stream containing the Excel file to be opened
 		FileInputStream fstream = new FileInputStream(dataDir + "book1.xls");

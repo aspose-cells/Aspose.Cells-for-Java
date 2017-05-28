@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.BackgroundType;
 import com.aspose.cells.Cells;
@@ -7,14 +7,14 @@ import com.aspose.cells.Font;
 import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class MergingCellsInWorksheet {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(MergingCellsInWorksheet.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(MergingCellsInWorksheet.class) + "Data/";
 
 		// Create a Workbook.
 		Workbook wbk = new Workbook();

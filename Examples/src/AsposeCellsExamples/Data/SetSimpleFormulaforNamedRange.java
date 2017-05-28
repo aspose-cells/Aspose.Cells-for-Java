@@ -1,14 +1,13 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.Name;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.charts.CreateChart;
+import AsposeCellsExamples.Utils;
 
 public class SetSimpleFormulaforNamedRange {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(CreateChart.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(SetSimpleFormulaforNamedRange.class) + "Data/";
 		// Create an instance of Workbook
 		Workbook book = new Workbook();
 

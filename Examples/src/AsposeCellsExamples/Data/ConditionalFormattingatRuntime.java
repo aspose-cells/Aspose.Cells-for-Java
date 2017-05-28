@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.CellArea;
 import com.aspose.cells.ConditionalFormattingCollection;
@@ -8,12 +8,12 @@ import com.aspose.cells.FormatConditionType;
 import com.aspose.cells.OperatorType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ConditionalFormattingatRuntime {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getSharedDataDir(ConditionalFormattingatRuntime.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(ConditionalFormattingatRuntime.class) + "Data/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 		Worksheet sheet = workbook.getWorksheets().get(0);

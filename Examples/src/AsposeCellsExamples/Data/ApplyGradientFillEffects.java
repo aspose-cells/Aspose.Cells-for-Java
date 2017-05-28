@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.Color;
 import com.aspose.cells.GradientStyleType;
@@ -6,12 +6,12 @@ import com.aspose.cells.Style;
 import com.aspose.cells.TextAlignmentType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ApplyGradientFillEffects {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ApplyGradientFillEffects.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(ApplyGradientFillEffects.class) + "Data/";
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();
 		// Get the first worksheet (default) in the workbook

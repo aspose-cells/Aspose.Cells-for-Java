@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.BackgroundType;
 import com.aspose.cells.Cell;
@@ -7,11 +7,11 @@ import com.aspose.cells.Color;
 import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ColorsAndBackground {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(ColorsAndBackground.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(ColorsAndBackground.class) + "Data/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 

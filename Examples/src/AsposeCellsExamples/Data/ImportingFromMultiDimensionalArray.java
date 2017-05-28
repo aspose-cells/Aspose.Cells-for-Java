@@ -1,13 +1,13 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.Cells;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ImportingFromMultiDimensionalArray {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ImportingFromMultiDimensionalArray.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(ImportingFromMultiDimensionalArray.class) + "Data/";
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();
 		// Get the first worksheet (default sheet) in the Workbook

@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.Color;
 import com.aspose.cells.Font;
@@ -6,12 +6,12 @@ import com.aspose.cells.FontUnderlineType;
 import com.aspose.cells.FormatCondition;
 import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SettingFontStyle {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getSharedDataDir(SettingFontStyle.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(SettingFontStyle.class) + "Data/";
 		
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();

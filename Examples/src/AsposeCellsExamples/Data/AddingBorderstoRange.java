@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.data;
+package AsposeCellsExamples.Data;
 
 import com.aspose.cells.Cell;
 import com.aspose.cells.CellBorderType;
@@ -6,12 +6,12 @@ import com.aspose.cells.Color;
 import com.aspose.cells.Range;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddingBorderstoRange {
 	public static void main(String[] args) throws Exception {
 		// Path to source file
-		String dataDir = Utils.getSharedDataDir(AddingBordersToCells.class) + "data/";
+		String dataDir = Utils.getSharedDataDir(AddingBordersToCells.class) + "Data/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 
