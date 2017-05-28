@@ -34,4 +34,26 @@ public class Utils {
         
         return dir.toString() + File.separator;
     }
+    
+    public static String Get_SourceDirectory()
+    {
+    	File dir = new File(System.getProperty("user.dir"));
+        dir = new File(dir, "src");
+        dir = new File(dir, "resources");
+        
+        String srcDir = dir.toString() + File.separator + "01_SourceDirectory"+ File.separator;
+
+        return srcDir;
+    }
+
+    public static String Get_OutputDirectory()
+    {
+    	File dir = new File(System.getProperty("user.dir"));
+        dir = new File(dir, "src");
+        dir = new File(dir, "resources");
+        
+        String outDir = dir.toString()+ File.separator + "02_OutputDirectory"+ File.separator;
+
+        return outDir;
+    }
 }
