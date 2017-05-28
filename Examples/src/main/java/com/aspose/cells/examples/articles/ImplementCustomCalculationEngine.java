@@ -24,6 +24,12 @@ public class ImplementCustomCalculationEngine {
 
 	public static void main(String[] args) throws Exception {
 
+		ImplementCustomCalculationEngine pg = new ImplementCustomCalculationEngine();
+		pg.Run();
+	}
+
+	public void Run() throws Exception
+	{
 		// The path to the documents directory.
 		String dataDir = Utils.getDataDir(ImplementCustomCalculationEngine.class);
 
@@ -52,6 +58,5 @@ public class ImplementCustomCalculationEngine {
 		System.out.println("With Custom Engine Value of A1: " + a1.getStringValue());
 
 	}
-
 
 }

@@ -3,7 +3,6 @@ package com.aspose.cells.examples.formulas;
 import com.aspose.cells.DateTime;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.formatting.TextAlignmentVertical;
 
 public class CalculatingFormulasOnce {
 	public static void main(String[] args) throws Exception {

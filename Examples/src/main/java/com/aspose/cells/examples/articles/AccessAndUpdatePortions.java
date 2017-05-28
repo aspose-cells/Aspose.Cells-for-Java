@@ -5,7 +5,6 @@ import com.aspose.cells.FontSetting;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.AdvancedTopics.SmartMarkers.UsingHTMLProperty;
 
 public class AccessAndUpdatePortions {
 	public static void main(String[] args) throws Exception {

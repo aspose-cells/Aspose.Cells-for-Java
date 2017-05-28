@@ -8,7 +8,6 @@ import com.aspose.cells.TotalsCalculation;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.RowsColumns.UnhidingRowsandColumns;
 
 public class FormataListObject {
 	public static void main(String[] args) throws Exception {
