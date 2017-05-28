@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class HowToCreateLineChart {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(HowToCreateLineChart.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(HowToCreateLineChart.class) + "Charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();

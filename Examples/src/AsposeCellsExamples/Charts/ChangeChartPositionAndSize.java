@@ -1,15 +1,14 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
-import com.aspose.cells.examples.charts.HowToCreateChart;
+import AsposeCellsExamples.Utils;
 
 public class ChangeChartPositionAndSize {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ChangeChartPositionAndSize.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(ChangeChartPositionAndSize.class) + "Charts/";
 
 		String filePath = dataDir + "book1.xls";
 

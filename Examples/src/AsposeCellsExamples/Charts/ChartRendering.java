@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import java.awt.RenderingHints;
 
@@ -9,11 +9,11 @@ import com.aspose.cells.ImageOrPrintOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ChartRendering {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(CreateChart.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(CreateChart.class) + "Charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();

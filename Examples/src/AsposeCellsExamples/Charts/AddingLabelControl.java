@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddingLabelControl {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:AddingLabelControl
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddingLabelControl.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(AddingLabelControl.class) + "Charts/";
 
 		String filePath = dataDir + "chart.xls";
 

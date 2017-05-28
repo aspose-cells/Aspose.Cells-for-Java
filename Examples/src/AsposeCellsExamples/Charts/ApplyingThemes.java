@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import com.aspose.cells.CellsColor;
 import com.aspose.cells.Chart;
@@ -7,13 +7,13 @@ import com.aspose.cells.ThemeColor;
 import com.aspose.cells.ThemeColorType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ApplyingThemes {
 	public static void main(String[] args) throws Exception {
 		// ExStart:ApplyingThemes
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ApplyingThemes.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(ApplyingThemes.class) + "Charts/";
 
 		// Instantiate the workbook to open the file that contains a chart
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

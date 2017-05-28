@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import java.io.FileInputStream;
 
@@ -10,14 +10,14 @@ import com.aspose.cells.MsoLineDashStyle;
 import com.aspose.cells.Picture;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddingPictureToChart {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:AddingPictureToChart
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddingPictureToChart.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(AddingPictureToChart.class) + "Charts/";
 
 		String filePath = dataDir + "chart.xls";
 

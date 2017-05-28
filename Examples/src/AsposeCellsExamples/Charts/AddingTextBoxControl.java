@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class AddingTextBoxControl {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:AddingTextBoxControl
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddingTextBoxControl.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(AddingTextBoxControl.class) + "Charts/";
 		String filePath = dataDir + "chart.xls";
 
 		// Create a new Workbook.

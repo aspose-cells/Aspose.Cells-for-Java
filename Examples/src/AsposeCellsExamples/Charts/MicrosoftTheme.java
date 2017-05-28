@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import com.aspose.cells.CellsColor;
 import com.aspose.cells.Chart;
@@ -8,14 +8,14 @@ import com.aspose.cells.ThemeColorType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class MicrosoftTheme {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:MicrosoftTheme
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(MicrosoftTheme.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(MicrosoftTheme.class) + "Charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

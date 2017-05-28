@@ -1,16 +1,16 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import java.util.*;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ReadManipulateExcel2016Charts {
 
 	public static void main(String[] args) throws Exception {
 	
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ReadManipulateExcel2016Charts.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(ReadManipulateExcel2016Charts.class) + "Charts/";
 		
 		// Load source excel file containing excel 2016 charts
 		Workbook wb = new Workbook(dataDir + "excel2016Charts.xlsx");

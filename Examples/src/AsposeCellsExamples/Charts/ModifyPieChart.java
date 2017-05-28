@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ModifyPieChart {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ModifyPieChart.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(ModifyPieChart.class) + "Charts/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "ModifyCharts.xlsx");

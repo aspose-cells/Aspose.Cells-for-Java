@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.charts;
+package AsposeCellsExamples.Charts;
 
 import com.aspose.cells.Bevel;
 import com.aspose.cells.BevelPresetType;
@@ -13,14 +13,14 @@ import com.aspose.cells.Series;
 import com.aspose.cells.ShapePropertyCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class Applying3DFormat {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(Applying3DFormat.class) + "charts/";
+		String dataDir = Utils.getSharedDataDir(Applying3DFormat.class) + "Charts/";
 
 		// Instantiate a new Workbook
 		Workbook book = new Workbook();
