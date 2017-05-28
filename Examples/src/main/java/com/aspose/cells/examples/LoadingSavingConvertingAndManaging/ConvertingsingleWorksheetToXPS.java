@@ -10,7 +10,7 @@ import com.aspose.cells.examples.Utils;
 public class ConvertingsingleWorksheetToXPS {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ConvertingsingleWorksheetToXPS.class) + "loading_saving/";
+		String dataDir = Utils.getSharedDataDir(ConvertingsingleWorksheetToXPS.class) + "LoadingSavingConvertingAndManaging/";
 		
 		//Open an Excel file
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
