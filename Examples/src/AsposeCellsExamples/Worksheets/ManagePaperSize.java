@@ -1,15 +1,15 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import com.aspose.cells.PageSetup;
 import com.aspose.cells.PaperSizeType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ManagePaperSize {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(ManagePaperSize.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(ManagePaperSize.class) + "Worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 

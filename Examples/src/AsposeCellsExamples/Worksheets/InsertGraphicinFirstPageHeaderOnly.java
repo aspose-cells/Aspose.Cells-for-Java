@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import java.io.FileInputStream;
 
@@ -7,11 +7,11 @@ import com.aspose.cells.Cells;
 import com.aspose.cells.PageSetup;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class InsertGraphicinFirstPageHeaderOnly {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(InsertGraphicinFirstPageHeaderOnly.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(InsertGraphicinFirstPageHeaderOnly.class) + "Worksheets/";
 
 		// Creating a Workbook object
 		Workbook workbook = new Workbook();

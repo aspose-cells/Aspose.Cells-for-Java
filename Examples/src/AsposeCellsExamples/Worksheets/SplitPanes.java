@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SplitPanes {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SplitPanes.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(SplitPanes.class) + "Worksheets/";
 
 		// Instantiate a new workbook
 		// Open a template file

@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class DisplayHideScrollBars {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DisplayHideScrollBars.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(DisplayHideScrollBars.class) + "Worksheets/";
 
 		// Instantiating a Excel object by excel file path
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

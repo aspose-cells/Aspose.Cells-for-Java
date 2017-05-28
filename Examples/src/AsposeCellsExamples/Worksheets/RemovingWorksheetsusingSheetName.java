@@ -1,16 +1,16 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import java.io.FileInputStream;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class RemovingWorksheetsusingSheetName {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RemovingWorksheetsusingSheetName.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(RemovingWorksheetsusingSheetName.class) + "Worksheets/";
 
 		// Creating a file stream containing the Excel file to be opened
 		FileInputStream fstream = new FileInputStream(dataDir + "book.xls");

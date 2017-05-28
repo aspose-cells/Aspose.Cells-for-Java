@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import java.io.FileInputStream;
 
 import com.aspose.cells.PageSetup;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SetHeadersAndFooters {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(SetHeadersAndFooters.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(SetHeadersAndFooters.class) + "Worksheets/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();

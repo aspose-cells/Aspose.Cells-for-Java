@@ -1,15 +1,15 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import com.aspose.cells.HorizontalPageBreakCollection;
 import com.aspose.cells.VerticalPageBreakCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class RemoveSpecificPageBreak {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(RemoveSpecificPageBreak.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(RemoveSpecificPageBreak.class) + "Worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "SampleXLSFile_38kb.xls");
 

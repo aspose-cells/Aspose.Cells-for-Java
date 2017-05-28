@@ -1,13 +1,13 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CopyWithinWorkbook {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "Worksheets/";
 		// Create a new Workbook by excel file path
 		Workbook wb = new Workbook(dataDir + "book1.xls");
 

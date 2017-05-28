@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import com.aspose.cells.PageSetup;
 import com.aspose.cells.PrintCommentsType;
@@ -6,11 +6,11 @@ import com.aspose.cells.PrintErrorsType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class OtherPrintOptions {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(OtherPrintOptions.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(OtherPrintOptions.class) + "Worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 

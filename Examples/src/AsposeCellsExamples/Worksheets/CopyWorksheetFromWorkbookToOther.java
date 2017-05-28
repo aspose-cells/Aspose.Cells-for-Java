@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import com.aspose.cells.FileFormatType;
 import com.aspose.cells.PageSetup;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class CopyWorksheetFromWorkbookToOther {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "Worksheets/";
 		// Create a new Workbook.
 		Workbook excelWorkbook0 = new Workbook();
 

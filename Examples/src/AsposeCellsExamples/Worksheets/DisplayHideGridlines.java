@@ -1,14 +1,14 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import com.aspose.cells.*;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class DisplayHideGridlines {
 
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DisplayHideGridlines.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(DisplayHideGridlines.class) + "Worksheets/";
 
 		// Instantiating a Workbook object by excel file path
 		Workbook workbook = new Workbook(dataDir + "book1.xls");

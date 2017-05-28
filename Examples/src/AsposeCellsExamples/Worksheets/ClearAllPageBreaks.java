@@ -1,11 +1,11 @@
-package com.aspose.cells.examples.Worksheets;
+package AsposeCellsExamples.Worksheets;
 
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ClearAllPageBreaks {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "worksheets/";
+		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "Worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 		workbook.getWorksheets().get(0).getHorizontalPageBreaks().clear();
