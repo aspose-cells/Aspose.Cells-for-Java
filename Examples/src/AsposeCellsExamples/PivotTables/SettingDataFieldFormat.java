@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.PivotTables;
+package AsposeCellsExamples.PivotTables;
 
 import com.aspose.cells.PivotField;
 import com.aspose.cells.PivotFieldCollection;
@@ -7,7 +7,7 @@ import com.aspose.cells.PivotItemPosition;
 import com.aspose.cells.PivotTable;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SettingDataFieldFormat {
 	public static void main(String[] args) throws Exception {

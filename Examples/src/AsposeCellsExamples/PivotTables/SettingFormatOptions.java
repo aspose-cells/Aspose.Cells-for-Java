@@ -1,11 +1,11 @@
-package com.aspose.cells.examples.PivotTables;
+package AsposeCellsExamples.PivotTables;
 
 import com.aspose.cells.PivotFieldType;
 import com.aspose.cells.PivotTable;
 import com.aspose.cells.PrintOrderType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SettingFormatOptions {
 	public static void main(String[] args) throws Exception {

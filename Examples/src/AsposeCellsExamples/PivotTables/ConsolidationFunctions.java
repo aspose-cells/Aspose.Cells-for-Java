@@ -1,10 +1,10 @@
-package com.aspose.cells.examples.PivotTables;
+package AsposeCellsExamples.PivotTables;
 
 import com.aspose.cells.ConsolidationFunction;
 import com.aspose.cells.PivotTable;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ConsolidationFunctions {
 	public static void main(String[] args) throws Exception {

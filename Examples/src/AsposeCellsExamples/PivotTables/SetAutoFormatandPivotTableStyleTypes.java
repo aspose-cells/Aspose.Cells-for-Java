@@ -1,11 +1,11 @@
-package com.aspose.cells.examples.PivotTables;
+package AsposeCellsExamples.PivotTables;
 
 import com.aspose.cells.PivotTable;
 import com.aspose.cells.PivotTableAutoFormatType;
 import com.aspose.cells.PivotTableStyleType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class SetAutoFormatandPivotTableStyleTypes {
 	public static void main(String[] args) throws Exception {

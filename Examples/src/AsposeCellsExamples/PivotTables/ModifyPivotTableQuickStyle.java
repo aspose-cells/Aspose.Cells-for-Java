@@ -1,4 +1,4 @@
-package com.aspose.cells.examples.PivotTables;
+package AsposeCellsExamples.PivotTables;
 
 import com.aspose.cells.Color;
 import com.aspose.cells.PivotTable;
@@ -7,7 +7,7 @@ import com.aspose.cells.TableStyle;
 import com.aspose.cells.TableStyleElement;
 import com.aspose.cells.TableStyleElementType;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.examples.Utils;
+import AsposeCellsExamples.Utils;
 
 public class ModifyPivotTableQuickStyle {
 	public static void main(String[] args) throws Exception {
