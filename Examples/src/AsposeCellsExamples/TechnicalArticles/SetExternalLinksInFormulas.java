@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class SetExternalLinksInFormulas {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(SetExternalLinksInFormulas.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SetExternalLinksInFormulas.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 

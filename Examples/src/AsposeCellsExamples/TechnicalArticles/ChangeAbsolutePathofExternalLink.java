@@ -8,7 +8,7 @@ public class ChangeAbsolutePathofExternalLink {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ChangeAbsolutePathofExternalLink.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ChangeAbsolutePathofExternalLink.class) + "TechnicalArticles/";
 
 		// Load your source excel file containing the external link
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");

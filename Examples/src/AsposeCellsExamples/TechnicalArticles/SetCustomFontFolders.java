@@ -14,7 +14,7 @@ public class SetCustomFontFolders {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SetCustomFontFolders.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SetCustomFontFolders.class) + "TechnicalArticles/";
 		// Defining string variables to store paths to font folders & font file
 		String fontFolder1 = dataDir + "/Arial";
 		String fontFolder2 = dataDir + "/Calibri";

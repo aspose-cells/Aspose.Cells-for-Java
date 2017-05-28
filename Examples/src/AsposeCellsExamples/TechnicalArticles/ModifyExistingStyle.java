@@ -9,7 +9,7 @@ public class ModifyExistingStyle {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ModifyExistingStyle.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ModifyExistingStyle.class) + "TechnicalArticles/";
 
 		/*
 		 * Create a workbook. Open a template file. In the book1.xls file, we have applied Microsoft Excel's Named style

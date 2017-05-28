@@ -12,7 +12,7 @@ public class RetrievingExternalDataSourcesDetails {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RetrievingExternalDataSourcesDetails.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(RetrievingExternalDataSourcesDetails.class) + "TechnicalArticles/";
 		// Open the template Excel file
 		Workbook workbook = new Workbook(dataDir + "connection.xlsx");
 

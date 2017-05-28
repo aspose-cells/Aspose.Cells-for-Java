@@ -10,7 +10,7 @@ public class RefreshValuesOfLinkedShapes {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RefreshValuesOfLinkedShapes.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(RefreshValuesOfLinkedShapes.class) + "TechnicalArticles/";
 		// Create workbook from source file
 		Workbook workbook = new Workbook(dataDir + "LinkedShape.xlsx");
 

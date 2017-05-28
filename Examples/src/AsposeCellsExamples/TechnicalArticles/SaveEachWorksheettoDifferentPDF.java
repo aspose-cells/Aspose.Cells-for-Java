@@ -8,7 +8,7 @@ public class SaveEachWorksheettoDifferentPDF {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SaveEachWorksheettoDifferentPDF.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SaveEachWorksheettoDifferentPDF.class) + "TechnicalArticles/";
 		// Instantiate a new workbook and open the Excel
 		// File from its location
 		Workbook workbook = new Workbook(dataDir + "input.xlsx");

@@ -9,7 +9,7 @@ public class WritingLargeExcelFiles {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(WritingLargeExcelFiles.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(WritingLargeExcelFiles.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook
 		Workbook wb = new Workbook();
 		// Set the memory preferences

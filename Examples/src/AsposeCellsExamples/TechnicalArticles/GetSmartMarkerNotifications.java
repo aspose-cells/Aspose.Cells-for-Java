@@ -6,7 +6,7 @@ import AsposeCellsExamples.Utils;
 public class GetSmartMarkerNotifications {
 
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(GetSmartMarkerNotifications.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(GetSmartMarkerNotifications.class) + "TechnicalArticles/";
 		String outputPath = dataDir + "GSMNotifications_out.xlsx";
 
 		// Instantiate a new Workbook designer

@@ -12,7 +12,7 @@ public class SettingPrintoptions {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SettingPrintoptions.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SettingPrintoptions.class) + "TechnicalArticles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "PageSetup.xls");
 

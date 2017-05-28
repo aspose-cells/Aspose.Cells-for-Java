@@ -11,7 +11,7 @@ public class ImplementSubtotalGrandTotallabels {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ImplementSubtotalGrandTotallabels.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ImplementSubtotalGrandTotallabels.class) + "TechnicalArticles/";
 
 		// Load your source workbook
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");

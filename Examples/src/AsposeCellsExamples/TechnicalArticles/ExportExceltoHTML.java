@@ -9,7 +9,7 @@ public class ExportExceltoHTML {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ExportExceltoHTML.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ExportExceltoHTML.class) + "TechnicalArticles/";
 		// Create your workbook
 		Workbook wb = new Workbook();
 

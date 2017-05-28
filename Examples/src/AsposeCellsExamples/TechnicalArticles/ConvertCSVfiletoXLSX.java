@@ -9,7 +9,7 @@ public class ConvertCSVfiletoXLSX {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ConvertCSVfiletoXLSX.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ConvertCSVfiletoXLSX.class) + "TechnicalArticles/";
 		// Set Multi Encoded Property to True
 		TxtLoadOptions options = new TxtLoadOptions();
 		options.setMultiEncoded(true);

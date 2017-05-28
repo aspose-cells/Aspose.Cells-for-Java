@@ -10,7 +10,7 @@ public class CustomTextforOtherLabelofPieChart {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CustomTextforOtherLabelofPieChart.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CustomTextforOtherLabelofPieChart.class) + "TechnicalArticles/";
 		
 		//Loads an existing spreadsheet containing a pie chart
 		Workbook book = new Workbook(dataDir + "sample.xlsx");

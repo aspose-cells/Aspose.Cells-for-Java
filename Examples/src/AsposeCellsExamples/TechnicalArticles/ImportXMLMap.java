@@ -6,7 +6,7 @@ import AsposeCellsExamples.Utils;
 public class ImportXMLMap {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ImportXMLMap.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ImportXMLMap.class) + "TechnicalArticles/";
 		// Create a workbook
 		Workbook workbook = new Workbook();
 

@@ -9,7 +9,7 @@ public class MergeUnmergeRangeofCells {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(MergeUnmergeRangeofCells.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(MergeUnmergeRangeofCells.class) + "TechnicalArticles/";
 		// Create a workbook
 		Workbook workbook = new Workbook();
 

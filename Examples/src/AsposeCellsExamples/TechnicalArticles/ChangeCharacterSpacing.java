@@ -12,7 +12,7 @@ public class ChangeCharacterSpacing {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ChangeCharacterSpacing.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ChangeCharacterSpacing.class) + "TechnicalArticles/";
 		// Load your excel file inside a workbook obect
 		Workbook wb = new Workbook(dataDir + "character-spacing.xlsx");
 

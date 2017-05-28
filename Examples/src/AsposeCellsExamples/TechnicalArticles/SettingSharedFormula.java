@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class SettingSharedFormula {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(SettingSharedFormula.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SettingSharedFormula.class) + "TechnicalArticles/";
 
 		String filePath = dataDir + "input.xlsx";
 

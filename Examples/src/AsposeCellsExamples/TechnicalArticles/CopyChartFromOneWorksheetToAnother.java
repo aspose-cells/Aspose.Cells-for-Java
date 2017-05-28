@@ -11,7 +11,7 @@ public class CopyChartFromOneWorksheetToAnother {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CopyChartFromOneWorksheetToAnother.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CopyChartFromOneWorksheetToAnother.class) + "TechnicalArticles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Shapes.xls");
 

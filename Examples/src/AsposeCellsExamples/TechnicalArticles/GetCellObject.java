@@ -12,7 +12,7 @@ public class GetCellObject {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GetCellObject.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(GetCellObject.class) + "TechnicalArticles/";
 		// Create workbook object from source excel file
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 

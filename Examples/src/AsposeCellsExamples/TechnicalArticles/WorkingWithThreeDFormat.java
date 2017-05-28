@@ -10,7 +10,7 @@ import AsposeCellsExamples.Utils;
 public class WorkingWithThreeDFormat {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(WorkingWithThreeDFormat.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(WorkingWithThreeDFormat.class) + "TechnicalArticles/";
 		
 		//Load excel file containing a shape
 		Workbook wb = new Workbook(dataDir + "WorkingWithThreeDFormat_in.xlsx");

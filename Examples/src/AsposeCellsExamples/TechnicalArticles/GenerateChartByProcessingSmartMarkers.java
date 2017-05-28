@@ -14,7 +14,7 @@ public class GenerateChartByProcessingSmartMarkers {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GenerateChartByProcessingSmartMarkers.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(GenerateChartByProcessingSmartMarkers.class) + "TechnicalArticles/";
 
 
 

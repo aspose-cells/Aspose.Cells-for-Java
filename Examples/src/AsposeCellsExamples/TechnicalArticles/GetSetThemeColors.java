@@ -9,7 +9,7 @@ public class GetSetThemeColors {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GetSetThemeColors.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(GetSetThemeColors.class) + "TechnicalArticles/";
 		// Instantiate Workbook object
 		// Open an exiting excel file
 		Workbook workbook = new Workbook(dataDir + "book1.xlsx");

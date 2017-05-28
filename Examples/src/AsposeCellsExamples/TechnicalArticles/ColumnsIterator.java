@@ -9,7 +9,7 @@ import AsposeCellsExamples.Utils;
 public class ColumnsIterator {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ColumnsIterator.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ColumnsIterator.class) + "TechnicalArticles/";
 		// Load a file in an instance of Workbook
 		Workbook book = new Workbook(dataDir + "sample.xlsx");
 

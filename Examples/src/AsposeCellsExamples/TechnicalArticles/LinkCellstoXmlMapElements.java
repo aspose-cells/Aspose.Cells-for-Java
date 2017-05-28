@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class LinkCellstoXmlMapElements {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(LinkCellstoXmlMapElements.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(LinkCellstoXmlMapElements.class) + "TechnicalArticles/";
 		// Load sample workbook
 		Workbook wb = new Workbook(dataDir + "LinkCellstoXmlMapElements_in.xlsx");
 

@@ -10,7 +10,7 @@ public class ConvertWorkbooktoImage {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ConvertWorkbooktoImage.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ConvertWorkbooktoImage.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook object
 		Workbook book = new Workbook(dataDir + "book1.xlsx");
 

@@ -9,7 +9,7 @@ public class FindAbsolutePositionOfShape {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(FindAbsolutePositionOfShape.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(FindAbsolutePositionOfShape.class) + "TechnicalArticles/";
 		// Load the sample Excel file inside the workbook object
 		Workbook workbook = new Workbook("sample.xlsx");
 

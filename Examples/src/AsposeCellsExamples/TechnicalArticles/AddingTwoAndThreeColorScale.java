@@ -12,7 +12,7 @@ import AsposeCellsExamples.Utils;
 public class AddingTwoAndThreeColorScale {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(AddingTwoAndThreeColorScale.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddingTwoAndThreeColorScale.class) + "TechnicalArticles/";
 		// Create workbook
 		Workbook workbook = new Workbook();
 

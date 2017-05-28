@@ -20,7 +20,7 @@ public class DecreaseCalculationTime {
 
 	static void TestCalcTimeRecursive(boolean rec) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(DecreaseCalculationTime.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(DecreaseCalculationTime.class) + "TechnicalArticles/";
 
 		// Load your sample workbook
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");

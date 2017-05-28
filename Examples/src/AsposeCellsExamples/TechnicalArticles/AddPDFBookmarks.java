@@ -13,7 +13,7 @@ public class AddPDFBookmarks {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddPDFBookmarks.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddPDFBookmarks.class) + "TechnicalArticles/";
 		// Instantiate a new workbook.
 		Workbook workbook = new Workbook();
 

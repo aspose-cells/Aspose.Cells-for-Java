@@ -10,7 +10,7 @@ public class ModifyExistingSQLDataConnection {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ModifyExistingSQLDataConnection.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ModifyExistingSQLDataConnection.class) + "TechnicalArticles/";
 		// Create a workbook object from source file
 		Workbook workbook = new Workbook(dataDir + "DataConnection.xlsx");
 

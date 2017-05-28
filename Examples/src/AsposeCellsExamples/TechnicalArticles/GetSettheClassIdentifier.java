@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class GetSettheClassIdentifier {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GetSettheClassIdentifier.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(GetSettheClassIdentifier.class) + "TechnicalArticles/";
 		
 		//Load your sample workbook which contains embedded PowerPoint ole object
 		Workbook wb = new Workbook(dataDir + "sample.xls");

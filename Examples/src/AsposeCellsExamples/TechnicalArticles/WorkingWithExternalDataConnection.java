@@ -11,7 +11,7 @@ public class WorkingWithExternalDataConnection {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(WorkingWithExternalDataConnection.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(WorkingWithExternalDataConnection.class) + "TechnicalArticles/";
 		
 		Workbook workbook = new Workbook(dataDir + "WebQuerySample.xlsx");
 

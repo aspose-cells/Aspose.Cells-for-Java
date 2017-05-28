@@ -11,7 +11,7 @@ public class GetCellStringValue {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GetCellStringValue.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(GetCellStringValue.class) + "TechnicalArticles/";
 		// Create workbook
 		Workbook workbook = new Workbook();
 

@@ -7,7 +7,7 @@ import AsposeCellsExamples.Utils;
 public class ApplyingEncryption {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ApplyingEncryption.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ApplyingEncryption.class) + "TechnicalArticles/";
 
 		// Instantiate a Workbook object.
 		Workbook workbook = new Workbook(dataDir + "Book1.xls");

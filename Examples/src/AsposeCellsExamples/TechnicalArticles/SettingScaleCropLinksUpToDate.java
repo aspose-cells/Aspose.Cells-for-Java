@@ -7,7 +7,7 @@ public class SettingScaleCropLinksUpToDate {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SettingScaleCropLinksUpToDate.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SettingScaleCropLinksUpToDate.class) + "TechnicalArticles/";
 
 		// Create workbook
 		Workbook wb = new Workbook();

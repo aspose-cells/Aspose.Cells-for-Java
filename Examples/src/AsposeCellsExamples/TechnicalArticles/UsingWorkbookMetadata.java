@@ -11,7 +11,7 @@ public class UsingWorkbookMetadata {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(UsingWorkbookMetadata.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(UsingWorkbookMetadata.class) + "TechnicalArticles/";
 
 		// Open Workbook metadata
 		MetadataOptions options = new MetadataOptions(MetadataType.DOCUMENT_PROPERTIES);

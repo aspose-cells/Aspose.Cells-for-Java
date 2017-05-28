@@ -15,7 +15,7 @@ import AsposeCellsExamples.Utils;
 public class CreateTableforRange {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(CreateTableforRange.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CreateTableforRange.class) + "TechnicalArticles/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();

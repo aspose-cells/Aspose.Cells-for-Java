@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class ReadingAndWritingQueryTable {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ReadingAndWritingQueryTable.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ReadingAndWritingQueryTable.class) + "TechnicalArticles/";
 		// Create workbook from source excel file
 		Workbook workbook = new Workbook(dataDir + "Sample.xlsx");
 

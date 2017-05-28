@@ -9,7 +9,7 @@ import AsposeCellsExamples.Utils;
 public class WorkingWithReflectionEffect {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(WorkingWithReflectionEffect.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(WorkingWithReflectionEffect.class) + "TechnicalArticles/";
 
 		// Load your source excel file
 		Workbook wb = new Workbook(dataDir + "WorkingWithReflectionEffect_in.xlsx");

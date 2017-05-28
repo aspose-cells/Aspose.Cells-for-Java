@@ -11,7 +11,7 @@ public class FilterDataWhileLoadingWorkbook {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(FilterDataWhileLoadingWorkbook.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(FilterDataWhileLoadingWorkbook.class) + "TechnicalArticles/";
 		// Set the load options, we only want to load shapes and do not want to load data
 		LoadOptions opts = new LoadOptions(LoadFormat.XLSX);
 		opts.setLoadDataFilterOptions(LoadDataFilterOptions.SHAPE);

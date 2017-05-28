@@ -13,7 +13,7 @@ public class CreateWaterfallChart {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CreateWaterfallChart.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CreateWaterfallChart.class) + "TechnicalArticles/";
 
 		// Create an instance of Workbook
 		Workbook workbook = new Workbook();

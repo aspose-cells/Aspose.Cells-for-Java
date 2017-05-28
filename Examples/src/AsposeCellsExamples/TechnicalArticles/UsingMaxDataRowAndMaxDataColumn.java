@@ -7,7 +7,7 @@ import AsposeCellsExamples.Utils;
 public class UsingMaxDataRowAndMaxDataColumn {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(UsingMaxDataRowAndMaxDataColumn.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(UsingMaxDataRowAndMaxDataColumn.class) + "TechnicalArticles/";
 		// Load a file in an instance of Workbook
 		Workbook book = new Workbook(dataDir + "sample.xlsx");
 

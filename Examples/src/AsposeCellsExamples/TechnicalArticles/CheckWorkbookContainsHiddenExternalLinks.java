@@ -7,7 +7,7 @@ import AsposeCellsExamples.Utils;
 public class CheckWorkbookContainsHiddenExternalLinks {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CheckWorkbookContainsHiddenExternalLinks.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CheckWorkbookContainsHiddenExternalLinks.class) + "TechnicalArticles/";
 
 		// Loads the workbook which contains hidden external links
 		Workbook workbook = new Workbook(dataDir + "CheckWorkbookContainsHiddenExternalLinks_in.xlsx");

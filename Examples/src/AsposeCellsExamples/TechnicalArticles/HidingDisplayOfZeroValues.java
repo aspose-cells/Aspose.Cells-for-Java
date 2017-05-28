@@ -8,7 +8,7 @@ public class HidingDisplayOfZeroValues {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(HidingDisplayOfZeroValues.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(HidingDisplayOfZeroValues.class) + "TechnicalArticles/";
 
 		// Create a new Workbook object
 		Workbook workbook = new Workbook(dataDir + "book1.xlsx");

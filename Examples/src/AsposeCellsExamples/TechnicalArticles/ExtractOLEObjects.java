@@ -14,7 +14,7 @@ public class ExtractOLEObjects {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ExtractOLEObjects.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ExtractOLEObjects.class) + "TechnicalArticles/";
 		// Instantiating a Workbook object, Open the template file.
 		Workbook workbook = new Workbook(dataDir + "oleFile.xlsx");
 

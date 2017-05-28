@@ -7,7 +7,7 @@ public class DeterminetheLicenseLoadedSuccessfully {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DeterminetheLicenseLoadedSuccessfully.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(DeterminetheLicenseLoadedSuccessfully.class) + "TechnicalArticles/";
 		// Create workbook object before setting a license
 		Workbook workbook = new Workbook();
 

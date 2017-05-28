@@ -15,7 +15,7 @@ public class ConditionalFormattingBasedOnFormula {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ConditionalFormattingBasedOnFormula.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ConditionalFormattingBasedOnFormula.class) + "TechnicalArticles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 		Worksheet sheet = workbook.getWorksheets().get(0);

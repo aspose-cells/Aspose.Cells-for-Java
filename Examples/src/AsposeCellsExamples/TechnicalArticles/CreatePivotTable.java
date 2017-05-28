@@ -14,7 +14,7 @@ public class CreatePivotTable {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CreatePivotTable.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CreatePivotTable.class) + "TechnicalArticles/";
 		// Instantiating an Workbook object
 		Workbook workbook = new Workbook();
 		// Obtaining the reference of the first worksheet

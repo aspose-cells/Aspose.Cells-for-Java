@@ -9,7 +9,7 @@ public class AutomaticallyrefreshOLEobject {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AutomaticallyrefreshOLEobject.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AutomaticallyrefreshOLEobject.class) + "TechnicalArticles/";
 
 		// Create workbook object from your sample excel file
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");

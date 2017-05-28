@@ -9,7 +9,7 @@ public class DisplayBullets {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DisplayBullets.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(DisplayBullets.class) + "TechnicalArticles/";
 		//Create workbook object
 		Workbook workbook = new Workbook();
 

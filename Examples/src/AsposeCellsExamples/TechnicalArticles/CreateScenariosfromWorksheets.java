@@ -10,7 +10,7 @@ public class CreateScenariosfromWorksheets {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CreateScenariosfromWorksheets.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CreateScenariosfromWorksheets.class) + "TechnicalArticles/";
 		// Instantiate the Workbook
 		// Load an Excel file
 		Workbook workbook = new Workbook(dataDir + "Bk_scenarios.xlsx");

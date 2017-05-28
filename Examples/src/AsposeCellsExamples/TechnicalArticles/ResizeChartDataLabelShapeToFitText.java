@@ -11,7 +11,7 @@ public class ResizeChartDataLabelShapeToFitText {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ResizeChartDataLabelShapeToFitText.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ResizeChartDataLabelShapeToFitText.class) + "TechnicalArticles/";
 		// Create an instance of Workbook containing the Chart
 		Workbook book = new Workbook(dataDir + "report.xlsx");
 

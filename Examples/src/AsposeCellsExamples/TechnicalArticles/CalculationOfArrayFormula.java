@@ -7,7 +7,7 @@ import AsposeCellsExamples.Utils;
 public class CalculationOfArrayFormula {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(CalculationOfArrayFormula.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CalculationOfArrayFormula.class) + "TechnicalArticles/";
 		// Create workbook from source excel file
 		Workbook workbook = new Workbook(dataDir + "DataTable.xlsx");
 

@@ -10,7 +10,7 @@ public class CustomLabelsforSubtotals {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CustomLabelsforSubtotals.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CustomLabelsforSubtotals.class) + "TechnicalArticles/";
 
 		// Loads an existing spreadsheet containing some data
 		Workbook book = new Workbook(dataDir + "sample.xlsx");

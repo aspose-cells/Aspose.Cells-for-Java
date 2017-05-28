@@ -9,7 +9,7 @@ public class ReadLargeExcelFiles {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ReadLargeExcelFiles.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ReadLargeExcelFiles.class) + "TechnicalArticles/";
 		// Specify the LoadOptions
 		LoadOptions opt = new LoadOptions();
 		// Set the memory preferences

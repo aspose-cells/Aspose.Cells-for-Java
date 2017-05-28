@@ -12,7 +12,7 @@ public class RemoveWhitespaceAroundData {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RemoveWhitespaceAroundData.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(RemoveWhitespaceAroundData.class) + "TechnicalArticles/";
 
 		// Instantiate a workbook
 		// Open the template file

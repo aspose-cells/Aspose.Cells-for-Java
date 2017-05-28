@@ -13,7 +13,7 @@ public class SupportthelayoutofDIVtags {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SupportthelayoutofDIVtags.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SupportthelayoutofDIVtags.class) + "TechnicalArticles/";
 
 		// Html string
 		String export_html = " <html> <body>     <table>         <tr>             <td>                 <div>This is some Text.</div>                 <div>                     <div>                         <span>This is some more Text</span>                     </div>                     <div>                         <span>abc@abc.com</span>                     </div>                     <div>                         <span>1234567890</span>                     </div>                     <div>                         <span>ABC DEF</span>                     </div>                 </div>                 <div>Generated On May 30, 2016 02:33 PM <br />Time Call Received from Jan 01, 2016 to May 30, 2016</div>             </td>             <td>                 <img src='ASpose_logo_100x100.png' />             </td>         </tr>     </table> </body> </html>";

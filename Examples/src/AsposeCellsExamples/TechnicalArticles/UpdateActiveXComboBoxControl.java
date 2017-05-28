@@ -10,7 +10,7 @@ import com.aspose.cells.Shape;
 public class UpdateActiveXComboBoxControl {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(UpdateActiveXComboBoxControl.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(UpdateActiveXComboBoxControl.class) + "TechnicalArticles/";
 		// Create a workbook
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");
 

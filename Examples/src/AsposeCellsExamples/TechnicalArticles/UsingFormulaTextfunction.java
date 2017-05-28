@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class UsingFormulaTextfunction {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(UsingFormulaTextfunction.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(UsingFormulaTextfunction.class) + "TechnicalArticles/";
 		// Create a workbook object
 		Workbook workbook = new Workbook();
 

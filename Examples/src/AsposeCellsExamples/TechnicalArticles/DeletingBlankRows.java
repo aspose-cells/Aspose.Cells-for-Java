@@ -9,7 +9,7 @@ public class DeletingBlankRows {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DeletingBlankRows.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(DeletingBlankRows.class) + "TechnicalArticles/";
 		// Create a new Workbook. Open an existing excel file.
 		Workbook wb = new Workbook(dataDir + "Book1.xlsx");
 

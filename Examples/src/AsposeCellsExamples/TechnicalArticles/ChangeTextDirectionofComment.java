@@ -10,7 +10,7 @@ import AsposeCellsExamples.Utils;
 public class ChangeTextDirectionofComment {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ChangeTextDirectionofComment.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ChangeTextDirectionofComment.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook
 		Workbook wb = new Workbook();
 		// Get the first worksheet

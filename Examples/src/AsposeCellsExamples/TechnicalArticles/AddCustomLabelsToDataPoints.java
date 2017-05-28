@@ -14,7 +14,7 @@ public class AddCustomLabelsToDataPoints {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddCustomLabelsToDataPoints.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddCustomLabelsToDataPoints.class) + "TechnicalArticles/";
 		Workbook workbook = new Workbook(FileFormatType.XLSX);
 		Worksheet sheet = workbook.getWorksheets().get(0);
 

@@ -14,7 +14,7 @@ public class UseThemeColors {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(UseThemeColors.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(UseThemeColors.class) + "TechnicalArticles/";
 		// Instantiate a Workbook
 		Workbook workbook = new Workbook();
 		// Get cells collection in the first (default) worksheet

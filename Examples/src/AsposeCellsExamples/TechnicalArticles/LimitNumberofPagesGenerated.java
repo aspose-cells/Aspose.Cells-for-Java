@@ -8,7 +8,7 @@ public class LimitNumberofPagesGenerated {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(LimitNumberofPagesGenerated.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(LimitNumberofPagesGenerated.class) + "TechnicalArticles/";
 		// Open an Excel file
 		Workbook wb = new Workbook(dataDir + "TestBook.xlsx");
 		// Instantiate the PdfSaveOption

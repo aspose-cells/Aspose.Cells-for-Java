@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class ModifyVBAorMacroCode {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ModifyVBAorMacroCode.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ModifyVBAorMacroCode.class) + "TechnicalArticles/";
 		// Create workbook object from source Excel file
 		Workbook workbook = new Workbook(dataDir + "sample.xlsm");
 

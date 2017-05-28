@@ -9,7 +9,7 @@ public class CalculateIFNAfunction {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CalculateIFNAfunction.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CalculateIFNAfunction.class) + "TechnicalArticles/";
 		// Create new workbook
 		Workbook workbook = new Workbook();
 

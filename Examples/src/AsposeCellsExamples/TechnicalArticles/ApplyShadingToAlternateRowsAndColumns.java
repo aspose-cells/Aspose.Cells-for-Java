@@ -13,7 +13,7 @@ import AsposeCellsExamples.Utils;
 public class ApplyShadingToAlternateRowsAndColumns {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ApplyShadingToAlternateRowsAndColumns.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ApplyShadingToAlternateRowsAndColumns.class) + "TechnicalArticles/";
 		/*
 		 * Create an instance of Workbook Optionally load an existing spreadsheet by passing its stream or path to Workbook
 		 * constructor

@@ -8,7 +8,7 @@ public class DetectFileFormatandCheckFileEncrypted {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DetectFileFormatandCheckFileEncrypted.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(DetectFileFormatandCheckFileEncrypted.class) + "TechnicalArticles/";
 
 		// Detect file format
 		FileFormatInfo info = FileFormatUtil.detectFileFormat(dataDir + "Book1.xlsx");

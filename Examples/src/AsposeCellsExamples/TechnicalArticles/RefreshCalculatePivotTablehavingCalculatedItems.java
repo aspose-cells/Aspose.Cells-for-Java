@@ -10,7 +10,7 @@ public class RefreshCalculatePivotTablehavingCalculatedItems {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RefreshCalculatePivotTablehavingCalculatedItems.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(RefreshCalculatePivotTablehavingCalculatedItems.class) + "TechnicalArticles/";
 		// Load source excel file containing a pivot table having calculated items
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");
 

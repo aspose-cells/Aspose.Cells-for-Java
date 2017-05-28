@@ -11,7 +11,7 @@ public class ConversionOptions {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ConversionOptions.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ConversionOptions.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook object
 		// Open template
 		Workbook book = new Workbook(dataDir + "book1.xlsx");

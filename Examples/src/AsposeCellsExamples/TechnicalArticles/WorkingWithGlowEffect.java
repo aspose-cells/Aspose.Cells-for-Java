@@ -9,7 +9,7 @@ import AsposeCellsExamples.Utils;
 public class WorkingWithGlowEffect {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(WorkingWithGlowEffect.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(WorkingWithGlowEffect.class) + "TechnicalArticles/";
 
 		// Load your source excel file
 		Workbook wb = new Workbook(dataDir + "WorkingWithGlowEffect_in.xlsx");

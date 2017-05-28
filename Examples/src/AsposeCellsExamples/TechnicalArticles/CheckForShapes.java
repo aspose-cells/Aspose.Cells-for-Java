@@ -11,7 +11,7 @@ public class CheckForShapes {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CheckForShapes.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CheckForShapes.class) + "TechnicalArticles/";
 
 		// Create an instance of Workbook and load an existing spreadsheet
 		Workbook book = new Workbook(dataDir + "sample.xlsx");

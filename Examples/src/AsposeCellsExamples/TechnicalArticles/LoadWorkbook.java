@@ -15,7 +15,7 @@ public class LoadWorkbook {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(LoadWorkbook.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(LoadWorkbook.class) + "TechnicalArticles/";
 
 		// Create a sample workbook and add some data inside the first worksheet
 		Workbook workbook = new Workbook();

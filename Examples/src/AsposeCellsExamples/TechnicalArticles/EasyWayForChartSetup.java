@@ -12,7 +12,7 @@ public class EasyWayForChartSetup {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(EasyWayForChartSetup.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(EasyWayForChartSetup.class) + "TechnicalArticles/";
 		// Create new workbook
 		Workbook workbook = new Workbook(FileFormatType.XLSX);
 

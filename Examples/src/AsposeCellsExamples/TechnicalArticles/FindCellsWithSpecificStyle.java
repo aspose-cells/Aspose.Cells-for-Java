@@ -11,7 +11,7 @@ public class FindCellsWithSpecificStyle {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(FindCellsWithSpecificStyle.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(FindCellsWithSpecificStyle.class) + "TechnicalArticles/";
 
 		Workbook workbook = new Workbook(dataDir + "TestBook.xlsx");
 

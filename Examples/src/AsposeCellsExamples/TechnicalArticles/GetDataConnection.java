@@ -9,7 +9,7 @@ public class GetDataConnection {
 
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(GetDataConnection.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(GetDataConnection.class) + "TechnicalArticles/";
 		String inputPath = dataDir + "WebQuerySample.xlsx";
 
 		Workbook workbook = new Workbook(inputPath);

@@ -9,7 +9,7 @@ public class CombineMultipleWorksheets {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CombineMultipleWorksheets.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CombineMultipleWorksheets.class) + "TechnicalArticles/";
 
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 

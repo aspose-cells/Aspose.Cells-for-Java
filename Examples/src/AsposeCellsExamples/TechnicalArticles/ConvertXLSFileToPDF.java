@@ -8,7 +8,7 @@ public class ConvertXLSFileToPDF {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ConvertXLSFileToPDF.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ConvertXLSFileToPDF.class) + "TechnicalArticles/";
 		
 		//Create a new Workbook
 		Workbook book = new Workbook(dataDir + "SampleInput.xlsx");

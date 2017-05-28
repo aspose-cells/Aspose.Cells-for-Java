@@ -12,7 +12,7 @@ public class UsingExcelTables {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(UsingExcelTables.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(UsingExcelTables.class) + "TechnicalArticles/";
 		// Create an instance of Workbook
 		Workbook book = new Workbook();
 		// Access first worksheet from the collection

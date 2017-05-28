@@ -9,7 +9,7 @@ public class EditingHyperlinksOfWorksheet {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(EditingHyperlinksOfWorksheet.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(EditingHyperlinksOfWorksheet.class) + "TechnicalArticles/";
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 		Worksheet worksheet = workbook.getWorksheets().get(0);
 		for (int i = 0; i < worksheet.getHyperlinks().getCount(); i++) {

@@ -7,7 +7,7 @@ public class FilterObjectsLoadingWorkbook {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(FilterObjectsLoadingWorkbook.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(FilterObjectsLoadingWorkbook.class) + "TechnicalArticles/";
 
 		//Filter charts from entire workbook
 		LoadOptions ldOpts = new LoadOptions();

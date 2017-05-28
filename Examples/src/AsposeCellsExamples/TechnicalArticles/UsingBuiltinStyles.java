@@ -10,7 +10,7 @@ public class UsingBuiltinStyles {
 
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(UsingBuiltinStyles.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(UsingBuiltinStyles.class) + "TechnicalArticles/";
 		String output1Path = dataDir + "UsingBuiltinStyles_out.xlsx";
 		String output2Path = dataDir + "UsingBuiltinStyles_out.ods";
 

@@ -9,7 +9,7 @@ import AsposeCellsExamples.Utils;
 public class WorkingWithShadowEffect {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(WorkingWithShadowEffect.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(WorkingWithShadowEffect.class) + "TechnicalArticles/";
 
 		// Loads the workbook which contains hidden external links
 		Workbook wb = new Workbook(dataDir + "WorkingWithShadowEffect_in.xlsx");

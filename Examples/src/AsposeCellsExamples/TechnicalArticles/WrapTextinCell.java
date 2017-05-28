@@ -10,7 +10,7 @@ public class WrapTextinCell {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(WrapTextinCell.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(WrapTextinCell.class) + "TechnicalArticles/";
 
 		// Create Workbook Object
 		Workbook wb = new Workbook();

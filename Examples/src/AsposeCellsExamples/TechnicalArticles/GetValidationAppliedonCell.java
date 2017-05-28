@@ -10,7 +10,7 @@ public class GetValidationAppliedonCell {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GetValidationAppliedonCell.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(GetValidationAppliedonCell.class) + "TechnicalArticles/";
 		// Instantiate the workbook from sample Excel file
 		Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 

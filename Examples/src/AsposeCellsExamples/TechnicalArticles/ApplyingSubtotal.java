@@ -11,7 +11,7 @@ public class ApplyingSubtotal {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ApplyingSubtotal.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ApplyingSubtotal.class) + "TechnicalArticles/";
 		// Create workbook from source Excel file
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 

@@ -36,7 +36,7 @@ public class FilterObjectsLoadingWorksheets {
 	public void Run() throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(FilterObjectsLoadingWorksheets.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(FilterObjectsLoadingWorksheets.class) + "TechnicalArticles/";
 
 		// Filter worksheets using custom load filter
 		LoadOptions ldOpts = new LoadOptions();

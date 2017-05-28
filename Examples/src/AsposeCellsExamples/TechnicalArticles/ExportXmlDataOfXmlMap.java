@@ -7,7 +7,7 @@ public class ExportXmlDataOfXmlMap {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ExportXmlDataOfXmlMap.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ExportXmlDataOfXmlMap.class) + "TechnicalArticles/";
 		
 		//Load source workbook
 		Workbook wb = new Workbook(dataDir + "sample_Export-Xml-Data-linked.xlsx");

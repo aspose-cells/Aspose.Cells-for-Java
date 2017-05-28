@@ -12,7 +12,7 @@ import AsposeCellsExamples.Utils;
 public class SearchDataUsingOriginalValues {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(SearchDataUsingOriginalValues.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SearchDataUsingOriginalValues.class) + "TechnicalArticles/";
 		// Create workbook object
 		Workbook workbook = new Workbook();
 

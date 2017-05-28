@@ -7,7 +7,7 @@ public class AddXMLMapInsideWorkbook {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddXMLMapInsideWorkbook.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddXMLMapInsideWorkbook.class) + "TechnicalArticles/";
 		// Create workbook object
 		Workbook wb = new Workbook();
 

@@ -9,7 +9,7 @@ import AsposeCellsExamples.Utils;
 public class ChangeDataSource {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ChangeDataSource.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ChangeDataSource.class) + "TechnicalArticles/";
 		// Load sample excel file
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");
 

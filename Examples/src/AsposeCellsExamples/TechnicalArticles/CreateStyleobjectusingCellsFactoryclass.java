@@ -11,7 +11,7 @@ public class CreateStyleobjectusingCellsFactoryclass {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CreateStyleobjectusingCellsFactoryclass.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CreateStyleobjectusingCellsFactoryclass.class) + "TechnicalArticles/";
 
 		// Create a Style object using CellsFactory class
 		CellsFactory cf = new CellsFactory();

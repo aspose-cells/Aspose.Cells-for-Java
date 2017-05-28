@@ -8,7 +8,7 @@ public class ShowFormulas {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ShowFormulas.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ShowFormulas.class) + "TechnicalArticles/";
 		// Load the source workbook
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 

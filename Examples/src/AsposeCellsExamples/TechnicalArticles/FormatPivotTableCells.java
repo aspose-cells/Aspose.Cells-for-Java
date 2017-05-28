@@ -12,7 +12,7 @@ public class FormatPivotTableCells {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(FormatPivotTableCells.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(FormatPivotTableCells.class) + "TechnicalArticles/";
 		// Create workbook object from source file containing pivot table
 		Workbook workbook = new Workbook(dataDir + "pivotTable_test.xlsx");
 

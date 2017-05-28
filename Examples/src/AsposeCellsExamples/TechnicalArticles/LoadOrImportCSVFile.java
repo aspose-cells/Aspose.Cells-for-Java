@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class LoadOrImportCSVFile {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(LoadOrImportCSVFile.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(LoadOrImportCSVFile.class) + "TechnicalArticles/";
 		String csvFile = dataDir + "sample.csv";
 
 		TxtLoadOptions opts = new TxtLoadOptions();

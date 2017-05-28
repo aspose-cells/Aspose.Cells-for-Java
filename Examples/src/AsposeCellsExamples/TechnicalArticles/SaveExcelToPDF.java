@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class SaveExcelToPDF {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(SaveExcelToPDF.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SaveExcelToPDF.class) + "TechnicalArticles/";
 		// Load excel file into workbook object
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 		// Save into Pdf with Minimum size

@@ -20,7 +20,7 @@ public class DataFormatting {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DataFormatting.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(DataFormatting.class) + "TechnicalArticles/";
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
 		// Obtain the cells of the first worksheet.

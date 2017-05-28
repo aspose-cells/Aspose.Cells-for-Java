@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 
 
 public class Demo {
-	private static final String OUTPUT_FILE_PATH = Utils.getSharedDataDir(Demo.class) + "articles/";
+	private static final String OUTPUT_FILE_PATH = Utils.getSharedDataDir(Demo.class) + "TechnicalArticles/";
 
 	public static void main(String[] args) throws Exception {
 		// Instantiate a new Workbook

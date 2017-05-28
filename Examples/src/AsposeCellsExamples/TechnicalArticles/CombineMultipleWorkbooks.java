@@ -7,7 +7,7 @@ public class CombineMultipleWorkbooks {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CombineMultipleWorkbooks.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CombineMultipleWorkbooks.class) + "TechnicalArticles/";
 		// Open the first excel file.
 		Workbook SourceBook1 = new Workbook(dataDir + "charts.xlsx");
 

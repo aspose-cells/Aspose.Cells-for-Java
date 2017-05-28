@@ -9,7 +9,7 @@ public class AccessAndUpdatePortions {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory. 
-		String dataDir = AsposeCellsExamples.Utils.getSharedDataDir(AccessAndUpdatePortions.class) + "Articles/";
+		String dataDir = AsposeCellsExamples.Utils.getSharedDataDir(AccessAndUpdatePortions.class) + "TechnicalArticles/";
 
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 

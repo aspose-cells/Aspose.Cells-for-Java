@@ -11,7 +11,7 @@ import AsposeCellsExamples.Utils;
 public class UseErrorCheckingOptions {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(UseErrorCheckingOptions.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(UseErrorCheckingOptions.class) + "TechnicalArticles/";
 
 		// Create a workbook and opening a template spreadsheet
 		Workbook workbook = new Workbook(dataDir + "Book1.xls");

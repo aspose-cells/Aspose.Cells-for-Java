@@ -7,7 +7,7 @@ public class DisableCompatibilityChecker {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DisableCompatibilityChecker.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(DisableCompatibilityChecker.class) + "TechnicalArticles/";
 		// Open a template file
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");
 

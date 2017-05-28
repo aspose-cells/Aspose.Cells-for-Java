@@ -8,7 +8,7 @@ public class AddLibraryReference {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddLibraryReference.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddLibraryReference.class) + "TechnicalArticles/";
 		Workbook workbook = new Workbook();
 
 		VbaProject vbaProj = workbook.getVbaProject();

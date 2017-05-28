@@ -13,7 +13,7 @@ public class InsertWebImageFromURL {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(InsertWebImageFromURL.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(InsertWebImageFromURL.class) + "TechnicalArticles/";
 		// Download image and store it in an object of InputStream
 		URL url = new URL("https://www.google.com/images/nav_logo100633543.png");
 		InputStream inStream = new BufferedInputStream(url.openStream());

@@ -16,7 +16,7 @@ public class CreatePieChartWithLeaderLines {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CreatePieChartWithLeaderLines.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CreatePieChartWithLeaderLines.class) + "TechnicalArticles/";
 		// Create an instance of Workbook in XLSX format
 		Workbook workbook = new Workbook(FileFormatType.XLSX);
 

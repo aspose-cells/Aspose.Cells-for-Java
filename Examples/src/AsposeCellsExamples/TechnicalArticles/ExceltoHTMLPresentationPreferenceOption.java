@@ -7,7 +7,7 @@ public class ExceltoHTMLPresentationPreferenceOption {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ExceltoHTMLPresentationPreferenceOption.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ExceltoHTMLPresentationPreferenceOption.class) + "TechnicalArticles/";
 		// Instantiate the Workbook
 		// Load an Excel file
 		Workbook workbook = new Workbook(dataDir + "HiddenCol.xlsx");

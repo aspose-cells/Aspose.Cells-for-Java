@@ -10,7 +10,7 @@ public class SpecifyingCustomSeparators {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SpecifyingCustomSeparators.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SpecifyingCustomSeparators.class) + "TechnicalArticles/";
 		Workbook workbook = new Workbook();
 
 		// Specify custom separators

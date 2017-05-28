@@ -10,7 +10,7 @@ public class Settextofchartlegend {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(Settextofchartlegend.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(Settextofchartlegend.class) + "TechnicalArticles/";
 
 		// Open the template file.
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");

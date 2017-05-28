@@ -13,7 +13,7 @@ public class DeleteRedundantSpacesFromHtml {
 
 
 		// The path to the documents directory
-		String dataDir = Utils.getSharedDataDir(DeleteRedundantSpacesFromHtml.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(DeleteRedundantSpacesFromHtml.class) + "TechnicalArticles/";
 
 		// Sample Html containing redundant spaces after <br> tag
 		String html = "<html>" + "<body>" + "<table>" + "<tr>" + "<td>" + "<br>    This is sample data"

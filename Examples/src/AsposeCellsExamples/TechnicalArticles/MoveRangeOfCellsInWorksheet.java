@@ -9,7 +9,7 @@ public class MoveRangeOfCellsInWorksheet {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(MoveRangeOfCellsInWorksheet.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(MoveRangeOfCellsInWorksheet.class) + "TechnicalArticles/";
 		// Instantiate the workbook object. Open the Excel file
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
 

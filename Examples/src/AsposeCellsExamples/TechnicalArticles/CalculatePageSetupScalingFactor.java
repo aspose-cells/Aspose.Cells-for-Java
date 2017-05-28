@@ -11,7 +11,7 @@ public class CalculatePageSetupScalingFactor {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CalculatePageSetupScalingFactor.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CalculatePageSetupScalingFactor.class) + "TechnicalArticles/";
 		// Create workbook object
 		Workbook workbook = new Workbook();
 

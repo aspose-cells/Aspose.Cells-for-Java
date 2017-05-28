@@ -13,7 +13,7 @@ public class AddConditionalIconsSet {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddConditionalIconsSet.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddConditionalIconsSet.class) + "TechnicalArticles/";
 		// Instantiate an instance of Workbook
 		Workbook workbook = new Workbook();
 		// Get the first worksheet (default worksheet) in the workbook

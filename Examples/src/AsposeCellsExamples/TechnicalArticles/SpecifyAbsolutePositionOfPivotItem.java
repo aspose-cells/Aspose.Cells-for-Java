@@ -13,7 +13,7 @@ public class SpecifyAbsolutePositionOfPivotItem {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SpecifyAbsolutePositionOfPivotItem.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SpecifyAbsolutePositionOfPivotItem.class) + "TechnicalArticles/";
 		Workbook wb = new Workbook(dataDir + "source.xlsx");
 		Worksheet wsPivot = wb.getWorksheets().add("pvtNew Hardware");
 		Worksheet wsData = wb.getWorksheets().get("New Hardware - Yearly");

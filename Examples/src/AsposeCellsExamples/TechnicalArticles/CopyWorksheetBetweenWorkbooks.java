@@ -10,7 +10,7 @@ public class CopyWorksheetBetweenWorkbooks {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CopyWorksheetBetweenWorkbooks.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CopyWorksheetBetweenWorkbooks.class) + "TechnicalArticles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Controls.xls");
 

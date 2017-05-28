@@ -8,7 +8,7 @@ public class CustomizingThemes {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CustomizingThemes.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CustomizingThemes.class) + "TechnicalArticles/";
 		// Define Color array (of 12 colors) for the Theme
 		Color[] carr = new Color[12];
 		carr[0] = Color.getAntiqueWhite(); // Background1

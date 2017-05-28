@@ -12,7 +12,7 @@ public class CopyPicturefromOneWorksheetToAnother {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CopyPicturefromOneWorksheetToAnother.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CopyPicturefromOneWorksheetToAnother.class) + "TechnicalArticles/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Shapes.xls");
 

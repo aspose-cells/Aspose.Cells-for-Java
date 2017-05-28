@@ -7,7 +7,7 @@ public class Implement1904DateSystem {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(Implement1904DateSystem.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(Implement1904DateSystem.class) + "TechnicalArticles/";
 		// Initialize a new Workbook
 		Workbook workbook = new Workbook(dataDir + "Mybook.xlsx");
 

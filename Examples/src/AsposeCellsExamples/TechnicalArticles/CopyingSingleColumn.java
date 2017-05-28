@@ -8,7 +8,7 @@ public class CopyingSingleColumn {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CopyingSingleColumn.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CopyingSingleColumn.class) + "TechnicalArticles/";
 		// Create an instance of Workbook class by loading the existing spreadsheet
 		Workbook workbook = new Workbook(dataDir + "aspose-sample.xlsx");
 

@@ -9,7 +9,7 @@ public class ChangeHtmlLinkTarget {
 
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ChangeHtmlLinkTarget.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ChangeHtmlLinkTarget.class) + "TechnicalArticles/";
 		String inputPath = dataDir + "Sample1.xlsx";
 		String outputPath = dataDir + "CHLinkTarget.html";
 

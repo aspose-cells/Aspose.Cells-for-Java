@@ -18,7 +18,7 @@ public class SetPictureAsBackgroundFillInChart {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SetPictureAsBackgroundFillInChart.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SetPictureAsBackgroundFillInChart.class) + "TechnicalArticles/";
 		// Create a new Workbook.
 		Workbook workbook = new Workbook();
 

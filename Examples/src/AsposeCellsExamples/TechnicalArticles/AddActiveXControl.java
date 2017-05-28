@@ -12,7 +12,7 @@ public class AddActiveXControl {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddActiveXControl.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddActiveXControl.class) + "TechnicalArticles/";
 		// Create workbook object
 		Workbook wb = new Workbook();
 

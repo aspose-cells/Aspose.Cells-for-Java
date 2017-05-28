@@ -17,7 +17,7 @@ public class GenerateThumbnailofWorksheet {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(GenerateThumbnailofWorksheet.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(GenerateThumbnailofWorksheet.class) + "TechnicalArticles/";
 		// Instantiate and open an Excel file
 		Workbook book = new Workbook(dataDir + "book1.xls");
 

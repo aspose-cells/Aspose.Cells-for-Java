@@ -8,7 +8,7 @@ public class InsertLinkedPicturefromWebAddress {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(InsertLinkedPicturefromWebAddress.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(InsertLinkedPicturefromWebAddress.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook.
 		Workbook workbook = new Workbook();
 		// Insert a linked picture (from Web Address) to B2 Cell.

@@ -8,7 +8,7 @@ public class CopyingMultipleColumns {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CopyingMultipleColumns.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CopyingMultipleColumns.class) + "TechnicalArticles/";
 		// Create an instance of Workbook class by loading the existing spreadsheet
 		Workbook workbook = new Workbook(dataDir + "aspose-sample.xlsx");
 

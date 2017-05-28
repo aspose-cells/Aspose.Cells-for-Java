@@ -11,7 +11,7 @@ public class LoadSpecificWorksheetsinWorkbook {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(LoadSpecificWorksheetsinWorkbook.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(LoadSpecificWorksheetsinWorkbook.class) + "TechnicalArticles/";
 
 		// Define a new Workbook
 		Workbook workbook;

@@ -9,7 +9,7 @@ public class CreateSignatureLine {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CreateSignatureLine.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CreateSignatureLine.class) + "TechnicalArticles/";
 		// Create workbook object
 		Workbook workbook = new Workbook();
 

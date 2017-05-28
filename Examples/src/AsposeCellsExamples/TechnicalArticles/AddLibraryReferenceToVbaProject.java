@@ -8,7 +8,7 @@ public class AddLibraryReferenceToVbaProject {
 
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(AddLibraryReferenceToVbaProject.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddLibraryReferenceToVbaProject.class) + "TechnicalArticles/";
 		String outputPath = dataDir + "ALRToVbaProject_out.xlsm";
 
 		Workbook workbook = new Workbook();

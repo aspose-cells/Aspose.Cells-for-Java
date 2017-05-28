@@ -8,7 +8,7 @@ public class RemoveUnusedStyles {
 
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(RemoveUnusedStyles.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(RemoveUnusedStyles.class) + "TechnicalArticles/";
 		String inputPath = dataDir + "Styles.xlsx";
 		String outputPath = dataDir + "RemoveUnusedStyles_out.xlsx";
 

@@ -10,7 +10,7 @@ import AsposeCellsExamples.Utils;
 public class InsertPictureCellReference {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(InsertPictureCellReference.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(InsertPictureCellReference.class) + "TechnicalArticles/";
 
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();

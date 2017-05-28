@@ -11,7 +11,7 @@ import AsposeCellsExamples.Utils;
 public class AddWordArtWatermarkToChart {
 	public static void main(String[] args) throws Exception {
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddWordArtWatermarkToChart.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddWordArtWatermarkToChart.class) + "TechnicalArticles/";
 		// Instantiate a new workbook, Open the existing excel file.
 
 		Workbook workbook = new Workbook(dataDir + "sample.xlsx");

@@ -10,7 +10,7 @@ public class CreateTransparentImage {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CreateTransparentImage.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CreateTransparentImage.class) + "TechnicalArticles/";
 		// Create workbook object from source file
 		Workbook wb = new Workbook(dataDir + "aspose-sample.xlsx");
 

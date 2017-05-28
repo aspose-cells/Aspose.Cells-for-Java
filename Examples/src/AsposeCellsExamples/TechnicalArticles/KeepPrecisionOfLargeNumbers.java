@@ -12,7 +12,7 @@ public class KeepPrecisionOfLargeNumbers {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(KeepPrecisionOfLargeNumbers.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(KeepPrecisionOfLargeNumbers.class) + "TechnicalArticles/";
 
 		// Sample Html containing large number with digits greater than 15
 		String html = "<html>" + "<body>" + "<p>1234567890123456</p>" + "</body>" + "</html>";

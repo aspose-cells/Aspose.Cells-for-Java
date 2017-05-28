@@ -9,7 +9,7 @@ public class AddHTMLRichText {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AddHTMLRichText.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AddHTMLRichText.class) + "TechnicalArticles/";
 		Workbook workbook = new Workbook();
 
 		Worksheet worksheet = workbook.getWorksheets().get(0);

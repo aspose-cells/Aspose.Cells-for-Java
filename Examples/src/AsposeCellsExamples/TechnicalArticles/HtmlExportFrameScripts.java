@@ -9,7 +9,7 @@ public class HtmlExportFrameScripts {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(HtmlExportFrameScripts.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(HtmlExportFrameScripts.class) + "TechnicalArticles/";
 
 		// Open the required workbook to convert
 		Workbook w = new Workbook(dataDir + "Sample1.xlsx");

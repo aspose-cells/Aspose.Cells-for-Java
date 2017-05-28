@@ -10,7 +10,7 @@ public class Loadsourceexcelfile {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(Loadsourceexcelfile.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(Loadsourceexcelfile.class) + "TechnicalArticles/";
 		// Specify the load options and filter the data we do not want to load charts
 		LoadOptions options = new LoadOptions();
 		options.setLoadDataFilterOptions(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.CHART);

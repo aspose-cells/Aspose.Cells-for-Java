@@ -10,7 +10,7 @@ public class UseExplicitLineBreaks {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(UseExplicitLineBreaks.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(UseExplicitLineBreaks.class) + "TechnicalArticles/";
 		// Create Workbook Object
 		Workbook wb = new Workbook();
 

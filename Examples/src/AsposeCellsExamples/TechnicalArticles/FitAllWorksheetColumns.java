@@ -9,7 +9,7 @@ public class FitAllWorksheetColumns {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(FitAllWorksheetColumns.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(FitAllWorksheetColumns.class) + "TechnicalArticles/";
 		// Create and initialize an instance of Workbook
 		Workbook book = new Workbook(dataDir + "TestBook.xlsx");
 		// Create and initialize an instance of PdfSaveOptions

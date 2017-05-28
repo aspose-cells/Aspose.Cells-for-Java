@@ -11,7 +11,7 @@ public class DetectMergedCells {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DetectMergedCells.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(DetectMergedCells.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook
 		Workbook wkBook = new Workbook(dataDir + "MergeTrial.xls");
 		// Get a worksheet in the workbook

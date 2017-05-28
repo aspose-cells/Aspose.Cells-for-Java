@@ -6,7 +6,7 @@ import AsposeCellsExamples.Utils;
 public class ImplementingIStreamProvider {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(ImplementingIStreamProvider.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ImplementingIStreamProvider.class) + "TechnicalArticles/";
 		Workbook wb = new Workbook(dataDir + "sample.xlsx");
 		ImplementingIStreamProvider options = new ImplementingIStreamProvider();
 		options.setStreamProvider(new ExportStreamProvider(dataDir));

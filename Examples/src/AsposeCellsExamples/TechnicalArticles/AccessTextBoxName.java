@@ -9,7 +9,7 @@ public class AccessTextBoxName {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AccessTextBoxName.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(AccessTextBoxName.class) + "TechnicalArticles/";
 
 		Workbook workbook = new Workbook();
 

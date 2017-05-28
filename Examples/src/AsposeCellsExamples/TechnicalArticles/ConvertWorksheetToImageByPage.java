@@ -11,7 +11,7 @@ public class ConvertWorksheetToImageByPage {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ConvertWorksheetToImageByPage.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ConvertWorksheetToImageByPage.class) + "TechnicalArticles/";
 		// Create a new Workbook object
 		// Open a template excel file
 		Workbook book = new Workbook(dataDir + "bool1.xlsx");

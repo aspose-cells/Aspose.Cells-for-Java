@@ -7,7 +7,7 @@ public class PreventExportingHiddenWorksheetContent {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(PreventExportingHiddenWorksheetContent.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(PreventExportingHiddenWorksheetContent.class) + "TechnicalArticles/";
 		
 		// Create workbook object
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");

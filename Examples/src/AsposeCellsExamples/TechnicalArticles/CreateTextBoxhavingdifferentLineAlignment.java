@@ -13,7 +13,7 @@ public class CreateTextBoxhavingdifferentLineAlignment {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CreateTextBoxhavingdifferentLineAlignment.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CreateTextBoxhavingdifferentLineAlignment.class) + "TechnicalArticles/";
 
 		// Create a workbook.
 		Workbook wb = new Workbook();

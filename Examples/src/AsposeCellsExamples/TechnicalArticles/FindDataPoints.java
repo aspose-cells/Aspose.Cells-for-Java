@@ -11,7 +11,7 @@ public class FindDataPoints {
 	public static void main(String[] args) throws Exception {
 		// ExStart:FindDataPoints
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(FindDataPoints.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(FindDataPoints.class) + "TechnicalArticles/";
 
 		// Load source excel file containing Bar of Pie chart
 		Workbook wb = new Workbook(dataDir + "PieBars.xlsx");

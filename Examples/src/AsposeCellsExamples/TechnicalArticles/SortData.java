@@ -11,7 +11,7 @@ import AsposeCellsExamples.Utils;
 public class SortData {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(SortData.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(SortData.class) + "TechnicalArticles/";
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "Book_SourceData.xls");

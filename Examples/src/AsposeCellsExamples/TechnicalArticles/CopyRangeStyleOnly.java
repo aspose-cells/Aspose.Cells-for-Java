@@ -16,7 +16,7 @@ public class CopyRangeStyleOnly {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CopyRangeStyleOnly.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(CopyRangeStyleOnly.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();
 

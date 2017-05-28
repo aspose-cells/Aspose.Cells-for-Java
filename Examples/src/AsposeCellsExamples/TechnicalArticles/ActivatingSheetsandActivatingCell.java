@@ -9,7 +9,7 @@ public class ActivatingSheetsandActivatingCell {
 	public static void main(String[] args) throws Exception {
 
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ActivatingSheetsandActivatingCell.class) + "articles/";
+		String dataDir = Utils.getSharedDataDir(ActivatingSheetsandActivatingCell.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook
 		Workbook workbook = new Workbook();
 		// Get the first worksheet in the workbook
