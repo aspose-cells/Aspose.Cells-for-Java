@@ -5,7 +5,6 @@ import AsposeCellsExamples.Utils;
 
 public class ImplementCustomPaperSizeOfWorksheetForRendering {
 	public static void main(String[] args) throws Exception {
-		String srcDir = Utils.Get_SourceDirectory();
 		String outDir = Utils.Get_OutputDirectory();
 
 		//Create workbook object
