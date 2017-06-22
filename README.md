@@ -4,8 +4,9 @@
 ## How to Run the Examples
 Please see the following article that explains how to run the Aspose.Cells for Java Console Examples.
 
-[How to Run the Examples](https://docs.aspose.com/display/cellsjava/How+to+Run+the+Examples)
+* [How to Run the Examples](https://docs.aspose.com/display/cellsjava/How+to+Run+the+Examples)
 
+## Contents
 This repository contains [Examples](Examples), [Plugins](Plugins) and [Showcases](Showcases) for [Aspose.Cells for Java](http://www.aspose.com/products/cells/java)
 
 
