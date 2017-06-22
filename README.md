@@ -7,8 +7,7 @@ Please see the following article that explains how to run the Aspose.Cells for J
 * [How to Run the Examples](https://docs.aspose.com/display/cellsjava/How+to+Run+the+Examples)
 
 ## Contents
-This repository contains [Examples](Examples), [Plugins](Plugins) and [Showcases](Showcases) for [Aspose.Cells for Java](http://www.aspose.com/products/cells/java)
-
+This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridWeb) and [Plugins](Plugins) for [Aspose.Cells for Java](http://www.aspose.com/products/cells/java)
 
 <p align="center">
   <a title="Download ZIP" href="https://github.com/aspose-cells/Aspose.Cells-for-Java/archive/master.zip">
