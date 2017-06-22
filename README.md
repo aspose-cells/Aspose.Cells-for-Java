@@ -1,6 +1,12 @@
 # Aspose.Cells for Java
 [Aspose.Cells for Java](http://www.aspose.com/products/cells/java) is an award-winning Excel Spreadsheet Processing API that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image file formats into their own Java applications without needing to rely on Microsoft Excel®.
 
+...
+## How to Run the Examples
+Please see the following article that explains how to run the Aspose.Cells for Java Console Examples.
+[How to Run the Examples](https://docs.aspose.com/display/cellsjava/How+to+Run+the+Examples)
+...
+
 This repository contains [Examples](Examples), [Plugins](Plugins) and [Showcases](Showcases) for [Aspose.Cells for Java](http://www.aspose.com/products/cells/java)
 
 
