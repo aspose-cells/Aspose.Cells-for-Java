@@ -23,7 +23,6 @@ Directory  | Description
 [Examples](Examples)  | A collection of Java examples that help you learn and explore the API features
 [Examples.GridWeb](Examples.GridWeb)  | A collection of Java examples that help you learn and explore Aspose.GridWeb features
 [Plugins](Plugins)  | Plugins that will demonstrate one or more features of Aspose.Cells for Java
-[Showcases](Showcases)  | Standalone ready-to-use applications that demonstrate some specific use cases
 
 ## Resources
 
