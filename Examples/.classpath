@@ -2,6 +2,7 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="F:/Download/Misc/Aspose/CellsJava/aspose-cells-17.5.jar"/>
+	<classpathentry kind="lib" path="libs/aspose-cells-17.6.jar"/>
+	<classpathentry kind="lib" path="libs/bcprov-jdk16-146.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
