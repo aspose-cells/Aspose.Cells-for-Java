@@ -6,6 +6,7 @@ import AsposeCellsExamples.Utils;
 public class SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions {
 	
 	public static void main(String[] args) throws Exception {
+		
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 		
 		String srcDir = Utils.Get_SourceDirectory();

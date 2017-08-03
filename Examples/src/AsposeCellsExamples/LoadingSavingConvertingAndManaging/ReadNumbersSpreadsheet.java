@@ -4,7 +4,9 @@ import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
 public class ReadNumbersSpreadsheet {
+	
 	public static void main(String[] args) throws Exception {
+		
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 		
 		String srcDir = Utils.Get_SourceDirectory();
