@@ -3,7 +3,7 @@ package AsposeCellsExamples.Worksheets.PageSetupFeatures;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class DetermineIfPaperSizeOfWorksheetIsAutomatic {
+public class DetermineIfPaperSizeOfWorksheetIsAutomatic { 
 
 	public static void main(String[] args) throws Exception {
 

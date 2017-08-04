@@ -3,7 +3,7 @@ package AsposeCellsExamples.Data;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet {
+public class ImportDataFromMicrosoftAccessDatabaseResultSetObjectToWorksheet { 
 
 	public static void main(String[] args) throws Exception {
 

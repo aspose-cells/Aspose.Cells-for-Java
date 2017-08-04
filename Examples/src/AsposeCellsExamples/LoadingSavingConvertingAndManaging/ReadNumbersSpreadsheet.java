@@ -3,7 +3,7 @@ package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ReadNumbersSpreadsheet {
+public class ReadNumbersSpreadsheet { 
 
 	public static void main(String[] args) throws Exception {
 

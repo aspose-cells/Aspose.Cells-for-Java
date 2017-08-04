@@ -3,7 +3,7 @@ package AsposeCellsExamples.WorkbookSettings;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage {
+public class ImplementErrorsAndBooleanValueInRussianOrAnyOtherLanguage { 
 
 	// Russian Globalization
 	class RussianGlobalization extends GlobalizationSettings {

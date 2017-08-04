@@ -3,7 +3,7 @@ package AsposeCellsExamples.Fonts;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions {
+public class SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions { 
 
 	public static void main(String[] args) throws Exception {
 
