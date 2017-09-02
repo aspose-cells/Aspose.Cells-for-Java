@@ -8,9 +8,6 @@ public class AddDigitalSignatureToAnAlreadySignedExcelFile {
 
 	public static void main(String[] args) throws Exception {
 
-
-		HtmlSaveOptions o=new HtmlSaveOptions();
-		o.setExportComments(true);
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 
 		String srcDir = Utils.Get_SourceDirectory();
