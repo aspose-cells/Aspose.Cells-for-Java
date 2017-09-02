@@ -3,12 +3,12 @@
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="libs/bcprov-jdk16-146.jar"/>
-	<classpathentry kind="lib" path="libs/aspose-cells-17.7.5.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/commons-lang-2.6.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/hsqldb.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/jackcess-2.1.6.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/ucanaccess-4.0.2.jar"/>
 	<classpathentry kind="lib" path="libs/jai_imageio.jar"/>
+	<classpathentry kind="lib" path="libs/aspose-cells-17.8.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
