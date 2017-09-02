@@ -3,7 +3,7 @@ package AsposeCellsExamples.Rendering;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class OutputBlankPageWhenThereIsNothingToPrint {
+public class OutputBlankPageWhenThereIsNothingToPrint { 
 
 	public static void main(String[] args) throws Exception {
 
