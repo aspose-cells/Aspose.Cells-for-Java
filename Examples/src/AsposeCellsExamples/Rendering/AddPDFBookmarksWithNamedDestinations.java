@@ -14,7 +14,7 @@ public class AddPDFBookmarksWithNamedDestinations {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 	
-		//Load source Excel file
+		//Load source Excel file 
 		Workbook wb = new Workbook(srcDir + "samplePdfBookmarkEntry_DestinationName.xlsx");
 		  
 		//Access first worksheet

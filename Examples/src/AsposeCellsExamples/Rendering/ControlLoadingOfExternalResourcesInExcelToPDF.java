@@ -5,7 +5,7 @@ import java.io.*;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ControlLoadingOfExternalResourcesInExcelToPDF {
+public class ControlLoadingOfExternalResourcesInExcelToPDF { 
 
 	String srcDir = Utils.Get_SourceDirectory();
 	String outDir = Utils.Get_OutputDirectory();
