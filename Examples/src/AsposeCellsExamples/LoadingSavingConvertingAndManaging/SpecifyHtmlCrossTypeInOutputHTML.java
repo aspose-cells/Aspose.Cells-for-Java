@@ -3,7 +3,7 @@ package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class SpecifyHtmlCrossTypeInOutputHTML {
+public class SpecifyHtmlCrossTypeInOutputHTML { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();

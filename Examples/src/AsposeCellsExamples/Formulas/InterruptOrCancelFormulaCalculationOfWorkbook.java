@@ -3,7 +3,7 @@ package AsposeCellsExamples.Formulas;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class InterruptOrCancelFormulaCalculationOfWorkbook {
+public class InterruptOrCancelFormulaCalculationOfWorkbook { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
