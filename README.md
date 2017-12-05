@@ -26,7 +26,7 @@ Directory  | Description
 ## Resources
 
 + **Website:** [www.aspose.com](http://www.aspose.com) 
-+ **Product Home:** [Aspose.Cells for Java](http://www.aspose.com/products/cells/java)
++ **Product Home:** [Aspose.Cells for Java](https://products.aspose.com/cells/java)
 + **Download:** [Download Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
 + **Documentation:** [Aspose.Cells for Java Documentation](https://docs.aspose.com/display/cellsjava/Home)
 + **Forum:** [Aspose.Cells for Java Forum](https://forum.aspose.com/c/cells)
