@@ -3,7 +3,7 @@ package AsposeCellsExamples.Workbook;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class PasswordProtectOrUnprotectSharedWorkbook { 
+public class PasswordProtectOrUnprotectSharedWorkbook {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();

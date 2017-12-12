@@ -3,7 +3,7 @@ package AsposeCellsExamples.DrawingObjects;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class DetermineIfShapeIsSmartArtShape { 
+public class DetermineIfShapeIsSmartArtShape {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
