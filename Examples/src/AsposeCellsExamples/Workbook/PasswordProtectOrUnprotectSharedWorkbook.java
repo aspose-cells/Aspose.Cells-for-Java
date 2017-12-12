@@ -25,6 +25,6 @@ public class PasswordProtectOrUnprotectSharedWorkbook {
 		wb.save(outDir + "outputProtectSharedWorkbook.xlsx");
 		
 		// Print the message
-		System.out.println("SetValuesFormatCodeOfChartSeries executed successfully.");
+		System.out.println("PasswordProtectOrUnprotectSharedWorkbook executed successfully.");
 	}
 }
