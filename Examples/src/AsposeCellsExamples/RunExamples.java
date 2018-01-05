@@ -11,6 +11,7 @@ public class RunExamples {
 		AsposeCellsExamples.HTML.ExportWorksheetCSSSeparatelyInOutputHTML.main(null);
 		AsposeCellsExamples.HTML.PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.main(null);
 		AsposeCellsExamples.Rendering.RenderOfficeAdd_InsWhileConvertingExcelToPdf.main(null);
+		AsposeCellsExamples.SmartMarkers.AutoPopulateSmartMarkerDataToOtherWorksheets.main(null);
 		
 		//Aspose.Cells for Java v17.9
 		//AsposeCellsExamples.Rendering.AddPDFBookmarksWithNamedDestinations.main(null);
