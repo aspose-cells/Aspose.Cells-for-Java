@@ -3,7 +3,7 @@ package AsposeCellsExamples.Rendering;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class RenderOfficeAdd_InsWhileConvertingExcelToPdf {
+public class RenderOfficeAdd_InsWhileConvertingExcelToPdf { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();

@@ -3,7 +3,7 @@ package AsposeCellsExamples.WorkbookSettings;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class Implement_Cell_FormulaLocal_SimilarTo_Range_FormulaLocal {
+public class Implement_Cell_FormulaLocal_SimilarTo_Range_FormulaLocal { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
