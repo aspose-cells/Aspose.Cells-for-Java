@@ -3,7 +3,7 @@ package AsposeCellsExamples.Worksheets;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook { 
+public class UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();

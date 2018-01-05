@@ -3,7 +3,7 @@
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty { 
+public class PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();

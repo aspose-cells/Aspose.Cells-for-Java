@@ -3,7 +3,7 @@ package AsposeCellsExamples.SmartMarkers;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class AutoPopulateSmartMarkerDataToOtherWorksheets { 
+public class AutoPopulateSmartMarkerDataToOtherWorksheets {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
