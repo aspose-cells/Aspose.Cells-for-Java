@@ -6,14 +6,22 @@ public class RunExamples {
 
 		// Uncomment the one you want to try out
 		
+		//Aspose.Cells for Java v18.1
+		AsposeCellsExamples.Charts.HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.main(null);
+		AsposeCellsExamples.HTML.ExcludeUnusedStylesInExcelToHTML.main(null);
+		AsposeCellsExamples.HTML.ExportDocumentWorkbookAndWorksheetPropertiesInHTML.main(null);
+		AsposeCellsExamples.PivotTables.FindAndRefreshNestedOrChildrenPivotTables.main(null);
+		AsposeCellsExamples.PivotTables.ParsingPivotCachedRecordsWhileLoadingExcelFile.main(null);
+		AsposeCellsExamples.Rendering.CreatePdfBookmarkEntryForChartSheet.main(null);
+		
 		//Aspose.Cells for Java v17.12
-		AsposeCellsExamples.Charts.SetShapeTypeOfDataLabelsOfChart.main(null);
-		AsposeCellsExamples.HTML.ExportWorksheetCSSSeparatelyInOutputHTML.main(null);
-		AsposeCellsExamples.HTML.PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.main(null);
-		AsposeCellsExamples.Rendering.RenderOfficeAdd_InsWhileConvertingExcelToPdf.main(null);
-		AsposeCellsExamples.SmartMarkers.AutoPopulateSmartMarkerDataToOtherWorksheets.main(null);
-		AsposeCellsExamples.WorkbookSettings.Implement_Cell_FormulaLocal_SimilarTo_Range_FormulaLocal.main(null);
-		AsposeCellsExamples.Worksheets.UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.main(null);
+		//AsposeCellsExamples.Charts.SetShapeTypeOfDataLabelsOfChart.main(null);
+		//AsposeCellsExamples.HTML.ExportWorksheetCSSSeparatelyInOutputHTML.main(null);
+		//AsposeCellsExamples.HTML.PrefixTableElementsStylesWithHtmlSaveOptions_TableCssIdProperty.main(null);
+		//AsposeCellsExamples.Rendering.RenderOfficeAdd_InsWhileConvertingExcelToPdf.main(null);
+		//AsposeCellsExamples.SmartMarkers.AutoPopulateSmartMarkerDataToOtherWorksheets.main(null);
+		//AsposeCellsExamples.WorkbookSettings.Implement_Cell_FormulaLocal_SimilarTo_Range_FormulaLocal.main(null);
+		//AsposeCellsExamples.Worksheets.UpdateDaysPreservingHistoryOfRevisionLogsInSharedWorkbook.main(null);
 		
 		//Aspose.Cells for Java v17.9
 		//AsposeCellsExamples.Rendering.AddPDFBookmarksWithNamedDestinations.main(null);
