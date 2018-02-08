@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class CreatePdfBookmarkEntryForChartSheet { 
+public class CreatePdfBookmarkEntryForChartSheet {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();

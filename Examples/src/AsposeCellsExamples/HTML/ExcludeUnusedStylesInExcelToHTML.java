@@ -3,7 +3,7 @@ package AsposeCellsExamples.HTML;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ExcludeUnusedStylesInExcelToHTML { 
+public class ExcludeUnusedStylesInExcelToHTML {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();

@@ -3,7 +3,7 @@ package AsposeCellsExamples.PivotTables;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ParsingPivotCachedRecordsWhileLoadingExcelFile { 
+public class ParsingPivotCachedRecordsWhileLoadingExcelFile {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
