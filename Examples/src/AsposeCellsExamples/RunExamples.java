@@ -10,6 +10,7 @@ public class RunExamples {
 		AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
 		AsposeCellsExamples.Workbook.FilterDefinedNamesWhileLoadingWorkbook.main(null);
 		AsposeCellsExamples.DrawingObjects.SetMarginsOfCommentOrShapeInsideTheWorksheet.main(null);
+		AsposeCellsExamples.Data.SpecifyFormulaFieldsWhileImportingDataToWorksheet.main(null);
 		AsposeCellsExamples.Formulas.SpecifyMaximumRowsOfSharedFormula.main(null);
 		
 		//Aspose.Cells for Java v18.1
