@@ -8,6 +8,7 @@ public class RunExamples {
 
 		//Aspose.Cells for Java v18.2
 		AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
+		AsposeCellsExamples.Workbook.FilterDefinedNamesWhileLoadingWorkbook.main(null);
 		
 		//Aspose.Cells for Java v18.1
 		//AsposeCellsExamples.Charts.HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.main(null);
