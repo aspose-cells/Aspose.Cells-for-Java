@@ -4,7 +4,7 @@ import java.io.*;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ControlExternalResourcesUsingWorkbookSetting_StreamProvider { 
+public class ControlExternalResourcesUsingWorkbookSetting_StreamProvider {
 	
 	String srcDir = Utils.Get_SourceDirectory();
 	String outDir = Utils.Get_OutputDirectory();
@@ -12,7 +12,7 @@ public class ControlExternalResourcesUsingWorkbookSetting_StreamProvider {
 	//Implementation of IStreamProvider
 	class SP implements IStreamProvider
 	{
-		public void closeStream(StreamProviderOptions arg0) throws Exception {		
+		public void closeStream(StreamProviderOptions arg0) throws Exception {
 		}
 
 		public void initStream(StreamProviderOptions options) throws Exception {

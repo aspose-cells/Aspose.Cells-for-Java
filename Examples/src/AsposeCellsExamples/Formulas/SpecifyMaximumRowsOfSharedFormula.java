@@ -3,7 +3,7 @@ package AsposeCellsExamples.Formulas;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class SpecifyMaximumRowsOfSharedFormula { 
+public class SpecifyMaximumRowsOfSharedFormula {
 	
 	static String outDir = Utils.Get_OutputDirectory();
 

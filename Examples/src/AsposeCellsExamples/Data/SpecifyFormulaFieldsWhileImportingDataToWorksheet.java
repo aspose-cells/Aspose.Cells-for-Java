@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class SpecifyFormulaFieldsWhileImportingDataToWorksheet { 
+public class SpecifyFormulaFieldsWhileImportingDataToWorksheet {
 	
 	static String outDir = Utils.Get_OutputDirectory();
 	
