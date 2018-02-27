@@ -5,14 +5,17 @@ public class RunExamples {
 	public static void main(String[] args) throws Exception{
 
 		// Uncomment the one you want to try out
+
+		//Aspose.Cells for Java v18.2
+		AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
 		
 		//Aspose.Cells for Java v18.1
-		AsposeCellsExamples.Charts.HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.main(null);
-		AsposeCellsExamples.HTML.ExcludeUnusedStylesInExcelToHTML.main(null);
-		AsposeCellsExamples.HTML.ExportDocumentWorkbookAndWorksheetPropertiesInHTML.main(null);
-		AsposeCellsExamples.PivotTables.FindAndRefreshNestedOrChildrenPivotTables.main(null);
-		AsposeCellsExamples.PivotTables.ParsingPivotCachedRecordsWhileLoadingExcelFile.main(null);
-		AsposeCellsExamples.Rendering.CreatePdfBookmarkEntryForChartSheet.main(null);
+		//AsposeCellsExamples.Charts.HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.main(null);
+		//AsposeCellsExamples.HTML.ExcludeUnusedStylesInExcelToHTML.main(null);
+		//AsposeCellsExamples.HTML.ExportDocumentWorkbookAndWorksheetPropertiesInHTML.main(null);
+		//AsposeCellsExamples.PivotTables.FindAndRefreshNestedOrChildrenPivotTables.main(null);
+		//AsposeCellsExamples.PivotTables.ParsingPivotCachedRecordsWhileLoadingExcelFile.main(null);
+		//AsposeCellsExamples.Rendering.CreatePdfBookmarkEntryForChartSheet.main(null);
 		
 		//Aspose.Cells for Java v17.12
 		//AsposeCellsExamples.Charts.SetShapeTypeOfDataLabelsOfChart.main(null);
