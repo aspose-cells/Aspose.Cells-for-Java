@@ -6,12 +6,16 @@ public class RunExamples {
 
 		// Uncomment the one you want to try out
 
+		//Aspose.Cells for Java v18.3
+		AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
+		AsposeCellsExamples.Data.PreserveSingleQuotePrefixOfCellValueOrRange.main(null);
+		
 		//Aspose.Cells for Java v18.2
-		AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
-		AsposeCellsExamples.Workbook.FilterDefinedNamesWhileLoadingWorkbook.main(null);
-		AsposeCellsExamples.DrawingObjects.SetMarginsOfCommentOrShapeInsideTheWorksheet.main(null);
-		AsposeCellsExamples.Data.SpecifyFormulaFieldsWhileImportingDataToWorksheet.main(null);
-		AsposeCellsExamples.Formulas.SpecifyMaximumRowsOfSharedFormula.main(null);
+		//AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
+		//AsposeCellsExamples.Workbook.FilterDefinedNamesWhileLoadingWorkbook.main(null);
+		//AsposeCellsExamples.DrawingObjects.SetMarginsOfCommentOrShapeInsideTheWorksheet.main(null);
+		//AsposeCellsExamples.Data.SpecifyFormulaFieldsWhileImportingDataToWorksheet.main(null);
+		//AsposeCellsExamples.Formulas.SpecifyMaximumRowsOfSharedFormula.main(null);
 		
 		//Aspose.Cells for Java v18.1
 		//AsposeCellsExamples.Charts.HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.main(null);
