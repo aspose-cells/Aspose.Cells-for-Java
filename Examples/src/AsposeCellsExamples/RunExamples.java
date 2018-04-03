@@ -11,8 +11,9 @@ public class RunExamples {
 		//AsposeCellsExamples.Data.PreserveSingleQuotePrefixOfCellValueOrRange.main(null);
 		//AsposeCellsExamples.DrawingObjects.AccessAndModifyLabelOfOleObject.main(null);
 		//AsposeCellsExamples.HTML.ExportSimilarBorderStyle.main(null);
-		AsposeCellsExamples.LoadingSavingConvertingAndManaging.SpecifyDocumentVersionOfExcelFile.main(null);
-		AsposeCellsExamples.PivotTables.GroupPivotFieldsInPivotTable.main(null);
+		//AsposeCellsExamples.LoadingSavingConvertingAndManaging.SpecifyDocumentVersionOfExcelFile.main(null);
+		//AsposeCellsExamples.PivotTables.GroupPivotFieldsInPivotTable.main(null);
+		AsposeCellsExamples.Rendering.GetDrawObjectAndBoundUsingDrawObjectEventHandler.main(null);
 		
 		//Aspose.Cells for Java v18.2
 		//AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
