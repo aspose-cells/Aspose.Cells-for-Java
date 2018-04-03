@@ -2,7 +2,7 @@ package AsposeCellsExamples.Data;
 
 import com.aspose.cells.*;
 
-public class PreserveSingleQuotePrefixOfCellValueOrRange { 
+public class PreserveSingleQuotePrefixOfCellValueOrRange {
 	
 	public static void main(String[] args) throws Exception {
 

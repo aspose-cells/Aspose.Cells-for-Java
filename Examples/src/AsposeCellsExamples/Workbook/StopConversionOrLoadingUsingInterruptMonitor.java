@@ -3,7 +3,7 @@ package AsposeCellsExamples.Workbook;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class StopConversionOrLoadingUsingInterruptMonitor 
+public class StopConversionOrLoadingUsingInterruptMonitor
 {
 	static String outDir = Utils.Get_OutputDirectory();
 	

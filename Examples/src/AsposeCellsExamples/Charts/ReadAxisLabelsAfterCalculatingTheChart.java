@@ -5,7 +5,7 @@ import java.util.*;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ReadAxisLabelsAfterCalculatingTheChart { 
+public class ReadAxisLabelsAfterCalculatingTheChart {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 

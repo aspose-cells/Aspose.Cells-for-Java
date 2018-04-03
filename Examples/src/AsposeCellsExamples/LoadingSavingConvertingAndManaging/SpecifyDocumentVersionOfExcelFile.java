@@ -3,7 +3,7 @@ package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class SpecifyDocumentVersionOfExcelFile { 
+public class SpecifyDocumentVersionOfExcelFile {
 	
 	static String outDir = Utils.Get_OutputDirectory();
 

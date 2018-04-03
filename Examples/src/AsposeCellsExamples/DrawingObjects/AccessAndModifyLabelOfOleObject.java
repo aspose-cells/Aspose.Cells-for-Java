@@ -4,7 +4,7 @@ import java.io.*;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class AccessAndModifyLabelOfOleObject { 
+public class AccessAndModifyLabelOfOleObject {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 

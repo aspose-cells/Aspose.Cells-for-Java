@@ -3,7 +3,7 @@ package AsposeCellsExamples.Worksheets;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class FindIfWorksheetIsDialogSheet { 
+public class FindIfWorksheetIsDialogSheet {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
