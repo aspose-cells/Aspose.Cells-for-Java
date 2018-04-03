@@ -9,6 +9,7 @@ public class RunExamples {
 		//Aspose.Cells for Java v18.3
 		AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
 		AsposeCellsExamples.Data.PreserveSingleQuotePrefixOfCellValueOrRange.main(null);
+		AsposeCellsExamples.DrawingObjects.AccessAndModifyLabelOfOleObject.main(null);
 		
 		//Aspose.Cells for Java v18.2
 		//AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
