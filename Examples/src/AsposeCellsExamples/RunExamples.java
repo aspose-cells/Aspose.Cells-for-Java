@@ -10,6 +10,7 @@ public class RunExamples {
 		AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
 		AsposeCellsExamples.Data.PreserveSingleQuotePrefixOfCellValueOrRange.main(null);
 		AsposeCellsExamples.DrawingObjects.AccessAndModifyLabelOfOleObject.main(null);
+		AsposeCellsExamples.HTML.ExportSimilarBorderStyle.main(null);
 		
 		//Aspose.Cells for Java v18.2
 		//AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
