@@ -12,6 +12,7 @@ public class RunExamples {
 		//AsposeCellsExamples.DrawingObjects.AccessAndModifyLabelOfOleObject.main(null);
 		//AsposeCellsExamples.HTML.ExportSimilarBorderStyle.main(null);
 		AsposeCellsExamples.LoadingSavingConvertingAndManaging.SpecifyDocumentVersionOfExcelFile.main(null);
+		AsposeCellsExamples.PivotTables.GroupPivotFieldsInPivotTable.main(null);
 		
 		//Aspose.Cells for Java v18.2
 		//AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
