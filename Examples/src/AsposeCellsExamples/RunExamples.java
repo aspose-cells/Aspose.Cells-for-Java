@@ -15,6 +15,7 @@ public class RunExamples {
 		AsposeCellsExamples.PivotTables.GroupPivotFieldsInPivotTable.main(null);
 		AsposeCellsExamples.Rendering.GetDrawObjectAndBoundUsingDrawObjectEventHandler.main(null);
 		AsposeCellsExamples.Worksheets.FindIfWorksheetIsDialogSheet.main(null);
+		AsposeCellsExamples.Workbook.StopConversionOrLoadingUsingInterruptMonitor.main(null);
 		
 		//Aspose.Cells for Java v18.2
 		//AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
