@@ -34,7 +34,7 @@
     <repositories>
         <repository>
             <id>aspose-maven-repository</id>
-            <url>http://maven.aspose.com/repository/repo/</url>
+            <url>https://artifact.aspose.com/repo/</url>
         </repository>
     </repositories>
 </project>
