@@ -20,7 +20,7 @@ public abstract class TestGridWebBaseServlet extends HttpServlet {
 	protected   ExtPage page =ExtPage.getInstance();
 	protected PrintWriter out = null;
 	protected String path = null;
-	protected String webPath = null;
+	protected String webPath = null; 
 
 	 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) {
