@@ -2,7 +2,7 @@
 .settings/
 test-output/
 
-# IntelliJ project files
+# IntelliJ project files 
 .idea/
 *.iws
 *.iml
