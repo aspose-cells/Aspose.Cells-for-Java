@@ -15,7 +15,7 @@ This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridW
   </a>
 </p>
 
-Following is short description of contents of the repository:
+Following is short description of contents of the repository: 
 
 Directory  | Description
 ---------- | -----------
