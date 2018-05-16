@@ -5,17 +5,19 @@ public class RunExamples {
 	public static void main(String[] args) throws Exception{
 
 		// Uncomment the one you want to try out
-
+		//Aspose.Cells for Java v18.4
+		AsposeCellsExamples.Charts.CreateChartPDFWithDesiredPageSize.main(null);
+		
 		//Aspose.Cells for Java v18.3
-		AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
-		AsposeCellsExamples.Data.PreserveSingleQuotePrefixOfCellValueOrRange.main(null);
-		AsposeCellsExamples.DrawingObjects.AccessAndModifyLabelOfOleObject.main(null);
-		AsposeCellsExamples.HTML.ExportSimilarBorderStyle.main(null);
-		AsposeCellsExamples.LoadingSavingConvertingAndManaging.SpecifyDocumentVersionOfExcelFile.main(null);
-		AsposeCellsExamples.PivotTables.GroupPivotFieldsInPivotTable.main(null);
-		AsposeCellsExamples.Rendering.GetDrawObjectAndBoundUsingDrawObjectEventHandler.main(null);
-		AsposeCellsExamples.Worksheets.FindIfWorksheetIsDialogSheet.main(null);
-		AsposeCellsExamples.Workbook.StopConversionOrLoadingUsingInterruptMonitor.main(null);
+		//AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
+		//AsposeCellsExamples.Data.PreserveSingleQuotePrefixOfCellValueOrRange.main(null);
+		//AsposeCellsExamples.DrawingObjects.AccessAndModifyLabelOfOleObject.main(null);
+		//AsposeCellsExamples.HTML.ExportSimilarBorderStyle.main(null);
+		//AsposeCellsExamples.LoadingSavingConvertingAndManaging.SpecifyDocumentVersionOfExcelFile.main(null);
+		//AsposeCellsExamples.PivotTables.GroupPivotFieldsInPivotTable.main(null);
+		//AsposeCellsExamples.Rendering.GetDrawObjectAndBoundUsingDrawObjectEventHandler.main(null);
+		//AsposeCellsExamples.Worksheets.FindIfWorksheetIsDialogSheet.main(null);
+		//AsposeCellsExamples.Workbook.StopConversionOrLoadingUsingInterruptMonitor.main(null);
 		
 		//Aspose.Cells for Java v18.2
 		//AsposeCellsExamples.WorkbookSettings.ControlExternalResourcesUsingWorkbookSetting_StreamProvider.main(null);
