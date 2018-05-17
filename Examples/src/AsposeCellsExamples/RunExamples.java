@@ -8,6 +8,7 @@ public class RunExamples {
 		//Aspose.Cells for Java v18.4
 		AsposeCellsExamples.Charts.CreateChartPDFWithDesiredPageSize.main(null);
 		AsposeCellsExamples.Charts.FindTypeOfXandYValuesOfPointsInChartSeries.main(null);
+		AsposeCellsExamples.Data.GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.main(null);
 		
 		//Aspose.Cells for Java v18.3
 		//AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
