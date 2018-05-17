@@ -12,6 +12,7 @@ public class RunExamples {
 		AsposeCellsExamples.DocumentProperties.SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.main(null);
 		AsposeCellsExamples.DrawingObjects.RotateTextWithShapeInsideWorksheet.main(null);
 		AsposeCellsExamples.HTML.GetHTML5StringFromCell.main(null);
+		AsposeCellsExamples.HTML.HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.main(null);
 		
 		//Aspose.Cells for Java v18.3
 		//AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
