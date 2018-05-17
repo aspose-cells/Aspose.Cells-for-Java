@@ -11,6 +11,7 @@ public class RunExamples {
 		AsposeCellsExamples.Data.GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.main(null);
 		AsposeCellsExamples.DocumentProperties.SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.main(null);
 		AsposeCellsExamples.DrawingObjects.RotateTextWithShapeInsideWorksheet.main(null);
+		AsposeCellsExamples.HTML.GetHTML5StringFromCell.main(null);
 		
 		//Aspose.Cells for Java v18.3
 		//AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
