@@ -3,7 +3,7 @@ package AsposeCellsExamples.Charts;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class FindTypeOfXandYValuesOfPointsInChartSeries {
+public class FindTypeOfXandYValuesOfPointsInChartSeries { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();

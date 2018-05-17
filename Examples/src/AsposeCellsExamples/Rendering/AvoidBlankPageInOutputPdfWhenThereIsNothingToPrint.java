@@ -5,7 +5,7 @@ import java.io.ByteArrayOutputStream;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint {
+public class AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();

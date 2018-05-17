@@ -3,7 +3,7 @@ package AsposeCellsExamples.DocumentProperties;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties {
+public class SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
