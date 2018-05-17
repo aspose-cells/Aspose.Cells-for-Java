@@ -13,6 +13,7 @@ public class RunExamples {
 		AsposeCellsExamples.DrawingObjects.RotateTextWithShapeInsideWorksheet.main(null);
 		AsposeCellsExamples.HTML.GetHTML5StringFromCell.main(null);
 		AsposeCellsExamples.HTML.HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.main(null);
+		AsposeCellsExamples.Rendering.AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.main(null);
 		
 		//Aspose.Cells for Java v18.3
 		//AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
