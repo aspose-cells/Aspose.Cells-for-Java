@@ -3,7 +3,7 @@ package AsposeCellsExamples.DrawingObjects;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape {
+public class SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape { 
 	
 	static String outDir = Utils.Get_OutputDirectory();
 

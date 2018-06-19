@@ -3,7 +3,7 @@ package AsposeCellsExamples.Fonts;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering {
+public class SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
