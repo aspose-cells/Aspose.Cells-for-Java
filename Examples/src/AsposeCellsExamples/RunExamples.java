@@ -7,6 +7,7 @@ public class RunExamples {
 		// Uncomment the one you want to try out
 		//Aspose.Cells for Java v18.5
 		AsposeCellsExamples.DrawingObjects.SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.main(null);
+		AsposeCellsExamples.Fonts.SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.main(null);
 		
 		//Aspose.Cells for Java v18.4
 		//AsposeCellsExamples.Charts.CreateChartPDFWithDesiredPageSize.main(null);
