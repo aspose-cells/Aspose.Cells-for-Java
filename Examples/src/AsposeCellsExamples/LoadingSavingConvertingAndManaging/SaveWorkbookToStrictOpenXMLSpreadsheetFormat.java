@@ -3,7 +3,7 @@ package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class SaveWorkbookToStrictOpenXMLSpreadsheetFormat { 
+public class SaveWorkbookToStrictOpenXMLSpreadsheetFormat {
 	
 	static String outDir = Utils.Get_OutputDirectory();
 
