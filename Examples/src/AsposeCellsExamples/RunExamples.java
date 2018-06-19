@@ -5,15 +5,18 @@ public class RunExamples {
 	public static void main(String[] args) throws Exception{
 
 		// Uncomment the one you want to try out
+		//Aspose.Cells for Java v18.5
+		AsposeCellsExamples.DrawingObjects.SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.main(null);
+		
 		//Aspose.Cells for Java v18.4
-		AsposeCellsExamples.Charts.CreateChartPDFWithDesiredPageSize.main(null);
-		AsposeCellsExamples.Charts.FindTypeOfXandYValuesOfPointsInChartSeries.main(null);
-		AsposeCellsExamples.Data.GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.main(null);
-		AsposeCellsExamples.DocumentProperties.SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.main(null);
-		AsposeCellsExamples.DrawingObjects.RotateTextWithShapeInsideWorksheet.main(null);
-		AsposeCellsExamples.HTML.GetHTML5StringFromCell.main(null);
-		AsposeCellsExamples.HTML.HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.main(null);
-		AsposeCellsExamples.Rendering.AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.main(null);
+		//AsposeCellsExamples.Charts.CreateChartPDFWithDesiredPageSize.main(null);
+		//AsposeCellsExamples.Charts.FindTypeOfXandYValuesOfPointsInChartSeries.main(null);
+		//AsposeCellsExamples.Data.GetAllHiddenRowsIndicesAfterRefreshingAutoFilter.main(null);
+		//AsposeCellsExamples.DocumentProperties.SpecifyLanguageOfExcelFileUsingBuiltInDocumentProperties.main(null);
+		//AsposeCellsExamples.DrawingObjects.RotateTextWithShapeInsideWorksheet.main(null);
+		//AsposeCellsExamples.HTML.GetHTML5StringFromCell.main(null);
+		//AsposeCellsExamples.HTML.HidingOverlaidContentWithCrossHideRightWhileSavingToHtml.main(null);
+		//AsposeCellsExamples.Rendering.AvoidBlankPageInOutputPdfWhenThereIsNothingToPrint.main(null);
 		
 		//Aspose.Cells for Java v18.3
 		//AsposeCellsExamples.Charts.ReadAxisLabelsAfterCalculatingTheChart.main(null);
