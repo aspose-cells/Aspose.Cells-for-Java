@@ -5,10 +5,13 @@ public class RunExamples {
 	public static void main(String[] args) throws Exception{
 
 		// Uncomment the one you want to try out
+		//Aspose.Cells for Java v18.6
+		AsposeCellsExamples.Data.GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.main(null);
+		
 		//Aspose.Cells for Java v18.5
-		AsposeCellsExamples.DrawingObjects.SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.main(null);
-		AsposeCellsExamples.Fonts.SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.main(null);
-		AsposeCellsExamples.LoadingSavingConvertingAndManaging.SaveWorkbookToStrictOpenXMLSpreadsheetFormat.main(null);
+		//AsposeCellsExamples.DrawingObjects.SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.main(null);
+		//AsposeCellsExamples.Fonts.SpecifyIndividualOrPrivateSetOfFontsForWorkbookRendering.main(null);
+		//AsposeCellsExamples.LoadingSavingConvertingAndManaging.SaveWorkbookToStrictOpenXMLSpreadsheetFormat.main(null);
 		
 		//Aspose.Cells for Java v18.4
 		//AsposeCellsExamples.Charts.CreateChartPDFWithDesiredPageSize.main(null);
