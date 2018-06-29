@@ -29,7 +29,7 @@ public class FormattingSlicer {
 
 		// Save the workbook in output XLSX format.
 		wb.save(outDir + "outputFormattingSlicer.xlsx", SaveFormat.XLSX);
-		 
+
 		// Print the message
 		System.out.println("FormattingSlicer executed successfully.");
 	}

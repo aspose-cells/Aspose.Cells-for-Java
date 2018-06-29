@@ -33,7 +33,7 @@ public class UpdatingSlicer {
 
 		// Save the workbook in output XLSX format.
 		wb.save(outDir + "outputUpdatingSlicer.xlsx", SaveFormat.XLSX);
-
+		
 		// Print the message
 		System.out.println("UpdatingSlicer executed successfully.");
 	}

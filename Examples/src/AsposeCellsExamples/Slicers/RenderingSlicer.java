@@ -31,7 +31,7 @@ public class RenderingSlicer {
 
 		// Create sheet render object and render worksheet to image.
 		SheetRender sr = new SheetRender(ws, imgOpts);
-		sr.toImage(0, outDir + "outputRenderingSlicer.png");
+		sr.toImage(0, outDir + "outputRenderingSlicer.png"); 
 		
 		// Print the message
 		System.out.println("RenderingSlicer executed successfully.");

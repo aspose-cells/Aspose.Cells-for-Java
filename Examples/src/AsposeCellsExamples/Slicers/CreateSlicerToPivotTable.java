@@ -32,7 +32,7 @@ public class CreateSlicerToPivotTable {
 		 
 		// Save the workbook in output XLSB format.
 		wb.save(outDir + "outputCreateSlicerToPivotTable.xlsb", SaveFormat.XLSB);
-		 
+
 		// Print the message
 		System.out.println("CreateSlicerToPivotTable executed successfully.");
 	}

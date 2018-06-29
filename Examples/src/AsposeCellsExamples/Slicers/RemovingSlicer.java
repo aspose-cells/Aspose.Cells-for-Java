@@ -26,7 +26,7 @@ public class RemovingSlicer {
 
 		// Save the workbook in output XLSX format.
 		wb.save(outDir + "outputRemovingSlicer.xlsx", SaveFormat.XLSX);
-
+		
 		// Print the message
 		System.out.println("RemovingSlicer executed successfully.");
 	}
