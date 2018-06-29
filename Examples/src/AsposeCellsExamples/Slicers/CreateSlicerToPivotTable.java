@@ -3,7 +3,7 @@ package AsposeCellsExamples.Slicers;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class CreateSlicerToPivotTable {
+public class CreateSlicerToPivotTable { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
