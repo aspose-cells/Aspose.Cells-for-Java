@@ -7,6 +7,14 @@ public class RunExamples {
 		// Uncomment the one you want to try out
 		//Aspose.Cells for Java v18.6
 		AsposeCellsExamples.Data.GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.main(null);
+		AsposeCellsExamples.DrawingObjects.ExtractTextFromGearTypeSmartArtShape.main(null);
+		AsposeCellsExamples.Formulas.AddCellsToMicrosoftExcelFormulaWatchWindow.main(null);
+		AsposeCellsExamples.Slicers.CreateSlicerToPivotTable.main(null);
+		AsposeCellsExamples.Slicers.FormattingSlicer.main(null);
+		AsposeCellsExamples.Slicers.RemovingSlicer.main(null);
+		AsposeCellsExamples.Slicers.RenderingSlicer.main(null);
+		AsposeCellsExamples.Slicers.UpdatingSlicer.main(null);
+		AsposeCellsExamples.Workbook.AddCustomXMLPartsAndSelectThemByID.main(null);
 		
 		//Aspose.Cells for Java v18.5
 		//AsposeCellsExamples.DrawingObjects.SpecifyFarEastAndLatinNameOfFontInTextOptionsOfShape.main(null);
