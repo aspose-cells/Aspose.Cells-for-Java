@@ -3,7 +3,7 @@ package AsposeCellsExamples.Formulas;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class AddCellsToMicrosoftExcelFormulaWatchWindow { 
+public class AddCellsToMicrosoftExcelFormulaWatchWindow {
 	
 	static String outDir = Utils.Get_OutputDirectory();
 

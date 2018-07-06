@@ -3,7 +3,7 @@ package AsposeCellsExamples.Data;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange { 
+public class GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange {
 	
 	static String outDir = Utils.Get_OutputDirectory();
 

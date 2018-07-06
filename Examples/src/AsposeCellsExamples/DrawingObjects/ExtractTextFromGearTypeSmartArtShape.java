@@ -3,7 +3,7 @@ package AsposeCellsExamples.DrawingObjects;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ExtractTextFromGearTypeSmartArtShape { 
+public class ExtractTextFromGearTypeSmartArtShape {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
