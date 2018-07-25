@@ -3,7 +3,7 @@ package AsposeCellsExamples.Data;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class ChangeCellsAlignmentAndKeepExistingFormatting {
+public class ChangeCellsAlignmentAndKeepExistingFormatting { 
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
