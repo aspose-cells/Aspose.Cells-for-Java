@@ -6,11 +6,13 @@ import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
 public class EncryptingODSFiles {
+	
+	// The path to the documents directory.
+	static String sourceDir = Utils.Get_SourceDirectory();
+	static String outputDir = Utils.Get_OutputDirectory();
+
 	public static void main(String[] args) throws Exception {
 
-		// The path to the documents directory.
-		String sourceDir = Utils.Get_SourceDirectory();
-		String outputDir = Utils.Get_OutputDirectory();
 		
         //Encrypt an ODS file
         //Encrypted ODS file can only be opened in OpenOffice as Excel does not support encrypted ODS files
