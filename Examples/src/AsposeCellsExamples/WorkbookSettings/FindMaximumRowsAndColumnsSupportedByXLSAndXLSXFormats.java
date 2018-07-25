@@ -3,7 +3,7 @@ package AsposeCellsExamples.WorkbookSettings;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats { 
+public class FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats {
 	
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
