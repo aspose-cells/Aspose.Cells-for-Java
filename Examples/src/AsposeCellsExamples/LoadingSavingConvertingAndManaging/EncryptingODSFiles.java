@@ -22,7 +22,7 @@ public class EncryptingODSFiles {
 
         // Instantiate a Workbook object.
         // Open an ODS file.
-        Workbook workbook = new Workbook(sourceDir + "sampleEncryptingODSFiles.ods", loadOptions);
+        Workbook workbook = new Workbook(sourceDir + "sampleODSFile.ods", loadOptions);
 
         //Encryption options are not effective for ODS files
 
@@ -30,7 +30,7 @@ public class EncryptingODSFiles {
         workbook.getSettings().setPassword("1234");
 
         // Save the excel file.
-        workbook.save(outputDir + "outputEncryptingODSFiles.ods");
+        workbook.save(outputDir + "outputEncryptedODSFile.ods");
 
         //Decrypt ODS file
         //Decrypted ODS file can be opened both in Excel and OpenOffice          
@@ -39,7 +39,7 @@ public class EncryptingODSFiles {
         loadOptions.setPassword("1234");
 
         // Load the encrypted ODS file with the appropriate load options
-        Workbook encrypted = new Workbook(outputDir + "outputEncryptingODSFiles.ods", loadOptions);
+        Workbook encrypted = new Workbook(sourceDir + "sampleEncryptedODSFile.ods", loadOptions);
 
         // Unprotect the workbook
         encrypted.unprotect("1234");
@@ -48,7 +48,7 @@ public class EncryptingODSFiles {
         encrypted.getSettings().setPassword(null);
 
         // Save the decrypted ODS file
-        encrypted.save(outputDir + "outputDecryptingODSFiles.ods");
+        encrypted.save(outputDir + "outputDecryptedODSFile.ods");
 
 		// Print message
 		System.out.println("Encryption and Decryption applied successfully on ODS file.");
