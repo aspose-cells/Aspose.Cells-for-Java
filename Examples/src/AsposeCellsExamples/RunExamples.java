@@ -78,6 +78,8 @@ public class RunExamples {
 		//AsposeCellsExamples.DrawingObjects.SendShapeFrontOrBackInWorksheet.main(null);
 		//AsposeCellsExamples.Data.SortDataInColumnWithCustomSortList.main(args);
 
+		//Utility
+		AsposeCellsExamples.LoadingSavingConvertingAndManaging.EncryptingODSFiles.main(null);
 	}
 
 }
