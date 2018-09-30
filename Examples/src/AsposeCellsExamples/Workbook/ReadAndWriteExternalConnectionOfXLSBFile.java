@@ -10,8 +10,7 @@ public class ReadAndWriteExternalConnectionOfXLSBFile {
 
 	public static void main(String[] args) throws Exception {
 
-		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
-
+		// ExStart:ReadAndWriteExternalConnectionOfXLSBFile
 		//Load the source Excel Xlsb file
 		Workbook wb = new Workbook(srcDir + "sampleExternalConnection_XLSB.xlsb");
 		  
@@ -31,6 +30,7 @@ public class ReadAndWriteExternalConnectionOfXLSBFile {
 
 		// Print the message
 		System.out.println("ReadAndWriteExternalConnectionOfXLSBFile executed successfully.");
+		// ExEnd:ReadAndWriteExternalConnectionOfXLSBFile
 	}
 }
 

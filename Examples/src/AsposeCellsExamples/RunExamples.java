@@ -1,14 +1,35 @@
 package AsposeCellsExamples;
 
+import com.aspose.cells.CellsHelper;
+
 public class RunExamples {
 
 	public static void main(String[] args) throws Exception{
 
+		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
+
 		// Uncomment the one you want to try out
+		//Aspose.Cells for Java v18.9
+		//AsposeCellsExamples.LoadingSavingConvertingAndManaging.ExportCustomPropertiesToPDF.main(null);
+		//AsposeCellsExamples.XmlMaps.GetXMLPathFromListObjectTable.main(null);
+		//AsposeCellsExamples.CellsHelperClass.CreateSafeSheetNames.main(null);
+		//AsposeCellsExamples.Data.DataFilteringBlank.main(null);
+		//AsposeCellsExamples.Data.DataFilteringNonBlank.main(null);
+		//AsposeCellsExamples.Data.DataFilteringCustomFilterWithContains.main(null);
+		//AsposeCellsExamples.Data.DataFilteringCustomFilterWithNotContains.main(null);
+		//AsposeCellsExamples.TechnicalArticles.RetrieveQueryTableResultRange.main(null);
+		
+		//Aspose.Cells for Java v18.8
+		AsposeCellsExamples.DrawingObjects.TextboxPartialTextAlignment.main(null);
+		AsposeCellsExamples.LoadingSavingConvertingAndManaging.ContentCopyForAccessibilityOption.main(null);
+		AsposeCellsExamples.TechnicalArticles.PastingRowsColumnsWithPasteOptions.main(null);
+		AsposeCellsExamples.Workbook.ReadAndWriteExternalConnectionOfXLSBFile.main(null);
+		AsposeCellsExamples.PivotTables.DisablePivotTableRibbon.main(null);
+		
 		//Aspose.Cells for Java v18.7
-		AsposeCellsExamples.Data.ChangeCellsAlignmentAndKeepExistingFormatting.main(null);
-		AsposeCellsExamples.WorkbookSettings.FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.main(null);
-		AsposeCellsExamples.Worksheets.SpecifyAuthorWhileWriteProtectingWorkbook.main(null);
+		//AsposeCellsExamples.Data.ChangeCellsAlignmentAndKeepExistingFormatting.main(null);
+		//AsposeCellsExamples.WorkbookSettings.FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats.main(null);
+		//AsposeCellsExamples.Worksheets.SpecifyAuthorWhileWriteProtectingWorkbook.main(null);
 		
 		//Aspose.Cells for Java v18.6
 		//AsposeCellsExamples.Data.GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange.main(null);
