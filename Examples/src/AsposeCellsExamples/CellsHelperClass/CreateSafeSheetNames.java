@@ -6,7 +6,7 @@ public class CreateSafeSheetNames {
 
 	public static void main(String[] args) throws Exception {
 
-		// ExStart:CreateSafeSheetNames
+		// ExStart:1
         // Long name will be truncated to 31 characters
         String name1 = CellsHelper.createSafeSheetName("this is first name which is created using CellsHelper.CreateSafeSheetName and truncated to 31 characters");
 
@@ -18,10 +18,9 @@ public class CreateSafeSheetNames {
 
         // Display second name
         System.out.println(name2);
-        
+        // ExEnd:1		
+
 		// Print message
-		System.out.println("Create Safe Sheet Names performed successfully.");
-        
-        // ExEnd:CreateSafeSheetNames		
+		System.out.println("Create Safe Sheet Names performed successfully.");        
 	}
 }

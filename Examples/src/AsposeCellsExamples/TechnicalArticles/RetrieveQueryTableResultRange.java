@@ -12,15 +12,15 @@ public class RetrieveQueryTableResultRange {
 	static String srcDir = Utils.Get_SourceDirectory();
 
 	public static void main(String[] args) throws Exception {
-		// ExStart:RetrieveQueryTableResultRange
+		// ExStart:1
 		// Create workbook from source excel file
 		Workbook wb = new Workbook(srcDir + "Query TXT.xlsx");
 
 		// Display the address(range) of result range of query table
 		System.out.println(wb.getWorksheets().get(0).getQueryTables().get(0).getResultRange().getAddress());
+		// ExEnd:1
 		
 		// Print message
 		System.out.println("Retrieve Query Table Result Range completed successfully");
-		// ExEnd:RetrieveQueryTableResultRange
 	}
 }

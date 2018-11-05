@@ -13,7 +13,7 @@ public class ExportCustomPropertiesToPDF {
 
 	public static void main(String[] args) throws Exception {
 
-		// ExStart:ExportCustomPropertiesToPDF
+		// ExStart:1
 		// Load template workbook 
 		Workbook workbook = new Workbook(srcDir + "sourceWithCustProps.xlsx");
 
@@ -25,9 +25,9 @@ public class ExportCustomPropertiesToPDF {
 
 		// Save the workbook to PDF format while passing the object of PdfSaveOptions
 		workbook.save(outDir + "outSourceWithCustProps.pdf", pdfSaveOpt);
+		// ExEnd:1		
 		
 		// Print message
 		System.out.println("Export Custom Properties To PDF performed successfully.");
-		// ExEnd:ExportCustomPropertiesToPDF		
 	}
 }

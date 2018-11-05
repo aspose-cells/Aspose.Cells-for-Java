@@ -11,8 +11,7 @@ public class GetXMLPathFromListObjectTable {
 
 	public static void main(String[] args) throws Exception {
 
-		// ExStart:GetXMLPathFromListObjectTable
-		
+		// ExStart:1
         // Load XLSX file containing data from XML file
         Workbook workbook = new Workbook(srcDir +   "XML Data.xlsx");
 
@@ -27,9 +26,9 @@ public class GetXMLPathFromListObjectTable {
 
         // Display XML file name
         System.out.println(url);
+		// ExEnd:1		
 		
 		// Print message
 		System.out.println("Get XML Path From List Object/Table performed successfully.");
-		// ExEnd:GetXMLPathFromListObjectTable		
 	}
 }

@@ -3,7 +3,7 @@ package AsposeCellsExamples.Data;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-public class DataFilteringCustomFilterWithContains {
+public class AutofilterBeginsWith {
 
 	// The path to the documents directory.
 	static String srcDir = Utils.Get_SourceDirectory();
@@ -11,7 +11,7 @@ public class DataFilteringCustomFilterWithContains {
 
 	public static void main(String[] args) throws Exception {
 
-		// ExStart:1
+        // ExStart:1
         // Instantiating a Workbook object containing sample data
         Workbook workbook = new Workbook(srcDir + "sourseSampleCountryNames.xlsx");
 
@@ -21,17 +21,17 @@ public class DataFilteringCustomFilterWithContains {
         // Creating AutoFilter by giving the cells range
         worksheet.getAutoFilter().setRange("A1:A18");
 
-        // Initialize filter for rows containing string "Ba"
-        worksheet.getAutoFilter().custom(0, FilterOperatorType.CONTAINS, "Ba");
+        // Initialize filter for rows starting with string "Ba"
+        worksheet.getAutoFilter().custom(0, FilterOperatorType.BEGINS_WITH, "Ba");
 
         //Refresh the filter to show/hide filtered rows
         worksheet.getAutoFilter().refresh();
 
         // Saving the modified Excel file
-        workbook.save(outDir + "outSourseSampleCountryNames.xlsx");
-		// ExEnd:1
-
+        workbook.save(outDir +  "outSourseSampleCountryNames.xlsx");
+        // ExEnd:1
+        
 		// Print message
-		System.out.println("Data Filtering custom filter with contains completed successfully");
+		System.out.println("AutofilterBeginsWith executed successfully");
 	}
 }
