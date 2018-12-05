@@ -37,13 +37,14 @@ public class GetShapeConnectionPoints {
         Shape shape = workbook.getWorksheets().get(0).getShapes().get(0);
 
         // Get all the connection points in this shape
-        zo[] ConnectionPoints = shape.getConnectionPoints();
+        float[][] ConnectionPoints = shape.getConnectionPoints();
 
         // Display all the shape points
-        //foreach (var pt in ConnectionPoints)
-        //{
-        //    System.Console.WriteLine(string.Format("X = {0}, Y = {1}", pt.X, pt.Y));
-        //}
+        for (float[] pt : ConnectionPoints)
+        {
+            System.out.println(pt[0]);
+            System.out.println(pt[1]);
+        }
         // ExEnd:1
 		
 		// Print message

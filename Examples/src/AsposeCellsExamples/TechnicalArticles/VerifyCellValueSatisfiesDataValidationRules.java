@@ -6,12 +6,13 @@ import com.aspose.cells.Worksheet;
 import AsposeCellsExamples.Utils;
 
 public class VerifyCellValueSatisfiesDataValidationRules {
-	public static void main(String[] args) throws Exception {
-
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(VerifyCellValueSatisfiesDataValidationRules.class) + "TechnicalArticles/";
+	static String srcDir = Utils.Get_SourceDirectory();
+
+	public static void main(String[] args) throws Exception {
+		// ExStart:1
 		// Instantiate the workbook from sample Excel file
-		Workbook workbook = new Workbook(dataDir + "Sample1.xlsx");
+		Workbook workbook = new Workbook(srcDir + "sampleDataValidationRules.xlsx");
 
 		// Access the first worksheet
 		Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -39,6 +40,15 @@ public class VerifyCellValueSatisfiesDataValidationRules {
 		// Check if number 30 satisfies the Data Validation rule applied on this cell
 		System.out.println("Is 30 a Valid Value for this Cell: " + cell.getValidationValue());
 
+		// Enter large number 12345678901 inside this cell
+        // Since it is not between 1 and 999999999999, it should pass the validation again
+        Cell cell2 = worksheet.getCells().get("D1");
+        cell2.putValue(12345678901l);
 
+        // Check if number 12345678901 satisfies the Data Validation rule applied on this cell
+        System.out.println("Is 12345678901 a Valid Value for this Cell: " + cell2.getValidationValue());
+		//ExEnd:1
+		
+		System.out.println("VerifyCellValueSatisfiesDataValidationRules executed successfully");
 	}
 }

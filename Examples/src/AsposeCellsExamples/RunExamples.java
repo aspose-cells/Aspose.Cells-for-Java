@@ -5,8 +5,11 @@ import com.aspose.cells.CellsHelper;
 import AsposeCellsExamples.Data.AutofilterBeginsWith;
 import AsposeCellsExamples.Data.AutofilterEndsWith;
 import AsposeCellsExamples.DrawingObjects.GetShapeConnectionPoints;
+import AsposeCellsExamples.DrawingObjects.ReplaceTextInSmartArt;
 import AsposeCellsExamples.HTML.RecognizeSelfClosingTags;
 import AsposeCellsExamples.HTML.SetScalableColumnWidth;
+import AsposeCellsExamples.PivotTables.GetPivotTableRefreshDate;
+import AsposeCellsExamples.TechnicalArticles.VerifyCellValueSatisfiesDataValidationRules;
 import AsposeCellsExamples.WorkbookSettings.SupportNamedRangeFormulasInGermanLocale;
 
 public class RunExamples {
@@ -16,13 +19,20 @@ public class RunExamples {
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 
 		// Uncomment the one you want to try out
+		//Aspose.Cells for Java v18.11
+        //DetectCircularReference.main();
+		GetPivotTableRefreshDate.main(null);
+		ReplaceTextInSmartArt.main(null);
+		VerifyCellValueSatisfiesDataValidationRules.main(null);
+
+		
 		//Aspose.Cells for Java v18.10
-		GetShapeConnectionPoints.main(null);
-		SetScalableColumnWidth.main(null);
-		RecognizeSelfClosingTags.main(null);
-		SupportNamedRangeFormulasInGermanLocale.main(null);
-		AutofilterBeginsWith.main(null);
-		AutofilterEndsWith.main(null);
+		//GetShapeConnectionPoints.main(null);
+		//SetScalableColumnWidth.main(null);
+		//RecognizeSelfClosingTags.main(null);
+		//SupportNamedRangeFormulasInGermanLocale.main(null);
+		//AutofilterBeginsWith.main(null);
+		//AutofilterEndsWith.main(null);
 		
 		
 		//Aspose.Cells for Java v18.9
