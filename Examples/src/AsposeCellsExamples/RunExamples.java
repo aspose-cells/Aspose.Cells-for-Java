@@ -25,7 +25,6 @@ public class RunExamples {
 
 		// Uncomment the one you want to try out
 		//Aspose.Cells for Java v18.12
-		//We have improved the memory usage for loading large template files. And it is strongly recommended to use file to instantiate Workbook instead of InputStream because using file can give better memory performance after the improvement made in new versions.
         CreateLineWithDataMarkerChart.main(null);
         SetSingleSheetTabNameInHtml.main(null);
         FilterVBAMacrosWhileLoadingWorkbook.main(null);
