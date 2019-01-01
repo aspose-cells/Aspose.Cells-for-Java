@@ -2,16 +2,21 @@ package AsposeCellsExamples;
 
 import com.aspose.cells.CellsHelper;
 
+import AsposeCellsExamples.Charts.CreateLineWithDataMarkerChart;
 import AsposeCellsExamples.Data.AutofilterBeginsWith;
 import AsposeCellsExamples.Data.AutofilterEndsWith;
+import AsposeCellsExamples.Data.CheckIfValidationInCellDropDown;
 import AsposeCellsExamples.DrawingObjects.GetShapeConnectionPoints;
+import AsposeCellsExamples.DrawingObjects.ReplaceTagWithTextInTextBox;
 import AsposeCellsExamples.DrawingObjects.ReplaceTextInSmartArt;
+import AsposeCellsExamples.HTML.ExportPrintAreaToHtml;
 import AsposeCellsExamples.HTML.RecognizeSelfClosingTags;
 import AsposeCellsExamples.HTML.SetScalableColumnWidth;
+import AsposeCellsExamples.HTML.SetSingleSheetTabNameInHtml;
 import AsposeCellsExamples.PivotTables.GetPivotTableRefreshDate;
 import AsposeCellsExamples.TechnicalArticles.VerifyCellValueSatisfiesDataValidationRules;
 import AsposeCellsExamples.WorkbookSettings.SupportNamedRangeFormulasInGermanLocale;
-
+import AsposeCellsExamples.WorkbookVBAProject.FilterVBAMacrosWhileLoadingWorkbook;
 public class RunExamples {
 
 	public static void main(String[] args) throws Exception{
@@ -19,11 +24,21 @@ public class RunExamples {
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 
 		// Uncomment the one you want to try out
+		//Aspose.Cells for Java v18.12
+		//We have improved the memory usage for loading large template files. And it is strongly recommended to use file to instantiate Workbook instead of InputStream because using file can give better memory performance after the improvement made in new versions.
+        CreateLineWithDataMarkerChart.main(null);
+        SetSingleSheetTabNameInHtml.main(null);
+        FilterVBAMacrosWhileLoadingWorkbook.main(null);
+        ReplaceTagWithTextInTextBox.main(null);
+		ExportPrintAreaToHtml.main(null);
+		CheckIfValidationInCellDropDown.main(null);
+		
+		
 		//Aspose.Cells for Java v18.11
         //DetectCircularReference.main();
-		GetPivotTableRefreshDate.main(null);
-		ReplaceTextInSmartArt.main(null);
-		VerifyCellValueSatisfiesDataValidationRules.main(null);
+		//GetPivotTableRefreshDate.main(null);
+		//ReplaceTextInSmartArt.main(null);
+		//VerifyCellValueSatisfiesDataValidationRules.main(null);
 
 		
 		//Aspose.Cells for Java v18.10

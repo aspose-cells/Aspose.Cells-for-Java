@@ -9,6 +9,6 @@
 	<classpathentry kind="lib" path="msaccesslibs/jackcess-2.1.6.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/ucanaccess-4.0.2.jar"/>
 	<classpathentry kind="lib" path="libs/jai_imageio.jar"/>
-	<classpathentry kind="lib" path="C:/AsposeRelease/Java/Cells/Aspos.Cells for Java 18.11.0/aspose-cells-18.11.jar"/>
+	<classpathentry kind="lib" path="C:/AsposeRelease/Java/Cells/Aspose.Cells for Java 18.12.0/aspose-cells-18.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
