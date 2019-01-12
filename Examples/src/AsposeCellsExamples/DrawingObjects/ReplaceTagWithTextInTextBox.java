@@ -1,14 +1,6 @@
 package AsposeCellsExamples.DrawingObjects;
 
-import com.aspose.cells.Color;
-import com.aspose.cells.FillFormat;
-import com.aspose.cells.GradientStyleType;
-import com.aspose.cells.LineFormat;
-import com.aspose.cells.MsoDrawingType;
-import com.aspose.cells.MsoLineDashStyle;
-import com.aspose.cells.MsoLineStyle;
 import com.aspose.cells.PdfSaveOptions;
-import com.aspose.cells.PlacementType;
 import com.aspose.cells.TextBox;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -23,9 +15,6 @@ public class ReplaceTagWithTextInTextBox {
         Workbook wb = new Workbook(srcDir + "sampleReplaceTagWithText.xlsx");
         String tag = "TAG_2#TAG_1";
         String replace = "1#ys";
-        String[] tags = tag.split("#");
-        String tag1 = tags[0];
-        String tag2 = tags[1];
         for (int i = 0; i < tag.split("#").length; i++)
         {
             sheetReplace(wb, "<" + tag.split("#")[i] + ">", replace.split("#")[i]);

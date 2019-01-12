@@ -10,7 +10,6 @@ public class DetermineIfPaperSizeOfWorksheetIsAutomatic {
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 
 		String srcDir = Utils.Get_SourceDirectory();
-		String outDir = Utils.Get_OutputDirectory();
 
 		// Load the first workbook having automatic paper size false
 		Workbook wb1 = new Workbook(srcDir + "samplePageSetupIsAutomaticPaperSize-False.xlsx");

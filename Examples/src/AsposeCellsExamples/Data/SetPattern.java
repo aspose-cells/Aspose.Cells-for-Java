@@ -10,13 +10,9 @@ import com.aspose.cells.OperatorType;
 import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import AsposeCellsExamples.Utils;
 
 public class SetPattern {
 	public static void main(String[] args) throws Exception {
-		// Path to source file
-		String dataDir = Utils.getSharedDataDir(SetPattern.class) + "Data/";
-
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 		Worksheet sheet = workbook.getWorksheets().get(0);

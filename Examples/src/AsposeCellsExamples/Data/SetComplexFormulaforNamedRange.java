@@ -3,11 +3,9 @@ package AsposeCellsExamples.Data;
 import com.aspose.cells.Name;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorksheetCollection;
-import AsposeCellsExamples.Utils;
 
 public class SetComplexFormulaforNamedRange {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(SetComplexFormulaforNamedRange.class) + "Data/";
 		// Create an instance of Workbook
 		Workbook book = new Workbook();
 

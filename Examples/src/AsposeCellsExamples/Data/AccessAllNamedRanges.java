@@ -15,10 +15,6 @@ public class AccessAllNamedRanges {
 
 		WorksheetCollection worksheets = workbook.getWorksheets();
 
-		// Accessing the first worksheet in the Excel file
-		Worksheet sheet = worksheets.get(0);
-		Cells cells = sheet.getCells();
-
 		// Getting all named ranges
 		Range[] namedRanges = worksheets.getNamedRanges();
 

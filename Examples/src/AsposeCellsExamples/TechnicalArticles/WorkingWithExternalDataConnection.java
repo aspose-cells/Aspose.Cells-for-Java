@@ -1,7 +1,5 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import java.io.Console;
-
 import com.aspose.cells.ExternalConnection;
 import com.aspose.cells.WebQueryConnection;
 import com.aspose.cells.Workbook;

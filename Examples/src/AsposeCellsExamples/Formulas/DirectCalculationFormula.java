@@ -3,12 +3,9 @@ package AsposeCellsExamples.Formulas;
 import com.aspose.cells.Cell;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import AsposeCellsExamples.Utils;
 
 public class DirectCalculationFormula {
 	public static void main(String[] args) throws Exception {
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(DirectCalculationFormula.class) + "formulas/";
 		// Create a workbook
 		Workbook workbook = new Workbook();
 

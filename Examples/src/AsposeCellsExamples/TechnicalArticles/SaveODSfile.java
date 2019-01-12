@@ -4,13 +4,9 @@ import com.aspose.cells.Cell;
 import com.aspose.cells.OdsSaveOptions;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import AsposeCellsExamples.Utils;
 
 public class SaveODSfile {
 	public static void main(String[] args) throws Exception {
-
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SaveODSfile.class) + "TechnicalArticles/";
 		// Create workbook
 		Workbook workbook = new Workbook();
 

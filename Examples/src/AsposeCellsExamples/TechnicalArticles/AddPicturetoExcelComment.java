@@ -39,6 +39,7 @@ public class AddPicturetoExcelComment {
 
 		// Save the workbook
 		workbook.save(dataDir + "APToExcelComment_out.xlsx");
+		inFile.close();
 
 	}
 }

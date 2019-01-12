@@ -5,13 +5,10 @@ import com.aspose.cells.PaperSizeType;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import AsposeCellsExamples.Utils;
 
 public class CalculatePageSetupScalingFactor {
 	public static void main(String[] args) throws Exception {
 
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CalculatePageSetupScalingFactor.class) + "TechnicalArticles/";
 		// Create workbook object
 		Workbook workbook = new Workbook();
 

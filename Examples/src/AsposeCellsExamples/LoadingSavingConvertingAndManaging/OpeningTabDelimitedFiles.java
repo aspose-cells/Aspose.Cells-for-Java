@@ -11,7 +11,6 @@ public class OpeningTabDelimitedFiles {
 
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(OpeningTabDelimitedFiles.class) + "LoadingSavingConvertingAndManaging/";
-		String filePath = dataDir + "Book1.html";
 
 		// Creating and TAB_DELIMITED LoadOptions object
 		LoadOptions loadOptions5 = new LoadOptions(FileFormatType.TAB_DELIMITED);
@@ -20,6 +19,7 @@ public class OpeningTabDelimitedFiles {
 		// loadOptions object
 		Workbook workbook7 = new Workbook(dataDir + "Book1TabDelimited.txt", loadOptions5);
 
+		System.out.println(workbook7.getFileName());
 		// Print message
 		System.out.println("Tab Delimited workbook has been opened successfully.");
 

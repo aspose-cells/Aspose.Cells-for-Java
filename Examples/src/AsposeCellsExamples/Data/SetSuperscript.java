@@ -6,13 +6,10 @@ import com.aspose.cells.Font;
 import com.aspose.cells.Style;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import AsposeCellsExamples.Utils;
 
 public class SetSuperscript {
 	public static void main(String[] args) throws Exception {
 		
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SetSubscript.class) + "Data/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 

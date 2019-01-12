@@ -5,8 +5,6 @@ import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
-import java.io.FileInputStream;
-
 public class OpeningEncryptedExcelFiles {
 
 	public static void main(String[] args) throws Exception {
@@ -22,7 +20,7 @@ public class OpeningEncryptedExcelFiles {
 		loadOptions6.setPassword("1234");
 
 		// Creating an Workbook object with file path and the loadOptions object
-		Workbook workbook8 = new Workbook(dataDir + "encryptedBook.xls", loadOptions6);
+		new Workbook(dataDir + "encryptedBook.xls", loadOptions6);
 
 		// Print message
 		System.out.println("Encrypted workbook has been opened successfully.");

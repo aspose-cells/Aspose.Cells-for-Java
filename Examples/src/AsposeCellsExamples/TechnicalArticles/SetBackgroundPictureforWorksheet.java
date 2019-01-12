@@ -27,6 +27,7 @@ public class SetBackgroundPictureforWorksheet {
 		// Set the background image for the sheet.
 		sheet.setBackgroundImage(imageData);
 
+		fis.close();
 		// Save the excel file
 		workbook.save(dataDir + "SBPforWorksheet.xls");
 

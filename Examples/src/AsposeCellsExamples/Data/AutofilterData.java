@@ -18,7 +18,6 @@ public class AutofilterData {
 
 		// Creating AutoFilter by giving the cells range
 		AutoFilter autoFilter = worksheet.getAutoFilter();
-		CellArea area = new CellArea();
 		autoFilter.setRange("A1:B1");
 
 		// Saving the modified Excel file

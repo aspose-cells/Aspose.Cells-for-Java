@@ -5,11 +5,8 @@ import com.aspose.cells.VerticalPageBreakCollection;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
-import AsposeCellsExamples.Utils;
-
 public class AddingPageBreaks {
 	public static void main(String[] args) throws Exception {
-		String dataDir = Utils.getSharedDataDir(AddingPageBreaks.class) + "Worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 

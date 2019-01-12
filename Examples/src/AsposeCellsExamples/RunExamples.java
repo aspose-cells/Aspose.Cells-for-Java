@@ -3,19 +3,10 @@ package AsposeCellsExamples;
 import com.aspose.cells.CellsHelper;
 
 import AsposeCellsExamples.Charts.CreateLineWithDataMarkerChart;
-import AsposeCellsExamples.Data.AutofilterBeginsWith;
-import AsposeCellsExamples.Data.AutofilterEndsWith;
 import AsposeCellsExamples.Data.CheckIfValidationInCellDropDown;
-import AsposeCellsExamples.DrawingObjects.GetShapeConnectionPoints;
 import AsposeCellsExamples.DrawingObjects.ReplaceTagWithTextInTextBox;
-import AsposeCellsExamples.DrawingObjects.ReplaceTextInSmartArt;
 import AsposeCellsExamples.HTML.ExportPrintAreaToHtml;
-import AsposeCellsExamples.HTML.RecognizeSelfClosingTags;
-import AsposeCellsExamples.HTML.SetScalableColumnWidth;
 import AsposeCellsExamples.HTML.SetSingleSheetTabNameInHtml;
-import AsposeCellsExamples.PivotTables.GetPivotTableRefreshDate;
-import AsposeCellsExamples.TechnicalArticles.VerifyCellValueSatisfiesDataValidationRules;
-import AsposeCellsExamples.WorkbookSettings.SupportNamedRangeFormulasInGermanLocale;
 import AsposeCellsExamples.WorkbookVBAProject.FilterVBAMacrosWhileLoadingWorkbook;
 public class RunExamples {
 

@@ -7,7 +7,6 @@ public class UsingFormulaParameterInSmartMarkerField {
 	public static void main(String[] args) throws Exception {
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 		
-		String srcDir = Utils.Get_SourceDirectory();
 		String outDir = Utils.Get_OutputDirectory();
 		
 		//Create array of strings that are actually Excel formulas

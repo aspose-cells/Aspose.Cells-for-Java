@@ -86,6 +86,7 @@ public class SetPictureAsBackgroundFillInChart {
 		Legend legend = chart.getLegend();
 		legend.setPosition(LegendPositionType.TOP);
 
+		fis.close();
 		// Save the excel file
 		workbook.save(dataDir + "SPAsBFillInChart_out.xls");
 

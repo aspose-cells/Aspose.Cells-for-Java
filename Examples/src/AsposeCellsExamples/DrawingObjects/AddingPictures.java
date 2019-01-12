@@ -23,6 +23,7 @@ public class AddingPictures {
 		int pictureIndex = sheet.getPictures().add(5, 5, dataDir + "logo.jpg");
 		Picture picture = sheet.getPictures().get(pictureIndex);
 
+		System.out.println(picture.getTitle());
 		// Saving the Excel file
 		workbook.save(dataDir + "AddingPictures_out.xls");
 	}

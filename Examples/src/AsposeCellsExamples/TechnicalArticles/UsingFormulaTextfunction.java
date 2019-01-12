@@ -3,12 +3,10 @@ package AsposeCellsExamples.TechnicalArticles;
 import com.aspose.cells.Cell;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import AsposeCellsExamples.Utils;
 
 public class UsingFormulaTextfunction {
 	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getSharedDataDir(UsingFormulaTextfunction.class) + "TechnicalArticles/";
 		// Create a workbook object
 		Workbook workbook = new Workbook();
 

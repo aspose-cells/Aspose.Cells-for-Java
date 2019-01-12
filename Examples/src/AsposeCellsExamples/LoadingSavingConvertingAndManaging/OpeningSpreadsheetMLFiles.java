@@ -18,7 +18,7 @@ public class OpeningSpreadsheetMLFiles {
 
 		// Creating an Workbook object with SpreadsheetML file path and the
 		// loadOptions object
-		Workbook workbook5 = new Workbook(dataDir + "Book3.xml", loadOptions3);
+		new Workbook(dataDir + "Book3.xml", loadOptions3);
 
 		// Print message
 		System.out.println("SpreadSheetML format workbook has been opened successfully.");

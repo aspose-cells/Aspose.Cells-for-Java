@@ -11,7 +11,6 @@ import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import AsposeCellsExamples.Utils;
-import com.sun.prism.Image;
 
 public class GenerateThumbnailofWorksheet {
 	public static void main(String[] args) throws Exception {

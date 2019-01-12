@@ -1,10 +1,6 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.Cell;
-import com.aspose.cells.FontSetting;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
-
 import AsposeCellsExamples.Utils;
 
 public class RetrieveQueryTableResultRange {

@@ -1,12 +1,8 @@
 package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
-import com.aspose.cells.FileFormatType;
 import com.aspose.cells.TxtSaveOptions;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.XpsSaveOptions;
 import AsposeCellsExamples.Utils;
-
-import java.io.FileOutputStream;
 
 public class SavingTextFilewithCustomSeparator {
 

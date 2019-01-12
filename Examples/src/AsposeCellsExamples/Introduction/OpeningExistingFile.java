@@ -1,10 +1,7 @@
 package AsposeCellsExamples.Introduction;
 
-import java.io.FileInputStream;
-
 import com.aspose.cells.Cell;
 import com.aspose.cells.FileFormatType;
-import com.aspose.cells.License;
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 

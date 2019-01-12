@@ -17,7 +17,7 @@ public class OpeningFilesThroughStream {
 		FileInputStream fstream = new FileInputStream(dataDir + "Book2.xls");
 
 		// Creating an Workbook object with the stream object
-		Workbook workbook2 = new Workbook(fstream);
+		new Workbook(fstream);
 
 		fstream.close();
 

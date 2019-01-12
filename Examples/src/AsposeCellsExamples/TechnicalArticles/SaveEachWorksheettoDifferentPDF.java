@@ -13,9 +13,6 @@ public class SaveEachWorksheettoDifferentPDF {
 		// File from its location
 		Workbook workbook = new Workbook(dataDir + "input.xlsx");
 
-		// Get the count of the worksheets in the workbook
-		int sheetCount = workbook.getWorksheets().getCount();
-
 		// Make all sheets invisible except first worksheet
 		for (int i = 1; i < workbook.getWorksheets().getCount(); i++) {
 			workbook.getWorksheets().get(i).setVisible(false);

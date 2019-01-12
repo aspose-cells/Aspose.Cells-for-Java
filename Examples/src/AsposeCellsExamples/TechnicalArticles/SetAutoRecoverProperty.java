@@ -1,13 +1,9 @@
 package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Workbook;
-import AsposeCellsExamples.Utils;
 
 public class SetAutoRecoverProperty {
 	public static void main(String[] args) throws Exception {
-
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(SetAutoRecoverProperty.class) + "TechnicalArticles/";
 		// Create workbook object
 		Workbook workbook = new Workbook();
 

@@ -35,6 +35,8 @@ public class CalculatingFormulas {
 		// Get the calculated value of the cell
 		String value = worksheet.getCells().get("A4").getStringValue();
 
+		System.out.println(value);
+		
 		// Saving the Excel file
 		workbook.save(dataDir + "CalculatingFormulas_out.xls");
 	}

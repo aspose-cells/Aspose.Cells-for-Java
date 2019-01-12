@@ -6,7 +6,6 @@ import com.aspose.cells.CalculationOptions;
 import com.aspose.cells.Cell;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import AsposeCellsExamples.Utils;
 
 public class ImplementCustomCalculationEngine {
 
@@ -30,8 +29,6 @@ public class ImplementCustomCalculationEngine {
 
 	public void Run() throws Exception
 	{
-		// The path to the documents directory.
-		String dataDir = Utils.getDataDir(ImplementCustomCalculationEngine.class);
 
 		Workbook workbook = new Workbook();
 

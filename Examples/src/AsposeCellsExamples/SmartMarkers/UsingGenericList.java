@@ -10,14 +10,10 @@ import com.aspose.cells.StyleFlag;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.WorkbookDesigner;
 import com.aspose.cells.Worksheet;
-import AsposeCellsExamples.Utils;
 
 public class UsingGenericList {
 
 	public static void main(String[] args) throws Exception {
-
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(UsingGenericList.class) + "SmartMarkers/";
 				
 		// Create a designer workbook
 		Workbook workbook = new Workbook();

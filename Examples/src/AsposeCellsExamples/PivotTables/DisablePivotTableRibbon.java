@@ -1,11 +1,7 @@
 package AsposeCellsExamples.PivotTables;
 
-import com.aspose.cells.Cell;
-import com.aspose.cells.Cells;
 import com.aspose.cells.PivotTable;
-import com.aspose.cells.Range;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
 import AsposeCellsExamples.Utils;
 
 public class DisablePivotTableRibbon {

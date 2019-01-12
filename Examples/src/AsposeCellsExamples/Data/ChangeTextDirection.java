@@ -22,7 +22,6 @@ public class ChangeTextDirection {
 
 		// Adding the current system date to "A1" cell
 		Cell cell = cells.get("A1");
-		Style style = cell.getStyle();
 
 		// Adding some value to the "A1" cell
 		cell.setValue("Visit Aspose!");

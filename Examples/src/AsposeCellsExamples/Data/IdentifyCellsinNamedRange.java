@@ -1,9 +1,7 @@
 package AsposeCellsExamples.Data;
 
-import com.aspose.cells.Cells;
 import com.aspose.cells.Range;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
 import com.aspose.cells.WorksheetCollection;
 import AsposeCellsExamples.Utils;
 
@@ -18,10 +16,6 @@ public class IdentifyCellsinNamedRange {
 		Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 		WorksheetCollection worksheets = workbook.getWorksheets();
-
-		// Accessing the first worksheet in the Excel file
-		Worksheet sheet = worksheets.get(0);
-		Cells cells = sheet.getCells();
 
 		// Getting the specified named range
 		Range range = worksheets.getRangeByName("TestRange");

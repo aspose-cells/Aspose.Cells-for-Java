@@ -22,9 +22,6 @@ public class FindingwithRegularExpressions {
 		Cells cells = worksheet.getCells();
 
 		// Instantiate FindOptions
-		FindOptions findOptions = new FindOptions();
-
-		// Instantiate FindOptions
 		FindOptions opt = new FindOptions();
 		// Set the search key of find() method as standard RegEx
 		opt.setRegexKey(true);

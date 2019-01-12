@@ -9,8 +9,6 @@ public class MergeFiles {
 	public static void main(String[] args) throws Exception {
 
 		String dataDir = Utils.getSharedDataDir(MergeFiles.class) + "CellsHelperClass/";
-		String sampleFile = "Sample.out.xlsx";
-		String samplePath = dataDir + sampleFile;
 
 		// Create an Array (length=2)
 		String[] files = new String[2];

@@ -16,7 +16,6 @@ public class ReadLargeExcelFiles {
 		opt.setMemorySetting(MemorySetting.MEMORY_PREFERENCE);
 		// Instantiate the Workbook
 		// Load the Big Excel file having large Data set in it
-		Workbook wb = new Workbook(dataDir + "RLExcelFiles_out.xlsx", opt);
-
+		new Workbook(dataDir + "RLExcelFiles_out.xlsx", opt);
 	}
 }

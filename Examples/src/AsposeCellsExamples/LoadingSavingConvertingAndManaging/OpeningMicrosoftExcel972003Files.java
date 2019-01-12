@@ -18,7 +18,7 @@ public class OpeningMicrosoftExcel972003Files {
 
 		// Creating an Workbook object with excel 97 file path and the
 		// loadOptions object
-		Workbook workbook3 = new Workbook(dataDir + "Book_Excel97_2003.xls", loadOptions1);
+		new Workbook(dataDir + "Book_Excel97_2003.xls", loadOptions1);
 
 		// Print message
 		System.out.println("Excel 97 Workbook opened successfully.");

@@ -3,8 +3,6 @@ package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
-import java.io.FileInputStream;
-
 public class OpeningFilesThroughPath {
 
 	public static void main(String[] args) throws Exception {
@@ -14,7 +12,7 @@ public class OpeningFilesThroughPath {
 
 		// Opening from path.
 		// Creating an Workbook object with an Excel file path
-		Workbook workbook1 = new Workbook(dataDir + "Book1.xlsx");
+		new Workbook(dataDir + "Book1.xlsx");
 
 		// Print message
 		System.out.println("Workbook opened using path successfully.");

@@ -1,6 +1,5 @@
 package AsposeCellsExamples.RowsAndColumns;
 
-import com.aspose.cells.Cells;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import AsposeCellsExamples.Utils;
@@ -15,7 +14,6 @@ public class SettingHeightAllRows {
 
 		// Accessing the first worksheet in the Excel file
 		Worksheet worksheet = workbook.getWorksheets().get(0);
-		Cells cells = worksheet.getCells();
 
 		// Setting the height of all rows in the worksheet to 15
 		worksheet.getCells().setStandardHeight(15f);

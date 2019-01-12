@@ -3,13 +3,9 @@ package AsposeCellsExamples.TechnicalArticles;
 import com.aspose.cells.TextBox;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
-import AsposeCellsExamples.Utils;
 
 public class AccessTextBoxName {
 	public static void main(String[] args) throws Exception {
-
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AccessTextBoxName.class) + "TechnicalArticles/";
 
 		Workbook workbook = new Workbook();
 

@@ -17,7 +17,6 @@ public class SettingTitlesAxes {
 		// Obtaining the reference of the newly added worksheet by passing its
 		// sheet index
 		Worksheet worksheet = worksheets.get(0);
-		Cells cells = worksheet.getCells();
 
 		// Adding a chart to the worksheet
 		ChartCollection charts = worksheet.getCharts();

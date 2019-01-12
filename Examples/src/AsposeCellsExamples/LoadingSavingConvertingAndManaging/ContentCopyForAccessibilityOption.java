@@ -3,8 +3,6 @@ package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-import java.io.FileOutputStream;
-
 public class ContentCopyForAccessibilityOption {
 	// The path to the documents directory.
 	static String srcDir = Utils.Get_SourceDirectory();

@@ -1,6 +1,5 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.VbaProject;
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 

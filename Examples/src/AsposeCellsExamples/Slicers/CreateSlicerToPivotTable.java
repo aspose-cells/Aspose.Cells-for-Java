@@ -26,7 +26,7 @@ public class CreateSlicerToPivotTable {
 		 
 		// Access the newly added slicer from slicer collection.
 		Slicer slicer = ws.getSlicers().get(idx);
-		 
+		
 		// Save the workbook in output XLSX format.
 		wb.save(outDir + "outputCreateSlicerToPivotTable.xlsx", SaveFormat.XLSX);
 		 

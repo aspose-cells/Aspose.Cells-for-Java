@@ -1,7 +1,5 @@
 package AsposeCellsExamples.Charts;
 
-import java.util.Random;
-
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
@@ -18,9 +16,6 @@ public class CreateLineWithDataMarkerChart {
         // Set columns title 
         worksheet.getCells().get(0, 0).setValue("X");
         worksheet.getCells().get(0, 1).setValue("Y");
-
-        // Random data shall be used for generating the chart
-        Random R = new Random();
 
         // Create random data and save in the cells
         for (int i = 1; i < 21; i++)

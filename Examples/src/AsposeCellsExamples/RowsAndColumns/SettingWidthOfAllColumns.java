@@ -1,6 +1,5 @@
 package AsposeCellsExamples.RowsAndColumns;
 
-import com.aspose.cells.Cells;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
 import AsposeCellsExamples.Utils;
@@ -14,7 +13,6 @@ public class SettingWidthOfAllColumns {
 
 		// Accessing the first worksheet in the Excel file
 		Worksheet worksheet = workbook.getWorksheets().get(0);
-		Cells cells = worksheet.getCells();
 
 		// Setting the width of all columns in the worksheet to 20.5
 		worksheet.getCells().setStandardWidth(20.5f);

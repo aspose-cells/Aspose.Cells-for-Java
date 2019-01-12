@@ -1,7 +1,5 @@
 package AsposeCellsExamples.DrawingObjects;
 
-import java.io.FileOutputStream;
-
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 

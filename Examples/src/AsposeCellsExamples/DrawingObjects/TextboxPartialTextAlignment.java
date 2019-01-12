@@ -1,16 +1,5 @@
 package AsposeCellsExamples.DrawingObjects;
 
-import com.aspose.cells.Color;
-import com.aspose.cells.FillFormat;
-import com.aspose.cells.GradientStyleType;
-import com.aspose.cells.LineFormat;
-import com.aspose.cells.MsoDrawingType;
-import com.aspose.cells.MsoLineDashStyle;
-import com.aspose.cells.MsoLineStyle;
-import com.aspose.cells.PdfCustomPropertiesExport;
-import com.aspose.cells.PdfSaveOptions;
-import com.aspose.cells.PlacementType;
-import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Shape;
 import com.aspose.cells.TextBox;
 import com.aspose.cells.Workbook;

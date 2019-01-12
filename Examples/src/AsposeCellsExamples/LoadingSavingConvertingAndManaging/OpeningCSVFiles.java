@@ -17,7 +17,7 @@ public class OpeningCSVFiles {
 
 		// Creating an Workbook object with CSV file path and the loadOptions
 		// object
-		Workbook workbook6 = new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
+		new Workbook(dataDir + "Book_CSV.csv", loadOptions4);
 
 		// Print message
 		System.out.println("CSV format workbook has been opened successfully.");

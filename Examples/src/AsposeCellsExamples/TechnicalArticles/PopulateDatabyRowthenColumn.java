@@ -2,13 +2,10 @@ package AsposeCellsExamples.TechnicalArticles;
 
 import com.aspose.cells.Cells;
 import com.aspose.cells.Workbook;
-import AsposeCellsExamples.Utils;
 
 public class PopulateDatabyRowthenColumn {
 	public static void main(String[] args) throws Exception {
 
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(PopulateDatabyRowthenColumn.class) + "TechnicalArticles/";
 		Workbook workbook = new Workbook();
 		Cells cells = workbook.getWorksheets().get(0).getCells();
 		cells.get("A1").setValue("data1");

@@ -39,7 +39,7 @@ public class Applying3DFormat {
 		// Define the Chart Collection
 		ChartCollection charts = sheet.getCharts();
 		// Add a Column chart to the Chart Worksheet
-		int chartSheetIdx = charts.add(ChartType.COLUMN, 5, 0, 25, 15);
+		charts.add(ChartType.COLUMN, 5, 0, 25, 15);
 
 		// Get the newly added Chart
 		Chart chart = book.getWorksheets().get(2).getCharts().get(0);

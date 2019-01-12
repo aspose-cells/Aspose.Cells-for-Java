@@ -2,7 +2,6 @@ package AsposeCellsExamples.Data;
 
 import com.aspose.cells.CellArea;
 import com.aspose.cells.ConditionalFormattingCollection;
-import com.aspose.cells.FormatCondition;
 import com.aspose.cells.FormatConditionCollection;
 import com.aspose.cells.FormatConditionType;
 import com.aspose.cells.OperatorType;
@@ -47,11 +46,9 @@ public class ConditionalFormattingatRuntime {
 		fcs.addArea(ca3);
 
 		// Sets condition formulas.
-		int conditionIndex = fcs.addCondition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "=A2", "100");
+		fcs.addCondition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "=A2", "100");
 
-		FormatCondition fc = fcs.get(conditionIndex);
-
-		int conditionIndex2 = fcs.addCondition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "50", "100");
+		fcs.addCondition(FormatConditionType.CELL_VALUE, OperatorType.BETWEEN, "50", "100");
 
 		// Saving the Excel file
 		workbook.save(dataDir + "CFAtRuntime_out.xls");

@@ -16,7 +16,6 @@ public class SpecifyAbsolutePositionOfPivotItem {
 		String dataDir = Utils.getSharedDataDir(SpecifyAbsolutePositionOfPivotItem.class) + "TechnicalArticles/";
 		Workbook wb = new Workbook(dataDir + "source.xlsx");
 		Worksheet wsPivot = wb.getWorksheets().add("pvtNew Hardware");
-		Worksheet wsData = wb.getWorksheets().get("New Hardware - Yearly");
 
 		// Get the pivottables collection for the pivot sheet
 		PivotTableCollection pivotTables = wsPivot.getPivotTables();

@@ -28,6 +28,8 @@ public class ManipulatingTextBoxControls {
 		// Obtain the text in the second textbox.
 		String text1 = textbox1.getText();
 
+		System.out.println(text1);
+		
 		// Change the text of the second textbox.
 		textbox1.setText("This is an alternative text");
 

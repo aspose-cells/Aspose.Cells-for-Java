@@ -11,7 +11,7 @@ public class SettingImagePrefrencesforHTML {
 		String dataDir = Utils.getSharedDataDir(SettingImagePrefrencesforHTML.class) + "LoadingSavingConvertingAndManaging/";
 
 		// Instantiate a Workbook object by excel file path
-		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
+		new Workbook(dataDir + "Book1.xlsx");
 		
 		System.out.println("Set PDF Creation Time successfully.");
 

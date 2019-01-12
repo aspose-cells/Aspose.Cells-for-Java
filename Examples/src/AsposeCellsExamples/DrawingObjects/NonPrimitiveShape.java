@@ -4,7 +4,6 @@ import com.aspose.cells.AutoShapeType;
 import com.aspose.cells.Shape;
 import com.aspose.cells.ShapePath;
 import com.aspose.cells.ShapePathCollection;
-import com.aspose.cells.ShapePathPointCollection;
 import com.aspose.cells.ShapeSegmentPath;
 import com.aspose.cells.ShapeSegmentPathCollection;
 import com.aspose.cells.Workbook;
@@ -36,9 +35,6 @@ public class NonPrimitiveShape {
 
 			// Access individual segment path
 			ShapeSegmentPath shapeSegmentPath = shapeSegmentPathCollection.get(0);
-
-			// Gets the points in segment path
-			ShapePathPointCollection shapePathPointsCollection = shapeSegmentPath.getPoints();
 		}
 	}
 }

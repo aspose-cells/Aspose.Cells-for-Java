@@ -15,7 +15,6 @@ public class UsingSparklines {
 
 		// Obtaining the reference of the first worksheet
 		Worksheet worksheet = worksheets.get(0);
-		Cells cells = worksheet.getCells();
 
 		System.out.println("Sparkline count: " + worksheet.getSparklineGroupCollection().getCount());
 
