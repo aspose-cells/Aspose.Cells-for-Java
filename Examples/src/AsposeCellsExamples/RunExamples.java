@@ -4,9 +4,14 @@ import com.aspose.cells.CellsHelper;
 
 import AsposeCellsExamples.Charts.CreateLineWithDataMarkerChart;
 import AsposeCellsExamples.Data.CheckIfValidationInCellDropDown;
+import AsposeCellsExamples.Data.SortDataInColumnWithBackgroundColor;
 import AsposeCellsExamples.DrawingObjects.ReplaceTagWithTextInTextBox;
+import AsposeCellsExamples.Formulas.RegisterAndCallFuncFromAddIn;
 import AsposeCellsExamples.HTML.ExportPrintAreaToHtml;
 import AsposeCellsExamples.HTML.SetSingleSheetTabNameInHtml;
+import AsposeCellsExamples.LoadingSavingConvertingAndManaging.OpeningExcel95_5_0XLSFiles;
+import AsposeCellsExamples.PivotTables.ShowReportFilterPagesOption;
+import AsposeCellsExamples.Rendering.RenderUsingTextCrossType;
 import AsposeCellsExamples.WorkbookVBAProject.FilterVBAMacrosWhileLoadingWorkbook;
 public class RunExamples {
 
@@ -15,13 +20,20 @@ public class RunExamples {
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 
 		// Uncomment the one you want to try out
+		//Aspose.Cells for Java v19.1
+        ShowReportFilterPagesOption.main(null);
+        OpeningExcel95_5_0XLSFiles.main(null);
+        RegisterAndCallFuncFromAddIn.main(null);
+        RenderUsingTextCrossType.main(null);
+        SortDataInColumnWithBackgroundColor.main(null);
+        
 		//Aspose.Cells for Java v18.12
-        CreateLineWithDataMarkerChart.main(null);
-        SetSingleSheetTabNameInHtml.main(null);
-        FilterVBAMacrosWhileLoadingWorkbook.main(null);
-        ReplaceTagWithTextInTextBox.main(null);
-		ExportPrintAreaToHtml.main(null);
-		CheckIfValidationInCellDropDown.main(null);
+        //CreateLineWithDataMarkerChart.main(null);
+        //SetSingleSheetTabNameInHtml.main(null);
+        //FilterVBAMacrosWhileLoadingWorkbook.main(null);
+        //ReplaceTagWithTextInTextBox.main(null);
+		//ExportPrintAreaToHtml.main(null);
+		//CheckIfValidationInCellDropDown.main(null);
 		
 		
 		//Aspose.Cells for Java v18.11

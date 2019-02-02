@@ -8,7 +8,7 @@ public class SetSingleSheetTabNameInHtml {
 	static String srcDir = Utils.Get_SourceDirectory();
 	static String outDir = Utils.Get_OutputDirectory();
 
-	public static void main(String[] args) throws Exception {
+	public static void main() throws Exception {
 		
         // Load the sample Excel file containing single sheet only
         Workbook wb = new Workbook(srcDir + "sampleSingleSheet.xlsx");
