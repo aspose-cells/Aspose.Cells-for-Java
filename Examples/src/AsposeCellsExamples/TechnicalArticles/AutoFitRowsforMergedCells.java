@@ -1,5 +1,6 @@
 package AsposeCellsExamples.TechnicalArticles;
 
+import com.aspose.cells.AutoFitMergedCellsType;
 import com.aspose.cells.AutoFitterOptions;
 import com.aspose.cells.Range;
 import com.aspose.cells.Style;
@@ -41,7 +42,7 @@ public class AutoFitRowsforMergedCells {
 		AutoFitterOptions options = new AutoFitterOptions();
 
 		// Set auto-fit for merged cells
-		options.setAutoFitMergedCells(true);
+		options.setAutoFitMergedCellsType(AutoFitMergedCellsType.EACH_LINE);
 
 		// Autofit rows in the sheet(including the merged cells)
 		_worksheet.autoFitRows(options);
