@@ -1,7 +1,7 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
+import com.aspose.cells.ImageType;
 import com.aspose.cells.PrintingPageType;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.TiffCompression;
@@ -11,7 +11,7 @@ import AsposeCellsExamples.Utils;
 
 public class ConvertWorksheettoImage {
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ConvertWorksheettoImage.class) + "TechnicalArticles/";
 		//Instantiate a new Workbook object
@@ -34,7 +34,7 @@ public class ConvertWorksheettoImage {
 		options.setTiffCompression(TiffCompression.COMPRESSION_LZW);
 
 		//Set Image Format
-		options.setImageFormat(ImageFormat.getTiff());
+		options.setImageType(ImageType.TIFF);
 
 		//Set printing page type
 		options.setPrintingPage(PrintingPageType.DEFAULT);
@@ -44,6 +44,8 @@ public class ConvertWorksheettoImage {
 
 		//Render/save the image for the sheet
 		sr.toImage(0, dataDir + "CWorksheettoImage_out.tiff");
+        // ExEnd:1
 
+		System.out.println("ConvertWorksheettoImage executed successfully.");
 	}
 }

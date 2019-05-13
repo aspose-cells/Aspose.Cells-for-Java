@@ -1,7 +1,7 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
+import com.aspose.cells.ImageType;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -9,12 +9,12 @@ import AsposeCellsExamples.Utils;
 
 public class WorksheetToSeparateImage {
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(WorksheetToSeparateImage.class) + "TechnicalArticles/";
 		// Instantiate a new Workbook object
 		// Open template
-		Workbook book = new Workbook(dataDir + "source.xlsx");
+		Workbook book = new Workbook(dataDir + "book1.xlsx");
 
 		// Iterate over all worksheets in the workbook
 		for (int i = 0; i < book.getWorksheets().getCount(); i++) {
@@ -30,7 +30,7 @@ public class WorksheetToSeparateImage {
 			options.setVerticalResolution(300);
 
 			// Set Image Format
-			options.setImageFormat(ImageFormat.getJpeg());
+			options.setImageType(ImageType.JPEG);
 
 			// If you want entire sheet as a single image
 			options.setOnePagePerSheet(true);
@@ -39,6 +39,8 @@ public class WorksheetToSeparateImage {
 			SheetRender sr = new SheetRender(sheet, options);
 			sr.toImage(0, dataDir + "WSheetToSImage_out-" + sheet.getName() + ".jpg");
 		}
+        // ExEnd:1
 
+		System.out.println("WorksheetToSeparateImage executed successfully.");
 	}
 }

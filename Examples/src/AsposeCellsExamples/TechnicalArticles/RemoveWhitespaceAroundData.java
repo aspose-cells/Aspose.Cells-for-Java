@@ -1,7 +1,7 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
+import com.aspose.cells.ImageType;
 import com.aspose.cells.PrintingPageType;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
@@ -10,7 +10,7 @@ import AsposeCellsExamples.Utils;
 
 public class RemoveWhitespaceAroundData {
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(RemoveWhitespaceAroundData.class) + "TechnicalArticles/";
 
@@ -32,7 +32,7 @@ public class RemoveWhitespaceAroundData {
 
 		// Define ImageOrPrintOptions
 		ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
-		imgOptions.setImageFormat(ImageFormat.getEmf());
+		imgOptions.setImageType(ImageType.EMF);
 		// Set only one page would be rendered for the image
 		imgOptions.setOnePagePerSheet(true);
 		imgOptions.setPrintingPage(PrintingPageType.IGNORE_BLANK);
@@ -42,6 +42,8 @@ public class RemoveWhitespaceAroundData {
 		SheetRender render = new SheetRender(sheet, imgOptions);
 		// Convert the image
 		render.toImage(0, dataDir + "RWhitespaceAroundData_out.emf");
+        // ExEnd:1
 
+		System.out.println("RemoveWhitespaceAroundData executed successfully.");
 	}
 }

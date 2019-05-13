@@ -9,18 +9,21 @@ import AsposeCellsExamples.Utils;
 
 public class FilterDataWhileLoadingWorkbook {
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(FilterDataWhileLoadingWorkbook.class) + "TechnicalArticles/";
 		// Set the load options, we only want to load shapes and do not want to load data
 		LoadOptions opts = new LoadOptions(LoadFormat.XLSX);
-		opts.setLoadDataFilterOptions(LoadDataFilterOptions.SHAPE);
+		opts.getLoadFilter().setLoadDataFilterOptions(LoadDataFilterOptions.SHAPE);
 
 		// Create workbook object from sample excel file using load options
-		Workbook wb = new Workbook(dataDir + "sample.xlsx", opts);
+		Workbook wb = new Workbook(dataDir + "sampleFilterDataWhileLoadingWorkbook.xlsx", opts);
 
-		// Save the output in pdf format
-		wb.save(dataDir + "FDWLWorkbook_out.pdf", SaveFormat.PDF);
+		// Save the output in PDF format
+		wb.save(dataDir + "sampleFilterDataWhileLoadingWorkbook_out.pdf", SaveFormat.PDF);
+        // ExEnd:1
+
+		System.out.println("FilterDataWhileLoadingWorkbook executed successfully.");
 
 	}
 

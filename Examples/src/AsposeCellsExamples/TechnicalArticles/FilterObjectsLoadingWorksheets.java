@@ -8,6 +8,7 @@ public class FilterObjectsLoadingWorksheets {
 	// Implement your own custom load filter, it will enable you to filter your
 	// individual worksheet
 	class CustomLoadFilter extends LoadFilter {
+		// ExStart:1
 		public void startSheet(Worksheet sheet) {
 
 			if (sheet.getName().equals("NoCharts")) {
@@ -54,11 +55,12 @@ public class FilterObjectsLoadingWorksheets {
 			// worksheet
 			ImageOrPrintOptions opts = new ImageOrPrintOptions();
 			opts.setOnePagePerSheet(true);
-			opts.setImageFormat(ImageFormat.getPng());
+			opts.setImageType(ImageType.PNG);
 
 			// Convert worksheet into image
 			SheetRender sr = new SheetRender(ws, opts);
 			sr.toImage(0, dataDir + ws.getName() + ".png");
 		}
 	}
+    // ExEnd:1
 }

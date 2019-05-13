@@ -1,7 +1,7 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
+import com.aspose.cells.ImageType;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -9,7 +9,7 @@ import AsposeCellsExamples.Utils;
 
 public class ExportWorksheettoImage {
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExportWorksheettoImage.class) + "TechnicalArticles/";
 		// Create workbook object from source file
@@ -24,13 +24,14 @@ public class ExportWorksheettoImage {
 		 */
 		ImageOrPrintOptions opts = new ImageOrPrintOptions();
 		opts.setOnePagePerSheet(true);
-		opts.setImageFormat(ImageFormat.getPng());
+		opts.setImageType(ImageType.PNG);
 		opts.setDesiredSize(400, 400);
 
 		// Render sheet into image
 		SheetRender sr = new SheetRender(worksheet, opts);
 		sr.toImage(0, dataDir + "EWSheetToImage_out.png");
+        // ExEnd:1
 
-
+		System.out.println("ExportWorksheettoImage executed successfully.");
 	}
 }

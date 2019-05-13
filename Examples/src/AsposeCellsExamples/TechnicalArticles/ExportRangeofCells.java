@@ -1,7 +1,7 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
+import com.aspose.cells.ImageType;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -9,11 +9,11 @@ import AsposeCellsExamples.Utils;
 
 public class ExportRangeofCells {
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExportRangeofCells.class) + "TechnicalArticles/";
 		// Create workbook from source file.
-		Workbook workbook = new Workbook(dataDir + "aspose-sample.xlsx");
+		Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 
 		// Access the first worksheet
 		Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -30,11 +30,13 @@ public class ExportRangeofCells {
 		// Set OnePagePerSheet option as true
 		ImageOrPrintOptions options = new ImageOrPrintOptions();
 		options.setOnePagePerSheet(true);
-		options.setImageFormat(ImageFormat.getJpeg());
+		options.setImageType(ImageType.JPEG);
 
 		// Take the image of your worksheet
 		SheetRender sr = new SheetRender(worksheet, options);
 		sr.toImage(0, dataDir + "ERangeofCells_out.jpg");
+        // ExEnd:1
 
+		System.out.println("ExportRangeofCells executed successfully.");
 	}
 }
