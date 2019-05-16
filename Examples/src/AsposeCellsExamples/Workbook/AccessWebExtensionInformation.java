@@ -1,4 +1,4 @@
-package AsposeCellsExamples.Files.Utility;
+package AsposeCellsExamples.Workbook;
 
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
@@ -7,10 +7,10 @@ public class AccessWebExtensionInformation {
 
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(AccessWebExtensionInformation.class) + "Files/Utility/";
+		// The path to the source directory.
+		String sourceDir = Utils.Get_SourceDirectory();
 
-		Workbook workbook = new Workbook(dataDir + "WebExtensionsSample.xlsx");
+		Workbook workbook = new Workbook(sourceDir + "WebExtensionsSample.xlsx");
 
 		WebExtensionTaskPaneCollection taskPanes = workbook.getWorksheets().getWebExtensionTaskPanes();
 		

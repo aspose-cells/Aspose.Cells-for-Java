@@ -19,7 +19,7 @@ public class GetChartSubTitleForODSFile {
 		// Load the chart from source worksheet
 		Chart chart = worksheet.getCharts().get(0);
 
-		System.out.println(chart.getSubTitle().getText());
+		System.out.println("Chart Subtitle: " + chart.getSubTitle().getText());
         // ExEnd:1
 
 		System.out.println("GetChartSubTitleForODSFile executed successfully.");
