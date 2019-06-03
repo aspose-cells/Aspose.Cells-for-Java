@@ -30,8 +30,8 @@ public class ReadODSBackground {
 
         ODSPageBackground background = worksheet.getPageSetup().getODSPageBackground();
 
-        System.out.println(getTypeValue(background.getType()));
-        System.out.println(getPositionValue(background.getGraphicPositionType()));
+        System.out.println("Background Type: " + getTypeValue(background.getType()));
+        System.out.println("Backgorund Position: " + getPositionValue(background.getGraphicPositionType()));
 
         //Save background image
         
