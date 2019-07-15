@@ -21,8 +21,5 @@ public class OpeningExcel95_5_0XLSFiles {
 		// ExEnd:1
 		// Print message
 		System.out.println("Excel 95/5.0 XLS Workbook opened successfully.");
-
-
-
 	}
 }
