@@ -5,8 +5,8 @@ import com.aspose.cells.ChartType;
 import com.aspose.cells.DataLabels;
 import com.aspose.cells.DataLablesSeparatorType;
 import com.aspose.cells.FileFormatType;
-import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
+import com.aspose.cells.ImageType;
 import com.aspose.cells.LabelPositionType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -14,7 +14,7 @@ import AsposeCellsExamples.Utils;
 
 public class CreatePieChartWithLeaderLines {
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreatePieChartWithLeaderLines.class) + "TechnicalArticles/";
 		// Create an instance of Workbook in XLSX format
@@ -104,7 +104,7 @@ public class CreatePieChartWithLeaderLines {
 		//In order to save the chart image, create an instance of ImageOrPrintOptions
 		ImageOrPrintOptions anOption = new ImageOrPrintOptions();
 		//Set image format
-		anOption.setImageFormat(ImageFormat.getPng());
+		anOption.setImageType(ImageType.PNG);
 		//Set resolution
 		anOption.setHorizontalResolution(200);
 		anOption.setVerticalResolution(200);
@@ -114,7 +114,8 @@ public class CreatePieChartWithLeaderLines {
 
 		//Save the workbook to see chart inside the Excel
 		workbook.save(dataDir + "CPieChartWLLines_out.xlsx");
-		
+        // ExEnd:1
 
+		System.out.println("CreatePieChartWithLeaderLines executed successfully.");
 	}
 }

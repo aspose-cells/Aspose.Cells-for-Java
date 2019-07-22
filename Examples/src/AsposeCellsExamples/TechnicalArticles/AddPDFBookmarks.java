@@ -14,6 +14,7 @@ public class AddPDFBookmarks {
 
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AddPDFBookmarks.class) + "TechnicalArticles/";
+		// ExStart:1
 		// Instantiate a new workbook.
 		Workbook workbook = new Workbook();
 
@@ -74,7 +75,7 @@ public class AddPDFBookmarks {
 		subPbe2.setDestination(cellInPage3);
 
 		// Create an array list.
-		ArrayList subEntryList = new ArrayList();
+		ArrayList<PdfBookmarkEntry> subEntryList = new ArrayList<>();
 
 		// Add the entry objects to it.
 		subEntryList.add(subPbe1);
@@ -86,7 +87,7 @@ public class AddPDFBookmarks {
 		options.setBookmark(pbeRoot);
 
 		// Save the PDF file.
-		workbook.save(dataDir, options);
-
+		workbook.save(dataDir + "AddPDFBookmarks_out.pdf", options);
+		// ExEnd:1
 	}
 }

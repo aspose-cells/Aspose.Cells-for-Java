@@ -2,17 +2,11 @@ package AsposeCellsExamples;
 
 import com.aspose.cells.CellsHelper;
 
-import AsposeCellsExamples.Charts.CreateLineWithDataMarkerChart;
-import AsposeCellsExamples.Data.CheckIfValidationInCellDropDown;
-import AsposeCellsExamples.Data.SortDataInColumnWithBackgroundColor;
-import AsposeCellsExamples.DrawingObjects.ReplaceTagWithTextInTextBox;
-import AsposeCellsExamples.Formulas.RegisterAndCallFuncFromAddIn;
-import AsposeCellsExamples.HTML.ExportPrintAreaToHtml;
-import AsposeCellsExamples.HTML.SetSingleSheetTabNameInHtml;
-import AsposeCellsExamples.LoadingSavingConvertingAndManaging.OpeningExcel95_5_0XLSFiles;
-import AsposeCellsExamples.PivotTables.ShowReportFilterPagesOption;
-import AsposeCellsExamples.Rendering.RenderUsingTextCrossType;
-import AsposeCellsExamples.WorkbookVBAProject.FilterVBAMacrosWhileLoadingWorkbook;
+import AsposeCellsExamples.Files.Handling.OpeningFODSFiles;
+import AsposeCellsExamples.Files.Handling.OpeningSXCFiles;
+import AsposeCellsExamples.Files.Handling.OpeningTSVFiles;
+import AsposeCellsExamples.Slicers.ExportSlicerToPDF;
+
 public class RunExamples {
 
 	public static void main(String[] args) throws Exception{
@@ -20,12 +14,57 @@ public class RunExamples {
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 
 		// Uncomment the one you want to try out
+		
+		//Aspose.Cells for .NET v19.6
+//        OpeningSXCFiles.main(null);
+//        OpeningFODSFiles.main(null);
+//        ExportSlicerToPDF.main(null);
+//
+//        OpeningTSVFiles.main(null);
+		
+		
+		//Aspose.Cells for .NET v19.5
+//        ReadODSBackground.main(null);
+//        SetODSColoredBackground.main(null);
+//        SetODSGraphicBackground.main(null);
+//        ImportCustomObjectsToMergedArea.main(null);
+		
+		
+		//Aspose.Cells for .NET v19.4
+//        ConvertExcelFileToMarkdown.main(null);
+//        CutAndPasteCells.main(null);
+//        AddThreadedComments.main(null);
+//        EditThreadedComments.main(null);
+//        ReadThreadedComments.main(null);
+//        RemoveThreadedComments.main(null);
+//        GetChartSubTitleForODSFile.main(null);
+//        AddWebExtension.main(null);
+//        AccessWebExtensionInformation.main(null);
+//        SetColumnViewWidthInPixels.main(null);
+		
+		
+		//Aspose.Cells for .NET v19.3
+//        GetRangeWithExternalLinks.main(null);
+//        KeepSeparatorsForBlankRow.main(null);
+//        ImportingFromJson.main(null);
+//        ConvertTableToRangeWithOptions.main(null);
+		
+		
+		//Aspose.Cells for .NET v19.2
+//        GetHyperlinksInRange.main(null);
+//        DetectFileFormatOfEncryptedFiles.main(null);
+//        CountNumberOfCells.main(null);
+//        OpeningCSVFilesAndReplacingInvalidCharacters.main(null);
+//        InsertingARowWithFormatting.main(null);
+		
+        
 		//Aspose.Cells for Java v19.1
-        ShowReportFilterPagesOption.main(null);
-        OpeningExcel95_5_0XLSFiles.main(null);
-        RegisterAndCallFuncFromAddIn.main(null);
-        RenderUsingTextCrossType.main(null);
-        SortDataInColumnWithBackgroundColor.main(null);
+//        ShowReportFilterPagesOption.main(null);
+//        OpeningExcel95_5_0XLSFiles.main(null);
+//        RegisterAndCallFuncFromAddIn.main(null);
+//        RenderUsingTextCrossType.main(null);
+//        SortDataInColumnWithBackgroundColor.main(null);
+        
         
 		//Aspose.Cells for Java v18.12
         //CreateLineWithDataMarkerChart.main(null);

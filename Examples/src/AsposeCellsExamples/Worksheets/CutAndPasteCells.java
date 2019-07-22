@@ -11,7 +11,7 @@ public class CutAndPasteCells {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CountNumberOfCells.class) + "Worksheets/";
+		String dataDir = Utils.getSharedDataDir(CutAndPasteCells.class) + "Worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
         Worksheet worksheet = workbook.getWorksheets().get(0);

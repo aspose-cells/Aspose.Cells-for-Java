@@ -23,7 +23,7 @@ public class RenderLimitedNoOfSequentialPages {
 		ImageOrPrintOptions opts = new ImageOrPrintOptions();
 		opts.setPageIndex(3);
 		opts.setPageCount(4);
-		opts.setImageFormat(ImageFormat.getPng());
+		opts.setImageType(ImageType.PNG);
 		  
 		//Create sheet render object
 		SheetRender sr = new SheetRender(ws, opts);

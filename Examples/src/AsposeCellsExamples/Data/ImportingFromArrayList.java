@@ -11,6 +11,7 @@ public class ImportingFromArrayList {
 
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ImportingFromArrayList.class) + "Data/";
+		//ExStart: 1
 
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
@@ -19,7 +20,7 @@ public class ImportingFromArrayList {
 		Worksheet worksheet = workbook.getWorksheets().get(0);
 
 		// Instantiating an ArrayList object
-		ArrayList list = new ArrayList();
+		ArrayList<String> list = new ArrayList<>();
 
 		// Add few names to the list as string values
 		list.add("laurence chen");
@@ -33,9 +34,9 @@ public class ImportingFromArrayList {
 
 		// Saving the Excel file
 		workbook.save(dataDir + "IFromArrayList_out.xls");
+		// ExEnd: 1
 
 		// Printing the name of the cell found after searching worksheet
 		System.out.println("Process completed successfully");
-
 	}
 }

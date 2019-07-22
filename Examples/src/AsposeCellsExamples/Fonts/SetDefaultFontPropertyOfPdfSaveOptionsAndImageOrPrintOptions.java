@@ -17,26 +17,26 @@ public class SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions {
 				srcDir + "sampleSetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions.xlsx");
 
 		// Rendering to PNG file format while setting the
-		// CheckWorkbookDefaultFont attribue to false.
+		// CheckWorkbookDefaultFont attribute to false.
 		// So, "Times New Roman" font would be used for any missing (not
 		// installed) font in the workbook.
 		ImageOrPrintOptions imgOpt = new ImageOrPrintOptions();
-		imgOpt.setImageFormat(ImageFormat.getPng());
+		imgOpt.setImageType(ImageType.PNG);
 		imgOpt.setCheckWorkbookDefaultFont(false);
 		imgOpt.setDefaultFont("Times New Roman");
 		SheetRender sr = new SheetRender(workbook.getWorksheets().get(0), imgOpt);
 		sr.toImage(0, outDir + "outputSetDefaultFontProperty_ImagePNG.png");
 
 		// Rendering to TIFF file format while setting the
-		// CheckWorkbookDefaultFont attribue to false.
+		// CheckWorkbookDefaultFont attribute to false.
 		// So, "Times New Roman" font would be used for any missing (not
 		// installed) font in the workbook.
-		imgOpt.setImageFormat(ImageFormat.getTiff());
+		imgOpt.setImageType(ImageType.TIFF);
 		WorkbookRender wr = new WorkbookRender(workbook, imgOpt);
 		wr.toImage(outDir + "outputSetDefaultFontProperty_ImageTIFF.tiff");
 
 		// Rendering to PDF file format while setting the
-		// CheckWorkbookDefaultFont attribue to false.
+		// CheckWorkbookDefaultFont attribute to false.
 		// So, "Times New Roman" font would be used for any missing (not
 		// installed) font in the workbook.
 		PdfSaveOptions saveOptions = new PdfSaveOptions();

@@ -11,10 +11,10 @@ import AsposeCellsExamples.Utils;
 public class RetrieveSQLConnectionData {
 	public static void main(String[] args) throws Exception {
 
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RetrieveSQLConnectionData.class) + "TechnicalArticles/";
+		// The path to the source directory.
+		String sourceDir = Utils.Get_SourceDirectory();
 		// Create a workbook object from source file
-		Workbook workbook = new Workbook(dataDir + "connection.xlsx");
+		Workbook workbook = new Workbook(sourceDir + "sampleRetrievingSQLConnectionData.xlsx");
 
 		// Access the external collections
 		ExternalConnectionCollection connections = workbook.getDataConnections();
@@ -46,7 +46,7 @@ public class RetrieveSQLConnectionData {
 				System.out.println("Info: " + dbConn.getConnectionInfo());
 
 				// Retrieve DB Connection Credentials
-				System.out.println("Credentials: " + dbConn.getCredentials());
+				System.out.println("Credentials: " + dbConn.getCredentialsMethodType());
 
 				// Retrieve DB Connection Name
 				System.out.println("Name: " + dbConn.getName());
@@ -91,7 +91,5 @@ public class RetrieveSQLConnectionData {
 				} // End for
 			} // End if
 		} // End for
-
-
 	}
 }

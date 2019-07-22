@@ -6,7 +6,7 @@ import AsposeCellsExamples.Utils;
 public class CreateChart {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(CreateChart.class) + "Charts/";
 
@@ -45,9 +45,9 @@ public class CreateChart {
 
 		// Saving the Excel file
 		workbook.save(dataDir + "CreateChart_out.xls");
-
+		// ExEnd:1
+		
 		// Print message
 		System.out.println("Workbook with chart is successfully created.");
-
 	}
 }

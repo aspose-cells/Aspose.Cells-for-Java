@@ -7,7 +7,7 @@ import AsposeCellsExamples.Utils;
 public class MergeFiles {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		String dataDir = Utils.getSharedDataDir(MergeFiles.class) + "CellsHelperClass/";
 
 		// Create an Array (length=2)
@@ -36,6 +36,6 @@ public class MergeFiles {
 		}
 		// Re-save the file
 		workbook.save(dataDir + "MergeFiles-out.xls");
-
+		// ExEnd:1
 	}
 }

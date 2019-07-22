@@ -3,8 +3,6 @@ package AsposeCellsExamples.Worksheets;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
-import java.io.FileInputStream;
-
 public class CountNumberOfCells {
 
 	public static void main(String[] args) throws Exception {

@@ -11,7 +11,8 @@ public class FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats {
 	public static void main(String[] args) throws Exception {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
-		
+		// ExStart:1
+
 		// Print message about XLS format.
 		System.out.println("Maximum Rows and Columns supported by XLS format.");
 
@@ -36,7 +37,8 @@ public class FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats {
 		maxCols = wb.getSettings().getMaxColumn() + 1;
 		System.out.println("Maximum Rows: " + maxRows);
 		System.out.println("Maximum Columns: " + maxCols);
-
+		// ExEnd:1
+		
 		// Print the message
 		System.out.println("FindMaximumRowsAndColumnsSupportedByXLSAndXLSXFormats executed successfully.");
 	}

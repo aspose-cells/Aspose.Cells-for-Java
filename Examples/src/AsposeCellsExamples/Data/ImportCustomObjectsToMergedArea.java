@@ -20,7 +20,7 @@ public class ImportCustomObjectsToMergedArea {
 		Workbook workbook = new Workbook(sourceDir + "sampleMergedTemplate.xlsx");
 		Worksheet worksheet = workbook.getWorksheets().get(0);
 		
-		ArrayList productList = new ArrayList();
+		ArrayList<Product> productList = new ArrayList<>();
 		
 		for(int i = 0; i < 3; i++) {
 			productList.add(new Product("Test Product - " + i, i*2));

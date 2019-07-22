@@ -45,12 +45,13 @@ public class ControlLoadingOfExternalResourcesInExcelToPDF {
 		// Load source Excel file containing external image
 		Workbook wb = new Workbook(srcDir + "samplePdfSaveOptions_StreamProvider.xlsx");
 
-		// Specify Pdf Save Options - Stream Provider
+		// Specify PDF Save Options - Stream Provider
 		PdfSaveOptions opts = new PdfSaveOptions();
 		opts.setOnePagePerSheet(true);
-		opts.setStreamProvider(new MyStreamProvider());
+		
+		wb.getSettings().setStreamProvider(new MyStreamProvider());
 
-		// Save the workbook to Pdf
+		// Save the workbook to PDF
 		wb.save(outDir + "outputPdfSaveOptions_StreamProvider.pdf", opts);
 	}
 

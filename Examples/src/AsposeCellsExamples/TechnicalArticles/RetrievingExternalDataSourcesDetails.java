@@ -11,10 +11,10 @@ import AsposeCellsExamples.Utils;
 public class RetrievingExternalDataSourcesDetails {
 	public static void main(String[] args) throws Exception {
 
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RetrievingExternalDataSourcesDetails.class) + "TechnicalArticles/";
+		// The path to the source directory.
+		String sourceDir = Utils.Get_SourceDirectory();
 		// Open the template Excel file
-		Workbook workbook = new Workbook(dataDir + "connection.xlsx");
+		Workbook workbook = new Workbook(sourceDir + "sampleRetrievingSQLConnectionData.xlsx");
 
 		// Get the external data connections
 		ExternalConnectionCollection connections = workbook.getDataConnections();
@@ -37,7 +37,7 @@ public class RetrievingExternalDataSourcesDetails {
 				System.out.println("Description: " + dbConn.getConnectionDescription());
 				System.out.println("Id: " + dbConn.getConnectionId());
 				System.out.println("Info: " + dbConn.getConnectionInfo());
-				System.out.println("Credentials: " + dbConn.getCredentials());
+				System.out.println("Credentials: " + dbConn.getCredentialsMethodType());
 				System.out.println("Name: " + dbConn.getName());
 				System.out.println("OdcFile: " + dbConn.getOdcFile());
 				System.out.println("Source file: " + dbConn.getSourceFile());
@@ -58,6 +58,5 @@ public class RetrievingExternalDataSourcesDetails {
 				}
 			}
 		}
-
 	}
 }

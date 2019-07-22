@@ -8,7 +8,7 @@ public class AddThreadedComments {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CountNumberOfCells.class) + "Worksheets/";
+		String dataDir = Utils.getSharedDataDir(AddThreadedComments.class) + "Worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook();
 

@@ -13,7 +13,7 @@ public class RemoveThreadedComments {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(CountNumberOfCells.class) + "Worksheets/";
+		String dataDir = Utils.getSharedDataDir(RemoveThreadedComments.class) + "Worksheets/";
 		// Instantiating a Workbook object
 		Workbook workbook = new Workbook(dataDir + "ThreadedCommentsSample.xlsx");
 
@@ -21,7 +21,7 @@ public class RemoveThreadedComments {
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
         CommentCollection comments = worksheet.getComments();
-        ThreadedCommentCollection threadedComments = worksheet.getComments().getThreadedComments("I4");
+        ThreadedCommentCollection threadedComments = worksheet.getComments().getThreadedComments("A1");
         ThreadedCommentAuthor author = threadedComments.get(0).getAuthor();
         
         comments.removeAt("I4");

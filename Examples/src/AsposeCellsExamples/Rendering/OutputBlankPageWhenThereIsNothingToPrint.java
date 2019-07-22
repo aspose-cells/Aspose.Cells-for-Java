@@ -22,7 +22,7 @@ public class OutputBlankPageWhenThereIsNothingToPrint {
 		// OutputBlankPageWhenNothingToPrint to true
 		// So that empty page gets printed
 		ImageOrPrintOptions opts = new ImageOrPrintOptions();
-		opts.setImageFormat(ImageFormat.getPng());
+		opts.setImageType(ImageType.PNG);
 		opts.setOutputBlankPageWhenNothingToPrint(true);
 		 
 		// Render empty sheet to png image

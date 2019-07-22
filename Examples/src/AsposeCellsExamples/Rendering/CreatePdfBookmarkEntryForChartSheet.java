@@ -13,6 +13,7 @@ public class CreatePdfBookmarkEntryForChartSheet {
 	public static void main(String[] args) throws Exception {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
+		// ExStart:1
 		
 		//Load sample Excel file
 		Workbook wb = new Workbook(srcDir + "sampleCreatePdfBookmarkEntryForChartSheet.xlsx");
@@ -44,7 +45,7 @@ public class CreatePdfBookmarkEntryForChartSheet {
 		ent4.setText("Bookmark-IV-Chart2");
 
 		//Arrange all Bookmark Entries
-		ArrayList lst = new ArrayList();
+		ArrayList<PdfBookmarkEntry> lst = new ArrayList<>();
 		ent1.setSubEntry(lst);
 		lst.add(ent2);
 		lst.add(ent3);
@@ -56,6 +57,7 @@ public class CreatePdfBookmarkEntryForChartSheet {
 
 		//Save the output Pdf
 		wb.save(outDir + "outputCreatePdfBookmarkEntryForChartSheet.pdf", opts);
+		// ExEnd:1
 		
 		// Print the message
 		System.out.println("CreatePdfBookmarkEntryForChartSheet executed successfully.");

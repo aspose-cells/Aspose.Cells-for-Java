@@ -1,4 +1,4 @@
-﻿package AsposeCellsExamples.HTML;
+package AsposeCellsExamples.HTML;
 
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
