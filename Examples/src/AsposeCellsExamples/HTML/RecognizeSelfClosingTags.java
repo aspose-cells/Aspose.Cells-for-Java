@@ -12,7 +12,7 @@ public class RecognizeSelfClosingTags {
 
         // ExStart:1
         // Set Html load options and keep precision true
-        HTMLLoadOptions loadOptions = new HTMLLoadOptions(LoadFormat.HTML);
+        HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML);
 
         // Load sample source file
         Workbook wb = new Workbook(srcDir + "sampleSelfClosingTags.html", loadOptions);

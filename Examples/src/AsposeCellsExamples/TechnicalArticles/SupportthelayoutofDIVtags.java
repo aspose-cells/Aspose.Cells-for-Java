@@ -2,16 +2,13 @@ package AsposeCellsExamples.TechnicalArticles;
 
 import java.io.ByteArrayInputStream;
 
-import com.aspose.cells.HTMLLoadOptions;
-import com.aspose.cells.LoadFormat;
-import com.aspose.cells.SaveFormat;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
+import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
 public class SupportthelayoutofDIVtags {
 	public static void main(String[] args) throws Exception {
 
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SupportthelayoutofDIVtags.class) + "TechnicalArticles/";
 
@@ -23,7 +20,7 @@ public class SupportthelayoutofDIVtags {
 		ByteArrayInputStream bis = new ByteArrayInputStream(bts);
 
 		// Specify HTML load options, support div tag layouts
-		HTMLLoadOptions loadOptions = new HTMLLoadOptions(LoadFormat.HTML);
+		HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML);
 		loadOptions.setSupportDivTag(true);
 
 		// Create workbook object from the html using load options
@@ -36,7 +33,7 @@ public class SupportthelayoutofDIVtags {
 
 		// Save the workbook in xlsx format
 		wb.save(dataDir + "SThelayoutofDIVtags_out.xlsx", SaveFormat.XLSX);
-
+		// ExEnd:1
 	}
 
 }

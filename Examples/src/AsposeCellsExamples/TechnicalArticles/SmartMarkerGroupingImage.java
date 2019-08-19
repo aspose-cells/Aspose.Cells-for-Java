@@ -57,7 +57,7 @@ public class SmartMarkerGroupingImage {
 		worksheet.getCells().get("F2").putValue("&=Person.Photo(Picture:FitToCell)");
 
 		// Create Persons objects with photos
-		ArrayList<Person> persons = new ArrayList<Person>();
+		ArrayList<Person> persons = new ArrayList<>();
 		persons.add(new Person("George", "New York", photo1));
 		persons.add(new Person("George", "New York", photo2));
 		persons.add(new Person("George", "New York", photo1));

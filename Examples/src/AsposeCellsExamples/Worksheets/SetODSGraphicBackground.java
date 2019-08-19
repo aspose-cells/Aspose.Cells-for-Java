@@ -6,12 +6,7 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-import com.aspose.cells.ODSPageBackground;
-import com.aspose.cells.ODSPageBackgroundGraphicType;
-import com.aspose.cells.ODSPageBackgroundType;
-import com.aspose.cells.SaveFormat;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
+import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 public class SetODSGraphicBackground {
 	
@@ -41,16 +36,16 @@ public class SetODSGraphicBackground {
         worksheet.getCells().get(4, 1).setValue(11);
         worksheet.getCells().get(5, 1).setValue(12);
 
-        ODSPageBackground background = worksheet.getPageSetup().getODSPageBackground();
+        OdsPageBackground background = worksheet.getPageSetup().getODSPageBackground();
         
         BufferedImage image = ImageIO.read(new File(sourceDir + "background.png"));
         ByteArrayOutputStream bos = new ByteArrayOutputStream();
         ImageIO.write(image, "png", bos );
         byte [] imageData = bos.toByteArray();
 
-        background.setType(ODSPageBackgroundType.GRAPHIC);
+        background.setType(OdsPageBackgroundType.GRAPHIC);
         background.setGraphicData(imageData);
-        background.setGraphicType(ODSPageBackgroundGraphicType.AREA);
+        background.setGraphicType(OdsPageBackgroundGraphicType.AREA);
 
         workbook.save(outDir + "GraphicBackground.ods", SaveFormat.ODS);
         // ExEnd:1

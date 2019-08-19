@@ -53,7 +53,7 @@ public class SpecifyFormulaFieldsWhileImportingDataToWorksheet {
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 		
 		//List to hold data items
-		ArrayList<DataItems> dis = new ArrayList<DataItems>();
+		ArrayList<DataItems> dis = new ArrayList<>();
 		
 		//Define 1st data item and add it in list
 		int num1 = 2002;

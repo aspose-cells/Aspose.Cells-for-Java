@@ -1,16 +1,13 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.HTMLLoadOptions;
-import com.aspose.cells.LoadFormat;
-import com.aspose.cells.SaveFormat;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
+import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
 public class KeepPrecisionOfLargeNumbers {
 
 	public static void main(String[] args) throws Exception {
 
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(KeepPrecisionOfLargeNumbers.class) + "TechnicalArticles/";
 
@@ -21,7 +18,7 @@ public class KeepPrecisionOfLargeNumbers {
 		byte[] byteArray = html.getBytes();
 
 		// Set Html load options and keep precision true
-		HTMLLoadOptions loadOptions = new HTMLLoadOptions(LoadFormat.HTML);
+		HtmlLoadOptions loadOptions = new HtmlLoadOptions(LoadFormat.HTML);
 		loadOptions.setKeepPrecision(true);
 
 		// Convert byte array into stream
@@ -40,7 +37,7 @@ public class KeepPrecisionOfLargeNumbers {
 		workbook.save(dataDir + "KPOfLargeNumbers_out.xlsx", SaveFormat.XLSX);
 
 		System.out.println("File saved");
-
+		// ExEnd:1
 	}
 
 }

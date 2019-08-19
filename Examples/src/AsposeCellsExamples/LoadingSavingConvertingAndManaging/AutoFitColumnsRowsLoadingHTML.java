@@ -2,7 +2,7 @@ package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
 import java.io.ByteArrayInputStream;
 
-import com.aspose.cells.HTMLLoadOptions;
+import com.aspose.cells.HtmlLoadOptions;
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
@@ -10,6 +10,7 @@ public class AutoFitColumnsRowsLoadingHTML {
 
 	public static void main(String[] args) throws Exception 
 	{
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(AutoFitColumnsRowsLoadingHTML.class) + "LoadingSavingConvertingAndManaging/";
 		
@@ -24,16 +25,17 @@ public class AutoFitColumnsRowsLoadingHTML {
 		//Save the workbook in xlsx format.
 		wb.save(dataDir + "outputWithout_AutoFitColsAndRows.xlsx");
 		  
-		//Specify the HTMLLoadOptions and set AutoFitColsAndRows = true.
-		HTMLLoadOptions opts = new HTMLLoadOptions();
+		//Specify the HtmlLoadOptions and set AutoFitColsAndRows = true.
+		HtmlLoadOptions opts = new HtmlLoadOptions();
 		opts.setAutoFitColsAndRows(true);
 		  
-		//Load byte array stream into workbook with the above HTMLLoadOptions.
+		//Load byte array stream into workbook with the above HtmlLoadOptions.
 		bais.reset();
 		wb = new Workbook(bais, opts);
 		  
 		//Save the workbook in xlsx format.
 		wb.save(dataDir + "outputWith_AutoFitColsAndRows.xlsx");
+		// ExEnd:1
 	}
 
 }

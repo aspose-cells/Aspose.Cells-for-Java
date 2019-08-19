@@ -41,7 +41,7 @@ public class ImportingFromJson {
         options.setArrayAsTable(true);
 
         // Import JSON Data
-        JSONUtility.importData(jsonInput, worksheet.getCells(), 0, 0, options);
+        JsonUtility.importData(jsonInput, worksheet.getCells(), 0, 0, options);
 
         // Save Excel file
         workbook.save(dataDir + "ImportingFromJson.out.xlsx");

@@ -1,11 +1,6 @@
 package AsposeCellsExamples.Worksheets;
 
-import com.aspose.cells.Color;
-import com.aspose.cells.ODSPageBackground;
-import com.aspose.cells.ODSPageBackgroundType;
-import com.aspose.cells.SaveFormat;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
+import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 public class SetODSColoredBackground {
 	
@@ -33,10 +28,10 @@ public class SetODSColoredBackground {
         worksheet.getCells().get(4, 1).setValue(11);
         worksheet.getCells().get(5, 1).setValue(12);
 
-        ODSPageBackground background = worksheet.getPageSetup().getODSPageBackground();
+        OdsPageBackground background = worksheet.getPageSetup().getODSPageBackground();
 
         background.setColor(Color.getAzure());
-        background.setType(ODSPageBackgroundType.COLOR);
+        background.setType(OdsPageBackgroundType.COLOR);
 
         workbook.save(outDir + "ColoredBackground.ods", SaveFormat.ODS);
         // ExEnd:1

@@ -6,11 +6,7 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-import com.aspose.cells.ODSPageBackground;
-import com.aspose.cells.ODSPageBackgroundGraphicPositionType;
-import com.aspose.cells.ODSPageBackgroundType;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
+import com.aspose.cells.*;
 
 import AsposeCellsExamples.Utils;
 public class ReadODSBackground {
@@ -28,7 +24,7 @@ public class ReadODSBackground {
         //Access first worksheet
         Worksheet worksheet = workbook.getWorksheets().get(0);
 
-        ODSPageBackground background = worksheet.getPageSetup().getODSPageBackground();
+        OdsPageBackground background = worksheet.getPageSetup().getODSPageBackground();
 
         System.out.println("Background Type: " + getTypeValue(background.getType()));
         System.out.println("Backgorund Position: " + getPositionValue(background.getGraphicPositionType()));
@@ -44,11 +40,11 @@ public class ReadODSBackground {
 	
 	public static String getTypeValue(int type) {
 		String value = "";
-		if(type == ODSPageBackgroundType.COLOR) {
+		if(type == OdsPageBackgroundType.COLOR) {
 			value = "COLOR";
-		} else if(type == ODSPageBackgroundType.GRAPHIC) {
+		} else if(type == OdsPageBackgroundType.GRAPHIC) {
 			value = "GRAPHIC";
-		} else if(type == ODSPageBackgroundType.NONE) {
+		} else if(type == OdsPageBackgroundType.NONE) {
 			value = "NONE";
 		}
 		return value;
@@ -56,23 +52,23 @@ public class ReadODSBackground {
 	
 	public static String getPositionValue(int position) {
 		String value = "";
-		if(position == ODSPageBackgroundGraphicPositionType.BOTTOM_CENTER) {
+		if(position == OdsPageBackgroundGraphicPositionType.BOTTOM_CENTER) {
 			value = "BOTTOM_CENTER";
-		} else if(position == ODSPageBackgroundGraphicPositionType.BOTTOM_LEFT) {
+		} else if(position == OdsPageBackgroundGraphicPositionType.BOTTOM_LEFT) {
 			value = "BOTTOM_LEFT";
-		} else if(position == ODSPageBackgroundGraphicPositionType.BOTTOM_RIGHT) {
+		} else if(position == OdsPageBackgroundGraphicPositionType.BOTTOM_RIGHT) {
 			value = "BOTTOM_RIGHT";
-		} else if(position == ODSPageBackgroundGraphicPositionType.CENTER_CENTER) {
+		} else if(position == OdsPageBackgroundGraphicPositionType.CENTER_CENTER) {
 			value = "CENTER_CENTER";
-		} else if(position == ODSPageBackgroundGraphicPositionType.CENTER_LEFT) {
+		} else if(position == OdsPageBackgroundGraphicPositionType.CENTER_LEFT) {
 			value = "CENTER_LEFT";
-		} else if(position == ODSPageBackgroundGraphicPositionType.CENTER_RIGHT) {
+		} else if(position == OdsPageBackgroundGraphicPositionType.CENTER_RIGHT) {
 			value = "CENTER_RIGHT";
-		} else if(position == ODSPageBackgroundGraphicPositionType.TOP_CENTER) {
+		} else if(position == OdsPageBackgroundGraphicPositionType.TOP_CENTER) {
 			value = "TOP_CENTER";
-		} else if(position == ODSPageBackgroundGraphicPositionType.TOP_LEFT) {
+		} else if(position == OdsPageBackgroundGraphicPositionType.TOP_LEFT) {
 			value = "TOP_LEFT";
-		} else if(position == ODSPageBackgroundGraphicPositionType.TOP_RIGHT) {
+		} else if(position == OdsPageBackgroundGraphicPositionType.TOP_RIGHT) {
 			value = "TOP_RIGHT";
 		}
 		return value;
