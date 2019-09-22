@@ -9,7 +9,7 @@ public class ExportPrintAreaToHtml {
 	static String outDir = Utils.Get_OutputDirectory();
 
 	public static void main(String[] args) throws Exception {
-
+        // ExStart:1
 		// Load the Excel file.
         Workbook wb = new Workbook(srcDir + "sampleInlineCharts.xlsx");
 
@@ -27,6 +27,7 @@ public class ExportPrintAreaToHtml {
 
         //Save to HTML format
         wb.save(outDir + "outputInlineCharts.html",options);
+        // ExEnd:1
         
 		// Print the message
 		System.out.println("ExportPrintAreaToHtml executed successfully.");

@@ -8,7 +8,7 @@ public class CheckIfValidationInCellDropDown {
 	static String srcDir = Utils.Get_SourceDirectory();
 
 	public static void main(String[] args) throws Exception {
-
+        // ExStart:1
         Workbook book = new Workbook(srcDir + "sampleValidation.xlsx");
         Worksheet sheet = book.getWorksheets().get("Sheet1");
         Cells cells  = sheet.getCells();
@@ -33,6 +33,7 @@ public class CheckIfValidationInCellDropDown {
         } else {
             System.out.println("C2 is NOT a dropdown");
         }
+        // ExEnd:1
 
 		// Print message
 		System.out.println("CheckIfValidationInCellDropDown completed successfully");

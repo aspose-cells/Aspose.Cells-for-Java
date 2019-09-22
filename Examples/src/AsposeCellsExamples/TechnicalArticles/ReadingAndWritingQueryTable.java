@@ -10,20 +10,20 @@ public class ReadingAndWritingQueryTable {
 
 		String dataDir = Utils.getSharedDataDir(ReadingAndWritingQueryTable.class) + "TechnicalArticles/";
 		// Create workbook from source excel file
-		Workbook workbook = new Workbook(dataDir + "Sample.xlsx");
+		Workbook workbook = new Workbook(dataDir + "SampleQT.xlsx");
 
 		// Access first worksheet
 		Worksheet worksheet = workbook.getWorksheets().get(0);
 
 		// Access first Query Table
-		QueryTable qt = worksheet.getQueryTables().get(0);
+		QueryTable queryTable = worksheet.getQueryTables().get(0);
 
 		// Print Query Table Data
-		System.out.println("Adjust Column Width: " + qt.getAdjustColumnWidth());
-		System.out.println("Preserve Formatting: " + qt.getPreserveFormatting());
+		System.out.println("Adjust Column Width: " + queryTable.getAdjustColumnWidth());
+		System.out.println("Preserve Formatting: " + queryTable.getPreserveFormatting());
 
 		// Now set Preserve Formatting to true
-		qt.setPreserveFormatting(true);
+		queryTable.setPreserveFormatting(true);
 
 		// Save the workbook
 		workbook.save(dataDir + "RAWQueryTable_out.xlsx");
