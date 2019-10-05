@@ -1,6 +1,6 @@
 # Aspose.Cells for Java
 
-[Aspose.Cells for Java](https://products.aspose.com/cells/java) is an award-winning Excel Spreadsheet Processing API that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF and image file formats into their own Java applications without needing to rely on Microsoft Excel®.
+[Aspose.Cells for Java](https://products.aspose.com/cells/java) is an award-winning Excel Spreadsheet Processing API that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF, and image file formats into their own Java applications without needing to rely on Microsoft Excel®.
 
 This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridWeb) and [Plugins](Plugins) for [Aspose.Cells for Java](https://products.aspose.com/cells/java)
 
@@ -10,7 +10,7 @@ This repository contains [Examples](Examples), [Examples.GridWeb](Examples.GridW
   </a>
 </p>
 
-Following is short description of contents of the repository:
+Following is a short description of the contents of the repository:
 
 Directory  | Description
 ---------- | -----------
@@ -22,13 +22,13 @@ Directory  | Description
 
 * You can either clone the repository using your favorite GitHub client or download the ZIP file from here.
 * Extract the contents of the ZIP file to any folder on your computer. All the examples are located in the **Examples** folder.
-* You can run/execute these examples with any IDE of you choice.
+* You can run/execute these examples with any IDE of your choice.
 * Open the project in your selected IDE.
 * Open the example file that you want to run.
 * Run the file in your IDE (method may vary depending on the IDE you use).
-* resources folder in Examples/src folder contains input files used in the examples. It is mandatory that you download this folder along with the examples project.
+* The resources folder in the Examples/src folder contains input files used in the examples. It is mandatory that you download this folder along with the examples project.
 
-Please find more details for how to run the examples [here](https://docs.aspose.com/display/cellsjava/How+to+Run+the+Examples).
+Please find more details on how to run the examples [here](https://docs.aspose.com/display/cellsjava/How+to+Run+the+Examples).
 
 ## Resources
 
