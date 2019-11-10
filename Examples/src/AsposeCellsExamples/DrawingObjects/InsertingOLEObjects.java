@@ -20,12 +20,14 @@ public class InsertingOLEObjects {
 		byte[] img = new byte[(int) file.length()];
 		FileInputStream fis = new FileInputStream(file);
 		fis.read(img);
+		fis.close();
 
 		// Get the excel file into the streams.
 		file = new File(dataDir + "Book1.xls");
 		byte[] data = new byte[(int) file.length()];
 		fis = new FileInputStream(file);
 		fis.read(data);
+		fis.close();
 
 		// Instantiate a new Workbook.
 		Workbook wb = new Workbook();

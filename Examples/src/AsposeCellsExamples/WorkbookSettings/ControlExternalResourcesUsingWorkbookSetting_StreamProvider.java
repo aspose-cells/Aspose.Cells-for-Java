@@ -8,7 +8,8 @@ public class ControlExternalResourcesUsingWorkbookSetting_StreamProvider {
 	
 	String srcDir = Utils.Get_SourceDirectory();
 	String outDir = Utils.Get_OutputDirectory();
-	
+
+	// ExStart:1
 	//Implementation of IStreamProvider
 	class SP implements IStreamProvider
 	{
@@ -53,7 +54,7 @@ public class ControlExternalResourcesUsingWorkbookSetting_StreamProvider {
 		//Specify image or print options, we need one page per sheet and png output
 		ImageOrPrintOptions opts = new ImageOrPrintOptions();
 		opts.setOnePagePerSheet(true);
-		opts.setImageFormat(ImageFormat.getPng());
+		opts.setImageType(ImageType.PNG);
 
 		//Create sheet render by passing required parameters
 		SheetRender sr = new SheetRender(ws, opts);
@@ -68,4 +69,5 @@ public class ControlExternalResourcesUsingWorkbookSetting_StreamProvider {
 	public static void main(String[] args) throws Exception {
 		new ControlExternalResourcesUsingWorkbookSetting_StreamProvider().Run();
 	}
+    // ExEnd:1
 }

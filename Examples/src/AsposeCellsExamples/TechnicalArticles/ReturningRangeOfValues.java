@@ -10,11 +10,10 @@ import AsposeCellsExamples.Utils;
 
 public class ReturningRangeOfValues {
 	public static void main(String[] args) throws Exception {
-
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ReturningRangeOfValues.class) + "TechnicalArticles/";
-		Workbook wb = new Workbook();
-		Cells cells = wb.getWorksheets().get(0).getCells();
+		// ExStart:1
+		String outputDir = Utils.Get_OutputDirectory();
+		Workbook workbook = new Workbook();
+		Cells cells = workbook.getWorksheets().get(0).getCells();
 
 		Cell cell = cells.get(0, 0);
 		cell.setArrayFormula("=MYFUNC()", 2, 2);
@@ -25,15 +24,14 @@ public class ReturningRangeOfValues {
 
 		CalculationOptions copt = new CalculationOptions();
 		copt.setCustomFunction(new CustomFunctionStaticValue());
-		wb.calculateFormula(copt);
+		workbook.calculateFormula(copt);
 
-		// Save to xlsx by setting the calc mode to manual
-		wb.getSettings().setCalcMode(CalcModeType.MANUAL);
-		wb.save(dataDir + "output.xlsx");
+		// Save to XLSX by setting the calc mode to manual
+		workbook.getSettings().setCalcMode(CalcModeType.MANUAL);
+		workbook.save(outputDir + "output.xlsx");
 
-		// Save to pdf
-		wb.save(dataDir + "output.pdf");
-
-
+		// Save to PDF
+		workbook.save(outputDir + "output.pdf");
+		// ExEnd:1
 	}
 }

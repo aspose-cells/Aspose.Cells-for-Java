@@ -17,7 +17,7 @@ public class WorksheetToImage {
 		ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
 
 		// Set the image type
-		imgOptions.setImageFormat(ImageFormat.getPng());
+		imgOptions.setImageType(ImageType.PNG);
 
 		// Get the first worksheet.
 		Worksheet sheet = book.getWorksheets().get(0);
@@ -30,6 +30,5 @@ public class WorksheetToImage {
 		}
 		// Print message
 		System.out.println("Images generated successfully.");
-
 	}
 }

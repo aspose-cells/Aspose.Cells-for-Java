@@ -5,8 +5,8 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-import com.aspose.cells.ImageFormat;
 import com.aspose.cells.ImageOrPrintOptions;
+import com.aspose.cells.ImageType;
 import com.aspose.cells.SheetRender;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -14,11 +14,11 @@ import AsposeCellsExamples.Utils;
 
 public class GenerateThumbnailofWorksheet {
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(GenerateThumbnailofWorksheet.class) + "TechnicalArticles/";
 		// Instantiate and open an Excel file
-		Workbook book = new Workbook(dataDir + "book1.xls");
+		Workbook book = new Workbook(dataDir + "book1.xlsx");
 
 		// Define ImageOrPrintOptions
 		ImageOrPrintOptions imgOptions = new ImageOrPrintOptions();
@@ -26,7 +26,7 @@ public class GenerateThumbnailofWorksheet {
 		imgOptions.setVerticalResolution(200);
 		imgOptions.setHorizontalResolution(200);
 		// Set the image's format
-		imgOptions.setImageFormat(ImageFormat.getJpeg());
+		imgOptions.setImageType(ImageType.JPEG);
 		// One page per sheet is enabled
 		imgOptions.setOnePagePerSheet(true);
 
@@ -43,6 +43,8 @@ public class GenerateThumbnailofWorksheet {
 		img1.createGraphics().drawImage(
 				ImageIO.read(new File(dataDir + "school.jpg")).getScaledInstance(100, 100, img.SCALE_SMOOTH), 0, 0, null);
 		ImageIO.write(img1, "jpg", new File(dataDir + "GTOfWorksheet_out.jpg"));
+        // ExEnd:1
 
+		System.out.println("GenerateThumbnailofWorksheet executed successfully.");
 	}
 }

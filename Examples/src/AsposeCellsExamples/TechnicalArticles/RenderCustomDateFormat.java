@@ -5,12 +5,13 @@ import AsposeCellsExamples.Utils;
 
 public class RenderCustomDateFormat {
 	public static void main(String[] args) throws Exception {
+		// ExStart:1
+		// The path to the directories.
+		String sourceDir = Utils.Get_SourceDirectory();
+		String outDir = Utils.Get_OutputDirectory();
 
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(RenderCustomDateFormat.class) + "TechnicalArticles/";
-
-		Workbook workbook = new Workbook(dataDir + "DateFormat.xlsx");
-		workbook.save(dataDir + "out.pdf");
-
+		Workbook workbook = new Workbook(sourceDir + "sampleRenderCustomDateFormat.xlsx");
+		workbook.save(outDir + "sampleRenderCustomDateFormat_out.pdf");
+		// ExEnd:1
 	}
 }

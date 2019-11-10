@@ -26,5 +26,6 @@ public class InsertingARowWithFormatting {
 		// Saving the modified Excel file
 		workbook.save(dataDir + "InsertingARowWithFormatting_out.xlsx");
 		// ExEnd:1
+		System.out.println("InsertingARowWithFormatting executed successfully!");
 	}
 }
