@@ -3,12 +3,12 @@ package AsposeCellsExamples.TechnicalArticles;
 import AsposeCellsExamples.Utils;
 import com.aspose.cells.*;
 
+// ExStart:1
 public class FilterObjectsLoadingWorksheets {
 
 	// Implement your own custom load filter, it will enable you to filter your
 	// individual worksheet
 	class CustomLoadFilter extends LoadFilter {
-		// ExStart:1
 		public void startSheet(Worksheet sheet) {
 
 			if (sheet.getName().equals("NoCharts")) {
@@ -18,7 +18,7 @@ public class FilterObjectsLoadingWorksheets {
 
 			if (sheet.getName().equals("NoShapes")) {
 				// Load everything and filter shapes
-				this.setLoadDataFilterOptions(LoadDataFilterOptions.ALL& ~LoadDataFilterOptions.SHAPE);
+				this.setLoadDataFilterOptions(LoadDataFilterOptions.ALL& ~LoadDataFilterOptions.DRAWING);
 			}
 
 			if (sheet.getName().equals("NoConditionalFormatting")) {
@@ -62,5 +62,5 @@ public class FilterObjectsLoadingWorksheets {
 			sr.toImage(0, dataDir + ws.getName() + ".png");
 		}
 	}
-    // ExEnd:1
 }
+// ExEnd:1

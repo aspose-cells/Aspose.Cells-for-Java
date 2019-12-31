@@ -9,11 +9,12 @@ import AsposeCellsExamples.Utils;
 
 public class ApplyingSubtotal {
 	public static void main(String[] args) throws Exception {
-
-		// The path to the documents directory.
-		String dataDir = Utils.getSharedDataDir(ApplyingSubtotal.class) + "TechnicalArticles/";
+		// ExStart: 1
+		//directories
+		String sourceDir = Utils.Get_SourceDirectory();
+		String outputDir = Utils.Get_OutputDirectory();
 		// Create workbook from source Excel file
-		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
+		Workbook workbook = new Workbook(sourceDir + "SampleSubtotal.xlsx");
 
 		// Access the first worksheet
 		Worksheet worksheet = workbook.getWorksheets().get(0);
@@ -29,10 +30,10 @@ public class ApplyingSubtotal {
 		cells.subtotal(ca, 0, ConsolidationFunction.SUM, new int[] { 1 }, true, false, true);
 
 		// Set the direction of outline summary
-		worksheet.getOutline().SummaryRowBelow = true;
+		worksheet.getOutline().setSummaryRowBelow(true);
 
 		// Save the excel file
-		workbook.save(dataDir + "ASubtotal_out.xlsx");
-
+		workbook.save(outputDir + "ASubtotal_out.xlsx");
+		// ExEnd: 1
 	}
 }
