@@ -9,7 +9,7 @@ public class RenderUsingTextCrossType {
 	static String outDir = Utils.Get_OutputDirectory();
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// Load the template file
         Workbook wb = new Workbook(srcDir + "sampleCrosssType.xlsx");
 
@@ -21,6 +21,7 @@ public class RenderUsingTextCrossType {
         
         // Save output PDF file
         wb.save(outDir + "outputCrosssType.pdf", saveOptions);
+		// ExEnd:1
 
 		// Print the message
 		System.out.println("RenderUsingTextCrossType executed successfully.");

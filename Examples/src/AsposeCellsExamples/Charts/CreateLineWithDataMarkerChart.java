@@ -7,6 +7,7 @@ public class CreateLineWithDataMarkerChart {
 
 	static String outDir = Utils.Get_OutputDirectory();
 	public static void main(String[] args) throws Exception {
+		// ExStart:1
         // Instantiate a workbook
         Workbook workbook = new Workbook();
 
@@ -80,8 +81,9 @@ public class CreateLineWithDataMarkerChart {
 
         // Save the workbook
         workbook.save(outDir + "LineWithDataMarkerChart.xlsx", SaveFormat.XLSX);
+        // ExEnd:1
 
 		// Print message
-		System.out.println("Workbook with chart is successfully created.");
+		System.out.println("CreateLineWithDataMarkerChart executed successfully.");
 	}
 }

@@ -7,7 +7,7 @@ import java.io.*;
 public class ExportingDataFromWorksheets {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart: 1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ExportingDataFromWorksheets.class) + "Data/";
 
@@ -24,11 +24,13 @@ public class ExportingDataFromWorksheets {
 		// to Array.
 		Object dataTable[][] = worksheet.getCells().exportArray(0, 0, 7, 2);
 
-		// Printing the name of the cell found after searching worksheet
-		System.out.println("No. Of Rows Imported: " + dataTable.length);
+		// Printing the number of rows exported
+		System.out.println("No. Of Rows Exported: " + dataTable.length);
 
 		// Closing the file stream to free all resources
 		fstream.close();
+		// ExEnd: 1
 
+		System.out.println("ExportingDataFromWorksheets executed successfully.");
 	}
 }

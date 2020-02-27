@@ -1,7 +1,6 @@
 package AsposeCellsExamples.Formulas;
 
 import com.aspose.cells.Cell;
-import com.aspose.cells.DateTime;
 import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -13,7 +12,7 @@ public class RegisterAndCallFuncFromAddIn {
 	static String outDir = Utils.Get_OutputDirectory();
 
 	public static void main(String[] args) throws Exception {
-        // ExStart:
+        // ExStart: 1
         // Create empty workbook
         Workbook workbook = new Workbook();
 
@@ -34,7 +33,7 @@ public class RegisterAndCallFuncFromAddIn {
 
         // Save workbook to output XLSX format.
         workbook.save(outDir +  "test_udf.xlsx", SaveFormat.XLSX);
-        // ExEnd:
+        // ExEnd: 1
 
 		// Print message
 		System.out.println("RegisterAndCallFuncFromAddIn executed successfully.");
