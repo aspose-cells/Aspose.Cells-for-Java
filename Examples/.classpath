@@ -11,17 +11,19 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="libs/bcprov-jdk16-146.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/commons-lang-2.6.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/commons-logging-1.1.1.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/hsqldb.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/jackcess-2.1.6.jar"/>
 	<classpathentry kind="lib" path="msaccesslibs/ucanaccess-4.0.2.jar"/>
-	<classpathentry kind="lib" path="libs/jai_imageio.jar"/>
 	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
 		<attributes>
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="libs/bcprov-jdk15on-160.jar"/>
+	<classpathentry kind="lib" path="libs/jai_codec-1.1.3.jar"/>
+	<classpathentry kind="lib" path="libs/jai_core-1.1.3.jar"/>
+	<classpathentry kind="lib" path="libs/jai_imageio-1.1.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
