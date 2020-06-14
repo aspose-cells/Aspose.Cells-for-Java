@@ -5,11 +5,7 @@ import java.io.File;
 
 import javax.imageio.ImageIO;
 
-import com.aspose.cells.ImageOrPrintOptions;
-import com.aspose.cells.ImageType;
-import com.aspose.cells.SheetRender;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
+import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
 public class GenerateThumbnailofWorksheet {
@@ -35,15 +31,15 @@ public class GenerateThumbnailofWorksheet {
 		// Render the sheet with respect to specified image/print options
 		SheetRender sr = new SheetRender(sheet, imgOptions);
 		// Render the image for the sheet
-		sr.toImage(0, "mythumb.jpg");
+		sr.toImage(0, dataDir + "mythumb.jpg");
 
 		// Creating Thumbnail
-		java.awt.Image img = ImageIO.read(new File(dataDir + "school.jpg")).getScaledInstance(100, 100, BufferedImage.SCALE_SMOOTH);
+		java.awt.Image img = ImageIO.read(new File(dataDir + "mythumb.jpg")).getScaledInstance(100, 100, BufferedImage.SCALE_SMOOTH);
 		BufferedImage img1 = new BufferedImage(100, 100, BufferedImage.TYPE_INT_RGB);
 		img1.createGraphics().drawImage(
-				ImageIO.read(new File(dataDir + "school.jpg")).getScaledInstance(100, 100, img.SCALE_SMOOTH), 0, 0, null);
+				ImageIO.read(new File(dataDir + "mythumb.jpg")).getScaledInstance(100, 100, img.SCALE_SMOOTH), 0, 0, null);
 		ImageIO.write(img1, "jpg", new File(dataDir + "GTOfWorksheet_out.jpg"));
-        // ExEnd:1
+		// ExEnd:1
 
 		System.out.println("GenerateThumbnailofWorksheet executed successfully.");
 	}

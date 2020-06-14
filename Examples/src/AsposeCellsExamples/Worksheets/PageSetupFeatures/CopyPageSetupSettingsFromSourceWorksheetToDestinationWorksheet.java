@@ -5,9 +5,9 @@ import com.aspose.cells.*;
 
 public class CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet {
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		//Converting integer enums to string enums
-		HashMap<Integer, String> paperSizeTypes = new HashMap<Integer, String>();
+		HashMap<Integer, String> paperSizeTypes = new HashMap<>();
 		paperSizeTypes.put(PaperSizeType.PAPER_A_3_EXTRA_TRANSVERSE, "PAPER_A_3_EXTRA_TRANSVERSE");
 		paperSizeTypes.put(PaperSizeType.PAPER_LETTER, "PAPER_LETTER");
 		 
@@ -37,6 +37,7 @@ public class CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet {
 		System.out.println("After Paper Size: " + paperSizeTypes.get(TestSheet1.getPageSetup().getPaperSize()));
 		System.out.println("After Paper Size: " + paperSizeTypes.get(TestSheet2.getPageSetup().getPaperSize()));
 		System.out.println();
+		// ExEnd:1
 		
 		//Print the message
 		System.out.println("CopyPageSetupSettingsFromSourceWorksheetToDestinationWorksheet executed successfully.");

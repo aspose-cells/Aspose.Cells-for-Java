@@ -14,7 +14,7 @@ public class FilterDataWhileLoadingWorkbook {
 		String dataDir = Utils.getSharedDataDir(FilterDataWhileLoadingWorkbook.class) + "TechnicalArticles/";
 		// Set the load options, we only want to load shapes and do not want to load data
 		LoadOptions opts = new LoadOptions(LoadFormat.XLSX);
-		opts.getLoadFilter().setLoadDataFilterOptions(LoadDataFilterOptions.DRAWING);
+		opts.getLoadFilter().setLoadDataFilterOptions(LoadDataFilterOptions.ALL & ~LoadDataFilterOptions.CHART);
 
 		// Create workbook object from sample excel file using load options
 		Workbook wb = new Workbook(dataDir + "sampleFilterDataWhileLoadingWorkbook.xlsx", opts);

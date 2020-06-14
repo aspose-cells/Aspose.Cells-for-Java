@@ -15,3 +15,4 @@ public class CustomFunctionStaticValue implements ICustomFunction {
 	}
 
 }
+//ExEnd:CustomFunctionStaticValue

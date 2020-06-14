@@ -1,10 +1,6 @@
 package AsposeCellsExamples.TechnicalArticles;
 
-import com.aspose.cells.ImageOrPrintOptions;
-import com.aspose.cells.ImageType;
-import com.aspose.cells.SheetRender;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
+import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
 public class ExportRangeofCells {
@@ -19,7 +15,7 @@ public class ExportRangeofCells {
 		Worksheet worksheet = workbook.getWorksheets().get(0);
 
 		// Set the print area with your desired range
-		worksheet.getPageSetup().setPrintArea("E8:H15");
+		worksheet.getPageSetup().setPrintArea("E8:H10");
 
 		// Set all margins as 0
 		worksheet.getPageSetup().setLeftMargin(0);
