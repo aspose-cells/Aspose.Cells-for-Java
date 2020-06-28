@@ -8,6 +8,7 @@ public class OutputBlankPageWhenThereIsNothingToPrint {
 	public static void main(String[] args) throws Exception {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
+		// ExStart:1
 
 		String outDir = Utils.Get_OutputDirectory();
 		
@@ -28,6 +29,7 @@ public class OutputBlankPageWhenThereIsNothingToPrint {
 		// Render empty sheet to png image
 		SheetRender sr = new SheetRender(ws, opts);
 		sr.toImage(0, outDir + "OutputBlankPageWhenNothingToPrint.png");
+		// ExEnd:1
 
 		// Print the message
 		System.out.println("OutputBlankPageWhenThereIsNothingToPrint executed successfully.");

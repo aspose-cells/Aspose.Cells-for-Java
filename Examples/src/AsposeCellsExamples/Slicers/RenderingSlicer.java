@@ -11,6 +11,7 @@ public class RenderingSlicer {
 	public static void main(String[] args) throws Exception {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
+		// ExStart:1
 		
 		// Load sample Excel file containing slicer.
 		Workbook wb = new Workbook(srcDir + "sampleRenderingSlicer.xlsx");
@@ -31,7 +32,8 @@ public class RenderingSlicer {
 
 		// Create sheet render object and render worksheet to image.
 		SheetRender sr = new SheetRender(ws, imgOpts);
-		sr.toImage(0, outDir + "outputRenderingSlicer.png"); 
+		sr.toImage(0, outDir + "outputRenderingSlicer.png");
+		// ExEnd:1
 		
 		// Print the message
 		System.out.println("RenderingSlicer executed successfully.");

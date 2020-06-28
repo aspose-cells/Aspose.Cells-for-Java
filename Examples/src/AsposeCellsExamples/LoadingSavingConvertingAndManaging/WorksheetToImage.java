@@ -7,6 +7,7 @@ public class WorksheetToImage {
 
 	public static void main(String[] args) throws Exception {
 
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(WorksheetToImage.class) + "LoadingSavingConvertingAndManaging/";
 
@@ -28,6 +29,7 @@ public class WorksheetToImage {
 			// Generate an image for the worksheet
 			sr.toImage(j, dataDir + "WToImage-out" + j + ".png");
 		}
+		// ExEnd:1
 		// Print message
 		System.out.println("Images generated successfully.");
 	}

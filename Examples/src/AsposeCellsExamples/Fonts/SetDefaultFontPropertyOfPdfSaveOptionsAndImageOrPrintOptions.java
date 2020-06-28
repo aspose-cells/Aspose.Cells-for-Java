@@ -9,6 +9,7 @@ public class SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
 
+		// ExStart:1
 		String srcDir = Utils.Get_SourceDirectory();
 		String outDir = Utils.Get_OutputDirectory();
 
@@ -43,6 +44,7 @@ public class SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions {
 		saveOptions.setDefaultFont("Times New Roman");
 		saveOptions.setCheckWorkbookDefaultFont(false);
 		workbook.save(outDir + "outputSetDefaultFontProperty_PDF.pdf", saveOptions);
+		// ExEnd:1
 
 		// Print the message
 		System.out.println("SetDefaultFontPropertyOfPdfSaveOptionsAndImageOrPrintOptions executed successfully.");

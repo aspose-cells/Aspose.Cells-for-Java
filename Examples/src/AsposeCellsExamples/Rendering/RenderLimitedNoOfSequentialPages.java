@@ -11,6 +11,7 @@ public class RenderLimitedNoOfSequentialPages {
 	public static void main(String[] args) throws Exception {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
+		// ExStart:1
 		
 		//Load the sample Excel file
 		Workbook wb = new Workbook(srcDir + "sampleImageOrPrintOptions_PageIndexPageCount.xlsx");
@@ -33,6 +34,7 @@ public class RenderLimitedNoOfSequentialPages {
 		{
 		    sr.toImage(i, outDir + "outputImage-" + (i+1) + ".png");
 		}
+		// ExEnd:1
 		
 		// Print the message
 		System.out.println("RenderLimitedNoOfSequentialPages executed successfully.");
