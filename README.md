@@ -4,9 +4,9 @@
 
 Directory | Description
 --------- | -----------
-[Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
+[Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) | Java examples that help you learn the Aspose.Cells for Java features in an easy way.
 [Examples.GridWeb](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb) | A collection of Java examples that help you learn and explore Aspose.GridWeb features.
-[Plugins](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.Cells for Java.
+[Plugins](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins) | Plugins related to Aspose.Cells for Java.
 
 <p align="center">
   <a title="Download ZIP" href="https://github.com/aspose-cells/Aspose.Cells-for-Java/archive/master.zip">
@@ -14,9 +14,9 @@ Directory | Description
   </a>
 </p>
 
-## Excel File Processing Features
+## Excel File Processing via Java
 
-### Document Features
+### Spreadsheet Features
 
 - Open Plain or Encrypted Excel files (Excel97, Excel2007/2010/2013) from different sources.
 - Save Excel files (Excel97- Excel2007/2010/2013) in various supported formats.
@@ -86,20 +86,17 @@ Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.
 ## Convert Table to Range with Options using Java
 
 ```java
-// For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-Java
-// The path to the documents directory.
-String dataDir = Utils.getSharedDataDir(ConvertTableToRangeWithOptions.class) + "Tables/";
-// Open an existing file that contains a table/list object in it
+// open an existing file that contains a table/list object in it
 Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 
 TableToRangeOptions options = new TableToRangeOptions();
 options.setLastRow(5);
 
-// Convert the first table/list object (from the first worksheet) to normal range
+// convert the first table/list object (from the first worksheet) to normal range
 workbook.getWorksheets().get(0).getListObjects().get(0).convertToRange(options);
 
-// Save the file
+// save the file
 workbook.save(dataDir + "ConvertTableToRangeWithOptions_out.xlsx");
 ```
 
-[Product Page](https://products.aspose.com/cells/java) | [Docs](https://docs.aspose.com/display/cellsjava/Home) | [Demos](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/java/cells) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) | [Temporary License](https://purchase.aspose.com/temporary-license)
+[Home](https://www.aspose.com/) | [Product Page](https://products.aspose.com/cells/java) | [Docs](https://docs.aspose.com/cells/java/) | [Demos](https://products.aspose.app/cells/family) | [API Reference](https://apireference.aspose.com/java/cells) | [Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java) | [Blog](https://blog.aspose.com/category/cells/) | [Free Support](https://forum.aspose.com/c/cells) | [Temporary License](https://purchase.aspose.com/temporary-license)
