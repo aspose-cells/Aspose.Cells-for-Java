@@ -4,9 +4,9 @@
 
 Directory | Description
 --------- | -----------
-[Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) | Java examples that help you learn the Aspose.Cells for Java features in an easy way.
+[Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
 [Examples.GridWeb](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb) | A collection of Java examples that help you learn and explore Aspose.GridWeb features.
-[Plugins](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins) | Plugins related to Aspose.Cells for Java.
+[Plugins](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.Cells for Java.
 
 <p align="center">
   <a title="Download ZIP" href="https://github.com/aspose-cells/Aspose.Cells-for-Java/archive/master.zip">
@@ -14,9 +14,9 @@ Directory | Description
   </a>
 </p>
 
-## Excel File Processing via Java
+## Excel File Processing Features
 
-### Spreadsheet Features
+### Document Features
 
 - Open Plain or Encrypted Excel files (Excel97, Excel2007/2010/2013) from different sources.
 - Save Excel files (Excel97- Excel2007/2010/2013) in various supported formats.
@@ -81,21 +81,24 @@ Directory | Description
 
 ## Get Started with Aspose.Cells for Java
 
-Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells). You can easily use Aspose.Cells for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Cells for Java from Maven Repository](https://docs.aspose.com/display/cellsjava/Installation#Installation-InstallingAspose.CellsforJavafromMavenRepository) documentation page.
+Aspose hosts all Java APIs at the [Aspose Repository](https://repository.aspose.com/webapp/#/artifacts/browse/tree/General/repo/com/aspose/aspose-cells). You can easily use Aspose.Cells for Java API directly in your Maven projects with simple configurations. For the detailed instructions please visit [Installing Aspose.Cells for Java from Maven Repository](https://docs.aspose.com/cells/java/installation/) documentation page.
 
 ## Convert Table to Range with Options using Java
 
 ```java
-// open an existing file that contains a table/list object in it
+// For complete examples and data files, please go to https://github.com/aspose-cells/Aspose.Cells-for-Java
+// The path to the documents directory.
+String dataDir = Utils.getSharedDataDir(ConvertTableToRangeWithOptions.class) + "Tables/";
+// Open an existing file that contains a table/list object in it
 Workbook workbook = new Workbook(dataDir + "book1.xlsx");
 
 TableToRangeOptions options = new TableToRangeOptions();
 options.setLastRow(5);
 
-// convert the first table/list object (from the first worksheet) to normal range
+// Convert the first table/list object (from the first worksheet) to normal range
 workbook.getWorksheets().get(0).getListObjects().get(0).convertToRange(options);
 
-// save the file
+// Save the file
 workbook.save(dataDir + "ConvertTableToRangeWithOptions_out.xlsx");
 ```
 
