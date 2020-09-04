@@ -6,7 +6,7 @@ import AsposeCellsExamples.Utils;
 public class HowToCreateBubbleChart {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HowToCreateBubbleChart.class) + "Charts/";
 
@@ -62,10 +62,9 @@ public class HowToCreateBubbleChart {
 
 		// Saving the Excel file
 		workbook.save(dataDir + "HToCrBChart_out.xls");
-
+		// ExEnd:1
+		
 		// Print message
 		System.out.println("Bubble chart is successfully created.");
-
-
 	}
 }

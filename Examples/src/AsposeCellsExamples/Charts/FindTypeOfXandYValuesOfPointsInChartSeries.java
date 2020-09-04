@@ -11,9 +11,10 @@ public class FindTypeOfXandYValuesOfPointsInChartSeries {
 	public static void main(String[] args) throws Exception {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
-		
+		// ExStart:1
+
 		//Converting integer enums to string enums
-		java.util.HashMap<Integer, String> cvTypes = new java.util.HashMap<Integer, String>();
+		java.util.HashMap<Integer, String> cvTypes = new java.util.HashMap<>();
 		cvTypes.put(CellValueType.IS_NUMERIC, "IsNumeric");
 		cvTypes.put(CellValueType.IS_STRING, "IsString");
 
@@ -35,6 +36,7 @@ public class FindTypeOfXandYValuesOfPointsInChartSeries {
 		//Print the types of X and Y values of chart point.
 		System.out.println("X Value Type: " + cvTypes.get(pnt.getXValueType()));
 		System.out.println("Y Value Type: " + cvTypes.get(pnt.getYValueType()));
+		// ExEnd:1
 		
 		// Print the message
 		System.out.println("FindTypeOfXandYValuesOfPointsInChartSeries executed successfully.");

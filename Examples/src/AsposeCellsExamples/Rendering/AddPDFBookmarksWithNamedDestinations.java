@@ -13,7 +13,7 @@ public class AddPDFBookmarksWithNamedDestinations {
 	public static void main(String[] args) throws Exception {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
-	
+		// ExStart:1
 		//Load source Excel file 
 		Workbook wb = new Workbook(srcDir + "samplePdfBookmarkEntry_DestinationName.xlsx");
 		  
@@ -48,7 +48,7 @@ public class AddPDFBookmarksWithNamedDestinations {
 		subbookmarkEntry2.setDestinationName("AsposeCells--" + cell.getName());
 		  
 		//Add Sub-Bookmarks in list
-		ArrayList list = new ArrayList();
+		ArrayList<PdfBookmarkEntry> list = new ArrayList<>();
 		list.add(subbookmarkEntry1);
 		list.add(subbookmarkEntry2);
 		  
@@ -61,6 +61,7 @@ public class AddPDFBookmarksWithNamedDestinations {
 		  
 		//Save the workbook in Pdf format with given pdf save options
 		wb.save(outDir + "outputPdfBookmarkEntry_DestinationName.pdf", opts);
+		// ExEnd:1
 
 		// Print the message
 		System.out.println("AddPDFBookmarksWithNamedDestinations executed successfully.");

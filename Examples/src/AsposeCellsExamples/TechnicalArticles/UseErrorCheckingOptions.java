@@ -14,7 +14,7 @@ public class UseErrorCheckingOptions {
 		String dataDir = Utils.getSharedDataDir(UseErrorCheckingOptions.class) + "TechnicalArticles/";
 
 		// Create a workbook and opening a template spreadsheet
-		Workbook workbook = new Workbook(dataDir + "Book1.xls");
+		Workbook workbook = new Workbook(dataDir + "book1.xls");
 
 		// Get the first worksheet
 		Worksheet sheet = workbook.getWorksheets().get(0);

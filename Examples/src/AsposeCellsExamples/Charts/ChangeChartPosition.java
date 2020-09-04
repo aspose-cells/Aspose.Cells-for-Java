@@ -8,7 +8,7 @@ import AsposeCellsExamples.Utils;
 public class ChangeChartPosition {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ChangeChartPosition.class) + "Charts/";
 
@@ -27,9 +27,8 @@ public class ChangeChartPosition {
 
 		// Output the file
 		workbook.save(dataDir + "CCPosition_out.xls");
-
+		// ExEnd:1
 		// Print message
 		System.out.println("Position and Size of Chart is changed successfully.");
-
 	}
 }

@@ -13,6 +13,7 @@ import AsposeCellsExamples.Utils;
 
 public class ChartRendering {
 	public static void main(String[] args) throws Exception {
+		// ExStart:1
 		String dataDir = Utils.getSharedDataDir(CreateChart.class) + "Charts/";
 
 		// Instantiating a Workbook object
@@ -37,5 +38,6 @@ public class ChartRendering {
 
 		// Convert chart to image with additional settings
 		chart.toImage(dataDir + "chart.png", options);
+		// ExEnd:1
 	}
 }

@@ -35,12 +35,12 @@
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-cells</artifactId>
-        <version>20.7</version>
+        <version>20.8</version>
     </dependency>
     <dependency>
         <groupId>com.aspose</groupId>
         <artifactId>aspose-cells</artifactId>
-        <version>20.7</version>
+        <version>20.8</version>
         <classifier>javadoc</classifier>
     </dependency>
     <dependency>

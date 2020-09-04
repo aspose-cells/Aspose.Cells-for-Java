@@ -11,7 +11,7 @@ public class CreateChartPDFWithDesiredPageSize {
 	public static void main(String[] args) throws Exception {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
-		
+		// ExStart:1
 		//Load sample Excel file containing the chart.
 		Workbook wb = new Workbook(srcDir + "sampleCreateChartPDFWithDesiredPageSize.xlsx");
 		 
@@ -23,7 +23,8 @@ public class CreateChartPDFWithDesiredPageSize {
 		 
 		//Create chart pdf with desired page size.
 		ch.toPdf(outDir + "outputCreateChartPDFWithDesiredPageSize.pdf", 7, 7, PageLayoutAlignmentType.CENTER, PageLayoutAlignmentType.CENTER);
-			 
+		// ExEnd:1
+		
 		// Print the message
 		System.out.println("CreateChartPDFWithDesiredPageSize executed successfully.");
 	}

@@ -7,10 +7,8 @@ import com.aspose.cells.WarningType;
 import com.aspose.cells.Workbook;
 import AsposeCellsExamples.Utils;
 
-
-
 public class WarningCallback implements IWarningCallback {
-
+	// ExStart:1
 	@Override
 	public void warning(WarningInfo info) {
 		if (info.getWarningType() == WarningType.FONT_SUBSTITUTION) {
@@ -21,9 +19,9 @@ public class WarningCallback implements IWarningCallback {
 	// ........
 	// ........
 
-	static void Run() throws Exception {
+	public static void main(String[] args) throws Exception {
 
-		String dataDir = Utils.getDataDir(WarningCallback.class);
+		String dataDir = Utils.getSharedDataDir(UseErrorCheckingOptions.class) + "TechnicalArticles/";
 		Workbook workbook = new Workbook(dataDir + "source.xlsx");
 
 		PdfSaveOptions options = new PdfSaveOptions();
@@ -31,4 +29,5 @@ public class WarningCallback implements IWarningCallback {
 
 		workbook.save(dataDir + "WarningCallback_out.pdf", options);
 	}
+	// ExEnd:1
 }

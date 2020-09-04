@@ -6,7 +6,7 @@ import AsposeCellsExamples.Utils;
 public class HowToCreatePieChart {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HowToCreatePieChart.class) + "Charts/";
 
@@ -85,10 +85,9 @@ public class HowToCreatePieChart {
 		}
 		// Saving the Excel file
 		workbook.save(dataDir + "HTCPChart_out.xls");
-
+		// ExEnd:1
+		
 		// Print message
 		System.out.println("Pie chart is successfully created.");
-
-
 	}
 }

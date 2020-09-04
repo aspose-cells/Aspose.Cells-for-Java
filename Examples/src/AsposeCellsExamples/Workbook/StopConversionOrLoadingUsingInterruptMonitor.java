@@ -3,6 +3,7 @@ package AsposeCellsExamples.Workbook;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
+// ExStart:1
 public class StopConversionOrLoadingUsingInterruptMonitor
 {
 	static String outDir = Utils.Get_OutputDirectory();
@@ -40,8 +41,8 @@ public class StopConversionOrLoadingUsingInterruptMonitor
                 //Save the workbook to Pdf format
                 wb.save(outDir + "output_InterruptMonitor.pdf");
                 
-                //Show successfull message
-                System.out.println("Excel to Pdf - Successful Conversion");
+                //Show successful message
+                System.out.println("Excel to PDF - Successful Conversion");
             }
             catch (CellsException ex)
             {
@@ -93,8 +94,6 @@ public class StopConversionOrLoadingUsingInterruptMonitor
 
     public static void main(String[] args) throws Exception {
 
-		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
-
 		new StopConversionOrLoadingUsingInterruptMonitor().TestRun();
 		
 		// Print the message
@@ -102,3 +101,4 @@ public class StopConversionOrLoadingUsingInterruptMonitor
 	}
 
 }//StopConversionOrLoadingUsingInterruptMonitor
+// ExEnd:1

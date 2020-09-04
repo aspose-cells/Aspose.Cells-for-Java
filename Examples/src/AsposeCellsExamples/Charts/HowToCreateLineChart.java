@@ -6,7 +6,7 @@ import AsposeCellsExamples.Utils;
 public class HowToCreateLineChart {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HowToCreateLineChart.class) + "Charts/";
 
@@ -57,10 +57,9 @@ public class HowToCreateLineChart {
 
 		// Saving the Excel file
 		workbook.save(dataDir + "HTCLChart_out.xls");
-
+		// ExEnd:1
+		
 		// Print message
 		System.out.println("Line chart is successfully created.");
-
-
 	}
 }

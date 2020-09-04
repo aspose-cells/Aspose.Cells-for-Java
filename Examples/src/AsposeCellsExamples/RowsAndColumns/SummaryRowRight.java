@@ -7,6 +7,7 @@ import AsposeCellsExamples.Utils;
 
 public class SummaryRowRight {
 	public static void main(String[] args) throws Exception {
+		// ExStart: 1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SummaryRowRight.class) + "RowsAndColumns/";
 
@@ -25,6 +26,7 @@ public class SummaryRowRight {
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
 		workbook.save(dataDir + "SummaryRowRight_out.xls");
+		// ExEnd: 1
 
 		// Print message
 		System.out.println("Rows and Columns ungrouped successfully.");

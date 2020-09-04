@@ -6,7 +6,7 @@ import AsposeCellsExamples.Utils;
 public class HowToCreatePyramidChart {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HowToCreatePyramidChart.class) + "Charts/";
 
@@ -57,10 +57,9 @@ public class HowToCreatePyramidChart {
 
 		// Saving the Excel file
 		workbook.save(dataDir + "HToCPyramidChart_out.xls");
-
+		// ExEnd:1
+		
 		// Print message
 		System.out.println("Pyramid chart is successfully created.");
-
-
 	}
 }

@@ -14,7 +14,7 @@ import com.aspose.cells.Worksheet;
 public class UsingGenericList {
 
 	public static void main(String[] args) throws Exception {
-				
+		//ExStart: 1
 		// Create a designer workbook
 		Workbook workbook = new Workbook();
 
@@ -48,10 +48,10 @@ public class UsingGenericList {
 		// Load the template file
 		designer.setWorkbook(workbook);
 
-		ArrayList<Husband> list = new ArrayList<Husband>();
+		ArrayList<Husband> list = new ArrayList<>();
 
 		// Create the relevant Wife objects for the Husband object
-		ArrayList<Wife> wives = new ArrayList<Wife>();
+		ArrayList<Wife> wives = new ArrayList<>();
 		wives.add(new Wife("Chen Zhao", 34));
 		wives.add(new Wife("Jamima Winfrey", 28));
 		wives.add(new Wife("Reham Smith", 35));
@@ -60,7 +60,7 @@ public class UsingGenericList {
 		Husband h1 = new Husband("Mark John", 30, wives);
 
 		// Create the relevant Wife objects for the Husband object
-		wives = new ArrayList<Wife>();
+		wives = new ArrayList<>();
 		wives.add(new Wife("Karishma Jathool", 36));
 		wives.add(new Wife("Angela Rose", 33));
 		wives.add(new Wife("Hina Khanna", 45));
@@ -83,5 +83,6 @@ public class UsingGenericList {
 
 		// Save the Excel file.
 		designer.getWorkbook().save("UsingGenericList_out.xlsx");
+		// ExEnd: 1
 	}
 }

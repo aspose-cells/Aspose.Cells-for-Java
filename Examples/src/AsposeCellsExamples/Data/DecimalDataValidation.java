@@ -37,8 +37,8 @@ public class DecimalDataValidation {
 		validation.setOperator(OperatorType.BETWEEN);
 
 		// Set the lower and upper limits.
-		validation.setFormula1(new Double(Double.MIN_VALUE).toString());
-		validation.setFormula2(new Double(Double.MAX_VALUE).toString());
+		validation.setFormula1("10");
+		validation.setFormula2("1000");
 
 		// Set the error message.
 		validation.setErrorMessage("Please enter a valid integer or decimal number");

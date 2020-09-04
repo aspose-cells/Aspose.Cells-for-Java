@@ -7,6 +7,7 @@ import AsposeCellsExamples.Utils;
 
 public class SummaryRowBelow {
 	public static void main(String[] args) throws Exception {
+		// ExStart: 1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(SummaryRowBelow.class) + "RowsAndColumns/";
 
@@ -28,5 +29,6 @@ public class SummaryRowBelow {
 
 		// Saving the modified Excel file in default (that is Excel 2003) format
 		workbook.save(dataDir + "SummaryRowBelow_out.xls");
+		// ExEnd: 1
 	}
 }

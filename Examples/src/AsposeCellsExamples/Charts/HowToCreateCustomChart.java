@@ -6,7 +6,7 @@ import AsposeCellsExamples.Utils;
 public class HowToCreateCustomChart {
 
 	public static void main(String[] args) throws Exception {
-
+		// ExStart:1
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(HowToCreateCustomChart.class) + "Charts/";
 
@@ -57,10 +57,9 @@ public class HowToCreateCustomChart {
 
 		// Saving the Excel file
 		workbook.save(dataDir + "HTCCustomChart_out.xls");
-
+		// ExEnd:1
+		
 		// Print message
 		System.out.println("Customized chart is successfully created.");
-
-
 	}
 }

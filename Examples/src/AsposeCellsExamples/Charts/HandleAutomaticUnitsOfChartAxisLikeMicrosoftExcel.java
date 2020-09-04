@@ -11,7 +11,7 @@ public class HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel {
 	public static void main(String[] args) throws Exception {
 
 		System.out.println("Aspose.Cells for Java Version: " + CellsHelper.getVersion());
-		
+		// ExStart:1
 		//Load the sample Excel file
 		Workbook wb = new Workbook(srcDir + "sampleHandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel.xlsx");
 
@@ -26,5 +26,6 @@ public class HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel {
 		
 		// Print the message
 		System.out.println("HandleAutomaticUnitsOfChartAxisLikeMicrosoftExcel executed successfully.");
+		// ExEnd:1
 	}
 }

@@ -1,10 +1,7 @@
 package AsposeCellsExamples.PivotTables;
 
-import com.aspose.cells.PivotFieldType;
 import com.aspose.cells.PivotTable;
-import com.aspose.cells.PivotTableCollection;
 import com.aspose.cells.Workbook;
-import com.aspose.cells.Worksheet;
 import AsposeCellsExamples.Utils;
 
 public class ShowReportFilterPagesOption {
