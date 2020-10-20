@@ -23,7 +23,7 @@ public class ReturningRangeOfValues {
 		cell.setStyle(style);
 
 		CalculationOptions copt = new CalculationOptions();
-		copt.setCustomFunction(new CustomFunctionStaticValue());
+		copt.setCustomEngine(new CustomFunctionStaticValue());
 		workbook.calculateFormula(copt);
 
 		// Save to XLSX by setting the calc mode to manual

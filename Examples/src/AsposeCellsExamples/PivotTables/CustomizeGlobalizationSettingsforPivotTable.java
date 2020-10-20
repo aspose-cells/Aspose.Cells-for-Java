@@ -3,6 +3,7 @@ package AsposeCellsExamples.PivotTables;
 import com.aspose.cells.*;
 import AsposeCellsExamples.Utils;
 
+// ExStart:1
 public class CustomizeGlobalizationSettingsforPivotTable {
 	
 	class CustomPivotTableGlobalizationSettings extends GlobalizationSettings
@@ -37,17 +38,17 @@ public class CustomizeGlobalizationSettingsforPivotTable {
 	    }
 	  
 	    //Gets the name of "Column Labels" label in the PivotTable.
-	    public String getColumnLablesName()
+	    public String getColumnLabelsOfPivotTable()
 	    {
-	        System.out.println("---------GetColumnLablesName-------------");
-	        return "AsposeGetColumnLablesName";
+	        System.out.println("---------GetColumnLabelsOfPivotTable-------------");
+	        return "AsposeGetColumnLabelsOfPivotTable";
 	    }
 	  
 	    //Gets the name of "Row Labels" label in the PivotTable.
-	    public String getRowLablesName()
+	    public String getRowLabelsNameOfPivotTable()
 	    {
-	        System.out.println("---------GetRowLablesName-------------");
-	        return "AsposeGetRowLablesName";
+	        System.out.println("---------GetRowLabelsNameOfPivotTable-------------");
+	        return "AsposeGetRowLabelsNameOfPivotTable";
 	    }
 	  
 	    //Gets the name of "(blank)" label in the PivotTable.
@@ -102,7 +103,7 @@ public class CustomizeGlobalizationSettingsforPivotTable {
 	        return "AsposeSubTotalName";
 	    }
 	 
-	}//End CustomPivotTableGlobalizationSettings
+	}
 
 	public void RunCustomizeGlobalizationSettingsforPivotTable() throws Exception
 	{
@@ -136,11 +137,9 @@ public class CustomizeGlobalizationSettingsforPivotTable {
 		wb.save(dataDir + "outputPivotTableGlobalizationSettings.pdf", options);
 
 	}
-	
-	
-	
+
 	public static void main(String[] args) throws Exception {
 		CustomizeGlobalizationSettingsforPivotTable pg = new CustomizeGlobalizationSettingsforPivotTable();
 		pg.RunCustomizeGlobalizationSettingsforPivotTable();
 	}
-}
+}// ExEnd:1
