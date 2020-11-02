@@ -35,13 +35,11 @@ public class AsposeConstants {
     /**
      *
      */
-    public static final String API_EXAMPLES_PACKAGE = "com" + File.separator + API_MAVEN_DEPENDENCY.replace("-", File.separator) + File.separator + "examples";
-
+    public static final String API_EXAMPLES_PACKAGE = "com" + File.separator + API_MAVEN_DEPENDENCY.replace("-", File.separator) + File.separator + "examples";    
     /**
      *
      */
     public static final String GITHUB_EXAMPLES_SOURCE_LOCATION = "Examples" + File.separator + "src" + File.separator + "main" + File.separator + "java" + File.separator + API_EXAMPLES_PACKAGE;
-
     /**
      *
      */
@@ -92,7 +90,7 @@ public class AsposeConstants {
     /**
      *
      */
-    public static final String ASPOSE_MAVEN_REPOSITORY = "http://maven.aspose.com";
+    public static final String ASPOSE_MAVEN_REPOSITORY = "https://repository.aspose.com";
 
     /**
      *

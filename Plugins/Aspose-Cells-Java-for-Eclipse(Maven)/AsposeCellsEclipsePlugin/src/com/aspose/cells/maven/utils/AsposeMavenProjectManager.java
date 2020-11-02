@@ -23,9 +23,6 @@ import java.net.URLConnection;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.JOptionPane;
-import javax.xml.bind.JAXBContext;
-import javax.xml.bind.JAXBException;
-import javax.xml.bind.Unmarshaller;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.parsers.ParserConfigurationException;
@@ -35,7 +32,6 @@ import javax.xml.transform.TransformerException;
 import javax.xml.transform.TransformerFactory;
 import javax.xml.transform.dom.DOMSource;
 import javax.xml.transform.stream.StreamResult;
-import javax.xml.transform.stream.StreamSource;
 import javax.xml.xpath.XPath;
 import javax.xml.xpath.XPathConstants;
 import javax.xml.xpath.XPathExpression;
@@ -45,9 +41,9 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.Node;
 import org.w3c.dom.NodeList;
+import org.xml.sax.InputSource;
 import org.xml.sax.SAXException;
 import com.aspose.cells.maven.artifacts.Metadata;
-import com.aspose.cells.maven.artifacts.ObjectFactory;
 
 public class AsposeMavenProjectManager {
 
@@ -314,16 +310,27 @@ public class AsposeMavenProjectManager {
 	 */
 	public Metadata getProductMavenDependency(String productMavenRepositoryUrl) {
 		final String mavenMetaDataFileName = "maven-metadata.xml";
-		Metadata data = null;
+		Metadata data = new Metadata();
 
 		try {
 			String productMavenInfo;
 			productMavenInfo = readURLContents(productMavenRepositoryUrl + mavenMetaDataFileName);
-			JAXBContext jaxbContext = JAXBContext.newInstance(ObjectFactory.class);
-			Unmarshaller unmarshaller;
-			unmarshaller = jaxbContext.createUnmarshaller();
-
-			data = (Metadata) unmarshaller.unmarshal(new StreamSource(new StringReader(productMavenInfo)));
+			 
+			DocumentBuilder dBuilder = DocumentBuilderFactory.newInstance().newDocumentBuilder();
+			Document doc = dBuilder.parse(new InputSource(new StringReader(productMavenInfo)));			
+														
+			String groupId = XPathFactory.newInstance().newXPath().compile("//metadata/groupId").evaluate(doc);
+			String artifactId = XPathFactory.newInstance().newXPath().compile("//metadata/artifactId").evaluate(doc);
+			String version = XPathFactory.newInstance().newXPath().compile("//metadata/version").evaluate(doc);
+			String latest = XPathFactory.newInstance().newXPath().compile("//metadata/versioning/latest").evaluate(doc);	 			
+			
+			data.setArtifactId(artifactId);
+			data.setGroupId(groupId);
+			data.setVersion(version);
+			
+			Metadata.Versioning ver = new Metadata.Versioning();
+			ver.setLatest(latest);
+			data.setVersioning(ver);
 
 			String remoteArtifactFile = productMavenRepositoryUrl + data.getVersioning().getLatest() + "/"
 					+ data.getArtifactId() + "-" + data.getVersioning().getLatest();
@@ -334,7 +341,7 @@ public class AsposeMavenProjectManager {
 			} else {
 				AsposeConstants.println("Exists");
 			}
-		} catch (IOException | JAXBException ex) {
+		} catch (Exception ex) {
 			ex.printStackTrace();
 			data = null;
 		}

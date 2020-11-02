@@ -24,8 +24,8 @@ package com.aspose.cells.maven.utils;
 public class AsposeCellsJavaAPI extends AsposeJavaAPI {
 
     private final String _name = AsposeConstants.API_NAME;
-    private final String _mavenRepositoryURL = "http://maven.aspose.com/repository/ext-release-local/com/aspose/aspose-cells/";
-    private final String _remoteExamplesRepository = "https://github.com/asposecells/Aspose_Cells_Java";
+    private final String _mavenRepositoryURL = "https://repository.aspose.com/repo/com/aspose/aspose-cells/";
+    private final String _remoteExamplesRepository = "https://github.com/aspose-cells/Aspose.Cells-for-Java";
 
     /**
      * @return the _name

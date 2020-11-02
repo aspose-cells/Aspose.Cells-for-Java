@@ -14,6 +14,7 @@ import java.io.File;
  * @author Adeel Ilyas
  *
  */
+@SuppressWarnings("restriction")
 public class GitHelper {
 
     /**

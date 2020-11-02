@@ -9,7 +9,7 @@
 		<repository>
 			<id>Aspose-Maven-Repository</id>
 			<name>Aspose Maven Repository</name>
-			<url>https://artifact.aspose.com/repo/</url>
+			<url>https://repository.aspose.com/repo/</url>
 		</repository>
 	</repositories>
 	<properties>
