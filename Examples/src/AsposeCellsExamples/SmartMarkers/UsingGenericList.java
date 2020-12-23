@@ -56,7 +56,7 @@ public class UsingGenericList {
 		students.add(new Person("Jamima Winfrey", 18));
 		students.add(new Person("Reham Smith", 15));
 
-		// Create a Husband object
+		// Create a Teacher object
 		Teacher h1 = new Teacher("Mark John", 30, students);
 
 		// Create the relevant student objects for the Teacher object
@@ -65,7 +65,7 @@ public class UsingGenericList {
 		students.add(new Person("Angela Rose", 13));
 		students.add(new Person("Hina Khanna", 15));
 
-		// Create a Husband object
+		// Create a Teacher object
 		Teacher h2 = new Teacher("Masood Shankar", 40, students);
 
 		// Add the objects to the list
