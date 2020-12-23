@@ -17,7 +17,6 @@ public class UsingGenericList {
 		//ExStart: 1
 		// Create a designer workbook
 		Workbook workbook = new Workbook();
-
 		Worksheet worksheet = workbook.getWorksheets().get(0);
 
 		worksheet.getCells().get("A1").putValue("Teacher Name");
