@@ -20,17 +20,17 @@ public class UsingGenericList {
 
 		Worksheet worksheet = workbook.getWorksheets().get(0);
 
-		worksheet.getCells().get("A1").putValue("Husband Name");
-		worksheet.getCells().get("A2").putValue("&=Husband.Name");
+		worksheet.getCells().get("A1").putValue("Teacher Name");
+		worksheet.getCells().get("A2").putValue("&=Teacher.Name");
 
-		worksheet.getCells().get("B1").putValue("Husband Age");
-		worksheet.getCells().get("B2").putValue("&=Husband.Age");
+		worksheet.getCells().get("B1").putValue("Teacher Age");
+		worksheet.getCells().get("B2").putValue("&=Teacher.Age");
 
-		worksheet.getCells().get("C1").putValue("Wife's Name");
-		worksheet.getCells().get("C2").putValue("&=Husband.Wives.Name");
+		worksheet.getCells().get("C1").putValue("Student Name");
+		worksheet.getCells().get("C2").putValue("&=Teacher.Students.Name");
 
-		worksheet.getCells().get("D1").putValue("Wife's Age");
-		worksheet.getCells().get("D2").putValue("&=Husband.Wives.Age");
+		worksheet.getCells().get("D1").putValue("Student Age");
+		worksheet.getCells().get("D2").putValue("&=Teacher.Students.Age");
 
 		// Apply Style to A1:D1
 		Range range = worksheet.getCells().createRange("A1:D1");
@@ -48,32 +48,32 @@ public class UsingGenericList {
 		// Load the template file
 		designer.setWorkbook(workbook);
 
-		ArrayList<Husband> list = new ArrayList<>();
+		ArrayList<Teacher> list = new ArrayList<>();
 
-		// Create the relevant Wife objects for the Husband object
-		ArrayList<Wife> wives = new ArrayList<>();
-		wives.add(new Wife("Chen Zhao", 34));
-		wives.add(new Wife("Jamima Winfrey", 28));
-		wives.add(new Wife("Reham Smith", 35));
-
-		// Create a Husband object
-		Husband h1 = new Husband("Mark John", 30, wives);
-
-		// Create the relevant Wife objects for the Husband object
-		wives = new ArrayList<>();
-		wives.add(new Wife("Karishma Jathool", 36));
-		wives.add(new Wife("Angela Rose", 33));
-		wives.add(new Wife("Hina Khanna", 45));
+		// Create the relevant student objects for the Teacher object
+		ArrayList<Person> students = new ArrayList<>();
+		students.add(new Person("Chen Zhao", 14));
+		students.add(new Person("Jamima Winfrey", 18));
+		students.add(new Person("Reham Smith", 15));
 
 		// Create a Husband object
-		Husband h2 = new Husband("Masood Shankar", 40, wives);
+		Teacher h1 = new Teacher("Mark John", 30, students);
+
+		// Create the relevant student objects for the Teacher object
+		students = new ArrayList<>();
+		students.add(new Person("Karishma Jathool", 16));
+		students.add(new Person("Angela Rose", 13));
+		students.add(new Person("Hina Khanna", 15));
+
+		// Create a Husband object
+		Teacher h2 = new Teacher("Masood Shankar", 40, students);
 
 		// Add the objects to the list
 		list.add(h1);
 		list.add(h2);
 
 		// Specify the DataSource
-		designer.setDataSource("Husband", list);
+		designer.setDataSource("Teacher", list);
 
 		// Process the markers
 		designer.process();

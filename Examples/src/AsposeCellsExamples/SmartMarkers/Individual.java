@@ -1,25 +1,15 @@
 package AsposeCellsExamples.SmartMarkers;
 
-public class Individual {
-	private String m_Name;
-	private int m_Age;
-	private Wife m_Wife;
+public class Individual extends Person {
 
-	public Individual(String name, int age, Wife wife) {
-		this.m_Name = name;
-		this.m_Age = age;
+	private Person m_Wife;
+
+	public Individual(String name, int age, Person wife) {
+	    super(name,age);
 		this.m_Wife = wife;
 	}
 
-	public String getName() {
-		return m_Name;
-	}
-
-	public int getAge() {
-		return m_Age;
-	}
-
-	public Wife getWife() {
+	public Person getWife() {
 		return m_Wife;
 	}
 

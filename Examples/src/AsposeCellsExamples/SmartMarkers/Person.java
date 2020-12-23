@@ -1,10 +1,10 @@
 package AsposeCellsExamples.SmartMarkers;
 
-public class Wife {
+public class Person {
 	private String m_Name;
 	private int m_Age;
 
-	public Wife(String name, int age) {
+	public Person(String name, int age) {
 		this.m_Name = name;
 		this.m_Age = age;
 	}
