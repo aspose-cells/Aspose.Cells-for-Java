@@ -10,18 +10,16 @@ public class ListDataValidation {
 		// The path to the documents directory.
 		String dataDir = Utils.getSharedDataDir(ListDataValidation.class) + "Data/";
 
-		// Create a workbook object.
-		Workbook workbook = new Workbook();
+        Workbook workbook = new Workbook();
 
 		// Get the first worksheet.
-		Worksheet ExcelWorkSheet = workbook.getWorksheets().get(0);
+		Worksheet validSheet = workbook.getWorksheets().get(0);
 
 		// Add a new worksheet and access it.
-		int sheetIndex = workbook.getWorksheets().add();
-		Worksheet worksheet2 = workbook.getWorksheets().get(sheetIndex);
+		Worksheet dataSheet = workbook.getWorksheets().add("Data");
 
 		// Create a range with name in the second worksheet.
-		Range range = worksheet2.getCells().createRange(0, 4, 4, 4);
+		Range range = dataSheet.getCells().createRange(0, 4, 4, 1);
 		range.setName("MyRange");
 
 		// Fill different cells with data in the range.
@@ -38,7 +36,7 @@ public class ListDataValidation {
 		area.EndColumn = 0;
 
 		// Obtain the existing Validations collection.
-		ValidationCollection validations = ExcelWorkSheet.getValidations();
+		ValidationCollection validations = validSheet.getValidations();
 
 		// Create a validation object adding to the collection list.
 		int index = validations.add(area);
