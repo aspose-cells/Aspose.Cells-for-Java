@@ -1,3 +1,4 @@
+![GitHub release (latest by date)](https://img.shields.io/github/v/release/aspose-cells-cloud/aspose-cells-cloud-java) ![GitHub all releases](https://img.shields.io/github/downloads/aspose-cells/Aspose.cells-for-Java/total) ![GitHub](https://img.shields.io/github/license/aspose-cells/Aspose.cells-for-java)
 # Java API for Excel File Formats
 
 [Aspose.Cells for Java](https://products.aspose.com/cells/java) is an award-winning Excel Spreadsheet Processing API that allows Java developers to embed the ability to read, write and manipulate Excel® spreadsheets (XLS, XLSX, XLSM, XLSB, XLTX, SpreadsheetML, CSV, ODS), HTML, MHTML, PDF, and image file formats into their own Java applications without needing to rely on Microsoft Excel®.
