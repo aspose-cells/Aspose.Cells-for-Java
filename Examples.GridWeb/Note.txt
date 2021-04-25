@@ -1,1 +1,3 @@
 This directory contains Aspose.Cells for GridWeb - Java examples.
+war for webapp  import project ,run as server then open url http://localhost:18080/GridWeb.WebDemo/
+spring demo for spring framwork start,run the application  check HelloController.java ,you can find all the api url for demo pages  

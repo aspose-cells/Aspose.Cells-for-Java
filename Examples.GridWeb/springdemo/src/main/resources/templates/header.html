@@ -1,0 +1,53 @@
+<div th:fragment="gridheader">
+   
+<script type="text/javascript" language="javascript"
+	src="/gridwebdemo/grid/acw_client/acwmain.js?t=1"></script>
+<script type="text/javascript" language="javascript"
+	src="/gridwebdemo/grid/acw_client/lang_en.js"></script>
+<link href="/gridwebdemo/grid/acw_client/menu.css" rel="stylesheet"
+	type="text/css" />
+<script type="text/javascript" language="javascript"
+	src="/gridwebdemo/jquery/jquery-2.1.1.js"></script>
+<script type="text/javascript" language="javascript"
+	src="/gridwebdemo/jquery/jquery-ui.js"></script>
+<link rel="stylesheet" href="/gridwebdemo/jquery/jquery-ui.css" />
+<style>
+span.acwxc {
+	overflow: hidden;
+	border: none;
+	display: block;
+	white-space: pre;
+}
+ 
+span.rotation90 {
+	width: 100%;
+	height: 100%;
+	border: none;
+	-webkit-transform: rotate(-90deg);
+	-moz-transform: rotate(-90deg);
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3 );
+	display: block
+}
+ 
+span.rotation-90 {
+	filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=1 );
+	width: 100%;
+	height: 100%;
+	border: none;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+	display: block
+}
+ 
+span.wrap {
+	white-space: pre-wrap;
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap;
+	white-space: -o-pre-wrap;
+	word-wrap: break-word;
+	-ms-word-break: break-all;
+}
+span.acwcmmnt {position: relative;}
+span.acwcmmnt:after { content: '';position: absolute;top: 0;right: 0;width: 0;height: 0; display: block;border-left: 7px solid transparent; border-bottom: 7px solid transparent;border-top: 7px solid #f00;}
+</style>
+</div>
