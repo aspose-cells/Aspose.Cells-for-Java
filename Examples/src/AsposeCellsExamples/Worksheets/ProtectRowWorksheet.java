@@ -48,7 +48,7 @@ public class ProtectRowWorksheet {
 		sheet.protect(ProtectionType.ALL);
 
 		// Save the excel file.
-		wb.save(dataDir + "ProtectRowWorksheet_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "ProtectRowWorksheet_out.xls");
 
 		// Print Message
 		System.out.println("Row protected successfully.");

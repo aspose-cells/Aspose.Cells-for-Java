@@ -75,7 +75,7 @@ public class TimeDataValidation {
 		validation.setShowInput(true);
 
 		// Save the excel file.
-		workbook.save(dataDir + "TDValidation_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "TDValidation_out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

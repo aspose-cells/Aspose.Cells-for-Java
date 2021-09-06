@@ -1,8 +1,9 @@
 package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
-import com.aspose.cells.FileFormatType;
+import com.aspose.cells.LoadFormat;
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
+
 import AsposeCellsExamples.Utils;
 
 public class OpeningCSVFiles {
@@ -13,7 +14,7 @@ public class OpeningCSVFiles {
 		String dataDir = Utils.getSharedDataDir(OpeningCSVFiles.class) + "LoadingSavingConvertingAndManaging/";
 		// Opening CSV Files
 		// Creating and CSV LoadOptions object
-		LoadOptions loadOptions4 = new LoadOptions(FileFormatType.CSV);
+		LoadOptions loadOptions4 = new LoadOptions(LoadFormat.CSV);
 
 		// Creating an Workbook object with CSV file path and the loadOptions
 		// object

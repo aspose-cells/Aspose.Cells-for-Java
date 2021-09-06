@@ -1,7 +1,7 @@
 package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
-import com.aspose.cells.FileFormatType;
 import com.aspose.cells.Workbook;
+
 import AsposeCellsExamples.Utils;
 
 public class SaveInPdfFormat {
@@ -15,7 +15,7 @@ public class SaveInPdfFormat {
 		Workbook workbook = new Workbook();
 
 		// Save in PDF format
-		workbook.save(dataDir + "SIPdfFormat_out.pdf", FileFormatType.PDF);
+		workbook.save(dataDir + "SIPdfFormat_out.pdf");
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");

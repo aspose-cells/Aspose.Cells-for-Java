@@ -3,10 +3,11 @@ package AsposeCellsExamples.Introduction;
 import java.io.FileInputStream;
 
 import com.aspose.cells.Cell;
-import com.aspose.cells.FileFormatType;
 import com.aspose.cells.License;
+import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
+
 import AsposeCellsExamples.Utils;
 
 public class CreatingWorkbook {
@@ -36,7 +37,7 @@ public class CreatingWorkbook {
 		cell.setValue("Hello World!");
 
 		// Save the Microsoft Excel file.
-		wb.save(dataDir + "CreatingWorkbook_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "CreatingWorkbook_out.xls");
 		wb.save(dataDir + "CreatingWorkbook_out.xlsx");
 		wb.save(dataDir + "CreatingWorkbook_out.ods");
 

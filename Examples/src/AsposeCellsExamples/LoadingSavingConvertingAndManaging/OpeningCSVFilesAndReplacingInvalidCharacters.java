@@ -11,7 +11,7 @@ public class OpeningCSVFilesAndReplacingInvalidCharacters {
         //Source directory
 		String dataDir = Utils.getSharedDataDir(OpeningCSVFilesAndReplacingInvalidCharacters.class) + "LoadingSavingConvertingAndManaging/";
         
-		LoadOptions loadOptions = new LoadOptions(FileFormatType.CSV);
+		LoadOptions loadOptions = new LoadOptions(LoadFormat.CSV);
 
         //Load CSV file
 		Workbook workbook = new Workbook(dataDir + "[20180220142533][ASPOSE_CELLS_TEST].csv", loadOptions);

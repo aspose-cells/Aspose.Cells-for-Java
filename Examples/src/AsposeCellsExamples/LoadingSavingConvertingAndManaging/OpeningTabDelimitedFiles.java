@@ -1,8 +1,9 @@
 package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
-import com.aspose.cells.FileFormatType;
-import com.aspose.cells.LoadOptions;
+import com.aspose.cells.LoadFormat;
+import com.aspose.cells.TxtLoadOptions;
 import com.aspose.cells.Workbook;
+
 import AsposeCellsExamples.Utils;
 
 public class OpeningTabDelimitedFiles {
@@ -13,7 +14,7 @@ public class OpeningTabDelimitedFiles {
 		String dataDir = Utils.getSharedDataDir(OpeningTabDelimitedFiles.class) + "LoadingSavingConvertingAndManaging/";
 
 		// Creating and TAB_DELIMITED LoadOptions object
-		LoadOptions loadOptions5 = new LoadOptions(FileFormatType.TAB_DELIMITED);
+		TxtLoadOptions loadOptions5 = new TxtLoadOptions(LoadFormat.TAB_DELIMITED);
 
 		// Creating an Workbook object with Tab Delimited text file path and the
 		// loadOptions object

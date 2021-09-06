@@ -1,11 +1,11 @@
 package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
-import com.aspose.cells.FileFormatType;
-import com.aspose.cells.Workbook;
-import com.aspose.cells.XpsSaveOptions;
-import AsposeCellsExamples.Utils;
-
 import java.io.FileOutputStream;
+
+import com.aspose.cells.SaveFormat;
+import com.aspose.cells.Workbook;
+
+import AsposeCellsExamples.Utils;
 
 public class SavingFiletoStream {
 
@@ -18,7 +18,7 @@ public class SavingFiletoStream {
 		Workbook workbook = new Workbook(dataDir + "Book1.xlsx");
 
 		FileOutputStream stream = new FileOutputStream(dataDir + "SFToStream_out.xlsx");
-		workbook.save(stream, new XpsSaveOptions(FileFormatType.XLSX));
+		workbook.save(stream, SaveFormat.XLSX);
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");

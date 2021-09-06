@@ -1,8 +1,7 @@
 package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
-import com.aspose.cells.FileFormatType;
-import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
+
 import AsposeCellsExamples.Utils;
 
 public class OpeningExcel95_5_0XLSFiles {
@@ -11,12 +10,9 @@ public class OpeningExcel95_5_0XLSFiles {
 	public static void main(String[] args) throws Exception {
 		// ExStart:1
 		// Opening Microsoft Excel 97 Files
-		// Creating an EXCEL_97_TO_2003 LoadOptions object
-		LoadOptions loadOptions1 = new LoadOptions(FileFormatType.EXCEL_95);
 
-		// Creating an Workbook object with excel 97 file path and the
-		// loadOptions object
-		new Workbook(srcDir + "Excel95_5.0.xls", loadOptions1);
+		// Creating an Workbook object with excel 97 file path
+		new Workbook(srcDir + "Excel95_5.0.xls");
 
 		// ExEnd:1
 		// Print message

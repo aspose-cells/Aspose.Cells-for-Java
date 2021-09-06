@@ -1,7 +1,8 @@
 package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
-import com.aspose.cells.FileFormatType;
+import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
+
 import AsposeCellsExamples.Utils;
 
 public class SavingFiletoSomeLocation {
@@ -23,22 +24,22 @@ public class SavingFiletoSomeLocation {
 		// XlsSaveOptions(SaveFormat.Excel97To2003));
 
 		// Save in Excel2007 xlsx format
-		workbook.save(dataDir + "SFTSomeLocation_out.xlsx", FileFormatType.XLSX);
+		workbook.save(dataDir + "SFTSomeLocation_out.xlsx", SaveFormat.XLSX);
 
 		// Save in Excel2007 xlsb format
-		workbook.save(dataDir + "SFTSomeLocation_out.xlsb", FileFormatType.XLSB);
+		workbook.save(dataDir + "SFTSomeLocation_out.xlsb", SaveFormat.XLSB);
 
 		// Save in ODS format
-		workbook.save(dataDir + "SFTSomeLocation_out.ods", FileFormatType.ODS);
+		workbook.save(dataDir + "SFTSomeLocation_out.ods", SaveFormat.ODS);
 
 		// Save in Pdf format
-		workbook.save(dataDir + "SFTSomeLocation_out.pdf", FileFormatType.PDF);
+		workbook.save(dataDir + "SFTSomeLocation_out.pdf", SaveFormat.PDF);
 
 		// Save in Html format
-		workbook.save(dataDir + "SFTSomeLocation_out.html", FileFormatType.HTML);
+		workbook.save(dataDir + "SFTSomeLocation_out.html", SaveFormat.HTML);
 
 		// Save in SpreadsheetML format
-		workbook.save(dataDir + "SFTSomeLocation_out.xml", FileFormatType.EXCEL_2003_XML);
+		workbook.save(dataDir + "SFTSomeLocation_out.xml", SaveFormat.SPREADSHEET_ML);
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");

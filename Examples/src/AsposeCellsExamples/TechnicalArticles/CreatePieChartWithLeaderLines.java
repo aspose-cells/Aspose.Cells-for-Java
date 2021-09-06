@@ -3,13 +3,14 @@ package AsposeCellsExamples.TechnicalArticles;
 import com.aspose.cells.Chart;
 import com.aspose.cells.ChartType;
 import com.aspose.cells.DataLabels;
-import com.aspose.cells.DataLablesSeparatorType;
+import com.aspose.cells.DataLabelsSeparatorType;
 import com.aspose.cells.FileFormatType;
 import com.aspose.cells.ImageOrPrintOptions;
 import com.aspose.cells.ImageType;
 import com.aspose.cells.LabelPositionType;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
+
 import AsposeCellsExamples.Utils;
 
 public class CreatePieChartWithLeaderLines {
@@ -79,7 +80,7 @@ public class CreatePieChartWithLeaderLines {
 		// Set position
 		dataLabels.setPosition(LabelPositionType.OUTSIDE_END);
 		// Set separator
-		dataLabels.setSeparator(DataLablesSeparatorType.COMMA);
+		dataLabels.setSeparatorType(DataLabelsSeparatorType.COMMA);
 		
 		//Turn on leader lines
 		chart.getNSeries().get(0).setHasLeaderLines(true);

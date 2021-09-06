@@ -48,7 +48,7 @@ public class ProtectColumnWorksheet {
 		sheet.protect(ProtectionType.ALL);
 
 		// Save the excel file.
-		wb.save(dataDir + "PColumnWorksheet_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		wb.save(dataDir + "PColumnWorksheet_out.xls");
 
 		// Print Message
 		System.out.println("Column protected successfully.");

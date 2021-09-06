@@ -44,6 +44,6 @@ public class CopyWorksheetFromWorkbookToOther {
 		ws1.copy(ws0);
 
 		// Save the excel file.
-		excelWorkbook1.save(dataDir + "CopyWorksheetFromWorkbookToOther_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		excelWorkbook1.save(dataDir + "CopyWorksheetFromWorkbookToOther_out.xls");
 	}
 }

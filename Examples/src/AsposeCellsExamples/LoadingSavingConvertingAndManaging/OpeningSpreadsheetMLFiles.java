@@ -1,8 +1,9 @@
 package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
-import com.aspose.cells.FileFormatType;
+import com.aspose.cells.LoadFormat;
 import com.aspose.cells.LoadOptions;
 import com.aspose.cells.Workbook;
+
 import AsposeCellsExamples.Utils;
 
 public class OpeningSpreadsheetMLFiles {
@@ -14,7 +15,7 @@ public class OpeningSpreadsheetMLFiles {
 
 		// Opening SpreadsheetML Files
 		// Creating and EXCEL_2003_XML LoadOptions object
-		LoadOptions loadOptions3 = new LoadOptions(FileFormatType.EXCEL_2003_XML);
+		LoadOptions loadOptions3 = new LoadOptions(LoadFormat.SPREADSHEET_ML);
 
 		// Creating an Workbook object with SpreadsheetML file path and the
 		// loadOptions object

@@ -20,7 +20,7 @@ public class UnprotectProtectSheet {
 		worksheet.unprotect("aspose");
 
 		// Save the excel file.
-		workbook.save(dataDir + "UnprotectProtectSheet_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "UnprotectProtectSheet_out.xls");
 
 		// Print Message
 		System.out.println("Worksheet unprotected successfully.");

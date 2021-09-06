@@ -1,8 +1,9 @@
 package AsposeCellsExamples.Introduction;
 
 import com.aspose.cells.Cell;
-import com.aspose.cells.FileFormatType;
+import com.aspose.cells.SaveFormat;
 import com.aspose.cells.Workbook;
+
 import AsposeCellsExamples.Utils;
 
 public class OpeningExistingFile {
@@ -28,7 +29,7 @@ public class OpeningExistingFile {
 		cell.setValue("Hello World!");
 
 		// Write the Excel file
-		workbook.save(dataDir + "OpeningExistingFile_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "OpeningExistingFile_out.xls");
 		workbook.save(dataDir + "OpeningExistingFile_out.xlsx");
 		workbook.save(dataDir + "OpeningExistingFile_out.ods");
 	}

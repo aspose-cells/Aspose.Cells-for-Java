@@ -1,6 +1,16 @@
 package AsposeCellsExamples.Data;
 
-import com.aspose.cells.*;
+import com.aspose.cells.CellArea;
+import com.aspose.cells.Cells;
+import com.aspose.cells.OperatorType;
+import com.aspose.cells.SaveFormat;
+import com.aspose.cells.Style;
+import com.aspose.cells.Validation;
+import com.aspose.cells.ValidationAlertType;
+import com.aspose.cells.ValidationCollection;
+import com.aspose.cells.ValidationType;
+import com.aspose.cells.Workbook;
+
 import AsposeCellsExamples.Utils;
 
 public class DateDataValidation {
@@ -75,7 +85,7 @@ public class DateDataValidation {
 		validation.setShowInput(true);
 
 		// Save the excel file.
-		workbook.save(dataDir + "DDValidation_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "DDValidation_out.xls");
 
 		// Print message
 		System.out.println("Process completed successfully");

@@ -64,7 +64,7 @@ public class AdvancedProtection {
 		protection.setAllowUsingPivotTable(true);
 
 		// Saving the modified Excel file Excel XP format
-		excel.save(dataDir + "AdvancedProtection_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		excel.save(dataDir + "AdvancedProtection_out.xls");
 
 		// Print Message
 		System.out.println("Worksheet protected successfully.");

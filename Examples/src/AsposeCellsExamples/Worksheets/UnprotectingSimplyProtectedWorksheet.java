@@ -27,7 +27,7 @@ public class UnprotectingSimplyProtectedWorksheet {
 		worksheet.unprotect();
 
 		// Save the excel file.
-		workbook.save(dataDir + "USPWorksheet_out.xls", FileFormatType.EXCEL_97_TO_2003);
+		workbook.save(dataDir + "USPWorksheet_out.xls");
 
 		// Print Message
 		System.out.println("Worksheet unprotected successfully.");

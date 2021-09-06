@@ -16,7 +16,7 @@ public class ExportCustomPropertiesToPDF {
 		Workbook workbook = new Workbook(srcDir + "sourceWithCustProps.xlsx");
 
 		// Create an instance of PdfSaveOptions and pass SaveFormat to the constructor
-		PdfSaveOptions pdfSaveOpt = new PdfSaveOptions(SaveFormat.PDF);
+		PdfSaveOptions pdfSaveOpt = new PdfSaveOptions();
 
 		// Set CustomPropertiesExport property to PdfCustomPropertiesExport.Standard
 		pdfSaveOpt.setCustomPropertiesExport(PdfCustomPropertiesExport.STANDARD);

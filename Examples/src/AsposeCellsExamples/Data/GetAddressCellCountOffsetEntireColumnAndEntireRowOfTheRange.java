@@ -23,7 +23,7 @@ public class GetAddressCellCountOffsetEntireColumnAndEntireRowOfTheRange {
 
 		// Print range address and cell count.
 		System.out.println("Range Address: " + rng.getAddress());
-		System.out.println("Cell Count: " + rng.getCellCount());
+		System.out.println("Cell Count: " + rng.getRowCount() * rng.getColumnCount());
 
 		// Formatting console output.
 		System.out.println("----------------------");

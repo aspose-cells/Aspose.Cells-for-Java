@@ -1,7 +1,7 @@
 package AsposeCellsExamples.LoadingSavingConvertingAndManaging;
 
-import com.aspose.cells.FileFormatType;
 import com.aspose.cells.Workbook;
+
 import AsposeCellsExamples.Utils;
 
 public class SaveXLSXFile {
@@ -15,7 +15,7 @@ public class SaveXLSXFile {
 		Workbook workbook = new Workbook();
 
 		// Save in xlsx format
-		workbook.save(dataDir + "SXLSXFile_out.xlsx", FileFormatType.XLSX);
+		workbook.save(dataDir + "SXLSXFile_out.xlsx");
 
 		// Print Message
 		System.out.println("Worksheets are saved successfully.");
