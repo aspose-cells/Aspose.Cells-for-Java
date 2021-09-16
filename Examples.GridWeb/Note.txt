@@ -1,3 +1,13 @@
 This directory contains Aspose.Cells for GridWeb - Java examples.
 war for webapp  import project ,run as server then open url http://localhost:18080/GridWeb.WebDemo/
-spring demo for spring framwork start,run the application  check HelloController.java ,you can find all the api url for demo pages  
+spring demo for spring framwork start,run the application open url http://localhost:8080/gridwebdemo/index
+Check HelloController.java ,you can find all the api url for demo pages  
+in the com.aspose.gridweb.test.TestGridWebBaseServlet, check the construct code of TestGridWebBaseServlet
+you need to set the cache path for GridWeb :
+
+        ExtPage.setMaxholders(1000);
+		ExtPage.setMemoryinstanceexpires(600);
+		ExtPage.setMemoryCleanRateTime(1200);
+		//the  dir for cache store for spreadsheet files,make sure the directory is existed at you enviroment.
+		ExtPage.setTempfilepath("D:\\tmpdel\\gridwebjavatmp");
+
