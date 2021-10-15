@@ -5,7 +5,7 @@
 
   <groupId>com.aspose.gridweb</groupId>
   <artifactId>gridwebspringdemo</artifactId>
-  <version>21.4</version>
+  <version>21.10</version>
   <name>gridweb-spring-demo</name>
   <description>gridweb spring demo</description>
   <packaging>jar</packaging>
@@ -54,7 +54,7 @@
 	    <dependency>
 			<groupId>com.aspose</groupId>
 			<artifactId>aspose-cells</artifactId>
-			<version>21.9</version>
+			<version>21.10</version>
 			<classifier>gridweb</classifier>
 	    </dependency>   
 		<dependency>
