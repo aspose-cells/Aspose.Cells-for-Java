@@ -6,14 +6,14 @@ import java.text.MessageFormat;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 
-public class Dialogs
+public class OpenFileDialog
 {
 
 	private static String		mDocumentPath	= "";
 	private static JFileChooser	mOpenDialog;
 	
 
-	private Dialogs()
+	private OpenFileDialog()
 	{
 	}
 	
@@ -21,17 +21,17 @@ public class Dialogs
 	{
 		mOpenDialog = new JFileChooser();
 		mOpenDialog.setAcceptAllFileFilterUsed(false);
-		mOpenDialog.setFileFilter(Globals.OPEN_FILE_FILTER);
+		mOpenDialog.setFileFilter(GlobalConstant.OPEN_FILE_FILTER);
 		mOpenDialog.setMultiSelectionEnabled(false);
 		mOpenDialog.setFileSelectionMode(JFileChooser.FILES_ONLY);		
-		mOpenDialog.setDialogTitle(Globals.OPEN_DOCUMENT_DIALOG_TITLE);
+		mOpenDialog.setDialogTitle(GlobalConstant.OPEN_DOCUMENT_DIALOG_TITLE);
 	}	
 
 	public static String openDocument()
 	{
 		mOpenDialog.setCurrentDirectory(new File(mDocumentPath));
 		
-		if (mOpenDialog.showOpenDialog(Globals.mMainForm) == JFileChooser.APPROVE_OPTION)
+		if (mOpenDialog.showOpenDialog(GlobalConstant.mMainFrame) == JFileChooser.APPROVE_OPTION)
 		{
 			File file = mOpenDialog.getSelectedFile();
 			String fileName = file.getAbsolutePath();
@@ -42,9 +42,9 @@ public class Dialogs
 			}
 			else
 			{
-				JOptionPane.showMessageDialog(Globals.mMainForm, MessageFormat
+				JOptionPane.showMessageDialog(GlobalConstant.mMainFrame, MessageFormat
 						.format("File \"{0}\" doesn't exist.", fileName),
-						Globals.APPLICATION_TITLE, JOptionPane.ERROR_MESSAGE);
+						GlobalConstant.APPLICATION_TITLE, JOptionPane.ERROR_MESSAGE);
 				return "";
 			}
 		}

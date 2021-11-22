@@ -7,12 +7,12 @@ import com.aspose.cells.examples.cells_explorer.model.CellsNode;
 /**
  * Base class used to provide GUI representation for cells nodes.
  */
-public class Item
+public class CellsItem
 {
     private CellsNode mNode;
     private DefaultMutableTreeNode mTreeNode;
    
-    public Item(CellsNode node)
+    public CellsItem(CellsNode node)
     {
         mNode = node;
     }
@@ -66,11 +66,11 @@ public class Item
         if ("#dummy".equals(getTreeNode().getFirstChild().toString()))
         {
             getTreeNode().removeAllChildren();
-            Globals.mTreeModel.reload(getTreeNode());
+            GlobalConstant.mTreeModel.reload(getTreeNode());
             for (Object o : mNode.getChildList())
             {
                 CellsNode n = (CellsNode) o;
-                getTreeNode().add(Item.createItem(n).getTreeNode());
+                getTreeNode().add(CellsItem.createItem(n).getTreeNode());
             }
         }
     }
@@ -78,9 +78,9 @@ public class Item
     /**
      * Item class factory implementation.
      */
-    public static Item createItem(CellsNode node)
+    public static CellsItem createItem(CellsNode node)
     {        
-        return new Item(node);
+        return new CellsItem(node);
     }
 
     /**

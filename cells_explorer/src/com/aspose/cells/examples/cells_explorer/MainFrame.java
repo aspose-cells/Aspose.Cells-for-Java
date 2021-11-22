@@ -8,12 +8,12 @@ import javax.swing.GroupLayout;
 import javax.swing.UIManager;
 import javax.swing.plaf.FontUIResource;
 
-public class MainForm extends javax.swing.JFrame
+public class MainFrame extends javax.swing.JFrame
 {
 
 	private static final long	serialVersionUID	= 1L;
 	
-	public MainForm()
+	public MainFrame()
 	{
 		try
 		{
@@ -28,22 +28,22 @@ public class MainForm extends javax.swing.JFrame
 		}
 		catch (ClassNotFoundException ex)
 		{
-			java.util.logging.Logger.getLogger(MainForm.class.getName()).log(
+			java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(
 					java.util.logging.Level.SEVERE, null, ex);
 		}
 		catch (InstantiationException ex)
 		{
-			java.util.logging.Logger.getLogger(MainForm.class.getName()).log(
+			java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(
 					java.util.logging.Level.SEVERE, null, ex);
 		}
 		catch (IllegalAccessException ex)
 		{
-			java.util.logging.Logger.getLogger(MainForm.class.getName()).log(
+			java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(
 					java.util.logging.Level.SEVERE, null, ex);
 		}
 		catch (javax.swing.UnsupportedLookAndFeelException ex)
 		{
-			java.util.logging.Logger.getLogger(MainForm.class.getName()).log(
+			java.util.logging.Logger.getLogger(MainFrame.class.getName()).log(
 					java.util.logging.Level.SEVERE, null, ex);
 		}
 		

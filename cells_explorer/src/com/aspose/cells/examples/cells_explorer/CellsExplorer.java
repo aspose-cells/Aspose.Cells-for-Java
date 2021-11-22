@@ -5,7 +5,7 @@ public class CellsExplorer
 	
 	public static void main(String[] args) throws Exception
 	{
-		new Main();
+		new CellsMain();
 	}
 	
 }

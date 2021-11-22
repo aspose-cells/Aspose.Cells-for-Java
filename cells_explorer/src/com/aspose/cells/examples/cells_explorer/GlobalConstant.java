@@ -4,12 +4,12 @@ import javax.swing.JTree;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 
-public class Globals
+public class GlobalConstant
 {
     /**
      * This class is purely static, that's why we prevent instance creation by declaring the constructor as private.
      */
-    private Globals()
+    private GlobalConstant()
     {
     }
 
@@ -21,9 +21,9 @@ public class Globals
     static final OpenFileFilter OPEN_FILE_FILTER = new OpenFileFilter(
             new String[]{".xlsx", ".xlsm", ".xlsb", "xls"}, "Excel 2003-2016 files");
     /**
-     * Reference for application's main form.
+     * Reference for application's main frame.
      */
-    static MainForm mMainForm;
+    static MainFrame mMainFrame;
     
     /**
      * Reference for current Tree Model
