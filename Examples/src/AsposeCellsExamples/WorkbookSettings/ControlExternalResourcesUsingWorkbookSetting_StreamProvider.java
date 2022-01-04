@@ -46,7 +46,7 @@ public class ControlExternalResourcesUsingWorkbookSetting_StreamProvider {
 		Workbook wb = new Workbook(srcDir + "sampleControlExternalResourcesUsingWorkbookSetting_StreamProvider.xlsx");
 
 		//Provide your implementation of IStreamProvider
-		wb.getSettings().setStreamProvider(new SP());
+		wb.getSettings().setResourceProvider(new SP());
 
 		//Access first worksheet
 		Worksheet ws = wb.getWorksheets().get(0);
