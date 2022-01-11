@@ -34,7 +34,7 @@ public abstract class TestGridWebBaseServlet extends HttpServlet {
 		super();
 //		ManualLog.setBasicPathAndInit("c:/tmp/");
 		ExtPage.setMaxholders(1000);
-		ExtPage.setMemoryinstanceexpires(600);
+		ExtPage.setMemoryInstanceExpires(600);
 		ExtPage.setMemoryCleanRateTime(1200);
 		//log ???
 		//com.aspose.gridweb.zafs.a("D:\\test_remove\\guan");

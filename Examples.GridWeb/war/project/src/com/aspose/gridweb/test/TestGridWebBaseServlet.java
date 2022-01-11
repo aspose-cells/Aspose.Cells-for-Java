@@ -26,7 +26,7 @@ public abstract class TestGridWebBaseServlet extends HttpServlet{
 	public TestGridWebBaseServlet() {
 		super();
 		ExtPage.setMaxholders(1000);
-		ExtPage.setMemoryinstanceexpires(60);
+		ExtPage.setMemoryInstanceExpires(60);
 		ExtPage.setMemoryCleanRateTime(120);
 		ExtPage.setTempfilepath("c:/temp/");
 	}
