@@ -49,7 +49,7 @@ public class ControlLoadingOfExternalResourcesInExcelToPDF {
 		PdfSaveOptions opts = new PdfSaveOptions();
 		opts.setOnePagePerSheet(true);
 		
-		wb.getSettings().setStreamProvider(new MyStreamProvider());
+		wb.getSettings().setResourceProvider(new MyStreamProvider());
 
 		// Save the workbook to PDF
 		wb.save(outDir + "outputPdfSaveOptions_StreamProvider.pdf", opts);
