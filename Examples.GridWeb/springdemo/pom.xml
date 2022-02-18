@@ -5,7 +5,7 @@
 
   <groupId>com.aspose.gridweb</groupId>
   <artifactId>gridwebspringdemo</artifactId>
-  <version>22.1</version>
+  <version>22.2</version>
   <name>gridweb-spring-demo</name>
   <description>gridweb spring demo</description>
   <packaging>jar</packaging>

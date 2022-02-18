@@ -32,21 +32,7 @@ public abstract class TestGridWebBaseServlet extends HttpServlet {
 	
 	public TestGridWebBaseServlet() {
 		super();
-//		ManualLog.setBasicPathAndInit("c:/tmp/");
-		ExtPage.setMaxholders(1000);
-		ExtPage.setMemoryInstanceExpires(600);
-		ExtPage.setMemoryCleanRateTime(1200);
-		//log ???
-		//com.aspose.gridweb.zafs.a("D:\\test_remove\\guan");
-		
-//		File path=null;
-//		try {
-//			path = ResourceUtils.getFile("classpath:static"+File.separator+"temp");
-//		} catch (FileNotFoundException e) {
-//			// TODO Auto-generated catch block
-//			e.printStackTrace();
-//		}
-		ExtPage.setTempfilepath("c:/tmp/");
+ 
 	}
     
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) {

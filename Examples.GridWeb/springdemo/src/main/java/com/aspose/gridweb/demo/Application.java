@@ -4,7 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
-
+import com.aspose.gridweb.ExtPage;
 //import com.aspose.gridweb.GridWebServlet;
 //import com.aspose.gridweb.test.servlet.FeatureServlet;
 //import com.aspose.gridweb.test.servlet.SheetsServlet;
@@ -45,6 +45,12 @@ public class Application {
 	    }
 	    
     public static void main(String[] args) {
+		// com.aspose.gridweb.License li=new com.aspose.gridweb.License();
+		// li.setLicense("D:\\release\\Aspose.Total.Product.Family.lic");
+		ExtPage.setMaxholders(1000);
+		ExtPage.setMemoryInstanceExpires(600);
+		ExtPage.setMemoryCleanRateTime(1200);
+		ExtPage.setTempfilepath("c:/tmp/");
         SpringApplication.run(Application.class, args);
     }
     
