@@ -51,6 +51,8 @@ public class Application {
 		ExtPage.setMemoryInstanceExpires(600);
 		ExtPage.setMemoryCleanRateTime(1200);
 		ExtPage.setTempfilepath("c:/tmp/");
+        //set log directory, optional 
+        com.aspose.gridweb.j77.a("D:\\tmpdel\\gridwebjavatmp");
         SpringApplication.run(Application.class, args);
     }
     
