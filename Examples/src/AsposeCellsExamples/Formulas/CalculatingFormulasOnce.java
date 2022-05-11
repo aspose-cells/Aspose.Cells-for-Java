@@ -17,7 +17,7 @@ public class CalculatingFormulasOnce {
         System.out.println(DateTime.getNow());
 
         // Set the CreateCalcChain as true
-        workbook.getSettings().setCreateCalcChain(true);
+        workbook.getSettings().getFormulaSettings().setEnableCalculationChain(true);
 
         // Calculate the workbook formulas
         workbook.calculateFormula();
