@@ -10,7 +10,7 @@ public class SetFormulaCalculationMode {
 		Workbook workbook = new Workbook();
 
 		// Set the Formula Calculation Mode to Manual
-		workbook.getSettings().setCalcMode(CalcModeType.MANUAL);
+		workbook.getSettings().getFormulaSettings().setCalculationMode(CalcModeType.MANUAL);
 
 		// Save the workbook
 		workbook.save("SFCalculationMode_out.xlsx", SaveFormat.XLSX);

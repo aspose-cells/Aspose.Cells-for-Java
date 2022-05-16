@@ -27,7 +27,7 @@ public class ReturningRangeOfValues {
 		workbook.calculateFormula(copt);
 
 		// Save to XLSX by setting the calc mode to manual
-		workbook.getSettings().setCalcMode(CalcModeType.MANUAL);
+		workbook.getSettings().getFormulaSettings().setCalculationMode(CalcModeType.MANUAL);
 		workbook.save(outputDir + "output.xlsx");
 
 		// Save to PDF
