@@ -14,6 +14,7 @@ import com.aspose.gridweb.test.servlet.FormatServlet;
 import com.aspose.gridweb.test.servlet.FunctionServlet;
 import com.aspose.gridweb.test.servlet.SheetsServlet;
 import com.aspose.gridweb.test.servlet.WebCellsServlet;
+import com.aspose.gridweb.ManualLog;
  
 @SpringBootApplication
 public class Application {
@@ -52,7 +53,7 @@ public class Application {
 		ExtPage.setMemoryCleanRateTime(1200);
 		ExtPage.setTempfilepath("c:/tmp/");
         //set log directory, optional 
-        com.aspose.gridweb.j77.a("D:\\tmpdel\\gridwebjavatmp");
+        ManualLog.setBasicPathAndInit("D:\\tmpdel\\gridwebjavatmp");
         SpringApplication.run(Application.class, args);
     }
     
