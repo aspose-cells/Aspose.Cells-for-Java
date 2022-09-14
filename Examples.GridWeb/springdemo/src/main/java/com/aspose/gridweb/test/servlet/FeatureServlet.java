@@ -40,6 +40,7 @@ import com.aspose.gridweb.GridCells;
 import com.aspose.gridweb.GridHyperlink;
 import com.aspose.gridweb.GridTableItemStyle;
 import com.aspose.gridweb.GridWebBean;
+import com.aspose.gridweb.GridWorkbookSettings;
 import com.aspose.gridweb.GridWorksheet;
 import com.aspose.gridweb.HorizontalAlign;
 import com.aspose.gridweb.PresetStyle;

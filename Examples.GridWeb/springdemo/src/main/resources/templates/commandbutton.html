@@ -44,7 +44,9 @@ $(document).ready(function(){
 		<p>
 			Click <b>Reload</b> to see how demo demonstrates how to hyperlink table cells so
             that browser windows would be opened when clicked and displays data in the GridWeb
-            Control.
+            Control.<br>
+            Uncheck 'show save button' checkbox and click 'send message to server' button to check how CustomCommandEventHandler works<br>
+            Check the code In FunctionServlet , the MyCommandEventHandler  handle the Custom Command Event 
 		</p>
 	</div>
 
@@ -67,5 +69,6 @@ $(document).ready(function(){
 	</div>
 	
 	<div id="gridweb"></div>
+	<button onclick="document.getElementById('mycomponent').postBack('CCMD:hello',false);console.log('click happen,server side can get the message');"> send message to server  </button>
 </body>
 </html>

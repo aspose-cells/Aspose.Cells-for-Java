@@ -1,5 +1,6 @@
 package com.aspose.gridweb.test.servlet;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 
@@ -30,6 +31,20 @@ import com.aspose.gridweb.test.TestGridWebBaseServlet;
 /**
  * import modes.jsp,data_validation.jsp,create_content.jsp
  */
+  class MyCommandEventHandler implements CustomCommandEventHandler,Serializable{
+	 
+ 
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	public void handleCellEvent(Object sender, String command) {
+		GridWebBean gridweb = (GridWebBean) sender;
+		System.out.print("get command:"+command+"  "+gridweb.getActiveSheet().getName());
+		gridweb.getActiveSheet().getCells().get("F9").putValue(command);
+		
+	}
+
+}
 class myservervali implements GridCustomServerValidation
 {
 
@@ -242,6 +257,18 @@ public class FunctionServlet extends TestGridWebBaseServlet {
 		gridweb.setShowSaveButton(showSaveButton);
 		gridweb.setShowUndoButton(showUndoButton);
 		gridweb.setNoScroll(noScrollBars);
+		if(!showSaveButton) {
+			 CustomCommandButton ccb_button = new CustomCommandButton();
+	            ccb_button.setWidth(Unit.Pixel(20));
+	            ccb_button.setImageUrl( "images/album.gif");
+	            ccb_button.setCommandType(CustomCommandButtonType.COMMAND_BUTTON);
+	            ccb_button.setCommand("CommandTest");
+	            ccb_button.setToolTip( "click me!");
+	            gridweb.getCustomCommandButtons().add(ccb_button);
+	            gridweb.CustomCommand=new MyCommandEventHandler();
+		}else {
+			 gridweb.getCustomCommandButtons().clear();
+		}
 	}
 
 	public void validation(GridWebBean gridweb,HttpServletRequest request, HttpServletResponse response) {
