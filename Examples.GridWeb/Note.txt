@@ -5,9 +5,15 @@ Check HelloController.java ,you can find all the api url for demo pages
 in the com.aspose.gridweb.test.TestGridWebBaseServlet, check the construct code of TestGridWebBaseServlet
 you need to set the cache path for GridWeb :
 
-        ExtPage.setMaxholders(1000);
+                ExtPage.setMaxholders(1000);
 		ExtPage.setMemoryinstanceexpires(600);
 		ExtPage.setMemoryCleanRateTime(1200);
 		//the  dir for cache store for spreadsheet files,make sure the directory is existed at you enviroment.
 		ExtPage.setTempfilepath("D:\\tmpdel\\gridwebjavatmp");
+
+
+dependency package references in the demo project:
+jquery.js    v2.1.1
+jquery-ui.js v1.12.1 
+jquery-ui.css v1.12.1 
 
