@@ -48,9 +48,11 @@ public class Application {
     public static void main(String[] args) {
 		// com.aspose.gridweb.License li=new com.aspose.gridweb.License();
 		// li.setLicense("D:\\release\\Aspose.Total.Product.Family.lic");
+		//optional settings for cache
 		ExtPage.setMaxholders(1000);
 		ExtPage.setMemoryInstanceExpires(600);
 		ExtPage.setMemoryCleanRateTime(1200);
+		//#######the  dir for cache store for spreadsheet files,make sure the directory is existed at you enviroment.#############
 		ExtPage.setTempfilepath("c:/tmp/");
         //set log directory, optional 
         ManualLog.setBasicPathAndInit("D:\\tmpdel\\gridwebjavatmp");

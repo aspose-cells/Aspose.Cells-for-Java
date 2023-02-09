@@ -16,6 +16,7 @@ import com.aspose.gridweb.ExtPage;
 import com.aspose.gridweb.GridWebBean;
 import com.aspose.gridweb.PresetStyle;
 import com.aspose.gridweb.Unit;
+import com.aspose.gridweb.ManualLog;
 
 public abstract class TestGridWebBaseServlet extends HttpServlet{
 	private static final long serialVersionUID = 1L;
@@ -25,10 +26,14 @@ public abstract class TestGridWebBaseServlet extends HttpServlet{
 	protected String webPath = null;
 	public TestGridWebBaseServlet() {
 		super();
+		//optional settings for cache
 		ExtPage.setMaxholders(1000);
-		ExtPage.setMemoryInstanceExpires(60);
-		ExtPage.setMemoryCleanRateTime(120);
-		ExtPage.setTempfilepath("c:/temp/");
+		ExtPage.setMemoryInstanceExpires(600);
+		ExtPage.setMemoryCleanRateTime(1200);
+		//#######the  dir for cache store for spreadsheet files,make sure the directory is existed at you enviroment.#############
+		ExtPage.setTempfilepath("c:/tmp/");
+        //set log directory, optional 
+        ManualLog.setBasicPathAndInit("D:\\tmpdel\\gridwebjavatmp");
 	}
 	 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) {
