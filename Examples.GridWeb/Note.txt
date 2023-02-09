@@ -21,7 +21,7 @@ in the war\project\src\com\aspose\gridweb\test\TestGridWebBaseServlet.java, chec
 here you need to set the correct cache path
                 //optional settings
                 ExtPage.setMaxholders(1000);
-		ExtPage.setMemoryinstanceexpires(600);
+		ExtPage.setMemoryInstanceExpires(600);
 		ExtPage.setMemoryCleanRateTime(1200);
 		//#######the  dir for cache store for spreadsheet files,make sure the directory is existed at you enviroment.
 		ExtPage.setTempfilepath("D:\\tmpdel\\gridwebjavatmp");
