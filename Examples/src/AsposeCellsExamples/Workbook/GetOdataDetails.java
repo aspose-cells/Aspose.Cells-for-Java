@@ -12,7 +12,7 @@ public class GetOdataDetails {
         String sourceDir = Utils.Get_SourceDirectory();
 
         Workbook workbook = new Workbook(sourceDir + "ODataSample.xlsx");
-        PowerQueryFormulaCollction PQFcoll = workbook.getDataMashup().getPowerQueryFormulas();
+        PowerQueryFormulaCollection PQFcoll = workbook.getDataMashup().getPowerQueryFormulas();
         for (Object obj : PQFcoll)
         {
             PowerQueryFormula PQF = (PowerQueryFormula)obj;
