@@ -46,7 +46,7 @@ public class CustomSettings extends GlobalizationSettings {
 		    //Handle other cases as per requirement
 		
 		    default:
-		        return super.getOtherName();
+					return "Other"; //default to English
 		}
     }
 }
