@@ -17,7 +17,9 @@ public class CustomTextforOtherLabelofPieChart {
 
 		//Assigns the GlobalizationSettings property of the WorkbookSettings class
 		//to the class created in first step
-		book.getSettings().setGlobalizationSettings(new CustomSettings());
+		CustomSettings customGlobalizationSettings = new CustomSettings();
+		customGlobalizationSettings.setChartSettings(new CustomChartGlobalizationSettings());
+		book.getSettings().setGlobalizationSettings(customGlobalizationSettings);
 
 		//Accesses the 1st worksheet from the collection which contains pie chart
 		Worksheet sheet = book.getWorksheets().get(0);
