@@ -5,7 +5,7 @@
 
   <groupId>com.aspose.gridweb</groupId>
   <artifactId>gridwebspringdemo</artifactId>
-  <version>23.5</version>
+  <version>23.6</version>
   <name>gridweb-spring-demo</name>
   <description>gridweb spring demo</description>
   <packaging>jar</packaging>
@@ -46,15 +46,20 @@
 	    
 	    <!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
 		<dependency>
-			<groupId>org.bouncycastle</groupId>
-			<artifactId>bcprov-jdk15on</artifactId>
-			<version>1.60</version>
-		</dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bcprov-jdk15on</artifactId>
+        <version>1.68<ersion>
+        </dependency>
+        <dependency>
+        <groupId>org.bouncycastle</groupId>
+        <artifactId>bcpkix-jdk15on</artifactId>
+        <version>1.68<ersion>
+        </dependency>
 
 	    <dependency>
 			<groupId>com.aspose</groupId>
 			<artifactId>aspose-cells</artifactId>
-			<version>23.5</version>
+			<version>23.6</version>
 			<classifier>gridweb</classifier>
 	    </dependency>   
 	<!-- <dependency>
