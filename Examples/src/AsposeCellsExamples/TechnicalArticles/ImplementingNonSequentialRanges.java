@@ -18,7 +18,7 @@ public class ImplementingNonSequentialRanges {
 		Name name = workbook.getWorksheets().getNames().get(index);
 
 		// Creating a non sequence range of cells
-		name.setRefersTo("=Sheet1!$A$1:$B$3,Sheet1!$E$5:$D$6");
+		name.setRefersTo("=Sheet1!$A$1:$B$3,Sheet1!$D$5:$E$6");
 
 		// Save the workbook
 		workbook.save(dataDir + "INSRanges_out.xls");
