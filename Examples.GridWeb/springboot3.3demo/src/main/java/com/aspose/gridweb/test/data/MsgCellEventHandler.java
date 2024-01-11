@@ -1,0 +1,34 @@
+package com.aspose.gridweb.test.data;
+
+import java.io.Serializable;
+
+import com.aspose.gridweb.CellEventArgs;
+import com.aspose.gridweb.CellEventHandler;
+import com.aspose.gridweb.GridWebBean;
+import com.aspose.gridweb.GridWorksheet;
+ 
+
+public class MsgCellEventHandler  implements CellEventHandler,Serializable{
+	public static void setMessageInCell(Object sender,String msg,String msg2) {
+		GridWebBean gridweb = (GridWebBean) sender;
+		int row = (gridweb.getCurrentPageIndex()) * gridweb.getPageSize();
+		GridWorksheet sheet = gridweb.getActiveSheet();
+		sheet.getCells().get(row, 0).setValue(msg);
+		sheet.getCells().get(row+1, 0).setValue(msg2);
+	}
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	private String msg;
+	public MsgCellEventHandler(String msg) {
+		super();
+		this.msg = msg;
+	}
+	@Override
+	public void handleCellEvent(Object sender, CellEventArgs e) {
+		setMessageInCell(sender,msg,e.toString());
+		
+	}
+
+}

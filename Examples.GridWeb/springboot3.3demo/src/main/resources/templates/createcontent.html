@@ -1,0 +1,58 @@
+ 
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>  
+<title th:text="${title}">  </title>
+<div th:include="header :: gridheader"></div>
+
+ <script  th:inline="javascript">
+ function doClick(method) {
+	$.post("FunctionServlet", {
+		flag : method.id,
+		gridwebuniqueid : $("#mycomponent").attr("webuniqueid")
+	}, function(data) {
+       $("#Stylemycomponent").remove(); 
+		//this will trigger reinit of gridweb component
+		gridwebinstance.remove("mycomponent") ;
+		$("#gridweb").html(data);
+	}, "html");
+}
+
+//页面加载
+$(document).ready(function() {
+	
+	 
+	
+	var method = {
+		id : "loadCreateContentFile"
+	};
+	doClick(method);
+});
+</script>
+</head>
+<body>
+	<div>
+		<p>
+			 Click <b>Create</b> to see how demo creates invoice document from scratch and displays
+            data in the GridWeb Control.<br/>In this demo ,the editor box is always show.user can also edit through editor box
+		</p>
+	</div>
+
+	<div>
+		<table>
+			<tr>
+				<th>Reload Data:</th>
+				<td><input id="loadCreateContentFile" type="button" value="Reload"
+					onClick="doClick(this);"/></td>
+			</tr>
+			<tr>
+				<th>Create Content:</th>
+				<td><input id="createContent" type="button" value="Create"
+					onClick="doClick(this);"/></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id="gridweb"></div>
+</body>
+</html>
