@@ -45,8 +45,7 @@ import com.aspose.gridweb.test.TestGridWebBaseServlet;
 	}
 
 }
-class myservervali implements GridCustomServerValidation
-{
+class myservervali implements GridCustomServerValidation,Serializable{
 
 	@Override
 	public String validate(GridWorksheet arg0, int row, int col, String v) {
