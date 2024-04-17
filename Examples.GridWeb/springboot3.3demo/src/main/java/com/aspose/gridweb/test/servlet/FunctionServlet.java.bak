@@ -1,10 +1,9 @@
 package com.aspose.gridweb.test.servlet;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Date;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 //
 //import com.aspose.cells.BorderStyle;
 //import com.aspose.cells.Color;
@@ -24,13 +23,50 @@ import javax.servlet.http.HttpServletResponse;
 //import com.aspose.cells.WebBorderStyle;
 //import com.aspose.cells.GridCustomServerValidation;
 //import com.aspose.cells.GridCellArea;
-import com.aspose.gridweb.*;
+import com.aspose.gridweb.BorderStyle;
+import com.aspose.gridweb.Color;
+import com.aspose.gridweb.CustomCommandButton;
+import com.aspose.gridweb.CustomCommandButtonType;
+import com.aspose.gridweb.CustomCommandEventHandler;
+import com.aspose.gridweb.FontUnit;
+import com.aspose.gridweb.GridCellArea;
+import com.aspose.gridweb.GridCells;
+import com.aspose.gridweb.GridCustomServerValidation;
+import com.aspose.gridweb.GridHyperlink;
+import com.aspose.gridweb.GridHyperlinkCollection;
+import com.aspose.gridweb.GridValidation;
+import com.aspose.gridweb.GridValidationCollection;
+import com.aspose.gridweb.GridValidationType;
+import com.aspose.gridweb.GridWebBean;
+import com.aspose.gridweb.GridWorksheet;
+import com.aspose.gridweb.GridWorksheetCollection;
+import com.aspose.gridweb.HorizontalAlign;
+import com.aspose.gridweb.OperatorType;
+import com.aspose.gridweb.Unit;
+import com.aspose.gridweb.WebBorderStyle;
 import com.aspose.gridweb.test.TestGridWebBaseServlet;
+
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 /**
  * import modes.jsp,data_validation.jsp,create_content.jsp
  */
-class myservervali implements GridCustomServerValidation
+  class MyCommandEventHandler implements CustomCommandEventHandler,Serializable{
+	 
+ 
+	private static final long serialVersionUID = 1L;
+
+	@Override
+	public void handleCellEvent(Object sender, String command) {
+		GridWebBean gridweb = (GridWebBean) sender;
+		System.out.print("get command:"+command+"  "+gridweb.getActiveSheet().getName());
+		gridweb.getActiveSheet().getCells().get("F9").putValue(command);
+		
+	}
+
+}
+class myservervali implements GridCustomServerValidation,Serializable
 {
 
 	@Override
@@ -242,6 +278,18 @@ public class FunctionServlet extends TestGridWebBaseServlet {
 		gridweb.setShowSaveButton(showSaveButton);
 		gridweb.setShowUndoButton(showUndoButton);
 		gridweb.setNoScroll(noScrollBars);
+		if(!showSaveButton) {
+			 CustomCommandButton ccb_button = new CustomCommandButton();
+	            ccb_button.setWidth(Unit.Pixel(20));
+	            ccb_button.setImageUrl( "images/album.gif");
+	            ccb_button.setCommandType(CustomCommandButtonType.COMMAND_BUTTON);
+	            ccb_button.setCommand("CommandTest");
+	            ccb_button.setToolTip( "click me!");
+	            gridweb.getCustomCommandButtons().add(ccb_button);
+	            gridweb.CustomCommand=new MyCommandEventHandler();
+		}else {
+			 gridweb.getCustomCommandButtons().clear();
+		}
 	}
 
 	public void validation(GridWebBean gridweb,HttpServletRequest request, HttpServletResponse response) {
