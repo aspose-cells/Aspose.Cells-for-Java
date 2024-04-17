@@ -16,14 +16,14 @@ public class UsingSparklines {
 		// Obtaining the reference of the first worksheet
 		Worksheet worksheet = worksheets.get(0);
 
-		System.out.println("Sparkline count: " + worksheet.getSparklineGroupCollection().getCount());
+		System.out.println("Sparkline count: " + worksheet.getSparklineGroups().getCount());
 
-		for (int i = 0; i < worksheet.getSparklineGroupCollection().getCount(); i++) {
-			SparklineGroup g = worksheet.getSparklineGroupCollection().get(i);
+		for (int i = 0; i < worksheet.getSparklineGroups().getCount(); i++) {
+			SparklineGroup g = worksheet.getSparklineGroups().get(i);
 			System.out.println("sparkline group: type:" + g.getType());
 
-			for (int j = 0; j < g.getSparklineCollection().getCount(); i++) {
-				Sparkline gg = g.getSparklineCollection().get(i);
+			for (int j = 0; j < g.getSparklines().getCount(); i++) {
+				Sparkline gg = g.getSparklines().get(i);
 				System.out.println("sparkline: row:" + gg.getRow() + ", col:" + gg.getColumn() + ", dataRange:"
 						+ gg.getDataRange());
 			}
@@ -35,9 +35,9 @@ public class UsingSparklines {
 		ca.EndColumn = 4;
 		ca.StartRow = 1;
 		ca.EndRow = 7;
-		int idx = worksheet.getSparklineGroupCollection().add(SparklineType.COLUMN, "Sheet1!B2:D8", false, ca);
+		int idx = worksheet.getSparklineGroups().add(SparklineType.COLUMN, "Sheet1!B2:D8", false, ca);
 
-		SparklineGroup group = worksheet.getSparklineGroupCollection().get(idx);
+		SparklineGroup group = worksheet.getSparklineGroups().get(idx);
 		// Create CellsColor
 		CellsColor clr = workbook.createCellsColor();
 		clr.setColor(Color.getChocolate());
