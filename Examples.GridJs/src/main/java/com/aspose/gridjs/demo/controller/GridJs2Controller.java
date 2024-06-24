@@ -35,8 +35,8 @@ import com.aspose.gridjs.GridCellException;
 import com.aspose.gridjs.GridInterruptMonitor;
 import com.aspose.gridjs.GridJsWorkbook;
 
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.Part;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.Part;
 
 @RestController
 @RequestMapping({"/GridJs2"})

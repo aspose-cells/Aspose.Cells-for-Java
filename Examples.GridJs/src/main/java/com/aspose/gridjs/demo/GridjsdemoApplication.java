@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import com.aspose.gridjs.Config;
 import com.aspose.gridjs.GridJsWorkbook;
 
-import jakarta.annotation.PostConstruct;
+import javax.annotation.PostConstruct;
 
 @SpringBootApplication
 public class GridjsdemoApplication {

@@ -5,19 +5,25 @@
 1.edit the properties in src\main\resources\application.properties 
 
 #This is the excel directory to browse
-testconfig.ListDir=D:\codebase\customerissue\wb\tempfromdownload\
+testconfig.ListDir=/app/wb
 
 #Specific the spreadsheet file name in the directory to browse
 testconfig.FileName=chart.xlsx
 
 #Directory for storing cache files
-testconfig.CachePath=D:\tmpdel\tmp\gridjsjava
+testconfig.CachePath=/app/grid_cache
 
 2.run src\main\java\com\aspose\gridjs\demo\GridjsdemoApplication.java
 
 open browser and navigate to http://localhost:8080/gridjsdemo/index
 
+## Step to run in docker 
 
+docker build -t gridjs-demo-java .
+
+docker run -d -p 8080:8080 gridjs-demo-java
+
+open browser and enter the url:http://localhost:8080/gridjsdemo/index
 
 ## Resources
 
