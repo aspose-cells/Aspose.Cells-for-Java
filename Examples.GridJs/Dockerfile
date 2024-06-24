@@ -1,4 +1,4 @@
-# 使用官方的 OpenJDK 11 映像作为基础镜像
+
  
 # FROM mcr.microsoft.com/java/openjdk:11  AS build
   FROM eclipse/ubuntu_jdk8
