@@ -12,6 +12,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.zip.GZIPOutputStream;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.InputStreamResource;
@@ -36,6 +37,7 @@ import com.aspose.gridjs.GridInterruptMonitor;
 import com.aspose.gridjs.GridJsWorkbook;
 
 import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 
 @RestController
@@ -67,6 +69,27 @@ public class GridJs2Controller {
         } catch (Exception e) {
             return ResponseEntity.status(500).body("Error processing the file: " + e.getMessage());
         }
+    }
+    
+    @GetMapping("/DetailStreamJsonWithUid")
+    public void detailStreamJsonWithUid(@RequestParam String filename, @RequestParam String uid,HttpServletResponse response) {
+       
+           
+        	Path filePath = Paths.get(listDir, filename);
+            GridJsWorkbook wbj = new GridJsWorkbook();
+
+            response.setContentType("application/json");
+            response.setHeader("Content-Encoding", "gzip");
+            try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {
+                wbj.importExcelFile(filePath.toString());
+                wbj.jsonToStream(gzipOutputStream, filename);
+            } catch (IOException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
     }
     
     @PostMapping("/UpdateCell")
