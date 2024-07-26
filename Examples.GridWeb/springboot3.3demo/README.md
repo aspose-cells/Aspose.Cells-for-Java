@@ -1,5 +1,5 @@
-# Aspose.Cells for Java
-[Aspose.Cells.GridJs for Java](http://www.aspose.com/products/cells/java)  is a lightweight, scalable, and customizable toolkit that provides cross-platform web applications, enables convenient development for editing or viewing Excel/Spreadsheet files, offers simple deployment, and provides easy-to-use APIs.
+# Aspose.Cells.GridWeb for Java
+[Aspose.Cells.GridWeb for Java](http://www.aspose.com/products/cells/java)   is a versatile and powerful web control designed to be seamlessly embedded within cross-platform web forms. This innovative tool enables developers to create sophisticated applications, such as spreadsheets editors and viewers, without the need for users to install local office software. GridWeb revolutionizes the way we interact with and manipulate data on the web, providing a seamless and intuitive experience across various browsers and devices.
 
 ## How to Run the Examples
 1.edit the properties in src\main\resources\application.properties to match with your local environment
