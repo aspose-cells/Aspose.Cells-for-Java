@@ -6,8 +6,11 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
+import org.springframework.context.ApplicationContextInitializer;
+import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.Bean;
- 
+import org.springframework.core.env.ConfigurableEnvironment;
+
 import com.aspose.gridweb.ExtPage;
 //import com.aspose.gridweb.GridWebServlet;
 //import com.aspose.gridweb.test.servlet.FeatureServlet;
@@ -51,35 +54,41 @@ public class Application {
 	    public ServletRegistrationBean servletRegistrationBean6() {
 	    	return new ServletRegistrationBean(new FormatServlet(), "/gridwebdemo/FormatServlet/*");
 	    }
-		@Value("${testconfig.CachePath}")
-		private String cachePathPro;
-		@Value("${testconfig.LogPath}")
-		private String logPathPro;
-	    
-		private static String cachePath;
-		private static String logPath;
-		
-		
-		@PostConstruct
-		private void init() {
-			cachePath = this.cachePathPro;
-			logPath = this.logPathPro;
-			 
-		}
+		 
+ 
 		
     public static void main(String[] args) {
-		 com.aspose.gridweb.License li=new com.aspose.gridweb.License();
-//		 li.setLicense("D:\\release\\Aspose.Total.Product.Family.lic");
-		 //hello jdk 11
-		ExtPage.setMaxholders(1000);
-		ExtPage.setMemoryInstanceExpires(600);
-		ExtPage.setMemoryCleanRateTime(1200);
-		ExtPage.setTempfilepath(cachePath);
-        //set log directory, optional 
-        ManualLog.setBasicPathAndInit(logPath);
-        SpringApplication.run(Application.class, args);
-        System.out.print("helllo jdk ");
+    	
+    	 SpringApplication application = new SpringApplication(Application.class);
+         application.addInitializers(new ApplicationContextInitializer<ConfigurableApplicationContext>() {
+             @Override
+             public void initialize(ConfigurableApplicationContext applicationContext) {
+                 ConfigurableEnvironment environment = applicationContext.getEnvironment();
+                 String logPath = environment.getProperty("testconfig.LogPath");
+                 System.out.println("##########Log Path: " + logPath);
+                 String cachePath = environment.getProperty("testconfig.CachePath");
+                 System.out.println("##########Cache  Path: " + cachePath);
+                 
+                 com.aspose.gridweb.License li=new com.aspose.gridweb.License();
+//        		 li.setLicense("D:\\release\\Aspose.Total.Product.Family.lic");
+        		 
+        		ExtPage.setMaxholders(1000);
+        		ExtPage.setMemoryInstanceExpires(600);
+        		ExtPage.setMemoryCleanRateTime(1200);
+ 
+           		ExtPage.setTempfilepath(cachePath);
+//              //set log directory, optional 
+                ManualLog.setBasicPathAndInit(logPath);
+             }
+         });
+         application.run(args);
+         
+    	 
+		
+      
+       
     }
+  
     
  
 }
