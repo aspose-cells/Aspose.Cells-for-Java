@@ -18,7 +18,7 @@ RUN ./mvnw package -DskipTests
 RUN ls -l target
 
 # Stage 2: Create the final image
-FROM openjdk:17-jdk-slim
+FROM openjdk:17-jre-slim
 
 # Set the working directory in the container
 WORKDIR /app
