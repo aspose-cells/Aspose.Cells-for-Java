@@ -2,7 +2,7 @@
 [Aspose.Cells.GridJs for Java](http://www.aspose.com/products/cells/java)  is a lightweight, scalable, and customizable toolkit that provides cross-platform web applications, enables convenient development for editing or viewing Excel/Spreadsheet files, offers simple deployment, and provides easy-to-use APIs.
 
 ## How to Run the Examples
-1.edit the properties in src\main\resources\application.properties 
+1.edit the properties in src\main\resources\application.properties to match with your local environment
 
 #Directory for storing log files
 testconfig.ListDir=/app/log
