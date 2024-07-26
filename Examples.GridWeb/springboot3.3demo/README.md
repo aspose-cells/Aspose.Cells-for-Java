@@ -29,6 +29,6 @@ open browser and enter the url:http://localhost:8080/gridjsdemo/index
 + **Website:** [www.aspose.com](http://www.aspose.com) 
 + **Product Home:** [Aspose.Cells for Java](http://www.aspose.com/products/cells/java)
 + **Download:** [Download Aspose.Cells for Java](https://downloads.aspose.com/cells/java)
-+ **Documentation:** [Aspose.Cells for Java Documentation](https://docs.aspose.com/display/cellsjava/Home)
-+ **Forum:** [Aspose.Cells for Java Forum](http://www.aspose.com/community/forums/aspose.cells-product-family/19/showforum.aspx)
++ **Documentation:** [Aspose.Cells for Java Documentation](https://docs.aspose.com/cells/java/aspose-cells-gridweb/)
++ **Forum:** [Aspose.Cells for Java Forum](https://forum.aspose.com/c/cells/9)
 + **Blog:** [Aspose.Cells for Java Blog](https://blog.aspose.com/category/aspose-products/aspose-cells-product-family/)
