@@ -5,7 +5,7 @@
 
   <groupId>com.aspose.gridweb</groupId>
   <artifactId>gridwebspringdemo</artifactId>
-  <version>24.7</version>
+  <version>24.8</version>
   <name>gridweb-spring-demo</name>
   <description>gridweb spring demo</description>
   <packaging>jar</packaging>
@@ -56,17 +56,17 @@
         <version>1.68</version>
         </dependency>
 
-	    <dependency>
+         <dependency>
 			<groupId>com.aspose</groupId>
 			<artifactId>aspose-cells</artifactId>
-			<version>24.7</version>
+			<version>24.8</version>
 			<classifier>gridweb</classifier>
-	    </dependency>   
-	<!-- <dependency>
+		</dependency> 
+		<!-- <dependency>
 		    <groupId>org.springframework.boot</groupId>
 		    <artifactId>spring-boot-devtools</artifactId>
 		    <optional>true</optional> 
-		</dependency>   -->  
+		</dependency>   -->
 		<!--  true for hot deploy --> 
     </dependencies>
 
