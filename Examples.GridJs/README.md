@@ -15,7 +15,7 @@ testconfig.CachePath=/app/grid_cache
 
 2.run src\main\java\com\aspose\gridjs\demo\GridjsdemoApplication.java
 
-open browser and navigate to http://localhost:8080/gridjsdemo/index
+open browser and navigate to view the default spreadsheet file at http://localhost:8080/gridjsdemo/index or view all the files in the directory at http://localhost:8080/gridjsdemo/list
 
 ## Step to run in docker 
 
@@ -23,7 +23,7 @@ docker build -t gridjs-demo-java .
 
 docker run -d -p 8080:8080 gridjs-demo-java
 
-open browser and enter the url:http://localhost:8080/gridjsdemo/index
+open browser and enter the url:http://localhost:8080/gridjsdemo/index or http://localhost:8080/gridjsdemo/list
 
 ## Resources
 

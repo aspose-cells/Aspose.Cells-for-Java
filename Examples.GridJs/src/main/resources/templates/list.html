@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>gridjs-web-demo file list</title>
+
+    <style>
+       
+    </style>
+     
+
+</head>
+
+<body>
+  <script>
+        
+        function openfile(element) {
+        	const filename = element.getAttribute('data-filename');
+        	 
+        	const uid = element.getAttribute('data-uid');
+            const url =  '/gridjsdemo/Uidtml?filename=' + filename+'&uid='+uid;
+            window.open(url, "_blank");
+        }
+    </script>
+    <div th:each="item : ${filelist}">
+        <a href="javascript:void(0)" target="_blank" th:data-filename="${item[0]}"  th:data-uid="${item[1]}"   onclick="openfile(this)">
+            <em th:text="${item[0]}"></em>
+        </a><br />
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            © 2024 - Aspose  
+        </div>
+    </footer>
+</body>
+</html>
