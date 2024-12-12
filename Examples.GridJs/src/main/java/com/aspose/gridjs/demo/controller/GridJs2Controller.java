@@ -10,15 +10,9 @@ import java.net.URLConnection;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.zip.GZIPOutputStream;
-
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.Part;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.core.io.InputStreamResource;
@@ -27,11 +21,13 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
+import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.method.annotation.StreamingResponseBody;
 
 import com.aspose.cells.Workbook;
@@ -39,6 +35,10 @@ import com.aspose.gridjs.Config;
 import com.aspose.gridjs.GridCellException;
 import com.aspose.gridjs.GridInterruptMonitor;
 import com.aspose.gridjs.GridJsWorkbook;
+
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.Part;
 
 @RestController
 @RequestMapping({"/GridJs2"})
@@ -81,8 +81,11 @@ public class GridJs2Controller {
             response.setContentType("application/json");
             response.setHeader("Content-Encoding", "gzip");
             try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {
-                wbj.importExcelFile(filePath.toString());
+            	boolean  isdone= wbj.jsonToStreamByUid(gzipOutputStream,uid, filename);
+				if (!isdone) {
+					wbj.importExcelFile(uid,filePath.toString());
                 wbj.jsonToStream(gzipOutputStream, filename);
+				}
             } catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
@@ -90,6 +93,28 @@ public class GridJs2Controller {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
+    }
+    
+    @PostMapping("/LazyLoading")
+    public void lazyLoadingStreamJson(
+            @RequestParam(value = "name", required = false) String sheetName,
+            @RequestParam(value = "uid", required = false) String uid,
+            HttpServletResponse response) throws IOException {
+
+        GridJsWorkbook wbj = new GridJsWorkbook();
+
+        // …Ë÷√œÏ”¶Õ∑
+        response.setContentType(MediaType.APPLICATION_JSON_VALUE);
+        response.setHeader(HttpHeaders.CONTENT_ENCODING, "gzip");
+
+        try (GZIPOutputStream gzipOutputStream = new GZIPOutputStream(response.getOutputStream())) {
+            try {
+				wbj.lazyLoadingStream(gzipOutputStream, uid, sheetName);
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+        }
     }
     
     @PostMapping("/UpdateCell")

@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
+import com.aspose.cells.Workbook;
 import com.aspose.gridjs.Config;
 import com.aspose.gridjs.GridJsWorkbook;
 
@@ -21,6 +22,8 @@ public class GridjsdemoApplication {
 		cachePath = this.cachePathProperty;
 		try {
 			Config.setFileCacheDirectory(cachePath);
+			//lazy loading
+			Config.setLazyLoading(true);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -30,6 +33,7 @@ public class GridjsdemoApplication {
 		
 	    LocalFileCache mwc = new LocalFileCache();
         GridJsWorkbook.CacheImp = mwc;
+        GridJsWorkbook.UpdateMonitor = new ModifyMonitor();
 	}
 	
 	//simple way not use GridJsWorkbook.CacheImp ，shall also ok

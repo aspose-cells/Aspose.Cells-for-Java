@@ -35,8 +35,8 @@
      <script src="/xspread/xspreadsheet.js?v=20230525"></script> -->
 
     <!--for release reference-->
-    <link rel="stylesheet" href="https://unpkg.com/gridjs-spreadsheet@24.11.1/xspreadsheet.css">
-    <script src="https://unpkg.com/gridjs-spreadsheet@24.11.1/xspreadsheet.js"></script> 
+    <link rel="stylesheet" href="https://unpkg.com/gridjs-spreadsheet@24.12.0/xspreadsheet.css">
+    <script src="https://unpkg.com/gridjs-spreadsheet@24.12.0/xspreadsheet.js"></script> 
      
 
 
@@ -143,6 +143,7 @@
             const imageuploadurl1 = "/GridJs2/AddImage";
             const imageuploadurl2 = "/GridJs2/AddImageByURL";
             const imagecopyurl = "/GridJs2/CopyImage";        // x.spreadsheet.locale('zh-cn');
+            const lazyLoadingUrl = "/GridJs2/LazyLoading";
             xs = x_spreadsheet('#gridjs-demo-uid', option).loadData(sheets).change((cdata) => {
                 console.log(cdata);
                 console.log(xs.validate());
@@ -192,6 +193,8 @@
             xs.setImageInfo(imageurl, imageuploadurl1, imageuploadurl2, imagecopyurl, basiczorder);
             xs.setFileDownloadInfo(fileDownloadUrl);
             xs.setOleDownloadInfo(oleDownloadUrl);
+            //lazy loading
+            xs.setLazyLoadingUrl(lazyLoadingUrl);
 
             let activeSheetName = jsondata.actname;
 
