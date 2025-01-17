@@ -22,6 +22,26 @@
             -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
             background-color: #AAA;
         }
+html, body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.container {
+	flex: 1;
+	overflow: hidden;
+}
+
+.big-div, canvas {
+	width: 100%;
+	height: 100%;
+	object-fit: contain;  
+}
     </style>
     <!--<link rel="stylesheet" href="./quantumui.min.22.5.5.2.css?v=20220312" />-->
     <link rel="stylesheet" href="/xspread/bootstrap.min.22.5.5.2.css?v=20220315" />
@@ -31,12 +51,12 @@
     <script src="/xspread/jszip.min.js"></script>
     <!--    <script src="vconsole.min.js"></script> -->
     <!--for local reference-->
-   <!--   <link rel="stylesheet" href="/xspread/xspreadsheet.css?v=20230525" />
-     <script src="/xspread/xspreadsheet.js?v=20230525"></script> -->
+  <link rel="stylesheet" href="/xspread/xspreadsheet.css?v=20230525" />
+     <script src="/xspread/xspreadsheet.js?v=20230525"></script>
 
     <!--for release reference-->
-    <link rel="stylesheet" href="https://unpkg.com/gridjs-spreadsheet@24.12.0/xspreadsheet.css">
-    <script src="https://unpkg.com/gridjs-spreadsheet@24.12.0/xspreadsheet.js"></script> 
+      <!--  <link rel="stylesheet" href="https://unpkg.com/gridjs-spreadsheet@24.12.0/xspreadsheet.css">
+    <script src="https://unpkg.com/gridjs-spreadsheet@24.12.0/xspreadsheet.js"></script>  -->
      
 
 
@@ -195,6 +215,7 @@
             xs.setOleDownloadInfo(oleDownloadUrl);
             //lazy loading
             xs.setLazyLoadingUrl(lazyLoadingUrl);
+            xs.setOpenFileUrl("/gridjsdemo/list");
 
             let activeSheetName = jsondata.actname;
 

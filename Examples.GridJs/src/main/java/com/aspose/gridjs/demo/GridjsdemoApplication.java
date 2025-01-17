@@ -3,6 +3,8 @@ package com.aspose.gridjs.demo;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Component;
+import org.springframework.context.ApplicationContext;
 
 import com.aspose.cells.Workbook;
 import com.aspose.gridjs.Config;
@@ -10,18 +12,33 @@ import com.aspose.gridjs.GridJsWorkbook;
 
 import javax.annotation.PostConstruct;
 
-@SpringBootApplication
-public class GridjsdemoApplication {
-	private static String cachePath;
+
+@Component
+class MyConfig {
 
 	@Value("${testconfig.CachePath}")
-	private String cachePathProperty;
+	public String cachePath;
 
-	@PostConstruct
-	private void init() {
-		cachePath = this.cachePathProperty;
+    
+	@Value("${testconfig.AsposeLicensePath}")
+	public String asposeLicensePath;
+	
+	
+}
+
+@SpringBootApplication
+public class GridjsdemoApplication {
+	 
+
+
+
+	//settings for GridJs，implement GridCacheForStream to store cache file 
+	private  static void init(MyConfig myConfig) {
+		
+		 
+	 
 		try {
-			Config.setFileCacheDirectory(cachePath);
+			Config.setFileCacheDirectory(myConfig.cachePath);
 			//lazy loading
 			Config.setLazyLoading(true);
 		} catch (Exception e) {
@@ -36,24 +53,39 @@ public class GridjsdemoApplication {
         GridJsWorkbook.UpdateMonitor = new ModifyMonitor();
 	}
 	
-	//simple way not use GridJsWorkbook.CacheImp ，shall also ok
-	private void init2() {
-		cachePath = this.cachePathProperty;
+	//settings for GridJs,just set a temp path to store cache file 
+	//simple way not use GridJsWorkbook.CacheImp ,it shall also ok
+	private static void init2(MyConfig myConfig) {
+		 
 		try {
-			Config.setFileCacheDirectory(cachePath);
+			Config.setFileCacheDirectory(myConfig.cachePath);
+			//lazy loading
+			Config.setLazyLoading(true);
  
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		//need to setImageUrlBase
- 		GridJsWorkbook.setImageUrlBase("/GridJs2/Image");
 		
- 
+		//need to setImageUrlBase in this case
+ 		GridJsWorkbook.setImageUrlBase("/GridJs2/Image");
+ 		GridJsWorkbook.UpdateMonitor = new ModifyMonitor();
+
 	}
+
 	
 	public static void main(String[] args) {
+		
+		
+ 
+		 ApplicationContext context  = 	SpringApplication.run(GridjsdemoApplication.class, args);
 		 
-		SpringApplication.run(GridjsdemoApplication.class, args);
+		 MyConfig myConfig = context.getBean(MyConfig.class);
+		
+		 //set license for aspose cells
+		 com.aspose.cells.License  lic=new com.aspose.cells.License();
+		 //lic.setLicense(myConfig.asposeLicensePath);
+		 init(myConfig);
+ 
 	}
 
 }

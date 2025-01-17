@@ -46,6 +46,7 @@ EXPOSE 8080
 # COPY fonts/* /usr/share/fonts/
 RUN mkdir -p /app/wb
 RUN mkdir -p /app/grid_cache/streamcache
+RUN mkdir -p /app/upload
 COPY wb/*.xlsx /app/wb/
 # RUN ls -l /app/
 # ∆Ù∂Ø”¶”√

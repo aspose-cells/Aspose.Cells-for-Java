@@ -6,7 +6,56 @@
     <title>gridjs-web-demo file list</title>
 
     <style>
-       
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        .upload-form, .file-list {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .upload-form input[type="file"], .upload-form button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #50b3a2;
+            color: white;
+            margin-top: 20px;
+        }
+        a {
+            color: #50b3a2;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #e8491d;
+        }
     </style>
      
 
@@ -23,14 +72,26 @@
             window.open(url, "_blank");
         }
     </script>
+    <!-- 文件上传表单 -->
+  
+ <div class="upload-form">
+<form method="post" action="/gridjsdemo/upload" enctype="multipart/form-data">
+    <!-- accept属性用于限定可接受的文件类型 -->
+    <input type="file" name="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" required/>
+    <button type="submit">upload</button>
+</form>
+</div>
+<div class="file-list">
+ <h2>choose a file from the navigation path</h2>
     <div th:each="item : ${filelist}">
         <a href="javascript:void(0)" target="_blank" th:data-filename="${item[0]}"  th:data-uid="${item[1]}"   onclick="openfile(this)">
             <em th:text="${item[0]}"></em>
         </a><br />
     </div>
+ </div>   
     <footer class="border-top footer text-muted">
         <div class="container">
-            © 2024 - Aspose  
+            © 2025 - Aspose  
         </div>
     </footer>
 </body>
