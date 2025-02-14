@@ -71,18 +71,28 @@
             const url =  '/gridjsdemo/Uidtml?filename=' + filename+'&uid='+uid;
             window.open(url, "_blank");
         }
+        document.addEventListener('DOMContentLoaded', function() {
+        	document.getElementById('fileInput').addEventListener('change', function(event) {
+            	const file = event.target.files[0];
+            	if (file) {
+                	//console.log('文件已选择:', file.name);  
+                	document.getElementById('uploadForm').submit();  
+            	}  
+        	});
+        });
     </script>
     <!-- 文件上传表单 -->
   
  <div class="upload-form">
-<form method="post" action="/gridjsdemo/upload" enctype="multipart/form-data">
+  <h4>Upload a local file to start show workbook</h4>
+<form id="uploadForm" method="post" action="/gridjsdemo/upload" enctype="multipart/form-data" >
     <!-- accept属性用于限定可接受的文件类型 -->
-    <input type="file" name="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" required/>
-    <button type="submit">upload</button>
+    <input id="fileInput" type="file" name="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" required/>
+     
 </form>
 </div>
 <div class="file-list">
- <h2>choose a file from the navigation path</h2>
+ <h4>Navigate one of the below file to start show workbook</h4>
     <div th:each="item : ${filelist}">
         <a href="javascript:void(0)" target="_blank" th:data-filename="${item[0]}"  th:data-uid="${item[1]}"   onclick="openfile(this)">
             <em th:text="${item[0]}"></em>

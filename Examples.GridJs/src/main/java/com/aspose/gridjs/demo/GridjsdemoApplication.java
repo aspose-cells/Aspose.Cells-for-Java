@@ -10,6 +10,8 @@ import com.aspose.cells.Workbook;
 import com.aspose.gridjs.Config;
 import com.aspose.gridjs.GridJsWorkbook;
 
+import java.io.File;
+
 import javax.annotation.PostConstruct;
 
 
@@ -81,9 +83,11 @@ public class GridjsdemoApplication {
 		 
 		 MyConfig myConfig = context.getBean(MyConfig.class);
 		
-		 //set license for aspose cells
+		 //set license for Aspose.Cells
 		 com.aspose.cells.License  lic=new com.aspose.cells.License();
-		 //lic.setLicense(myConfig.asposeLicensePath);
+			if ((new File(myConfig.asposeLicensePath)).exists()) {
+				lic.setLicense(myConfig.asposeLicensePath);
+			}
 		 init(myConfig);
  
 	}
