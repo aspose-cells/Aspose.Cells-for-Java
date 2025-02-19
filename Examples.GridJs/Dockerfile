@@ -1,53 +1,30 @@
-
- 
-# FROM mcr.microsoft.com/java/openjdk:11  AS build
-  FROM eclipse/ubuntu_jdk8
-
-# ÉèÖÃ¹¤×÷Ä¿Â¼
+FROM maven:3.8.6-amazoncorretto-17 AS build
+# è®¾ç½®å·¥ä½œç›®å½•
 WORKDIR /usr/src/app
 
- 
-
-
-# ½«±¾µØµÄ Maven ÉèÖÃÎÄ¼şºÍ»·¾³±äÁ¿ÉèÖÃÎÄ¼ş¸´ÖÆµ½ÈİÆ÷ÖĞ
-COPY mvnw .
+# å°†æœ¬åœ°çš„ Maven è®¾ç½®æ–‡ä»¶å’Œç¯å¢ƒå˜é‡è®¾ç½®æ–‡ä»¶å¤åˆ¶åˆ°å®¹å™¨ä¸­
 COPY .mvn .mvn
 COPY pom.xml .
 COPY src src
-
-# Ê¹ÓÃ Maven ¹¹½¨Ó¦ÓÃ£¨¼ÙÉèÄãÊ¹ÓÃµÄÊÇ Maven£©
-RUN ./mvnw package -DskipTests
-
-
-
-
-
-# Set the user
-USER root
-
-RUN ls -l *
-
-# ½«¹¹½¨µÄ jar ÎÄ¼ş¸´ÖÆµ½ĞÂµÄÈİÆ÷ÖĞ
-COPY  target/*.jar /app/app.jar
-
-# É¾³ı²»ÔÙĞèÒªµÄÔ´ÂëºÍ Maven »º´æ£¬¼õÉÙ¾µÏñÌå»ı
-RUN rm -rf target && rm -rf .mvn && rm -rf src
-
-
-
-
  
+RUN ls -l *
+# ä½¿ç”¨ Maven æ„å»ºåº”ç”¨ 
+RUN mvn  package -DskipTests
 
+FROM eclipse/ubuntu_jdk8
+WORKDIR /app
+# å°†æ„å»ºçš„ jar æ–‡ä»¶å¤åˆ¶åˆ°æ–°çš„å®¹å™¨ä¸­
+COPY --from=build /usr/src/app/target/*.jar /app/app.jar
 
 
 # web port
 EXPOSE 8080
-# Install Fonts because the SDK image contains very few fonts. The command copies font files from local to docker image. Make sure you have a local ¡°fonts¡± directory that contains all the fonts you need to install. In this example, the local ¡°fonts¡± directory is put in the same directory as the Dockerfile.
+# Install Fonts because the SDK image contains very few fonts. The command copies font files from local to docker image. Make sure you have a local â€œfontsâ€ directory that contains all the fonts you need to install. In this example, the local â€œfontsâ€ directory is put in the same directory as the Dockerfile.
 # COPY fonts/* /usr/share/fonts/
 RUN mkdir -p /app/wb
 RUN mkdir -p /app/grid_cache/streamcache
 RUN mkdir -p /app/upload
 COPY wb/*.xlsx /app/wb/
 # RUN ls -l /app/
-# Æô¶¯Ó¦ÓÃ
+# å¯åŠ¨åº”ç”¨
 ENTRYPOINT ["java","-Djava.security.egd=file:/dev/./urandom","-jar","/app/app.jar"]
