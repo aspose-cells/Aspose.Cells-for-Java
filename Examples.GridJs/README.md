@@ -35,9 +35,16 @@ open browser and navigate to view all the files in the directory at http://local
 1. docker build -t gridjs-demo-java .
 
 2. run with aspose license file:
+
+```bash
       docker run -d -p 8080:8080  -v C:/path/to/license.txt:/app/license gridjs-demo-java
+```
+
    or just run the demo in trial mode:
+   
+```bash
       docker run -d -p 8080:8080 gridjs-demo-java
+```
       
 3. open browser and enter the url: http://localhost:8080/gridjsdemo/list
 
