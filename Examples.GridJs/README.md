@@ -1,5 +1,11 @@
-# Aspose.Cells for Java
+[Product Page](https://products.aspose.com/cells/java) | [Docs](https://docs.aspose.com/cells/java/aspose-cells-gridjs/) | [API Reference](https://reference.aspose.com/cells/java/com.aspose.gridjs/) | [Demos](https://products.aspose.app/cells/family/) | [Blog](https://blog.aspose.com/category/cells/) | [Code Samples](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs) | [Free Support](https://forum.aspose.com/c/cells) | [Temporary License](https://purchase.aspose.com/temporary-license) | [EULA](https://company.aspose.com/legal/eula) 
+
+Try our [free online apps](https://products.aspose.app/cells/family) demonstrating some of the most popular Aspose.Cells functionality.
+
 [Aspose.Cells.GridJs for Java](http://www.aspose.com/products/cells/java)  is a lightweight, scalable, and customizable toolkit that provides cross-platform web applications, enables convenient development for editing or viewing Excel/Spreadsheet files, offers simple deployment, and provides easy-to-use APIs.
+
+This is a  demo to show how we can use GridJs to implment a spreadsheet Editor .
+ 
 
 ## Preview
 
@@ -34,6 +40,19 @@ open browser and navigate to view all the files in the directory at http://local
       docker run -d -p 8080:8080 gridjs-demo-java
       
 3. open browser and enter the url: http://localhost:8080/gridjsdemo/list
+
+## Reference js lib used in the demo project:
+jquery.js    v2.1.1
+
+jquery-ui.js v1.12.1 
+
+jquery-ui.css v1.12.1 
+
+jszip.min.js v3.6.0 
+
+bootstrap.css   v22.5.5.2
+
+quantumui.css   v22.5.5.2
 
 ## Resources
 
