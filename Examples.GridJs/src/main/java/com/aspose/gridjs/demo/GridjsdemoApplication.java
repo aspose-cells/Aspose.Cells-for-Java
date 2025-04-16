@@ -5,6 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.stereotype.Component;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 import com.aspose.cells.Workbook;
 import com.aspose.gridjs.Config;
@@ -15,19 +16,19 @@ import java.io.File;
 import javax.annotation.PostConstruct;
 
 
-@Component
-class MyConfig {
-
-	@Value("${testconfig.CachePath}")
-	public String cachePath;
-
-    
-	@Value("${testconfig.AsposeLicensePath}")
-	public String asposeLicensePath;
-	
-	
-}
-
+//@Component
+//class MyConfig {
+//
+//	@Value("${testconfig.CachePath}")
+//	public String cachePath;
+//
+//    
+//	@Value("${testconfig.AsposeLicensePath}")
+//	public String asposeLicensePath;
+//	
+//	
+//}
+//@ComponentScan(basePackages = {"com.aspose.gridjs.demo", "com.aspose.gridjs"})
 @SpringBootApplication
 public class GridjsdemoApplication {
 	 
@@ -88,7 +89,7 @@ public class GridjsdemoApplication {
 			if ((new File(myConfig.asposeLicensePath)).exists()) {
 				lic.setLicense(myConfig.asposeLicensePath);
 			}
-		 init(myConfig);
+//		 init(myConfig);
  
 	}
 
