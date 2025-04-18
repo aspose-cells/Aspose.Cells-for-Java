@@ -28,7 +28,7 @@ import javax.annotation.PostConstruct;
 //	
 //	
 //}
-//@ComponentScan(basePackages = {"com.aspose.gridjs.demo", "com.aspose.gridjs"})
+@ComponentScan(basePackages = {"com.aspose.gridjs.demo", "com.aspose.gridjs"})
 @SpringBootApplication
 public class GridjsdemoApplication {
 	 
