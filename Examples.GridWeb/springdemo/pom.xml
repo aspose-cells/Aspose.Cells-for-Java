@@ -59,7 +59,7 @@
          <dependency>
 			<groupId>com.aspose</groupId>
 			<artifactId>aspose-cells</artifactId>
-			<version>25.4</version>
+			<version>25.5</version>
 			<classifier>gridweb</classifier>
 		</dependency> 
 		<!-- <dependency>

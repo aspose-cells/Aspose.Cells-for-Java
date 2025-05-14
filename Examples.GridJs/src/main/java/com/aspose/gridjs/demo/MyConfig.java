@@ -2,10 +2,12 @@ package com.aspose.gridjs.demo;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 import com.aspose.gridjs.GridJsOptions;
 import com.aspose.gridjs.GridJsService;
+import com.aspose.gridjs.GridJsWorkbook;
 import com.aspose.gridjs.IGridJsService;
 
 @Configuration
@@ -17,6 +19,13 @@ public class MyConfig {
 	@Value("${testconfig.AsposeLicensePath}")
 	public String asposeLicensePath;
 	
+	
+	@Bean
+    public GridJsWorkbook gridJsWorkbook() {
+        return new GridJsWorkbook();  
+    }
+	
+	
     @Bean
     public GridJsOptions gridJsOptions() {
     	GridJsOptions options=new GridJsOptions();
@@ -25,7 +34,8 @@ public class MyConfig {
     }
 
     @Bean
-    public IGridJsService gridJsService(GridJsOptions gridJsOptions) throws Exception {
-        return new GridJsService(gridJsOptions);
+    public IGridJsService gridJsService(GridJsOptions gridJsOptions, 
+            GridJsWorkbook wbj) throws Exception {
+        return new GridJsService(gridJsOptions,wbj);
     }
 }
