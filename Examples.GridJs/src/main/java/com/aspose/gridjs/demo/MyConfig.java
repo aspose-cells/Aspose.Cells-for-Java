@@ -34,8 +34,7 @@ public class MyConfig {
     }
 
     @Bean
-    public IGridJsService gridJsService(GridJsOptions gridJsOptions, 
-            GridJsWorkbook wbj) throws Exception {
-        return new GridJsService(gridJsOptions,wbj);
+    public IGridJsService gridJsService(GridJsOptions gridJsOptions) throws Exception {
+        return new GridJsService(gridJsOptions);
     }
 }
