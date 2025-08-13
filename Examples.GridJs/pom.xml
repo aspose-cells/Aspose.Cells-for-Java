@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>2.5.14</version>
+		<version>2.7.18</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<repositories>
@@ -51,12 +51,12 @@
 		 <dependency>  
   			<groupId>com.aspose</groupId>  
  			<artifactId>aspose-cells</artifactId>  
- 			<version>25.7</version> 
+ 			<version>25.8</version> 
  	    </dependency> 
         <dependency>  
   			<groupId>com.aspose</groupId>  
  			<artifactId>aspose-cells</artifactId>  
- 			<version>25.7</version> 
+ 			<version>25.8</version> 
  			<classifier>gridjs</classifier>  
  	    </dependency>
 	<!--	<dependency>
