@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Aspose Cells GridJs Collabrative Demo User signup</title>
+
+    <!--JQUERY-->
+    <script th:src="@{/jslib/jquery-3.7.1.min.js}"></script>
+
+    <!-- FRAMEWORK BOOTSTRAP for page style-->
+    <link th:href="@{/jslib/bootstrap.min.css}" rel="stylesheet">
+    <script th:src="@{/jslib/bootstrap.min.js}"></script>
+   
+    <script th:src="@{/jslib/popper.min.js}"></script>
+
+    <!-- Fontawesome Solid Icons-->
+    <!-- Fontawesome Solid Icons-->
+    <link th:href="@{/jslib/fontawesome/solid.css}" rel="stylesheet">
+    <script th:src="@{/jslib/fontawesome/all.js}"></script>
+
+    <!-- Our css-->
+    <link rel="stylesheet" th:href="@{/css/user-form.css}" type="text/css">
+
+</head>
+<body>
+<div class="container">
+    <div class="mx-auto col-sm-8 main-section">
+        <div class="card">
+            <div class="card-header">
+                <h4>User Signup</h4>
+            </div>
+            <div class="card-body">
+                <div th:insert="~{user-form/user-form.html}" th:remove="tag"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

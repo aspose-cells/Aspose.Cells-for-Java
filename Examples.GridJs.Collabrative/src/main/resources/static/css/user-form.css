@@ -1,0 +1,31 @@
+body {
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.main-section {
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.card {
+    opacity: .95;
+    /*min-width: 1250px;*/
+}
+
+.card-body {
+    background-color: #d1d3d6;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+label {
+    font-weight: bold;
+}
+
+.nav-tabs .nav-item a:not(.active) {
+    background-color: #d1d3d6;
+}
+
+.nav-tabs {
+    border-bottom: 0px;
+}

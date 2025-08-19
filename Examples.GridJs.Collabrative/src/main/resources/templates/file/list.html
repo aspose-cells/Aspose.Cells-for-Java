@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Aspose Cells GridJs Collaborative Demo:  file list</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #50b3a2;
+            color: #ffffff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #e8491d 3px solid;
+        }
+        header h1 {
+            text-align: center;
+            text-transform: uppercase;
+            margin: 0;
+            font-size: 24px;
+        }
+        .upload-form, .file-list {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .upload-form input[type="file"], .upload-form button {
+            display: block;
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #50b3a2;
+            color: white;
+            margin-top: 20px;
+        }
+        a {
+            color: #50b3a2;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #e8491d;
+        }
+        .divright {
+            display: flex;
+            justify-content: flex-end; /* 水平方向右对齐 */
+        }
+    </style>
+     
+
+</head>
+
+<body>
+  <script>
+        
+        function openfile(element) {
+        	const filename = element.getAttribute('data-filename');
+        	 
+        	const uid = element.getAttribute('data-uid');
+            const url =  '/gridjsdemo/Uidtml?filename=' + filename+'&uid='+uid;
+            window.open(url, "_blank");
+        }
+        document.addEventListener('DOMContentLoaded', function() {
+        	document.getElementById('fileInput').addEventListener('change', function(event) {
+            	const file = event.target.files[0];
+            	if (file) {
+                	//console.log('文件已选择:', file.name);  
+                	document.getElementById('uploadForm').submit();  
+            	}  
+        	});
+        	//auto login to preUrl
+        	const originalUrl = localStorage.getItem('preUrl');
+            if (originalUrl!==null) {
+              console.log("originalUrl:"+originalUrl);	
+              window.location.href = originalUrl;
+              localStorage.removeItem('preUrl');
+            }
+            
+        });
+    </script>
+
+ <span th:text="${'user:'+#authentication.getPrincipal().getUsername()}"></span>  
+             <div class="divright">
+                <a class="nav-link" href="#" th:href="@{/logout}"><span
+                        th:text="${#authentication.getPrincipal().getUsername()}"></span> - <span>logout  </span><span
+                        class="float-right"><i class="fas fa-sign-out-alt"></i></span></a>
+            </div>
+    <!-- upload form -->
+ <!-- <div class="upload-form" >
+
+  <h4>Upload a local file to start show workbook，上传功能单机版测试，不适用于协同</h4>
+<form id="uploadForm" method="post" action="/gridjsdemo/upload" enctype="multipart/form-data" >
+    <input type="hidden" name="_csrf" th:value="${_csrf.token}" />
+    accept属性用于限定可接受的文件类型
+    <input id="fileInput" type="file" name="file" accept=".xlsx,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet" required/>
+     
+</form>
+</div> -->
+<div class="file-list">
+ <h4>Navigate one of the below file to start show workbook in collabrative edit mode</h4>
+    <div th:each="item : ${filelist}">
+        <a href="javascript:void(0)" target="_blank" th:data-filename="${item[0]}"  th:data-uid="${item[1]}"   onclick="openfile(this)">
+            <em th:text="${item[0]}"></em>
+        </a><br />
+    </div>
+ </div>   
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            © 2025 - Aspose  
+        </div>
+    </footer>
+</body>
+</html>

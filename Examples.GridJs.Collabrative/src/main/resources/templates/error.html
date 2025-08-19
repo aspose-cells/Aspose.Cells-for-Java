@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <!--JQUERY-->
+    <script src="@{/jslib/jquery-3.7.1.min.js}"></script>
+
+    <!-- FRAMEWORK BOOTSTRAP for page style-->
+    <link href="@{/jslib/bootstrap.min.css}" rel="stylesheet">
+    <script src="@{/jslib/bootstrap.min.js}"></script>
+   
+ 
+    <!-- Fontawesome Solid Icons-->
+    <link href="@{/jslib/fontawesome/solid.css}" rel="stylesheet">
+    <script src="@{/jslib/fontawesome/all.js}"></script>
+
+    <!-- Our css-->
+    <link href="static/css/index.css" rel="stylesheet" th:href="@{/static/css/index.css}" type="text/css">
+
+    <style type="text/css">
+        body {
+            padding-top: 5%;
+        }
+
+        img {
+            width: 75%;
+        }
+
+    </style>
+</head>
+<body>
+<div class="container text-center">
+    <div class="mx-auto col-10 card">
+        <div class="card-header">
+            <h4><span th:text="${error}"></span> - <span th:text="${status}"></span></h4>
+        </div>
+        <div class="card-body">
+            <a href="/userForm"><img src="static/img/error/500.png" th:src="@{/static/img/error/500.png}"/></a>
+        </div>
+        <div class="card-footer">
+            <span th:text="${message}">Message</span><br/>
+            <span th:text="${exception}">Trace </span><br/>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
