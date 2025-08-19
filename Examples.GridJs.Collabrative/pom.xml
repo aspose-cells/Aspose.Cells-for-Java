@@ -25,7 +25,7 @@
         <java.version>21</java.version>
     </properties>-->
 <properties>
-    <tomcat.version>9.0.83</tomcat.version>
+    <tomcat.version>9.0.86</tomcat.version>
 </properties>
     <dependencies>
 		<!-- 显式指定 tomcat-embed-websocket -->
