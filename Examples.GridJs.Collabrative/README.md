@@ -21,7 +21,7 @@ This repository contains a demo project showing how to implement a **Spreadsheet
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/aspose-cells/Aspose.Cells-for-Java.git
-   cd Examples.GridJs.Collabrative
+   cd Aspose.Cells-for-Java/Examples.GridJs.Collabrative
    ```
 
 2. **Configure Application**
