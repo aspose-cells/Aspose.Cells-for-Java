@@ -6,9 +6,9 @@
 Directory | Description
 --------- | -----------
 [Examples](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples) | A collection of Java examples that help you learn the product features.
-[Examples.GridJs](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs) | A Java example demonstrating how to build an online spreadsheet editor using Aspose.GridJs.
-[Examples.GridJs.Collabrative](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridJs.Collabrative) | A Java example demonstrating how to build an online collaborative spreadsheet editor using Aspose.GridJs.
-[Examples.GridWeb](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Examples.GridWeb) | A collection of Java examples that help you learn and explore Aspose.GridWeb features.
+[Examples.GridJs](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs) | A Java example demonstrating how to build an online spreadsheet editor using Aspose.GridJs.
+[Examples.GridJs.Collabrative](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridJs.Collabrative) | A Java example demonstrating how to build an online collaborative spreadsheet editor using Aspose.GridJs.
+[Examples.GridWeb](https://github.com/aspose-cells/Aspose.Cells.Grid-for-Java/tree/master/Examples.GridWeb) | A collection of Java examples that help you learn and explore Aspose.GridWeb features.
 [Plugins](https://github.com/aspose-cells/Aspose.Cells-for-Java/tree/master/Plugins) | Plugins that will demonstrate one or more features of Aspose.Cells for Java.
 
 <p align="center">
