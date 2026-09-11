@@ -27,19 +27,11 @@ public class GroupPivotFieldsInPivotTable {
 		DateTime dtStart = new DateTime(2008, 1, 1);//1-Jan-2018
 		DateTime dtEnd = new DateTime(2008, 9, 5); //5-Sep-2018
 		 
-		//Specify the group type list, we want to group by months and quarters
-		ArrayList groupTypeList = new ArrayList();
-		groupTypeList.add(PivotGroupByType.MONTHS);
-		groupTypeList.add(PivotGroupByType.QUARTERS);
-		 
-		//Apply the grouping on first pivot field
-		pt.setManualGroupField(0, dtStart, dtEnd, groupTypeList, 1);
+		//Apply the grouping by months and quarters on first pivot field
+        pt.getBaseFields().get(0).groupBy(dtStart, dtEnd, new int[] {PivotGroupByType.MONTHS,PivotGroupByType.QUARTERS}, 0, true);
 		 
 		//Refresh and calculate pivot table
-		pt.setRefreshDataFlag(true);
-		pt.refreshData();
-		pt.calculateData();
-		pt.setRefreshDataFlag(false);
+		pt.getPivotCache().refresh();
 		 
 		//Save the output Excel file
 		wb.save(outDir + "outputGroupPivotFieldsInPivotTable.xlsx");
