@@ -29,12 +29,9 @@ public class ClearPivotFields {
 		// Add new data field
 		pivotTable.addFieldToArea(PivotFieldType.DATA, "Betrag Netto FW");
 
-		// Set the refresh data flag on
-		pivotTable.setRefreshDataFlag(false);
 
 		// Refresh and calculate the pivot table data
-		pivotTable.refreshData();
-		pivotTable.calculateData();
+		pivotTable.refresh(null);
 
 		// Save the Excel file
 		workbook.save(dataDir + "ClearPivotFields_out.xlsx");

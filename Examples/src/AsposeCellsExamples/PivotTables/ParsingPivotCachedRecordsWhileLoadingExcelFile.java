@@ -27,15 +27,9 @@ public class ParsingPivotCachedRecordsWhileLoadingExcelFile {
 		//Access first pivot table
 		PivotTable pt = ws.getPivotTables().get(0);
 
-		//Set refresh data flag true
-		pt.setRefreshDataFlag(true);
-
 		//Refresh and calculate pivot table
-		pt.refreshData();
-		pt.calculateData();
+		pt.refresh(null);
 
-		//Set refresh data flag false
-		pt.setRefreshDataFlag(false);
 
 		//Save the output Excel file
 		wb.save(outDir + "outputParsingPivotCachedRecordsWhileLoadingExcelFile.xlsx");

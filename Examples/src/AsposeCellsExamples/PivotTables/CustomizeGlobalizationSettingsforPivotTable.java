@@ -124,10 +124,7 @@ public class CustomizeGlobalizationSettingsforPivotTable {
 		  
 		//Access the pivot table, refresh and calculate its data
 		PivotTable pt = ws.getPivotTables().get(0);
-		pt.setRefreshDataFlag(true);
-		pt.refreshData();
-		pt.calculateData();
-		pt.setRefreshDataFlag(false);
+		pt.refresh(null);
 		  
 		//Pdf save options - save entire worksheet on a single pdf page
 		PdfSaveOptions options = new PdfSaveOptions();

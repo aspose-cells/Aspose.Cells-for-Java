@@ -3,7 +3,7 @@ package AsposeCellsExamples.PivotTables;
 import com.aspose.cells.PivotField;
 import com.aspose.cells.PivotFieldCollection;
 import com.aspose.cells.PivotFieldDataDisplayFormat;
-import com.aspose.cells.PivotItemPosition;
+import com.aspose.cells.PivotItemPositionType;
 import com.aspose.cells.PivotTable;
 import com.aspose.cells.Workbook;
 import com.aspose.cells.Worksheet;
@@ -27,13 +27,13 @@ public class SettingDataFieldFormat {
 		PivotField pivotField = pivotFields.get(0);
 
 		// Setting data display format
-		pivotField.setDataDisplayFormat(PivotFieldDataDisplayFormat.PERCENTAGE_OF);
+		pivotField.getShowValuesSetting().setCalculationType(PivotFieldDataDisplayFormat.PERCENTAGE_OF);
 
 		// Setting the base field.
-		pivotField.setBaseFieldIndex(1);
+		pivotField.getShowValuesSetting().setBaseFieldIndex(1);
 
 		// Setting the base item.
-		pivotField.setBaseItemPosition(PivotItemPosition.NEXT);
+		pivotField.getShowValuesSetting().setBaseItemPositionType(PivotItemPositionType.NEXT);
 
 		// Setting number format
 		pivotField.setNumber(10);

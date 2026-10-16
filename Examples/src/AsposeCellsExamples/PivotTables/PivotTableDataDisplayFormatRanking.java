@@ -27,7 +27,7 @@ public class PivotTableDataDisplayFormatRanking {
 		PivotField pivotField = pivotFields.get(0);
 
 		// Setting data display format
-		pivotField.setDataDisplayFormat(PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST);
+		pivotField.getShowValuesSetting().setCalculationType(PivotFieldDataDisplayFormat.RANK_LARGEST_TO_SMALLEST);
 
 		pivotTable.calculateData();
 		// Saving the Excel file
